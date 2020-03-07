@@ -23,6 +23,8 @@ Todo:
 - [ ] Recontruct data 27 February 2019 - 2 March 2019 (not available, but can be derived from news reports of RIVM)
 - [ ] Add map with reported cases
 
+See https://github.com/J535D165/CoronaWatchNL/actions and [/.github/workflows](/.github/workflows) for technical details regarding data collection and scheduling.
+
 ## :chart_with_upwards_trend: Graphs
 
 The following graphs show the development of Coronavirus on a daily basis. The underlying data can be found in [data/rivm_corona_in_nl.csv](data/rivm_corona_in_nl.csv). The [graphs](/graphs) are updated on an hourly basis and were generated automatically. Please validate the numbers in the graphs before publishing. See the license section for information about sharing the graphs.
