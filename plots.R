@@ -36,3 +36,35 @@ data %>%
     theme_minimal() + 
     ggtitle("Gemeentes met meeste Coronavirus besmettingen") + 
     ggsave("plots/top_municipalities.png", width = 6, height=4)
+
+### Per province
+
+mun = read_csv2(
+  "ext/Gemeenten_alfabetisch_2019.csv", 
+  col_types = cols(Gemeentecode = "i")
+)
+
+data %>% left_join(
+  select(mun, Gemeentecode, Provincienaam),
+  by=c("id"="Gemeentecode")
+) %>% 
+  filter(Datum == max(data$Datum)) %>%
+  ggplot(aes(Provincienaam)) + 
+  geom_bar() + 
+  theme_minimal() + 
+  theme(axis.text.x=element_text(angle=45,hjust=1,vjust=1.1)) + 
+  ggtitle("Coronavirus besmettingen per provincie") + 
+  ggsave("plots/province_count.png", width = 6, height=4)
+
+
+
+data %>% left_join(
+  select(mun, Gemeentecode, Provincienaam),
+  by=c("id"="Gemeentecode")
+) %>% group_by(Provincienaam, Datum) %>%
+  summarise(Aantal = sum(Aantal, na.rm = T)) %>% 
+  ggplot(aes(Datum, Aantal, color=Provincienaam)) + 
+  geom_line() + 
+  theme_minimal() + 
+  ggtitle("Coronavirus besmettingen per provincie") + 
+  ggsave("plots/province_count_time.png", width = 6, height=4)

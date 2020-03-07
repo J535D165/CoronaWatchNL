@@ -37,6 +37,10 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 ![plots/top_municipalities.png](plots/top_municipalities.png)
 
+![plots/timeline.png](plots/province_count.png)
+
+![plots/top_municipalities.png](plots/province_count_time.png)
+
 ## License
 
 The graphs and data are licensed [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). The original data is copyright RIVM. For academic use, please cite `De Bruin, J 2020. RIVM reported numbers on the Coronavirus outbreak in The Netherlands https://github.com/J535D165/CoronaWatchNL`
