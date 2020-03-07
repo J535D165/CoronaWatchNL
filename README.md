@@ -23,7 +23,7 @@ Help on this project is appreciated. We are looking for new graphs, maps, enrich
 
 Todo:
 
-- [ ] Reconstruct data 27 February 2019 - 2 March 2019 (not available, but can be derived from news reports of RIVM)
+- [x] Reconstruct data 27 February 2019 - 2 March 2019 (not available, but can be derived from news reports of RIVM). See issue [#4](https://github.com/J535D165/CoronaWatchNL/issues/5)
 - [ ] Add map with reported cases
 
 See https://github.com/J535D165/CoronaWatchNL/actions and [/.github/workflows](/.github/workflows) for technical details regarding data collection and scheduling.
