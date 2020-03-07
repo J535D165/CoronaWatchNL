@@ -4,16 +4,16 @@ pdf(NULL)
 dir.create("plots")
 
 data = read_csv("data/rivm_corona_in_nl.csv")
+data_daily = read_csv("data/rivm_corona_in_nl_daily.csv")
 
-data %>%
-  group_by(Datum) %>%
-  summarise(Aantal=sum(Aantal, na.rm = T)) %>%
+data_daily %>%
+  add_row(Datum = "2020-02-26", Aantal = 0) %>%
   ggplot(aes(Datum, Aantal)) +
     geom_line() + 
     ylim(0, NA) + 
     # xlim(as.Date("2020-02-27"), NA) + 
     theme_minimal() + 
-    ggtitle("Aantal positieve testen op Corona") + 
+    ggtitle("Aantal positieve testen op Coronavirus") + 
     ggsave("plots/timeline.png", width = 6, height=4)
 
 
@@ -34,5 +34,5 @@ data %>%
   ggplot(aes(Datum, Aantal, color=Gemeente)) +
     geom_line() + 
     theme_minimal() + 
-    ggtitle("Top 10 gemeentes met meeste corona besmettingen") + 
+    ggtitle("Gemeentes met meeste Coronavirus besmettingen") + 
     ggsave("plots/top_municipalities.png", width = 6, height=4)

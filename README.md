@@ -14,7 +14,8 @@ At the moment of writing, RIVM and https://www.volksgezondheidenzorg.info don't 
 
 Datasets:
 
-  - :page_facing_up: [RIVM Coronavirus data in NL since March 3](data/rivm_corona_in_nl.csv) :exclamation: Daily updates :exclamation:
+  - :page_facing_up: [RIVM Coronavirus counts in The Netherlands since February 27](data/rivm_corona_in_nl_daily.csv) :exclamation: Daily updates :exclamation:
+  - :page_facing_up: [RIVM Coronavirus counts in The Netherlands for each municipality since February 27](data/rivm_corona_in_nl.csv) :exclamation: Daily updates :exclamation:
 
  
 ## Get involved
