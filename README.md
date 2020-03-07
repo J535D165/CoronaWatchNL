@@ -21,6 +21,7 @@ Help on this project is appreciated. We are looking for new graphs, maps, enrich
 Todo:
 
 - [ ] Recontruct data 27 February 2019 - 2 March 2019 (not available, but can be derived from news reports of RIVM)
+- [ ] Add map with reported cases
 
 ## :chart_with_upwards_trend: Graphs
 
