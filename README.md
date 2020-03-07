@@ -1,7 +1,5 @@
 # Coronavirus disease in The Netherlands based on RIVM reports
 
-:exclamation: Daily updates :exclamation:
-
 ![corona_artwork.jpg](corona_artwork.jpg)
 
 The current outbreak of coronavirus disease (COVID-19) that was first reported from Wuhan, China, on 31 December 2019. On 27 February 2019, a patient in The Netherlands was diagnosed with the coronavirus (COVID-19), according to the RIVM (National Institute for Public Health and the Environment). Within a week, more than a hundred cases were confirmed. The RIVM reports the number of positive cases on its [website](https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus). 
@@ -10,11 +8,14 @@ Since 3 March, RIVM reports the number of diagnoses with the coronavirus and the
 
 ## This project
 
+:exclamation: Daily updates :exclamation:
+
 At the moment of writing, RIVM and https://www.volksgezondheidenzorg.info don't publish datasets with the date of diagnosis on their websites. Therefore, it is hard to get an overview of development in time (and municipality). This information is important information for journalists and scientists to do their job as well as for the public. Therefore, this project downloads the latest numbers from the website of the RIVM **every hour** and pushes the data to this repo. Please see the folder  [raw_data/](raw_data/) for the non-processed data downloaded from RIVM. The folder [data/](data/) contains processed datasets ready to use for analysis. 
 
 Datasets:
 
-  - :page_facing_up: [RIVM Coronavirus data in NL since March 3](data/rivm_corona_in_nl.csv)
+  - :page_facing_up: [RIVM Coronavirus data in NL since March 3](data/rivm_corona_in_nl.csv) :exclamation: Daily updates :exclamation:
+
  
 ## Get involved
 
