@@ -1,5 +1,6 @@
 library(tidyverse)
 
+pdf(NULL)
 dir.create("plots")
 
 data = read_csv("data/rivm_corona_in_nl.csv")
