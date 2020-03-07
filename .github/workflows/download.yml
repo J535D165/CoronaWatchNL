@@ -35,6 +35,7 @@ jobs:
         continue-on-error: true
       - name: Commit files
         run: |
+          git pull --force
           git config --local user.email "jonathandebruinos@gmail.com"
           git config --local user.name "J535D165 Action"
           git add .
