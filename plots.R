@@ -15,7 +15,7 @@ data_daily %>%
     theme_minimal() + 
     theme(axis.title.x=element_blank(),
           axis.title.y=element_blank()) + 
-    ggtitle("Aantal positieve testen op Coronavirus") + 
+    ggtitle("Aantal Coronavirus besmettingen") + 
     ggsave("plots/timeline.png", width = 6, height=4)
 
 
@@ -96,7 +96,7 @@ ggplot() +
   geom_line(aes(timevalues, Counts.exponential), color="red") + 
   geom_point(aes(Datum, Aantal), data = data_daily_ext) + 
   theme_minimal() + 
-    ggtitle("Voorspelling aantal Coronavirus patienten") +     
+    ggtitle("Voorspelling aantal Coronavirus besmettingen") +     
     theme(axis.title.x=element_blank(),
           axis.title.y=element_blank()) + 
   ggsave("plots/prediction.png", width = 6, height=4)
