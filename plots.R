@@ -80,6 +80,7 @@ data %>% left_join(
 
 ### Predictions
 
+## plots
 
 data_daily_ext = data_daily %>%
   add_row(Datum = "2020-02-26", Aantal = 0)
@@ -99,3 +100,20 @@ ggplot() +
     theme(axis.title.x=element_blank(),
           axis.title.y=element_blank()) + 
   ggsave("plots/prediction.png", width = 6, height=4)
+
+## stats
+
+
+data_daily_ext = data_daily %>%
+  add_row(Datum = "2020-02-26", Aantal = 0)
+
+exponential.model <- lm(log(Aantal+1)~ Datum, data = data_daily_ext)
+summary(exponential.model)
+
+timevalues = as.Date(seq(as.integer(min(data_daily_ext$Datum)), as.integer(max(data_daily_ext$Datum)) + 25), origin = "1970-01-01")
+Counts.exponential <- exp(predict(exponential.model, newdata = list(Datum = timevalues)))
+
+predict_df = data.frame(Datum=timevalues, Aantal=Counts.exponential)
+predict_df %>% mutate(
+  Aantal = as.character(round(Aantal))
+)
