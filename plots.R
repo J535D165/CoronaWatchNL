@@ -76,3 +76,26 @@ data %>% left_join(
     theme(axis.title.x=element_blank(),
           axis.title.y=element_blank()) + 
     ggsave("plots/province_count_time.png", width = 6, height=4)
+
+
+### Predictions
+
+
+data_daily_ext = data_daily %>%
+  add_row(Datum = "2020-02-26", Aantal = 0)
+
+exponential.model <- lm(log(Aantal+1)~ Datum, data = data_daily_ext)
+summary(exponential.model)
+
+timevalues = as.Date(seq(as.integer(min(data_daily_ext$Datum)), as.integer(max(data_daily_ext$Datum)) + 3), origin = "1970-01-01")
+Counts.exponential <- exp(predict(exponential.model, newdata = list(Datum = timevalues)))
+
+ggplot() + 
+  geom_point(aes(tail(timevalues, 3), tail(Counts.exponential, 3)), color="red") + 
+  geom_line(aes(timevalues, Counts.exponential), color="red") + 
+  geom_point(aes(Datum, Aantal), data = data_daily_ext) + 
+  theme_minimal() + 
+    ggtitle("Voorspelling aantal Coronavirus patienten") +     
+    theme(axis.title.x=element_blank(),
+          axis.title.y=element_blank()) + 
+  ggsave("plots/prediction.png", width = 6, height=4)

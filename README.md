@@ -39,7 +39,12 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 ![plots/timeline.png](plots/province_count.png)
 
-![plots/top_municipalities.png](plots/province_count_time.png)
+![plots/province_count_time.png](plots/province_count_time.png)
+
+### Forcast 
+
+![plots/prediction.png](plots/prediction.png)
+
 
 ## License
 
