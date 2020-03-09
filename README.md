@@ -41,6 +41,9 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 ![plots/province_count_time.png](plots/province_count_time.png)
 
+![plots/map_province.png](plots/map_province.png)
+
+
 ### Forecast 
 
 ![plots/prediction.png](plots/prediction.png)

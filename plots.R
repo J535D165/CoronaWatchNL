@@ -117,3 +117,41 @@ predict_df = data.frame(Datum=timevalues, Aantal=Counts.exponential)
 predict_df %>% mutate(
   Aantal = as.character(round(Aantal))
 )
+
+# maps 
+
+library(sf)
+
+# download province shapefile data
+province_shp <- st_read("../CoronaMaps/NLD_adm/NLD_adm1.shp") %>%
+  filter(ENGTYPE_1=="Province") %>%
+  select(NAME_1)
+
+mun = read_csv2(
+  "../CoronaWatchNL/ext/Gemeenten_alfabetisch_2019.csv", 
+  col_types = cols(Gemeentecode = "i")
+)
+
+# plot map
+province_data = data %>% 
+  left_join(
+    select(mun, Gemeentenaam, Provincienaam, GemeentecodeGM), 
+    by=c("Gemeente"="Gemeentenaam")
+  ) %>%
+  group_by(Datum, Provincienaam) %>% 
+  summarise(Aantal = sum(Aantal, na.rm = T)) %>%
+  ungroup() %>%
+  left_join(province_shp, by=c("Provincienaam"="NAME_1"))
+
+
+province_data %>% 
+  filter(Datum > max(Datum) - 3) %>% 
+  ggplot() + 
+  geom_sf(aes(fill=Aantal, color=Aantal)) + 
+  facet_grid(cols = vars(Datum)) + 
+  theme_minimal() + 
+  theme(axis.text.x=element_blank(),
+        axis.text.y=element_blank()) + 
+  scale_colour_gradient(low = "grey", high = "red", na.value = NA) + 
+  scale_fill_gradient(low = "grey", high = "red", na.value = NA) + 
+  ggsave("plots/map_province.png", width = 6, height=2)

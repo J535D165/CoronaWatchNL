@@ -28,7 +28,7 @@ jobs:
       - name: Install R dependencies
         run: |
           options(install.packages.check.source = "no")
-          install.packages(c("tidyverse"), type="binary")
+          install.packages(c("tidyverse", "sf"), type="binary")
         shell: Rscript {0}
         continue-on-error: true
       - name: Render plots
