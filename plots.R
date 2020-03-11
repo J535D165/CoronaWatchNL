@@ -123,12 +123,12 @@ predict_df %>% mutate(
 library(sf)
 
 # download province shapefile data
-province_shp <- st_read("../CoronaMaps/NLD_adm/NLD_adm1.shp") %>%
+province_shp <- st_read("ext/NLD_adm/NLD_adm1.shp") %>%
   filter(ENGTYPE_1=="Province") %>%
   select(NAME_1)
 
 mun = read_csv2(
-  "../CoronaWatchNL/ext/Gemeenten_alfabetisch_2019.csv", 
+  "ext/Gemeenten_alfabetisch_2019.csv", 
   col_types = cols(Gemeentecode = "i")
 )
 
