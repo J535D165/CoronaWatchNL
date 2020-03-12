@@ -76,7 +76,7 @@ if __name__ == '__main__':
     ]
 
     files = [p for p in Path('raw_data').iterdir()
-             if p.is_file() and str(p).startswith("raw_data/peildatum")]
+             if p.is_file() and p.stem.startswith("peildatum")]
     print(files)
 
     result = pandas.concat(
