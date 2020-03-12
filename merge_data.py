@@ -77,6 +77,7 @@ if __name__ == '__main__':
 
     files = [p for p in Path('raw_data').iterdir()
              if p.is_file() and str(p).startswith("raw_data/peildatum")]
+    print(files)
 
     result = pandas.concat(
         [parse_new_format(f) for f in files] + df_frames,
@@ -86,5 +87,7 @@ if __name__ == '__main__':
     del result["Indicator"]
 
     result['Aantal'] = result['Aantal'].astype(pandas.Int64Dtype())
+
+    print(result.tail())
 
     result.to_csv(Path("data", "rivm_corona_in_nl.csv"), index=False)

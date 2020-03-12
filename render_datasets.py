@@ -16,6 +16,7 @@ def daily_data(data):
     result.loc['2020-03-02', 'Aantal'] = 18
 
     result['Aantal'] = result['Aantal'].astype(numpy.int64)
+    print(result.sort_index())
     return result.sort_index()
 
 if __name__ == '__main__':
