@@ -48,6 +48,10 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 ![plots/prediction.png](plots/prediction.png)
 
+![plots/growthfactor.png](plots/growthfactor.png)
+
+![plots/sigmoid.png](plots/sigmoid.png)
+
 
 ## License
 
