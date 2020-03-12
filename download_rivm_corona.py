@@ -30,7 +30,7 @@ def download_rivm_data():
     datetime_pub = data.split("\n")[1].split(";")[0]
     datetime_pub = re.sub('[^a-zA-Z0-9]', '-', datetime_pub)
 
-    with open(str(Path('raw_data', "{}.csv".format(datetime_pub))), "w") as f:
+    with open(str(Path('raw_data', "{}.csv".format(datetime_pub))), "w", encoding="utf-8") as f:
         f.write(data)
 
     print("Downloaded {}".format(str(Path('raw_data', "{}.csv".format(datetime_pub)))))
