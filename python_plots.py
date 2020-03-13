@@ -63,7 +63,8 @@ def analyze_growth_factor(df):
     for i in range(n_samples):
 
         df_resampled = df.sample(frac=1,  
-                                 replace=True) # bootstrap
+                                 replace=True,
+                                 random_state=i) # bootstrap
 
         X = df_resampled['Dag'].values.reshape(-1, 1)
         y = df_resampled['Growth_factor'].values.reshape(-1, 1)
