@@ -23,7 +23,10 @@ jobs:
           python download_rivm_corona.py
           python merge_data.py
           python render_datasets.py
+      - name: Python plots
+        run: |
           python python_plots.py
+        continue-on-error: true
       - uses: r-lib/actions/setup-r@master
         continue-on-error: true
       - name: Install R dependencies
