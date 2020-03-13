@@ -7,7 +7,7 @@ data <- read_csv("data/rivm_corona_in_nl.csv")
 data_daily <- read_csv("data/rivm_corona_in_nl_daily.csv")
 
 data_daily %>%
-  add_row(Datum = "2020-02-26", Aantal = 0) %>%
+  ## add_row(Datum = "2020-02-26", Aantal = 0) %>%
   ggplot(aes(Datum, Aantal)) +
   geom_line() +
   ylim(0, NA) +
@@ -50,7 +50,7 @@ data %>%
 
 ### Per province
 
-mun = read_csv2(
+mun <- read_csv2(
   "ext/Gemeenten_alfabetisch_2019.csv",
   col_types = cols(Gemeentecode = "i")
 )
@@ -92,8 +92,6 @@ data %>%
 
 ## plots
 data_daily_ext <- data_daily %>%
-  # add initial number
-  add_row(Datum = "2020-02-26", Aantal = 0) %>%
   # add some new rows for which we wish to predict the values
   bind_rows(tibble(Datum = seq(max(.$Datum) + 1, max(.$Datum) + 3, 1))) %>%
   arrange(Datum)
