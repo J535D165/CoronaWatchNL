@@ -21,7 +21,6 @@ data_daily %>%
   ggtitle("Aantal Coronavirus besmettingen") +
   ggsave("plots/timeline.png", width = 6, height=4)
 
-
 ### Top 10 municipalities
 
 # top 10 municipalities on the most recent day
@@ -105,12 +104,18 @@ pred <- cbind(data_daily_ext,
                           interval = "confidence")))
 
 # try to find the inflection point of the sigmoidal fit
-pred %>%
+growth <- pred %>%
   mutate(new = Aantal - lag(Aantal),
-         growth = new / lag(new)) %>%
+         growth = new / lag(new),
+         # Vincent rescaled to -1 and 1 first
+         ds = scales::rescale(Datum, to = c(-1, 1)),
+         as = scales::rescale(Aantal, to = c(-1, 1)))
+
+growth %>%
   ggplot(aes(x = Datum, y = growth)) +
   geom_point() +
-  geom_smooth(method = "lm") +
+  # Vincent filters out anything below 25, so I do it here as well
+  geom_smooth(method = "lm", data = . %>% filter(Aantal > 25)) +
   geom_hline(yintercept = 1) +
   ggtitle("Groeisnelheid van COVID-19 in Nederland") +
   theme_minimal() +
@@ -122,7 +127,21 @@ pred %>%
         axis.title.y=element_blank()) +
   ggsave("plots/growth_rate_time.png", width = 6, height=4)
 
-# TODO: have a look at fitting the sigmoid like Vincent did in python?
+# after making the plot, let's do the calculations
+growth.model <- growth %>%
+  filter(Aantal > 25) %>%
+  lm(as ~ ds, data = .)
+
+inflection <- ((1 - growth.model$coefficients[[1]]) / growth.model$coefficients[[2]])
+
+# we have to use approxExtrap in case we need to extrapolate
+inflection_date <- (Hmisc::approxExtrap(growth$ds, growth$Datum, xout = inflection)$y * 24 * 60 * 60) %>%
+  as.POSIXct(origin = "1970-01-01")
+
+inflection_aantal <- Hmisc::approxExtrap(growth$ds, growth$Aantal, xout = inflection, na.rm = TRUE)$y
+
+# TODO: get uncertainty estimates of the inflection point
+# TODO: use the inflection point to fit a sigmoidal curve
 
 pred %>%
   ggplot(aes(Datum, Aantal)) +
@@ -144,6 +163,27 @@ pred %>%
         axis.title.y=element_blank()) +
   ggtitle("Voorspelling aantal Coronavirus besmettingen") +
   ggsave("plots/prediction.png", width = 6, height=4)
+
+pred %>%
+  ggplot(aes(Datum, Aantal)) +
+  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = .2, fill = "red") +
+  geom_line(aes(y = fit), colour = "red") +
+  # only points for future dates?
+  geom_point(aes(y = fit), colour = "red",
+             data = filter(pred, Datum > max(data_daily$Datum))) +
+  geom_line() +
+  geom_point() +
+  scale_y_log10() + # also cool to see how it's already deviating from the line!
+  scale_x_date(
+    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
+                 by = "1 week"),
+    date_minor_breaks = "1 days") +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank()) +
+  ggtitle("Voorspelling aantal Coronavirus besmettingen") +
+  ggsave("plots/prediction_log10.png", width = 6, height=4)
+
 
 # maps
 library(sf)
