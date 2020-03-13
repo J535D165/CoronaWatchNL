@@ -3,6 +3,7 @@
 from pathlib import Path
 import re
 import datetime
+from io import StringIO
 
 import pandas
 
@@ -37,6 +38,38 @@ def parse_new_format(file):
     date = re.findall(r'(\d{2})-maart', str(file))[0]
 
     df = pandas.read_csv(file, sep=";")
+
+    try:
+        df['id'] = df['Gemnr'].astype(int)
+        del df['Gemnr']
+    except Exception:
+        pass
+
+    df['Datum'] = datetime.date(
+        2020,
+        3,
+        int(date[0:2])
+    )
+
+    return df[df['id'] >= 0]
+
+def parse_new_format(file):
+
+    date = re.findall(r'(\d{2})-maart', str(file))[0]
+
+    if date == "13":
+        result_list = []
+        with open(file, "r") as f:
+            for line in f:
+                extr_first = re.findall(r'(.*;.*;.*);.*', line)
+                if extr_first:
+                    result_list.append(extr_first[0])
+                else:
+                    result_list.append(line.rstrip())
+        df = pandas.read_csv(StringIO("\n".join(result_list)), sep=";")
+
+    else:
+        df = pandas.read_csv(file, sep=";")
 
     try:
         df['id'] = df['Gemnr'].astype(int)
