@@ -104,11 +104,33 @@ pred <- cbind(data_daily_ext,
                           newdata = list(Datum = data_daily_ext$Datum),
                           interval = "confidence")))
 
+# try to find the inflection point of the sigmoidal fit
+pred %>%
+  mutate(new = Aantal - lag(Aantal),
+         growth = new / lag(new)) %>%
+  ggplot(aes(x = Datum, y = growth)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  geom_hline(yintercept = 1) +
+  ggtitle("Groeisnelheid van COVID-19 in Nederland") +
+  theme_minimal() +
+  scale_x_date(
+    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
+                 by = "1 week"),
+    date_minor_breaks = "1 days") +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank()) +
+  ggsave("plots/growth_rate_time.png", width = 6, height=4)
+
+# TODO: have a look at fitting the sigmoid like Vincent did in python?
+
 pred %>%
   ggplot(aes(Datum, Aantal)) +
   geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = .2, fill = "red") +
   geom_line(aes(y = fit), colour = "red") +
-  geom_point(aes(y = fit), colour = "red", data = filter(pred, Datum > max(data_daily$Datum))) +
+  # only points for future dates?
+  geom_point(aes(y = fit), colour = "red",
+             data = filter(pred, Datum > max(data_daily$Datum))) +
   geom_line() +
   geom_point() +
   ylim(0, NA) +
@@ -119,10 +141,8 @@ pred %>%
     date_minor_breaks = "1 days") +
   theme_minimal() +
   theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank())
-  ggtitle("Voorspelling aantal Coronavirus besmettingen") +
-  theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
+  ggtitle("Voorspelling aantal Coronavirus besmettingen") +
   ggsave("plots/prediction.png", width = 6, height=4)
 
 # maps
