@@ -152,7 +152,7 @@ def compute_inflection_cases(df, inflection_x):
     # Estimate number of cases at inflection point
 
     # if past inflection point, linear interpolation from nearest cases
-    if inflection_x < len(df):
+    if inflection_x < df['Dag'].max():
 
         lower_bound = df[df['Dag'] == math.floor(inflection_x)].iloc[0]['Aantal']
         upper_bound = df[df['Dag'] == math.ceil(inflection_x)].iloc[0]['Aantal']
