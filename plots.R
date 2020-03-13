@@ -28,15 +28,15 @@ data_daily %>%
 top_10_municipalities <- data %>%
   arrange(desc(Datum), desc(Aantal)) %>%
   head(10) %>%
-  select(Gemeente)
+  select(Gemeentenaam)
 
 # make plot
 data %>%
   inner_join(top_10_municipalities) %>%
-  complete(Gemeente, Datum, fill=list("Aantal"=0)) %>%
+  complete(Gemeentenaam, Datum, fill=list("Aantal"=0)) %>%
   arrange(desc(Datum), desc(Aantal)) %>%
-  mutate(Gemeente = factor(Gemeente, levels=pull(top_10_municipalities, Gemeente))) %>%
-  ggplot(aes(Datum, Aantal, color=Gemeente)) +
+  mutate(Gemeentenaam = factor(Gemeentenaam, levels=pull(top_10_municipalities, Gemeentenaam))) %>%
+  ggplot(aes(Datum, Aantal, color=Gemeentenaam)) +
   geom_line() +
   theme_minimal() +
   scale_x_date(
@@ -50,15 +50,7 @@ data %>%
 
 ### Per province
 
-mun <- read_csv2(
-  "ext/Gemeenten_alfabetisch_2019.csv",
-  col_types = cols(Gemeentecode = "i")
-)
-
-data %>% left_join(
-  select(mun, Gemeentecode, Provincienaam),
-  by=c("id"="Gemeentecode")
-) %>%
+data %>%
   filter(Datum == max(Datum)) %>%
   ggplot(aes(Provincienaam, Aantal)) +
   geom_col() +
@@ -70,9 +62,6 @@ data %>% left_join(
   ggsave("plots/province_count.png", width = 6, height=4)
 
 data %>%
-  left_join(
-    select(mun, Gemeentecode, Provincienaam),
-    by=c("id"="Gemeentecode"))%>%
   group_by(Provincienaam, Datum) %>%
   summarise(Aantal = sum(Aantal, na.rm = T)) %>%
   ggplot(aes(Datum, Aantal, color=Provincienaam)) +
@@ -160,10 +149,6 @@ mun <- read_csv2(
 
 # plot map
 province_data <- data %>%
-  left_join(
-    select(mun, Gemeentenaam, Provincienaam, GemeentecodeGM),
-    by=c("Gemeente"="Gemeentenaam")
-  ) %>%
   group_by(Datum, Provincienaam) %>%
   summarise(Aantal = sum(Aantal, na.rm = T)) %>%
   ungroup() %>%
