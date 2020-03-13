@@ -30,6 +30,8 @@ def parse_old_format(file):
         int(date[0:2])
     )
 
+    del df["Indicator"]
+
     return df
 
 
@@ -57,7 +59,11 @@ def parse_new_format(file):
 
     date = re.findall(r'(\d{2})-maart', str(file))[0]
 
-    if date == "13":
+    if date == "12":
+        df = pandas.read_csv(file, sep=";")
+        df.loc[df["Gemeente"] == "BeekDaelen", "Gemeente"] = "Beekdaelen"
+        df.loc[df["Gemeente"] == "Súdwest Fryslân", "Gemeente"] = "Súdwest-Fryslân"
+    elif date == "13":
         result_list = []
         with open(file, "r") as f:
             for line in f:
@@ -116,11 +122,21 @@ if __name__ == '__main__':
         [parse_new_format(f) for f in files] + df_frames,
         axis=0,
         sort=False
-    ).sort_values(["Datum", "id"])
-    del result["Indicator"]
+    ).dropna(axis=0, subset=["Aantal"])
 
-    result['Aantal'] = result['Aantal'].astype(pandas.Int64Dtype())
+    result['Aantal'] = result['Aantal'].astype(int)
 
+    # add municipality
+    df_mun = pandas.read_csv(
+        Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
+    )[["Gemeentecode", "Gemeentenaam", "Provincienaam"]]
+
+    result = result.\
+        merge(df_mun, left_on="id", right_on="Gemeentecode", how="left").\
+        drop(["id"], axis=1)
+    result = result[
+        ["Datum", "Gemeentenaam", "Gemeentecode", "Provincienaam", "Aantal"]
+    ].sort_values(["Datum", "Gemeentecode"])
+    
     print(result.tail())
-
     result.to_csv(Path("data", "rivm_corona_in_nl.csv"), index=False)
