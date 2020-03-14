@@ -25,6 +25,7 @@ jobs:
           python render_datasets.py
       - name: Python plots
         run: |
+          python animated_maps.py
           python python_plots.py
         continue-on-error: true
       - uses: r-lib/actions/setup-r@master
