@@ -1,5 +1,9 @@
 lxml
 pandas
+numpy
 requests
 matplotlib
 sklearn
+geopandas
+descartes
+Pillow
