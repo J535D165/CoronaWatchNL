@@ -2,25 +2,25 @@
 
 ![corona_artwork.jpg](corona_artwork.jpg)
 
-The current outbreak of coronavirus disease (COVID-19) that was first reported from Wuhan, China, on 31 December 2019. On 27 February 2019, a patient in The Netherlands was diagnosed with the coronavirus (COVID-19), according to the RIVM (National Institute for Public Health and the Environment). Within a week, more than a hundred cases were confirmed. The RIVM reports the number of positive cases on its [website](https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus). 
+The current outbreak of coronavirus disease (COVID-19) that was first reported from Wuhan, China, on 31 December 2019. On 27 February 2019, a patient in The Netherlands was diagnosed with the coronavirus (COVID-19), according to the RIVM (National Institute for Public Health and the Environment). Within a week, more than a hundred cases were confirmed. The RIVM reports the number of positive cases on its [website](https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus).
 
-Since 3 March, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured. The [raw numbers]( https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19#definities) can be found on the government-owned website https://www.volksgezondheidenzorg.info.  
+Since 3 March, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured. The [raw numbers]( https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19#definities) can be found on the government-owned website https://www.volksgezondheidenzorg.info.
 
 ## This project
 
 :exclamation: Daily updates :exclamation:
 
-At the moment of writing, RIVM and https://www.volksgezondheidenzorg.info don't publish datasets with the date of diagnosis on their websites. Therefore, it is hard to get an overview of development in time (and municipality). This information is important to journalists and scientists as well as for the public. Therefore, this project downloads the latest numbers from the website of the RIVM **every hour** and pushes the data to this repo. Please see the folder  [raw_data/](raw_data/) for the non-processed data downloaded from RIVM. The folder [data/](data/) contains processed datasets ready to use for analysis. 
+At the moment of writing, RIVM and https://www.volksgezondheidenzorg.info don't publish datasets with the date of diagnosis on their websites. Therefore, it is hard to get an overview of development in time (and municipality). This information is important to journalists and scientists as well as for the public. Therefore, this project downloads the latest numbers from the website of the RIVM **every hour** and pushes the data to this repo. Please see the folder  [raw_data/](raw_data/) for the non-processed data downloaded from RIVM. The folder [data/](data/) contains processed datasets ready to use for analysis.
 
 Datasets:
 
   - :page_facing_up: [RIVM Coronavirus counts in The Netherlands](data/rivm_corona_in_nl_daily.csv) :exclamation: Daily updates :exclamation:
   - :page_facing_up: RIVM Coronavirus counts in The Netherlands for each municipality [[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv) :exclamation: Daily updates :exclamation:
 
- 
+
 ## Get involved
 
-Help on this project is appreciated. We are looking for new graphs, maps, enriched datasets and interactive visualisations. Please report issues in the Issue Tracker. 
+Help on this project is appreciated. We are looking for new graphs, maps, enriched datasets and interactive visualisations. Please report issues in the Issue Tracker.
 
 Todo:
 
@@ -52,12 +52,33 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 ### Forecast 
 
+### Forecast
+
+The first predictions are based on exponential growth model.
 ![plots/prediction.png](plots/prediction.png)
+
+Note, however that the data no longer behave exponentially. If we plot them on
+a log axis they deviate from the line quite drastically!
+![plots/prediction_log10.png](plots/prediction_log10.png)
+
+Thus we try to fit a sigmoidal curve. One way to fit this, is to first estimate
+the growth rate, which we define here as the ratio of new cases over previous
+new cases. Once this growth rate reaches 1, it is likely that the data will
+stop following an exponential pattern and will taper down into a sigmoid
+curvature.
+
+Here is the development of the growth factor over time, with a linear model fit
+to try to estimate when the inflection point will occur (or has occurred).
 
 ![plots/growthfactor.png](plots/growthfactor.png)
 
+This then results in the following sigmoidal fit:
 ![plots/sigmoid.png](plots/sigmoid.png)
 
+For more information about this approach, please watch
+[https://www.youtube.com/watch?v=Kas0tIxDvrg](the YouTube video) that inspired
+this approach, by Grant Sanderson
+([https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw](3Blue1Brown)).
 
 ## License
 

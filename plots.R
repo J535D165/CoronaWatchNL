@@ -21,7 +21,6 @@ data_daily %>%
   ggtitle("Aantal Coronavirus besmettingen") +
   ggsave("plots/timeline.png", width = 6, height=4)
 
-
 ### Top 10 municipalities
 
 # top 10 municipalities on the most recent day
