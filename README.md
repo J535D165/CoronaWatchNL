@@ -49,9 +49,6 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 ![plots/map_nl_corona_abs_municipality.gif?raw=true](plots/map_nl_corona_abs_municipality.gif?raw=true)
 ![plots/map_nl_corona_diff_municipality.gif?raw=true](plots/map_nl_corona_diff_municipality.gif?raw=true)
 
-
-### Forecast 
-
 ### Forecast
 
 The first predictions are based on exponential growth model.
