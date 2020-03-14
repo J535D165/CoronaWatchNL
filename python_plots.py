@@ -128,8 +128,6 @@ def create_growthfactor_plot(df, intercepts, coefficients, inflection_date, plot
               size=20)
     plt.legend(fontsize=20)
 
-    # plt.show()
-    
     plt.savefig("plots/growthfactor.png")
 
 
@@ -179,42 +177,48 @@ def compute_inflection_cases(df, inflection_x):
 
 
 from scipy.optimize import curve_fit
+from numpy.random import seed
 
-def sigmoid(x, x0, y0, c, k):
-    y = c / (1 + np.exp(-k*(x-x0))) + y0
+def sigmoid(t, alpha, beta, M):
+    
+    y = M / (1 + np.exp(-beta*(t-alpha)))
     return y
 
+def fit_sigmoid(df):
 
-def fit_sigmoid(df, inflection_x, inflection_y):
+    X = df['Dag'].values
+    y = df['Aantal'].values
 
-    X = df['Dag'].values.reshape(-1, 1)
-    y = df['Aantal'].values.reshape(-1, 1)
+    popt, pcov = curve_fit(sigmoid, X, y/max(y))
 
-    inference_X = [inflection_x]
-    inference_y = [inflection_y]
+    fitted_sigmoid = lambda k : sigmoid(k, *popt) * max(y)
 
-    # mirror data in inflection point to estimate sigmoid    
-    for x_val, [y_val] in zip(X[X<inflection_x], y):
-        inference_X.append(x_val)
-        inference_y.append(y_val)
-        inference_X.append(2*inflection_x-x_val)
-        inference_y.append(2*inflection_y-y_val)
+    return (fitted_sigmoid)
 
-    popt, pcov = curve_fit(sigmoid, inference_X, inference_y/max(inference_y))
-
-    fitted_sigmoid = lambda k : sigmoid(k, *popt)
+def fit_sigmoid_repeated(df, no_samples=50):
     
-    sigmoid_X = sorted(inference_X)
-
-    sigmoid_y = fitted_sigmoid(sigmoid_X) * max(inference_y)
+    fitted_sigmoids = []
     
-    return(fitted_sigmoid, sigmoid_X, sigmoid_y)
+    for i in range(no_samples):
+        
+        df_resampled = df.sample(frac=1,
+                                 replace=True,
+                                 random_state=i
+                                )
+        
+        seed(2*i) #deterministic curve fitting? 
+        
+        fitted_sigmoid = fit_sigmoid(df_resampled)
+        
+        fitted_sigmoids.append(fitted_sigmoid)
+        
+    return(fitted_sigmoids)
 
 
 # In[104]:
 
 
-def plot_sigmoid(df, sigmoid_X, sigmoid_y, inflection_x, inflection_y):
+def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, extrapolate_days=7):
 
     X = df['Dag'].values.reshape(-1, 1)
     y = df['Aantal'].values.reshape(-1, 1)
@@ -224,32 +228,39 @@ def plot_sigmoid(df, sigmoid_X, sigmoid_y, inflection_x, inflection_y):
     plt.plot(X, 
              y, 
              linestyle='', 
-             marker='.', 
+             marker='.',
+             markersize='10',
+             color='black',
              label="bevestigde aantallen")
-
-    plt.plot(sigmoid_X,
-             sigmoid_y,
+   
+    X_linspace = np.linspace(X.min(), X.max()+extrapolate_days, num=100)
+    
+    for fs in fitted_sigmoids:
+        
+        y_sigmoid = fs(X_linspace)
+        
+        if np.std(y_sigmoid) > 10: # some sigmoids are just lines (prob because of sampling low no. of points)
+        
+            plt.plot(X_linspace,
+                     y_sigmoid,
+                     linestyle='-',         
+                     color='blue', 
+                     alpha=0.10
+                    )    
+    
+    plt.plot(X_linspace,
+             fitted_sigmoid(X_linspace),
              linestyle='-',         
-             color='green', 
-             label='logistische fit'
-            )
-
-    plt.plot([inflection_x], 
-             [inflection_y], 
-             marker='+', 
-             linestyle='none',
-             color='black', 
-             label='inflectiepunt',
-             markersize=10
+             color='blue', 
+             label='logistische fit',
             )
 
     plt.xlabel("Datum", size=15)
     plt.ylabel("Aantal gevallen", size=15)
-    plt.title("Logistische curve gefit o.b.v. inflectiepunt", size=20)
+    plt.title("Logistische curve", size=20)
     plt.legend(fontsize=20)
 
-    min_x_val = 0
-    max_x_val = int(max(sigmoid_X))
+    max_x_val = X.max()+extrapolate_days
     
     labels = np.arange(max_x_val+1)
     labels = [df.index.min() + pd.Timedelta("{} day".format(l)) for l in labels]
@@ -259,12 +270,10 @@ def plot_sigmoid(df, sigmoid_X, sigmoid_y, inflection_x, inflection_y):
                labels=labels,
                rotation=60)
 
-    
-    # plt.show()
-    
-    plt.savefig("plots/sigmoid.png")
 
-    # plt.xticks(df.index, rotation=60)
+    plt.ylim(0)
+
+    plt.savefig("plots/sigmoid.png")
 
 
 # In[105]:
@@ -284,9 +293,8 @@ if __name__ == "__main__":
 
     create_growthfactor_plot(df, intercepts, coefficients, inflection_date)
 
-    inflection_y = compute_inflection_cases(df, inflection_x)
+    fitted_sigmoid = fit_sigmoid(df)
+    
+    fitted_sigmoids = fit_sigmoid_repeated(df)
 
-    fitted_sigmoid, sigmoid_X, sigmoid_y = fit_sigmoid(df, inflection_x, inflection_y)
-
-    plot_sigmoid(df, sigmoid_X, sigmoid_y, inflection_x, inflection_y)
-
+    plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids)
