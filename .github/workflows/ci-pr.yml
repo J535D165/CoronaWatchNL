@@ -21,8 +21,8 @@ jobs:
           python render_datasets.py
       - name: Python plots
         run: |
-          python animated_maps.py
-          python python_plots.py
+          python plot_scripts/animated_maps.py
+          python plot_scripts/python_plots.py
       - uses: r-lib/actions/setup-r@master
       - name: Install R dependencies
         run: |
@@ -30,4 +30,4 @@ jobs:
           install.packages(c("tidyverse", "sf"), type="binary")
         shell: Rscript {0}
       - name: Render plots
-        run: Rscript plots.R
+        run: Rscript plot_scripts/plots.R

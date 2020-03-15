@@ -25,8 +25,8 @@ jobs:
           python render_datasets.py
       - name: Python plots
         run: |
-          python animated_maps.py
-          python python_plots.py
+          python plot_scripts/animated_maps.py
+          python plot_scripts/python_plots.py
         continue-on-error: true
       - uses: r-lib/actions/setup-r@master
         continue-on-error: true
@@ -37,7 +37,7 @@ jobs:
         shell: Rscript {0}
         continue-on-error: true
       - name: Render plots
-        run: Rscript plots.R
+        run: Rscript plot_scripts/plots.R
         continue-on-error: true
       - name: Commit files
         run: |
