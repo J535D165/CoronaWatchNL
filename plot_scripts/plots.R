@@ -25,12 +25,14 @@ data_daily %>%
 
 # top 10 municipalities on the most recent day
 top_10_municipalities <- data %>%
+  filter(!is.na(Gemeentenaam)) %>%
   arrange(desc(Datum), desc(Aantal)) %>%
   head(10) %>%
   select(Gemeentenaam)
 
 # make plot
 data %>%
+  filter(!is.na(Gemeentenaam)) %>%
   inner_join(top_10_municipalities) %>%
   complete(Gemeentenaam, Datum, fill=list("Aantal"=0)) %>%
   arrange(desc(Datum), desc(Aantal)) %>%
@@ -51,6 +53,7 @@ data %>%
 
 data %>%
   filter(Datum == max(Datum)) %>%
+  filter(!is.na(Gemeentenaam)) %>%
   ggplot(aes(Provincienaam, Aantal)) +
   geom_col() +
   theme_minimal() +
@@ -61,6 +64,7 @@ data %>%
   ggsave("plots/province_count.png", width = 6, height=4)
 
 data %>%
+  filter(!is.na(Gemeentenaam)) %>%
   group_by(Provincienaam, Datum) %>%
   summarise(Aantal = sum(Aantal, na.rm = T)) %>%
   ggplot(aes(Datum, Aantal, color=Provincienaam)) +
@@ -148,6 +152,7 @@ mun <- read_csv2(
 
 # plot map
 province_data <- data %>%
+  filter(!is.na(Gemeentenaam)) %>%
   group_by(Datum, Provincienaam) %>%
   summarise(Aantal = sum(Aantal, na.rm = T)) %>%
   ungroup() %>%
