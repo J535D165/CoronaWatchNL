@@ -10,6 +10,12 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-01,Delft,503,Zuid-Holland,1
 2020-03-01,Tilburg,855,Noord-Brabant,4
 2020-03-01,Altena,1959,Noord-Brabant,1
+2020-03-02,Coevorden,109,Drenthe,1
+2020-03-02,Diemen,384,Noord-Holland,3
+2020-03-02,Delft,503,Zuid-Holland,1
+2020-03-02,Tilburg,855,Noord-Brabant,4
+2020-03-02,Altena,1959,Noord-Brabant,1
+2020-03-02,,-1,,8
 2020-03-03,Coevorden,109,Drenthe,2
 2020-03-03,Houten,321,Utrecht,1
 2020-03-03,Utrecht,344,Utrecht,2
@@ -45,6 +51,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-04,Gooise Meren,1942,Noord-Holland,1
 2020-03-04,Altena,1959,Noord-Brabant,3
 2020-03-04,Hoeksche Waard,1963,Zuid-Holland,1
+2020-03-04,,-1,,1
 2020-03-05,Zeewolde,50,Flevoland,1
 2020-03-05,Coevorden,109,Drenthe,3
 2020-03-05,Borne,147,Overijssel,1
@@ -78,6 +85,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-05,Gooise Meren,1942,Noord-Holland,1
 2020-03-05,Altena,1959,Noord-Brabant,4
 2020-03-05,Hoeksche Waard,1963,Zuid-Holland,1
+2020-03-05,,-1,,5
 2020-03-06,Almere,34,Flevoland,1
 2020-03-06,Zeewolde,50,Flevoland,1
 2020-03-06,Coevorden,109,Drenthe,3
@@ -134,6 +142,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-06,Altena,1959,Noord-Brabant,4
 2020-03-06,West Betuwe,1960,Gelderland,1
 2020-03-06,Hoeksche Waard,1963,Zuid-Holland,1
+2020-03-06,,-1,,4
 2020-03-07,Almere,34,Flevoland,1
 2020-03-07,Zeewolde,50,Flevoland,1
 2020-03-07,Coevorden,109,Drenthe,3
@@ -206,6 +215,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-07,West Betuwe,1960,Gelderland,2
 2020-03-07,Vijfheerenlanden,1961,Utrecht,1
 2020-03-07,Hoeksche Waard,1963,Zuid-Holland,2
+2020-03-07,,-1,,4
 2020-03-08,Almere,34,Flevoland,1
 2020-03-08,Zeewolde,50,Flevoland,1
 2020-03-08,Coevorden,109,Drenthe,7
@@ -295,6 +305,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-08,West Betuwe,1960,Gelderland,2
 2020-03-08,Vijfheerenlanden,1961,Utrecht,1
 2020-03-08,Hoeksche Waard,1963,Zuid-Holland,2
+2020-03-08,,-1,,2
 2020-03-09,Almere,34,Flevoland,1
 2020-03-09,Zeewolde,50,Flevoland,1
 2020-03-09,Coevorden,109,Drenthe,9
@@ -395,6 +406,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-09,West Betuwe,1960,Gelderland,2
 2020-03-09,Vijfheerenlanden,1961,Utrecht,1
 2020-03-09,Hoeksche Waard,1963,Zuid-Holland,2
+2020-03-09,,-1,,1
 2020-03-10,Almere,34,Flevoland,1
 2020-03-10,Zeewolde,50,Flevoland,1
 2020-03-10,Opsterland,86,Friesland,2
@@ -508,6 +520,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-10,West Betuwe,1960,Gelderland,2
 2020-03-10,Vijfheerenlanden,1961,Utrecht,1
 2020-03-10,Hoeksche Waard,1963,Zuid-Holland,2
+2020-03-10,,-1,,2
 2020-03-11,Almere,34,Flevoland,1
 2020-03-11,Zeewolde,50,Flevoland,1
 2020-03-11,Opsterland,86,Friesland,2
@@ -642,6 +655,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-11,West Betuwe,1960,Gelderland,2
 2020-03-11,Vijfheerenlanden,1961,Utrecht,1
 2020-03-11,Hoeksche Waard,1963,Zuid-Holland,2
+2020-03-11,,-1,,6
 2020-03-12,Groningen,14,Groningen,2
 2020-03-12,Almere,34,Flevoland,1
 2020-03-12,Zeewolde,50,Flevoland,1
@@ -803,6 +817,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-12,West Betuwe,1960,Gelderland,2
 2020-03-12,Vijfheerenlanden,1961,Utrecht,1
 2020-03-12,Hoeksche Waard,1963,Zuid-Holland,1
+2020-03-12,,-1,,13
 2020-03-13,Groningen,14,Groningen,3
 2020-03-13,Almere,34,Flevoland,1
 2020-03-13,Zeewolde,50,Flevoland,1
@@ -983,6 +998,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-13,West Betuwe,1960,Gelderland,3
 2020-03-13,Vijfheerenlanden,1961,Utrecht,2
 2020-03-13,Hoeksche Waard,1963,Zuid-Holland,1
+2020-03-13,,-1,,29
 2020-03-14,Groningen,14,Groningen,3
 2020-03-14,Almere,34,Flevoland,2
 2020-03-14,Zeewolde,50,Flevoland,2
@@ -1183,6 +1199,7 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-14,West Betuwe,1960,Gelderland,3
 2020-03-14,Vijfheerenlanden,1961,Utrecht,2
 2020-03-14,Hoeksche Waard,1963,Zuid-Holland,1
+2020-03-14,,-1,,38
 2020-03-15,Groningen,14,Groningen,6
 2020-03-15,Almere,34,Flevoland,2
 2020-03-15,Zeewolde,50,Flevoland,2
@@ -1409,3 +1426,4 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Aantal
 2020-03-15,Hoeksche Waard,1963,Zuid-Holland,2
 2020-03-15,Westerkwartier,1969,Groningen,1
 2020-03-15,Molenlanden,1978,Zuid-Holland,1
+2020-03-15,,-1,,59
