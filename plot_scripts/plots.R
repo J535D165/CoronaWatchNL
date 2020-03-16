@@ -137,6 +137,27 @@ pred %>%
   ggtitle("Voorspelling aantal Coronavirus besmettingen") +
   ggsave("plots/prediction.png", width = 6, height=4)
 
+pred %>%
+  ggplot(aes(Datum, Aantal)) +
+  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = .2, fill = "red") +
+  geom_line(aes(y = fit), colour = "red") +
+  # only points for future dates?
+  geom_point(aes(y = fit), colour = "red",
+             data = filter(pred, Datum > max(data_daily$Datum))) +
+  geom_line() +
+  geom_point() +
+  scale_y_log10() +
+  scale_x_date(
+    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
+                 by = "1 week"),
+    date_minor_breaks = "1 days") +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank()) +
+  ggtitle("Voorspelling aantal Coronavirus besmettingen") +
+  ggsave("plots/prediction_log10.png", width = 6, height=4)
+
+
 # maps
 library(sf)
 
