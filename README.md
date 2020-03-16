@@ -75,6 +75,7 @@ this approach, by Grant Sanderson
 
 ## Interesting links
 
+- https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca
 - http://www.casperalbers.nl/nl/post/2020-03-11-coronagrafieken/
 - https://worktimesheet2014.blogspot.com/2020/03/coronovirus-in-netherlands-power-bi.html (Made with CoronaWatchNL data)
 - https://www.youtube.com/watch?v=Kas0tIxDvrg
