@@ -106,7 +106,7 @@ data_daily_ext <- data_daily %>%
   bind_rows(tibble(Datum = seq(max(.$Datum) + 1, max(.$Datum) + 3, 1))) %>%
   arrange(Datum)
 
-exponential.model <- lm(log(Aantal + 1) ~ Datum, data = data_daily_ext)
+exponential.model <- lm(log(Aantal + 1) ~ Datum, data = filter(data_daily_ext, Aantal > 200))
 summary(exponential.model)
 
 pred <- cbind(data_daily_ext,
