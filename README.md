@@ -51,13 +51,16 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 ### Forecast
 
-The first predictions are based on exponential growth model.
+The first predictions are based on exponential growth model. We first subset
+the data to any date with more than 200 observations, since before that data
+are more susceptible to noise than in the higher orders of magnitude.
 ![plots/prediction.png](plots/prediction.png)
 
 Note, however that the data no longer behave exponentially. If we plot them on
 a log axis they deviate from the line quite drastically!
 ![plots/prediction_log10.png](plots/prediction_log10.png)
 
+<!-- TODO: update this section with the new approach -->
 Thus we try to fit a sigmoidal curve. One way to fit this, is to first estimate
 the growth rate, which we define here as the ratio of new cases over previous
 new cases. Once this growth rate reaches 1, it is likely that the data will
