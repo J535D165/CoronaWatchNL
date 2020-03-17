@@ -204,7 +204,7 @@ province_data <- data %>%
 province_data %>%
   filter(Datum > max(Datum) - 3) %>%
   ggplot() +
-  geom_sf(aes(fill=Aantal, color=Aantal)) +
+  geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) +
   facet_grid(cols = vars(Datum)) +
   theme_minimal() +
   theme(axis.text.x=element_blank(),
