@@ -27,6 +27,8 @@ def download_rivm_data():
     data = page.get_element_by_id("csvData").text
     data = data.lstrip()
 
+    print(data)
+
     datetime_pub = data.split("\n")[1].split(";")[0]
     datetime_pub = re.sub('[^a-zA-Z0-9]', '-', datetime_pub)
 
