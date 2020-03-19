@@ -70,13 +70,14 @@ data %>%
 
 data %>%
   filter(Datum == max(Datum), !is.na(Gemeentenaam)) %>%
+  # TODO arrange from highest to lowest?
   ggplot(aes(Provincienaam, Aantal)) +
   geom_col() +
   theme_minimal() +
   theme(axis.text.x=element_text(angle=45,hjust=1,vjust=1.1)) +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
-  ggtitle("Positief-geteste Coronavirus besmettingen per provincie") +
+  labs(title = "Positief-geteste Coronavirus besmettingen per provincie") +
   ggsave("plots/province_count.png", width = 6, height=4)
 
 data %>%
@@ -92,7 +93,7 @@ data %>%
   coord_cartesian(
     xlim = c(min(data$Datum, na.rm = TRUE), lubridate::today() + 3)) +
   geom_vline(xintercept = lubridate::today(), colour = "red") +
-  ggtitle("Positief-geteste Coronavirus besmettingen per provincie") +
+  labs(title = "Positief-geteste Coronavirus besmettingen per provincie") +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
   ggsave("plots/province_count_time.png", width = 6, height=4)
@@ -156,7 +157,8 @@ pred %>%
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
-  ggtitle("Aantal positief-geteste Coronavirus besmettingen met exponentiële groei model") +
+  labs(title = "Aantal positief-geteste Coronavirus besmettingen",
+       subtitle = "met exponentiële groei model voor >200 besmettingen") +
   ggsave("plots/prediction.png", width = 6, height=4)
 
 pred %>%
@@ -176,7 +178,8 @@ pred %>%
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
-  ggtitle("Aantal positief-geteste Coronavirus besmettingen met exponentiële groei model op een logaritmische schaal") +
+  labs(title = "Aantal positief-geteste Coronavirus besmettingen",
+       subtitle = "met exponentiële groei model voor >200 op een logaritmische schaal") +
   ggsave("plots/prediction_log10.png", width = 6, height=4)
 
 # maps
