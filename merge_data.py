@@ -177,5 +177,7 @@ if __name__ == '__main__':
 
     result["Gemeentecode"] = result["Gemeentecode"].astype(int)
 
+    result = result[result["Aantal"] != 0]
+
     print(result.tail())
     result.to_csv(Path("data", "rivm_corona_in_nl.csv"), index=False)
