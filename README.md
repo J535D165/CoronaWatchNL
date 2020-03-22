@@ -8,7 +8,7 @@ Vanaf 3 maart vermeldt het RIVM ook dagelijks de aantallen per gemeente op de we
 
 ## Dit project :exclamation: Dagelijkse updates :exclamation:
 
-Op dit moment delen RIVM and https://www.volksgezondheidenzorg.info geen datasets met de datum van diagnose op de sites. Het is daarom lastig om een overzicht te krijgen van het tijdsverloop (en gemeente). Deze informatie is belangrijk voor journalisten, onderzoekers en iedereen die geinteresseerd is. Dit project downloadt daarom **ieder uur** de laatste gegevens van de RIVM naar de repo. In de map [raw_data/](raw_data/) is deze gedwonloade en niet-verwerkte data van het RIVM te vinden. De map [data/](data/) bevat datasets die gereed gemaakt zijn voor analyse. 
+Op dit moment delen RIVM en https://www.volksgezondheidenzorg.info geen datasets met de datum van diagnose op de sites. Het is daarom lastig om een overzicht te krijgen van het tijdsverloop (en gemeente). Deze informatie is belangrijk voor journalisten, onderzoekers en iedereen die geinteresseerd is. Dit project downloadt daarom **ieder uur** de laatste gegevens van de RIVM naar de repo. In de map [raw_data/](raw_data/) is deze gedownloade en niet-verwerkte data van het RIVM te vinden. De map [data/](data/) bevat datasets die gereed gemaakt zijn voor analyse. 
 
 Datasets:
 
