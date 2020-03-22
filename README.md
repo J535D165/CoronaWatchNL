@@ -1,3 +1,5 @@
+## Dutch version, English readme: See Below.
+
 # Ontwikkeling van het coronavirus, gebaseerd op RIVM data
 
 ![corona_artwork.jpg](corona_artwork.jpg)
@@ -90,7 +92,7 @@ Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link
 Stuur een mail naar jonathandebruinos@gmail.com
 
 
----- English ----
+# ---- English ----
 
 # Coronavirus disease in The Netherlands based on RIVM reports
 
