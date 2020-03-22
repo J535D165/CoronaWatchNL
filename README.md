@@ -25,7 +25,7 @@ For academisch gebruik is er deze vermelding:  [![DOI](https://zenodo.org/badge/
 
 Hulp wordt gewaardeerd! We zijn op zoek naar nieuwe grafieken, kaarten, verrijkte datasets en interactieve visualisaties. 
 
-Vermeld problemen svp in de [Issue Tracker] van Github. 
+Vermeld problemen svp in de [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues) van Github. 
 
 Wil je helpen? Kijk dan naar de issues met een `help wanted` vermelding in de [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues).
 
