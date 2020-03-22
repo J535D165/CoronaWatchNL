@@ -5,36 +5,33 @@ dir.create("plots")
 
 data <- read_csv("data/rivm_corona_in_nl.csv")
 data_daily <- read_csv("data/rivm_corona_in_nl_daily.csv")
-measures <- read_csv("ext/maatregelen.csv")
+measures <- read_csv("ext/maatregelen.csv") %>%
+  mutate(name = forcats::fct_reorder(maatregel, start_datum))
 
 data_daily %>%
   ## add_row(Datum = "2020-02-26", Aantal = 0) %>%
   ggplot(aes(Datum, Aantal)) +
   geom_line() +
-  geom_text(x = lubridate::today(), y = Inf, vjust = 1, size = 3.5,
-            label = paste("Vandaag:", format(lubridate::today(), "%d-%m-%Y"))) +
-  coord_cartesian(
-    ylim = c(0, max(data_daily$Aantal, na.rm = TRUE)),
-    xlim = c(min(data_daily$Datum, na.rm = TRUE), lubridate::today() + 3)) +
   scale_x_date(
     date_labels = "%d-%m-%Y",
     date_breaks = "1 weeks",
     date_minor_breaks = "1 days") +
-  theme_minimal() +
-  theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank()) +
-    geom_rect(aes(xmin = start_datum,
+  geom_rect(aes(xmin = start_datum,
                 xmax = verwachtte_einddatum,
                 ymin = -Inf,
                 ymax = -0.025 * max(data_daily$Aantal, na.rm = TRUE),
-                fill = maatregel), inherit.aes = FALSE,
-            alpha = 0.5, data = measures) +
+                fill = name),
+            inherit.aes = FALSE, data = measures) +
   geom_rug(aes(x = start_datum, y = NULL), data = measures) +
-  geom_vline(xintercept = lubridate::today(), colour = "red") +
-  geom_text(aes(x = start_datum, label = maatregel, y = -Inf),
-            size = 3.5, angle = 10, vjust = -4, hjust = 0, data = measures) +
-  scale_fill_viridis_d(guide = FALSE) +
+  coord_cartesian(xlim = c(min(data_daily$Datum), max(data_daily$Datum))) +
+  scale_fill_viridis_d("Maatregel", guide = guide_legend(direction = "vertical")) +
   ggtitle("Aantal positief-geteste Coronavirus besmettingen in Nederland") +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.key.size = unit(1, "mm"),
+        legend.text = element_text(size = 6)) +
   ggsave("plots/timeline.png", width = 6, height=4)
 
 ### Top 10 municipalities
