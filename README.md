@@ -17,7 +17,7 @@ Datasets:
   - :page_facing_up: [RIVM Coronavirus: opgenomen patienten in Nederland](data/rivm_corona_in_nl_hosp.csv) 
   - :page_facing_up: RIVM Coronavirus: aantallen per gemeente  in Nederland [[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv) 
 
-For academisch gebruik is er deze vermelding:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575) en deze paragraaf lezen [License and academic use](#license-and-academic-use)
+For academisch gebruik is er deze vermelding:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575) en hier zijn de voorwaarden te vinden [License and academic use](#license-and-academic-use)
 
 
 
