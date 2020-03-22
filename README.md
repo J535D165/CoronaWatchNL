@@ -81,7 +81,7 @@ Voor meer informatie over de aanpak, is er deze [YouTube video](https://www.yout
 
 De grafieken en data vallen on de de volgende licentie [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). De originele data is copyright RIVM. 
 
-Voor academic gebruik, gebruik presistente data van [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575). Dit is een persistent kopie van de data. Het versienummer verwijst naar de datum. Please cite:
+Voor academic gebruik, gebruik presistente data van [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575). Dit is een kopie van de data die ongewijzigd blijft. Het versienummer verwijst naar de datum. Please cite:
 
 ```De Bruin, J. (2020). Number of diagnoses with coronavirus disease (COVID-19) in The Netherlands (Version v2020.3.15) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3711575```
 
