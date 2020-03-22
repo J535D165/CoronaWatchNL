@@ -150,6 +150,8 @@ if __name__ == '__main__':
             df_day = parse_new_format(file, n_missing=112)
         elif file == Path('raw_data') / "peildatum-21-maart-14-00.csv":
             df_day = parse_new_format(file, n_missing=137)
+        elif file == Path('raw_data') / "peildatum-22-maart-14-00.csv":
+            df_day = parse_new_format(file, n_missing=155)  # wrong number in data file (55)
         else:
             df_day = parse_new_format(file)
 
