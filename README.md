@@ -17,7 +17,7 @@ Datasets:
   - :page_facing_up: [RIVM Coronavirus: opgenomen patienten in Nederland](data/rivm_corona_in_nl_hosp.csv) 
   - :page_facing_up: RIVM Coronavirus: aantallen per gemeente  in Nederland [[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv) 
 
-For academisch gebruik, graa deze vermelden:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575) en deze paragraaf lezen [License and academic use](#license-and-academic-use)
+For academisch gebruik is er deze vermelding:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575) en deze paragraaf lezen [License and academic use](#license-and-academic-use)
 
 
 
@@ -33,7 +33,7 @@ Lees https://github.com/J535D165/CoronaWatchNL/actions and [/.github/workflows](
 
 ## :chart_with_upwards_trend: Grafieken
 
-The following graphs show the development of Coronavirus on a daily basis. The underlying data can be found in [data/rivm_corona_in_nl.csv](data/rivm_corona_in_nl.csv). The [graphs](/graphs) are updated on an hourly basis and were generated automatically. Please validate the numbers in the graphs before publishing. See the license section for information about sharing the graphs.
+De volgende grafieken laten de dagelijkse ontwikkeling van het Coronavirus zien. De bijhorende data is hier te vinden: [data/rivm_corona_in_nl.csv](data/rivm_corona_in_nl.csv). De [grafieken](/graphs) worden ieder uur bijgewerkt en worden automatisch gegenereerd. Controleer de getallen voor publicatie en lees het deel over licenties voor deze te delen. 
 
 ![plots/timeline.png](plots/timeline.png)
 
@@ -44,53 +44,42 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 ![plots/province_count_time.png](plots/province_count_time.png)
 
 
-### Maps
+### Kaarten
 
 ![plots/map_province.png](plots/map_province.png)
 
 ![plots/map_nl_corona_abs_municipality.gif?raw=true](plots/map_nl_corona_abs_municipality.gif?raw=true)
 ![plots/map_nl_corona_diff_municipality.gif?raw=true](plots/map_nl_corona_diff_municipality.gif?raw=true)
 
-### Forecast
+### Voorspellingen
 
-The first predictions are based on exponential growth model.
-![plots/prediction.png](plots/prediction.png)
+De eerste voorspellingen zijn gebaseerd op modellen voor exponentiele groei. ![plots/prediction.png](plots/prediction.png)
 
-Note, however that the data no longer behave exponentially. If we plot them on
-a log axis they deviate from the line quite drastically!
+De data laat nu echter een ander beeld zien dan exponentiele groei. Als we de data op een logaritmische schaal zetten, dan wijkt de data drastisch af van de lijn!
 ![plots/prediction_log10.png](plots/prediction_log10.png)
 
-Thus we try to fit a sigmoidal curve. One way to fit this, is to first estimate
-the growth rate, which we define here as the ratio of new cases over previous
-new cases. Once this growth rate reaches 1, it is likely that the data will
-stop following an exponential pattern and will taper down into a sigmoid
-curvature.
-
-Here is the development of the growth factor over time, with a linear model fit
-to try to estimate when the inflection point will occur (or has occurred).
+We proberen daarom een sigmoide functie. Een manier om dit passend te maken, is om de mate van groei te bepalen. Deze definieren we als de ratio van nieuwe gevallen over nieuwe gevallen uit de eerdere periode. Asl deze ratio 1 bereikt, dan is de kans groot dat de groei geen exponentiele curve volgt, maar afneemt naar een sigmoide functie. Hier is de ontwikkeling van de groeifactor over tijd, met een lineair model om te bepalen wanneer dit moment zich voor zal doen. 
 
 ![plots/growthfactor.png](plots/growthfactor.png)
 
-This then results in the following sigmoidal fit:
+Dit leidt dan tot de volgende sigmoide functie:
 ![plots/sigmoid.png](plots/sigmoid.png)
 
-For more information about this approach, please watch
-[the YouTube video](https://www.youtube.com/watch?v=Kas0tIxDvrg) that inspired
-this approach, by Grant Sanderson
+Voor meer informatie over de aanpak, is er deze [YouTube video](https://www.youtube.com/watch?v=Kas0tIxDvrg) door Grant Sanderson, die ons inspireerde tot deze aanpak
 ([3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)).
 
-## Interesting links
+## Interessante links
 
 - https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca
 - http://www.casperalbers.nl/nl/post/2020-03-11-coronagrafieken/
 - https://worktimesheet2014.blogspot.com/2020/03/coronovirus-in-netherlands-power-bi.html (Made with CoronaWatchNL data)
 - https://www.youtube.com/watch?v=Kas0tIxDvrg
 
-## License and academic use
+## Licentie and academisch gebruik
 
-The graphs and data are licensed [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). The original data is copyright RIVM. 
+De grafieken en data vallen on de de volgende licentie [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). De originele data is copyright RIVM. 
 
-For academic use, use presistent data from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575). This is a persistent copy of the data. Version number refer to the date. Please cite:
+Voor academic gebruik, gebruik presistente data van [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575). Dit is een persistent kopie van de data. Het versienummer verwijst naar de datum. Please cite:
 
 ```De Bruin, J. (2020). Number of diagnoses with coronavirus disease (COVID-19) in The Netherlands (Version v2020.3.15) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3711575```
 
@@ -98,7 +87,7 @@ Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link
 
 ## Contact
 
-Please reach out at jonathandebruinos@gmail.com
+Stuur een mail naar jonathandebruinos@gmail.com
 
 
 ---- English ----
