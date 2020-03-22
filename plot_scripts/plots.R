@@ -190,4 +190,4 @@ province_data %>%
         axis.text.y=element_blank()) +
   scale_colour_gradient(low = "grey", high = "red", na.value = NA) +
   scale_fill_gradient(low = "grey", high = "red", na.value = NA) +
-  ggsave("plots/map_province.png", width = 6, height=2)
+  ggsave("plots/map_province.png", width = 6, height=2, geometry = geometry)
