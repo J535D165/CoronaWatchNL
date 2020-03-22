@@ -40,35 +40,26 @@ data_daily %>%
 top_10_municipalities <- data %>%
   filter(!is.na(Gemeentenaam)) %>%
   arrange(desc(Datum), desc(Aantal)) %>%
-  head(10) %>%
-  select(Gemeentenaam)
+  filter(Gemeentenaam %in% head(Gemeentenaam, 10))
 
 # make plot
-data %>%
-  filter(!is.na(Gemeentenaam)) %>%
-  inner_join(top_10_municipalities) %>%
-  complete(Gemeentenaam, Datum, fill=list("Aantal"=0)) %>%
-  arrange(desc(Datum), desc(Aantal)) %>%
-  mutate(Gemeentenaam = factor(Gemeentenaam, levels=pull(top_10_municipalities, Gemeentenaam))) %>%
+top_10_municipalities %>%
   ggplot(aes(Datum, Aantal, color=Gemeentenaam)) +
   geom_line() +
   theme_minimal() +
   scale_x_date(date_breaks = "1 weeks",
                date_minor_breaks = "1 days") +
-  geom_vline(xintercept = lubridate::today(), colour = "red") +
-  coord_cartesian(
-    xlim = c(min(data_daily$Datum, na.rm = TRUE), lubridate::today() + 3)) +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
   ggtitle("Gemeentes met de meeste positief-geteste Coronavirus besmettingen") +
   ggsave("plots/top_municipalities.png", width = 6, height=4)
 
 ### Per province
-
 data %>%
   filter(Datum == max(Datum), !is.na(Gemeentenaam)) %>%
-  # TODO arrange from highest to lowest?
-  ggplot(aes(Provincienaam, Aantal)) +
+  mutate(Provincie = forcats::fct_reorder(
+    Provincienaam, Aantal, .fun = sum, .desc = TRUE)) %>%
+  ggplot(aes(Provincie, Aantal)) +
   geom_col() +
   theme_minimal() +
   theme(axis.text.x=element_text(angle=45,hjust=1,vjust=1.1)) +
@@ -87,9 +78,6 @@ data %>%
   scale_x_date(date_labels = "%d-%m-%Y",
                date_breaks = "1 weeks",
                date_minor_breaks = "1 days") +
-  coord_cartesian(
-    xlim = c(min(data$Datum, na.rm = TRUE), lubridate::today() + 3)) +
-  geom_vline(xintercept = lubridate::today(), colour = "red") +
   labs(title = "Positief-geteste Coronavirus besmettingen per provincie") +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
@@ -128,7 +116,6 @@ pred %>%
   geom_hline(yintercept = 1) +
   ggtitle("Groeisnelheid van positief-geteste Corona besmettingen in Nederland") +
   theme_minimal() +
-  geom_vline(xintercept = lubridate::today(), colour = "red") +
   scale_x_date(date_labels = "%d-%m-%Y",
                date_breaks = "1 weeks",
                date_minor_breaks = "1 days") +
@@ -144,10 +131,8 @@ pred %>%
   geom_point(aes(y = fit), colour = "red",
              data = filter(pred, Datum > max(data_daily$Datum))) +
   geom_line() +
-  geom_vline(xintercept = lubridate::today(), colour = "red") +
   geom_point() +
   ylim(0, NA) +
-  ## scale_y_log10() + # also cool to see how it's already deviating from the line!
   scale_x_date(date_labels = "%d-%m-%Y",
                date_breaks = "1 weeks",
                date_minor_breaks = "1 days") +
@@ -166,7 +151,6 @@ pred %>%
   geom_point(aes(y = fit), colour = "red",
              data = filter(pred, Datum > max(data_daily$Datum))) +
   geom_line() +
-  geom_vline(xintercept = lubridate::today(), colour = "red") +
   geom_point() +
   scale_y_log10() +
   scale_x_date(date_labels = "%d-%m-%Y",
