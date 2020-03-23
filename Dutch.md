@@ -1,4 +1,4 @@
-
+![corona_artwork.jpg](corona_artwork.jpg)
 
 # Ontwikkeling van het coronavirus, gebaseerd op RIVM data
 
