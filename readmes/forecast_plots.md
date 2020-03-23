@@ -21,7 +21,7 @@ to try to estimate when the inflection point will occur (or has occurred).
 ![plots/growthfactor.png](plots/growthfactor.png)
 
 This then results in the following sigmoidal fit:
-![plots/sigmoid.png](plots/sigmoid.png) 
+![plots/sigmoid.png](plots/sigmoid.png)
 
 For more information about this approach, please watch
 [the YouTube video](https://www.youtube.com/watch?v=Kas0tIxDvrg) that inspired

@@ -47,7 +47,7 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 [Click here fore a subpage with all forecasts](readmes/forecast_plots.md)
 
-!(Forecasts)[plots/static/static_forecast.png] 
+!(Forecasts)[plots/static/static_forecast.png]
 
 ## Interesting links
 
