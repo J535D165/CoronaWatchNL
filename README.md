@@ -4,7 +4,7 @@
 
 The current outbreak of coronavirus disease (COVID-19) that was first reported from Wuhan, China, on 31 December 2019. On 27 February 2019, a patient in The Netherlands was diagnosed with the coronavirus (COVID-19), according to the RIVM (National Institute for Public Health and the Environment). Within a week, more than a hundred cases were confirmed. The RIVM reports the number of positive cases on its [website](https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus).
 
-Since 3 March, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured. ~The [raw numbers]( https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19#definities) can be found on the government-owned website https://www.volksgezondheidenzorg.info.~ The most recent numbers can be found at https://www.rivm.nl/coronavirus-kaart-van-nederland. 
+Since 3 March, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured. ~The [raw numbers]( https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19#definities) can be found on the government-owned website https://www.volksgezondheidenzorg.info.~ The most recent numbers can be found at https://www.rivm.nl/coronavirus-kaart-van-nederland.
 
 ## This project :exclamation: Daily updates :exclamation:
 
@@ -12,10 +12,10 @@ At the moment of writing, RIVM and https://www.volksgezondheidenzorg.info don't 
 
 Datasets:
 
-  - :page_facing_up: [RIVM Coronavirus counts in The Netherlands](data/rivm_corona_in_nl_daily.csv) 
-  - :page_facing_up: [RIVM Coronavirus fatalities in The Netherlands](data/rivm_corona_in_nl_fatalities.csv) 
-  - :page_facing_up: [RIVM Coronavirus hospitalizations in The Netherlands](data/rivm_corona_in_nl_hosp.csv) 
-  - :page_facing_up: RIVM Coronavirus counts in The Netherlands for each municipality [[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv) 
+  - :page_facing_up: [RIVM Coronavirus counts in The Netherlands](data/rivm_corona_in_nl_daily.csv)
+  - :page_facing_up: [RIVM Coronavirus fatalities in The Netherlands](data/rivm_corona_in_nl_fatalities.csv)
+  - :page_facing_up: [RIVM Coronavirus hospitalizations in The Netherlands](data/rivm_corona_in_nl_hosp.csv)
+  - :page_facing_up: RIVM Coronavirus counts in The Netherlands for each municipality [[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv)
 
 For academic use, please use  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575) and see the section [License and academic use](#license-and-academic-use)
 
@@ -45,27 +45,9 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 ### Forecast
 
-<<<<<<< HEAD
-The first predictions are based on exponential growth model. We first subset
-the data to any date with more than 200 observations, since before that data
-are more susceptible to noise than in the higher orders of magnitude.
-![plots/prediction.png](plots/prediction.png)
-
-Note, however that the data no longer behave exponentially. If we plot them on
-a log axis they deviate from the line quite drastically!
-![plots/prediction_log10.png](plots/prediction_log10.png)
-
-<!-- TODO: update this section with the new approach -->
-Thus we try to fit a sigmoidal curve. One way to fit this, is to first estimate
-the growth rate, which we define here as the ratio of new cases over previous
-new cases. Once this growth rate reaches 1, it is likely that the data will
-stop following an exponential pattern and will taper down into a sigmoid
-curvature.
-=======
 [Click here fore a subpage with all forecasts](readmes/forecast_plots.md)
 
 ![Forecasts](plots/static/static_forecast.png)
->>>>>>> master
 
 ## Interesting links
 
@@ -76,7 +58,7 @@ curvature.
 
 ## License and academic use
 
-The graphs and data are licensed [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). The original data is copyright RIVM. 
+The graphs and data are licensed [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/). The original data is copyright RIVM.
 
 For academic use, use presistent data from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575). This is a persistent copy of the data. Version number refer to the date. Please cite:
 
