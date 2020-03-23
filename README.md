@@ -35,19 +35,19 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 
 [Click here for a subpage with all descriptive plots](readmes/descriptive_plots.md)
 
-![Descriptive plots](plots/static/static_descriptive.png)
+!(Descriptive plots)[plots/static/static_descriptive.png]
 
 ### Maps
 
 [Click here for a subpage with all maps](readmes/map_plots.md)
 
-![Map plots](plots/static/static_maps.png)
+!(Map plots)[plots/static/static_maps.png]
 
 ### Forecast
 
 [Click here fore a subpage with all forecasts](readmes/forecast_plots.md)
 
-![Forecasts](plots/static/static_forecast.png)
+!(Forecasts)[plots/static/static_forecast.png]
 
 ## Interesting links
 
