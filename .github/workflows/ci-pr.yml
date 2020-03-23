@@ -1,0 +1,33 @@
+name: "Update datasets"
+on:
+  pull_request
+
+jobs:
+  download:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Download and merge
+        run: |
+          python download_rivm_corona.py
+          python merge_data.py
+          python render_datasets.py
+      - name: Python plots
+        run: |
+          python plot_scripts/animated_maps.py
+          python plot_scripts/python_plots.py
+      - uses: r-lib/actions/setup-r@master
+      - name: Install R dependencies
+        run: |
+          options(install.packages.check.source = "no")
+          install.packages(c("tidyverse", "sf"), type="binary")
+        shell: Rscript {0}
+      - name: Render plots
+        run: Rscript plot_scripts/plots.R

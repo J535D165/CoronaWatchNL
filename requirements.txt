@@ -1,5 +1,6 @@
 lxml
 pandas
+numpy
 requests
 matplotlib
 sklearn

@@ -21,23 +21,6 @@ jobs:
       - name: Download and merge
         run: |
           python download_rivm_corona.py
-          python merge_data.py
-          python render_datasets.py
-      - name: Python plots
-        run: |
-          python python_plots.py
-        continue-on-error: true
-      - uses: r-lib/actions/setup-r@master
-        continue-on-error: true
-      - name: Install R dependencies
-        run: |
-          options(install.packages.check.source = "no")
-          install.packages(c("tidyverse", "sf"), type="binary")
-        shell: Rscript {0}
-        continue-on-error: true
-      - name: Render plots
-        run: Rscript plots.R
-        continue-on-error: true
       - name: Commit files
         run: |
           git config --local user.email "jonathandebruinos@gmail.com"
