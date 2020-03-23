@@ -4,13 +4,25 @@ pdf(NULL)
 dir.create("plots")
 
 data <- read_csv("data/rivm_corona_in_nl.csv")
-data_daily <- read_csv("data/rivm_corona_in_nl_daily.csv")
+
+# daily data
+test <- read_csv("data/rivm_corona_in_nl_daily.csv")
+fata <- read_csv("data/rivm_corona_in_nl_fatalities.csv")
+hosp <- read_csv("data/rivm_corona_in_nl_hosp.csv")
+
 measures <- read_csv("ext/maatregelen.csv") %>%
   mutate(name = forcats::fct_reorder(maatregel, start_datum))
 
-data_daily %>%
-  ## add_row(Datum = "2020-02-26", Aantal = 0) %>%
-  ggplot(aes(Datum, Aantal)) +
+# combine daily data
+daily <- test %>%
+  mutate(meas = "Aantal positief geteste mensen") %>%
+  bind_rows(hosp %>%
+              mutate(meas = "Aantal gehospitaliseerde mensen")) %>%
+  bind_rows(fata %>%
+              mutate(meas = "Aantal overleden mensen"))
+
+daily %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
   geom_line() +
   scale_x_date(
     date_labels = "%d-%m-%Y",
@@ -19,12 +31,13 @@ data_daily %>%
   geom_rect(aes(xmin = start_datum,
                 xmax = verwachtte_einddatum,
                 ymin = -Inf,
-                ymax = -0.025 * max(data_daily$Aantal, na.rm = TRUE),
+                ymax = -0.025 * max(test$Aantal, na.rm = TRUE),
                 fill = name),
             inherit.aes = FALSE, data = measures) +
-  geom_rug(aes(x = start_datum, y = NULL), data = measures) +
-  coord_cartesian(xlim = c(min(data_daily$Datum), max(data_daily$Datum))) +
+  geom_rug(aes(x = start_datum), inherit.aes = FALSE, data = measures) +
+  coord_cartesian(xlim = c(min(test$Datum), max(test$Datum))) +
   scale_fill_viridis_d("Maatregel", guide = guide_legend(direction = "vertical")) +
+  scale_colour_discrete("", guide = guide_legend(direction = "vertical")) +
   ggtitle("Aantal positief-geteste Coronavirus besmettingen in Nederland") +
   theme_minimal() +
   theme(axis.title.x=element_blank(),
@@ -87,17 +100,17 @@ data %>%
 ### Model fits
 
 ## plots
-data_daily_ext <- data_daily %>%
+test_ext <- test %>%
   # add some new rows for which we wish to predict the values
   bind_rows(tibble(Datum = seq(max(.$Datum) + 1, max(.$Datum) + 3, 1))) %>%
   arrange(Datum)
 
-exponential.model <- lm(log(Aantal + 1) ~ Datum, data = filter(data_daily_ext, Aantal > 200))
+exponential.model <- lm(log(Aantal + 1) ~ Datum, data = filter(test_ext, Aantal > 200))
 summary(exponential.model)
 
-pred <- cbind(data_daily_ext,
+pred <- cbind(test_ext,
               exp(predict(exponential.model,
-                          newdata = list(Datum = data_daily_ext$Datum),
+                          newdata = list(Datum = test_ext$Datum),
                           interval = "confidence"))) %>%
   mutate(new = Aantal - lag(Aantal),
          growth = new / lag(new),
