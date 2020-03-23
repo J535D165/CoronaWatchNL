@@ -128,9 +128,9 @@ pred %>%
   geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = .2, fill = "red") +
   geom_line(aes(y = fit), colour = "red") +
   # only points for future dates?
-  geom_point(aes(y = fit), colour = "red",
-             data = filter(pred, Datum > max(data_daily$Datum))) +
+  geom_point(aes(y = fit), colour = "red") +
   geom_line() +
+  geom_vline(xintercept = lubridate::today(), colour = "red") +
   geom_point() +
   ylim(0, NA) +
   scale_x_date(date_labels = "%d-%m-%Y",

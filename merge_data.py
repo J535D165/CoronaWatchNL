@@ -49,7 +49,7 @@ def parse_old_format(file, total=None):
     return df
 
 
-def parse_new_format(file):
+def parse_new_format(file, n_missing=None):
 
     # find date
     date = datetime.date(
@@ -86,7 +86,7 @@ def parse_new_format(file):
     try:
         n_missing = int(missing[0][0]) + int(missing[0][1])
     except Exception:
-        n_missing = None
+        pass
 
     # remove junk rows
     df = df[df['id'] >= 0].copy()
@@ -146,10 +146,19 @@ if __name__ == '__main__':
     # files after 2020-03-11
     for file in Path('raw_data').glob('peildatum*.csv'):
 
-        df_day = parse_new_format(file)
+        if file == Path('raw_data') / "peildatum-20-maart-14-00.csv":
+            df_day = parse_new_format(file, n_missing=112)
+        elif file == Path('raw_data') / "peildatum-21-maart-14-00.csv":
+            df_day = parse_new_format(file, n_missing=137)
+        elif file == Path('raw_data') / "peildatum-22-maart-14-00.csv":
+            df_day = parse_new_format(file, n_missing=155)  # wrong number in data file (55)
+        elif file == Path('raw_data') / "peildatum-23-maart-14-30.csv":
+            df_day = parse_new_format(file, n_missing=184)
+        else:
+            df_day = parse_new_format(file)
 
         # fix typos in peildatum 12 maart
-        if file == "peildatum-12-maart-14-00.csv":
+        if file == Path('raw_data') / "peildatum-12-maart-14-00.csv":
             df_day.loc[df_day["Gemeente"] == "BeekDaelen", "Gemeente"] = \
                 "Beekdaelen"
             df_day.loc[df_day["Gemeente"] == "Súdwest Fryslân", "Gemeente"] = \
@@ -173,6 +182,8 @@ if __name__ == '__main__':
         fillna({"Gemeentecode": -1})
 
     result["Gemeentecode"] = result["Gemeentecode"].astype(int)
+
+    result = result[result["Aantal"] != 0]
 
     print(result.tail())
     result.to_csv(Path("data", "rivm_corona_in_nl.csv"), index=False)
