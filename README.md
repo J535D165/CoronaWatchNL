@@ -1,5 +1,6 @@
 
-# Ontwikkeling van het coronavirus, gebaseerd op RIVM data # [klik hier voor de Nederlandse versie](Dutch.md)
+# Ontwikkeling van het coronavirus, gebaseerd op RIVM data  
+[klik hier voor de Nederlandse versie](Dutch.md)
 
 # ---- English ----
 
