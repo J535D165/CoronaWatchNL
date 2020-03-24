@@ -4,21 +4,47 @@ pdf(NULL)
 dir.create("plots")
 
 data <- read_csv("data/rivm_corona_in_nl.csv")
-data_daily <- read_csv("data/rivm_corona_in_nl_daily.csv")
 
-data_daily %>%
-  ## add_row(Datum = "2020-02-26", Aantal = 0) %>%
-  ggplot(aes(Datum, Aantal)) +
+# daily data
+data_daily <- read_csv("data/rivm_corona_in_nl_daily.csv")
+fata <- read_csv("data/rivm_corona_in_nl_fatalities.csv")
+hosp <- read_csv("data/rivm_corona_in_nl_hosp.csv")
+
+measures <- read_csv("ext/maatregelen.csv") %>%
+  mutate(name = forcats::fct_reorder(maatregel, start_datum))
+
+# combine daily data
+daily <- data_daily %>%
+  mutate(meas = "Aantal positief geteste mensen") %>%
+  bind_rows(hosp %>%
+              mutate(meas = "Aantal gehospitaliseerde mensen")) %>%
+  bind_rows(fata %>%
+              mutate(meas = "Aantal overleden mensen"))
+
+daily %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
   geom_line() +
-  ylim(0, NA) +
   scale_x_date(
-    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
-                 by = "1 week"),
+    date_labels = "%d-%m-%Y",
+    date_breaks = "1 weeks",
     date_minor_breaks = "1 days") +
+  geom_rect(aes(xmin = start_datum,
+                xmax = verwachtte_einddatum,
+                ymin = -Inf,
+                ymax = -0.025 * max(data_daily$Aantal, na.rm = TRUE),
+                fill = name),
+            inherit.aes = FALSE, data = measures) +
+  geom_rug(aes(x = start_datum), inherit.aes = FALSE, data = measures) +
+  coord_cartesian(xlim = c(min(data_daily$Datum), max(data_daily$Datum))) +
+  scale_fill_viridis_d("Maatregel", guide = guide_legend(direction = "vertical")) +
+  scale_colour_discrete("", guide = guide_legend(direction = "vertical")) +
+  ggtitle("Aantal positief-geteste Coronavirus besmettingen in Nederland") +
   theme_minimal() +
   theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank()) +
-  ggtitle("Aantal Coronavirus besmettingen") +
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.key.size = unit(1, "mm"),
+        legend.text = element_text(size = 6)) +
   ggsave("plots/timeline.png", width = 6, height=4)
 
 ### Top 10 municipalities
@@ -27,40 +53,32 @@ data_daily %>%
 top_10_municipalities <- data %>%
   filter(!is.na(Gemeentenaam)) %>%
   arrange(desc(Datum), desc(Aantal)) %>%
-  head(10) %>%
-  select(Gemeentenaam)
+  filter(Gemeentenaam %in% head(Gemeentenaam, 10))
 
 # make plot
-data %>%
-  filter(!is.na(Gemeentenaam)) %>%
-  inner_join(top_10_municipalities) %>%
-  complete(Gemeentenaam, Datum, fill=list("Aantal"=0)) %>%
-  arrange(desc(Datum), desc(Aantal)) %>%
-  mutate(Gemeentenaam = factor(Gemeentenaam, levels=pull(top_10_municipalities, Gemeentenaam))) %>%
+top_10_municipalities %>%
   ggplot(aes(Datum, Aantal, color=Gemeentenaam)) +
   geom_line() +
   theme_minimal() +
-  scale_x_date(
-    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
-                 by = "1 week"),
-    date_minor_breaks = "1 days") +
+  scale_x_date(date_breaks = "1 weeks",
+               date_minor_breaks = "1 days") +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
-  ggtitle("Gemeentes met meeste Coronavirus besmettingen") +
+  ggtitle("Gemeentes met de meeste positief-geteste Coronavirus besmettingen") +
   ggsave("plots/top_municipalities.png", width = 6, height=4)
 
 ### Per province
-
 data %>%
-  filter(Datum == max(Datum)) %>%
-  filter(!is.na(Gemeentenaam)) %>%
-  ggplot(aes(Provincienaam, Aantal)) +
+  filter(Datum == max(Datum), !is.na(Gemeentenaam)) %>%
+  mutate(Provincie = forcats::fct_reorder(
+    Provincienaam, Aantal, .fun = sum, .desc = TRUE)) %>%
+  ggplot(aes(Provincie, Aantal)) +
   geom_col() +
   theme_minimal() +
   theme(axis.text.x=element_text(angle=45,hjust=1,vjust=1.1)) +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
-  ggtitle("Coronavirus besmettingen per provincie") +
+  labs(title = "Positief-geteste Coronavirus besmettingen per provincie") +
   ggsave("plots/province_count.png", width = 6, height=4)
 
 data %>%
@@ -70,17 +88,16 @@ data %>%
   ggplot(aes(Datum, Aantal, color=Provincienaam)) +
   geom_line() +
   theme_minimal() +
-  scale_x_date(
-    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
-                 by = "1 week"),
-    date_minor_breaks = "1 days") +
-  ggtitle("Coronavirus besmettingen per provincie") +
+  scale_x_date(date_labels = "%d-%m-%Y",
+               date_breaks = "1 weeks",
+               date_minor_breaks = "1 days") +
+  labs(title = "Positief-geteste Coronavirus besmettingen per provincie") +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
   ggsave("plots/province_count_time.png", width = 6, height=4)
 
 
-### Predictions
+### Model fits
 
 ## plots
 data_daily_ext <- data_daily %>%
@@ -88,14 +105,20 @@ data_daily_ext <- data_daily %>%
   bind_rows(tibble(Datum = seq(max(.$Datum) + 1, max(.$Datum) + 3, 1))) %>%
   arrange(Datum)
 
-exponential.model <- lm(log(Aantal + 1) ~ Datum, data = data_daily_ext)
+exponential.model <- lm(log(Aantal + 1) ~ Datum, data = filter(data_daily_ext, Aantal > 200))
 summary(exponential.model)
 
 pred <- cbind(data_daily_ext,
               exp(predict(exponential.model,
                           newdata = list(Datum = data_daily_ext$Datum),
-                          interval = "confidence")))
+                          interval = "confidence"))) %>%
+  mutate(new = Aantal - lag(Aantal),
+         growth = new / lag(new),
+         # Vincent rescaled to -1 and 1 first
+         ds = scales::rescale(Datum, to = c(-1, 1)),
+         as = scales::rescale(Aantal, to = c(-1, 1)))
 
+# NOTE: this plot is currently not used, as it is the same as what is done in Python currently
 # try to find the inflection point of the sigmoidal fit
 pred %>%
   mutate(new = Aantal - lag(Aantal),
@@ -104,37 +127,33 @@ pred %>%
   geom_point() +
   geom_smooth(method = "lm") +
   geom_hline(yintercept = 1) +
-  ggtitle("Groeisnelheid van COVID-19 in Nederland") +
+  ggtitle("Groeisnelheid van positief-geteste Corona besmettingen in Nederland") +
   theme_minimal() +
-  scale_x_date(
-    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
-                 by = "1 week"),
-    date_minor_breaks = "1 days") +
+  scale_x_date(date_labels = "%d-%m-%Y",
+               date_breaks = "1 weeks",
+               date_minor_breaks = "1 days") +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
   ggsave("plots/growth_rate_time.png", width = 6, height=4)
-
-# TODO: have a look at fitting the sigmoid like Vincent did in python?
 
 pred %>%
   ggplot(aes(Datum, Aantal)) +
   geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = .2, fill = "red") +
   geom_line(aes(y = fit), colour = "red") +
   # only points for future dates?
-  geom_point(aes(y = fit), colour = "red",
-             data = filter(pred, Datum > max(data_daily$Datum))) +
+  geom_point(aes(y = fit), colour = "red") +
   geom_line() +
+  geom_vline(xintercept = lubridate::today(), colour = "red") +
   geom_point() +
   ylim(0, NA) +
-  ## scale_y_log10() + # also cool to see how it's already deviating from the line!
-  scale_x_date(
-    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
-                 by = "1 week"),
-    date_minor_breaks = "1 days") +
+  scale_x_date(date_labels = "%d-%m-%Y",
+               date_breaks = "1 weeks",
+               date_minor_breaks = "1 days") +
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
-  ggtitle("Voorspelling aantal Coronavirus besmettingen") +
+  labs(title = "Aantal positief-geteste Coronavirus besmettingen",
+       subtitle = "met exponentiële groei model voor >200 besmettingen") +
   ggsave("plots/prediction.png", width = 6, height=4)
 
 pred %>%
@@ -147,16 +166,15 @@ pred %>%
   geom_line() +
   geom_point() +
   scale_y_log10() +
-  scale_x_date(
-    breaks = seq(lubridate::ymd("2020-02-26"), lubridate::today(),
-                 by = "1 week"),
-    date_minor_breaks = "1 days") +
+  scale_x_date(date_labels = "%d-%m-%Y",
+               date_breaks = "1 weeks",
+               date_minor_breaks = "1 days") +
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
-  ggtitle("Voorspelling aantal Coronavirus besmettingen") +
+  labs(title = "Aantal positief-geteste Coronavirus besmettingen",
+       subtitle = "met exponentiële groei model voor >200 op een logaritmische schaal") +
   ggsave("plots/prediction_log10.png", width = 6, height=4)
-
 
 # maps
 library(sf)
@@ -183,7 +201,7 @@ province_data <- data %>%
 province_data %>%
   filter(Datum > max(Datum) - 3) %>%
   ggplot() +
-  geom_sf(aes(fill=Aantal, color=Aantal)) +
+  geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) +
   facet_grid(cols = vars(Datum)) +
   theme_minimal() +
   theme(axis.text.x=element_blank(),
