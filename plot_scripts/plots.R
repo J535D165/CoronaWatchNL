@@ -143,7 +143,6 @@ pred %>%
   # only points for future dates?
   geom_point(aes(y = fit), colour = "red") +
   geom_line() +
-  geom_vline(xintercept = lubridate::today(), colour = "red") +
   geom_point() +
   ylim(0, NA) +
   scale_x_date(date_labels = "%d-%m-%Y",
