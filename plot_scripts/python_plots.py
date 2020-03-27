@@ -131,8 +131,14 @@ def create_growthfactor_plot(df, intercepts, coefficients, inflection_date, plot
 
 # %%
 def create_logarithmic_growth_plot(df):
+    # Setup Object Oriented plot because we re-use this function
     fig, ax = plt.subplots(figsize=(15,10))
-    ax.set(xlabel="Totaal cases", ylabel="Nieuwe cases", xscale="log", yscale="log")
+    ax.set(xscale="log", yscale="log", )
+    ax.set_xlabel("Totaal cases", fontsize=15)
+    ax.set_ylabel("Nieuwe cases", fontsize=15)
+
+    ax.grid(which='major', linewidth=1)
+    ax.grid(which='minor', linewidth=0.1)
 
     ax.plot(df['Aantal'], df["New_cases"])
     
