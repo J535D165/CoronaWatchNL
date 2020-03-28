@@ -1,4 +1,5 @@
 library(tidyverse)
+library(cowplot)
 
 pdf(NULL)
 dir.create("plots")
@@ -15,13 +16,55 @@ measures <- read_csv("ext/maatregelen.csv") %>%
 
 # combine daily data
 daily <- data_daily %>%
-  mutate(meas = "Aantal positief geteste mensen") %>%
+  mutate(meas = "Positief geteste patiënten") %>%
   bind_rows(hosp %>%
-              mutate(meas = "Aantal gehospitaliseerde mensen")) %>%
+              mutate(meas = "Gehospitaliseerde patiënten")) %>%
   bind_rows(fata %>%
-              mutate(meas = "Aantal overleden mensen"))
+              mutate(meas = "Overleden patiënten"))
 
-daily %>%
+# combine daily increase
+daily_diff <- data_daily %>%
+  mutate(
+    Aantal = Aantal - lag(Aantal),
+    meas = "Positief geteste patiënten"
+  ) %>%
+  bind_rows(hosp %>%
+              mutate(
+                Aantal = Aantal - lag(Aantal),
+                meas = "Gehospitaliseerde patiënten")) %>%
+  bind_rows(fata %>%
+              mutate(
+                Aantal = Aantal - lag(Aantal),
+                meas = "Overleden patiënten"))
+
+
+g1 = daily %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
+  geom_line() + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#999999", "#E69F00", "#56B4E9")) + 
+  ggtitle("Totaal besmettingen")
+
+g2 = daily_diff %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
+  geom_line() + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#999999", "#E69F00", "#56B4E9")) + 
+  ggtitle("Toename besmettingen")
+
+plot_grid(g1, g2) +
+  ggsave("plots/overview_plot.png", width = 10, height=4)
+
+
+(daily %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
   geom_line() +
   scale_x_date(
@@ -45,7 +88,7 @@ daily %>%
         legend.pos = "bottom",
         legend.key.size = unit(1, "mm"),
         legend.text = element_text(size = 6)) +
-  ggsave("plots/timeline.png", width = 6, height=4)
+  ggsave("plots/timeline.png", width = 6, height=4))
 
 ### Top 10 municipalities
 
