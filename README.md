@@ -1,27 +1,42 @@
 ![corona_artwork.jpg](corona_artwork.jpg)
 
-### Ontwikkeling van het coronavirus, gebaseerd op RIVM data  
+# Dataset: COVID-19 case counts in The Netherlands
 [klik hier voor de Nederlandse versie](Dutch.md)
 
+**CoronaWatchNL** collects COVID-19 disease count cases in **The Netherlands**. Numbers are collected from the RIVM (National Institute for Public Health and the Environment) website on a daily basis. This project collects, standardizes, and publishes data and makes it **Findable, Accessible, Interoperable, and Reusable (FAIR)**. We aim to collect a complete time series and prepare a dataset for reproducible analysis and academic use.
 
-The current outbreak of coronavirus disease (COVID-19) that was first reported from Wuhan, China, on 31 December 2019. On 27 February 2019, a patient in The Netherlands was diagnosed with the coronavirus (COVID-19), according to the RIVM (National Institute for Public Health and the Environment). Within a week, more than a hundred cases were confirmed. The RIVM reports the number of positive cases on its [website](https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus).
+Dutch: 
+> CoronalWatchNL verzameld ziektecijfers over COVID-19 in Nederland. Dagelijks worden de cijfers verzameld van de website van het RIVM. Dit project verzameld, standaardiseerd en publiceerd de gegevens en maakt ze vindbaar, toegankelijk, interoperabel en herbruikbaar (FAIR). We streven ernaar om een dataset beschikbaar te stellen voor reproduceerbare analyses en wetenschappelijk gebruik. 
 
-Since 3 March, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured. ~The [raw numbers]( https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19#definities) can be found on the government-owned website https://www.volksgezondheidenzorg.info.~ The most recent numbers can be found at https://www.rivm.nl/coronavirus-kaart-van-nederland.
+## Datasets
 
-## This project :exclamation: Daily updates :exclamation:
+The following datasets are available for reuse. :exclamation: Daily updates :exclamation:
 
-At the moment of writing, RIVM and https://www.volksgezondheidenzorg.info don't publish datasets with the date of diagnosis on their websites. Therefore, it is hard to get an overview of development in time (and municipality). This information is important to journalists and scientists as well as for the public. Therefore, this project downloads the latest numbers from the website of the RIVM **every hour** and pushes the data to this repo. Please see the folder  [raw_data/](raw_data/) for the non-processed data downloaded from RIVM. The folder [data/](data/) contains processed datasets ready to use for analysis.
+| Dataset | URL | Source | Variables |
+|---|---| --- | --- |
+| COVID-19 disease case counts in NL |[[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 
+| COVID-19 disease case counts in NL | [data/rivm_corona_in_nl_daily.csv](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| 
+| COVID-19 fatalities in NL | [data/rivm_corona_in_nl_fatalities.csv](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | 
+| COVID-19 fatalities in NL | [data/rivm_corona_in_nl_hosp.csv](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | 
 
-Datasets:
-
-  - :page_facing_up: [RIVM Coronavirus counts in The Netherlands](data/rivm_corona_in_nl_daily.csv)
-  - :page_facing_up: [RIVM Coronavirus fatalities in The Netherlands](data/rivm_corona_in_nl_fatalities.csv)
-  - :page_facing_up: [RIVM Coronavirus hospitalizations in The Netherlands](data/rivm_corona_in_nl_hosp.csv)
-  - :page_facing_up: RIVM Coronavirus counts in The Netherlands for each municipality [[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv)
+CoronaWatchNL collects copies of the raw data such that data collection is verifiable. Copies of the collected data can be found in the folder [raw_data/](raw_data/). The data isn't standardised.
 
 For academic use, please use  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575) and see the section [License and academic use](#license-and-academic-use)
 
+## COVID-19 sources
 
+The following sources are used for data collection. 
+
+| Source | Institute |Collected variables |
+|---|---| --- |
+| https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus | RIVM | Positively tested patients, Fatalities (total), Hospitalized (total) | 
+| https://www.rivm.nl/coronavirus-kaart-van-nederland-per-gemeente | RIVM | Positive tests per municipality | 
+| https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus/data | RIVM |Epidemiological reports | 
+
+
+## Remarks 
+
+Since 3 March 2020, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured.
 
 ## Get involved
 
@@ -70,5 +85,4 @@ Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link
 
 ## Contact
 
-### Coronavirus disease in The Netherlands based on RIVM reports
-[click here for the English version](English.md)
+Please send an email to jonathandebruinos@gmail.com
