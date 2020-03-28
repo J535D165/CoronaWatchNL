@@ -23,7 +23,7 @@ CoronaWatchNL collects copies of the raw data such that data collection is verif
 
 For academic use, please use  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3711575.svg)](https://doi.org/10.5281/zenodo.3711575) and see the section [License and academic use](#license-and-academic-use)
 
-## COVID-19 sources
+## Data collection sources
 
 The following sources are used for data collection. 
 
@@ -38,13 +38,8 @@ The following sources are used for data collection.
 
 Since 3 March 2020, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured.
 
-## Get involved
 
-Help on this project is appreciated. We are looking for new graphs, maps, enriched datasets and interactive visualisations. Please report issues in the Issue Tracker. Want to contribute? Please check out the `help wanted` tag in the [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues).
-
-See https://github.com/J535D165/CoronaWatchNL/actions and [/.github/workflows](/.github/workflows) for technical details regarding data collection and scheduling.
-
-## :chart_with_upwards_trend: Graphs
+## Graphs
 
 The following graphs show the development of Coronavirus on a daily basis. The underlying data can be found in the [data folder](/data). The [graphs](/plots) are updated on an hourly basis and were generated automatically. Please validate the numbers in the graphs before publishing. See the license section for information about sharing the graphs.
 
@@ -83,6 +78,10 @@ For academic use, use presistent data from [![DOI](https://zenodo.org/badge/DOI/
 
 Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4901881) via [Pixabay](https://pixabay.com/nl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4901881)
 
-## Contact
+## CoronaWatchNL 
+
+CoronaWatchNL is collective of researchers and volunteers in The Netherlands. We aim to make the reported number on COVID-19 disease in The Netherlands FAIR. 
+
+Help on this project is appreciated. We are looking for new datasets, data updates, graphs and maps. Please report issues in the Issue Tracker. Want to contribute? Please check out the `help wanted` tag in the [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues).
 
 Please send an email to jonathandebruinos@gmail.com
