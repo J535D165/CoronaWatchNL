@@ -1,6 +1,8 @@
-# Coronavirus disease in The Netherlands based on RIVM reports
-
 ![corona_artwork.jpg](corona_artwork.jpg)
+
+### Ontwikkeling van het coronavirus, gebaseerd op RIVM data  
+[klik hier voor de Nederlandse versie](Dutch.md)
+
 
 The current outbreak of coronavirus disease (COVID-19) that was first reported from Wuhan, China, on 31 December 2019. On 27 February 2019, a patient in The Netherlands was diagnosed with the coronavirus (COVID-19), according to the RIVM (National Institute for Public Health and the Environment). Within a week, more than a hundred cases were confirmed. The RIVM reports the number of positive cases on its [website](https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus).
 
@@ -68,4 +70,5 @@ Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link
 
 ## Contact
 
-Please reach out at jonathandebruinos@gmail.com
+### Coronavirus disease in The Netherlands based on RIVM reports
+[click here for the English version](English.md)
