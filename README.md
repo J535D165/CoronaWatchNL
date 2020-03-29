@@ -18,7 +18,7 @@ The following datasets are available for reuse. :exclamation: Daily updates :exc
 | COVID-19 disease case counts in NL | [data/rivm_corona_in_nl_daily.csv](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| 
 | COVID-19 fatalities in NL | [data/rivm_corona_in_nl_fatalities.csv](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | 
 | COVID-19 fatalities in NL | [data/rivm_corona_in_nl_hosp.csv](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | 
-| RIVM press releases (NEW) | [data/rivm_press_release.csv](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date and Time, Content of press release | 
+| RIVM press releases (NEW) | [data/rivm_press_releases.csv](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release | 
 
 
 CoronaWatchNL collects copies of the raw data such that data collection is verifiable. Copies of the collected data can be found in the folder [raw_data/](raw_data/). The data isn't standardised.
