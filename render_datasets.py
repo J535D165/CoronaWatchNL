@@ -36,9 +36,11 @@ def wide_data(data):
     df_mun = pandas.read_csv(
         Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
     )[["Gemeentenaam", "Gemeentecode", "Provincienaam"]].\
+        append({"Gemeentenaam": None, "Gemeentecode": -1, "Provincienaam": None}, ignore_index=True).\
         merge(df, how="left").\
         sort_values("Gemeentecode")
 
+    df_mun["Gemeentecode"] = df_mun["Gemeentecode"].astype(int)
     df_mun.iloc[:, 3:] = df_mun.iloc[:, 3:].fillna(0).astype(int)
     return df_mun
 

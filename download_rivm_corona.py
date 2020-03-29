@@ -28,11 +28,10 @@ def download_rivm_data():
     data = data.lstrip()
 
     print(data)
+    datetime_pub = re.search(r'\d{1,2}.*2020 \d{1,2}.\d{2}', doc.content.decode())
+    datetime_pub = re.sub('[^a-zA-Z0-9]', '-', datetime_pub.group(0))
 
-    datetime_pub = data.split("\n")[1].split(";")[0]
-    datetime_pub = re.sub('[^a-zA-Z0-9]', '-', datetime_pub)
-
-    with open(str(Path('raw_data', "{}.csv".format(datetime_pub))), "w", encoding="utf-8") as f:
+    with open(str(Path('raw_data', "peildatum-{}.csv".format(datetime_pub))), "w", encoding="utf-8") as f:
         f.write(data)
 
     print("Downloaded {}".format(str(Path('raw_data', "{}.csv".format(datetime_pub)))))
