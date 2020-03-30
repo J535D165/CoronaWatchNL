@@ -280,7 +280,7 @@ if __name__ == '__main__':
     for file in Path('raw_data').glob('peildatum*.csv'):
         if str(file) not in df_frames.keys():
             print(f"Parse file {file}")
-            df_frames["file"] = parse_format_v3(file)
+            df_frames[str(file)] = parse_format_v3(file)
 
     result = merge_df_days(df_frames)
 
