@@ -1,0 +1,442 @@
+Datum,LeeftijdGroep,Type,Aantal
+2020-03-25,0-4,Totaal gemeld,24
+2020-03-25,5-9,Totaal gemeld,6
+2020-03-25,10-14,Totaal gemeld,30
+2020-03-25,15-19,Totaal gemeld,42
+2020-03-25,20-24,Totaal gemeld,119
+2020-03-25,25-29,Totaal gemeld,322
+2020-03-25,30-34,Totaal gemeld,330
+2020-03-25,35-39,Totaal gemeld,283
+2020-03-25,40-44,Totaal gemeld,282
+2020-03-25,45-49,Totaal gemeld,460
+2020-03-25,50-54,Totaal gemeld,529
+2020-03-25,55-59,Totaal gemeld,602
+2020-03-25,60-64,Totaal gemeld,487
+2020-03-25,65-69,Totaal gemeld,484
+2020-03-25,70-74,Totaal gemeld,562
+2020-03-25,75-79,Totaal gemeld,599
+2020-03-25,80-84,Totaal gemeld,574
+2020-03-25,85-89,Totaal gemeld,426
+2020-03-25,90-94,Totaal gemeld,175
+2020-03-25,95+,Totaal gemeld,53
+2020-03-25,Niet vermeld,Totaal gemeld,23
+2020-03-25,0-4,Ziekenhuisopname,11
+2020-03-25,5-9,Ziekenhuisopname,1
+2020-03-25,10-14,Ziekenhuisopname,4
+2020-03-25,15-19,Ziekenhuisopname,4
+2020-03-25,20-24,Ziekenhuisopname,5
+2020-03-25,25-29,Ziekenhuisopname,23
+2020-03-25,30-34,Ziekenhuisopname,28
+2020-03-25,35-39,Ziekenhuisopname,20
+2020-03-25,40-44,Ziekenhuisopname,27
+2020-03-25,45-49,Ziekenhuisopname,87
+2020-03-25,50-54,Ziekenhuisopname,115
+2020-03-25,55-59,Ziekenhuisopname,131
+2020-03-25,60-64,Ziekenhuisopname,157
+2020-03-25,65-69,Ziekenhuisopname,226
+2020-03-25,70-74,Ziekenhuisopname,265
+2020-03-25,75-79,Ziekenhuisopname,275
+2020-03-25,80-84,Ziekenhuisopname,233
+2020-03-25,85-89,Ziekenhuisopname,167
+2020-03-25,90-94,Ziekenhuisopname,47
+2020-03-25,95+,Ziekenhuisopname,6
+2020-03-25,Niet vermeld,Ziekenhuisopname,4
+2020-03-25,0-4,Overleden,0
+2020-03-25,5-9,Overleden,0
+2020-03-25,10-14,Overleden,0
+2020-03-25,15-19,Overleden,0
+2020-03-25,20-24,Overleden,0
+2020-03-25,25-29,Overleden,0
+2020-03-25,30-34,Overleden,0
+2020-03-25,35-39,Overleden,0
+2020-03-25,40-44,Overleden,0
+2020-03-25,45-49,Overleden,0
+2020-03-25,50-54,Overleden,2
+2020-03-25,55-59,Overleden,2
+2020-03-25,60-64,Overleden,7
+2020-03-25,65-69,Overleden,24
+2020-03-25,70-74,Overleden,33
+2020-03-25,75-79,Overleden,70
+2020-03-25,80-84,Overleden,105
+2020-03-25,85-89,Overleden,80
+2020-03-25,90-94,Overleden,23
+2020-03-25,95+,Overleden,9
+2020-03-25,Niet vermeld,Overleden,1
+2020-03-26,0-4,Totaal gemeld,25
+2020-03-26,5-9,Totaal gemeld,7
+2020-03-26,10-14,Totaal gemeld,31
+2020-03-26,15-19,Totaal gemeld,47
+2020-03-26,20-24,Totaal gemeld,134
+2020-03-26,25-29,Totaal gemeld,356
+2020-03-26,30-34,Totaal gemeld,364
+2020-03-26,35-39,Totaal gemeld,320
+2020-03-26,40-44,Totaal gemeld,321
+2020-03-26,45-49,Totaal gemeld,518
+2020-03-26,50-54,Totaal gemeld,600
+2020-03-26,55-59,Totaal gemeld,683
+2020-03-26,60-64,Totaal gemeld,565
+2020-03-26,65-69,Totaal gemeld,567
+2020-03-26,70-74,Totaal gemeld,691
+2020-03-26,75-79,Totaal gemeld,713
+2020-03-26,80-84,Totaal gemeld,680
+2020-03-26,85-89,Totaal gemeld,503
+2020-03-26,90-94,Totaal gemeld,214
+2020-03-26,95+,Totaal gemeld,64
+2020-03-26,Niet vermeld,Totaal gemeld,28
+2020-03-26,0-4,Ziekenhuisopname,12
+2020-03-26,5-9,Ziekenhuisopname,1
+2020-03-26,10-14,Ziekenhuisopname,4
+2020-03-26,15-19,Ziekenhuisopname,5
+2020-03-26,20-24,Ziekenhuisopname,5
+2020-03-26,25-29,Ziekenhuisopname,23
+2020-03-26,30-34,Ziekenhuisopname,30
+2020-03-26,35-39,Ziekenhuisopname,21
+2020-03-26,40-44,Ziekenhuisopname,34
+2020-03-26,45-49,Ziekenhuisopname,103
+2020-03-26,50-54,Ziekenhuisopname,138
+2020-03-26,55-59,Ziekenhuisopname,159
+2020-03-26,60-64,Ziekenhuisopname,183
+2020-03-26,65-69,Ziekenhuisopname,266
+2020-03-26,70-74,Ziekenhuisopname,315
+2020-03-26,75-79,Ziekenhuisopname,331
+2020-03-26,80-84,Ziekenhuisopname,268
+2020-03-26,85-89,Ziekenhuisopname,189
+2020-03-26,90-94,Ziekenhuisopname,51
+2020-03-26,95+,Ziekenhuisopname,8
+2020-03-26,Niet vermeld,Ziekenhuisopname,5
+2020-03-26,0-4,Overleden,0
+2020-03-26,5-9,Overleden,0
+2020-03-26,10-14,Overleden,0
+2020-03-26,15-19,Overleden,0
+2020-03-26,20-24,Overleden,0
+2020-03-26,25-29,Overleden,0
+2020-03-26,30-34,Overleden,0
+2020-03-26,35-39,Overleden,0
+2020-03-26,40-44,Overleden,0
+2020-03-26,45-49,Overleden,0
+2020-03-26,50-54,Overleden,2
+2020-03-26,55-59,Overleden,2
+2020-03-26,60-64,Overleden,8
+2020-03-26,65-69,Overleden,29
+2020-03-26,70-74,Overleden,41
+2020-03-26,75-79,Overleden,82
+2020-03-26,80-84,Overleden,126
+2020-03-26,85-89,Overleden,107
+2020-03-26,90-94,Overleden,26
+2020-03-26,95+,Overleden,10
+2020-03-26,Niet vermeld,Overleden,1
+2020-03-27,0-4,Totaal gemeld,28
+2020-03-27,5-9,Totaal gemeld,7
+2020-03-27,10-14,Totaal gemeld,31
+2020-03-27,15-19,Totaal gemeld,50
+2020-03-27,20-24,Totaal gemeld,160
+2020-03-27,25-29,Totaal gemeld,390
+2020-03-27,30-34,Totaal gemeld,397
+2020-03-27,35-39,Totaal gemeld,359
+2020-03-27,40-44,Totaal gemeld,359
+2020-03-27,45-49,Totaal gemeld,578
+2020-03-27,50-54,Totaal gemeld,695
+2020-03-27,55-59,Totaal gemeld,770
+2020-03-27,60-64,Totaal gemeld,672
+2020-03-27,65-69,Totaal gemeld,648
+2020-03-27,70-74,Totaal gemeld,824
+2020-03-27,75-79,Totaal gemeld,859
+2020-03-27,80-84,Totaal gemeld,789
+2020-03-27,85-89,Totaal gemeld,609
+2020-03-27,90-94,Totaal gemeld,271
+2020-03-27,95+,Totaal gemeld,76
+2020-03-27,Niet vermeld,Totaal gemeld,31
+2020-03-27,0-4,Ziekenhuisopname,13
+2020-03-27,5-9,Ziekenhuisopname,1
+2020-03-27,10-14,Ziekenhuisopname,4
+2020-03-27,15-19,Ziekenhuisopname,7
+2020-03-27,20-24,Ziekenhuisopname,7
+2020-03-27,25-29,Ziekenhuisopname,25
+2020-03-27,30-34,Ziekenhuisopname,31
+2020-03-27,35-39,Ziekenhuisopname,29
+2020-03-27,40-44,Ziekenhuisopname,45
+2020-03-27,45-49,Ziekenhuisopname,119
+2020-03-27,50-54,Ziekenhuisopname,159
+2020-03-27,55-59,Ziekenhuisopname,181
+2020-03-27,60-64,Ziekenhuisopname,227
+2020-03-27,65-69,Ziekenhuisopname,302
+2020-03-27,70-74,Ziekenhuisopname,376
+2020-03-27,75-79,Ziekenhuisopname,389
+2020-03-27,80-84,Ziekenhuisopname,308
+2020-03-27,85-89,Ziekenhuisopname,208
+2020-03-27,90-94,Ziekenhuisopname,55
+2020-03-27,95+,Ziekenhuisopname,9
+2020-03-27,Niet vermeld,Ziekenhuisopname,5
+2020-03-27,0-4,Overleden,0
+2020-03-27,5-9,Overleden,0
+2020-03-27,10-14,Overleden,0
+2020-03-27,15-19,Overleden,0
+2020-03-27,20-24,Overleden,0
+2020-03-27,25-29,Overleden,0
+2020-03-27,30-34,Overleden,0
+2020-03-27,35-39,Overleden,0
+2020-03-27,40-44,Overleden,0
+2020-03-27,45-49,Overleden,0
+2020-03-27,50-54,Overleden,3
+2020-03-27,55-59,Overleden,2
+2020-03-27,60-64,Overleden,12
+2020-03-27,65-69,Overleden,37
+2020-03-27,70-74,Overleden,52
+2020-03-27,75-79,Overleden,105
+2020-03-27,80-84,Overleden,148
+2020-03-27,85-89,Overleden,137
+2020-03-27,90-94,Overleden,38
+2020-03-27,95+,Overleden,11
+2020-03-27,Niet vermeld,Overleden,1
+2020-03-28,0-4,Totaal gemeld,31
+2020-03-28,5-9,Totaal gemeld,8
+2020-03-28,10-14,Totaal gemeld,31
+2020-03-28,15-19,Totaal gemeld,52
+2020-03-28,20-24,Totaal gemeld,187
+2020-03-28,25-29,Totaal gemeld,431
+2020-03-28,30-34,Totaal gemeld,435
+2020-03-28,35-39,Totaal gemeld,396
+2020-03-28,40-44,Totaal gemeld,404
+2020-03-28,45-49,Totaal gemeld,643
+2020-03-28,50-54,Totaal gemeld,779
+2020-03-28,55-59,Totaal gemeld,883
+2020-03-28,60-64,Totaal gemeld,766
+2020-03-28,65-69,Totaal gemeld,727
+2020-03-28,70-74,Totaal gemeld,945
+2020-03-28,75-79,Totaal gemeld,1009
+2020-03-28,80-84,Totaal gemeld,892
+2020-03-28,85-89,Totaal gemeld,714
+2020-03-28,90-94,Totaal gemeld,312
+2020-03-28,95+,Totaal gemeld,88
+2020-03-28,Niet vermeld,Totaal gemeld,29
+2020-03-28,0-4,Ziekenhuisopname,18
+2020-03-28,5-9,Ziekenhuisopname,1
+2020-03-28,10-14,Ziekenhuisopname,4
+2020-03-28,15-19,Ziekenhuisopname,7
+2020-03-28,20-24,Ziekenhuisopname,9
+2020-03-28,25-29,Ziekenhuisopname,29
+2020-03-28,30-34,Ziekenhuisopname,33
+2020-03-28,35-39,Ziekenhuisopname,41
+2020-03-28,40-44,Ziekenhuisopname,54
+2020-03-28,45-49,Ziekenhuisopname,142
+2020-03-28,50-54,Ziekenhuisopname,196
+2020-03-28,55-59,Ziekenhuisopname,224
+2020-03-28,60-64,Ziekenhuisopname,274
+2020-03-28,65-69,Ziekenhuisopname,343
+2020-03-28,70-74,Ziekenhuisopname,451
+2020-03-28,75-79,Ziekenhuisopname,453
+2020-03-28,80-84,Ziekenhuisopname,357
+2020-03-28,85-89,Ziekenhuisopname,242
+2020-03-28,90-94,Ziekenhuisopname,64
+2020-03-28,95+,Ziekenhuisopname,10
+2020-03-28,Niet vermeld,Ziekenhuisopname,2
+2020-03-28,0-4,Overleden,0
+2020-03-28,5-9,Overleden,0
+2020-03-28,10-14,Overleden,0
+2020-03-28,15-19,Overleden,0
+2020-03-28,20-24,Overleden,0
+2020-03-28,25-29,Overleden,0
+2020-03-28,30-34,Overleden,0
+2020-03-28,35-39,Overleden,0
+2020-03-28,40-44,Overleden,0
+2020-03-28,45-49,Overleden,0
+2020-03-28,50-54,Overleden,4
+2020-03-28,55-59,Overleden,3
+2020-03-28,60-64,Overleden,15
+2020-03-28,65-69,Overleden,41
+2020-03-28,70-74,Overleden,69
+2020-03-28,75-79,Overleden,121
+2020-03-28,80-84,Overleden,166
+2020-03-28,85-89,Overleden,161
+2020-03-28,90-94,Overleden,44
+2020-03-28,95+,Overleden,15
+2020-03-28,Niet vermeld,Overleden,0
+2020-03-29,0-4,Totaal gemeld,36
+2020-03-29,5-9,Totaal gemeld,8
+2020-03-29,10-14,Totaal gemeld,33
+2020-03-29,15-19,Totaal gemeld,57
+2020-03-29,20-24,Totaal gemeld,213
+2020-03-29,25-29,Totaal gemeld,464
+2020-03-29,30-34,Totaal gemeld,486
+2020-03-29,35-39,Totaal gemeld,430
+2020-03-29,40-44,Totaal gemeld,434
+2020-03-29,45-49,Totaal gemeld,694
+2020-03-29,50-54,Totaal gemeld,849
+2020-03-29,55-59,Totaal gemeld,969
+2020-03-29,60-64,Totaal gemeld,853
+2020-03-29,65-69,Totaal gemeld,817
+2020-03-29,70-74,Totaal gemeld,1078
+2020-03-29,75-79,Totaal gemeld,1132
+2020-03-29,80-84,Totaal gemeld,1010
+2020-03-29,85-89,Totaal gemeld,809
+2020-03-29,90-94,Totaal gemeld,352
+2020-03-29,95+,Totaal gemeld,113
+2020-03-29,Niet vermeld,Totaal gemeld,29
+2020-03-29,0-4,Ziekenhuisopname,22
+2020-03-29,5-9,Ziekenhuisopname,1
+2020-03-29,10-14,Ziekenhuisopname,4
+2020-03-29,15-19,Ziekenhuisopname,8
+2020-03-29,20-24,Ziekenhuisopname,9
+2020-03-29,25-29,Ziekenhuisopname,31
+2020-03-29,30-34,Ziekenhuisopname,36
+2020-03-29,35-39,Ziekenhuisopname,47
+2020-03-29,40-44,Ziekenhuisopname,68
+2020-03-29,45-49,Ziekenhuisopname,169
+2020-03-29,50-54,Ziekenhuisopname,229
+2020-03-29,55-59,Ziekenhuisopname,277
+2020-03-29,60-64,Ziekenhuisopname,323
+2020-03-29,65-69,Ziekenhuisopname,408
+2020-03-29,70-74,Ziekenhuisopname,546
+2020-03-29,75-79,Ziekenhuisopname,539
+2020-03-29,80-84,Ziekenhuisopname,411
+2020-03-29,85-89,Ziekenhuisopname,272
+2020-03-29,90-94,Ziekenhuisopname,70
+2020-03-29,95+,Ziekenhuisopname,11
+2020-03-29,Niet vermeld,Ziekenhuisopname,2
+2020-03-29,0-4,Overleden,0
+2020-03-29,5-9,Overleden,0
+2020-03-29,10-14,Overleden,0
+2020-03-29,15-19,Overleden,0
+2020-03-29,20-24,Overleden,0
+2020-03-29,25-29,Overleden,0
+2020-03-29,30-34,Overleden,0
+2020-03-29,35-39,Overleden,0
+2020-03-29,40-44,Overleden,0
+2020-03-29,45-49,Overleden,0
+2020-03-29,50-54,Overleden,5
+2020-03-29,55-59,Overleden,5
+2020-03-29,60-64,Overleden,19
+2020-03-29,65-69,Overleden,47
+2020-03-29,70-74,Overleden,85
+2020-03-29,75-79,Overleden,153
+2020-03-29,80-84,Overleden,199
+2020-03-29,85-89,Overleden,188
+2020-03-29,90-94,Overleden,50
+2020-03-29,95+,Overleden,20
+2020-03-29,Niet vermeld,Overleden,0
+2020-03-30,0-4,Gemeld,38
+2020-03-30,5-9,Gemeld,8
+2020-03-30,10-14,Gemeld,33
+2020-03-30,15-19,Gemeld,60
+2020-03-30,20-24,Gemeld,229
+2020-03-30,25-29,Gemeld,488
+2020-03-30,30-34,Gemeld,515
+2020-03-30,35-39,Gemeld,458
+2020-03-30,40-44,Gemeld,459
+2020-03-30,45-49,Gemeld,725
+2020-03-30,50-54,Gemeld,913
+2020-03-30,55-59,Gemeld,1038
+2020-03-30,60-64,Gemeld,929
+2020-03-30,65-69,Gemeld,898
+2020-03-30,70-74,Gemeld,1174
+2020-03-30,75-79,Gemeld,1233
+2020-03-30,80-84,Gemeld,1109
+2020-03-30,85-89,Gemeld,892
+2020-03-30,90-94,Gemeld,394
+2020-03-30,95+,Gemeld,121
+2020-03-30,Niet vermeld,Gemeld,36
+2020-03-30,0-4,Ziekenhuisopname,23
+2020-03-30,5-9,Ziekenhuisopname,1
+2020-03-30,10-14,Ziekenhuisopname,4
+2020-03-30,15-19,Ziekenhuisopname,8
+2020-03-30,20-24,Ziekenhuisopname,10
+2020-03-30,25-29,Ziekenhuisopname,36
+2020-03-30,30-34,Ziekenhuisopname,40
+2020-03-30,35-39,Ziekenhuisopname,59
+2020-03-30,40-44,Ziekenhuisopname,81
+2020-03-30,45-49,Ziekenhuisopname,181
+2020-03-30,50-54,Ziekenhuisopname,263
+2020-03-30,55-59,Ziekenhuisopname,320
+2020-03-30,60-64,Ziekenhuisopname,382
+2020-03-30,65-69,Ziekenhuisopname,470
+2020-03-30,70-74,Ziekenhuisopname,630
+2020-03-30,75-79,Ziekenhuisopname,631
+2020-03-30,80-84,Ziekenhuisopname,460
+2020-03-30,85-89,Ziekenhuisopname,299
+2020-03-30,90-94,Ziekenhuisopname,76
+2020-03-30,95+,Ziekenhuisopname,12
+2020-03-30,Niet vermeld,Ziekenhuisopname,4
+2020-03-30,0-4,Overleden,0
+2020-03-30,5-9,Overleden,0
+2020-03-30,10-14,Overleden,0
+2020-03-30,15-19,Overleden,0
+2020-03-30,20-24,Overleden,0
+2020-03-30,25-29,Overleden,0
+2020-03-30,30-34,Overleden,0
+2020-03-30,35-39,Overleden,0
+2020-03-30,40-44,Overleden,0
+2020-03-30,45-49,Overleden,0
+2020-03-30,50-54,Overleden,6
+2020-03-30,55-59,Overleden,7
+2020-03-30,60-64,Overleden,23
+2020-03-30,65-69,Overleden,53
+2020-03-30,70-74,Overleden,92
+2020-03-30,75-79,Overleden,170
+2020-03-30,80-84,Overleden,230
+2020-03-30,85-89,Overleden,203
+2020-03-30,90-94,Overleden,57
+2020-03-30,95+,Overleden,23
+2020-03-30,Niet vermeld,Overleden,0
+2020-03-31,0-4,Totaal gemeld,41
+2020-03-31,5-9,Totaal gemeld,8
+2020-03-31,10-14,Totaal gemeld,33
+2020-03-31,15-19,Totaal gemeld,66
+2020-03-31,20-24,Totaal gemeld,247
+2020-03-31,25-29,Totaal gemeld,518
+2020-03-31,30-34,Totaal gemeld,533
+2020-03-31,35-39,Totaal gemeld,484
+2020-03-31,40-44,Totaal gemeld,499
+2020-03-31,45-49,Totaal gemeld,777
+2020-03-31,50-54,Totaal gemeld,974
+2020-03-31,55-59,Totaal gemeld,1112
+2020-03-31,60-64,Totaal gemeld,996
+2020-03-31,65-69,Totaal gemeld,972
+2020-03-31,70-74,Totaal gemeld,1262
+2020-03-31,75-79,Totaal gemeld,1302
+2020-03-31,80-84,Totaal gemeld,1180
+2020-03-31,85-89,Totaal gemeld,975
+2020-03-31,90-94,Totaal gemeld,452
+2020-03-31,95+,Totaal gemeld,133
+2020-03-31,Niet vermeld,Totaal gemeld,31
+2020-03-31,0-4,Ziekenhuisopname,23
+2020-03-31,5-9,Ziekenhuisopname,1
+2020-03-31,10-14,Ziekenhuisopname,4
+2020-03-31,15-19,Ziekenhuisopname,9
+2020-03-31,20-24,Ziekenhuisopname,15
+2020-03-31,25-29,Ziekenhuisopname,42
+2020-03-31,30-34,Ziekenhuisopname,51
+2020-03-31,35-39,Ziekenhuisopname,73
+2020-03-31,40-44,Ziekenhuisopname,102
+2020-03-31,45-49,Ziekenhuisopname,221
+2020-03-31,50-54,Ziekenhuisopname,305
+2020-03-31,55-59,Ziekenhuisopname,384
+2020-03-31,60-64,Ziekenhuisopname,462
+2020-03-31,65-69,Ziekenhuisopname,562
+2020-03-31,70-74,Ziekenhuisopname,742
+2020-03-31,75-79,Ziekenhuisopname,716
+2020-03-31,80-84,Ziekenhuisopname,551
+2020-03-31,85-89,Ziekenhuisopname,344
+2020-03-31,90-94,Ziekenhuisopname,88
+2020-03-31,95+,Ziekenhuisopname,12
+2020-03-31,Niet vermeld,Ziekenhuisopname,5
+2020-03-31,0-4,Overleden,0
+2020-03-31,5-9,Overleden,0
+2020-03-31,10-14,Overleden,0
+2020-03-31,15-19,Overleden,0
+2020-03-31,20-24,Overleden,0
+2020-03-31,25-29,Overleden,0
+2020-03-31,30-34,Overleden,0
+2020-03-31,35-39,Overleden,0
+2020-03-31,40-44,Overleden,0
+2020-03-31,45-49,Overleden,1
+2020-03-31,50-54,Overleden,7
+2020-03-31,55-59,Overleden,12
+2020-03-31,60-64,Overleden,32
+2020-03-31,65-69,Overleden,65
+2020-03-31,70-74,Overleden,114
+2020-03-31,75-79,Overleden,205
+2020-03-31,80-84,Overleden,270
+2020-03-31,85-89,Overleden,225
+2020-03-31,90-94,Overleden,77
+2020-03-31,95+,Overleden,31
+2020-03-31,Niet vermeld,Overleden,0

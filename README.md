@@ -17,7 +17,8 @@ The following datasets are available for reuse. :exclamation: Daily updates :exc
 | Dataset | URL | Source | Variables |
 |---|---| --- | --- |
 | COVID-19 disease case counts in NL per province (NEW) | [data/rivm_NL_covid19_province.csv](data/rivm_NL_covid19_province.csv) | RIVM | Date, Province, Number of positive COVID-19 disease cases in NL| 
-| COVID-19 hospitalizations in NL per municipality (NEW) |[data/rivm_NL_covid19_hosp_municipality.csv](data/rivm_NL_covid19_hosp_municipality.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 2020-03-30
+| COVID-19 hospitalizations in NL per municipality (NEW) |[data/rivm_NL_covid19_hosp_municipality.csv](data/rivm_NL_covid19_hosp_municipality.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province |
+| COVID-19 disease case counts in NL per age (NEW) | [data/rivm_NL_covid19_age.csv](data/rivm_NL_covid19_age.csv) | RIVM | Date, Age group, Type, Number of positive COVID-19 disease cases in NL| 
 | COVID-19 disease case counts in NL | [data/rivm_corona_in_nl_daily.csv](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| 
 | COVID-19 fatalities in NL | [data/rivm_corona_in_nl_fatalities.csv](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | 
 | COVID-19 hospitalizations in NL | [data/rivm_corona_in_nl_hosp.csv](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | 
