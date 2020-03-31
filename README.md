@@ -2,7 +2,7 @@
 
 # Dataset: COVID-19 case counts in The Netherlands
 
-[:exclamation: :exclamation: :exclamation: Change of data on RIVM - 31 March 2020 #44 :exclamation: :exclamation: :exclamation: ](https://github.com/J535D165/CoronaWatchNL/issues/44)
+[:exclamation: :exclamation: :exclamation: Data changes by RIVM - 31 March 2020 #44 :exclamation: :exclamation: :exclamation: ](https://github.com/J535D165/CoronaWatchNL/issues/44)
 
 **CoronaWatchNL** collects COVID-19 disease count cases in **The Netherlands**. Numbers are collected from the RIVM (National Institute for Public Health and the Environment) website on a daily basis. This project standardizes, and publishes data and makes it **Findable, Accessible, Interoperable, and Reusable (FAIR)**. We aim to collect a complete time series and prepare a dataset for reproducible analysis and academic use.
 
