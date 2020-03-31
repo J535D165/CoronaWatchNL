@@ -285,7 +285,7 @@ def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, region, extrapolate_days=
 
     plt.ylim(0)
 
-    filename = "plots/sigmoid_" + region + "png" 
+    filename = "plots/sigmoid_" + region + ".png" 
     plt.savefig(filename)
 
 
