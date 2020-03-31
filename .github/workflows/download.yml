@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron:  '*/5 14-16 * * *'
+    - cron:  '*/5 11-14 * * *'
 
 jobs:
   download:
