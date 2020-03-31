@@ -16,29 +16,29 @@ measures <- read_csv("ext/maatregelen.csv") %>%
 
 # combine daily data
 daily <- data_daily %>%
-  mutate(meas = "Positief geteste patiënten") %>%
+  mutate(meas = "Totaal") %>%
   bind_rows(hosp %>%
-              mutate(meas = "Gehospitaliseerde patiënten")) %>%
+              mutate(meas = "Ziekenhuisopname")) %>%
   bind_rows(fata %>%
-              mutate(meas = "Overleden patiënten"))
+              mutate(meas = "Overleden"))
 
 # combine daily increase
 daily_diff <- data_daily %>%
   mutate(
     Aantal = Aantal - lag(Aantal),
-    meas = "Positief geteste patiënten"
+    meas = "Totaal"
   ) %>%
   bind_rows(hosp %>%
               mutate(
                 Aantal = Aantal - lag(Aantal),
-                meas = "Gehospitaliseerde patiënten")) %>%
+                meas = "Ziekenhuisopname")) %>%
   bind_rows(fata %>%
               mutate(
                 Aantal = Aantal - lag(Aantal),
-                meas = "Overleden patiënten"))
+                meas = "Overleden"))
 
 
-g1 = daily %>%
+daily %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
   geom_line() + 
   theme_minimal() + 
@@ -46,10 +46,12 @@ g1 = daily %>%
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#999999", "#E69F00", "#56B4E9")) + 
-  ggtitle("Totaal besmettingen")
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Totaal Covid19 patiënten") +
+  ggsave("plots/overview_plot.png", width = 5, height=4)
 
-g2 = daily_diff %>%
+
+daily_diff %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
   geom_line() + 
   theme_minimal() + 
@@ -57,12 +59,29 @@ g2 = daily_diff %>%
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#999999", "#E69F00", "#56B4E9")) + 
-  ggtitle("Toename besmettingen")
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Toename Covid19 patiënten") +
+  ggsave("plots/overview_plot_diff.png", width = 5, height=4)
 
-plot_grid(g1, g2) +
-  ggsave("plots/overview_plot.png", width = 10, height=4)
+# plot geslacht
 
+read_csv("data/rivm_NL_covid19_sex.csv") %>%
+  filter(Geslacht %in% c("Man", "Vrouw")) %>%
+  mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype= Geslacht)) +
+  geom_line() + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Covid19 patiënten per geslacht") +
+  ggsave("plots/overview_plot_geslacht.png", width = 5, height=4)
+
+
+
+# plot with countermeasures
 
 (daily %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
