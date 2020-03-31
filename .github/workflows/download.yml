@@ -4,11 +4,11 @@ on:
     branches:
       - master
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '*/5 11-14 * * *'
 
 jobs:
   download:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout master
         uses: actions/checkout@v2
@@ -20,7 +20,7 @@ jobs:
           pip install -r requirements.txt
       - name: Download and merge
         run: |
-          python download_rivm_corona.py
+          sh data_collection.sh
       - name: Commit files
         run: |
           git config --local user.email "jonathandebruinos@gmail.com"

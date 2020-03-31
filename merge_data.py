@@ -8,12 +8,19 @@ from io import StringIO
 import pandas
 
 
+DATE_MAP = {
+    "maart": 3,
+    "april": 4,
+    "juni": 5,
+}
+
+
 def list_files():
 
     return [p for p in Path('raw_data').iterdir() if p.is_file()]
 
 
-def parse_old_format(file, total=None):
+def parse_format_v1(file, total=None):
 
     date = re.findall(r'\d{8}', str(file))[0]
     date = datetime.date(
@@ -49,7 +56,7 @@ def parse_old_format(file, total=None):
     return df
 
 
-def parse_new_format(file, n_missing=None):
+def parse_format_v2(file, n_missing=None):
 
     # find date
     date = datetime.date(
@@ -59,7 +66,7 @@ def parse_new_format(file, n_missing=None):
     )
 
     # read file
-    if file == Path("raw_data", "peildatum-13-maart-14-00.csv"):
+    if file == "raw_data/peildatum-13-maart-14-00.csv":
         result_list = []
         with open(file, "r") as f:
             for line in f:
@@ -84,7 +91,7 @@ def parse_new_format(file, n_missing=None):
         df.iat[1, 0]
     )
     try:
-        n_missing = int(missing[0][0]) + int(missing[0][1])
+        n_missing = int(missing[0][0])  # + int(missing[0][1]) ## Exclude 'buitenland'
     except Exception:
         pass
 
@@ -98,7 +105,7 @@ def parse_new_format(file, n_missing=None):
         "Aantal": n_missing},
         ignore_index=True)
 
-    print(df.tail())
+    # print(df.tail())
 
     # add column with date
     df['Datum'] = date
@@ -106,10 +113,57 @@ def parse_new_format(file, n_missing=None):
     return df
 
 
-def merge_df_days(list_df):
+def parse_format_v3(file, n_missing=None):
+
+    date_parts = re.findall(r'(\d{1,2})-(.*?)-(\d{4})', str(file))[0]
+
+    # find date
+    date = datetime.date(
+        int(date_parts[2]),
+        DATE_MAP[date_parts[1]],
+        int(date_parts[0])
+    )
+
+    df = pandas.read_csv(file, sep=";")
+
+    # find the number of missing locations
+    missing = re.findall(
+        r'Bij (\d+) personen is de woonplaats niet van bekend',
+        df.iat[0, 1]
+    )
+    try:
+        n_missing = int(missing[0])
+    except Exception:
+        pass
+
+    try:
+        df['id'] = df['Gemnr'].astype(int)
+        del df['Gemnr']
+    except Exception:
+        pass
+
+    # remove junk rows
+    df = df[df['id'] >= 0].copy()
+
+    # append row with missing numbers
+    df = df.append({
+        "Gemeente": None,
+        "id": -1,
+        "Aantal": n_missing},
+        ignore_index=True)
+
+    # print(df.tail())
+
+    # add column with date
+    df['Datum'] = date
+
+    return df
+
+
+def merge_df_days(df_dict):
 
     result = pandas.concat(
-        list_df,
+        df_dict.values(),
         axis=0,
         sort=False
     ).dropna(axis=0, subset=["Aantal"])
@@ -121,64 +175,120 @@ def merge_df_days(list_df):
 
 if __name__ == '__main__':
 
-    df_frames = [
-        parse_old_format("raw_data/reconstruct_corona_27022020.csv"),
-        parse_old_format("raw_data/reconstruct_corona_28022020.csv"),
-        parse_old_format("raw_data/reconstruct_corona_29022020.csv"),
-        parse_old_format("raw_data/reconstruct_corona_01032020.csv", total=10),
-        parse_old_format("raw_data/reconstruct_corona_02032020.csv", total=18),
-        parse_old_format("raw_data/klik_corona03032020.csv", total=24),
-        parse_old_format("raw_data/klik_corona04032020.csv", total=38),
-        parse_old_format("raw_data/klik_corona05032020.csv", total=82),
-        # parse_old_format("raw_data/klik_corona06032020.csv"),
-        parse_old_format("raw_data/klik_corona06032020_rec_0.csv", total=128),
-        parse_old_format("raw_data/klik_corona07032020.csv", total=188),
-        parse_old_format("raw_data/klik_corona08032020_rectificatie.csv", total=265),
-        # parse_old_format("raw_data/klik_corona08032020_v2.csv"),
-        # parse_old_format("raw_data/klik_corona08032020_v2_0.csv"),
-        # parse_old_format("raw_data/klik_corona09032020_0.csv"),
-        parse_old_format("raw_data/klik_corona09032020_1.csv", total=321),
-        parse_old_format("raw_data/klik_corona10032020_2.csv", total=382),
-        # parse_old_format("raw_data/klik_corona11032020.csv"),
-        parse_old_format("raw_data/klik_corona11032020rectificatie.csv", total=503),
-    ]
+    df_frames = {
+        "raw_data/reconstruct_corona_27022020.csv":
+            parse_format_v1(
+                "raw_data/reconstruct_corona_27022020.csv"),
+        "raw_data/reconstruct_corona_28022020.csv":
+            parse_format_v1(
+                "raw_data/reconstruct_corona_28022020.csv"),
+        "raw_data/reconstruct_corona_29022020.csv":
+            parse_format_v1(
+                "raw_data/reconstruct_corona_29022020.csv"),
+        "raw_data/reconstruct_corona_01032020.csv":
+            parse_format_v1(
+                "raw_data/reconstruct_corona_01032020.csv", total=10),
+        "raw_data/reconstruct_corona_02032020.csv":
+            parse_format_v1(
+                "raw_data/reconstruct_corona_02032020.csv", total=18),
+        "raw_data/klik_corona03032020.csv":
+            parse_format_v1(
+                "raw_data/klik_corona03032020.csv", total=24),
+        "raw_data/klik_corona04032020.csv":
+            parse_format_v1(
+                "raw_data/klik_corona04032020.csv", total=38),
+        "raw_data/klik_corona05032020.csv":
+            parse_format_v1(
+                "raw_data/klik_corona05032020.csv", total=82),
+        "raw_data/klik_corona06032020.csv": None,
+        "raw_data/klik_corona06032020_rec_0.csv":
+            parse_format_v1(
+                "raw_data/klik_corona06032020_rec_0.csv", total=128),
+        "raw_data/klik_corona07032020.csv":
+            parse_format_v1(
+                "raw_data/klik_corona07032020.csv", total=188),
+        "raw_data/klik_corona08032020_rectificatie.csv":
+            parse_format_v1(
+                "raw_data/klik_corona08032020_rectificatie.csv", total=265),
+        "raw_data/klik_corona08032020_v2.csv": None,
+        "raw_data/klik_corona08032020_v2_0.csv": None,
+        "raw_data/klik_corona09032020_0.csv": None,
+        "raw_data/klik_corona09032020_1.csv":
+            parse_format_v1(
+                "raw_data/klik_corona09032020_1.csv", total=321),
+        "raw_data/klik_corona10032020_2.csv":
+            parse_format_v1(
+                "raw_data/klik_corona10032020_2.csv", total=382),
+        "raw_data/klik_corona11032020.csv": None,
+        "raw_data/klik_corona11032020rectificatie.csv":
+            parse_format_v1(
+                "raw_data/klik_corona11032020rectificatie.csv", total=503),
+        "raw_data/peildatum-12-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-12-maart-14-00.csv"),
+        "raw_data/peildatum-13-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-13-maart-14-00.csv"),
+        "raw_data/peildatum-14-maart-14-30.csv":
+            parse_format_v2(
+                "raw_data/peildatum-14-maart-14-30.csv"),
+        "raw_data/peildatum-15-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-15-maart-14-00.csv"),
+        "raw_data/peildatum-16-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-16-maart-14-00.csv"),
+        "raw_data/peildatum-17-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-17-maart-14-00.csv"),
+        "raw_data/peildatum-18-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-18-maart-14-00.csv"),
+        "raw_data/peildatum-19-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-19-maart-14-00.csv"),
+        "raw_data/peildatum-20-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-20-maart-14-00.csv", n_missing=112),
+        "raw_data/peildatum-21-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-21-maart-14-00.csv", n_missing=137),
+        "raw_data/peildatum-22-maart-14-00.csv":
+            parse_format_v2(
+            "raw_data/peildatum-22-maart-14-00.csv", n_missing=155),  # wrong number in data file (55)
+        "raw_data/peildatum-23-maart-14-30.csv":
+            parse_format_v2(
+                "raw_data/peildatum-23-maart-14-30.csv", n_missing=184),
+        "raw_data/peildatum-24-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-24-maart-14-00.csv", n_missing=200),
+        "raw_data/peildatum-25-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-25-maart-14-00.csv", n_missing=213),
+        "raw_data/peildatum-26-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-26-maart-14-00.csv", n_missing=237),
+        "raw_data/peildatum-27-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-27-maart-14-00.csv", n_missing=265),
+        "raw_data/peildatum-28-maart-14-00.csv":
+            parse_format_v2(
+                "raw_data/peildatum-28-maart-14-00.csv", n_missing=279),
+    }
 
-    # files after 2020-03-11
+    # files not in the list above
     for file in Path('raw_data').glob('peildatum*.csv'):
-
-        if file == Path('raw_data') / "peildatum-20-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=112)
-        elif file == Path('raw_data') / "peildatum-21-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=137)
-        elif file == Path('raw_data') / "peildatum-22-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=155)  # wrong number in data file (55)
-        elif file == Path('raw_data') / "peildatum-23-maart-14-30.csv":
-            df_day = parse_new_format(file, n_missing=184)
-        elif file == Path('raw_data') / "peildatum-24-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=200)
-        elif file == Path('raw_data') / "peildatum-25-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=213)
-        elif file == Path('raw_data') / "peildatum-26-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=237)
-        elif file == Path('raw_data') / "peildatum-27-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=265)
-        elif file == Path('raw_data') / "peildatum-28-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=279)
-        elif file == Path('raw_data') / "peildatum-29-maart-14-00.csv":
-            df_day = parse_new_format(file, n_missing=305)
-        else:
-            df_day = parse_new_format(file)
-
-        # fix typos in peildatum 12 maart
-        if file == Path('raw_data') / "peildatum-12-maart-14-00.csv":
-            df_day.loc[df_day["Gemeente"] == "BeekDaelen", "Gemeente"] = \
-                "Beekdaelen"
-            df_day.loc[df_day["Gemeente"] == "Súdwest Fryslân", "Gemeente"] = \
-                "Súdwest-Fryslân"
-
-        df_frames.append(df_day)
+        if str(file) not in df_frames.keys():
+            print(f"Parse file {file}")
+            df_frames[str(file)] = parse_format_v3(file)
 
     result = merge_df_days(df_frames)
+
+    # fix typos in peildatum 12 maart
+    result.loc[result["Gemeente"] == "BeekDaelen", "Gemeente"] = \
+        "Beekdaelen"
+    result.loc[result["Gemeente"] == "Súdwest Fryslân", "Gemeente"] = \
+        "Súdwest-Fryslân"
 
     # add municipality to data
     df_mun = pandas.read_csv(
