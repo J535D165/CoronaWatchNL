@@ -2,6 +2,7 @@
 *.ipynb
 reports/*.txt
 parse_pdf_table.py
+.Rhistory
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
