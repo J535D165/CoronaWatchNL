@@ -20,21 +20,17 @@ from sklearn.linear_model import LinearRegression
 def read_data(region):
     
     # Read and preprocess data file
-    df = pd.read_csv("data/rivm_corona_in_nl.csv")
+    df = pd.read_csv("data/rivm_NL_covid19_province.csv")
 
     df['Datum'] = pd.to_datetime(df['Datum'])
 
     df = df.set_index('Datum')
     
     df_filtered = df[(df['Provincienaam'] == region)]
-    
-    df_grouped = df_filtered.groupby('Datum').agg(
-         Aantal=pd.NamedAgg(column='Aantal', aggfunc=sum)
-    )
-    
-    df_grouped['Dag'] = np.arange(len(df_grouped))
 
-    return (df_grouped)  
+    df_filtered['Dag'] = np.arange(len(df_filtered))
+
+    return (df_filtered)  
 
 
 # In[70]:
@@ -295,7 +291,7 @@ def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, region, extrapolate_days=
 if __name__ == "__main__":
 
     regions = [
-                #'Drenthe',
+                'Drenthe',
                 'Flevoland',
                 'Friesland',
                 'Gelderland',
