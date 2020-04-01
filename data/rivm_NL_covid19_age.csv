@@ -482,24 +482,24 @@ Datum,LeeftijdGroep,Type,Aantal
 2020-04-01,90-94,Ziekenhuisopname,96
 2020-04-01,95+,Ziekenhuisopname,14
 2020-04-01,Niet vermeld,Ziekenhuisopname,4
-2020-04-01,0-4,Ziekenhuisopname,0
-2020-04-01,5-9,Ziekenhuisopname,0
-2020-04-01,10-14,Ziekenhuisopname,0
-2020-04-01,15-19,Ziekenhuisopname,0
-2020-04-01,20-24,Ziekenhuisopname,0
-2020-04-01,25-29,Ziekenhuisopname,0
-2020-04-01,30-34,Ziekenhuisopname,0
-2020-04-01,35-39,Ziekenhuisopname,1
-2020-04-01,40-44,Ziekenhuisopname,0
-2020-04-01,45-49,Ziekenhuisopname,1
-2020-04-01,50-54,Ziekenhuisopname,8
-2020-04-01,55-59,Ziekenhuisopname,13
-2020-04-01,60-64,Ziekenhuisopname,37
-2020-04-01,65-69,Ziekenhuisopname,74
-2020-04-01,70-74,Ziekenhuisopname,123
-2020-04-01,75-79,Ziekenhuisopname,234
-2020-04-01,80-84,Ziekenhuisopname,302
-2020-04-01,85-89,Ziekenhuisopname,250
-2020-04-01,90-94,Ziekenhuisopname,99
-2020-04-01,95+,Ziekenhuisopname,31
-2020-04-01,Niet vermeld,Ziekenhuisopname,0
+2020-04-01,0-4,Overleden,0
+2020-04-01,5-9,Overleden,0
+2020-04-01,10-14,Overleden,0
+2020-04-01,15-19,Overleden,0
+2020-04-01,20-24,Overleden,0
+2020-04-01,25-29,Overleden,0
+2020-04-01,30-34,Overleden,0
+2020-04-01,35-39,Overleden,1
+2020-04-01,40-44,Overleden,0
+2020-04-01,45-49,Overleden,1
+2020-04-01,50-54,Overleden,8
+2020-04-01,55-59,Overleden,13
+2020-04-01,60-64,Overleden,37
+2020-04-01,65-69,Overleden,74
+2020-04-01,70-74,Overleden,123
+2020-04-01,75-79,Overleden,234
+2020-04-01,80-84,Overleden,302
+2020-04-01,85-89,Overleden,250
+2020-04-01,90-94,Overleden,99
+2020-04-01,95+,Overleden,31
+2020-04-01,Niet vermeld,Overleden,0
