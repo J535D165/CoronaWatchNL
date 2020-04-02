@@ -72,6 +72,44 @@ to try to estimate when the inflection point will occur (or has occurred).
 This then results in the following sigmoidal fit:
 ![plots/sigmoid.png](plots/sigmoid.png)
 
+As some provinces had the outbreak earlier than others, it's relevant to see the individual provinces. The same linear model is used to estimate the inflection point.
+![plots/growthfactor_Drenthe.png](/plots/growthfactor_Drenthe.png)
+![plots/growthfactor_Flevoland.png](/plots/growthfactor_Flevoland.png)
+![plots/growthfactor_Friesland.png](/plots/growthfactor_Friesland.png)
+![plots/growthfactor_Gelderland.png](/plots/growthfactor_Gelderland.png)
+![plots/growthfactor_Groningen.png](/plots/growthfactor_Groningen.png)
+![plots/growthfactor_Limburg.png](/plots/growthfactor_Limburg.png)
+![plots/growthfactor_Noord-Brabant.png](/plots/growthfactor_Noord-Brabant.png)
+![plots/growthfactor_Noord-Holland.png](/plots/growthfactor_Noord-Holland.png)
+![plots/growthfactor_Overijssel.png](/plots/growthfactor_Overijssel.png)
+![plots/growthfactor_Utrecht.png](/plots/growthfactor_Utrecht.png)
+![plots/growthfactor_Zeeland.png](/plots/growthfactor_Zeeland.png)
+![plots/growthfactor_Zuid-Holland.png](/plots/growthfactor_Zuid-Holland.png)
+
+Also a sigmoid function per province:
+![plots/sigmoid_Drenthe.png](/plots/sigmoid_Drenthe.png)
+![plots/sigmoid_Flevoland.png](/plots/sigmoid_Flevoland.png)
+![plots/sigmoid_Friesland.png](/plots/sigmoid_Friesland.png)
+![plots/sigmoid_Gelderland.png](/plots/sigmoid_Gelderland.png)
+![plots/sigmoid_Groningen.png](/plots/sigmoid_Groningen.png)
+![plots/sigmoid_Limburg.png](/plots/sigmoid_Limburg.png)
+![plots/sigmoid_Noord-Brabant.png](/plots/sigmoid_Noord-Brabant.png)
+![plots/sigmoid_Noord-Holland.png](/plots/sigmoid_Noord-Holland.png)
+![plots/sigmoid_Overijssel.png](/plots/sigmoid_Overijssel.png)
+![plots/sigmoid_Utrecht.png](/plots/sigmoid_Utrecht.png)
+![plots/sigmoid_Zeeland.png](/plots/sigmoid_Zeeland.png)
+![plots/sigmoid_Zuid-Holland.png](/plots/sigmoid_Zuid-Holland.png)
+
+As testing capacity is limited the numbers of positively tested people doesn't give a realistic picture of the outbreak. Using the data of people being hospitalised should give a more realistic picture.
+
+Here is the development of the growth factor over time, with a linear model fit
+to try to estimate when the inflection point will occur (or has occurred).
+
+![plots/growthfactor_hospitalisation.png](/plots/growthfactor_hospitalisation.png)
+
+This then results in the following sigmoidal fit:
+![plots/sigmoid_hospitalisation.png](/plots/sigmoid_hospitalisation.png)
+
 For more information about this approach, please watch
 [the YouTube video](https://www.youtube.com/watch?v=Kas0tIxDvrg) that inspired
 this approach, by Grant Sanderson
