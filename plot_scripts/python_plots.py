@@ -153,15 +153,15 @@ def plot_logarithmic_growth_daily(df):
 
 
 # %%
-def plot_logarithmic_growth_weekly(_df):
+def plot_logarithmic_growth_bi_daily(_df):
     df = _df.copy()
     df = df.reset_index(level=0)
     df = df[['Aantal', 'Datum', 'New_cases']]
-    df = df.resample('W-Mon', on='Datum').sum()
+    df = df.resample('2d', on='Datum').sum()
     fig, ax = create_logarithmic_growth_plot(df)
-    ax.set(title="Nieuwe cases tegen totaal cases (Wekelijks)")
+    ax.set(title="Nieuwe cases tegen totaal cases (2-dagelijks)")
 
-    fig.savefig("plots/exponential_growth_weekly.png")
+    fig.savefig("plots/exponential_growth_bi_daily.png")
 
 
 # %%
@@ -333,5 +333,5 @@ if __name__ == "__main__":
     plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids)
 
     plot_logarithmic_growth_daily(df)
-    plot_logarithmic_growth_weekly(df)
+    plot_logarithmic_growth_bi_daily(df)
 
