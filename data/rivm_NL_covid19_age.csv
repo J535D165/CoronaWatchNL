@@ -503,27 +503,27 @@ Datum,LeeftijdGroep,Type,Aantal
 2020-04-01,90-94,Overleden,99
 2020-04-01,95+,Overleden,31
 2020-04-01,Niet vermeld,Overleden,0
-2020-04-02,0-4,Totaal gemeld,47
-2020-04-02,5-9,Totaal gemeld,9
-2020-04-02,10-14,Totaal gemeld,34
-2020-04-02,15-19,Totaal gemeld,70
-2020-04-02,20-24,Totaal gemeld,304
-2020-04-02,25-29,Totaal gemeld,597
-2020-04-02,30-34,Totaal gemeld,612
-2020-04-02,35-39,Totaal gemeld,558
-2020-04-02,40-44,Totaal gemeld,588
-2020-04-02,45-49,Totaal gemeld,885
-2020-04-02,50-54,Totaal gemeld,1133
-2020-04-02,55-59,Totaal gemeld,1282
-2020-04-02,60-64,Totaal gemeld,1178
-2020-04-02,65-69,Totaal gemeld,1120
-2020-04-02,70-74,Totaal gemeld,1445
-2020-04-02,75-79,Totaal gemeld,1506
-2020-04-02,80-84,Totaal gemeld,1382
-2020-04-02,85-89,Totaal gemeld,1181
-2020-04-02,90-94,Totaal gemeld,569
-2020-04-02,95+,Totaal gemeld,177
-2020-04-02,Niet vermeld,Totaal gemeld,20
+2020-04-02,0-4,Totaal,47
+2020-04-02,5-9,Totaal,9
+2020-04-02,10-14,Totaal,34
+2020-04-02,15-19,Totaal,70
+2020-04-02,20-24,Totaal,304
+2020-04-02,25-29,Totaal,597
+2020-04-02,30-34,Totaal,612
+2020-04-02,35-39,Totaal,558
+2020-04-02,40-44,Totaal,588
+2020-04-02,45-49,Totaal,885
+2020-04-02,50-54,Totaal,1133
+2020-04-02,55-59,Totaal,1282
+2020-04-02,60-64,Totaal,1178
+2020-04-02,65-69,Totaal,1120
+2020-04-02,70-74,Totaal,1445
+2020-04-02,75-79,Totaal,1506
+2020-04-02,80-84,Totaal,1382
+2020-04-02,85-89,Totaal,1181
+2020-04-02,90-94,Totaal,569
+2020-04-02,95+,Totaal,177
+2020-04-02,Niet vermeld,Totaal,20
 2020-04-02,0-4,Ziekenhuisopname,27
 2020-04-02,5-9,Ziekenhuisopname,2
 2020-04-02,10-14,Ziekenhuisopname,4
