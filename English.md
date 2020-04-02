@@ -100,7 +100,7 @@ Also a sigmoid function per province:
 ![plots/sigmoid_Zeeland.png](/plots/sigmoid_Zeeland.png)
 ![plots/sigmoid_Zuid-Holland.png](/plots/sigmoid_Zuid-Holland.png)
 
-As testing capacity is limited the numbers of positively tested people doesn't give a realistic pictore of the outbreak. Using the data of people being hospitalised should give a more realistic picture.
+As testing capacity is limited the numbers of positively tested people doesn't give a realistic picture of the outbreak. Using the data of people being hospitalised should give a more realistic picture.
 
 Here is the development of the growth factor over time, with a linear model fit
 to try to estimate when the inflection point will occur (or has occurred).
