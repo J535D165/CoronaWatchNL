@@ -1,9 +1,10 @@
 library(tidyverse)
+library(cowplot)
 
 pdf(NULL)
 dir.create("plots")
 
-data <- read_csv("data/rivm_corona_in_nl.csv")
+data_prov <- read_csv("data/rivm_NL_covid19_province.csv")
 
 # daily data
 data_daily <- read_csv("data/rivm_corona_in_nl_daily.csv")
@@ -15,13 +16,100 @@ measures <- read_csv("ext/maatregelen.csv") %>%
 
 # combine daily data
 daily <- data_daily %>%
-  mutate(meas = "Aantal positief geteste mensen") %>%
+  mutate(meas = "Totaal") %>%
   bind_rows(hosp %>%
-              mutate(meas = "Aantal gehospitaliseerde mensen")) %>%
+              mutate(meas = "Ziekenhuisopname")) %>%
   bind_rows(fata %>%
-              mutate(meas = "Aantal overleden mensen"))
+              mutate(meas = "Overleden"))
+
+# combine daily increase
+daily_diff <- data_daily %>%
+  mutate(
+    Aantal = Aantal - lag(Aantal),
+    meas = "Totaal"
+  ) %>%
+  bind_rows(hosp %>%
+              mutate(
+                Aantal = Aantal - lag(Aantal),
+                meas = "Ziekenhuisopname")) %>%
+  bind_rows(fata %>%
+              mutate(
+                Aantal = Aantal - lag(Aantal),
+                meas = "Overleden"))
+
 
 daily %>%
+  mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
+  geom_line() + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Totaal Covid19 patiënten") +
+  ggsave("plots/overview_plot.png", width = 5, height=4)
+
+
+daily_diff %>%
+  mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
+  geom_line() + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Toename Covid19 patiënten") +
+  ggsave("plots/overview_plot_diff.png", width = 5, height=4)
+
+# plot geslacht
+
+read_csv("data/rivm_NL_covid19_sex.csv") %>%
+  filter(Geslacht %in% c("Man", "Vrouw")) %>%
+  mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype= Geslacht)) +
+  geom_line() + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Covid19 patiënten per geslacht") +
+  ggsave("plots/overview_plot_geslacht.png", width = 5, height=4)
+
+
+
+# plot age
+
+read_csv("data/rivm_NL_covid19_age.csv") %>%
+  filter(LeeftijdGroep != "Niet vermeld") %>%
+  mutate(
+    groep = ifelse(LeeftijdGroep %in% c("0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59"), "0-59", NA),
+    groep = ifelse(LeeftijdGroep %in% c("60-64", "65-69", "70-74"), "60-74", groep),
+    groep = ifelse(LeeftijdGroep %in% c("75-79", "80-84", "85-89", "90-94", "95+"), "75+", groep)
+  ) %>% 
+  group_by(Datum, groep, Type) %>% 
+  summarize(Aantal = sum(Aantal)) %>%
+  mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype=groep)) +
+  geom_line() + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Covid19 patiënten per leeftijd") +
+  ggsave("plots/overview_plot_leeftijd.png", width = 5, height=4)
+
+
+# plot with countermeasures
+
+(daily %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
   geom_line() +
   scale_x_date(
@@ -45,31 +133,31 @@ daily %>%
         legend.pos = "bottom",
         legend.key.size = unit(1, "mm"),
         legend.text = element_text(size = 6)) +
-  ggsave("plots/timeline.png", width = 6, height=4)
+  ggsave("plots/timeline.png", width = 6, height=4))
 
 ### Top 10 municipalities
-
-# top 10 municipalities on the most recent day
-top_10_municipalities <- data %>%
-  filter(!is.na(Gemeentenaam)) %>%
-  arrange(desc(Datum), desc(Aantal)) %>%
-  filter(Gemeentenaam %in% head(Gemeentenaam, 10))
-
-# make plot
-top_10_municipalities %>%
-  ggplot(aes(Datum, Aantal, color=Gemeentenaam)) +
-  geom_line() +
-  theme_minimal() +
-  scale_x_date(date_breaks = "1 weeks",
-               date_minor_breaks = "1 days") +
-  theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank()) +
-  ggtitle("Gemeentes met de meeste positief-geteste Coronavirus besmettingen") +
-  ggsave("plots/top_municipalities.png", width = 6, height=4)
+# 
+# # top 10 municipalities on the most recent day
+# top_10_municipalities <- data %>%
+#   filter(!is.na(Gemeentenaam)) %>%
+#   arrange(desc(Datum), desc(Aantal)) %>%
+#   filter(Gemeentenaam %in% head(Gemeentenaam, 10))
+# 
+# # make plot
+# top_10_municipalities %>%
+#   ggplot(aes(Datum, Aantal, color=Gemeentenaam)) +
+#   geom_line() +
+#   theme_minimal() +
+#   scale_x_date(date_breaks = "1 weeks",
+#                date_minor_breaks = "1 days") +
+#   theme(axis.title.x=element_blank(),
+#         axis.title.y=element_blank()) +
+#   ggtitle("Gemeentes met de meeste positief-geteste Coronavirus besmettingen") +
+#   ggsave("plots/top_municipalities.png", width = 6, height=4)
 
 ### Per province
-data %>%
-  filter(Datum == max(Datum), !is.na(Gemeentenaam)) %>%
+data_prov %>%
+  filter(Datum == max(Datum), !is.na(Provincienaam)) %>%
   mutate(Provincie = forcats::fct_reorder(
     Provincienaam, Aantal, .fun = sum, .desc = TRUE)) %>%
   ggplot(aes(Provincie, Aantal)) +
@@ -81,10 +169,7 @@ data %>%
   labs(title = "Positief-geteste Coronavirus besmettingen per provincie") +
   ggsave("plots/province_count.png", width = 6, height=4)
 
-data %>%
-  filter(!is.na(Gemeentenaam)) %>%
-  group_by(Provincienaam, Datum) %>%
-  summarise(Aantal = sum(Aantal, na.rm = T)) %>%
+data_prov %>%
   ggplot(aes(Datum, Aantal, color=Provincienaam)) +
   geom_line() +
   theme_minimal() +
@@ -189,22 +274,17 @@ mun <- read_csv2(
 )
 
 # plot map
-province_data <- data %>%
-  filter(!is.na(Gemeentenaam)) %>%
-  group_by(Datum, Provincienaam) %>%
-  summarise(Aantal = sum(Aantal, na.rm = T)) %>%
-  ungroup() %>%
-  left_join(province_shp, by=c("Provincienaam"="NAME_1"))
 
-
-province_data %>%
-  filter(Datum > max(Datum) - 3) %>%
+data_prov %>%
+  filter(!is.na(Provincienaam)) %>%
+  left_join(province_shp, by=c("Provincienaam"="NAME_1")) %>%
+  filter(Datum > max(Datum) - 6) %>%
   ggplot() +
   geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) +
-  facet_grid(cols = vars(Datum)) +
+  facet_grid(cols = vars(Datum)) + coord_sf() +
   theme_minimal() +
   theme(axis.text.x=element_blank(),
         axis.text.y=element_blank()) +
-  scale_colour_gradient(low = "grey", high = "red", na.value = NA) +
-  scale_fill_gradient(low = "grey", high = "red", na.value = NA) +
-  ggsave("plots/map_province.png", width = 6, height=2)
+  scale_colour_gradient(low = "grey", high = "#E69F00", na.value = NA) +
+  scale_fill_gradient(low = "grey", high = "#E69F00", na.value = NA) +
+  ggsave("plots/map_province.png", width = 6, height=4.5)
