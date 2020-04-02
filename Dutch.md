@@ -59,12 +59,48 @@ De eerste voorspellingen zijn gebaseerd op modellen voor exponentiele groei. ![p
 De data laat nu echter een ander beeld zien dan exponentiele groei. Als we de data op een logaritmische schaal zetten, dan wijkt de data drastisch af van de lijn!
 ![plots/prediction_log10.png](plots/prediction_log10.png)
 
-We proberen daarom een sigmoide functie. Een manier om dit passend te maken, is om de mate van groei te bepalen. Deze definieren we als de ratio van nieuwe gevallen over nieuwe gevallen uit de eerdere periode. Asl deze ratio 1 bereikt, dan is de kans groot dat de groei geen exponentiele curve volgt, maar afneemt naar een sigmoide functie. Hier is de ontwikkeling van de groeifactor over tijd, met een lineair model om te bepalen wanneer dit moment zich voor zal doen. 
+We proberen daarom een sigmoide functie. Een manier om dit passend te maken, is om de mate van groei te bepalen. Deze definiëren we als de ratio van nieuwe gevallen over nieuwe gevallen uit de eerdere periode. Als deze ratio 1 bereikt, dan is de kans groot dat de groei geen exponentiele curve volgt, maar afneemt naar een sigmoide functie. Hier is de ontwikkeling van de groeifactor over tijd, met een lineair model om te bepalen wanneer dit moment zich voor zal doen. 
 
 ![plots/growthfactor.png](plots/growthfactor.png)
 
 Dit leidt dan tot de volgende sigmoide functie:
 ![plots/sigmoid.png](plots/sigmoid.png)
+
+Omdat de uitbraak in sommige provincies eerder was dan in andere is het relevant om de individuele provincies te zien. Hetzelfde lineaire model is gebruikt om te bepalen hoe de groei zich ontwikkelt. 
+![plots/growthfactor_Drenthe.png](/plots/growthfactor_Drenthe.png)
+![plots/growthfactor_Flevoland.png](/plots/growthfactor_Flevoland.png)
+![plots/growthfactor_Friesland.png](/plots/growthfactor_Friesland.png)
+![plots/growthfactor_Gelderland.png](/plots/growthfactor_Gelderland.png)
+![plots/growthfactor_Groningen.png](/plots/growthfactor_Groningen.png)
+![plots/growthfactor_Limburg.png](/plots/growthfactor_Limburg.png)
+![plots/growthfactor_Noord-Brabant.png](/plots/growthfactor_Noord-Brabant.png)
+![plots/growthfactor_Noord-Holland.png](/plots/growthfactor_Noord-Holland.png)
+![plots/growthfactor_Overijssel.png](/plots/growthfactor_Overijssel.png)
+![plots/growthfactor_Utrecht.png](/plots/growthfactor_Utrecht.png)
+![plots/growthfactor_Zeeland.png](/plots/growthfactor_Zeeland.png)
+![plots/growthfactor_Zuid-Holland.png](/plots/growthfactor_Zuid-Holland.png)
+
+Ook een sigmoide functies per provincie:
+![plots/sigmoid_Drenthe.png](/plots/sigmoid_Drenthe.png)
+![plots/sigmoid_Flevoland.png](/plots/sigmoid_Flevoland.png)
+![plots/sigmoid_Friesland.png](/plots/sigmoid_Friesland.png)
+![plots/sigmoid_Gelderland.png](/plots/sigmoid_Gelderland.png)
+![plots/sigmoid_Groningen.png](/plots/sigmoid_Groningen.png)
+![plots/sigmoid_Limburg.png](/plots/sigmoid_Limburg.png)
+![plots/sigmoid_Noord-Brabant.png](/plots/sigmoid_Noord-Brabant.png)
+![plots/sigmoid_Noord-Holland.png](/plots/sigmoid_Noord-Holland.png)
+![plots/sigmoid_Overijssel.png](/plots/sigmoid_Overijssel.png)
+![plots/sigmoid_Utrecht.png](/plots/sigmoid_Utrecht.png)
+![plots/sigmoid_Zeeland.png](/plots/sigmoid_Zeeland.png)
+![plots/sigmoid_Zuid-Holland.png](/plots/sigmoid_Zuid-Holland.png)
+
+Omdat de testcapaciteit beperkt is geeft het aantal positief geteste mensen geen realistisch beeld. Door de data te gebruiken van mensen die opgenomen zijn in het ziekenhuis zou dit een realistischer beeld moeten geven:
+
+Hier is de ontwikkeling van de groeifactor over tijd, met een lineair model om te bepalen wanneer de groeifactor onder de 1 zal komen.
+![plots/growthfactor_hospitalisation.png](/plots/growthfactor_hospitalisation.png)
+
+Dit leidt dan tot de volgende sigmoide functie:
+![plots/sigmoid_hospitalisation.png](/plots/sigmoid_hospitalisation.png)
 
 Voor meer informatie over de aanpak, is er deze [YouTube video](https://www.youtube.com/watch?v=Kas0tIxDvrg) door Grant Sanderson, die ons inspireerde tot deze aanpak
 ([3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)).
