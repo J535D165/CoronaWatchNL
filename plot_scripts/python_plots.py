@@ -152,8 +152,6 @@ def plot_logarithmic_growth_daily(df):
     ax.set(title="Nieuwe cases tegen totaal cases (dagelijks)")
     fig.savefig("plots/exponential_growth_daily.png")
 
-plot_logarithmic_growth_daily(df)
-
 
 # %%
 def plot_logarithmic_growth_bi_daily(_df):
@@ -166,8 +164,6 @@ def plot_logarithmic_growth_bi_daily(_df):
     ax.set(title="Nieuwe cases tegen totaal cases (2-dagelijks)")
 
     fig.savefig("plots/exponential_growth_bi_daily.png")
-
-plot_logarithmic_growth_bi_daily(df)
 
 
 # %%
