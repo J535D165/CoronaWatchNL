@@ -159,7 +159,6 @@ def plot_logarithmic_growth_bi_daily(_df):
     df = df.reset_index(level=0)
     df = df[['Aantal', 'Datum', 'New_cases']]
     df = df.resample('2d', on='Datum', closed='right').sum()
-    df.insert(0, ['Aantal', 'Datum', 'New_cases'], [0, 0, 0])
     fig, ax = create_logarithmic_growth_plot(df)
     ax.set(title="Nieuwe cases tegen totaal cases (2-dagelijks)")
 
