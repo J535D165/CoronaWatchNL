@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# %%
 
 import pandas as pd
 import numpy as np
@@ -151,17 +152,22 @@ def plot_logarithmic_growth_daily(df):
     ax.set(title="Nieuwe cases tegen totaal cases (dagelijks)")
     fig.savefig("plots/exponential_growth_daily.png")
 
+plot_logarithmic_growth_daily(df)
+
 
 # %%
 def plot_logarithmic_growth_bi_daily(_df):
     df = _df.copy()
     df = df.reset_index(level=0)
     df = df[['Aantal', 'Datum', 'New_cases']]
-    df = df.resample('2d', on='Datum').sum()
+    df = df.resample('2d', on='Datum', closed='right').sum()
+    df.insert(0, ['Aantal', 'Datum', 'New_cases'], [0, 0, 0])
     fig, ax = create_logarithmic_growth_plot(df)
     ax.set(title="Nieuwe cases tegen totaal cases (2-dagelijks)")
 
     fig.savefig("plots/exponential_growth_bi_daily.png")
+
+plot_logarithmic_growth_bi_daily(df)
 
 
 # %%
@@ -334,4 +340,5 @@ if __name__ == "__main__":
 
     plot_logarithmic_growth_daily(df)
     plot_logarithmic_growth_bi_daily(df)
+
 
