@@ -274,7 +274,7 @@ def plot_sigmoids(df,
 
     plt.savefig(filename)
 
-
+# In[104]:
 def process_plots(subject,
                   data_filename,
                   growth_factor_plot_filename,
