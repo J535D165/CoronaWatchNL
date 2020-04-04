@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[68]:
-
-
 import pandas as pd
 import numpy as np
 
@@ -14,13 +8,10 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 
-# In[69]:
-
-
-def read_data():
+def read_data(filename, region, boolean_region):
     
     # Read and preprocess data file
-    df = pd.read_csv("data/rivm_corona_in_nl_hosp.csv")
+    df = pd.read_csv(filename)
 
     df['Datum'] = pd.to_datetime(df['Datum'])
 
@@ -28,10 +19,13 @@ def read_data():
         
     df['Dag'] = np.arange(len(df))
 
-    return (df)  
-
-
-# In[70]:
+    if (boolean_region):
+        # If a region is used then filter on the region first.
+        df_filtered = df[(df['Provincienaam'] == region)]
+        df_filtered['Dag'] = np.arange(len(df_filtered))
+        return (df_filtered)
+    else:
+        return (df)  
 
 
 def add_variables(df):
@@ -43,9 +37,6 @@ def add_variables(df):
     df['Growth_factor'] = df['New_cases'] / df['New_cases'].shift(1)    
     
     return(df)
-
-
-# In[71]:
 
 
 def analyze_growth_factor(df):
@@ -81,11 +72,12 @@ def analyze_growth_factor(df):
 
 # In[72]:
 
-
 def create_growthfactor_plot(df,
                              intercepts,
                              coefficients,
                              inflection_date,
+                             filename,
+                             subject,
                              plot_max_bootstraps=50):
 
     mean_intercept = np.mean(intercepts)
@@ -129,11 +121,10 @@ def create_growthfactor_plot(df,
     plt.xticks(rotation=60)
     plt.xlabel("Datum", size=15)
     plt.ylabel("Groeifactor", size=15)
-    plt.title("Groeifactor ziekenhuisopnamen (delta nieuwe cases), maximum groei verwacht op {:%d/%m/%Y %H:00}".format(inflection_date), 
+    plt.title("Groeifactor " + subject + "(delta nieuwe cases), maximum groei verwacht op {:%d/%m/%Y %H:00}".format(inflection_date), 
               size=20)
     plt.legend(fontsize=20)
 
-    filename = "plots/growthfactor_hospitalisation.png" 
     plt.savefig(filename)
 
 
@@ -222,9 +213,12 @@ def fit_sigmoid_repeated(df, no_samples=50):
 
 
 # In[104]:
-
-
-def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, extrapolate_days=7):
+def plot_sigmoids(df,
+                  fitted_sigmoid,
+                  fitted_sigmoids,
+                  filename,
+                  subject,
+                  extrapolate_days=7):
 
     X = df['Dag'].values.reshape(-1, 1)
     y = df['Aantal'].values.reshape(-1, 1)
@@ -237,7 +231,7 @@ def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, extrapolate_days=7):
              marker='.',
              markersize='10',
              color='black',
-             label="aantal ziekenhuisopnamen")
+             label="aantal "+ subject)
    
     X_linspace = np.linspace(X.min(), X.max()+extrapolate_days, num=100)
     
@@ -263,7 +257,7 @@ def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, extrapolate_days=7):
 
     plt.xlabel("Datum", size=15)
     plt.ylabel("Aantal gevallen", size=15)
-    plt.title("Logistische curve ziekenhuisopnamen" , size=20)
+    plt.title("Logistische curve " + subject, size=20)
     plt.legend(fontsize=20)
 
     max_x_val = X.max()+extrapolate_days
@@ -278,16 +272,18 @@ def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, extrapolate_days=7):
 
     plt.ylim(0)
 
-    filename = "plots/sigmoid_hospitalisation.png" 
     plt.savefig(filename)
 
 
-# In[105]:
+def process_plots(subject,
+                  data_filename,
+                  growth_factor_plot_filename,
+                  sigmoiod_plot_filename,
+                  region,
+                  boolean_region
+                 ):
 
-
-if __name__ == "__main__":
-
-    df = read_data()
+    df = read_data(data_filename, region, boolean_region)
 
     df = add_variables(df)
 
@@ -297,13 +293,19 @@ if __name__ == "__main__":
 
     print("Inflection expected after {:.1f} days, at date {:%d/%m/%Y %H:00}".format(inflection_x, inflection_date))
 
-    create_growthfactor_plot(df, intercepts, coefficients, inflection_date)
+    create_growthfactor_plot(df,
+                             intercepts,
+                             coefficients,
+                             inflection_date,
+                             growth_factor_plot_filename,
+                             subject)
 
-    try:
-        fitted_sigmoid = fit_sigmoid(df)
+    fitted_sigmoid = fit_sigmoid(df)
 
-        fitted_sigmoids = fit_sigmoid_repeated(df)
-    except RuntimeError:
-        print("No usable results")
+    fitted_sigmoids = fit_sigmoid_repeated(df)
 
-    plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids)
+    plot_sigmoids(df,
+                  fitted_sigmoid,
+                  fitted_sigmoids,
+                  sigmoiod_plot_filename,
+                  subject)

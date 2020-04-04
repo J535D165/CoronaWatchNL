@@ -96,11 +96,17 @@ Ook een sigmoide functies per provincie:
 
 Omdat de testcapaciteit beperkt is geeft het aantal positief geteste mensen geen realistisch beeld. Door de data te gebruiken van mensen die opgenomen zijn in het ziekenhuis zou dit een realistischer beeld moeten geven:
 
-Hier is de ontwikkeling van de groeifactor over tijd, met een lineair model om te bepalen wanneer de groeifactor onder de 1 zal komen.
+Hier is de ontwikkeling van de groeifactor van de ziekenhuisopnamen over tijd, met een lineair model om te bepalen wanneer de groeifactor onder de 1 zal komen.
 ![plots/growthfactor_hospitalisation.png](/plots/growthfactor_hospitalisation.png)
 
 Dit leidt dan tot de volgende sigmoide functie:
 ![plots/sigmoid_hospitalisation.png](/plots/sigmoid_hospitalisation.png)
+
+Hier is de ontwikkeling van de groeifactor van de overledenen over tijd, met een lineair model om te bepalen wanneer de groeifactor onder de 1 zal komen.
+![plots/growthfactor_fatalities.png](/plots/growthfactor_fatalities.png)
+
+Dit leidt dan tot de volgende sigmoide functie:
+![plots/sigmoid_fatalities.png](/plots/sigmoid_fatalities.png)
 
 Voor meer informatie over de aanpak, is er deze [YouTube video](https://www.youtube.com/watch?v=Kas0tIxDvrg) door Grant Sanderson, die ons inspireerde tot deze aanpak
 ([3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)).
