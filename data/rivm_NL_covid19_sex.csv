@@ -98,3 +98,12 @@ Datum,Geslacht,Type,Aantal
 2020-04-04,Man,Overleden,1010
 2020-04-04,Vrouw,Overleden,641
 2020-04-04,Niet vermeld,Overleden,0
+2020-04-05,Man,Totaal,8557
+2020-04-05,Vrouw,Totaal,9271
+2020-04-05,Niet vermeld,Totaal,23
+2020-04-05,Man,Ziekenhuisopname,4325
+2020-04-05,Vrouw,Ziekenhuisopname,2545
+2020-04-05,Niet vermeld,Ziekenhuisopname,5
+2020-04-05,Man,Overleden,1085
+2020-04-05,Vrouw,Overleden,681
+2020-04-05,Niet vermeld,Overleden,0
