@@ -27,6 +27,7 @@ def download_json(urls):
     data = {}
     for url in urls:
         name = url.rsplit('/', 1)[-1]
+        print('Downloading {}'.format(url))
         try:
             resp = requests.get(url)
         except Exception as e:
@@ -56,6 +57,7 @@ def download_json(urls):
 # use this if you want to store the raw JSONs
 def dump_json(data, dir):
     """Parse a dictionary of JSONs. Key = filename (without .json)"""
+    
     try:
         Path(dir).mkdir(parents=True, exist_ok=True)
     except Exception as e:
@@ -66,6 +68,7 @@ def dump_json(data, dir):
 
     for name,content in data.items():
         file = dir+name+'-'+dt+'.json'
+        print('Dumping raw to {}'.format(file))
 
         try:
             with open(file, 'w') as out:
@@ -79,6 +82,8 @@ def write_json_to_csv(data,dir):
     """Write a dictionary of filename => data (dict) to CSVs in dir"""
     for file,json in data.items():
         file = dir+file+'.csv'
+
+        print('Writing json to {}'.format(file))
 
         try:
             with open(file, 'w', newline='') as out_f:
@@ -135,6 +140,7 @@ def merge_csvs(merge_list,dir,on,choose,dtype=int):
             sys.exit('ERROR: could not read {} ({})'.format(dir+fileb,e))
         
         # merge filea and b
+        print('Merging {} to {}'.format(fileb,filea))
         merged = a.merge(b,how='left',on=on)
 
         # collect labels; choose values; fix N/A; convert to int
@@ -159,6 +165,7 @@ def merge_csvs(merge_list,dir,on,choose,dtype=int):
 
 def cleanup_processing(dir):
     """Delete all contents in dir of dir itself"""
+    print('Cleaning up processing')
     for filename in os.listdir(dir):
         file_path = os.path.join(dir, filename)
         try:
@@ -210,6 +217,7 @@ if __name__ == '__main__':
     filename = 'nice_ic_by_day.csv'
     file_new = data_dir+filename
     # write to csv
+    print('Writing data to {}'.format(file_new))
     try:
         new_csv.to_csv(file_new,index=False)
     except Exception as e:
