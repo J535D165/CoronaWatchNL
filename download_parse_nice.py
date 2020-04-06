@@ -7,19 +7,19 @@ import sys
 import shutil
 from datetime import datetime
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
 import requests
 
 # JSONs to download.
 # Files with single object (dict) and files with single array (list(dict)) are supported out of the box
-NICE_URLS = ['https://www.stichting-nice.nl/covid-19/public/global', # aggregated stats
-             'https://www.stichting-nice.nl/covid-19/public/new-intake', # new IC patients with proven COVID-19, per day
+NICE_URLS = ['https://www.stichting-nice.nl/covid-19/public/new-intake', # new IC patients with proven COVID-19, per day
              'https://www.stichting-nice.nl/covid-19/public/intake-count', # current total IC patients with proven COVID-19, per day
              'https://www.stichting-nice.nl/covid-19/public/intake-cumulative', # cumulative IC patients with proven COVID-19, per day
              'https://www.stichting-nice.nl/covid-19/public/ic-count', # current total of ICUs with at least one proven COVID-19 patient, per day
-             'https://www.stichting-nice.nl/covid-19/public/died-and-survivors-cumulative'] # cumulative IC patients with proven COVID-19 that died and surved, per day
+             'https://www.stichting-nice.nl/covid-19/public/died-and-survivors-cumulative'] # cumulative IC patients with proven COVID-19 that died and survived, per day
+
+# https://www.stichting-nice.nl/covid-19/public/global is also available, but doesn't have a date or other lastupdate indicator
 
 
 def download_json(urls):
@@ -216,8 +216,9 @@ if __name__ == '__main__':
     data_dir = 'data/'
     filename = 'nice_ic_by_day.csv'
     file_new = data_dir+filename
+    
     # write to csv
-    print('Writing data to {}'.format(file_new))
+    print('Writing merged data to {}'.format(file_new))
     try:
         new_csv.to_csv(file_new,index=False)
     except Exception as e:

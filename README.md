@@ -25,7 +25,7 @@ The following datasets are available for reuse. :exclamation: Daily updates :exc
 | COVID-19 hospitalizations in NL | [data/rivm_corona_in_nl_hosp.csv](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL |
 | RIVM press releases (NEW) | [data/rivm_press_releases.csv](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
 | COVID-19 per municipality (PDF maps) (NEW) | [data/rivm_NL_covid19_municipality_range.csv](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
-| COVID-19 intensive care patient counts in NL (NEW) | [data/nice_ic_by_day.csv](data/rivm_NL_covid19_municipality_range.csv) | Stichting NICE | Date, ...|
+| COVID-19 intensive care patient counts in NL (NEW) | [data/nice_ic_by_day.csv](data/rivm_NL_covid19_municipality_range.csv) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
 
 
 ### Inactive
@@ -50,7 +50,7 @@ The following sources are used for data collection.
 | https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus | RIVM | Positively tested patients, Fatalities (total), Hospitalized (total) |
 | https://www.rivm.nl/coronavirus-kaart-van-nederland-per-gemeente | RIVM | Positive tests per municipality |
 | https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus/data | RIVM | Epidemiological reports |
-| https://www.stichting-nice.nl/ | Stichting NICE | ... |
+| https://www.stichting-nice.nl/ | Stichting NICE | Postively tested patients admitted to IC, Number of ICUs with positively tested patient(s), Number of fatal IC cases, Number of survived IC cases  |
 
 
 ## Remarks
