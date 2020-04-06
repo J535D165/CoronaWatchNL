@@ -14,16 +14,16 @@ Dutch:
 
 The following datasets are available for reuse. :exclamation: Daily updates :exclamation:
 
-| Dataset | URL | Source | Variables |
+| Dataset | Source | Variables |
 |---|---| --- | --- |
-| COVID-19 disease case counts in NL (NEW) | [data/rivm_NL_covid19_national.csv](data/rivm_NL_covid19_national.csv) | RIVM | Date, Type (Total, hopitalized and deceased patients), Count|
-| COVID-19 disease case counts in NL per province | [data/rivm_NL_covid19_province.csv](data/rivm_NL_covid19_province.csv) | RIVM | Date, Province, Number of positive COVID-19 disease cases in NL|
-| COVID-19 hospitalizations in NL per municipality |[data/rivm_NL_covid19_hosp_municipality.csv](data/rivm_NL_covid19_hosp_municipality.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL, Municipality of residence, Municipality code (2019), Province |
-| COVID-19 disease case counts in NL per age | [data/rivm_NL_covid19_age.csv](data/rivm_NL_covid19_age.csv) | RIVM | Date, Age group, Type, Number of positive COVID-19 disease cases in NL|
-| COVID-19 disease case counts in NL per gender | [data/rivm_NL_covid19_sex.csv](data/rivm_NL_covid19_sex.csv) | RIVM | Date, Gender group, Type, Number of positive COVID-19 disease cases in NL|
-| COVID-19 per municipality (PDF maps)| [data/rivm_NL_covid19_municipality_range.csv](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
-| RIVM press releases | [data/rivm_press_releases.csv](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
-| COVID-19 intensive care patient counts in NL (EXPERIMENTAL) | [data/nice_ic_by_day.csv](data/nice_ic_by_day.csv) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
+| [COVID-19 case counts in NL (NEW)](data/rivm_NL_covid19_national.csv) | RIVM | Date, Type (Total, hopitalized and deceased patients), Count|
+| [COVID-19 case counts in NL per province](data/rivm_NL_covid19_province.csv) | RIVM | Date, Province, COVID-19 case counts|
+| [COVID-19 hospitalizations in NL per municipality](data/rivm_NL_covid19_hosp_municipality.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL, Municipality of residence, Municipality code (2019), Province |
+| [COVID-19 case counts in NL per age](data/rivm_NL_covid19_age.csv) | RIVM | Date, Age group, Type, Number of positive COVID-19 disease cases in NL|
+| [COVID-19 case counts in NL per gender](data/rivm_NL_covid19_sex.csv) | RIVM | Date, Gender group, Type, Number of positive COVID-19 disease cases in NL|
+| [COVID-19 per municipality (PDF maps)](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
+| [RIVM press releases](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
+| [COVID-19 intensive care patient counts in NL (EXPERIMENTAL)](data/nice_ic_by_day.csv) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
 
 ### Deprecated (pending)
 
@@ -31,9 +31,9 @@ The following datasets are awaiting deprecation. They are replaced by new datase
 
 | Dataset | URL | Source | Variables | Alternative
 |---|---| --- | --- | --- |
-| COVID-19 disease case counts in NL | [data/rivm_corona_in_nl_daily.csv](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv |
-| COVID-19 fatalities in NL | [data/rivm_corona_in_nl_fatalities.csv](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv |
-| COVID-19 hospitalizations in NL | [data/rivm_corona_in_nl_hosp.csv](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv |
+| [COVID-19 disease case counts in NL](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv |
+| [COVID-19 fatalities in NL](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv |
+| [COVID-19 hospitalizations in NL](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv |
 
 ### Inactive
 
