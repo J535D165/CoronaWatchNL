@@ -23,7 +23,7 @@ The following datasets are available for reuse. :exclamation: Daily updates :exc
 | COVID-19 disease case counts in NL per gender | [data/rivm_NL_covid19_sex.csv](data/rivm_NL_covid19_sex.csv) | RIVM | Date, Gender group, Type, Number of positive COVID-19 disease cases in NL|
 | COVID-19 per municipality (PDF maps)| [data/rivm_NL_covid19_municipality_range.csv](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
 | RIVM press releases | [data/rivm_press_releases.csv](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
-| COVID-19 intensive care patient counts in NL (EXPERIMENTAL) | [data/nice_ic_by_day.csv](data/rivm_NL_covid19_municipality_range.csv) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
+| COVID-19 intensive care patient counts in NL (EXPERIMENTAL) | [data/nice_ic_by_day.csv](data/nice_ic_by_day.csv) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
 
 ### Deprecated (pending)
 
