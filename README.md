@@ -16,7 +16,6 @@ The following datasets are available for reuse. :exclamation: Daily updates :exc
 
 | Dataset | URL | Source | Variables |
 |---|---| --- | --- |
-
 | COVID-19 disease case counts in NL (NEW) | [data/rivm_NL_covid19_national.csv](data/rivm_NL_covid19_national.csv) | RIVM | Date, Type (Total, hopitalized and deceased patients), Count|
 | COVID-19 disease case counts in NL per province | [data/rivm_NL_covid19_province.csv](data/rivm_NL_covid19_province.csv) | RIVM | Date, Province, Number of positive COVID-19 disease cases in NL|
 | COVID-19 hospitalizations in NL per municipality |[data/rivm_NL_covid19_hosp_municipality.csv](data/rivm_NL_covid19_hosp_municipality.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL, Municipality of residence, Municipality code (2019), Province |
