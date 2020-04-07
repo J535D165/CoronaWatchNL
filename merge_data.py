@@ -11,7 +11,7 @@ import pandas
 DATE_MAP = {
     "maart": 3,
     "april": 4,
-    "juni": 5,
+    "mei": 5,
 }
 
 
