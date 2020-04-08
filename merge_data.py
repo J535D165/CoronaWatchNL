@@ -67,6 +67,59 @@ def parse_format_v3(file, n_missing=None):
     return df
 
 
+def parse_format_v4(file, n_missing=None):
+
+    date_parts = re.findall(r'(\d{1,2})-(.*?)-(\d{4})', str(file))[0]
+
+    # find date
+    date = datetime.date(
+        int(date_parts[2]),
+        int(date_parts[1]),
+        int(date_parts[0])
+    )
+
+    df = pandas.read_csv(file, sep=";")
+
+    # find the number of missing locations
+    missing = re.findall(
+        r'Bij (\d+) personen is de woonplaats niet van bekend',
+        df.iat[0, 1]
+    )
+    try:
+        n_missing = int(missing[0])
+    except Exception:
+        pass
+
+    try:
+        df['id'] = df['Gemnr'].astype(int)
+        del df['Gemnr']
+    except Exception:
+        pass
+
+    # remove junk rows
+    df = df[df['id'] >= 0].copy()
+
+    df["Aantal"] = df["Zkh opname"]
+
+    # append row with missing numbers
+    df = df.append({
+        "Gemeente": None,
+        "id": -1,
+        "Aantal": n_missing},
+        ignore_index=True)
+
+    # print(df.tail())
+
+    # add column with date
+    df['Datum'] = date
+
+    df = df[["Datum", "Gemeente", "id", "Aantal"]]
+
+    print(df)
+
+    return df
+
+
 def merge_df_days(df_dict):
 
     result = pandas.concat(
@@ -83,7 +136,8 @@ def merge_df_days(df_dict):
 if __name__ == '__main__':
 
     df_frames = {
-        "raw_data/peildatum-31-03-2020-14-00.csv": None
+        "raw_data/peildatum-31-03-2020-14-00.csv": None,
+        "raw_data/peildatum-08-04-2020-13-55.csv": parse_format_v4("raw_data/peildatum-08-04-2020-13-55.csv"),
     }
 
     # files not in the list above

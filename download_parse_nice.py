@@ -69,7 +69,7 @@ def dump_json(data, dir):
         sys.exit('ERROR: could not create dir {} ({})'.format(dir, e))
 
     # add current datetime to filename
-    dt = datetime.now().strftime('%Y%m%d%H%M')
+    dt = datetime.now().strftime('%Y-%m-%d')
 
     for name, content in data.items():
         file = dir + name + '-' + dt + '.json'
