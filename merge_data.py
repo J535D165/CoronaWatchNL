@@ -138,6 +138,7 @@ if __name__ == '__main__':
     df_frames = {
         "raw_data/peildatum-31-03-2020-14-00.csv": None,
         "raw_data/peildatum-08-04-2020-13-55.csv": parse_format_v4("raw_data/peildatum-08-04-2020-13-55.csv"),
+        "raw_data/peildatum-09-04-2020-13-50.csv": parse_format_v4("raw_data/peildatum-09-04-2020-13-50.csv"),
     }
 
     # files not in the list above
