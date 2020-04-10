@@ -137,15 +137,21 @@ if __name__ == '__main__':
 
     df_frames = {
         "raw_data/peildatum-31-03-2020-14-00.csv": None,
-        "raw_data/peildatum-08-04-2020-13-55.csv": parse_format_v4("raw_data/peildatum-08-04-2020-13-55.csv"),
-        "raw_data/peildatum-09-04-2020-13-50.csv": parse_format_v4("raw_data/peildatum-09-04-2020-13-50.csv"),
+        "raw_data/peildatum-04-04-2020-12-45.csv": parse_format_v3("raw_data/peildatum-04-04-2020-12-45.csv"),
+        "raw_data/peildatum-01-04-2020-13-58.csv": parse_format_v3("raw_data/peildatum-01-04-2020-13-58.csv"),
+        "raw_data/peildatum-02-04-2020-14-00.csv": parse_format_v3("raw_data/peildatum-02-04-2020-14-00.csv"),
+        "raw_data/peildatum-31-03-2020-19-20.csv": parse_format_v3("raw_data/peildatum-31-03-2020-19-20.csv"),
+        "raw_data/peildatum-03-04-2020-14-00.csv": parse_format_v3("raw_data/peildatum-03-04-2020-14-00.csv"),
+        "raw_data/peildatum-07-04-2020-13-55.csv": parse_format_v3("raw_data/peildatum-07-04-2020-13-55.csv"),
+        "raw_data/peildatum-05-04-2020-14-15.csv": parse_format_v3("raw_data/peildatum-05-04-2020-14-15.csv"),
+        "raw_data/peildatum-06-04-2020-13-50.csv": parse_format_v3("raw_data/peildatum-06-04-2020-13-50.csv"),
     }
 
     # files not in the list above
     for file in Path('raw_data').glob('peildatum*.csv'):
         if str(file) not in df_frames.keys():
             print(f"Parse file {file}")
-            df_frames[str(file)] = parse_format_v3(file)
+            df_frames[str(file)] = parse_format_v4(file)
 
     result = merge_df_days(df_frames)
 
