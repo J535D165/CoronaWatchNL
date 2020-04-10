@@ -25,7 +25,7 @@ jobs:
       - name: Install R dependencies
         run: |
           options(install.packages.check.source = "no")
-          install.packages(c("tidyverse", "sf"), type="binary")
+          install.packages(c("tidyverse", "sf", "cowplot"), type="binary")
         shell: Rscript {0}
       - name: Render plots
         run: Rscript plot_scripts/plots.R

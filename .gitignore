@@ -1,7 +1,11 @@
 
-*.ipynb
 reports/*.txt
 parse_pdf_table.py
+.Rhistory
+depr.py
+
+tmp/
+.ipynb_checkpoints/
 .Rhistory
 
 # Created by https://www.gitignore.io/api/python
