@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[68]:
-
+# %%
 
 import pandas as pd
 import numpy as np
@@ -14,7 +13,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 
-# In[69]:
+# %%
 
 
 def read_data():
@@ -31,7 +30,7 @@ def read_data():
     return (df)  
 
 
-# In[70]:
+# %%
 
 
 def add_variables(df):
@@ -45,7 +44,7 @@ def add_variables(df):
     return(df)
 
 
-# In[71]:
+# %%
 
 
 def analyze_growth_factor(df):
@@ -78,7 +77,7 @@ def analyze_growth_factor(df):
     return (intercepts, coefficients)
 
 
-# In[72]:
+# %%
 
 
 def create_growthfactor_plot(df, intercepts, coefficients, inflection_date, plot_max_bootstraps=50):
@@ -131,7 +130,42 @@ def create_growthfactor_plot(df, intercepts, coefficients, inflection_date, plot
     plt.savefig("plots/growthfactor.png")
 
 
-# In[73]:
+# %%
+def create_logarithmic_growth_plot(df):
+    # Setup Object Oriented plot because we re-use this function
+    fig, ax = plt.subplots(figsize=(15,10))
+    ax.set(xscale="log", yscale="log", )
+    ax.set_xlabel("Totaal cases", fontsize=15)
+    ax.set_ylabel("Nieuwe cases", fontsize=15)
+
+    ax.grid(which='major', linewidth=1)
+    ax.grid(which='minor', linewidth=0.1)
+
+    ax.plot(df['Aantal'], df["New_cases"])
+    
+    return fig,ax
+
+
+# %%
+def plot_logarithmic_growth_daily(df):
+    fig, ax = create_logarithmic_growth_plot(df)
+    ax.set(title="Nieuwe cases tegen totaal cases (dagelijks)")
+    fig.savefig("plots/exponential_growth_daily.png")
+
+
+# %%
+def plot_logarithmic_growth_bi_daily(_df):
+    df = _df.copy()
+    df = df.reset_index(level=0)
+    df = df[['Aantal', 'Datum', 'New_cases']]
+    df = df.resample('2d', on='Datum', closed='right').sum()
+    fig, ax = create_logarithmic_growth_plot(df)
+    ax.set(title="Nieuwe cases tegen totaal cases (2-dagelijks)")
+
+    fig.savefig("plots/exponential_growth_bi_daily.png")
+
+
+# %%
 
 
 def compute_inflection_point(df, intercepts, coefficients):
@@ -141,7 +175,7 @@ def compute_inflection_point(df, intercepts, coefficients):
     return(inflection_x, inflection_date)
 
 
-# In[74]:
+# %%
 
 
 import math
@@ -173,7 +207,7 @@ def compute_inflection_cases(df, inflection_x):
         
 
 
-# In[75]:
+# %%
 
 
 from scipy.optimize import curve_fit
@@ -215,7 +249,7 @@ def fit_sigmoid_repeated(df, no_samples=50):
     return(fitted_sigmoids)
 
 
-# In[104]:
+# %%
 
 
 def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, extrapolate_days=7):
@@ -276,7 +310,7 @@ def plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids, extrapolate_days=7):
     plt.savefig("plots/sigmoid.png")
 
 
-# In[105]:
+# %%
 
 
 if __name__ == "__main__":
@@ -298,3 +332,8 @@ if __name__ == "__main__":
     fitted_sigmoids = fit_sigmoid_repeated(df)
 
     plot_sigmoids(df, fitted_sigmoid, fitted_sigmoids)
+
+    plot_logarithmic_growth_daily(df)
+    plot_logarithmic_growth_bi_daily(df)
+
+

@@ -9,3 +9,7 @@ The following graphs show the development of Coronavirus on a daily basis. The u
 ![plots/timeline.png](/plots/province_count.png)
 
 ![plots/province_count_time.png](/plots/province_count_time.png)
+
+![plots/exponential_growth_daily.png](/plots/exponential_growth_daily.png)
+
+![plots/exponential_growth_weekly.png](/plots/exponential_growth_weekly.png)
