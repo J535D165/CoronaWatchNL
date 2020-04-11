@@ -67,7 +67,7 @@ def parse_format_v3(file, n_missing=None):
     return df
 
 
-def parse_format_v4(file, n_missing=None):
+def parse_format_v4(file, column_label, n_missing=None):
 
     date_parts = re.findall(r'(\d{1,2})-(.*?)-(\d{4})', str(file))[0]
 
@@ -99,7 +99,7 @@ def parse_format_v4(file, n_missing=None):
     # remove junk rows
     df = df[df['id'] >= 0].copy()
 
-    df["Aantal"] = df["Zkh opname"]
+    df["Aantal"] = df[column_label]
 
     # append row with missing numbers
     df = df.append({
@@ -114,8 +114,6 @@ def parse_format_v4(file, n_missing=None):
     df['Datum'] = date
 
     df = df[["Datum", "Gemeente", "id", "Aantal"]]
-
-    print(df)
 
     return df
 
@@ -133,7 +131,7 @@ def merge_df_days(df_dict):
     return result
 
 
-if __name__ == '__main__':
+def merge_hosp():
 
     df_frames = {
         "raw_data/peildatum-31-03-2020-14-00.csv": None,
@@ -151,7 +149,7 @@ if __name__ == '__main__':
     for file in Path('raw_data').glob('peildatum*.csv'):
         if str(file) not in df_frames.keys():
             print(f"Parse file {file}")
-            df_frames[str(file)] = parse_format_v4(file)
+            df_frames[str(file)] = parse_format_v4(file, "Zkh opname")
 
     result = merge_df_days(df_frames)
 
@@ -174,3 +172,61 @@ if __name__ == '__main__':
 
     print(result.tail())
     result.to_csv(Path("data", "rivm_NL_covid19_hosp_municipality.csv"), index=False)
+
+
+def merge_postest():
+
+    df_frames = {
+        "raw_data/peildatum-31-03-2020-14-00.csv": None,
+        "raw_data/peildatum-04-04-2020-12-45.csv": None,
+        "raw_data/peildatum-01-04-2020-13-58.csv": None,
+        "raw_data/peildatum-02-04-2020-14-00.csv": None,
+        "raw_data/peildatum-31-03-2020-19-20.csv": None,
+        "raw_data/peildatum-03-04-2020-14-00.csv": None,
+        "raw_data/peildatum-07-04-2020-13-55.csv": None,
+        "raw_data/peildatum-05-04-2020-14-15.csv": None,
+        "raw_data/peildatum-06-04-2020-13-50.csv": None,
+    }
+
+    # files not in the list above
+    for file in Path('raw_data').glob('peildatum*.csv'):
+        if str(file) not in df_frames.keys():
+            print(f"Parse file {file}")
+            df_frames[str(file)] = parse_format_v4(file, "Meldingen")
+
+    result = merge_df_days(df_frames)
+
+    # add municipality to data
+    df_mun = pandas.read_csv(
+        Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
+    )[["Gemeentecode", "Gemeentenaam", "Provincienaam"]]
+
+    result = result.\
+        merge(df_mun, left_on="id", right_on="Gemeentecode", how="left").\
+        drop(["id"], axis=1)
+    result = result[
+        ["Datum", "Gemeentenaam", "Gemeentecode", "Provincienaam", "Aantal"]
+    ]
+
+    # add old data
+    df_total_old = pandas.read_csv(Path("data", "rivm_corona_in_nl.csv"))
+    result = result.append(df_total_old)
+
+    # sort values and adjust dtypes
+    result = result.sort_values(["Datum", "Gemeentecode"]). \
+        fillna({"Gemeentecode": -1})
+
+    result["Gemeentecode"] = result["Gemeentecode"].astype(int)
+
+    result = result[result["Aantal"] != 0]
+
+    print(result.tail())
+    result.to_csv(Path("data", "rivm_NL_covid19_total_municipality.csv"), index=False)
+
+
+if __name__ == '__main__':
+
+    merge_hosp()
+
+    merge_postest()
+
