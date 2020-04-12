@@ -53,13 +53,21 @@ Also a sigmoid function per province:
 
 As testing capacity is limited the numbers of positively tested people doesn't give a realistic picture of the outbreak. Using the data of people being hospitalised should give a more realistic picture.
 
-Here is the development of the growth factor over time, with a linear model fit
+Here is the development of the growth factor of hospitalisations over time, with a linear model fit
 to try to estimate when the inflection point will occur (or has occurred).
 
 ![plots/growthfactor_hospitalisation.png](/plots/growthfactor_hospitalisation.png)
 
 This then results in the following sigmoidal fit:
 ![plots/sigmoid_hospitalisation.png](/plots/sigmoid_hospitalisation.png)
+
+Here is the development of the growth factor of fatalities over time, with a linear model fit
+to try to estimate when the inflection point will occur (or has occurred).
+
+![plots/growthfactor_fatalities.png](/plots/growthfactor_fatalities.png)
+
+This then results in the following sigmoidal fit:
+![plots/sigmoid_fatalities.png](/plots/sigmoid_fatalities.png)
 
 For more information about this approach, please watch
 [the YouTube video](https://www.youtube.com/watch?v=Kas0tIxDvrg) that inspired
