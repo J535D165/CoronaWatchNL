@@ -11,6 +11,9 @@ data_daily <- read_csv("data/rivm_corona_in_nl_daily.csv")
 fata <- read_csv("data/rivm_corona_in_nl_fatalities.csv")
 hosp <- read_csv("data/rivm_corona_in_nl_hosp.csv")
 
+data_tests <- read_csv("data/rivm_NL_covid19_tests.csv")
+
+
 measures <- read_csv("ext/maatregelen.csv") %>%
   mutate(name = forcats::fct_reorder(maatregel, start_datum))
 
@@ -105,6 +108,55 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
   ggtitle("Covid19 patiënten per leeftijd") +
   ggsave("plots/overview_plot_leeftijd.png", width = 5, height=4)
+
+
+
+
+# plot tests
+
+read_csv("data/rivm_NL_covid19_tests.csv") %>%
+  group_by(Datum, Type) %>% 
+  summarise(Aantal = max(Aantal)) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
+    geom_line() + 
+    theme_minimal() + 
+    theme(axis.title.x=element_blank(),
+          axis.title.y=element_blank(),
+          legend.pos = "bottom",
+          legend.title = element_blank()) +
+    scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+    scale_y_continuous(limits=c(0, NA)) + 
+    ggtitle("Covid19 positieve testen") +
+    ggsave("plots/overview_plot_tests.png", width = 5, height=4)
+  
+
+read_csv("data/rivm_NL_covid19_tests.csv") %>%
+  group_by(Datum, Type) %>% 
+  summarise(Aantal = max(Aantal)) %>%
+  ungroup() %>%
+  pivot_wider(names_from = Type, values_from = Aantal) %>% 
+  mutate(
+    Positief = Positief - lag(Positief),
+    Totaal = Totaal - lag(Totaal),
+  ) %>%
+  pivot_longer(c("Positief", "Totaal"), names_to = "Type", values_to="Aantal", values_drop_na=T) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
+  geom_line() + 
+  scale_y_continuous(limits=c(0, NA)) + 
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Covid19 toename positieve testen") +
+  ggsave("plots/overview_plot_tests_diff.png", width = 5, height=4)
+
+
+  
+  
+
+
 
 
 # plot with countermeasures
