@@ -51,7 +51,7 @@ daily %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
-  ggtitle("Totaal Covid19 patiënten") +
+  ggtitle("Totaal COVID-19 patiënten") +
   ggsave("plots/overview_plot.png", width = 5, height=4)
 
 
@@ -65,7 +65,7 @@ daily_diff %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
-  ggtitle("Toename Covid19 patiënten") +
+  ggtitle("Toename COVID-19 patiënten") +
   ggsave("plots/overview_plot_diff.png", width = 5, height=4)
 
 # plot geslacht
@@ -81,7 +81,7 @@ read_csv("data/rivm_NL_covid19_sex.csv") %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
-  ggtitle("Covid19 patiënten per geslacht") +
+  ggtitle("COVID-19 patiënten per geslacht") +
   ggsave("plots/overview_plot_geslacht.png", width = 5, height=4)
 
 
@@ -106,7 +106,7 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
-  ggtitle("Covid19 patiënten per leeftijd") +
+  ggtitle("COVID-19 patiënten per leeftijd") +
   ggsave("plots/overview_plot_leeftijd.png", width = 5, height=4)
 
 
@@ -117,6 +117,9 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
 read_csv("data/rivm_NL_covid19_tests.csv") %>%
   group_by(Datum, Type) %>% 
   summarise(Aantal = max(Aantal)) %>%
+  mutate(
+    Type = if_else(Type == "Totaal", "Totaal testen", "Positieve testen")
+  ) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
     geom_line() + 
     theme_minimal() + 
@@ -126,7 +129,7 @@ read_csv("data/rivm_NL_covid19_tests.csv") %>%
           legend.title = element_blank()) +
     scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
     scale_y_continuous(limits=c(0, NA)) + 
-    ggtitle("Covid19 positieve testen") +
+    ggtitle("Totaal (positieve) COVID-19 testen") +
     ggsave("plots/overview_plot_tests.png", width = 5, height=4)
   
 
@@ -136,10 +139,10 @@ read_csv("data/rivm_NL_covid19_tests.csv") %>%
   ungroup() %>%
   pivot_wider(names_from = Type, values_from = Aantal) %>% 
   mutate(
-    Positief = Positief - lag(Positief),
-    Totaal = Totaal - lag(Totaal),
-  ) %>%
-  pivot_longer(c("Positief", "Totaal"), names_to = "Type", values_to="Aantal", values_drop_na=T) %>%
+    `Positieve testen` = Positief - lag(Positief),
+    `Totaal testen` = Totaal - lag(Totaal),
+  ) %>% 
+  pivot_longer(c("Totaal testen", "Positieve testen"), names_to = "Type", values_to="Aantal", values_drop_na=T) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
   geom_line() + 
   scale_y_continuous(limits=c(0, NA)) + 
@@ -149,7 +152,7 @@ read_csv("data/rivm_NL_covid19_tests.csv") %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
-  ggtitle("Covid19 toename positieve testen") +
+  ggtitle("Toename (positieve) COVID-19 testen") +
   ggsave("plots/overview_plot_tests_diff.png", width = 5, height=4)
 
 
