@@ -120,3 +120,4 @@ dmypy.json
 
 # IDE
 .vscode
+.Rproj.user

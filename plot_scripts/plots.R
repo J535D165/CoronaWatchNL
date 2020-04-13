@@ -330,16 +330,38 @@ mun <- read_csv2(
 
 # plot map
 
-data_prov %>%
-  filter(!is.na(Provincienaam)) %>%
-  left_join(province_shp, by=c("Provincienaam"="NAME_1")) %>%
-  filter(Datum > max(Datum) - 6) %>%
-  ggplot() +
-  geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) +
-  facet_grid(cols = vars(Datum)) + coord_sf() +
-  theme_minimal() +
-  theme(axis.text.x=element_blank(),
-        axis.text.y=element_blank()) +
-  scale_colour_gradient(low = "grey", high = "#E69F00", na.value = NA) +
-  scale_fill_gradient(low = "grey", high = "#E69F00", na.value = NA) +
-  ggsave("plots/map_province.png", width = 6, height=4.5)
+p_list = c()
+
+for (i in seq(0, 7)){
+  print(i)
+  p <- data_prov %>%
+    filter(!is.na(Provincienaam)) %>%
+    left_join(province_shp, by=c("Provincienaam"="NAME_1")) %>%
+    filter(Datum > max(Datum) - i) %>%
+    ggplot() +
+    geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) +
+    facet_grid(cols = vars(Datum)) + coord_sf() +
+    theme_minimal() +
+    theme(axis.text.x=element_blank(),
+          axis.text.y=element_blank()) +
+    scale_colour_gradient(low = "grey", high = "#E69F00", na.value = NA) +
+    scale_fill_gradient(low = "grey", high = "#E69F00", na.value = NA)
+  
+  p_list = c(p_list, p)
+}
+
+plot_grid(plotlist=p_list)
+
+# data_prov %>%
+#   filter(!is.na(Provincienaam)) %>%
+#   left_join(province_shp, by=c("Provincienaam"="NAME_1")) %>%
+#   filter(Datum > max(Datum) - 6) %>%
+#   ggplot() +
+#   geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) +
+#   facet_grid(cols = vars(Datum)) + coord_sf() +
+#   theme_minimal() +
+#   theme(axis.text.x=element_blank(),
+#         axis.text.y=element_blank()) +
+#   scale_colour_gradient(low = "grey", high = "#E69F00", na.value = NA) +
+#   scale_fill_gradient(low = "grey", high = "#E69F00", na.value = NA) +
+#   ggsave("plots/map_province.png", width = 6, height=4.5)
