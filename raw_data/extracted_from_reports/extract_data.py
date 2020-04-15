@@ -78,9 +78,14 @@ def get_values_for_image(image, value_per_pixel, date):
             }
 
 
-def get_values(category, report_dir, resolution=720):
+def extract_data(category, transalated, report_dir, resolution=720):
     index = pd.read_csv(report_dir / "index.csv", parse_dates=["date"])
     for i, row in index[~index[f"{category}_page"].isna()].iterrows():
+        date = row["date"]
+        export_path = Path(__file__).parent / translated / f"{date:%Y-%m-%d}.csv"
+        export_path.parent.mkdir(exist_ok=True)
+        if export_path.exists():
+            continue
         print(f"Processing {category} from {row['file']}")
         file = report_dir / row["file"]
         (image,) = convert_from_path(
@@ -101,9 +106,15 @@ def get_values(category, report_dir, resolution=720):
         )
 
         value_per_pixel = resolution / row[f"{category}_per_inch"]
-        date = row["date"]
 
-        yield from get_values_for_image(image, value_per_pixel, date)
+        df = pd.DataFrame(get_values_for_image(image, value_per_pixel, date))
+        totals = df.groupby("report_date")["value"].sum()
+        df["date"] = pd.Timestamp("20200227") + pd.to_timedelta(
+            df["bar_nr"], unit="days"
+        )
+        df[["report_date", "date", "province", "value"]].to_csv(
+            export_path, index=False
+        )
 
 
 categories = {
@@ -111,11 +122,7 @@ categories = {
     "patienten_per_provincie": "patients_per_province",
     "overleden_per_provincie": "deceased_per_province",
 }
+
 report_dir = Path(__file__).parent.parent.parent / "reports"
 for category, translated in categories.items():
-    df = pd.DataFrame(get_values(category, report_dir, resolution=720))
-    totals = df.groupby("report_date")["value"].sum()
-    df["date"] = pd.Timestamp("20200227") + pd.to_timedelta(df["bar_nr"], unit="days")
-    df[["report_date", "date", "province", "value"]].to_csv(
-        Path(__file__).parent / f"{translated}.csv", index=False
-    )
+    extract_data(category, translated, report_dir, resolution=720)
