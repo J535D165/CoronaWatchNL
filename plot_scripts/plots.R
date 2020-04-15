@@ -55,7 +55,7 @@ daily %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
   ggtitle("Totaal COVID-19 patiënten") +
-  ggsave("plots/overview_plot.png", width = 5, height=4)
+  ggsave("plots/overview_plot.png", width = 5.5, height=4)
 
 
 daily_diff %>%
@@ -69,7 +69,125 @@ daily_diff %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
   ggtitle("Toename COVID-19 patiënten") +
-  ggsave("plots/overview_plot_diff.png", width = 5, height=4)
+  ggsave("plots/overview_plot_diff.png", width = 5.5, height=4)
+
+
+# load datasets
+data_national <- read_csv("data/rivm_NL_covid19_national.csv")
+data_national_latest <- read_csv("data/rivm_NL_covid19_national_by_date/rivm_NL_covid19_national_by_date_latest.csv")
+
+
+######################
+### DAILY INCREASE ###
+######################
+
+daily_diff <- data_national %>%
+  filter(Type == "Totaal") %>%
+  mutate(
+    Aantal = Aantal - lag(Aantal),
+    meas = Type,
+    Type = "Gerapporteerd",
+  ) %>%
+  bind_rows(data_national %>%
+              filter(Type == "Ziekenhuisopname") %>%
+              mutate(
+                Aantal = Aantal - lag(Aantal),
+                meas = Type,
+                Type = "Gerapporteerd",
+              )
+  ) %>%
+  bind_rows(data_national %>%
+              filter(Type == "Overleden") %>%
+              mutate(
+                Aantal = Aantal - lag(Aantal),
+                meas = Type,
+                Type = "Gerapporteerd",
+              )
+  )
+
+# combine daily increase (i.e., reported data) with 'latest' data (i.e., actual data)
+samen <- data_national_latest %>%
+  mutate(
+    meas = Type,
+    Type = "Werkelijk") %>%
+  bind_rows(daily_diff)
+
+# select all weekend days 
+weekends <- data.frame(xstart = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7], 
+                       xend = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 1])
+
+
+# Plot "Toename COVID-19 patienten: Werkelijk vs. Gerapporteerd" 
+samen %>%
+  mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden")),
+         Type = factor(Type, c("Werkelijk", "Gerapporteerd"))
+  ) %>%
+  ggplot(aes(x = Datum, y = Aantal, group = interaction(meas, Type), colour = meas, linetype = Type)) +
+  geom_line() +
+  annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen$Aantal, na.rm = T), fill = "lightgray",
+           alpha = .1) +
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  ggtitle("Toename: Werkelijk vs. Gerapporteerd") +
+  ggsave("plots/overview_plot_true_vs_reported_diff.png", width = 5.5, height=4)
+
+
+#####################
+#### DAILY TOTAL ####
+#####################
+
+# combine daily 'total' data (total, hospital intakes, deaths)
+daily <- data_national %>%
+  mutate(meas = Type,
+         Type = "Gerapporteerd") 
+
+
+# calculate cumulative sum per measurement & combine daily total data (i.e., reported data) with 'latest' data (i.e., actual data)
+samen_cum <- data_national_latest %>%
+  filter(Type == "Totaal") %>%
+  mutate(
+    Aantal = cumsum(Aantal),
+    meas = Type,
+    Type = "Werkelijk",
+  )%>% 
+  bind_rows(data_national_latest %>%
+              filter(Type == "Ziekenhuisopname") %>%
+              mutate(
+                Aantal = cumsum(Aantal),
+                meas = Type,
+                Type = "Werkelijk"
+              )) %>% 
+  bind_rows(data_national_latest %>%
+              filter(Type == "Overleden") %>%
+              mutate(
+                Aantal = cumsum(Aantal),
+                meas = Type,
+                Type = "Werkelijk",
+              )) %>% 
+  bind_rows(daily)
+
+# Plot "Totaal COVID-19 patienten: Werkelijk vs. Gerapporteerd" 
+samen_cum %>%
+  mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden")),
+         Type = factor(Type, c("Werkelijk", "Gerapporteerd"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, group = interaction(meas, Type), colour = meas, linetype = Type))+
+  geom_line() + 
+  annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen_cum$Aantal, na.rm = T), fill = "lightgray",
+           alpha = .1) +
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9","#999999")) + 
+  ggtitle("Totaal: Werkelijk vs. Gerapporteerd") +
+  ggsave("plots/overview_plot_true_vs_reported.png", width = 5.5, height=4)
+
+
 
 # plot geslacht
 
@@ -85,7 +203,7 @@ read_csv("data/rivm_NL_covid19_sex.csv") %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
   ggtitle("COVID-19 patiënten per geslacht") +
-  ggsave("plots/overview_plot_geslacht.png", width = 5, height=4)
+  ggsave("plots/overview_plot_geslacht.png", width = 5.5, height=4)
 
 
 
@@ -110,7 +228,7 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
   ggtitle("COVID-19 patiënten per leeftijd") +
-  ggsave("plots/overview_plot_leeftijd.png", width = 5, height=4)
+  ggsave("plots/overview_plot_leeftijd.png", width = 5.5, height=4)
 
 
 
@@ -133,7 +251,7 @@ read_csv("data/rivm_NL_covid19_tests.csv") %>%
     scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
     scale_y_continuous(limits=c(0, NA)) + 
     ggtitle("Totaal (positieve) COVID-19 testen") +
-    ggsave("plots/overview_plot_tests.png", width = 5, height=4)
+    ggsave("plots/overview_plot_tests.png", width = 5.5, height=4)
   
 
 read_csv("data/rivm_NL_covid19_tests.csv") %>%
@@ -156,7 +274,7 @@ read_csv("data/rivm_NL_covid19_tests.csv") %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
   ggtitle("Toename (positieve) COVID-19 testen") +
-  ggsave("plots/overview_plot_tests_diff.png", width = 5, height=4)
+  ggsave("plots/overview_plot_tests_diff.png", width = 5.5, height=4)
 
 
   

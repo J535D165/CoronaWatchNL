@@ -15,7 +15,7 @@ Dutch:
 The following datasets are available for reuse. :exclamation: Daily updates :exclamation:
 
 | Dataset | Source | Variables |
-|---|---| --- | 
+|---|---| --- |
 | [COVID-19 case counts in NL (NEW)](data/rivm_NL_covid19_national.csv) | RIVM | Date, Type (Total, hopitalized and deceased patients), Count|
 | [COVID-19 case counts in NL per province](data/rivm_NL_covid19_province.csv) | RIVM | Date, Province, COVID-19 case counts|
 | [COVID-19 hospitalizations in NL per municipality](data/rivm_NL_covid19_hosp_municipality.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL, Municipality of residence, Municipality code (2019), Province |
@@ -73,7 +73,7 @@ The following graphs visualize the development of the COVID-19 disease outbreak.
 
 [Click here for a subpage with all descriptive plots](readmes/descriptive_plots.md)
 
-[<img src="plots/overview_plot.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests_diff.png" width="430">](readmes/descriptive_plots.md)
+[<img src="plots/overview_plot.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests_diff.png" width="430">](readmes/descriptive_plots.md)
 
 
 
