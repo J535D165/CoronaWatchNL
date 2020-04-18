@@ -112,9 +112,12 @@ samen <- data_national_latest %>%
     Type = "Werkelijk") %>%
   bind_rows(daily_diff)
 
-# select all weekend days 
-weekends <- data.frame(xstart = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7], 
-                       xend = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 1])
+# # select all weekend days 
+# weekends <- data.frame(xstart = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7], 
+#                        xend = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 1])
+# 
+# weekends <- data.frame(xstart = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7], 
+#                        xend = samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 1])
 
 
 # Plot "Toename COVID-19 patienten: Werkelijk vs. Gerapporteerd" 
@@ -124,8 +127,8 @@ samen %>%
   ) %>%
   ggplot(aes(x = Datum, y = Aantal, group = interaction(meas, Type), colour = meas, linetype = Type)) +
   geom_line() +
-  annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen$Aantal, na.rm = T), fill = "lightgray",
-           alpha = .1) +
+  # annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen$Aantal, na.rm = T), fill = "lightgray",
+  #          alpha = .1) +
   theme_minimal() + 
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -176,8 +179,8 @@ samen_cum %>%
          Type = factor(Type, c("Werkelijk", "Gerapporteerd"))) %>%
   ggplot(aes(x = Datum, y = Aantal, group = interaction(meas, Type), colour = meas, linetype = Type))+
   geom_line() + 
-  annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen_cum$Aantal, na.rm = T), fill = "lightgray",
-           alpha = .1) +
+  # annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen_cum$Aantal, na.rm = T), fill = "lightgray",
+  #          alpha = .1) +
   theme_minimal() + 
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),

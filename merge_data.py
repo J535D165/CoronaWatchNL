@@ -224,9 +224,65 @@ def merge_postest():
     result.to_csv(Path("data", "rivm_NL_covid19_total_municipality.csv"), index=False)
 
 
+def merge_dead():
+
+    df_frames = {
+        "raw_data/peildatum-31-03-2020-14-00.csv": None,
+        "raw_data/peildatum-31-03-2020-19-20.csv": None,
+        "raw_data/peildatum-01-04-2020-13-58.csv": None,
+        "raw_data/peildatum-02-04-2020-14-00.csv": None,
+        "raw_data/peildatum-03-04-2020-14-00.csv": None,
+        "raw_data/peildatum-04-04-2020-12-45.csv": None,
+        "raw_data/peildatum-05-04-2020-14-15.csv": None,
+        "raw_data/peildatum-06-04-2020-13-50.csv": None,
+        "raw_data/peildatum-07-04-2020-13-55.csv": None,
+        "raw_data/peildatum-08-04-2020-13-55.csv": None,
+        "raw_data/peildatum-09-04-2020-13-50.csv": None,
+        "raw_data/peildatum-10-04-2020-14-20.csv": None,
+        "raw_data/peildatum-11-04-2020-14-00.csv": None,
+        "raw_data/peildatum-12-04-2020-14-00.csv": None,
+        "raw_data/peildatum-13-04-2020-14-00.csv": None,
+        "raw_data/peildatum-14-04-2020-14-00.csv": None,
+        "raw_data/peildatum-15-04-2020-14-00.csv": None,
+        "raw_data/peildatum-16-04-2020-14-00.csv": None,
+        "raw_data/peildatum-17-04-2020-14-00.csv": None,
+        "raw_data/peildatum-17-04-2020-16-00.csv": None,
+    }
+
+    # files not in the list above
+    for file in Path('raw_data').glob('peildatum*.csv'):
+        if str(file) not in df_frames.keys():
+            print(f"Parse file {file}")
+            df_frames[str(file)] = parse_format_v4(file, "Overleden")
+
+    result = merge_df_days(df_frames)
+
+    # add municipality to data
+    df_mun = pandas.read_csv(
+        Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
+    )[["Gemeentecode", "Gemeentenaam", "Provincienaam"]]
+
+    result = result.\
+        merge(df_mun, left_on="id", right_on="Gemeentecode", how="left").\
+        drop(["id"], axis=1)
+    result = result[
+        ["Datum", "Gemeentenaam", "Gemeentecode", "Provincienaam", "Aantal"]
+    ].sort_values(["Datum", "Gemeentecode"]). \
+        fillna({"Gemeentecode": -1})
+
+    result["Gemeentecode"] = result["Gemeentecode"].astype(int)
+
+    result = result[result["Aantal"] != 0]
+
+    print(result.tail())
+    result.to_csv(Path("data", "rivm_NL_covid19_fatalities_municipality.csv"), index=False)
+
+
 if __name__ == '__main__':
 
     merge_hosp()
 
     merge_postest()
+
+    merge_dead()
 
