@@ -142,7 +142,7 @@ def merge_hosp():
         "raw_data/peildatum-03-04-2020-14-00.csv": parse_format_v3("raw_data/peildatum-03-04-2020-14-00.csv"),
         "raw_data/peildatum-07-04-2020-13-55.csv": parse_format_v3("raw_data/peildatum-07-04-2020-13-55.csv"),
         "raw_data/peildatum-05-04-2020-14-15.csv": parse_format_v3("raw_data/peildatum-05-04-2020-14-15.csv"),
-        "raw_data/peildatum-06-04-2020-13-50.csv": parse_format_v3("raw_data/peildatum-06-04-2020-13-50.csv"),
+        "raw_data/peildatum-06-04-2020-13-50.csv": parse_format_v3("raw_data/peildatum-06-04-2020-13-50.csv")
     }
 
     # files not in the list above
