@@ -69,11 +69,15 @@ if __name__ == '__main__':
         .rename({"date": "Datum", "value": "intakeCount"}, axis=1) \
         .set_index("Datum")
 
+    df_intake_cum = pd.read_json(Path(RAW_DATA_FOLDER, f"intake-cumulative-{datetime.date.today()}.json")) \
+        .rename({"date": "Datum", "value": "intakeCumulative"}, axis=1) \
+        .set_index("Datum")
+
     df_new_intake_count, df_new_intake_susp = open_multi_dim_table(
         Path(RAW_DATA_FOLDER, f"new-intake-{datetime.date.today()}.json")
     )
     df_new_intake_count = df_new_intake_count\
-        .rename({"date": "Datum", "value": "intakeCumulative"}, axis=1) \
+        .rename({"date": "Datum", "value": "newIntake"}, axis=1) \
         .set_index("Datum")
 
     df_died, df2, df_survived = open_multi_dim_table(
@@ -88,10 +92,13 @@ if __name__ == '__main__':
         .set_index("Datum")
 
     df_result = pd.concat([
-        df_died,
-        df_survived,
+        df_ic_count,
         df_new_intake_count,
         df_intake_count,
-        df_ic_count
+        df_intake_cum,
+        df_survived,
+        df_died,
     ], axis=1)
+
+    print(df_result.head())
     df_result.to_csv(Path("data", "nice_ic_by_day.csv", index=False))
