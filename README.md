@@ -20,6 +20,7 @@ The following datasets are available for reuse. :exclamation: Daily updates :exc
 | [COVID-19 case counts by date in NL (NEW)](data/rivm_NL_covid19_national_by_date/) | RIVM | Date, Type (Total, hopitalized and deceased patients), Count (the actual numbers for that day)|
 | [COVID-19 case counts in NL per province](data/rivm_NL_covid19_province.csv) | RIVM | Date, Province, COVID-19 case counts|
 | [COVID-19 hospitalizations in NL per municipality](data/rivm_NL_covid19_hosp_municipality.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL, Municipality of residence, Municipality code (2019), Province |
+| [COVID-19 fatalities in NL per municipality (NEW)](data/rivm_NL_covid19_fatalities_municipality.csv) | RIVM | Date, Number of COVID-19 deceased patients in NL, Municipality of residence, Municipality code (2019), Province |
 | [COVID-19 case counts in NL per age](data/rivm_NL_covid19_age.csv) | RIVM | Date, Age group, Type, Number of positive COVID-19 disease cases in NL|
 | [COVID-19 case counts in NL per gender](data/rivm_NL_covid19_sex.csv) | RIVM | Date, Gender group, Type, Number of positive COVID-19 disease cases in NL|
 | [COVID-19 tests in NL by date (NEW)](data/rivm_NL_covid19_tests.csv) | RIVM | Publication Date, Date, Included labs, Type (Total and positive tests), Number of tests|
