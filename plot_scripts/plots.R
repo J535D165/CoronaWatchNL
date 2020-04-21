@@ -113,8 +113,8 @@ samen <- data_national_latest %>%
   bind_rows(daily_diff)
 
 # select all weekend days 
-weekends <- data.frame(xstart = unique(samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7]), 
-                       xend   = unique(samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7] + 1))
+weekends <- data.frame(xstart = unique(samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7] - 0.2), 
+                       xend   = unique(samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7] + 1.2))
 
 
 # Plot "Toename COVID-19 patienten: Werkelijk vs. Gerapporteerd" 
