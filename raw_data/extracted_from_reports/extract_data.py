@@ -12,7 +12,7 @@ from datetime import datetime, date
 import cv2
 from PIL import Image
 
-province_mapping = {
+province_mapping_1 = {
     0: "Drenthe",
     1: "Groningen",
     2: "Overijssel",
@@ -25,6 +25,21 @@ province_mapping = {
     9: "Gelderland",
     10: "Noord-Holland",
     11: "Zuid-Holland",
+}
+
+province_mapping_2 = {
+    0: "Groningen",
+    1: "Flevoland",
+    2: "Zuid-Holland",
+    3: "Zeeland",
+    4: "Friesland",
+    5: "Gelderland",
+    6: "Utrecht",
+    7: "Noord-Brabant",
+    8: "Drenthe",
+    9: "Overijssel",
+    10: "Noord-Holland",
+    11: "Limburg",
 }
 
 
@@ -63,15 +78,20 @@ def get_bar_pixel_heights(section, grid_color):
         yield (bar_nr, pixels)
 
 
-def get_values_for_image(image, value_per_pixel, date):
+def get_values_for_image(image, value_per_pixel, report_date):
     im = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
     im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
+
+    if report_date < date(2020, 4, 21):
+        province_mapping = province_mapping_1
+    else:
+        province_mapping = province_mapping_2
 
     for i, section in enumerate(get_subplot_sections(im)):
         grid_color = get_grid_color(section)
         for (bar_nr, pixels) in get_bar_pixel_heights(section, grid_color):
             yield {
-                "report_date": date,
+                "report_date": report_date,
                 "province": province_mapping[i],
                 "bar_nr": bar_nr,
                 "value": int(round(pixels / value_per_pixel)),
@@ -81,8 +101,8 @@ def get_values_for_image(image, value_per_pixel, date):
 def extract_data(category, transalated, report_dir, resolution=720):
     index = pd.read_csv(report_dir / "index.csv", parse_dates=["date"])
     for i, row in index[~index[f"{category}_page"].isna()].iterrows():
-        date = row["date"]
-        export_path = Path(__file__).parent / translated / f"{date:%Y-%m-%d}.csv"
+        report_date = row["date"]
+        export_path = Path(__file__).parent / translated / f"{report_date:%Y-%m-%d}.csv"
         export_path.parent.mkdir(exist_ok=True)
         if export_path.exists():
             continue
@@ -107,7 +127,7 @@ def extract_data(category, transalated, report_dir, resolution=720):
 
         value_per_pixel = resolution / row[f"{category}_per_inch"]
 
-        df = pd.DataFrame(get_values_for_image(image, value_per_pixel, date))
+        df = pd.DataFrame(get_values_for_image(image, value_per_pixel, report_date))
         totals = df.groupby("report_date")["value"].sum()
         df["date"] = pd.Timestamp("20200227") + pd.to_timedelta(
             df["bar_nr"], unit="days"
