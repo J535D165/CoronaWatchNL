@@ -12,7 +12,7 @@ Covid Analytics in the Netherlands:
 
 ### Corona map
 Overview hospital intakes: 
-![CoronaMap](CoronaMap.PNG)
+![CoronaMap](CoronaMap.png)
 [https://corona-map-nl.web.app/](https://corona-map-nl.web.app/)
 
 
