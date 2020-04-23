@@ -68,7 +68,7 @@ Since 3 March 2020, RIVM reports the number of diagnoses with the coronavirus an
 
 ## Graphs
 
-The following graphs visualize the development of the COVID-19 disease outbreak. The underlying data can be found in the [data folder](/data). The graphs can be found in the [plots](/plots) folder. See the license section for information about sharing the graphs.
+The following graphs visualize the development of the COVID-19 disease outbreak. The underlying data can be found in the [data folder](/data) and the graphs in the [plots](/plots) folder. For (visual) applications based on these datasets, have a look at the [applications folder](/applications). See the license section for information about sharing the graphs.
 
 ### Descriptive
 
@@ -94,12 +94,6 @@ The following graphs visualize the development of the COVID-19 disease outbreak.
   <a href="/readmes/forecast_plots.md"><img src="/plots/sigmoid.png" width="250" /></a>
 </p>
 
-## Interesting links
-
-- https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca
-- http://www.casperalbers.nl/nl/post/2020-03-11-coronagrafieken/
-- https://worktimesheet2014.blogspot.com/2020/03/coronovirus-in-netherlands-power-bi.html (Made with CoronaWatchNL data)
-- https://www.youtube.com/watch?v=Kas0tIxDvrg
 
 ## License and academic use
 
@@ -115,6 +109,6 @@ Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link
 
 CoronaWatchNL is collective of researchers and volunteers in The Netherlands. We aim to make the reported number on COVID-19 disease in The Netherlands FAIR.
 
-Help on this project is appreciated. We are looking for new datasets, data updates, graphs and maps. Please report issues in the Issue Tracker. Want to contribute? Please check out the `help wanted` tag in the [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues).
+Help on this project is appreciated. We are looking for new datasets, data updates, graphs and maps. Please report issues in the Issue Tracker. Want to contribute? Please check out the `help wanted` tag in the [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues). Do you wish to share an application based on these [datasets](/data)? Have a look at the [applications folder](/applications).
 
 Please send an email to jonathandebruinos@gmail.com
