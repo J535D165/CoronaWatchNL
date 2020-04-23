@@ -7,6 +7,8 @@ library(lubridate)
 pdf(NULL)
 dir.create("plots")
 
+# Set working directory to CoronaWatchNL folder
+# Province data
 data_prov <- read_csv("data/rivm_NL_covid19_province.csv")
 
 # daily data
@@ -15,7 +17,6 @@ fata <- read_csv("data/rivm_corona_in_nl_fatalities.csv")
 hosp <- read_csv("data/rivm_corona_in_nl_hosp.csv")
 
 data_tests <- read_csv("data/rivm_NL_covid19_tests.csv")
-
 
 measures <- read_csv("ext/maatregelen.csv") %>%
   mutate(name = forcats::fct_reorder(maatregel, start_datum))
@@ -72,15 +73,15 @@ daily_diff %>%
   ggsave("plots/overview_plot_diff.png", width = 5.5, height=4)
 
 
-# load datasets
-data_national <- read_csv("data/rivm_NL_covid19_national.csv")
-data_national_latest <- read_csv("data/rivm_NL_covid19_national_by_date/rivm_NL_covid19_national_by_date_latest.csv")
-
-
 ######################
 ### DAILY INCREASE ###
 ######################
 
+# load datasets
+data_national <- read_csv("data/rivm_NL_covid19_national.csv")
+data_national_latest <- read_csv("data/rivm_NL_covid19_national_by_date/rivm_NL_covid19_national_by_date_latest.csv")
+
+# mutate and combine datasets
 daily_diff <- data_national %>%
   filter(Type == "Totaal") %>%
   mutate(
@@ -187,8 +188,55 @@ samen_cum %>%
   ggtitle("Totaal: Werkelijk vs. Gerapporteerd") +
   ggsave("plots/overview_plot_true_vs_reported.png", width = 5.5, height=4)
 
+##################
+#### REPORTS #####
+##################
 
+# Go to data folder, subfolder rivm_NL_covid19_national_by_date
+setwd("data/rivm_NL_covid19_national_by_date")
 
+# Read all files in the folder into one dataframe
+read_plus <- function(flnm) {
+  read_csv(flnm) %>% 
+    mutate(filename = flnm)
+}
+
+reports <-
+  list.files(pattern = "*.csv", 
+           full.names = T) %>% 
+  map_df(~read_plus(.))
+
+# Transform the original filename to shorter report date 
+reports <- reports[!(grepl("latest", reports$filename)), ]
+a <- gsub("[A-z \\.\\(\\)]", "", reports$filename)
+reports$filename <- gsub(substr(a, 1, 8)[1], "", a)
+reports <- reports %>% rename(dag = filename)
+
+# Plot
+# Select all weekend days 
+weekends <- data.frame(xstart = unique(reports$Datum[as.numeric(wday(reports$Datum, label = TRUE)) == 7] - 0.2), 
+                       xend   = unique(reports$Datum[as.numeric(wday(reports$Datum, label = TRUE)) == 7] + 1.2) )
+
+# Plot all reports together
+reports %>%
+  mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden")),
+         dag = factor(dag, sort(as.character(unique(reports$dag)))) 
+  ) %>%
+  ggplot(aes(x = Datum, y = Aantal, group = interaction(dag, Type), colour = Type)) +
+  geom_line(aes(alpha = dag))+ 
+  annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(reports$Aantal, na.rm = T), fill = "lightgray",
+           alpha = .3) +
+  theme_minimal() + 
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  guides(alpha = FALSE)+
+  ggtitle("Gerapporteerde COVID-19 patiënten per rapportdatum")+
+  ggsave("plots/overview_reports.png", width = 5.5, height=4)
+
+#############
 # plot geslacht
 
 read_csv("data/rivm_NL_covid19_sex.csv") %>%
