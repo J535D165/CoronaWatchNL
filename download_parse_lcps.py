@@ -53,9 +53,9 @@ for item in news['updates']:
 
 df_parsed_nums = pd.DataFrame(data).set_index('Date').sort_index()
 
-df_lcps = pd.read_csv('lcps_ic.csv', index_col=0)
+df_lcps = pd.read_csv('data/lcps_ic.csv', index_col=0)
 
 df_lcps = df_lcps.combine_first(df_parsed_nums)
 df_lcps['Aantal'] = df_lcps['Aantal'].astype(int)
 
-df_lcps.to_csv('lcps_ic.csv')
+df_lcps.to_csv('data/lcps_ic.csv')
