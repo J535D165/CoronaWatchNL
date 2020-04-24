@@ -1,4 +1,5 @@
 python depr.py
+download_parse_lcps.py
 python download_rivm_map_data.py
 python merge_data.py
 python merge_website_charts.py
