@@ -3,16 +3,16 @@ from requests import Session
 from datetime import datetime
 import locale
 import pandas as pd
-import numpy as np
+
 
 def get(url):
     session = retry(Session(), retries=10, backoff_factor=0.2)
-    
+
     ret = session.get(url)
-    
+
     while ret.status_code != 200:  # keep trying until we succeed
         ret = session.get(url)
-    
+
     return ret
 
 def titlenormalizer(title):
@@ -20,18 +20,18 @@ def titlenormalizer(title):
 
 def titleclassifier(title):
     split = title.split(' ')
-    
+
     if len(split) != 2:
         return False
-    
+
     try:
         retval = int(split[0])
         if split[1].startswith('covid') or split[1].startswith('corona'):
             return True
-    
+
     except ValueError:
         pass
-    
+
     return False
 
 locale.setlocale(locale.LC_TIME, 'nl_NL.utf8')  # set locale to netherlands for date parsing
@@ -47,9 +47,9 @@ for item in news['updates']:
     if titleclassifier(title):
         patients = int(title.split(' ')[0])
         date = str(datetime.strptime(item['date'], '%A %d %B').replace(year=year).date())
-        
+
         data.append({'Date': date, 'Aantal': patients})
-        
+
 
 df_parsed_nums = pd.DataFrame(data).set_index('Date').sort_index()
 
