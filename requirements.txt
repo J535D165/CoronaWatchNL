@@ -6,3 +6,4 @@ matplotlib
 sklearn
 requests
 retry-requests
+dateparser

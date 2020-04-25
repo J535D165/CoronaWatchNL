@@ -3,6 +3,7 @@ from requests import Session
 from datetime import datetime
 import locale
 import pandas as pd
+import dateparser
 
 
 def get(url):
@@ -34,7 +35,7 @@ def titleclassifier(title):
 
     return False
 
-locale.setlocale(locale.LC_TIME, 'nl_NL.utf8')  # set locale to netherlands for date parsing
+# locale.setlocale(locale.LC_TIME, 'nl_NL.utf8')  # set locale to netherlands for date parsing
 
 news = get('https://s3.eu-de.cloud-object-storage.appdomain.cloud/cloud-object-storage-lcps/news.json').json()
 
@@ -46,8 +47,8 @@ for item in news['updates']:
     title = titlenormalizer(item['title'])
     if titleclassifier(title):
         patients = int(title.split(' ')[0])
-        date = str(datetime.strptime(item['date'], '%A %d %B').replace(year=year).date())
 
+        date = dateparser.parse(item['date'], languages=["nl"]).date()
         data.append({'Date': date, 'Aantal': patients})
 
 
