@@ -48,7 +48,7 @@ for item in news['updates']:
     if titleclassifier(title):
         patients = int(title.split(' ')[0])
 
-        date = dateparser.parse(item['date'], languages=["nl"]).date()
+        date = str(dateparser.parse(item['date'], languages=["nl"]).date())
         data.append({'Date': date, 'Aantal': patients})
 
 
@@ -58,5 +58,10 @@ df_lcps = pd.read_csv('data/lcps_ic.csv', index_col=0)
 
 df_lcps = df_lcps.combine_first(df_parsed_nums)
 df_lcps['Aantal'] = df_lcps['Aantal'].astype(int)
+
+# -- this only needs to run once
+# -- to drop duplicates
+df_lcps.drop_duplicates(inplace=True)
+# -- end
 
 df_lcps.to_csv('data/lcps_ic.csv')
