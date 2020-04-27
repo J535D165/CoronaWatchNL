@@ -1,0 +1,46 @@
+{
+  "schema": {
+    "fields": [
+      {
+        "name": "Datum",
+        "type": "string"
+      },
+      {
+        "name": "overledenAantal",
+        "type": "integer"
+      },
+      {
+        "name": "totaalAantal",
+        "type": "integer"
+      },
+      {
+        "name": "ziekenhuisopnameAantal",
+        "type": "integer"
+      },
+      {
+        "name": "overledenAantalCumulatief",
+        "type": "integer"
+      },
+      {
+        "name": "totaalAantalCumulatief",
+        "type": "integer"
+      },
+      {
+        "name": "ziekenhuisopnameAantalCumulatief",
+        "type": "integer"
+      }
+    ]
+  },
+  "data": [
+    {
+      "Datum": "2020-04-26",
+      "overledenAantal": 66,
+      "totaalAantal": 655,
+      "ziekenhuisopnameAantal": 75,
+      "overledenAantalCumulatief": 4475,
+      "totaalAantalCumulatief": 37845,
+      "ziekenhuisopnameAantalCumulatief": 10456
+    }
+  ],
+  "apiVersion": "0.1"
+}
