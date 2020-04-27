@@ -8,10 +8,10 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 ### National
 
-**Directory:** [data-geo/data-national](data-geo/data-national) <br>
-**Daily file format:** rivm_NL_national_yyyy-mm-dd.csv<br>
-**Latest file format:** rivm_NL_national_latest.csv<br>
-**Complete file format:** rivm_NL_national.csv
+**Directory:** [data-geo/data-national](data-national) <br>
+**Daily file format:** RIVM_NL_national_yyyy-mm-dd.csv<br>
+**Latest file format:** [RIVM_NL_national_latest.csv](data-national/RIVM_NL_national_latest.csv)<br>
+**Complete file format:** [RIVM_NL_national.csv](data-national/RIVM_NL_national.csv)
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
@@ -27,10 +27,11 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 ### Provincial
 
-**Directory:** [data-geo/data-provincial](data-geo/data-provincial) <br>
-**Daily file format:** rivm_NL_provincial_yyyy-mm-dd.csv<br>
-**Latest file format:** rivm_NL_provincial_latest.csv<br>
-**Complete file format:** rivm_NL_provincial.csv
+**Directory:** [data-geo/data-provincial](data-provincial) <br>
+**Daily file format:** RIVM_NL_provincial_yyyy-mm-dd.csv<br>
+**Latest file format:** [RIVM_NL_provincial_latest.csv](data-provincial/RIVM_NL_provincial_latest.csv)<br>
+**Complete file format:** [RIVM_NL_provincial.csv](data-provincial/RIVM_NL_provincial.csv)
+
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
@@ -48,10 +49,11 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 ### Municipal
 
-**Directory:** [data-geo/data-municipal](data-geo/data-municipal) <br>
-**Daily file format:** rivm_NL_municipal_yyyy-mm-dd.csv<br>
-**Latest file format:** rivm_NL_municipal_latest.csv<br>
-**Complete file format:** rivm_NL_municipal.csv
+**Directory:** [data-geo/data-municipal](data-municipal) <br>
+**Daily file format:** RIVM_NL_municipal_yyyy-mm-dd.csv<br>
+**Latest file format:** [RIVM_NL_municipal_latest.csv](data-municipal/RIVM_NL_municipal_latest.csv)<br>
+**Complete file format:** [RIVM_NL_municipal.csv](data-municipal/RIVM_NL_municipal.csv)
+
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
