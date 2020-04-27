@@ -1,5 +1,3 @@
-![corona_artwork.jpg](corona_artwork.jpg)
-
 # Codebook `data-geo` - CoronaWatchNL
 
 ## Data update
@@ -19,8 +17,8 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-23 |
 | **Type** | Type | Type of measurement (i.e., Totaal, Ziekenhuisopname, Overleden) | character | Totaal |
-| **Aantal** | Number | Number of diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases on the date of notification in the last 24 hours | numeric (integer) | 86|
-| **AantalCumulatief** | Number | Number of newly diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases on the date of notification since the start of the outbreak | numeric (integer) | 86 |
+| **Aantal** | Count | Number of diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases on the date of notification in the last 24 hours | numeric (integer) | 86|
+| **AantalCumulatief** | Total count | Number of newly diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases on the date of notification since the start of the outbreak | numeric (integer) | 86 |
 
 *'Totaal' numbers are based on the reported cases with confirmed COVID-19 infection at the GGDs (Public Health Services).*<br>
 *The 'Totaal' and 'Overleden' numbers of COVID-19 cases are actually higher than displayed, as not all people with COVID-19 symptoms are being tested.*<br>
@@ -40,8 +38,8 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **Provincienaam** | Province name | Corresponding province of municipality | character | Noord-Brabant |
 | **Provinciecode** | Province code | Corresponding code of province | character | Noord-Brabant |
 | **Type** | Type | Type of measurement (i.e., Totaal, Ziekenhuisopname, Overleden) | character | Totaal |
-| **Aantal** | Number | Number of diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per province on the date of notification in the last 24 hours | numeric (integer) | 86|
-| **AantalCumulatief** | Number | Number of newly diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per province on the date of notification since the start of the outbreak | numeric (integer) | 86 |
+| **Aantal** | Count | Number of diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per province on the date of notification in the last 24 hours | numeric (integer) | 86|
+| **AantalCumulatief** | Total count | Number of newly diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per province on the date of notification since the start of the outbreak | numeric (integer) | 86 |
 
 *'Totaal' numbers are based on the reported cases with confirmed COVID-19 infection at the GGDs (Public Health Services).*<br>
 *The 'Totaal' and 'Overleden' numbers of COVID-19 cases are actually higher than displayed, as not all people with COVID-19 symptoms are being tested.*<br>
@@ -63,8 +61,8 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **Provincienaam** | Province name | Corresponding province of municipality | character | Noord-Brabant |
 | **Provinciecode** | Province code | Corresponding code of province | character | Noord-Brabant |
 | **Type** | Type | Type of measurement (i.e., Totaal, Ziekenhuisopname, Overleden) | character | Totaal |
-| **Aantal** | Number | Number of diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per municipality on the date of notification in the last 24 hours | numeric (integer) | 86|
-| **AantalCumulatief** | Number | Number of newly diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per municipality on the date of notification since the start of the outbreak | numeric (integer) | 86 |
+| **Aantal** | Count | Number of diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per municipality on the date of notification in the last 24 hours | numeric (integer) | 86|
+| **AantalCumulatief** | Total count | Number of newly diagnosed (*Totaal*), hospitalized (*Ziekenhuisopname*), or deceased (*Overleden*) cases per municipality on the date of notification since the start of the outbreak | numeric (integer) | 86 |
 
 *'Totaal' numbers are based on the reported cases with confirmed COVID-19 infection at the GGDs (Public Health Services).*<br>
 *The 'Totaal' and 'Overleden' numbers of COVID-19 cases are actually higher than displayed, as not all people with COVID-19 symptoms are being tested.*<br>
