@@ -3,9 +3,15 @@
 from pathlib import Path
 import re
 import datetime
+import itertools
 from io import StringIO
 
 import pandas
+
+from utils import get_municipalities, convert_to_int
+
+pandas.set_option('display.max_columns', None)
+pandas.set_option('display.width', 1000)
 
 
 DATE_MAP = {
@@ -14,10 +20,26 @@ DATE_MAP = {
     "mei": 5,
 }
 
+MUNICIPALITIES = get_municipalities()
+
+# add municipality to data
+DF_MUNICIPALITIES = pandas.read_csv(
+    Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
+)[["Gemeentecode", "Gemeentenaam", "Provincienaam", "Provinciecode"]]
+
 
 def list_files():
 
     return [p for p in Path('raw_data').iterdir() if p.is_file()]
+
+
+def count_values(df, column):
+
+    df_ = df[df[column] > 0]
+
+    df_group = df_.groupby("Datum")["Aantal"].sum()
+
+    return df_group
 
 
 def parse_format_v3(file, n_missing=None):
@@ -152,26 +174,42 @@ def merge_hosp():
             df_frames[str(file)] = parse_format_v4(file, "Zkh opname")
 
     result = merge_df_days(df_frames)
+    result["Gemeentecode"] = result["id"].astype(int)
+    result = result[["Datum", "Gemeentecode", "Aantal"]]
+    result["Datum"] = result["Datum"].astype(str)
 
-    # add municipality to data
-    df_mun = pandas.read_csv(
-        Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
-    )[["Gemeentecode", "Gemeentenaam", "Provincienaam"]]
+    # make combinations of the new items
+    combinations = itertools.product(
+        result["Datum"].unique(),
+        MUNICIPALITIES
+    )
 
-    result = result.\
-        merge(df_mun, left_on="id", right_on="Gemeentecode", how="left").\
-        drop(["id"], axis=1)
-    result = result[
-        ["Datum", "Gemeentenaam", "Gemeentecode", "Provincienaam", "Aantal"]
-    ].sort_values(["Datum", "Gemeentecode"]). \
-        fillna({"Gemeentecode": -1})
+    df = pandas.DataFrame(combinations, columns=["Datum", "Gemeentecode"]).\
+        merge(DF_MUNICIPALITIES, on="Gemeentecode", how="left").\
+        merge(result, on=["Datum", "Gemeentecode"], how="left")
 
-    result["Gemeentecode"] = result["Gemeentecode"].astype(int)
+    df = convert_to_int(df, ["Provinciecode", "Aantal"])
 
-    result = result[result["Aantal"] != 0]
+    # fill na
+    cond = (df["Gemeentecode"] > 0) & df["Aantal"].isnull()
+    df.loc[cond, "Aantal"] = 0
 
-    print(result.tail())
-    result.to_csv(Path("data", "rivm_NL_covid19_hosp_municipality.csv"), index=False)
+    # determine missing locations
+    national = pandas.read_csv(Path("data", "rivm_NL_covid19_national.csv"))
+    national = national[national["Type"] == "Ziekenhuisopname"]
+    national["Aantal_nat"] = national["Aantal"].astype(pandas.Int64Dtype())
+    national = national[["Datum", "Aantal_nat"]].set_index("Datum")
+
+    diff = pandas.concat([national, count_values(df, "Gemeentecode")], axis=1)
+    n_missing = (diff["Aantal_nat"] - diff["Aantal"]).dropna()
+
+    for k, v in n_missing.items():
+        df.loc[(df["Datum"] == k) & (df["Gemeentecode"] == -1), "Aantal"] = v
+
+    df.sort_values(["Datum", "Gemeentecode"], inplace=True)
+
+    print(df.tail())
+    df.to_csv(Path("data", "rivm_NL_covid19_hosp_municipality.csv"), index=False)
 
 
 def merge_postest():
@@ -195,33 +233,54 @@ def merge_postest():
             df_frames[str(file)] = parse_format_v4(file, "Meldingen")
 
     result = merge_df_days(df_frames)
+    result["Gemeentecode"] = result["id"].astype(int)
+    result = result[["Datum", "Gemeentecode", "Aantal"]]
+    result["Datum"] = result["Datum"].astype(str)
 
-    # add municipality to data
-    df_mun = pandas.read_csv(
-        Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
-    )[["Gemeentecode", "Gemeentenaam", "Provincienaam"]]
+    # make combinations of the new items
+    combinations = itertools.product(
+        result["Datum"].unique(),
+        MUNICIPALITIES
+    )
+    df_base = pandas.DataFrame(combinations, columns=["Datum", "Gemeentecode"]).\
+        merge(DF_MUNICIPALITIES, on="Gemeentecode", how="left").\
+        merge(result, on=["Datum", "Gemeentecode"], how="left")
 
-    result = result.\
-        merge(df_mun, left_on="id", right_on="Gemeentecode", how="left").\
-        drop(["id"], axis=1)
-    result = result[
-        ["Datum", "Gemeentenaam", "Gemeentecode", "Provincienaam", "Aantal"]
-    ]
+    # make combinations of the old items
 
-    # add old data
-    df_total_old = pandas.read_csv(Path("data", "rivm_corona_in_nl.csv"))
-    result = result.append(df_total_old)
+    result_old = pandas.read_csv(Path("data", "rivm_corona_in_nl.csv"),
+                                 usecols=["Datum", "Gemeentecode", "Aantal"])
+    combinations = itertools.product(
+        result_old["Datum"].unique(),
+        MUNICIPALITIES
+    )
+    df_base_old = pandas.DataFrame(combinations, columns=["Datum", "Gemeentecode"]).\
+        merge(DF_MUNICIPALITIES, on="Gemeentecode", how="left").\
+        merge(result_old, on=["Datum", "Gemeentecode"], how="left")
 
-    # sort values and adjust dtypes
-    result = result.sort_values(["Datum", "Gemeentecode"]). \
-        fillna({"Gemeentecode": -1})
+    df = df_base.append(df_base_old).sort_values(["Datum", "Gemeentecode"])
 
-    result["Gemeentecode"] = result["Gemeentecode"].astype(int)
+    df = convert_to_int(df, ["Provinciecode", "Aantal"])
 
-    result = result[result["Aantal"] != 0]
+    # fill na
+    cond = (df["Gemeentecode"] > 0) & df["Aantal"].isnull()
+    df.loc[cond, "Aantal"] = 0
 
-    print(result.tail())
-    result.to_csv(Path("data", "rivm_NL_covid19_total_municipality.csv"), index=False)
+    # determine missing locations
+    national = pandas.read_csv(Path("data", "rivm_NL_covid19_national.csv"))
+    national = national[national["Type"] == "Totaal"]
+    national["Aantal_nat"] = national["Aantal"].astype(int)
+    national = national[["Datum", "Aantal_nat"]].set_index("Datum")
+
+    diff = pandas.concat([national, count_values(df, "Gemeentecode")], axis=1)
+    n_missing = (diff["Aantal_nat"] - diff["Aantal"]).dropna()
+
+    for k, v in n_missing.items():
+        df.loc[(df["Datum"] == k) & (df["Gemeentecode"] == -1), "Aantal"] = v
+
+    df.sort_values(["Datum", "Gemeentecode"], inplace=True)
+
+    df.to_csv(Path("data", "rivm_NL_covid19_total_municipality.csv"), index=False)
 
 
 def merge_dead():
@@ -256,26 +315,42 @@ def merge_dead():
             df_frames[str(file)] = parse_format_v4(file, "Overleden")
 
     result = merge_df_days(df_frames)
+    result["Gemeentecode"] = result["id"].astype(int)
+    result = result[["Datum", "Gemeentecode", "Aantal"]]
+    result["Datum"] = result["Datum"].astype(str)
 
-    # add municipality to data
-    df_mun = pandas.read_csv(
-        Path("ext", "Gemeenten_alfabetisch_2019.csv"), sep=";"
-    )[["Gemeentecode", "Gemeentenaam", "Provincienaam"]]
+    # make combinations of the new items
+    combinations = itertools.product(
+        result["Datum"].unique(),
+        MUNICIPALITIES
+    )
 
-    result = result.\
-        merge(df_mun, left_on="id", right_on="Gemeentecode", how="left").\
-        drop(["id"], axis=1)
-    result = result[
-        ["Datum", "Gemeentenaam", "Gemeentecode", "Provincienaam", "Aantal"]
-    ].sort_values(["Datum", "Gemeentecode"]). \
-        fillna({"Gemeentecode": -1})
+    df = pandas.DataFrame(combinations, columns=["Datum", "Gemeentecode"]).\
+        merge(DF_MUNICIPALITIES, on="Gemeentecode", how="left").\
+        merge(result, on=["Datum", "Gemeentecode"], how="left")
 
-    result["Gemeentecode"] = result["Gemeentecode"].astype(int)
+    df = convert_to_int(df, ["Provinciecode", "Aantal"])
 
-    result = result[result["Aantal"] != 0]
+    # fill na
+    cond = (df["Gemeentecode"] > 0) & df["Aantal"].isnull()
+    df.loc[cond, "Aantal"] = 0
 
-    print(result.tail())
-    result.to_csv(Path("data", "rivm_NL_covid19_fatalities_municipality.csv"), index=False)
+    # determine missing locations
+    national = pandas.read_csv(Path("data", "rivm_NL_covid19_national.csv"))
+    national = national[national["Type"] == "Overleden"]
+    national["Aantal_nat"] = national["Aantal"].astype(int)
+    national = national[["Datum", "Aantal_nat"]].set_index("Datum")
+
+    diff = pandas.concat([national, count_values(df, "Gemeentecode")], axis=1)
+    n_missing = (diff["Aantal_nat"] - diff["Aantal"]).dropna()
+
+    for k, v in n_missing.items():
+        df.loc[(df["Datum"] == k) & (df["Gemeentecode"] == -1), "Aantal"] = v
+
+    df.sort_values(["Datum", "Gemeentecode"], inplace=True)
+
+    print(df.tail())
+    df.to_csv(Path("data", "rivm_NL_covid19_fatalities_municipality.csv"), index=False)
 
 
 if __name__ == '__main__':
