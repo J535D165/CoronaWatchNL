@@ -1,7 +1,7 @@
 Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCumulatief
-2020-04-28,-1,,,-1,Totaal,,
-2020-04-28,-1,,,-1,Ziekenhuisopname,,
-2020-04-28,-1,,,-1,Overleden,,
+2020-04-28,-1,,,-1,Totaal,-10,528
+2020-04-28,-1,,,-1,Ziekenhuisopname,2,83
+2020-04-28,-1,,,-1,Overleden,-1,39
 2020-04-28,3,Appingedam,Groningen,20,Totaal,0,5
 2020-04-28,3,Appingedam,Groningen,20,Ziekenhuisopname,0,3
 2020-04-28,3,Appingedam,Groningen,20,Overleden,0,0
