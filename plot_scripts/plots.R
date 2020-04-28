@@ -194,45 +194,44 @@ samen_cum %>%
 
 # Read all files in the folder into one dataframe
 read_plus <- function(flnm) {
-  read_csv(flnm) %>% 
+  read_csv(flnm) %>%
     mutate(filename = flnm)
 }
 
 reports <-
-  list.files("./data-geo/national", pattern = "*.csv", 
-           full.names = T) %>% 
+  list.files("./data/rivm_NL_covid19_national_by_date", pattern = "*.csv",
+             full.names =T) %>%
   map_df(~read_plus(.))
 
-
-# Transform the original filename to shorter report date 
+# Transform the original filename to shorter report date
 reports <- reports[!(grepl("latest", reports$filename)), ]
 reports <- reports[!(grepl("national.csv", reports$filename)), ]
 a <- gsub("[A-z \\.\\(\\)]", "", reports$filename)
-reports$filename <- gsub(substr(a, 1, 8)[1], "", a)
+reports$filename <- substr(a, nchar(a)-4, nchar(a))
 reports <- reports %>% rename(dag = filename)
 
 # Plot
-# Select all weekend days 
-weekends <- data.frame(xstart = unique(reports$Datum[as.numeric(wday(reports$Datum, label = TRUE)) == 7] - 0.2), 
+# Select all weekend days
+weekends <- data.frame(xstart = unique(reports$Datum[as.numeric(wday(reports$Datum, label = TRUE)) == 7] - 0.2),
                        xend   = unique(reports$Datum[as.numeric(wday(reports$Datum, label = TRUE)) == 7] + 1.2) )
 
 # Plot all reports together
 reports %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden")),
-         dag = factor(dag, sort(as.character(unique(reports$dag)))) 
+         dag = factor(dag, sort(as.character(unique(reports$dag))))
   ) %>%
   ggplot(aes(x = Datum, y = Aantal, group = interaction(dag, Type), colour = Type)) +
-  geom_line(aes(alpha = dag))+ 
+  geom_line(aes(alpha = dag))+
   annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(reports$Aantal, na.rm = T), fill = "lightgray",
            alpha = .3) +
-  theme_minimal() + 
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   guides(alpha = FALSE)+
-  ggtitle("Gerapporteerde COVID-19 pati?nten per rapportdatum")+
+  ggtitle("Gerapporteerde COVID-19 patinten per rapportdatum")+
   ggsave("plots/overview_reports.png", width = 5.5, height=4)
 
 #############
