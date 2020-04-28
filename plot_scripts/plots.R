@@ -192,9 +192,6 @@ samen_cum %>%
 #### REPORTS #####
 ##################
 
-# Go to data folder, subfolder rivm_NL_covid19_national_by_date
-setwd("data/rivm_NL_covid19_national_by_date")
-
 # Read all files in the folder into one dataframe
 read_plus <- function(flnm) {
   read_csv(flnm) %>% 
@@ -202,12 +199,14 @@ read_plus <- function(flnm) {
 }
 
 reports <-
-  list.files(pattern = "*.csv", 
+  list.files("./data-geo/national", pattern = "*.csv", 
            full.names = T) %>% 
   map_df(~read_plus(.))
 
+
 # Transform the original filename to shorter report date 
 reports <- reports[!(grepl("latest", reports$filename)), ]
+reports <- reports[!(grepl("national.csv", reports$filename)), ]
 a <- gsub("[A-z \\.\\(\\)]", "", reports$filename)
 reports$filename <- gsub(substr(a, 1, 8)[1], "", a)
 reports <- reports %>% rename(dag = filename)
@@ -233,7 +232,7 @@ reports %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
   guides(alpha = FALSE)+
-  ggtitle("Gerapporteerde COVID-19 patiënten per rapportdatum")+
+  ggtitle("Gerapporteerde COVID-19 pati?nten per rapportdatum")+
   ggsave("plots/overview_reports.png", width = 5.5, height=4)
 
 #############
