@@ -7,6 +7,8 @@ library(lubridate)
 pdf(NULL)
 dir.create("plots")
 
+# Set working directory to CoronaWatchNL folder
+# Province data
 data_prov <- read_csv("data/rivm_NL_covid19_province.csv")
 
 # daily data
@@ -15,7 +17,6 @@ fata <- read_csv("data/rivm_corona_in_nl_fatalities.csv")
 hosp <- read_csv("data/rivm_corona_in_nl_hosp.csv")
 
 data_tests <- read_csv("data/rivm_NL_covid19_tests.csv")
-
 
 measures <- read_csv("ext/maatregelen.csv") %>%
   mutate(name = forcats::fct_reorder(maatregel, start_datum))
@@ -47,13 +48,13 @@ daily_diff <- data_daily %>%
 daily %>%
   mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
-  geom_line() + 
-  theme_minimal() + 
+  geom_line() +
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("Totaal COVID-19 patiënten") +
   ggsave("plots/overview_plot.png", width = 5.5, height=4)
 
@@ -61,26 +62,26 @@ daily %>%
 daily_diff %>%
   mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas)) +
-  geom_line() + 
-  theme_minimal() + 
+  geom_line() +
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("Toename COVID-19 patiënten") +
   ggsave("plots/overview_plot_diff.png", width = 5.5, height=4)
-
-
-# load datasets
-data_national <- read_csv("data/rivm_NL_covid19_national.csv")
-data_national_latest <- read_csv("data/rivm_NL_covid19_national_by_date/rivm_NL_covid19_national_by_date_latest.csv")
 
 
 ######################
 ### DAILY INCREASE ###
 ######################
 
+# load datasets
+data_national <- read_csv("data/rivm_NL_covid19_national.csv")
+data_national_latest <- read_csv("data/rivm_NL_covid19_national_by_date/rivm_NL_covid19_national_by_date_latest.csv")
+
+# mutate and combine datasets
 daily_diff <- data_national %>%
   filter(Type == "Totaal") %>%
   mutate(
@@ -112,12 +113,12 @@ samen <- data_national_latest %>%
     Type = "Werkelijk") %>%
   bind_rows(daily_diff)
 
-# select all weekend days 
-weekends <- data.frame(xstart = unique(samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7] - 0.2), 
+# select all weekend days
+weekends <- data.frame(xstart = unique(samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7] - 0.2),
                        xend   = unique(samen$Datum[as.numeric(wday(samen$Datum, label = TRUE)) == 7] + 1.2))
 
 
-# Plot "Toename COVID-19 patienten: Werkelijk vs. Gerapporteerd" 
+# Plot "Toename COVID-19 patienten: Werkelijk vs. Gerapporteerd"
 samen %>%
   mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden")),
          Type = factor(Type, c("Werkelijk", "Gerapporteerd"))
@@ -126,12 +127,12 @@ samen %>%
   geom_line() +
   annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen$Aantal, na.rm = T), fill = "lightgray",
            alpha = .2) +
-  theme_minimal() + 
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("Toename: Werkelijk vs. Gerapporteerd") +
   ggsave("plots/overview_plot_true_vs_reported_diff.png", width = 5.5, height=4)
 
@@ -143,7 +144,7 @@ samen %>%
 # combine daily 'total' data (total, hospital intakes, deaths)
 daily <- data_national %>%
   mutate(meas = Type,
-         Type = "Gerapporteerd") 
+         Type = "Gerapporteerd")
 
 
 # calculate cumulative sum per measurement & combine daily total data (i.e., reported data) with 'latest' data (i.e., actual data)
@@ -153,55 +154,102 @@ samen_cum <- data_national_latest %>%
     Aantal = cumsum(Aantal),
     meas = Type,
     Type = "Werkelijk",
-  )%>% 
+  )%>%
   bind_rows(data_national_latest %>%
               filter(Type == "Ziekenhuisopname") %>%
               mutate(
                 Aantal = cumsum(Aantal),
                 meas = Type,
                 Type = "Werkelijk"
-              )) %>% 
+              )) %>%
   bind_rows(data_national_latest %>%
               filter(Type == "Overleden") %>%
               mutate(
                 Aantal = cumsum(Aantal),
                 meas = Type,
                 Type = "Werkelijk",
-              )) %>% 
+              )) %>%
   bind_rows(daily)
 
-# Plot "Totaal COVID-19 patienten: Werkelijk vs. Gerapporteerd" 
+# Plot "Totaal COVID-19 patienten: Werkelijk vs. Gerapporteerd"
 samen_cum %>%
   mutate(meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden")),
          Type = factor(Type, c("Werkelijk", "Gerapporteerd"))) %>%
   ggplot(aes(x = Datum, y = Aantal, group = interaction(meas, Type), colour = meas, linetype = Type))+
-  geom_line() + 
+  geom_line() +
   annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(samen_cum$Aantal, na.rm = T), fill = "lightgray",
            alpha = .2) +
-  theme_minimal() + 
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9","#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9","#999999")) +
   ggtitle("Totaal: Werkelijk vs. Gerapporteerd") +
   ggsave("plots/overview_plot_true_vs_reported.png", width = 5.5, height=4)
 
+##################
+#### REPORTS #####
+##################
 
+# # Read all files in the folder into one dataframe
+# read_plus <- function(flnm) {
+#   print(flnm)
+#   read_csv(flnm) %>%
+#     mutate(filename = flnm)
+# }
 
+# reports <-
+#   list.files(pattern = "data/rivm_NL_covid19_national_by_date/*.csv",
+#            full.names =T) %>%
+#   map_df(~read_plus(.))
+
+# print(reports)
+
+# # Transform the original filename to shorter report date
+# reports <- reports[!(grepl("latest", reports$filename)), ]
+# a <- gsub("[A-z \\.\\(\\)]", "", reports$filename)
+# reports$filename <- gsub(substr(a, 1, 8)[1], "", a)
+# reports <- reports %>% rename(dag = filename)
+
+# # Plot
+# # Select all weekend days
+# weekends <- data.frame(xstart = unique(reports$Datum[as.numeric(wday(reports$Datum, label = TRUE)) == 7] - 0.2),
+#                        xend   = unique(reports$Datum[as.numeric(wday(reports$Datum, label = TRUE)) == 7] + 1.2) )
+
+# # Plot all reports together
+# reports %>%
+#   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden")),
+#          dag = factor(dag, sort(as.character(unique(reports$dag))))
+#   ) %>%
+#   ggplot(aes(x = Datum, y = Aantal, group = interaction(dag, Type), colour = Type)) +
+#   geom_line(aes(alpha = dag))+
+#   annotate("rect", xmin = weekends$xstart, xmax = weekends$xend, ymin = 0, ymax = max(reports$Aantal, na.rm = T), fill = "lightgray",
+#            alpha = .3) +
+#   theme_minimal() +
+#   theme(axis.title.x=element_blank(),
+#         axis.title.y=element_blank(),
+#         legend.pos = "bottom",
+#         legend.title = element_blank()) +
+#   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+#   guides(alpha = FALSE)+
+#   ggtitle("Gerapporteerde COVID-19 patinten per rapportdatum")+
+#   # ggsave("plots/overview_reports.png", width = 5.5, height=4)
+
+#############
 # plot geslacht
 
 read_csv("data/rivm_NL_covid19_sex.csv") %>%
   filter(Geslacht %in% c("Man", "Vrouw")) %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype= Geslacht)) +
-  geom_line() + 
-  theme_minimal() + 
+  geom_line() +
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("COVID-19 patiënten per geslacht") +
   ggsave("plots/overview_plot_geslacht.png", width = 5.5, height=4)
 
@@ -215,18 +263,18 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
     groep = ifelse(LeeftijdGroep %in% c("0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59"), "0-59", NA),
     groep = ifelse(LeeftijdGroep %in% c("60-64", "65-69", "70-74"), "60-74", groep),
     groep = ifelse(LeeftijdGroep %in% c("75-79", "80-84", "85-89", "90-94", "95+"), "75+", groep)
-  ) %>% 
-  group_by(Datum, groep, Type) %>% 
+  ) %>%
+  group_by(Datum, groep, Type) %>%
   summarize(Aantal = sum(Aantal)) %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype=groep)) +
-  geom_line() + 
-  theme_minimal() + 
+  geom_line() +
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("COVID-19 patiënten per leeftijd") +
   ggsave("plots/overview_plot_leeftijd.png", width = 5.5, height=4)
 
@@ -236,49 +284,49 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
 # plot tests
 
 read_csv("data/rivm_NL_covid19_tests.csv") %>%
-  group_by(Datum, Type) %>% 
+  group_by(Datum, Type) %>%
   summarise(Aantal = max(Aantal)) %>%
   mutate(
     Type = if_else(Type == "Totaal", "Totaal testen", "Positieve testen")
   ) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
-    geom_line() + 
-    theme_minimal() + 
+    geom_line() +
+    theme_minimal() +
     theme(axis.title.x=element_blank(),
           axis.title.y=element_blank(),
           legend.pos = "bottom",
           legend.title = element_blank()) +
-    scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
-    scale_y_continuous(limits=c(0, NA)) + 
+    scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+    scale_y_continuous(limits=c(0, NA)) +
     ggtitle("Totaal (positieve) COVID-19 testen") +
     ggsave("plots/overview_plot_tests.png", width = 5.5, height=4)
-  
+
 
 read_csv("data/rivm_NL_covid19_tests.csv") %>%
-  group_by(Datum, Type) %>% 
+  group_by(Datum, Type) %>%
   summarise(Aantal = max(Aantal)) %>%
   ungroup() %>%
-  pivot_wider(names_from = Type, values_from = Aantal) %>% 
+  pivot_wider(names_from = Type, values_from = Aantal) %>%
   mutate(
     `Positieve testen` = Positief - lag(Positief),
     `Totaal testen` = Totaal - lag(Totaal),
-  ) %>% 
+  ) %>%
   pivot_longer(c("Totaal testen", "Positieve testen"), names_to = "Type", values_to="Aantal", values_drop_na=T) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
-  geom_line() + 
-  scale_y_continuous(limits=c(0, NA)) + 
-  theme_minimal() + 
+  geom_line() +
+  scale_y_continuous(limits=c(0, NA)) +
+  theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) + 
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("Toename (positieve) COVID-19 testen") +
   ggsave("plots/overview_plot_tests_diff.png", width = 5.5, height=4)
 
 
-  
-  
+
+
 
 
 
@@ -312,13 +360,13 @@ read_csv("data/rivm_NL_covid19_tests.csv") %>%
   ggsave("plots/timeline.png", width = 6, height=4))
 
 ### Top 10 municipalities
-# 
+#
 # # top 10 municipalities on the most recent day
 # top_10_municipalities <- data %>%
 #   filter(!is.na(Gemeentenaam)) %>%
 #   arrange(desc(Datum), desc(Aantal)) %>%
 #   filter(Gemeentenaam %in% head(Gemeentenaam, 10))
-# 
+#
 # # make plot
 # top_10_municipalities %>%
 #   ggplot(aes(Datum, Aantal, color=Gemeentenaam)) +
@@ -458,7 +506,7 @@ p_list = list()
 data_map = data_prov %>%
   filter(!is.na(Provincienaam)) %>%
   complete(Datum, Provincienaam, fill = list("Aantal"=0)) %>%
-  left_join(province_shp, by=c("Provincienaam"="NAME_1")) %>% 
+  left_join(province_shp, by=c("Provincienaam"="NAME_1")) %>%
   st_as_sf() %>%
   st_set_crs(4326)
 
@@ -466,10 +514,10 @@ for (i in seq(0, 6)){
   print(i)
   data_subset_map = data_map %>%
     filter(Datum == max(Datum) - i*7)
-  
+
   date_submap = max(data_subset_map$Datum)
   aantal_max = max(data_map$Aantal)
-  
+
   p = data_subset_map %>%
     ggplot() +
     geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) + coord_sf( expand = FALSE) +
@@ -493,15 +541,15 @@ for (i in seq(0, 6)){
   } else{
     p = p + ggtitle(glue("-{i} weken"))
   }
-  
+
   p = p + theme(legend.position="none")
-  
+
   p_list[[i+1]] = p
 }
 
 p_list[[8]] = legend
 
 print("make grid plot")
-pgrid = plot_grid(plotlist=p_list, 
-                  ncol=4) + 
+pgrid = plot_grid(plotlist=p_list,
+                  ncol=4) +
   ggsave("plots/map_province.png", width = 6, height=4)

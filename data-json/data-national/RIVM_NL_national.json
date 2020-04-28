@@ -1,0 +1,586 @@
+{
+  "schema": {
+    "fields": [
+      {
+        "name": "Datum",
+        "type": "string"
+      },
+      {
+        "name": "overledenAantal",
+        "type": "integer"
+      },
+      {
+        "name": "totaalAantal",
+        "type": "integer"
+      },
+      {
+        "name": "ziekenhuisopnameAantal",
+        "type": "integer"
+      },
+      {
+        "name": "overledenAantalCumulatief",
+        "type": "integer"
+      },
+      {
+        "name": "totaalAantalCumulatief",
+        "type": "integer"
+      },
+      {
+        "name": "ziekenhuisopnameAantalCumulatief",
+        "type": "integer"
+      }
+    ]
+  },
+  "data": [
+    {
+      "Datum": "2020-02-27",
+      "overledenAantal": 0,
+      "totaalAantal": 1,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 1,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-02-28",
+      "overledenAantal": 0,
+      "totaalAantal": 1,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 2,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-02-29",
+      "overledenAantal": 0,
+      "totaalAantal": 5,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 7,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-01",
+      "overledenAantal": 0,
+      "totaalAantal": 3,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 10,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-02",
+      "overledenAantal": 0,
+      "totaalAantal": 8,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 18,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-03",
+      "overledenAantal": 0,
+      "totaalAantal": 6,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 24,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-04",
+      "overledenAantal": 0,
+      "totaalAantal": 14,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 38,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-05",
+      "overledenAantal": 0,
+      "totaalAantal": 44,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 0,
+      "totaalAantalCumulatief": 82,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-06",
+      "overledenAantal": 1,
+      "totaalAantal": 46,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 1,
+      "totaalAantalCumulatief": 128,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-07",
+      "overledenAantal": 0,
+      "totaalAantal": 60,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 1,
+      "totaalAantalCumulatief": 188,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-08",
+      "overledenAantal": 2,
+      "totaalAantal": 77,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 3,
+      "totaalAantalCumulatief": 265,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-09",
+      "overledenAantal": 0,
+      "totaalAantal": 56,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 3,
+      "totaalAantalCumulatief": 321,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-10",
+      "overledenAantal": 1,
+      "totaalAantal": 61,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 4,
+      "totaalAantalCumulatief": 382,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-11",
+      "overledenAantal": 1,
+      "totaalAantal": 121,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 5,
+      "totaalAantalCumulatief": 503,
+      "ziekenhuisopnameAantalCumulatief": null
+    },
+    {
+      "Datum": "2020-03-12",
+      "overledenAantal": 0,
+      "totaalAantal": 110,
+      "ziekenhuisopnameAantal": null,
+      "overledenAantalCumulatief": 5,
+      "totaalAantalCumulatief": 613,
+      "ziekenhuisopnameAantalCumulatief": 86
+    },
+    {
+      "Datum": "2020-03-13",
+      "overledenAantal": 5,
+      "totaalAantal": 191,
+      "ziekenhuisopnameAantal": 29,
+      "overledenAantalCumulatief": 10,
+      "totaalAantalCumulatief": 804,
+      "ziekenhuisopnameAantalCumulatief": 115
+    },
+    {
+      "Datum": "2020-03-14",
+      "overledenAantal": 2,
+      "totaalAantal": 155,
+      "ziekenhuisopnameAantal": 21,
+      "overledenAantalCumulatief": 12,
+      "totaalAantalCumulatief": 959,
+      "ziekenhuisopnameAantalCumulatief": 136
+    },
+    {
+      "Datum": "2020-03-15",
+      "overledenAantal": 8,
+      "totaalAantal": 176,
+      "ziekenhuisopnameAantal": 26,
+      "overledenAantalCumulatief": 20,
+      "totaalAantalCumulatief": 1135,
+      "ziekenhuisopnameAantalCumulatief": 162
+    },
+    {
+      "Datum": "2020-03-16",
+      "overledenAantal": 4,
+      "totaalAantal": 278,
+      "ziekenhuisopnameAantal": 43,
+      "overledenAantalCumulatief": 24,
+      "totaalAantalCumulatief": 1413,
+      "ziekenhuisopnameAantalCumulatief": 205
+    },
+    {
+      "Datum": "2020-03-17",
+      "overledenAantal": 19,
+      "totaalAantal": 290,
+      "ziekenhuisopnameAantal": 109,
+      "overledenAantalCumulatief": 43,
+      "totaalAantalCumulatief": 1703,
+      "ziekenhuisopnameAantalCumulatief": 314
+    },
+    {
+      "Datum": "2020-03-18",
+      "overledenAantal": 15,
+      "totaalAantal": 348,
+      "ziekenhuisopnameAantal": 94,
+      "overledenAantalCumulatief": 58,
+      "totaalAantalCumulatief": 2051,
+      "ziekenhuisopnameAantalCumulatief": 408
+    },
+    {
+      "Datum": "2020-03-19",
+      "overledenAantal": 18,
+      "totaalAantal": 409,
+      "ziekenhuisopnameAantal": 81,
+      "overledenAantalCumulatief": 76,
+      "totaalAantalCumulatief": 2460,
+      "ziekenhuisopnameAantalCumulatief": 489
+    },
+    {
+      "Datum": "2020-03-20",
+      "overledenAantal": 30,
+      "totaalAantal": 534,
+      "ziekenhuisopnameAantal": 145,
+      "overledenAantalCumulatief": 106,
+      "totaalAantalCumulatief": 2994,
+      "ziekenhuisopnameAantalCumulatief": 634
+    },
+    {
+      "Datum": "2020-03-21",
+      "overledenAantal": 30,
+      "totaalAantal": 637,
+      "ziekenhuisopnameAantal": 202,
+      "overledenAantalCumulatief": 136,
+      "totaalAantalCumulatief": 3631,
+      "ziekenhuisopnameAantalCumulatief": 836
+    },
+    {
+      "Datum": "2020-03-22",
+      "overledenAantal": 43,
+      "totaalAantal": 573,
+      "ziekenhuisopnameAantal": 152,
+      "overledenAantalCumulatief": 179,
+      "totaalAantalCumulatief": 4204,
+      "ziekenhuisopnameAantalCumulatief": 988
+    },
+    {
+      "Datum": "2020-03-23",
+      "overledenAantal": 34,
+      "totaalAantal": 545,
+      "ziekenhuisopnameAantal": 242,
+      "overledenAantalCumulatief": 213,
+      "totaalAantalCumulatief": 4749,
+      "ziekenhuisopnameAantalCumulatief": 1230
+    },
+    {
+      "Datum": "2020-03-24",
+      "overledenAantal": 63,
+      "totaalAantal": 811,
+      "ziekenhuisopnameAantal": 265,
+      "overledenAantalCumulatief": 276,
+      "totaalAantalCumulatief": 5560,
+      "ziekenhuisopnameAantalCumulatief": 1495
+    },
+    {
+      "Datum": "2020-03-25",
+      "overledenAantal": 80,
+      "totaalAantal": 852,
+      "ziekenhuisopnameAantal": 341,
+      "overledenAantalCumulatief": 356,
+      "totaalAantalCumulatief": 6412,
+      "ziekenhuisopnameAantalCumulatief": 1836
+    },
+    {
+      "Datum": "2020-03-26",
+      "overledenAantal": 78,
+      "totaalAantal": 1019,
+      "ziekenhuisopnameAantal": 315,
+      "overledenAantalCumulatief": 434,
+      "totaalAantalCumulatief": 7431,
+      "ziekenhuisopnameAantalCumulatief": 2151
+    },
+    {
+      "Datum": "2020-03-27",
+      "overledenAantal": 112,
+      "totaalAantal": 1172,
+      "ziekenhuisopnameAantal": 349,
+      "overledenAantalCumulatief": 546,
+      "totaalAantalCumulatief": 8603,
+      "ziekenhuisopnameAantalCumulatief": 2500
+    },
+    {
+      "Datum": "2020-03-28",
+      "overledenAantal": 93,
+      "totaalAantal": 1159,
+      "ziekenhuisopnameAantal": 454,
+      "overledenAantalCumulatief": 639,
+      "totaalAantalCumulatief": 9762,
+      "ziekenhuisopnameAantalCumulatief": 2954
+    },
+    {
+      "Datum": "2020-03-29",
+      "overledenAantal": 132,
+      "totaalAantal": 1104,
+      "ziekenhuisopnameAantal": 529,
+      "overledenAantalCumulatief": 771,
+      "totaalAantalCumulatief": 10866,
+      "ziekenhuisopnameAantalCumulatief": 3483
+    },
+    {
+      "Datum": "2020-03-30",
+      "overledenAantal": 93,
+      "totaalAantal": 884,
+      "ziekenhuisopnameAantal": 507,
+      "overledenAantalCumulatief": 864,
+      "totaalAantalCumulatief": 11750,
+      "ziekenhuisopnameAantalCumulatief": 3990
+    },
+    {
+      "Datum": "2020-03-31",
+      "overledenAantal": 175,
+      "totaalAantal": 845,
+      "ziekenhuisopnameAantal": 722,
+      "overledenAantalCumulatief": 1039,
+      "totaalAantalCumulatief": 12595,
+      "ziekenhuisopnameAantalCumulatief": 4712
+    },
+    {
+      "Datum": "2020-04-01",
+      "overledenAantal": 134,
+      "totaalAantal": 1019,
+      "ziekenhuisopnameAantal": 447,
+      "overledenAantalCumulatief": 1173,
+      "totaalAantalCumulatief": 13614,
+      "ziekenhuisopnameAantalCumulatief": 5159
+    },
+    {
+      "Datum": "2020-04-02",
+      "overledenAantal": 166,
+      "totaalAantal": 1083,
+      "ziekenhuisopnameAantal": 625,
+      "overledenAantalCumulatief": 1339,
+      "totaalAantalCumulatief": 14697,
+      "ziekenhuisopnameAantalCumulatief": 5784
+    },
+    {
+      "Datum": "2020-04-03",
+      "overledenAantal": 148,
+      "totaalAantal": 1026,
+      "ziekenhuisopnameAantal": 502,
+      "overledenAantalCumulatief": 1487,
+      "totaalAantalCumulatief": 15723,
+      "ziekenhuisopnameAantalCumulatief": 6286
+    },
+    {
+      "Datum": "2020-04-04",
+      "overledenAantal": 164,
+      "totaalAantal": 904,
+      "ziekenhuisopnameAantal": 336,
+      "overledenAantalCumulatief": 1651,
+      "totaalAantalCumulatief": 16627,
+      "ziekenhuisopnameAantalCumulatief": 6622
+    },
+    {
+      "Datum": "2020-04-05",
+      "overledenAantal": 115,
+      "totaalAantal": 1224,
+      "ziekenhuisopnameAantal": 253,
+      "overledenAantalCumulatief": 1766,
+      "totaalAantalCumulatief": 17851,
+      "ziekenhuisopnameAantalCumulatief": 6875
+    },
+    {
+      "Datum": "2020-04-06",
+      "overledenAantal": 101,
+      "totaalAantal": 952,
+      "ziekenhuisopnameAantal": 260,
+      "overledenAantalCumulatief": 1867,
+      "totaalAantalCumulatief": 18803,
+      "ziekenhuisopnameAantalCumulatief": 7135
+    },
+    {
+      "Datum": "2020-04-07",
+      "overledenAantal": 234,
+      "totaalAantal": 777,
+      "ziekenhuisopnameAantal": 292,
+      "overledenAantalCumulatief": 2101,
+      "totaalAantalCumulatief": 19580,
+      "ziekenhuisopnameAantalCumulatief": 7427
+    },
+    {
+      "Datum": "2020-04-08",
+      "overledenAantal": 147,
+      "totaalAantal": 969,
+      "ziekenhuisopnameAantal": 308,
+      "overledenAantalCumulatief": 2248,
+      "totaalAantalCumulatief": 20549,
+      "ziekenhuisopnameAantalCumulatief": 7735
+    },
+    {
+      "Datum": "2020-04-09",
+      "overledenAantal": 148,
+      "totaalAantal": 1213,
+      "ziekenhuisopnameAantal": 237,
+      "overledenAantalCumulatief": 2396,
+      "totaalAantalCumulatief": 21762,
+      "ziekenhuisopnameAantalCumulatief": 7972
+    },
+    {
+      "Datum": "2020-04-10",
+      "overledenAantal": 115,
+      "totaalAantal": 1335,
+      "ziekenhuisopnameAantal": 225,
+      "overledenAantalCumulatief": 2511,
+      "totaalAantalCumulatief": 23097,
+      "ziekenhuisopnameAantalCumulatief": 8197
+    },
+    {
+      "Datum": "2020-04-11",
+      "overledenAantal": 132,
+      "totaalAantal": 1316,
+      "ziekenhuisopnameAantal": 189,
+      "overledenAantalCumulatief": 2643,
+      "totaalAantalCumulatief": 24413,
+      "ziekenhuisopnameAantalCumulatief": 8386
+    },
+    {
+      "Datum": "2020-04-12",
+      "overledenAantal": 94,
+      "totaalAantal": 1174,
+      "ziekenhuisopnameAantal": 196,
+      "overledenAantalCumulatief": 2737,
+      "totaalAantalCumulatief": 25587,
+      "ziekenhuisopnameAantalCumulatief": 8582
+    },
+    {
+      "Datum": "2020-04-13",
+      "overledenAantal": 86,
+      "totaalAantal": 964,
+      "ziekenhuisopnameAantal": 147,
+      "overledenAantalCumulatief": 2823,
+      "totaalAantalCumulatief": 26551,
+      "ziekenhuisopnameAantalCumulatief": 8729
+    },
+    {
+      "Datum": "2020-04-14",
+      "overledenAantal": 122,
+      "totaalAantal": 868,
+      "ziekenhuisopnameAantal": 210,
+      "overledenAantalCumulatief": 2945,
+      "totaalAantalCumulatief": 27419,
+      "ziekenhuisopnameAantalCumulatief": 8939
+    },
+    {
+      "Datum": "2020-04-15",
+      "overledenAantal": 189,
+      "totaalAantal": 734,
+      "ziekenhuisopnameAantal": 188,
+      "overledenAantalCumulatief": 3134,
+      "totaalAantalCumulatief": 28153,
+      "ziekenhuisopnameAantalCumulatief": 9127
+    },
+    {
+      "Datum": "2020-04-16",
+      "overledenAantal": 181,
+      "totaalAantal": 1061,
+      "ziekenhuisopnameAantal": 182,
+      "overledenAantalCumulatief": 3315,
+      "totaalAantalCumulatief": 29214,
+      "ziekenhuisopnameAantalCumulatief": 9309
+    },
+    {
+      "Datum": "2020-04-17",
+      "overledenAantal": 144,
+      "totaalAantal": 1235,
+      "ziekenhuisopnameAantal": 156,
+      "overledenAantalCumulatief": 3459,
+      "totaalAantalCumulatief": 30449,
+      "ziekenhuisopnameAantalCumulatief": 9465
+    },
+    {
+      "Datum": "2020-04-18",
+      "overledenAantal": 142,
+      "totaalAantal": 1140,
+      "ziekenhuisopnameAantal": 129,
+      "overledenAantalCumulatief": 3601,
+      "totaalAantalCumulatief": 31589,
+      "ziekenhuisopnameAantalCumulatief": 9594
+    },
+    {
+      "Datum": "2020-04-19",
+      "overledenAantal": 83,
+      "totaalAantal": 1066,
+      "ziekenhuisopnameAantal": 110,
+      "overledenAantalCumulatief": 3684,
+      "totaalAantalCumulatief": 32655,
+      "ziekenhuisopnameAantalCumulatief": 9704
+    },
+    {
+      "Datum": "2020-04-20",
+      "overledenAantal": 67,
+      "totaalAantal": 750,
+      "ziekenhuisopnameAantal": 75,
+      "overledenAantalCumulatief": 3751,
+      "totaalAantalCumulatief": 33405,
+      "ziekenhuisopnameAantalCumulatief": 9779
+    },
+    {
+      "Datum": "2020-04-21",
+      "overledenAantal": 165,
+      "totaalAantal": 729,
+      "ziekenhuisopnameAantal": 118,
+      "overledenAantalCumulatief": 3916,
+      "totaalAantalCumulatief": 34134,
+      "ziekenhuisopnameAantalCumulatief": 9897
+    },
+    {
+      "Datum": "2020-04-22",
+      "overledenAantal": 138,
+      "totaalAantal": 708,
+      "ziekenhuisopnameAantal": 124,
+      "overledenAantalCumulatief": 4054,
+      "totaalAantalCumulatief": 34842,
+      "ziekenhuisopnameAantalCumulatief": 10021
+    },
+    {
+      "Datum": "2020-04-23",
+      "overledenAantal": 123,
+      "totaalAantal": 887,
+      "ziekenhuisopnameAantal": 137,
+      "overledenAantalCumulatief": 4177,
+      "totaalAantalCumulatief": 35729,
+      "ziekenhuisopnameAantalCumulatief": 10158
+    },
+    {
+      "Datum": "2020-04-24",
+      "overledenAantal": 112,
+      "totaalAantal": 806,
+      "ziekenhuisopnameAantal": 123,
+      "overledenAantalCumulatief": 4289,
+      "totaalAantalCumulatief": 36535,
+      "ziekenhuisopnameAantalCumulatief": 10281
+    },
+    {
+      "Datum": "2020-04-25",
+      "overledenAantal": 120,
+      "totaalAantal": 655,
+      "ziekenhuisopnameAantal": 100,
+      "overledenAantalCumulatief": 4409,
+      "totaalAantalCumulatief": 37190,
+      "ziekenhuisopnameAantalCumulatief": 10381
+    },
+    {
+      "Datum": "2020-04-26",
+      "overledenAantal": 66,
+      "totaalAantal": 655,
+      "ziekenhuisopnameAantal": 75,
+      "overledenAantalCumulatief": 4475,
+      "totaalAantalCumulatief": 37845,
+      "ziekenhuisopnameAantalCumulatief": 10456
+    },
+    {
+      "Datum": "2020-04-27",
+      "overledenAantal": 43,
+      "totaalAantal": 400,
+      "ziekenhuisopnameAantal": 65,
+      "overledenAantalCumulatief": 4518,
+      "totaalAantalCumulatief": 38245,
+      "ziekenhuisopnameAantalCumulatief": 10521
+    }
+  ],
+  "apiVersion": "0.1"
+}

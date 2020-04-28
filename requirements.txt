@@ -4,3 +4,6 @@ numpy
 requests
 matplotlib
 sklearn
+requests
+retry-requests
+dateparser

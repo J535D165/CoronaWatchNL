@@ -74,7 +74,7 @@ The following graphs visualize the development of the COVID-19 disease outbreak.
 
 [Click here for a subpage with all descriptive plots](readmes/descriptive_plots.md)
 
-[<img src="plots/overview_plot.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests_diff.png" width="430">](readmes/descriptive_plots.md)
+[<img src="plots/overview_plot.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_reports.png" width="430">](readmes/descriptive_plots.md)
 
 
 
