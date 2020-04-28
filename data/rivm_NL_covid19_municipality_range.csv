@@ -31594,3 +31594,1068 @@ Datum,Gemeentenaam,Gemeentecode,Provincienaam,Type,Aantal_min,Aantal_max
 2020-04-26,Westerkwartier,1969,Groningen,Overleden,0.0,15.0
 2020-04-26,Noardeast-Fryslân,1970,Friesland,Overleden,0.0,15.0
 2020-04-26,Molenlanden,1978,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Appingedam,3,Groningen,Totaal,0.0,125.0
+2020-04-28,Delfzijl,10,Groningen,Totaal,0.0,125.0
+2020-04-28,Groningen,14,Groningen,Totaal,0.0,125.0
+2020-04-28,Loppersum,24,Groningen,Totaal,0.0,125.0
+2020-04-28,Almere,34,Flevoland,Totaal,125.0,215.0
+2020-04-28,Stadskanaal,37,Groningen,Totaal,0.0,125.0
+2020-04-28,Veendam,47,Groningen,Totaal,0.0,125.0
+2020-04-28,Zeewolde,50,Flevoland,Totaal,125.0,215.0
+2020-04-28,Achtkarspelen,59,Friesland,Totaal,0.0,125.0
+2020-04-28,Ameland,60,Friesland,Totaal,0.0,0.0
+2020-04-28,Harlingen,72,Friesland,Totaal,0.0,125.0
+2020-04-28,Heerenveen,74,Friesland,Totaal,125.0,215.0
+2020-04-28,Leeuwarden,80,Friesland,Totaal,0.0,125.0
+2020-04-28,Ooststellingwerf,85,Friesland,Totaal,0.0,125.0
+2020-04-28,Opsterland,86,Friesland,Totaal,0.0,125.0
+2020-04-28,Schiermonnikoog,88,Friesland,Totaal,0.0,0.0
+2020-04-28,Smallingerland,90,Friesland,Totaal,0.0,125.0
+2020-04-28,Terschelling,93,Friesland,Totaal,0.0,125.0
+2020-04-28,Vlieland,96,Friesland,Totaal,0.0,0.0
+2020-04-28,Weststellingwerf,98,Friesland,Totaal,0.0,125.0
+2020-04-28,Assen,106,Drenthe,Totaal,0.0,125.0
+2020-04-28,Coevorden,109,Drenthe,Totaal,125.0,215.0
+2020-04-28,Emmen,114,Drenthe,Totaal,0.0,125.0
+2020-04-28,Hoogeveen,118,Drenthe,Totaal,125.0,215.0
+2020-04-28,Meppel,119,Drenthe,Totaal,0.0,125.0
+2020-04-28,Almelo,141,Overijssel,Totaal,0.0,125.0
+2020-04-28,Borne,147,Overijssel,Totaal,125.0,215.0
+2020-04-28,Dalfsen,148,Overijssel,Totaal,215.0,305.0
+2020-04-28,Deventer,150,Overijssel,Totaal,125.0,215.0
+2020-04-28,Enschede,153,Overijssel,Totaal,0.0,125.0
+2020-04-28,Haaksbergen,158,Overijssel,Totaal,125.0,215.0
+2020-04-28,Hardenberg,160,Overijssel,Totaal,215.0,305.0
+2020-04-28,Hellendoorn,163,Overijssel,Totaal,125.0,215.0
+2020-04-28,Hengelo,164,Overijssel,Totaal,125.0,215.0
+2020-04-28,Kampen,166,Overijssel,Totaal,435.0,605.0
+2020-04-28,Losser,168,Overijssel,Totaal,0.0,125.0
+2020-04-28,Noordoostpolder,171,Flevoland,Totaal,125.0,215.0
+2020-04-28,Oldenzaal,173,Overijssel,Totaal,125.0,215.0
+2020-04-28,Ommen,175,Overijssel,Totaal,215.0,305.0
+2020-04-28,Raalte,177,Overijssel,Totaal,305.0,435.0
+2020-04-28,Staphorst,180,Overijssel,Totaal,305.0,435.0
+2020-04-28,Tubbergen,183,Overijssel,Totaal,305.0,435.0
+2020-04-28,Urk,184,Flevoland,Totaal,305.0,435.0
+2020-04-28,Wierden,189,Overijssel,Totaal,125.0,215.0
+2020-04-28,Zwolle,193,Overijssel,Totaal,215.0,305.0
+2020-04-28,Aalten,197,Gelderland,Totaal,125.0,215.0
+2020-04-28,Apeldoorn,200,Gelderland,Totaal,125.0,215.0
+2020-04-28,Arnhem,202,Gelderland,Totaal,125.0,215.0
+2020-04-28,Barneveld,203,Gelderland,Totaal,125.0,215.0
+2020-04-28,Beuningen,209,Gelderland,Totaal,215.0,305.0
+2020-04-28,Brummen,213,Gelderland,Totaal,125.0,215.0
+2020-04-28,Buren,214,Gelderland,Totaal,125.0,215.0
+2020-04-28,Culemborg,216,Gelderland,Totaal,125.0,215.0
+2020-04-28,Doesburg,221,Gelderland,Totaal,215.0,305.0
+2020-04-28,Doetinchem,222,Gelderland,Totaal,125.0,215.0
+2020-04-28,Druten,225,Gelderland,Totaal,435.0,605.0
+2020-04-28,Duiven,226,Gelderland,Totaal,125.0,215.0
+2020-04-28,Ede,228,Gelderland,Totaal,125.0,215.0
+2020-04-28,Elburg,230,Gelderland,Totaal,435.0,605.0
+2020-04-28,Epe,232,Gelderland,Totaal,305.0,435.0
+2020-04-28,Ermelo,233,Gelderland,Totaal,305.0,435.0
+2020-04-28,Harderwijk,243,Gelderland,Totaal,215.0,305.0
+2020-04-28,Hattem,244,Gelderland,Totaal,305.0,435.0
+2020-04-28,Heerde,246,Gelderland,Totaal,605.0,930.0
+2020-04-28,Heumen,252,Gelderland,Totaal,305.0,435.0
+2020-04-28,Lochem,262,Gelderland,Totaal,215.0,305.0
+2020-04-28,Maasdriel,263,Gelderland,Totaal,125.0,215.0
+2020-04-28,Nijkerk,267,Gelderland,Totaal,0.0,125.0
+2020-04-28,Nijmegen,268,Gelderland,Totaal,215.0,305.0
+2020-04-28,Oldebroek,269,Gelderland,Totaal,435.0,605.0
+2020-04-28,Putten,273,Gelderland,Totaal,0.0,125.0
+2020-04-28,Renkum,274,Gelderland,Totaal,125.0,215.0
+2020-04-28,Rheden,275,Gelderland,Totaal,125.0,215.0
+2020-04-28,Rozendaal,277,Gelderland,Totaal,125.0,215.0
+2020-04-28,Scherpenzeel,279,Gelderland,Totaal,125.0,215.0
+2020-04-28,Tiel,281,Gelderland,Totaal,215.0,305.0
+2020-04-28,Voorst,285,Gelderland,Totaal,215.0,305.0
+2020-04-28,Wageningen,289,Gelderland,Totaal,0.0,125.0
+2020-04-28,Westervoort,293,Gelderland,Totaal,125.0,215.0
+2020-04-28,Winterswijk,294,Gelderland,Totaal,0.0,125.0
+2020-04-28,Wijchen,296,Gelderland,Totaal,215.0,305.0
+2020-04-28,Zaltbommel,297,Gelderland,Totaal,215.0,305.0
+2020-04-28,Zevenaar,299,Gelderland,Totaal,125.0,215.0
+2020-04-28,Zutphen,301,Gelderland,Totaal,125.0,215.0
+2020-04-28,Nunspeet,302,Gelderland,Totaal,605.0,930.0
+2020-04-28,Dronten,303,Flevoland,Totaal,215.0,305.0
+2020-04-28,Amersfoort,307,Utrecht,Totaal,0.0,125.0
+2020-04-28,Baarn,308,Utrecht,Totaal,125.0,215.0
+2020-04-28,De Bilt,310,Utrecht,Totaal,215.0,305.0
+2020-04-28,Bunnik,312,Utrecht,Totaal,125.0,215.0
+2020-04-28,Bunschoten,313,Utrecht,Totaal,215.0,305.0
+2020-04-28,Eemnes,317,Utrecht,Totaal,125.0,215.0
+2020-04-28,Houten,321,Utrecht,Totaal,125.0,215.0
+2020-04-28,Leusden,327,Utrecht,Totaal,125.0,215.0
+2020-04-28,Lopik,331,Utrecht,Totaal,305.0,435.0
+2020-04-28,Montfoort,335,Utrecht,Totaal,215.0,305.0
+2020-04-28,Renswoude,339,Utrecht,Totaal,305.0,435.0
+2020-04-28,Rhenen,340,Utrecht,Totaal,0.0,125.0
+2020-04-28,Soest,342,Utrecht,Totaal,125.0,215.0
+2020-04-28,Utrecht,344,Utrecht,Totaal,215.0,305.0
+2020-04-28,Veenendaal,345,Utrecht,Totaal,125.0,215.0
+2020-04-28,Woudenberg,351,Utrecht,Totaal,125.0,215.0
+2020-04-28,Wijk bij Duurstede,352,Utrecht,Totaal,0.0,125.0
+2020-04-28,IJsselstein,353,Utrecht,Totaal,305.0,435.0
+2020-04-28,Zeist,355,Utrecht,Totaal,125.0,215.0
+2020-04-28,Nieuwegein,356,Utrecht,Totaal,125.0,215.0
+2020-04-28,Aalsmeer,358,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Alkmaar,361,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Amstelveen,362,Noord-Holland,Totaal,305.0,435.0
+2020-04-28,Amsterdam,363,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Beemster,370,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Bergen (NH.),373,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Beverwijk,375,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Blaricum,376,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Bloemendaal,377,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Castricum,383,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Diemen,384,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Edam-Volendam,385,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Enkhuizen,388,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Haarlem,392,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Haarlemmermeer,394,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Heemskerk,396,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Heemstede,397,Noord-Holland,Totaal,305.0,435.0
+2020-04-28,Heerhugowaard,398,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Heiloo,399,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Den Helder,400,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Hilversum,402,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Hoorn,405,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Huizen,406,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Landsmeer,415,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Langedijk,416,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Laren,417,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Medemblik,420,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Oostzaan,431,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Opmeer,432,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Ouder-Amstel,437,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Purmerend,439,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Schagen,441,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Texel,448,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Uitgeest,450,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Uithoorn,451,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Velsen,453,Noord-Holland,Totaal,305.0,435.0
+2020-04-28,Weesp,457,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Zandvoort,473,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Zaanstad,479,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Alblasserdam,482,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Alphen aan den Rijn,484,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Barendrecht,489,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Drechterland,498,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Brielle,501,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Capelle aan den IJssel,502,Zuid-Holland,Totaal,305.0,435.0
+2020-04-28,Delft,503,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Dordrecht,505,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Gorinchem,512,Zuid-Holland,Totaal,305.0,435.0
+2020-04-28,Gouda,513,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,'s-Gravenhage,518,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Hardinxveld-Giessendam,523,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Hellevoetsluis,530,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Hendrik-Ido-Ambacht,531,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Stede Broec,532,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Hillegom,534,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Katwijk,537,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Krimpen aan den IJssel,542,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Leiden,546,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Leiderdorp,547,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Lisse,553,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Maassluis,556,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Nieuwkoop,569,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Noordwijk,575,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Oegstgeest,579,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Oudewater,589,Utrecht,Totaal,435.0,605.0
+2020-04-28,Papendrecht,590,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Ridderkerk,597,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Rotterdam,599,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Rijswijk,603,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Schiedam,606,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Sliedrecht,610,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Albrandswaard,613,Zuid-Holland,Totaal,305.0,435.0
+2020-04-28,Westvoorne,614,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Vlaardingen,622,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Voorschoten,626,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Waddinxveen,627,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Wassenaar,629,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Woerden,632,Utrecht,Totaal,215.0,305.0
+2020-04-28,Zoetermeer,637,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Zoeterwoude,638,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Zwijndrecht,642,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Borsele,654,Zeeland,Totaal,0.0,125.0
+2020-04-28,Goes,664,Zeeland,Totaal,125.0,215.0
+2020-04-28,West Maas en Waal,668,Gelderland,Totaal,305.0,435.0
+2020-04-28,Hulst,677,Zeeland,Totaal,0.0,125.0
+2020-04-28,Kapelle,678,Zeeland,Totaal,125.0,215.0
+2020-04-28,Middelburg,687,Zeeland,Totaal,0.0,125.0
+2020-04-28,Reimerswaal,703,Zeeland,Totaal,0.0,125.0
+2020-04-28,Terneuzen,715,Zeeland,Totaal,125.0,215.0
+2020-04-28,Tholen,716,Zeeland,Totaal,435.0,605.0
+2020-04-28,Veere,717,Zeeland,Totaal,0.0,125.0
+2020-04-28,Vlissingen,718,Zeeland,Totaal,0.0,125.0
+2020-04-28,De Ronde Venen,736,Utrecht,Totaal,125.0,215.0
+2020-04-28,Tytsjerksteradiel,737,Friesland,Totaal,0.0,125.0
+2020-04-28,Asten,743,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,Baarle-Nassau,744,Noord-Brabant,Totaal,0.0,125.0
+2020-04-28,Bergen op Zoom,748,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Best,753,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Boekel,755,Noord-Brabant,Totaal,605.0,930.0
+2020-04-28,Boxmeer,756,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,Boxtel,757,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Breda,758,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Deurne,762,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,Pekela,765,Groningen,Totaal,0.0,125.0
+2020-04-28,Dongen,766,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Eersel,770,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Eindhoven,772,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Etten-Leur,777,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,Geertruidenberg,779,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Gilze en Rijen,784,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Goirle,785,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Grave,786,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Haaren,788,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Helmond,794,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,'s-Hertogenbosch,796,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Heusden,797,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Hilvarenbeek,798,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Loon op Zand,809,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Mill en Sint Hubert,815,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,"Nuenen, Gerwen en Nederwetten",820,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Oirschot,823,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Oisterwijk,824,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Oosterhout,826,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Oss,828,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Rucphen,840,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Sint-Michielsgestel,845,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Someren,847,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Son en Breugel,848,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,Steenbergen,851,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Waterland,852,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Tilburg,855,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Uden,856,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Valkenswaard,858,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Veldhoven,861,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Vught,865,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,Waalre,866,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Waalwijk,867,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Woensdrecht,873,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Zundert,879,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Wormerland,880,Noord-Holland,Totaal,215.0,305.0
+2020-04-28,Landgraaf,882,Limburg,Totaal,305.0,435.0
+2020-04-28,Beek,888,Limburg,Totaal,215.0,305.0
+2020-04-28,Beesel,889,Limburg,Totaal,215.0,305.0
+2020-04-28,Bergen (L.),893,Limburg,Totaal,125.0,215.0
+2020-04-28,Brunssum,899,Limburg,Totaal,215.0,305.0
+2020-04-28,Gennep,907,Limburg,Totaal,215.0,305.0
+2020-04-28,Heerlen,917,Limburg,Totaal,305.0,435.0
+2020-04-28,Kerkrade,928,Limburg,Totaal,305.0,435.0
+2020-04-28,Maastricht,935,Limburg,Totaal,435.0,605.0
+2020-04-28,Meerssen,938,Limburg,Totaal,435.0,605.0
+2020-04-28,Mook en Middelaar,944,Limburg,Totaal,305.0,435.0
+2020-04-28,Nederweert,946,Limburg,Totaal,215.0,305.0
+2020-04-28,Roermond,957,Limburg,Totaal,125.0,215.0
+2020-04-28,Simpelveld,965,Limburg,Totaal,305.0,435.0
+2020-04-28,Stein,971,Limburg,Totaal,305.0,435.0
+2020-04-28,Vaals,981,Limburg,Totaal,215.0,305.0
+2020-04-28,Venlo,983,Limburg,Totaal,215.0,305.0
+2020-04-28,Venray,984,Limburg,Totaal,215.0,305.0
+2020-04-28,Voerendaal,986,Limburg,Totaal,305.0,435.0
+2020-04-28,Weert,988,Limburg,Totaal,215.0,305.0
+2020-04-28,Valkenburg aan de Geul,994,Limburg,Totaal,305.0,435.0
+2020-04-28,Lelystad,995,Flevoland,Totaal,125.0,215.0
+2020-04-28,Horst aan de Maas,1507,Limburg,Totaal,215.0,305.0
+2020-04-28,Oude IJsselstreek,1509,Gelderland,Totaal,125.0,215.0
+2020-04-28,Teylingen,1525,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Utrechtse Heuvelrug,1581,Utrecht,Totaal,125.0,215.0
+2020-04-28,Oost Gelre,1586,Gelderland,Totaal,125.0,215.0
+2020-04-28,Koggenland,1598,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Lansingerland,1621,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Leudal,1640,Limburg,Totaal,435.0,605.0
+2020-04-28,Maasgouw,1641,Limburg,Totaal,305.0,435.0
+2020-04-28,Gemert-Bakel,1652,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Halderberge,1655,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Heeze-Leende,1658,Noord-Brabant,Totaal,305.0,435.0
+2020-04-28,Laarbeek,1659,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Reusel-De Mierden,1667,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Roerdalen,1669,Limburg,Totaal,215.0,305.0
+2020-04-28,Roosendaal,1674,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Schouwen-Duiveland,1676,Zeeland,Totaal,0.0,125.0
+2020-04-28,Aa en Hunze,1680,Drenthe,Totaal,0.0,125.0
+2020-04-28,Borger-Odoorn,1681,Drenthe,Totaal,0.0,125.0
+2020-04-28,Cuijk,1684,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Landerd,1685,Noord-Brabant,Totaal,605.0,930.0
+2020-04-28,De Wolden,1690,Drenthe,Totaal,125.0,215.0
+2020-04-28,Noord-Beveland,1695,Zeeland,Totaal,0.0,125.0
+2020-04-28,Wijdemeren,1696,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Noordenveld,1699,Drenthe,Totaal,0.0,125.0
+2020-04-28,Twenterand,1700,Overijssel,Totaal,125.0,215.0
+2020-04-28,Westerveld,1701,Drenthe,Totaal,125.0,215.0
+2020-04-28,Sint Anthonis,1702,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Lingewaard,1705,Gelderland,Totaal,125.0,215.0
+2020-04-28,Cranendonck,1706,Noord-Brabant,Totaal,605.0,930.0
+2020-04-28,Steenwijkerland,1708,Overijssel,Totaal,125.0,215.0
+2020-04-28,Moerdijk,1709,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,Echt-Susteren,1711,Limburg,Totaal,215.0,305.0
+2020-04-28,Sluis,1714,Zeeland,Totaal,0.0,125.0
+2020-04-28,Drimmelen,1719,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Bernheze,1721,Noord-Brabant,Totaal,605.0,930.0
+2020-04-28,Alphen-Chaam,1723,Noord-Brabant,Totaal,435.0,605.0
+2020-04-28,Bergeijk,1724,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Bladel,1728,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Gulpen-Wittem,1729,Limburg,Totaal,435.0,605.0
+2020-04-28,Tynaarlo,1730,Drenthe,Totaal,0.0,125.0
+2020-04-28,Midden-Drenthe,1731,Drenthe,Totaal,0.0,125.0
+2020-04-28,Overbetuwe,1734,Gelderland,Totaal,215.0,305.0
+2020-04-28,Hof van Twente,1735,Overijssel,Totaal,125.0,215.0
+2020-04-28,Neder-Betuwe,1740,Gelderland,Totaal,305.0,435.0
+2020-04-28,Rijssen-Holten,1742,Overijssel,Totaal,305.0,435.0
+2020-04-28,Geldrop-Mierlo,1771,Noord-Brabant,Totaal,215.0,305.0
+2020-04-28,Olst-Wijhe,1773,Overijssel,Totaal,215.0,305.0
+2020-04-28,Dinkelland,1774,Overijssel,Totaal,215.0,305.0
+2020-04-28,Westland,1783,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Midden-Delfland,1842,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Berkelland,1859,Gelderland,Totaal,125.0,215.0
+2020-04-28,Bronckhorst,1876,Gelderland,Totaal,125.0,215.0
+2020-04-28,Sittard-Geleen,1883,Limburg,Totaal,305.0,435.0
+2020-04-28,Kaag en Braassem,1884,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Dantumadiel,1891,Friesland,Totaal,0.0,125.0
+2020-04-28,Zuidplas,1892,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Peel en Maas,1894,Limburg,Totaal,435.0,605.0
+2020-04-28,Oldambt,1895,Groningen,Totaal,0.0,125.0
+2020-04-28,Zwartewaterland,1896,Overijssel,Totaal,435.0,605.0
+2020-04-28,Súdwest-Fryslân,1900,Friesland,Totaal,0.0,125.0
+2020-04-28,Bodegraven-Reeuwijk,1901,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Eijsden-Margraten,1903,Limburg,Totaal,435.0,605.0
+2020-04-28,Stichtse Vecht,1904,Utrecht,Totaal,125.0,215.0
+2020-04-28,Hollands Kroon,1911,Noord-Holland,Totaal,0.0,125.0
+2020-04-28,Leidschendam-Voorburg,1916,Zuid-Holland,Totaal,0.0,125.0
+2020-04-28,Goeree-Overflakkee,1924,Zuid-Holland,Totaal,435.0,605.0
+2020-04-28,Pijnacker-Nootdorp,1926,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Nissewaard,1930,Zuid-Holland,Totaal,125.0,215.0
+2020-04-28,Krimpenerwaard,1931,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,De Fryske Marren,1940,Friesland,Totaal,0.0,125.0
+2020-04-28,Gooise Meren,1942,Noord-Holland,Totaal,125.0,215.0
+2020-04-28,Berg en Dal,1945,Gelderland,Totaal,435.0,605.0
+2020-04-28,Meierijstad,1948,Noord-Brabant,Totaal,605.0,930.0
+2020-04-28,Waadhoeke,1949,Friesland,Totaal,125.0,215.0
+2020-04-28,Westerwolde,1950,Groningen,Totaal,0.0,125.0
+2020-04-28,Midden-Groningen,1952,Groningen,Totaal,0.0,125.0
+2020-04-28,Beekdaelen,1954,Limburg,Totaal,305.0,435.0
+2020-04-28,Montferland,1955,Gelderland,Totaal,215.0,305.0
+2020-04-28,Altena,1959,Noord-Brabant,Totaal,125.0,215.0
+2020-04-28,West Betuwe,1960,Gelderland,Totaal,305.0,435.0
+2020-04-28,Vijfheerenlanden,1961,Utrecht,Totaal,305.0,435.0
+2020-04-28,Hoeksche Waard,1963,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Het Hogeland,1966,Groningen,Totaal,0.0,125.0
+2020-04-28,Westerkwartier,1969,Groningen,Totaal,0.0,125.0
+2020-04-28,Noardeast-Fryslân,1970,Friesland,Totaal,0.0,125.0
+2020-04-28,Molenlanden,1978,Zuid-Holland,Totaal,215.0,305.0
+2020-04-28,Appingedam,3,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Delfzijl,10,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Groningen,14,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Loppersum,24,Groningen,Ziekenhuisopname,0.0,0.0
+2020-04-28,Almere,34,Flevoland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Stadskanaal,37,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Veendam,47,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Zeewolde,50,Flevoland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Achtkarspelen,59,Friesland,Ziekenhuisopname,0.0,0.0
+2020-04-28,Ameland,60,Friesland,Ziekenhuisopname,0.0,0.0
+2020-04-28,Harlingen,72,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Heerenveen,74,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Leeuwarden,80,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Ooststellingwerf,85,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Opsterland,86,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Schiermonnikoog,88,Friesland,Ziekenhuisopname,0.0,0.0
+2020-04-28,Smallingerland,90,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Terschelling,93,Friesland,Ziekenhuisopname,0.0,0.0
+2020-04-28,Vlieland,96,Friesland,Ziekenhuisopname,0.0,0.0
+2020-04-28,Weststellingwerf,98,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Assen,106,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Coevorden,109,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Emmen,114,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Hoogeveen,118,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Meppel,119,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Almelo,141,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Borne,147,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Dalfsen,148,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Deventer,150,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Enschede,153,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Haaksbergen,158,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Hardenberg,160,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Hellendoorn,163,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Hengelo,164,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Kampen,166,Overijssel,Ziekenhuisopname,100.0,135.0
+2020-04-28,Losser,168,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Noordoostpolder,171,Flevoland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Oldenzaal,173,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Ommen,175,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Raalte,177,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Staphorst,180,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Tubbergen,183,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Urk,184,Flevoland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Wierden,189,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Zwolle,193,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Aalten,197,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Apeldoorn,200,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Arnhem,202,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Barneveld,203,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Beuningen,209,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Brummen,213,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Buren,214,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Culemborg,216,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Doesburg,221,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Doetinchem,222,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Druten,225,Gelderland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Duiven,226,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Ede,228,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Elburg,230,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Epe,232,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Ermelo,233,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Harderwijk,243,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Hattem,244,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Heerde,246,Gelderland,Ziekenhuisopname,135.0,200.0
+2020-04-28,Heumen,252,Gelderland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Lochem,262,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Maasdriel,263,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Nijkerk,267,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Nijmegen,268,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Oldebroek,269,Gelderland,Ziekenhuisopname,135.0,200.0
+2020-04-28,Putten,273,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Renkum,274,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Rheden,275,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Rozendaal,277,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Scherpenzeel,279,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Tiel,281,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Voorst,285,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Wageningen,289,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Westervoort,293,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Winterswijk,294,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Wijchen,296,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Zaltbommel,297,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Zevenaar,299,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Zutphen,301,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Nunspeet,302,Gelderland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Dronten,303,Flevoland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Amersfoort,307,Utrecht,Ziekenhuisopname,0.0,40.0
+2020-04-28,Baarn,308,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,De Bilt,310,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Bunnik,312,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Bunschoten,313,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Eemnes,317,Utrecht,Ziekenhuisopname,0.0,40.0
+2020-04-28,Houten,321,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Leusden,327,Utrecht,Ziekenhuisopname,0.0,40.0
+2020-04-28,Lopik,331,Utrecht,Ziekenhuisopname,100.0,135.0
+2020-04-28,Montfoort,335,Utrecht,Ziekenhuisopname,70.0,100.0
+2020-04-28,Renswoude,339,Utrecht,Ziekenhuisopname,70.0,100.0
+2020-04-28,Rhenen,340,Utrecht,Ziekenhuisopname,0.0,40.0
+2020-04-28,Soest,342,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Utrecht,344,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Veenendaal,345,Utrecht,Ziekenhuisopname,70.0,100.0
+2020-04-28,Woudenberg,351,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Wijk bij Duurstede,352,Utrecht,Ziekenhuisopname,0.0,40.0
+2020-04-28,IJsselstein,353,Utrecht,Ziekenhuisopname,70.0,100.0
+2020-04-28,Zeist,355,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Nieuwegein,356,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Aalsmeer,358,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Alkmaar,361,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Amstelveen,362,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Amsterdam,363,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Beemster,370,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Bergen (NH.),373,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Beverwijk,375,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Blaricum,376,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Bloemendaal,377,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Castricum,383,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Diemen,384,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Edam-Volendam,385,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Enkhuizen,388,Noord-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Haarlem,392,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Haarlemmermeer,394,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Heemskerk,396,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Heemstede,397,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Heerhugowaard,398,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Heiloo,399,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Den Helder,400,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Hilversum,402,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Hoorn,405,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Huizen,406,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Landsmeer,415,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Langedijk,416,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Laren,417,Noord-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Medemblik,420,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Oostzaan,431,Noord-Holland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Opmeer,432,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Ouder-Amstel,437,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Purmerend,439,Noord-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Schagen,441,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Texel,448,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Uitgeest,450,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Uithoorn,451,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Velsen,453,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Weesp,457,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Zandvoort,473,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Zaanstad,479,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Alblasserdam,482,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Alphen aan den Rijn,484,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Barendrecht,489,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Drechterland,498,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Brielle,501,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Capelle aan den IJssel,502,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Delft,503,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Dordrecht,505,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Gorinchem,512,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Gouda,513,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,'s-Gravenhage,518,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Hardinxveld-Giessendam,523,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Hellevoetsluis,530,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Hendrik-Ido-Ambacht,531,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Stede Broec,532,Noord-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Hillegom,534,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Katwijk,537,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Krimpen aan den IJssel,542,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Leiden,546,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Leiderdorp,547,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Lisse,553,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Maassluis,556,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Nieuwkoop,569,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Noordwijk,575,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Oegstgeest,579,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Oudewater,589,Utrecht,Ziekenhuisopname,200.0,325.0
+2020-04-28,Papendrecht,590,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Ridderkerk,597,Zuid-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Rotterdam,599,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Rijswijk,603,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Schiedam,606,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Sliedrecht,610,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Albrandswaard,613,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Westvoorne,614,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Vlaardingen,622,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Voorschoten,626,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Waddinxveen,627,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Wassenaar,629,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Woerden,632,Utrecht,Ziekenhuisopname,70.0,100.0
+2020-04-28,Zoetermeer,637,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Zoeterwoude,638,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Zwijndrecht,642,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Borsele,654,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Goes,664,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,West Maas en Waal,668,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Hulst,677,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Kapelle,678,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Middelburg,687,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Reimerswaal,703,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Terneuzen,715,Zeeland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Tholen,716,Zeeland,Ziekenhuisopname,135.0,200.0
+2020-04-28,Veere,717,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Vlissingen,718,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,De Ronde Venen,736,Utrecht,Ziekenhuisopname,70.0,100.0
+2020-04-28,Tytsjerksteradiel,737,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Asten,743,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Baarle-Nassau,744,Noord-Brabant,Ziekenhuisopname,0.0,40.0
+2020-04-28,Bergen op Zoom,748,Noord-Brabant,Ziekenhuisopname,0.0,40.0
+2020-04-28,Best,753,Noord-Brabant,Ziekenhuisopname,100.0,135.0
+2020-04-28,Boekel,755,Noord-Brabant,Ziekenhuisopname,200.0,325.0
+2020-04-28,Boxmeer,756,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Boxtel,757,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Breda,758,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Deurne,762,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Pekela,765,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Dongen,766,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Eersel,770,Noord-Brabant,Ziekenhuisopname,100.0,135.0
+2020-04-28,Eindhoven,772,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Etten-Leur,777,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Geertruidenberg,779,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Gilze en Rijen,784,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Goirle,785,Noord-Brabant,Ziekenhuisopname,100.0,135.0
+2020-04-28,Grave,786,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Haaren,788,Noord-Brabant,Ziekenhuisopname,100.0,135.0
+2020-04-28,Helmond,794,Noord-Brabant,Ziekenhuisopname,100.0,135.0
+2020-04-28,'s-Hertogenbosch,796,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Heusden,797,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Hilvarenbeek,798,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Loon op Zand,809,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Mill en Sint Hubert,815,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,"Nuenen, Gerwen en Nederwetten",820,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Oirschot,823,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Oisterwijk,824,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Oosterhout,826,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Oss,828,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Rucphen,840,Noord-Brabant,Ziekenhuisopname,0.0,40.0
+2020-04-28,Sint-Michielsgestel,845,Noord-Brabant,Ziekenhuisopname,100.0,135.0
+2020-04-28,Someren,847,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Son en Breugel,848,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Steenbergen,851,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Waterland,852,Noord-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Tilburg,855,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Uden,856,Noord-Brabant,Ziekenhuisopname,200.0,325.0
+2020-04-28,Valkenswaard,858,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Veldhoven,861,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Vught,865,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Waalre,866,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Waalwijk,867,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Woensdrecht,873,Noord-Brabant,Ziekenhuisopname,0.0,40.0
+2020-04-28,Zundert,879,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Wormerland,880,Noord-Holland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Landgraaf,882,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Beek,888,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Beesel,889,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Bergen (L.),893,Limburg,Ziekenhuisopname,40.0,70.0
+2020-04-28,Brunssum,899,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Gennep,907,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Heerlen,917,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Kerkrade,928,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Maastricht,935,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Meerssen,938,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Mook en Middelaar,944,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Nederweert,946,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Roermond,957,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Simpelveld,965,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Stein,971,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Vaals,981,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Venlo,983,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Venray,984,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Voerendaal,986,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Weert,988,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Valkenburg aan de Geul,994,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Lelystad,995,Flevoland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Horst aan de Maas,1507,Limburg,Ziekenhuisopname,70.0,100.0
+2020-04-28,Oude IJsselstreek,1509,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Teylingen,1525,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Utrechtse Heuvelrug,1581,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Oost Gelre,1586,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Koggenland,1598,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Lansingerland,1621,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Leudal,1640,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Maasgouw,1641,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Gemert-Bakel,1652,Noord-Brabant,Ziekenhuisopname,200.0,325.0
+2020-04-28,Halderberge,1655,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Heeze-Leende,1658,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Laarbeek,1659,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Reusel-De Mierden,1667,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Roerdalen,1669,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Roosendaal,1674,Noord-Brabant,Ziekenhuisopname,0.0,40.0
+2020-04-28,Schouwen-Duiveland,1676,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Aa en Hunze,1680,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Borger-Odoorn,1681,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Cuijk,1684,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Landerd,1685,Noord-Brabant,Ziekenhuisopname,200.0,325.0
+2020-04-28,De Wolden,1690,Drenthe,Ziekenhuisopname,40.0,70.0
+2020-04-28,Noord-Beveland,1695,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Wijdemeren,1696,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Noordenveld,1699,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Twenterand,1700,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Westerveld,1701,Drenthe,Ziekenhuisopname,40.0,70.0
+2020-04-28,Sint Anthonis,1702,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Lingewaard,1705,Gelderland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Cranendonck,1706,Noord-Brabant,Ziekenhuisopname,200.0,325.0
+2020-04-28,Steenwijkerland,1708,Overijssel,Ziekenhuisopname,0.0,40.0
+2020-04-28,Moerdijk,1709,Noord-Brabant,Ziekenhuisopname,0.0,40.0
+2020-04-28,Echt-Susteren,1711,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Sluis,1714,Zeeland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Drimmelen,1719,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Bernheze,1721,Noord-Brabant,Ziekenhuisopname,200.0,325.0
+2020-04-28,Alphen-Chaam,1723,Noord-Brabant,Ziekenhuisopname,135.0,200.0
+2020-04-28,Bergeijk,1724,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Bladel,1728,Noord-Brabant,Ziekenhuisopname,70.0,100.0
+2020-04-28,Gulpen-Wittem,1729,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Tynaarlo,1730,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Midden-Drenthe,1731,Drenthe,Ziekenhuisopname,0.0,40.0
+2020-04-28,Overbetuwe,1734,Gelderland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Hof van Twente,1735,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Neder-Betuwe,1740,Gelderland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Rijssen-Holten,1742,Overijssel,Ziekenhuisopname,70.0,100.0
+2020-04-28,Geldrop-Mierlo,1771,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,Olst-Wijhe,1773,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Dinkelland,1774,Overijssel,Ziekenhuisopname,40.0,70.0
+2020-04-28,Westland,1783,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Midden-Delfland,1842,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Berkelland,1859,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Bronckhorst,1876,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Sittard-Geleen,1883,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Kaag en Braassem,1884,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Dantumadiel,1891,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Zuidplas,1892,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Peel en Maas,1894,Limburg,Ziekenhuisopname,200.0,325.0
+2020-04-28,Oldambt,1895,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Zwartewaterland,1896,Overijssel,Ziekenhuisopname,135.0,200.0
+2020-04-28,Súdwest-Fryslân,1900,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Bodegraven-Reeuwijk,1901,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Eijsden-Margraten,1903,Limburg,Ziekenhuisopname,135.0,200.0
+2020-04-28,Stichtse Vecht,1904,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Hollands Kroon,1911,Noord-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Leidschendam-Voorburg,1916,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Goeree-Overflakkee,1924,Zuid-Holland,Ziekenhuisopname,100.0,135.0
+2020-04-28,Pijnacker-Nootdorp,1926,Zuid-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Nissewaard,1930,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Krimpenerwaard,1931,Zuid-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,De Fryske Marren,1940,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Gooise Meren,1942,Noord-Holland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Berg en Dal,1945,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Meierijstad,1948,Noord-Brabant,Ziekenhuisopname,200.0,325.0
+2020-04-28,Waadhoeke,1949,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Westerwolde,1950,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Midden-Groningen,1952,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Beekdaelen,1954,Limburg,Ziekenhuisopname,100.0,135.0
+2020-04-28,Montferland,1955,Gelderland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Altena,1959,Noord-Brabant,Ziekenhuisopname,40.0,70.0
+2020-04-28,West Betuwe,1960,Gelderland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Vijfheerenlanden,1961,Utrecht,Ziekenhuisopname,40.0,70.0
+2020-04-28,Hoeksche Waard,1963,Zuid-Holland,Ziekenhuisopname,70.0,100.0
+2020-04-28,Het Hogeland,1966,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Westerkwartier,1969,Groningen,Ziekenhuisopname,0.0,40.0
+2020-04-28,Noardeast-Fryslân,1970,Friesland,Ziekenhuisopname,0.0,40.0
+2020-04-28,Molenlanden,1978,Zuid-Holland,Ziekenhuisopname,40.0,70.0
+2020-04-28,Appingedam,3,Groningen,Overleden,0.0,0.0
+2020-04-28,Delfzijl,10,Groningen,Overleden,0.0,0.0
+2020-04-28,Groningen,14,Groningen,Overleden,0.0,15.0
+2020-04-28,Loppersum,24,Groningen,Overleden,0.0,0.0
+2020-04-28,Almere,34,Flevoland,Overleden,0.0,15.0
+2020-04-28,Stadskanaal,37,Groningen,Overleden,0.0,15.0
+2020-04-28,Veendam,47,Groningen,Overleden,0.0,0.0
+2020-04-28,Zeewolde,50,Flevoland,Overleden,0.0,15.0
+2020-04-28,Achtkarspelen,59,Friesland,Overleden,0.0,0.0
+2020-04-28,Ameland,60,Friesland,Overleden,0.0,0.0
+2020-04-28,Harlingen,72,Friesland,Overleden,0.0,15.0
+2020-04-28,Heerenveen,74,Friesland,Overleden,25.0,45.0
+2020-04-28,Leeuwarden,80,Friesland,Overleden,0.0,15.0
+2020-04-28,Ooststellingwerf,85,Friesland,Overleden,0.0,0.0
+2020-04-28,Opsterland,86,Friesland,Overleden,0.0,0.0
+2020-04-28,Schiermonnikoog,88,Friesland,Overleden,0.0,0.0
+2020-04-28,Smallingerland,90,Friesland,Overleden,0.0,15.0
+2020-04-28,Terschelling,93,Friesland,Overleden,0.0,0.0
+2020-04-28,Vlieland,96,Friesland,Overleden,0.0,0.0
+2020-04-28,Weststellingwerf,98,Friesland,Overleden,15.0,25.0
+2020-04-28,Assen,106,Drenthe,Overleden,0.0,15.0
+2020-04-28,Coevorden,109,Drenthe,Overleden,0.0,15.0
+2020-04-28,Emmen,114,Drenthe,Overleden,0.0,15.0
+2020-04-28,Hoogeveen,118,Drenthe,Overleden,0.0,15.0
+2020-04-28,Meppel,119,Drenthe,Overleden,0.0,15.0
+2020-04-28,Almelo,141,Overijssel,Overleden,0.0,15.0
+2020-04-28,Borne,147,Overijssel,Overleden,25.0,45.0
+2020-04-28,Dalfsen,148,Overijssel,Overleden,15.0,25.0
+2020-04-28,Deventer,150,Overijssel,Overleden,25.0,45.0
+2020-04-28,Enschede,153,Overijssel,Overleden,0.0,15.0
+2020-04-28,Haaksbergen,158,Overijssel,Overleden,15.0,25.0
+2020-04-28,Hardenberg,160,Overijssel,Overleden,0.0,15.0
+2020-04-28,Hellendoorn,163,Overijssel,Overleden,0.0,15.0
+2020-04-28,Hengelo,164,Overijssel,Overleden,15.0,25.0
+2020-04-28,Kampen,166,Overijssel,Overleden,45.0,75.0
+2020-04-28,Losser,168,Overijssel,Overleden,0.0,0.0
+2020-04-28,Noordoostpolder,171,Flevoland,Overleden,0.0,15.0
+2020-04-28,Oldenzaal,173,Overijssel,Overleden,15.0,25.0
+2020-04-28,Ommen,175,Overijssel,Overleden,0.0,15.0
+2020-04-28,Raalte,177,Overijssel,Overleden,25.0,45.0
+2020-04-28,Staphorst,180,Overijssel,Overleden,15.0,25.0
+2020-04-28,Tubbergen,183,Overijssel,Overleden,0.0,15.0
+2020-04-28,Urk,184,Flevoland,Overleden,15.0,25.0
+2020-04-28,Wierden,189,Overijssel,Overleden,15.0,25.0
+2020-04-28,Zwolle,193,Overijssel,Overleden,25.0,45.0
+2020-04-28,Aalten,197,Gelderland,Overleden,15.0,25.0
+2020-04-28,Apeldoorn,200,Gelderland,Overleden,15.0,25.0
+2020-04-28,Arnhem,202,Gelderland,Overleden,0.0,15.0
+2020-04-28,Barneveld,203,Gelderland,Overleden,0.0,15.0
+2020-04-28,Beuningen,209,Gelderland,Overleden,15.0,25.0
+2020-04-28,Brummen,213,Gelderland,Overleden,25.0,45.0
+2020-04-28,Buren,214,Gelderland,Overleden,15.0,25.0
+2020-04-28,Culemborg,216,Gelderland,Overleden,15.0,25.0
+2020-04-28,Doesburg,221,Gelderland,Overleden,45.0,75.0
+2020-04-28,Doetinchem,222,Gelderland,Overleden,15.0,25.0
+2020-04-28,Druten,225,Gelderland,Overleden,25.0,45.0
+2020-04-28,Duiven,226,Gelderland,Overleden,15.0,25.0
+2020-04-28,Ede,228,Gelderland,Overleden,15.0,25.0
+2020-04-28,Elburg,230,Gelderland,Overleden,25.0,45.0
+2020-04-28,Epe,232,Gelderland,Overleden,45.0,75.0
+2020-04-28,Ermelo,233,Gelderland,Overleden,45.0,75.0
+2020-04-28,Harderwijk,243,Gelderland,Overleden,25.0,45.0
+2020-04-28,Hattem,244,Gelderland,Overleden,25.0,45.0
+2020-04-28,Heerde,246,Gelderland,Overleden,120.0,195.0
+2020-04-28,Heumen,252,Gelderland,Overleden,25.0,45.0
+2020-04-28,Lochem,262,Gelderland,Overleden,25.0,45.0
+2020-04-28,Maasdriel,263,Gelderland,Overleden,15.0,25.0
+2020-04-28,Nijkerk,267,Gelderland,Overleden,0.0,15.0
+2020-04-28,Nijmegen,268,Gelderland,Overleden,25.0,45.0
+2020-04-28,Oldebroek,269,Gelderland,Overleden,45.0,75.0
+2020-04-28,Putten,273,Gelderland,Overleden,0.0,0.0
+2020-04-28,Renkum,274,Gelderland,Overleden,0.0,15.0
+2020-04-28,Rheden,275,Gelderland,Overleden,25.0,45.0
+2020-04-28,Rozendaal,277,Gelderland,Overleden,0.0,0.0
+2020-04-28,Scherpenzeel,279,Gelderland,Overleden,15.0,25.0
+2020-04-28,Tiel,281,Gelderland,Overleden,25.0,45.0
+2020-04-28,Voorst,285,Gelderland,Overleden,25.0,45.0
+2020-04-28,Wageningen,289,Gelderland,Overleden,15.0,25.0
+2020-04-28,Westervoort,293,Gelderland,Overleden,25.0,45.0
+2020-04-28,Winterswijk,294,Gelderland,Overleden,0.0,15.0
+2020-04-28,Wijchen,296,Gelderland,Overleden,15.0,25.0
+2020-04-28,Zaltbommel,297,Gelderland,Overleden,25.0,45.0
+2020-04-28,Zevenaar,299,Gelderland,Overleden,25.0,45.0
+2020-04-28,Zutphen,301,Gelderland,Overleden,15.0,25.0
+2020-04-28,Nunspeet,302,Gelderland,Overleden,45.0,75.0
+2020-04-28,Dronten,303,Flevoland,Overleden,25.0,45.0
+2020-04-28,Amersfoort,307,Utrecht,Overleden,0.0,15.0
+2020-04-28,Baarn,308,Utrecht,Overleden,15.0,25.0
+2020-04-28,De Bilt,310,Utrecht,Overleden,15.0,25.0
+2020-04-28,Bunnik,312,Utrecht,Overleden,0.0,15.0
+2020-04-28,Bunschoten,313,Utrecht,Overleden,25.0,45.0
+2020-04-28,Eemnes,317,Utrecht,Overleden,0.0,15.0
+2020-04-28,Houten,321,Utrecht,Overleden,15.0,25.0
+2020-04-28,Leusden,327,Utrecht,Overleden,0.0,15.0
+2020-04-28,Lopik,331,Utrecht,Overleden,45.0,75.0
+2020-04-28,Montfoort,335,Utrecht,Overleden,25.0,45.0
+2020-04-28,Renswoude,339,Utrecht,Overleden,75.0,120.0
+2020-04-28,Rhenen,340,Utrecht,Overleden,15.0,25.0
+2020-04-28,Soest,342,Utrecht,Overleden,15.0,25.0
+2020-04-28,Utrecht,344,Utrecht,Overleden,15.0,25.0
+2020-04-28,Veenendaal,345,Utrecht,Overleden,15.0,25.0
+2020-04-28,Woudenberg,351,Utrecht,Overleden,0.0,15.0
+2020-04-28,Wijk bij Duurstede,352,Utrecht,Overleden,0.0,15.0
+2020-04-28,IJsselstein,353,Utrecht,Overleden,75.0,120.0
+2020-04-28,Zeist,355,Utrecht,Overleden,15.0,25.0
+2020-04-28,Nieuwegein,356,Utrecht,Overleden,15.0,25.0
+2020-04-28,Aalsmeer,358,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Alkmaar,361,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Amstelveen,362,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Amsterdam,363,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Beemster,370,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Bergen (NH.),373,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Beverwijk,375,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Blaricum,376,Noord-Holland,Overleden,0.0,0.0
+2020-04-28,Bloemendaal,377,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Castricum,383,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Diemen,384,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Edam-Volendam,385,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Enkhuizen,388,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Haarlem,392,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Haarlemmermeer,394,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Heemskerk,396,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Heemstede,397,Noord-Holland,Overleden,75.0,120.0
+2020-04-28,Heerhugowaard,398,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Heiloo,399,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Den Helder,400,Noord-Holland,Overleden,0.0,0.0
+2020-04-28,Hilversum,402,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Hoorn,405,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Huizen,406,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Landsmeer,415,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Langedijk,416,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Laren,417,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Medemblik,420,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Oostzaan,431,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Opmeer,432,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Ouder-Amstel,437,Noord-Holland,Overleden,0.0,0.0
+2020-04-28,Purmerend,439,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Schagen,441,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Texel,448,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Uitgeest,450,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Uithoorn,451,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Velsen,453,Noord-Holland,Overleden,45.0,75.0
+2020-04-28,Weesp,457,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Zandvoort,473,Noord-Holland,Overleden,45.0,75.0
+2020-04-28,Zaanstad,479,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Alblasserdam,482,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Alphen aan den Rijn,484,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Barendrecht,489,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Drechterland,498,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Brielle,501,Zuid-Holland,Overleden,0.0,0.0
+2020-04-28,Capelle aan den IJssel,502,Zuid-Holland,Overleden,45.0,75.0
+2020-04-28,Delft,503,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Dordrecht,505,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Gorinchem,512,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,Gouda,513,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,'s-Gravenhage,518,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Hardinxveld-Giessendam,523,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Hellevoetsluis,530,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Hendrik-Ido-Ambacht,531,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Stede Broec,532,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Hillegom,534,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Katwijk,537,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Krimpen aan den IJssel,542,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Leiden,546,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Leiderdorp,547,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Lisse,553,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Maassluis,556,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Nieuwkoop,569,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Noordwijk,575,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Oegstgeest,579,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Oudewater,589,Utrecht,Overleden,45.0,75.0
+2020-04-28,Papendrecht,590,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Ridderkerk,597,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Rotterdam,599,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,Rijswijk,603,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,Schiedam,606,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Sliedrecht,610,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Albrandswaard,613,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,Westvoorne,614,Zuid-Holland,Overleden,0.0,0.0
+2020-04-28,Vlaardingen,622,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Voorschoten,626,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Waddinxveen,627,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Wassenaar,629,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,Woerden,632,Utrecht,Overleden,25.0,45.0
+2020-04-28,Zoetermeer,637,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Zoeterwoude,638,Zuid-Holland,Overleden,0.0,0.0
+2020-04-28,Zwijndrecht,642,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Borsele,654,Zeeland,Overleden,0.0,0.0
+2020-04-28,Goes,664,Zeeland,Overleden,15.0,25.0
+2020-04-28,West Maas en Waal,668,Gelderland,Overleden,25.0,45.0
+2020-04-28,Hulst,677,Zeeland,Overleden,0.0,15.0
+2020-04-28,Kapelle,678,Zeeland,Overleden,0.0,15.0
+2020-04-28,Middelburg,687,Zeeland,Overleden,0.0,15.0
+2020-04-28,Reimerswaal,703,Zeeland,Overleden,0.0,15.0
+2020-04-28,Terneuzen,715,Zeeland,Overleden,0.0,15.0
+2020-04-28,Tholen,716,Zeeland,Overleden,45.0,75.0
+2020-04-28,Veere,717,Zeeland,Overleden,0.0,15.0
+2020-04-28,Vlissingen,718,Zeeland,Overleden,0.0,15.0
+2020-04-28,De Ronde Venen,736,Utrecht,Overleden,15.0,25.0
+2020-04-28,Tytsjerksteradiel,737,Friesland,Overleden,0.0,15.0
+2020-04-28,Asten,743,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Baarle-Nassau,744,Noord-Brabant,Overleden,0.0,0.0
+2020-04-28,Bergen op Zoom,748,Noord-Brabant,Overleden,0.0,15.0
+2020-04-28,Best,753,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Boekel,755,Noord-Brabant,Overleden,120.0,195.0
+2020-04-28,Boxmeer,756,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Boxtel,757,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Breda,758,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Deurne,762,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Pekela,765,Groningen,Overleden,0.0,0.0
+2020-04-28,Dongen,766,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Eersel,770,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Eindhoven,772,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Etten-Leur,777,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Geertruidenberg,779,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Gilze en Rijen,784,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Goirle,785,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Grave,786,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Haaren,788,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Helmond,794,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,'s-Hertogenbosch,796,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Heusden,797,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Hilvarenbeek,798,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Loon op Zand,809,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Mill en Sint Hubert,815,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,"Nuenen, Gerwen en Nederwetten",820,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Oirschot,823,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Oisterwijk,824,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Oosterhout,826,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Oss,828,Noord-Brabant,Overleden,75.0,120.0
+2020-04-28,Rucphen,840,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Sint-Michielsgestel,845,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Someren,847,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Son en Breugel,848,Noord-Brabant,Overleden,75.0,120.0
+2020-04-28,Steenbergen,851,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Waterland,852,Noord-Holland,Overleden,15.0,25.0
+2020-04-28,Tilburg,855,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Uden,856,Noord-Brabant,Overleden,120.0,195.0
+2020-04-28,Valkenswaard,858,Noord-Brabant,Overleden,75.0,120.0
+2020-04-28,Veldhoven,861,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Vught,865,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Waalre,866,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Waalwijk,867,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Woensdrecht,873,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Zundert,879,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Wormerland,880,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Landgraaf,882,Limburg,Overleden,25.0,45.0
+2020-04-28,Beek,888,Limburg,Overleden,15.0,25.0
+2020-04-28,Beesel,889,Limburg,Overleden,45.0,75.0
+2020-04-28,Bergen (L.),893,Limburg,Overleden,15.0,25.0
+2020-04-28,Brunssum,899,Limburg,Overleden,45.0,75.0
+2020-04-28,Gennep,907,Limburg,Overleden,45.0,75.0
+2020-04-28,Heerlen,917,Limburg,Overleden,45.0,75.0
+2020-04-28,Kerkrade,928,Limburg,Overleden,45.0,75.0
+2020-04-28,Maastricht,935,Limburg,Overleden,45.0,75.0
+2020-04-28,Meerssen,938,Limburg,Overleden,45.0,75.0
+2020-04-28,Mook en Middelaar,944,Limburg,Overleden,45.0,75.0
+2020-04-28,Nederweert,946,Limburg,Overleden,25.0,45.0
+2020-04-28,Roermond,957,Limburg,Overleden,25.0,45.0
+2020-04-28,Simpelveld,965,Limburg,Overleden,25.0,45.0
+2020-04-28,Stein,971,Limburg,Overleden,45.0,75.0
+2020-04-28,Vaals,981,Limburg,Overleden,0.0,15.0
+2020-04-28,Venlo,983,Limburg,Overleden,45.0,75.0
+2020-04-28,Venray,984,Limburg,Overleden,25.0,45.0
+2020-04-28,Voerendaal,986,Limburg,Overleden,45.0,75.0
+2020-04-28,Weert,988,Limburg,Overleden,15.0,25.0
+2020-04-28,Valkenburg aan de Geul,994,Limburg,Overleden,25.0,45.0
+2020-04-28,Lelystad,995,Flevoland,Overleden,15.0,25.0
+2020-04-28,Horst aan de Maas,1507,Limburg,Overleden,45.0,75.0
+2020-04-28,Oude IJsselstreek,1509,Gelderland,Overleden,15.0,25.0
+2020-04-28,Teylingen,1525,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Utrechtse Heuvelrug,1581,Utrecht,Overleden,15.0,25.0
+2020-04-28,Oost Gelre,1586,Gelderland,Overleden,15.0,25.0
+2020-04-28,Koggenland,1598,Noord-Holland,Overleden,25.0,45.0
+2020-04-28,Lansingerland,1621,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,Leudal,1640,Limburg,Overleden,75.0,120.0
+2020-04-28,Maasgouw,1641,Limburg,Overleden,25.0,45.0
+2020-04-28,Gemert-Bakel,1652,Noord-Brabant,Overleden,75.0,120.0
+2020-04-28,Halderberge,1655,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Heeze-Leende,1658,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Laarbeek,1659,Noord-Brabant,Overleden,75.0,120.0
+2020-04-28,Reusel-De Mierden,1667,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Roerdalen,1669,Limburg,Overleden,25.0,45.0
+2020-04-28,Roosendaal,1674,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Schouwen-Duiveland,1676,Zeeland,Overleden,0.0,0.0
+2020-04-28,Aa en Hunze,1680,Drenthe,Overleden,0.0,0.0
+2020-04-28,Borger-Odoorn,1681,Drenthe,Overleden,0.0,15.0
+2020-04-28,Cuijk,1684,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Landerd,1685,Noord-Brabant,Overleden,120.0,195.0
+2020-04-28,De Wolden,1690,Drenthe,Overleden,0.0,0.0
+2020-04-28,Noord-Beveland,1695,Zeeland,Overleden,0.0,0.0
+2020-04-28,Wijdemeren,1696,Noord-Holland,Overleden,0.0,0.0
+2020-04-28,Noordenveld,1699,Drenthe,Overleden,0.0,15.0
+2020-04-28,Twenterand,1700,Overijssel,Overleden,0.0,15.0
+2020-04-28,Westerveld,1701,Drenthe,Overleden,15.0,25.0
+2020-04-28,Sint Anthonis,1702,Noord-Brabant,Overleden,75.0,120.0
+2020-04-28,Lingewaard,1705,Gelderland,Overleden,15.0,25.0
+2020-04-28,Cranendonck,1706,Noord-Brabant,Overleden,120.0,195.0
+2020-04-28,Steenwijkerland,1708,Overijssel,Overleden,0.0,15.0
+2020-04-28,Moerdijk,1709,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Echt-Susteren,1711,Limburg,Overleden,45.0,75.0
+2020-04-28,Sluis,1714,Zeeland,Overleden,15.0,25.0
+2020-04-28,Drimmelen,1719,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Bernheze,1721,Noord-Brabant,Overleden,120.0,195.0
+2020-04-28,Alphen-Chaam,1723,Noord-Brabant,Overleden,45.0,75.0
+2020-04-28,Bergeijk,1724,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,Bladel,1728,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Gulpen-Wittem,1729,Limburg,Overleden,45.0,75.0
+2020-04-28,Tynaarlo,1730,Drenthe,Overleden,0.0,0.0
+2020-04-28,Midden-Drenthe,1731,Drenthe,Overleden,0.0,0.0
+2020-04-28,Overbetuwe,1734,Gelderland,Overleden,25.0,45.0
+2020-04-28,Hof van Twente,1735,Overijssel,Overleden,0.0,15.0
+2020-04-28,Neder-Betuwe,1740,Gelderland,Overleden,45.0,75.0
+2020-04-28,Rijssen-Holten,1742,Overijssel,Overleden,15.0,25.0
+2020-04-28,Geldrop-Mierlo,1771,Noord-Brabant,Overleden,25.0,45.0
+2020-04-28,Olst-Wijhe,1773,Overijssel,Overleden,25.0,45.0
+2020-04-28,Dinkelland,1774,Overijssel,Overleden,25.0,45.0
+2020-04-28,Westland,1783,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Midden-Delfland,1842,Zuid-Holland,Overleden,0.0,0.0
+2020-04-28,Berkelland,1859,Gelderland,Overleden,0.0,15.0
+2020-04-28,Bronckhorst,1876,Gelderland,Overleden,0.0,15.0
+2020-04-28,Sittard-Geleen,1883,Limburg,Overleden,45.0,75.0
+2020-04-28,Kaag en Braassem,1884,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Dantumadiel,1891,Friesland,Overleden,0.0,0.0
+2020-04-28,Zuidplas,1892,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,Peel en Maas,1894,Limburg,Overleden,120.0,195.0
+2020-04-28,Oldambt,1895,Groningen,Overleden,0.0,0.0
+2020-04-28,Zwartewaterland,1896,Overijssel,Overleden,45.0,75.0
+2020-04-28,Súdwest-Fryslân,1900,Friesland,Overleden,0.0,15.0
+2020-04-28,Bodegraven-Reeuwijk,1901,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Eijsden-Margraten,1903,Limburg,Overleden,75.0,120.0
+2020-04-28,Stichtse Vecht,1904,Utrecht,Overleden,0.0,15.0
+2020-04-28,Hollands Kroon,1911,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Leidschendam-Voorburg,1916,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Goeree-Overflakkee,1924,Zuid-Holland,Overleden,45.0,75.0
+2020-04-28,Pijnacker-Nootdorp,1926,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Nissewaard,1930,Zuid-Holland,Overleden,0.0,15.0
+2020-04-28,Krimpenerwaard,1931,Zuid-Holland,Overleden,25.0,45.0
+2020-04-28,De Fryske Marren,1940,Friesland,Overleden,0.0,15.0
+2020-04-28,Gooise Meren,1942,Noord-Holland,Overleden,0.0,15.0
+2020-04-28,Berg en Dal,1945,Gelderland,Overleden,25.0,45.0
+2020-04-28,Meierijstad,1948,Noord-Brabant,Overleden,120.0,195.0
+2020-04-28,Waadhoeke,1949,Friesland,Overleden,15.0,25.0
+2020-04-28,Westerwolde,1950,Groningen,Overleden,0.0,0.0
+2020-04-28,Midden-Groningen,1952,Groningen,Overleden,0.0,15.0
+2020-04-28,Beekdaelen,1954,Limburg,Overleden,45.0,75.0
+2020-04-28,Montferland,1955,Gelderland,Overleden,0.0,15.0
+2020-04-28,Altena,1959,Noord-Brabant,Overleden,15.0,25.0
+2020-04-28,West Betuwe,1960,Gelderland,Overleden,25.0,45.0
+2020-04-28,Vijfheerenlanden,1961,Utrecht,Overleden,45.0,75.0
+2020-04-28,Hoeksche Waard,1963,Zuid-Holland,Overleden,15.0,25.0
+2020-04-28,Het Hogeland,1966,Groningen,Overleden,0.0,15.0
+2020-04-28,Westerkwartier,1969,Groningen,Overleden,0.0,15.0
+2020-04-28,Noardeast-Fryslân,1970,Friesland,Overleden,0.0,15.0
+2020-04-28,Molenlanden,1978,Zuid-Holland,Overleden,0.0,15.0
