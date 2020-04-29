@@ -28,13 +28,13 @@ def download_rivm_data():
     data = data.lstrip()
 
     print(data)
-    datetime_pub = re.search(r'\d{1,2}.*2020 \d{1,2}.\d{2}', doc.content.decode())
-    datetime_pub = re.sub('[^a-zA-Z0-9]', '-', datetime_pub.group(0))
+    datetime_pub = re.search(r'Per 100\.000 inwoners per gemeente tot en met (\d{1,2})-(\d{1,2})-(\d{4})', doc.content.decode())
+    datetime_pub = datetime_pub.group(1).rjust(2, "0") + "-" + datetime_pub.group(2).rjust(2, "0") + "-" + datetime_pub.group(3)
 
-    with open(str(Path('raw_data', "peildatum-{}.csv".format(datetime_pub))), "w", encoding="utf-8") as f:
+    with open(str(Path('raw_data', "peildatum-{}-14-00.csv".format(datetime_pub))), "w", encoding="utf-8") as f:
         f.write(data)
 
-    print("Downloaded {}".format(str(Path('raw_data', "{}.csv".format(datetime_pub)))))
+    print("Downloaded {}".format(str(Path('raw_data', "{}-14-00.csv".format(datetime_pub)))))
 
 if __name__ == '__main__':
 
