@@ -1,14 +1,11 @@
 name: "Update datasets"
 on:
-  push:
-    branches:
-      - master
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '45 11-20 * * *'
 
 jobs:
   download:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout master
         uses: actions/checkout@v2
@@ -20,31 +17,13 @@ jobs:
           pip install -r requirements.txt
       - name: Download and merge
         run: |
-          python download_rivm_corona.py
-          python merge_data.py
-          python render_datasets.py
-      - name: Python plots
-        run: |
-          python plot_scripts/animated_maps.py
-          python plot_scripts/python_plots.py
-        continue-on-error: true
-      - uses: r-lib/actions/setup-r@master
-        continue-on-error: true
-      - name: Install R dependencies
-        run: |
-          options(install.packages.check.source = "no")
-          install.packages(c("tidyverse", "sf"), type="binary")
-        shell: Rscript {0}
-        continue-on-error: true
-      - name: Render plots
-        run: Rscript plot_scripts/plots.R
-        continue-on-error: true
+          python download_rivm_map_data.py
       - name: Commit files
         run: |
           git config --local user.email "jonathandebruinos@gmail.com"
           git config --local user.name "J535D165 Action"
           git add .
-          git commit -m "Add new datasets"
+          git commit -m "Changes detected in RIVM map data"
         continue-on-error: true
       - name: Push changes
         uses: ad-m/github-push-action@master
