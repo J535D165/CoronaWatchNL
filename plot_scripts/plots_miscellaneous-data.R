@@ -5,7 +5,7 @@ library(lubridate)
 dir.create("plots")
 
 ##############################
-##### MISCELLANEOUS DATA ##### 
+##### MISCELLANEOUS DATA #####
 ##############################
 
 # Tests: totaal (positive) tests

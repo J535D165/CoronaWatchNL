@@ -5,41 +5,41 @@ library(lubridate)
 dir.create("plots")
 
 ###################
-##### IC DATA ##### 
+##### IC DATA #####
 ###################
 
 # NICE DATA
 data_nice <- read_csv("data/nice_ic_by_day.csv")
 
 # sort data
-data_nice <- data_nice %>% 
+data_nice <- data_nice %>%
   select(Datum, newIntake) %>%
   rename("Aantal" = newIntake) %>%
   mutate(meas = "Nieuw") %>%
-  bind_rows(data_nice %>% 
+  bind_rows(data_nice %>%
               select(Datum, intakeCount) %>%
               rename("Aantal" = intakeCount) %>%
               mutate(meas = "Actueel")) %>%
-  bind_rows(data_nice %>% 
+  bind_rows(data_nice %>%
               select(Datum, intakeCumulative) %>%
               rename("Aantal" = intakeCumulative) %>%
               mutate(meas = "Cumulatief")) %>%
-  bind_rows(data_nice %>% 
+  bind_rows(data_nice %>%
               select(Datum, survivedCumulative) %>%
               rename("Aantal" = survivedCumulative) %>%
               mutate(meas = "Overleefd")) %>%
-  bind_rows(data_nice %>% 
+  bind_rows(data_nice %>%
               select(Datum, diedCumulative) %>%
               rename("Aantal" = diedCumulative) %>%
               mutate(meas = "Overleden")) %>%
-  bind_rows(data_nice %>% 
+  bind_rows(data_nice %>%
               select(Datum, icCount) %>%
               rename("Aantal" = icCount) %>%
-              mutate(meas = "icCount")) 
+              mutate(meas = "icCount"))
 
 # plot "IC opnamen"
 data_nice %>%
-  filter(meas == "Nieuw" | 
+  filter(meas == "Nieuw" |
            meas == "Actueel" |
            meas == "Cumulatief") %>%
   mutate(meas = factor(meas, c("Nieuw", "Actueel", "Cumulatief"))) %>%
@@ -56,7 +56,7 @@ data_nice %>%
 
 # plot "Vrijkomst IC-bedden"
 data_nice %>%
-  filter(meas == "Overleefd" | 
+  filter(meas == "Overleefd" |
            meas == "Overleden") %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas, group = meas)) +
   geom_line()+
@@ -82,7 +82,7 @@ data_lcps %>%
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  ggtitle("LCPS: Aantal IC-opnamen COVID-19 patiënten") + 
+  ggtitle("LCPS: Aantal IC-opnamen COVID-19 patiënten") +
   ggsave("plots/ic_lcps_intakes.png", width = 5.5, height=4)
 
 
@@ -106,5 +106,5 @@ data_ic %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  ggtitle("LCPS vs NICE: Aantal IC-opnamen COVID-19 patiënten") + 
+  ggtitle("LCPS vs NICE: Aantal IC-opnamen COVID-19 patiënten") +
   ggsave("plots/ic_lcps_nice.png", width = 5.5, height=4)

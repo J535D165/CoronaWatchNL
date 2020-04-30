@@ -5,7 +5,7 @@ library(lubridate)
 dir.create("plots")
 
 ############################
-##### DESCRIPTIVE DATA ##### 
+##### DESCRIPTIVE DATA #####
 ############################
 
 # Age
@@ -47,22 +47,23 @@ read_csv("data/rivm_NL_covid19_sex.csv") %>%
   ggsave("plots/overview_plot_geslacht.png", width = 5.5, height=4)
 
 # Toename
-age <- read_csv("data/rivm_NL_covid19_sex.csv") %>% 
+age <- read_csv("data/rivm_NL_covid19_sex.csv")
+age <- age %>%
   filter(Geslacht == "Man" & Type == "Totaal") %>%
   mutate(Toename = Aantal - lag(Aantal)) %>%
-  bind_rows(age %>% 
+  bind_rows(age %>%
               filter(Geslacht == "Man" & Type == "Ziekenhuisopname") %>%
               mutate(Toename = Aantal - lag(Aantal))) %>%
-  bind_rows(age %>% 
+  bind_rows(age %>%
               filter(Geslacht == "Man" & Type == "Overleden") %>%
               mutate(Toename = Aantal - lag(Aantal))) %>%
-  bind_rows(age %>% 
+  bind_rows(age %>%
               filter(Geslacht == "Vrouw" & Type == "Totaal") %>%
               mutate(Toename = Aantal - lag(Aantal))) %>%
-  bind_rows(age %>% 
+  bind_rows(age %>%
               filter(Geslacht == "Vrouw" & Type == "Ziekenhuisopname") %>%
               mutate(Toename = Aantal - lag(Aantal))) %>%
-  bind_rows(age %>% 
+  bind_rows(age %>%
               filter(Geslacht == "Vrouw" & Type == "Overleden") %>%
               mutate(Toename = Aantal - lag(Aantal)))
 

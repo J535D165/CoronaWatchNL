@@ -6,7 +6,7 @@ dir.create("plots")
 pdf(NULL)
 
 #############################
-##### GEOGRAPHICAL DATA ##### 
+##### GEOGRAPHICAL DATA #####
 #############################
 
 ##################
@@ -292,10 +292,10 @@ for (i in seq(0, 6)){
   print(i)
   data_subset_map = data_map %>%
     filter(Datum == max(Datum) - i*7)
-  
+
   date_submap = max(data_subset_map$Datum)
   aantal_max = max(data_map$Aantal)
-  
+
   p = data_subset_map %>%
     ggplot() +
     geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) + coord_sf( expand = FALSE) +
@@ -306,7 +306,7 @@ for (i in seq(0, 6)){
           plot.title = element_text(size = 8, hjust = 0.5)) +
     scale_colour_gradient(low = "grey", high = "#E69F00", na.value = NA, limits=c(0, aantal_max)) +
     scale_fill_gradient(low = "grey", high = "#E69F00", na.value = NA, limits=c(0, aantal_max))
-  
+
   if (i == 0){
     p = p + ggtitle(date_submap)
     legend <- get_legend(
@@ -319,9 +319,9 @@ for (i in seq(0, 6)){
   } else{
     p = p + ggtitle(glue("-{i} weken"))
   }
-  
+
   p = p + theme(legend.position="none")
-  
+
   p_list[[i+1]] = p
 }
 
