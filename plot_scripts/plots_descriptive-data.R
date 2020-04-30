@@ -31,6 +31,7 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
   ggsave("plots/overview_plot_leeftijd.png", width = 5.5, height=4)
 
 # Sex
+# Totaal
 read_csv("data/rivm_NL_covid19_sex.csv") %>%
   filter(Geslacht %in% c("Man", "Vrouw")) %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
@@ -45,3 +46,35 @@ read_csv("data/rivm_NL_covid19_sex.csv") %>%
   ggtitle("COVID-19 patiënten per geslacht") +
   ggsave("plots/overview_plot_geslacht.png", width = 5.5, height=4)
 
+# Toename
+age <- read_csv("data/rivm_NL_covid19_sex.csv") %>% 
+  filter(Geslacht == "Man" & Type == "Totaal") %>%
+  mutate(Toename = Aantal - lag(Aantal)) %>%
+  bind_rows(age %>% 
+              filter(Geslacht == "Man" & Type == "Ziekenhuisopname") %>%
+              mutate(Toename = Aantal - lag(Aantal))) %>%
+  bind_rows(age %>% 
+              filter(Geslacht == "Man" & Type == "Overleden") %>%
+              mutate(Toename = Aantal - lag(Aantal))) %>%
+  bind_rows(age %>% 
+              filter(Geslacht == "Vrouw" & Type == "Totaal") %>%
+              mutate(Toename = Aantal - lag(Aantal))) %>%
+  bind_rows(age %>% 
+              filter(Geslacht == "Vrouw" & Type == "Ziekenhuisopname") %>%
+              mutate(Toename = Aantal - lag(Aantal))) %>%
+  bind_rows(age %>% 
+              filter(Geslacht == "Vrouw" & Type == "Overleden") %>%
+              mutate(Toename = Aantal - lag(Aantal)))
+
+age %>%
+  mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
+  ggplot(aes(x = Datum, y = Toename, colour = Type, linetype= Geslacht)) +
+  geom_line() +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  ggtitle("Toename COVID-19 patiënten per geslacht") +
+  ggsave("plots/toename_plot_geslacht.png", width = 5.5, height=4)

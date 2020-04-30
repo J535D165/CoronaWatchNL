@@ -64,8 +64,7 @@ The datasets in this section contains variables like age and sex.
 
 The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak. 
 
-[<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) 
-
+[<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/toename_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) 
 
 ### Intensive care datasets
 
