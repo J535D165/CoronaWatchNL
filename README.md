@@ -76,6 +76,11 @@ The IC datasets describe the new and cumulative number of hospitalized COVID-19 
 | [COVID-19 intensive care patient counts in NL ](data/nice_ic_by_day.csv) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
 | [COVID-19 intensive care patient counts in NL ](data/lcps_ic.csv) | LCPS | Date, Total of positive Dutch patients currently in IC |
 
+#### Visualizations intensive care
+The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph.  
+[<img src="plots/ic_nice_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_nice_vrijkomst.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_nice.png" width="430">](readmes/descriptive_plots.md) 
+*Note: LCPS also includes Dutch COVID-19 cases hospitalized in Germany. NICE only reports Dutch COVID-19 cases hospitalized in the Netherlands.*
+
 ### Miscellaneous datasets
 
 This dataset shows the total number of tested people and the corresponding number of positively tested COVID-19 cases per day.
