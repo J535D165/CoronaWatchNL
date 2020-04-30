@@ -64,7 +64,7 @@ The datasets in this section contains variables like age and sex.
 
 The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak. 
 
-[<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/toename_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) 
+[<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/ratio_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/toename_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/ratio_toename_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) 
 
 ### Intensive care datasets
 
@@ -76,7 +76,8 @@ The IC datasets describe the new and cumulative number of hospitalized COVID-19 
 | [COVID-19 intensive care patient counts in NL ](data/lcps_ic.csv) | LCPS | Date, Total of positive Dutch patients currently in IC |
 
 #### Visualizations intensive care
-The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph.  
+The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph. 
+
 [<img src="plots/ic_nice_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_nice_vrijkomst.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_nice.png" width="430">](readmes/descriptive_plots.md) 
 *Note: LCPS also includes Dutch COVID-19 cases hospitalized in Germany. NICE only reports Dutch COVID-19 cases hospitalized in the Netherlands.*
 
