@@ -45,10 +45,7 @@ The following datasets contain the actual case counts on the given date.
 
 To get a better picture of the content of the geographical datasets, have a look at the following visuals. These visuals show the development of the COVID-19 disease outbreak on a national level.
 
-[<img src="plots/overview_plot.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_reports.png" width="430">](readmes/descriptive_plots.md)
-
-[![Map plots](plots/map_province.png)](readmes/descriptive_plots.md)
-[Click here for a subpage with all maps](readmes/map_plots.md)
+[<img src="plots/overview_plot.png" width="430">](plots) [<img src="plots/overview_plot_diff.png" width="430">](plots) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](plots) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](plots) [<img src="plots/overview_reports.png" width="430">](plots)
 
 
 ### Descriptive datasets
@@ -64,7 +61,7 @@ The datasets in this section contains variables like age and sex.
 
 The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak. 
 
-[<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/ratio_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/toename_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/ratio_toename_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) 
+[<img src="plots/overview_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_plot_geslacht.png" width="430">](plots)[<img src="plots/toename_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_toename_geslacht.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd.png" width="430">](plots) 
 
 ### Intensive care datasets
 
@@ -78,7 +75,7 @@ The IC datasets describe the new and cumulative number of hospitalized COVID-19 
 #### Visualizations intensive care
 The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph. 
 
-[<img src="plots/ic_nice_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_nice_vrijkomst.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_nice.png" width="430">](readmes/descriptive_plots.md) 
+[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots) 
 *Note: LCPS also includes Dutch COVID-19 cases hospitalized in Germany. NICE only reports Dutch COVID-19 cases hospitalized in the Netherlands.*
 
 ### Miscellaneous datasets
@@ -94,7 +91,12 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 These graphs display the number of (positively) tested people per day.
 
-[<img src="plots/overview_plot_tests.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests_diff.png" width="430">](readmes/descriptive_plots.md) 
+[<img src="plots/overview_plot_tests.png" width="430">](plots) [<img src="plots/overview_plot_tests_diff.png" width="430">](plots) 
+
+
+### Forecasts and models
+For more descriptive charts, forecasts and maps displaying the (development of) COVID-19 cases in the Netherlands, have a look at the parallel [CoronaWatchNL Model](https://github.com/RVoor/CoronaWatchNL_Models) repository.
+
 
 ## Inactive/deprecated datasets
 
