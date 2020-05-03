@@ -73,19 +73,32 @@ if __name__ == '__main__':
             except AttributeError:
                 pass
 
-            data.append({'Date': date, 'Aantal': patients, 'AantalDuitsland': patients_in_de})
+            data.append({'Date': date, 'Aantal': patients,
+                         'AantalDuitsland': patients_in_de})
 
     df_parsed_nums = pd.DataFrame(data).set_index('Date').sort_index()
 
     df_lcps = pd.read_csv('data/lcps_ic.csv', index_col=0)
 
     df_lcps = df_lcps.combine_first(df_parsed_nums)
-    df_lcps['Aantal'] = df_lcps['Aantal'].astype(int)
-    df_lcps['AantalDuitsland'] = df_lcps['AantalDuitsland'].astype(int)
+    df_lcps['Aantal'] = df_lcps['Aantal'].astype(pd.Int64Dtype())
+    df_lcps['AantalDuitsland'] = df_lcps['AantalDuitsland'].astype(pd.Int64Dtype())
 
-    # -- this only needs to run once
-    # -- to drop duplicates
-    df_lcps.drop_duplicates(inplace=True)
-    # -- end
+    df_lcps[~df_lcps.index.duplicated()]
+    df_lcps[["Aantal"]].to_csv('data/lcps_ic.csv')
 
-    df_lcps.to_csv('data/lcps_ic.csv')
+    df_lcps_country = df_lcps.copy()
+    df_lcps_country['Nederland'] = df_lcps['Aantal'] - df_lcps['AantalDuitsland']
+    df_lcps_country['Duitsland'] = df_lcps['AantalDuitsland']
+    df_lcps_country = df_lcps_country[["Nederland", "Duitsland"]].stack(dropna=False)
+    df_lcps_country.index.names = ['Datum', 'Land']
+    df_lcps_country.name = "Aantal"
+    df_lcps_country = df_lcps_country.to_frame()
+
+    df_lcps_country_from_file = pd.read_csv('data/lcps_ic_country.csv', index_col=[0, 1])
+
+    df_lcps_country = df_lcps_country_from_file.combine_first(df_lcps_country)
+    df_lcps_country[~df_lcps_country.index.duplicated()]
+    df_lcps_country['Aantal'] = df_lcps_country['Aantal'].astype(pd.Int64Dtype())
+
+    df_lcps_country[["Aantal"]].to_csv('data/lcps_ic_country.csv')
