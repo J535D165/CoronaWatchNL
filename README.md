@@ -9,21 +9,21 @@ Dutch:
 
 
 ## Datasets
-The datasets available on CoronaWatchNL are updated on a daily base. Availability depends on the publication by RIVM. The datasets are organized into four main categories: 
+The datasets available on CoronaWatchNL are updated on a daily base. Availability depends on the publication by RIVM. The datasets are organized into four main categories:
 
 * [Geographical data](#geographical-datasets)
 * [Descriptive data](#descriptive-datasets)
 * [Intensive care data](#intensive-care-datasets)
 * [Miscellaneous datasets](#miscellaneous-datasets)
 
-For (visual) applications based on these datasets, have a look at the [applications folder](/applications). 
+For (visual) applications based on these datasets, have a look at the [applications folder](/applications).
 
 
 ### Geographical datasets
 
-These datasets describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day. The datasets are categorized by their geographical level (national, provincial, municipal). 
+These datasets describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day. The datasets are categorized by their geographical level (national, provincial, municipal).
 
-The following datasets contain newly reported cases. 
+The following datasets contain newly reported cases.
 
 | Dataset | Source | Variables |
 |---|---| --- |
@@ -33,7 +33,7 @@ The following datasets contain newly reported cases.
 | [Newly reported relative case counts by date in NL per municipality (PDF maps)\*\*](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
 
 **\*** For more detail about the specific structure of the geographical datasets, have a look at the `data-geo`[codebook](/data-geo/README.md). <br/>
-**\*\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality. 
+**\*\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality.
 
 The following datasets contain the actual case counts on the given date.
 
@@ -45,10 +45,7 @@ The following datasets contain the actual case counts on the given date.
 
 To get a better picture of the content of the geographical datasets, have a look at the following visuals. These visuals show the development of the COVID-19 disease outbreak on a national level.
 
-[<img src="plots/overview_plot.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_reports.png" width="430">](readmes/descriptive_plots.md)
-
-[![Map plots](plots/map_province.png)](readmes/descriptive_plots.md)
-[Click here for a subpage with all maps](readmes/map_plots.md)
+[<img src="plots/overview_plot.png" width="430">](plots) [<img src="plots/overview_plot_diff.png" width="430">](plots) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](plots) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](plots) [<img src="plots/overview_reports.png" width="430">](plots)
 
 
 ### Descriptive datasets
@@ -62,13 +59,13 @@ The datasets in this section contains variables like age and sex.
 
 #### Visualizations descriptive data
 
-The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak. 
+The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak.
 
-[<img src="plots/overview_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/ratio_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/toename_plot_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/ratio_toename_geslacht.png" width="430">](readmes/descriptive_plots.md)[<img src="plots/overview_plot_leeftijd.png" width="430">](readmes/descriptive_plots.md) 
+[<img src="plots/overview_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_plot_geslacht.png" width="430">](plots)[<img src="plots/toename_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_toename_geslacht.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd.png" width="430">](plots)
 
 ### Intensive care datasets
 
-The IC datasets describe the new and cumulative number of hospitalized COVID-19 cases per day. The datasets are categorized by their source. 
+The IC datasets describe the new and cumulative number of hospitalized COVID-19 cases per day. The datasets are categorized by their source.
 
 | Dataset | Source | Variables |
 | --- | --- | --- |
@@ -76,9 +73,9 @@ The IC datasets describe the new and cumulative number of hospitalized COVID-19 
 | [COVID-19 intensive care patient counts in NL ](data/lcps_ic.csv) | LCPS | Date, Total of positive Dutch patients currently in IC |
 
 #### Visualizations intensive care
-The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph. 
+The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph.
 
-[<img src="plots/ic_nice_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_nice_vrijkomst.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_intakes.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/ic_lcps_nice.png" width="430">](readmes/descriptive_plots.md) 
+[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots)
 *Note: LCPS also includes Dutch COVID-19 cases hospitalized in Germany. NICE only reports Dutch COVID-19 cases hospitalized in the Netherlands.*
 
 ### Miscellaneous datasets
@@ -94,7 +91,7 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 These graphs display the number of (positively) tested people per day.
 
-[<img src="plots/overview_plot_tests.png" width="430">](readmes/descriptive_plots.md) [<img src="plots/overview_plot_tests_diff.png" width="430">](readmes/descriptive_plots.md) 
+[<img src="plots/overview_plot_tests.png" width="430">](plots) [<img src="plots/overview_plot_tests_diff.png" width="430">](plots)
 
 ## Inactive/deprecated datasets
 
@@ -116,7 +113,7 @@ The following datasets are no longer appended with new data (because RIVM is no 
 |---|---| --- | --- | --- |
 | COVID-19 disease case counts in NL\* |[[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 2020-03-30
 
-**\*** Nowadays, the data is published again. Please use dataset [data-geo#municipal](https://github.com/J535D165/CoronaWatchNL/tree/master/data-geo#municipal). 
+**\*** Nowadays, the data is published again. Please use dataset [data-geo#municipal](https://github.com/J535D165/CoronaWatchNL/tree/master/data-geo#municipal).
 
 ## Raw data
 
@@ -152,8 +149,10 @@ Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link
 
 ## CoronaWatchNL
 
-CoronaWatchNL is collective of researchers and volunteers in The Netherlands. We aim to make the reported number on COVID-19 disease in The Netherlands FAIR. The project is initiated and maintained by [Utrecht University Research Data Management Support](https://www.uu.nl/en/research/research-data-management) and receives support from [Utrecht University Applied Data Science](https://www.uu.nl/en/research/applied-data-science). 
+CoronaWatchNL is collective of researchers and volunteers in The Netherlands. We aim to make the reported number on COVID-19 disease in The Netherlands FAIR. The project is initiated and maintained by [Utrecht University Research Data Management Support](https://www.uu.nl/en/research/research-data-management) and receives support from [Utrecht University Applied Data Science](https://www.uu.nl/en/research/applied-data-science).
 
 Help on this project is appreciated. We are looking for new datasets, data updates, graphs and maps. Please report issues in the Issue Tracker. Want to contribute? Please check out the `help wanted` tag in the [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues). Do you wish to share an application based on these [datasets](/data)? Have a look at the [applications folder](/applications).
+
+For more descriptive charts, forecasts and maps displaying the (development of) COVID-19 cases in the Netherlands, have a look at the parallel repository [CoronaWatchNL Contrib](https://github.com/J535D165/CoronaWatchNLContrib).
 
 Please send an email to jonathandebruinos@gmail.com and/or r.voorvaart@uu.nl
