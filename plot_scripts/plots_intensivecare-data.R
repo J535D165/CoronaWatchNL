@@ -8,7 +8,8 @@ dir.create("plots")
 ##### IC DATA #####
 ###################
 
-# NICE DATA
+
+# NICE DATA #
 data_nice <- read_csv("data/nice_ic_by_day.csv")
 
 # sort data
@@ -69,9 +70,10 @@ data_nice %>%
   ggtitle("NICE: Vrijkomst IC-bedden COVID-19 patiënten") +
   ggsave("plots/ic_nice_vrijkomst.png", width = 5.5, height=4)
 
-# LCPS data
+
+# LCPS data #
 data_lcps <- read_csv("data/lcps_ic.csv")
-head(data_lcps)
+lcps_country <- read.csv("data/lcps_ic_country.csv")
 
 # plot aantal opnamen
 data_lcps %>%
@@ -85,8 +87,22 @@ data_lcps %>%
   ggtitle("LCPS: Aantal IC-opnamen COVID-19 patiënten") +
   ggsave("plots/ic_lcps_intakes.png", width = 5.5, height=4)
 
+# plot aantal opnamen per land
+lcps_country %>%
+  mutate(Land = factor(Land, c("Nederland", "Duitsland"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, group = Land, linetype = Land)) +
+  geom_line(colour = "#E69F00")+
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  ggtitle("LCPS: Aantal IC-opnamen COVID-19 patiënten per land") +
+  ggsave("plots/ic_lcps_intakes_country.png", width = 5.5, height=4)
 
-# Combine nice and lcps data
+
+# NICE & LCSP #
+# Merge nice en lcps data
 data_ic <- data_lcps %>%
   rename("Datum" = Date) %>%
   mutate(meas = "Actueel",
@@ -94,7 +110,7 @@ data_ic <- data_lcps %>%
   bind_rows(data_nice %>%
               mutate(bron = "NICE"))
 
-# plot combination
+# plot combinatie
 data_ic %>%
   filter(meas == "Actueel") %>%
   mutate(bron = factor(bron, c("LCPS", "NICE"))) %>%
@@ -108,3 +124,30 @@ data_ic %>%
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("LCPS vs NICE: Aantal IC-opnamen COVID-19 patiënten") +
   ggsave("plots/ic_lcps_nice.png", width = 5.5, height=4)
+
+# plot combinatie per land
+data_ic_2 <- data_nice %>%
+  mutate(bron = "NICE",
+         Land = "Nederland") %>%
+  bind_rows(lcps_country %>%
+              mutate(bron = "LCPS",
+                     meas = "Actueel") %>%
+              select(Datum, Aantal, meas, bron, Land))
+
+data_ic_2 %>%
+  filter(meas == "Actueel") %>%
+  mutate(bron = factor(bron, c("LCPS", "NICE")),
+         Land = factor(Land, c("Nederland", "Duitsland"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, group = interaction(Land, bron), colour = bron, linetype = Land)) +
+  geom_line() +
+  theme_minimal() +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  ggtitle("LCPS vs NICE: Aantal IC-opnamen COVID-19 patiënten per land") +
+  ggsave("plots/ic_lcps_nice_country.png", width = 5.5, height=4)
+
+
+
