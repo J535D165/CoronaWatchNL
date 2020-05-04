@@ -77,8 +77,8 @@ The IC datasets describe the new and cumulative number of hospitalized COVID-19 
 #### Visualizations intensive care
 The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph.
 
-[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots)
-*Note: LCPS also includes Dutch COVID-19 cases hospitalized in Germany. NICE only reports Dutch COVID-19 cases hospitalized in the Netherlands.*
+[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_intakes_country.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots) [<img src="plots/ic_lcps_nice_country.png" width="430">](plots)
+*Note: LCPS reports Dutch COVID-19 cases hospitalized both in the Netherlands and Germany. NICE only reports Dutch COVID-19 cases hospitalized in the Netherlands.*
 
 ### Miscellaneous datasets
 
