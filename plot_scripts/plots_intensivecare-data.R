@@ -73,7 +73,7 @@ data_nice %>%
 
 # LCPS data #
 data_lcps <- read_csv("data/lcps_ic.csv")
-lcps_country <- read.csv("data/lcps_ic_country.csv")
+lcps_country <- read_csv("data/lcps_ic_country.csv")
 
 # plot aantal opnamen
 data_lcps %>%
