@@ -150,4 +150,99 @@ data_ic_2 %>%
   ggsave("plots/ic_lcps_nice_country.png", width = 5.5, height=4)
 
 
+# Laad datasets
+RIVM <- read_csv("data-geo/data-national/RIVM_NL_national.csv")
+NICE <- read_csv("data/nice_ic_by_day.csv")
+LCPS <- read_csv("data/lcps_ic.csv")
 
+# Merge datasets
+RIVM <- RIVM %>% filter(Type == "Ziekenhuisopname") %>% select(-AantalCumulatief) %>%
+  mutate(Type = "Nieuw",
+         Bron = "RIVM",
+         Descr = "Ziekenhuisopnamen (RIVM)") %>%
+  bind_rows(RIVM %>% filter(Type == "Ziekenhuisopname") %>% select(-Aantal) %>%
+              rename("Aantal" = AantalCumulatief) %>%
+              mutate(Type = "Totaal",
+                     Bron = "RIVM",
+                     Descr = "Ziekenhuisopnamen (RIVM)"))
+NICE <- NICE %>% select(Datum, newIntake) %>%
+  rename("Aantal" = newIntake) %>% mutate(Type = "Nieuw",
+                                          Bron = "NICE",
+                                          Descr = "IC-opnamen (NICE)") %>%
+  bind_rows(NICE %>% select(Datum, intakeCount) %>%
+              rename("Aantal" = intakeCount) %>% mutate(Type = "Actueel",
+                                                      Bron = "NICE",
+                                                      Descr = "IC-opnamen (NICE)")) %>%
+  bind_rows(NICE %>% select(Datum, intakeCumulative) %>%
+              rename("Aantal" = intakeCumulative) %>% mutate(Type = "Totaal",
+                                                        Bron = "NICE",
+                                                        Descr = "IC-opnamen (NICE)"))
+LCPS <- LCPS %>% mutate(Type = "Actueel",
+                        Bron = "LCPS",
+                        Descr = "IC-opnamen (incl. schatting) (LCPS)") %>%
+                rename("Datum" = Date)
+IC <- bind_rows(LCPS, RIVM, NICE)
+
+# Alle IC-bronnen in één plot geplot
+IC %>%
+  mutate(Type = factor(Type, c("Nieuw", "Actueel", "Totaal")),
+         Bron = factor(Bron, c("NICE", "RIVM", "LCPS"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype = Bron, group = interaction(Bron, Type))) +
+  geom_line() +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  ggtitle("Aantal ziekenhuisopnamen volgens RIVM, NICE en LCPS") +
+  ggsave("plots/overview_IC_data.png", width = 5.5, height=4)
+
+# Alle 'Nieuwe' opnamen
+kleur <- c("#E69F00", "#56B4E9")
+IC %>%
+  mutate(Descr = factor(Descr, c("IC-opnamen (NICE)", "Ziekenhuisopnamen (RIVM)", "IC-opnamen (incl. schatting) (LCPS)"))) %>%
+  filter(Type == "Nieuw") %>%
+  ggplot(aes(x = Datum, y = Aantal, fill = Descr, colour = Descr, group = Descr)) +
+  geom_line()+
+  scale_color_manual(values=kleur)+
+  scale_fill_manual(values=kleur)+
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  ggtitle("NICE vs. RIVM: Aantal nieuwe opnamen per dag") +
+  ggsave("plots/overview_IC_nieuw.png", width = 5.5, height=4)
+
+# Alle 'Actuele' opnamen
+IC %>%
+  mutate(Descr = factor(Descr, c("IC-opnamen (NICE)", "Ziekenhuisopnamen (RIVM)", "IC-opnamen (incl. schatting) (LCPS)"))) %>%
+  filter(Type == "Actueel") %>%
+  ggplot(aes(x = Datum, y = Aantal, fill = Descr, colour = Descr, group = Descr)) +
+  geom_line()+
+  scale_color_manual(values=kleur)+
+  scale_fill_manual(values=kleur)+
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  ggtitle("NICE vs. LCPS: Aantal actuele IC-opnamen per dag") +
+  ggsave("plots/overview_IC_actueel.png", width = 5.5, height=4)
+
+# Alle 'Totaal' opnamen
+IC %>%
+  mutate(Descr = factor(Descr, c("IC-opnamen (NICE)", "Ziekenhuisopnamen (RIVM)", "IC-opnamen (incl. schatting) (LCPS)"))) %>%
+  filter(Type == "Totaal") %>%
+  ggplot(aes(x = Datum, y = Aantal, fill = Descr, colour = Descr, group = Descr)) +
+  geom_line()+
+  scale_color_manual(values=kleur)+
+  scale_fill_manual(values=kleur)+
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  ggtitle("NICE vs. RIVM: Cumulatief aantal opnamen per dag") +
+  ggsave("plots/overview_IC_totaal.png", width = 5.5, height=4)
