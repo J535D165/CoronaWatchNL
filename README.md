@@ -47,6 +47,8 @@ To get a better picture of the content of the geographical datasets, have a look
 
 [<img src="plots/overview_plot.png" width="430">](plots) [<img src="plots/overview_plot_diff.png" width="430">](plots) [<img src="plots/overview_plot_true_vs_reported.png" width="430">](plots) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="430">](plots) [<img src="plots/overview_reports.png" width="430">](plots)
 
+[![plots/map_province.png](plots/map_province.png)](plots)
+
 
 ### Descriptive datasets
 
