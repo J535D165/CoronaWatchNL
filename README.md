@@ -79,8 +79,18 @@ The IC datasets describe the new and cumulative number of hospitalized COVID-19 
 #### Visualizations intensive care
 The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph.
 
-[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots)
-*Note: LCPS also includes Dutch COVID-19 cases hospitalized in Germany. NICE only reports Dutch COVID-19 cases hospitalized in the Netherlands.*
+[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_intakes_country.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots) [<img src="plots/ic_lcps_nice_country.png" width="430">](plots)
+
+
+##### Intensive care: RIVM, LCPS, NICE
+CoronaWatchNL reports COVID-19 related hospital data of three different sources: RIVM, LCPS and NICE. 
+
+* **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care intakes. These are the highest and most inclusive counts. 
+* **NICE** only reports COVID-19 cases that are taken into the IC unit. 
+* **LCPS**, similarly to NICE, reports IC intakes of COVID-19 cases. However, LCPS tries to compensate for the reporting lag, by estimating its size and adding it to the numbers reported by NICE. These estimates are not corrected, resulting in consistently higher counts compared to NICE.
+
+[<img src="plots/overview_IC_data.png" width="430">](plots) [<img src="plots/overview_IC_nieuw.png" width="430">](plots) [<img src="plots/overview_IC_actueel.png" width="430">](plots) [<img src="plots/overview_IC_totaal.png" width="430">](plots)
+
 
 ### Miscellaneous datasets
 
