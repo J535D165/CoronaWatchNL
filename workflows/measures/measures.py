@@ -49,10 +49,10 @@ if __name__ == '__main__':
 
     write_json_to_csv(
         Path("raw_data", "measures", "MeasureGetHistoryNLD.json"),
-        Path("data-misc", "data-measures", "NLD_measures.json")
+        Path("data-misc", "data-measures", "NLD_measures.csv")
     )
 
     write_json_to_csv(
         Path("raw_data", "measures", "MeasureGetLastNLD.json"),
-        Path("data-misc", "data-measures", "NLD_measures_latest.json")
+        Path("data-misc", "data-measures", "NLD_measures_latest.csv")
     )
