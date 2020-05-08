@@ -17,7 +17,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Jaar** | Year | Year of notification | YYYY (ISO 8601) | 2020 |
 | **Week** | Week number\* | Week of notification | numeric | 11 |
-| **BegiDatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
+| **BeginDatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
 | **EindDatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
 | **AantalLaboratoria** | Number of laboratories | Number of Dutch laboratories that have performed diagnostics for SARS-CoV-2 in said week | character | 30 |
 | **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
