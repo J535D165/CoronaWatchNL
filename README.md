@@ -99,6 +99,7 @@ This dataset shows the total number of tested people and the corresponding numbe
 | Dataset | Source | Variables |
 |---|---| --- |
 | [COVID-19 tests in NL by date (NEW)](data/rivm_NL_covid19_tests.csv) | RIVM | Publication Date, Date, Included labs, Type (Total and positive tests), Number of tests|
+| [COVID-19 measures by the govern (NEW)](data-misc/data-measures/) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
 | [RIVM press releases](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
 
 #### Visualizations miscellaneous data
