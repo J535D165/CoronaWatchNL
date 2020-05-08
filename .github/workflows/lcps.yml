@@ -17,7 +17,7 @@ jobs:
           pip install -r requirements.txt
       - name: Download and merge
         run: |
-          python lcps.py
+          python workflows/lcps/lcps.py
       - name: Commit files
         run: |
           git config --local user.email "jonathandebruinos@gmail.com"

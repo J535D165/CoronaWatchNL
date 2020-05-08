@@ -17,7 +17,7 @@ jobs:
           pip install -r requirements.txt
       - name: Download and merge
         run: |
-          python download_rivm_map_data.py
+          python workflows/rivm/download_rivm_map_data.py
       - name: Commit files
         run: |
           git config --local user.email "jonathandebruinos@gmail.com"
