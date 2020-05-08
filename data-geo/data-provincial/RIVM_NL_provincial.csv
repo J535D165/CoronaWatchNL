@@ -2770,7 +2770,7 @@ Datum,Provincienaam,Provinciecode,Type,Aantal,AantalCumulatief
 2020-05-07,Limburg,31,Ziekenhuisopname,3,1524
 2020-05-08,,-1,Overleden,0,19
 2020-05-08,,-1,Totaal,-7,395
-2020-05-08,,-1,Ziekenhuisopname,-634,-567
+2020-05-08,,-1,Ziekenhuisopname,1,68
 2020-05-08,Groningen,20,Overleden,0,14
 2020-05-08,Groningen,20,Totaal,0,339
 2020-05-08,Groningen,20,Ziekenhuisopname,0,74
