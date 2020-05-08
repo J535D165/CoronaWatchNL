@@ -83,10 +83,10 @@ The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), c
 
 
 ##### Intensive care: RIVM, LCPS, NICE
-CoronaWatchNL reports COVID-19 related hospital data of three different sources: RIVM, LCPS and NICE. 
+CoronaWatchNL reports COVID-19 related hospital data of three different sources: RIVM, LCPS and NICE.
 
-* **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care intakes. These are the highest and most inclusive counts. 
-* **NICE** only reports COVID-19 cases that are taken into the IC unit. 
+* **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care intakes. These are the highest and most inclusive counts.
+* **NICE** only reports COVID-19 cases that are taken into the IC unit.
 * **LCPS**, similarly to NICE, reports IC intakes of COVID-19 cases. However, LCPS tries to compensate for the reporting lag, by estimating its size and adding it to the numbers reported by NICE. These estimates are not corrected, resulting in consistently higher counts compared to NICE.
 
 [<img src="plots/overview_IC_data.png" width="430">](plots) [<img src="plots/overview_IC_nieuw.png" width="430">](plots) [<img src="plots/overview_IC_actueel.png" width="430">](plots) [<img src="plots/overview_IC_totaal.png" width="430">](plots)
@@ -98,7 +98,7 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [COVID-19 tests in NL by date (NEW)](data/rivm_NL_covid19_tests.csv) | RIVM | Publication Date, Date, Included labs, Type (Total and positive tests), Number of tests|
+| [COVID-19 tests in NL by week](data-misc#test) | RIVM | Publication Week,  Included labs, Type (Total and positive tests), Number of tests|
 | [COVID-19 measures by the govern (NEW)](data-misc/data-measures/) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
 | [RIVM press releases](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
 

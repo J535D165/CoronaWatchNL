@@ -11,7 +11,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 **Directory:** [data-misc/data-test](data-test) <br>
 **Daily file format:** RIVM_NL_test_yyyy-mm-dd.csv<br>
 **Latest file format:** [RIVM_NL_test_latest.csv](data-test/RIVM_NL_test_latest.csv)<br>
-**Previous file format:** [RIVM_NL_test_previous.csv](data-test/RIVM_NL_test_previous.csv)<br>
+**Deprecated file(s):** [RIVM_NL_test_depr_2020-04-20.csv](data-test/RIVM_NL_test_depr_2020-04-20.csv)<br>
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
@@ -23,7 +23,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
 | **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*), and number of positively tested people for COVID-19 (*Positief*\*\*) per week\*\*\* | numeric (integer) | 17080|
 
-**\*** Before the 21st of April, RIVM reports did not use weeks but seperate dates to report test counts. This format can be found in the [RIVM_NL_test_previous.csv](data-national/RIVM_NL_test_previous.csv) dataset. Note that, due to this change in format, this specific file could not be updated after the 20th of April.<br/> 
+**\*** Before the 21st of April, RIVM reports did not use weeks but seperate dates to report test counts. This format can be found in the [RIVM_NL_test_previous.csv](data-national/RIVM_NL_test_previous.csv) dataset. Note that, due to this change in format, this specific file could not be updated after the 20th of April.<br/>
 **\*\*** The number of people positively tested on COVID-19 differs from the number of patients reported by the GGDs, as some people might have been tested more than once. <br/>
 **\*\*\*** The data is updated every day, except for weekends and holidays. <br/>
 
