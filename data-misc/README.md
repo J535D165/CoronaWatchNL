@@ -17,9 +17,9 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Jaar** | Year | Year of notification | YYYY (ISO 8601) | 2020 |
 | **Week** | Week number\* | Week of notification | numeric | 11 |
-| **Begindatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
-| **Einddatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
-| **Labs** | Laboratories | Number of Dutch laboratories that have performed diagnostics for SARS-CoV-2 in said week | character | 30 |
+| **BegiDatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
+| **EindDatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
+| **AantalLaboratoria** | Number of laboratories | Number of Dutch laboratories that have performed diagnostics for SARS-CoV-2 in said week | character | 30 |
 | **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
 | **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*), and number of positively tested people for COVID-19 (*Positief*\*\*) per week\*\*\* | numeric (integer) | 17080|
 
@@ -32,10 +32,10 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 **Directory:** [data-misc/data-measures](data-measures) <br>
 **Daily file format:** [NLD_measures.csv](data-measures/NLD_measures.csv) <br>
-**Latest file format:** [NLD_measures.csv_latest.csv](data-measures/NLD_measures_latest.csv)<br>
+**Latest file format:** [NLD_measures_latest.csv](data-measures/NLD_measures_latest.csv)<br>
 
 | Column name | Description | Format | Example |
-|---|---|---|---|---|
+|---|---|---|---|
 | **measureID** | Measure ID | numeric | 1 |
 | **measureDescription** | Description of the enforced measure | character | Schools/Univ. closure |
 | **lastMeasureUpdate** | Date on which the measure was last updated | YYYY-MM-DD (ISO 8601) |  	2020-03-23 |
