@@ -1,4 +1,4 @@
-"""Download and parse NICE data to CSV"""
+"""Download and parse measures data to CSV"""
 
 import csv
 import json
