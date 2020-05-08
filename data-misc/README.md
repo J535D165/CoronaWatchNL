@@ -1,4 +1,4 @@
-# Codebook `data-disc` - CoronaWatchNL
+# Codebook `data-misc` - CoronaWatchNL
 
 ## Data update
 
@@ -15,9 +15,12 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
-| **Week** | Week\* | Week (Monday-Sunday) of notification | YYYY-MM-DD-YYYY-MM-DD (ISO 8601) | 2020-03-09-2020-03-15 |
-| **Labs** | Laboratories | Number of Dutch laboratories that perform diagnostics for SARS-CoV-2 | character | 30 |
-| **Type** | Type | Type of measurement (i.e., Totaal, Positief) | character | Totaal |
+| **Jaar** | Year | Year of notification | YYYY (ISO 8601) | 2020 |
+| **Week** | Week number\* | Week of notification | numeric | 11 |
+| **Begindatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
+| **Einddatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
+| **Labs** | Laboratories | Number of Dutch laboratories that have performed diagnostics for SARS-CoV-2 in said week | character | 30 |
+| **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
 | **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*), and number of positively tested people for COVID-19 (*Positief*\*\*) per week\*\*\* | numeric (integer) | 17080|
 
 **\*** Before the 21st of April, RIVM reports did not use weeks but seperate dates to report test counts. This format can be found in the [RIVM_NL_test_previous.csv](data-national/RIVM_NL_test_previous.csv) dataset. Note that, due to this change in format, this specific file could not be updated after the 20th of April.<br/> 
