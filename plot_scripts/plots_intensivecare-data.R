@@ -46,6 +46,7 @@ data_nice %>%
   mutate(meas = factor(meas, c("Nieuw", "Actueel", "Cumulatief"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas, group = meas)) +
   geom_line()+
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -61,6 +62,7 @@ data_nice %>%
            meas == "Overleden") %>%
   ggplot(aes(x = Datum, y = Aantal, colour = meas, group = meas)) +
   geom_line()+
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -80,6 +82,7 @@ data_lcps %>%
   ggplot(aes(x = Date, y = Aantal)) +
   geom_line(colour = "#E69F00")+
   theme_minimal() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
@@ -92,6 +95,7 @@ lcps_country %>%
   mutate(Land = factor(Land, c("Nederland", "Duitsland"))) %>%
   ggplot(aes(x = Datum, y = Aantal, group = Land, linetype = Land)) +
   geom_line(colour = "#E69F00")+
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -116,6 +120,7 @@ data_ic %>%
   mutate(bron = factor(bron, c("LCPS", "NICE"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = bron)) +
   geom_line() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -140,6 +145,7 @@ data_ic_2 %>%
          Land = factor(Land, c("Nederland", "Duitsland"))) %>%
   ggplot(aes(x = Datum, y = Aantal, group = interaction(Land, bron), colour = bron, linetype = Land)) +
   geom_line() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x = element_blank(),
         axis.title.y = element_blank(),
@@ -189,6 +195,7 @@ IC %>%
          Bron = factor(Bron, c("NICE", "RIVM", "LCPS"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype = Bron, group = interaction(Bron, Type))) +
   geom_line() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -205,6 +212,7 @@ IC %>%
   filter(Type == "Nieuw") %>%
   ggplot(aes(x = Datum, y = Aantal, fill = Descr, colour = Descr, group = Descr)) +
   geom_line()+
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   scale_color_manual(values=kleur)+
   scale_fill_manual(values=kleur)+
   theme_minimal() +
@@ -221,6 +229,7 @@ IC %>%
   filter(Type == "Actueel") %>%
   ggplot(aes(x = Datum, y = Aantal, fill = Descr, colour = Descr, group = Descr)) +
   geom_line()+
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   scale_color_manual(values=kleur)+
   scale_fill_manual(values=kleur)+
   theme_minimal() +
@@ -237,6 +246,7 @@ IC %>%
   filter(Type == "Totaal") %>%
   ggplot(aes(x = Datum, y = Aantal, fill = Descr, colour = Descr, group = Descr)) +
   geom_line()+
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   scale_color_manual(values=kleur)+
   scale_fill_manual(values=kleur)+
   theme_minimal() +
