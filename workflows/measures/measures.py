@@ -12,7 +12,7 @@ import pandas as pd
 from urllib.request import urlretrieve
 
 # JSONs to download.
-URL_MEASURES_HISTORY = 'https://covid-statistics.jrc.ec.europa.eu/api/Measure/GetHistory/NLD'
+URL_MEASURES_HISTORY = 'https://covid-statistics.jrc.ec.europa.eu/api/Measure/GetHistory/NLD/true'
 URL_MEASURES_LATEST = 'https://covid-statistics.jrc.ec.europa.eu/api/Measure/GetLast/NLD'
 
 
