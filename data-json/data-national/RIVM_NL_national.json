@@ -679,6 +679,15 @@
       "overledenAantalCumulatief": 5359,
       "totaalAantalCumulatief": 42093,
       "ziekenhuisopnameAantalCumulatief": 11227
+    },
+    {
+      "Datum": "2020-05-09",
+      "overledenAantal": 63,
+      "totaalAantal": 289,
+      "ziekenhuisopnameAantal": 58,
+      "overledenAantalCumulatief": 5422,
+      "totaalAantalCumulatief": 42382,
+      "ziekenhuisopnameAantalCumulatief": 11285
     }
   ],
   "apiVersion": "0.1"
