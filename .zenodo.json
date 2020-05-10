@@ -1,0 +1,37 @@
+{
+	"title": "Novel Coronavirus (COVID-19) Cases in The Netherlands",
+	"description": "",
+	"creators": [{
+			"name": "De Bruin, Jonathan",
+			"affiliation": "Utrecht University",
+			"orcid": "0000-0002-4297-0502"
+		},{
+			"name": "Menger, Vincent",
+			"affiliation": "Utrecht University",
+			"orcid": "0000-0002-8366-4261"
+		},{
+			"name": "Kocken, Ilja",
+			"affiliation": "Utrecht University",
+			"orcid": "0000-0003-2196-8718"
+		},{
+			"name": "Voorwaart, Roos",
+			"affiliation": "Utrecht University",
+			"orcid": "0000-0002-4411-8495"
+		},{
+			"name": "Hoogerwerf, Maarten",
+			"affiliation": "Utrecht University",
+			"orcid": "0000-0003-1498-2052"
+		},
+	],
+	"keywords": [
+		"coronavirus",
+		"netherlands",
+		"covid-19",
+		"covid19",
+		"dataset",
+		"rivm"
+	],
+	"license": "cc-zero",
+	"language": "eng",
+	"upload_type": "dataset"
+}
