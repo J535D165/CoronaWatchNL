@@ -4,8 +4,7 @@ import itertools
 import pandas as pd
 import numpy as np
 
-#from utils import convert_to_int
-import utils
+from utils import convert_to_int
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
