@@ -1,0 +1,36 @@
+{
+	"title": "Novel Coronavirus (COVID-19) Cases in The Netherlands",
+	"description": "On 27 February 2020, the first case of COVID-19 disease was confirmed in The Netherlands by RIVM (National Institute for Public Health and the Environment). In the weeks after, thousands of people were diagnosed with the infectious disease. Data on COVID-19 case counts are important for research and applications on various topics like epidemiology and statistics.\n\nThis dataset contains reported case counts derived from official sources like RIVM (National Institute for Public Health and the Environment), LCPS (National Coordination Center for Patient Distribution), and NICE (National Intensive Care Evaluation). Data from these sources are collected, standardized, and published in various formats on a daily basis.\n\nThe README document in this repository provides an overview of the available datasets, their file location(s), and codebooks. Copies of the original data are stored in the folder named 'raw_data'. Scripts to process the raw data into standardized files can be found in the folder workflows.",
+	"creators": [{
+		"name": "De Bruin, Jonathan",
+		"affiliation": "Utrecht University",
+		"orcid": "0000-0002-4297-0502"
+	}, {
+		"name": "Menger, Vincent",
+		"affiliation": "Utrecht University",
+		"orcid": "0000-0002-8366-4261"
+	}, {
+		"name": "Kocken, Ilja",
+		"affiliation": "Utrecht University",
+		"orcid": "0000-0003-2196-8718"
+	}, {
+		"name": "Voorwaart, Roos",
+		"affiliation": "Utrecht University",
+		"orcid": "0000-0002-4411-8495"
+	}, {
+		"name": "Hoogerwerf, Maarten",
+		"affiliation": "Utrecht University",
+		"orcid": "0000-0003-1498-2052"
+	}],
+	"keywords": [
+		"coronavirus",
+		"netherlands",
+		"covid-19",
+		"covid19",
+		"dataset",
+		"rivm"
+	],
+	"license": "cc-zero",
+	"language": "eng",
+	"upload_type": "dataset"
+}
