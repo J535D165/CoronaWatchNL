@@ -3,7 +3,6 @@ library(cowplot)
 library(glue)
 library(lubridate)
 dir.create("plots")
-pdf(NULL)
 
 #############################
 ##### GEOGRAPHICAL DATA #####
@@ -125,7 +124,8 @@ samen %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
-        legend.title = element_blank()) +
+        legend.title = element_blank(),
+        legend.text = element_text(size = 8)) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("Toename: Werkelijk vs. Gerapporteerd") +
   ggsave("plots/overview_plot_true_vs_reported_diff.png", width = 5.5, height=4)
@@ -174,7 +174,8 @@ samen_cum %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
-        legend.title = element_blank()) +
+        legend.title = element_blank(),
+        legend.text = element_text(size = 8)) +
   scale_color_manual(values=c("#E69F00", "#56B4E9","#999999")) +
   ggtitle("Totaal: Werkelijk vs. Gerapporteerd") +
   ggsave("plots/overview_plot_true_vs_reported.png", width = 5.5, height=4)
