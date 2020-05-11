@@ -4,7 +4,8 @@ import itertools
 import pandas as pd
 import numpy as np
 
-from utils import convert_to_int
+#from utils import convert_to_int
+import utils
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
@@ -47,6 +48,15 @@ def main_sex():
 
     df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_sex.csv"))
     df_reported = df_reported.rename(columns={"Aantal": "AantalCumulatief"})
+    
+    df_reported["Aantal"] = df_reported \
+    .groupby(['Type', 'Geslacht'], sort=True)['AantalCumulatief'] \
+    .transform(pd.Series.diff)
+    
+    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
+    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
+
+    df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
     df_reported['AantalCumulatief'] = df_reported["AantalCumulatief"].astype(pd.Int64Dtype())
 
     # format the columns
@@ -54,6 +64,7 @@ def main_sex():
         "Datum",
         "Geslacht",
         "Type",
+        "Aantal",
         "AantalCumulatief"
     ]]
 
@@ -77,6 +88,15 @@ def main_age():
 
     df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_age.csv"))
     df_reported = df_reported.rename(columns={"Aantal": "AantalCumulatief"})
+
+    df_reported["Aantal"] = df_reported \
+    .groupby(['Type', 'LeeftijdGroep'], sort=True)['AantalCumulatief'] \
+    .transform(pd.Series.diff)
+    
+    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
+    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
+
+    df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
     df_reported['AantalCumulatief'] = df_reported["AantalCumulatief"].astype(pd.Int64Dtype())
 
     # format the columns
@@ -84,6 +104,7 @@ def main_age():
         "Datum",
         "LeeftijdGroep",
         "Type",
+        "Aantal",
         "AantalCumulatief"
     ]]
 

@@ -1,10 +1,10 @@
-Datum,Geslacht,Type,AantalCumulatief
-2020-05-03,Man,Totaal,15102
-2020-05-03,Vrouw,Totaal,25416
-2020-05-03,Niet vermeld,Totaal,53
-2020-05-03,Man,Ziekenhuisopname,6740
-2020-05-03,Vrouw,Ziekenhuisopname,4247
-2020-05-03,Niet vermeld,Ziekenhuisopname,8
-2020-05-03,Man,Overleden,2859
-2020-05-03,Vrouw,Overleden,2197
-2020-05-03,Niet vermeld,Overleden,0
+Datum,Geslacht,Type,Aantal,AantalCumulatief
+2020-05-03,Man,Totaal,84,15102
+2020-05-03,Vrouw,Totaal,253,25416
+2020-05-03,Niet vermeld,Totaal,-2,53
+2020-05-03,Man,Ziekenhuisopname,21,6740
+2020-05-03,Vrouw,Ziekenhuisopname,23,4247
+2020-05-03,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-03,Man,Overleden,33,2859
+2020-05-03,Vrouw,Overleden,36,2197
+2020-05-03,Niet vermeld,Overleden,0,0
