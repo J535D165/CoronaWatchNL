@@ -24,7 +24,7 @@ test %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Totaal (positieve) COVID-19 testen per week") +
+  ggtitle("Toename totaal (positieve) COVID-19 testen per week") +
   ggsave("plots/overview_plot_tests_weeks.png", width = 5.5, height=4)
   
 # Tests: Cumulatief per kalender week (einde van de week (zondag) als plotdatum)
