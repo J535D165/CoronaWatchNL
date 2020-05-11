@@ -1,13 +1,31 @@
 Datum,Geslacht,Type,Aantal,AantalCumulatief
-2020-03-25,Man,Totaal,3181,3181
-2020-03-25,Vrouw,Totaal,3199,3199
-2020-03-25,Niet vermeld,Totaal,32,32
-2020-03-25,Man,Ziekenhuisopname,1155,1155
-2020-03-25,Vrouw,Ziekenhuisopname,673,673
-2020-03-25,Niet vermeld,Ziekenhuisopname,8,8
-2020-03-25,Man,Overleden,226,226
-2020-03-25,Vrouw,Overleden,128,128
-2020-03-25,Niet vermeld,Overleden,2,2
+2020-03-23,Man,Totaal,2330,2330
+2020-03-23,Vrouw,Totaal,2394,2394
+2020-03-23,Niet vermeld,Totaal,25,25
+2020-03-23,Man,Ziekenhuisopname,772,772
+2020-03-23,Vrouw,Ziekenhuisopname,453,453
+2020-03-23,Niet vermeld,Ziekenhuisopname,5,5
+2020-03-23,Man,Overleden,133,133
+2020-03-23,Vrouw,Overleden,79,79
+2020-03-23,Niet vermeld,Overleden,1,1
+2020-03-24,Man,Totaal,434,2764
+2020-03-24,Vrouw,Totaal,373,2767
+2020-03-24,Niet vermeld,Totaal,4,29
+2020-03-24,Man,Ziekenhuisopname,174,946
+2020-03-24,Vrouw,Ziekenhuisopname,88,541
+2020-03-24,Niet vermeld,Ziekenhuisopname,3,8
+2020-03-24,Man,Overleden,45,178
+2020-03-24,Vrouw,Overleden,18,97
+2020-03-24,Niet vermeld,Overleden,0,1
+2020-03-25,Man,Totaal,417,3181
+2020-03-25,Vrouw,Totaal,432,3199
+2020-03-25,Niet vermeld,Totaal,3,32
+2020-03-25,Man,Ziekenhuisopname,209,1155
+2020-03-25,Vrouw,Ziekenhuisopname,132,673
+2020-03-25,Niet vermeld,Ziekenhuisopname,0,8
+2020-03-25,Man,Overleden,48,226
+2020-03-25,Vrouw,Overleden,31,128
+2020-03-25,Niet vermeld,Overleden,1,2
 2020-03-26,Man,Totaal,490,3671
 2020-03-26,Vrouw,Totaal,530,3729
 2020-03-26,Niet vermeld,Totaal,-1,31
