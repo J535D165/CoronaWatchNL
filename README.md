@@ -59,6 +59,8 @@ The datasets in this section contains variables like age and sex.
 | [Case counts in NL per age](data-desc#age) | RIVM | Date, Age group, Type, Number of newly diagnosed, hospitalized, and deceased COVID-19 disease cases in NL|
 | [Case counts in NL per sex](data-desc#sex) | RIVM | Date, Gender group, Type, Number of newly diagnosed, hospitalized, and deceased COVID-19 disease cases in NL|
 
+**\*** For more detail about the specific structure of the descriptive datasets, have a look at the `data-desc`[codebook](/data-desc/README.md). <br/>
+
 #### Visualizations descriptive data
 
 The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak.
@@ -71,10 +73,10 @@ The IC datasets describe the new and cumulative number of hospitalized COVID-19 
 
 | Dataset | Source | Variables |
 | --- | --- | --- |
-| [COVID-19 intensive care patient counts in NL ](data/nice_ic_by_day.csv) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
-| [COVID-19 intensive care patient counts in NL ](data/lcps_ic.csv) | LCPS | Date, Total of positive Dutch patients currently in IC |
-| [COVID-19 intensive care patient counts with country of hospitalisation ](data/lcps_ic_country.csv) | LCPS | Date, Country of Hospitalization, Total of positive Dutch patients currently in IC |
+| [COVID-19 intensive care patient counts in NL ](data-ic#nice) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, Total of fatal IC cases, Total of survived IC cases |
+| [COVID-19 intensive care patient counts with country of hospitalisation ](data-ic#lcps) | LCPS | Date, Country of Hospitalization, Total of positive Dutch patients currently in IC |
 
+**\*** For more detail about the specific structure of the intensive care datasets, have a look at the `data-ic`[codebook](/data-ic/README.md). <br/>
 
 #### Visualizations intensive care
 The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph.
@@ -82,7 +84,7 @@ The first two graphs show the number of newly (*Nieuw*), currently (*Huidig*), c
 [<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_intakes_country.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots) [<img src="plots/ic_lcps_nice_country.png" width="430">](plots)
 
 
-##### Intensive care: RIVM, LCPS, NICE
+#### Intensive care: RIVM, LCPS, NICE
 CoronaWatchNL reports COVID-19 related hospital data of three different sources: RIVM, LCPS and NICE.
 
 * **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care intakes. These are the highest and most inclusive counts.
