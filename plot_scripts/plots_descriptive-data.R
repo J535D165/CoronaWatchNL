@@ -26,6 +26,7 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        legend.text = element_text(size = 8),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("COVID-19 patiënten per leeftijd") +

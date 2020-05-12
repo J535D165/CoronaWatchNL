@@ -98,15 +98,15 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [COVID-19 tests in NL by week](data-misc#test) | RIVM | Publication Week,  Included labs, Type (Total and positive tests), Number of tests|
-| [COVID-19 measures by the govern (NEW)](data-misc/data-measures/) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
+| [COVID-19 tests in NL per week](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Number of tests |
+| [COVID-19 measures by the government (NEW)](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
 | [RIVM press releases](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
 
 #### Visualizations miscellaneous data
 
 These graphs display the number of (positively) tested people per day.
 
-[<img src="plots/overview_plot_tests.png" width="430">](plots) [<img src="plots/overview_plot_tests_diff.png" width="430">](plots)
+[<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots)
 
 ## Inactive/deprecated datasets
 
