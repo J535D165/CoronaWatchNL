@@ -1,0 +1,10 @@
+Datum,Geslacht,Type,Aantal,AantalCumulatief
+2020-04-29,Man,Totaal,123,14615
+2020-04-29,Vrouw,Totaal,266,24139
+2020-04-29,Niet vermeld,Totaal,-3,48
+2020-04-29,Man,Ziekenhuisopname,40,6568
+2020-04-29,Vrouw,Ziekenhuisopname,36,4109
+2020-04-29,Niet vermeld,Ziekenhuisopname,0,8
+2020-04-29,Man,Overleden,70,2691
+2020-04-29,Vrouw,Overleden,75,2020
+2020-04-29,Niet vermeld,Overleden,0,0
