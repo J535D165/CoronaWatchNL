@@ -21,6 +21,7 @@ read_csv("data/rivm_NL_covid19_age.csv") %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype=groep)) +
   geom_line() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -39,6 +40,7 @@ read_csv("data/rivm_NL_covid19_sex.csv") %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = Aantal, colour = Type, linetype= Geslacht)) +
   geom_line() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -60,6 +62,7 @@ sex %>%
   ggplot(aes(x = Datum, y = Ratio, colour = Type)) +
   geom_line() +
   theme_minimal() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
@@ -94,6 +97,7 @@ sex %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = Toename, colour = Type, linetype= Geslacht)) +
   geom_line() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme_minimal() +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
@@ -115,6 +119,7 @@ sex %>%
   ggplot(aes(x = Datum, y = Ratio_toe, colour = Type)) +
   geom_line() +
   theme_minimal() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
