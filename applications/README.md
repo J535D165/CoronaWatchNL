@@ -20,6 +20,12 @@ Summerizing Numbers of Corona:
 [https://corona.searchdata.com/search?savedref=VC03320](https://corona.searchdata.com/search?savedref=VC03320)
 
 
+## IC Dashboard
+Visualizing (IC) data about diagnosed, hospitalized and deceased COVID-19 cases:
+![ICDashboard](ICDashboard.PNG)
+[https://digitalewereld.shinyapps.io/IC_Data_Dashboard/](https://digitalewereld.shinyapps.io/IC_Data_Dashboard/)
+
+
 ## Rode Kruis
 Dynamic Spread of COVID:
 ![RodeKruis](RodeKruis.PNG)
