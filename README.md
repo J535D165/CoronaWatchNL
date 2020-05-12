@@ -106,7 +106,7 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 These graphs display the number of (positively) tested people per day.
 
-[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots) [<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)
+[<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots)
 
 ## Inactive/deprecated datasets
 
