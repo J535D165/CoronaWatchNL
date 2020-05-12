@@ -56,14 +56,14 @@ The datasets in this section contains variables like age and sex.
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Case counts in NL per age](data/rivm_NL_covid19_age.csv) | RIVM | Date, Age group, Type, Number of positive COVID-19 disease cases in NL|
-| [Case counts in NL per gender](data/rivm_NL_covid19_sex.csv) | RIVM | Date, Gender group, Type, Number of positive COVID-19 disease cases in NL|
+| [Case counts in NL per age](data-desc#age) | RIVM | Date, Age group, Type, Number of newly diagnosed, hospitalized, and deceased COVID-19 disease cases in NL|
+| [Case counts in NL per sex](data-desc#sex) | RIVM | Date, Gender group, Type, Number of newly diagnosed, hospitalized, and deceased COVID-19 disease cases in NL|
 
 #### Visualizations descriptive data
 
 The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak.
 
-[<img src="plots/overview_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_plot_geslacht.png" width="430">](plots)[<img src="plots/toename_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_toename_geslacht.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd.png" width="430">](plots)
+[<img src="plots/overview_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_plot_geslacht.png" width="430">](plots)[<img src="plots/toename_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_toename_geslacht.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd_cum.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd.png" width="430">](plots)
 
 ### Intensive care datasets
 
