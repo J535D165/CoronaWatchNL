@@ -33,13 +33,13 @@
   },
   "data": [
     {
-      "Datum": "2020-05-11",
-      "overledenAantal": 16,
-      "totaalAantal": 161,
-      "ziekenhuisopnameAantal": 36,
-      "overledenAantalCumulatief": 5456,
-      "totaalAantalCumulatief": 42788,
-      "ziekenhuisopnameAantalCumulatief": 11343
+      "Datum": "2020-05-12",
+      "overledenAantal": 54,
+      "totaalAantal": 196,
+      "ziekenhuisopnameAantal": 35,
+      "overledenAantalCumulatief": 5510,
+      "totaalAantalCumulatief": 42984,
+      "ziekenhuisopnameAantalCumulatief": 11378
     }
   ],
   "apiVersion": "0.1"
