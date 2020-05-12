@@ -94,7 +94,7 @@ CoronaWatchNL reports COVID-19 related hospital data of three different sources:
 
 ### Miscellaneous datasets
 
-This dataset shows the total number of tested people and the corresponding number of positively tested COVID-19 cases per day.
+This dataset shows the total number of tested people and the corresponding number of positively tested COVID-19 cases per week.
 
 | Dataset | Source | Variables |
 |---|---| --- |
@@ -104,7 +104,7 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 #### Visualizations miscellaneous data
 
-These graphs display the number of (positively) tested people per day.
+These graphs display the number of (positively) tested people per week (the end date of each week - Sunday - is used as indicator for the specific weeks).
 
 [<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots)
 
