@@ -204,7 +204,7 @@ def main_lcps():
     # export_date(df_reported, "data-lcps", "LCPS_NL_IC", data_date=dates[-1], label="latest")
 
     # export all (latest)
-    export_date(df_reported, "data-lcps", "LCPS_NL_IC", data_date=None, label="latest")
+    export_date(df_reported, "data-lcps", "LCPS_IC", data_date=None, label="latest")
         
     
 if __name__ == '__main__':
