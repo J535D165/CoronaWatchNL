@@ -440,3 +440,57 @@ Datum,Geslacht,Type,Aantal,AantalCumulatief
 2020-05-10,Man,Overleden,8,3040
 2020-05-10,Vrouw,Overleden,10,2400
 2020-05-10,Niet vermeld,Overleden,0,0
+2020-05-11,Man,Totaal,61,15733
+2020-05-11,Vrouw,Totaal,99,27000
+2020-05-11,Niet vermeld,Totaal,1,55
+2020-05-11,Man,Ziekenhuisopname,21,6936
+2020-05-11,Vrouw,Ziekenhuisopname,15,4399
+2020-05-11,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-11,Man,Overleden,4,3044
+2020-05-11,Vrouw,Overleden,12,2412
+2020-05-11,Niet vermeld,Overleden,0,0
+2020-05-12,Man,Totaal,65,15798
+2020-05-12,Vrouw,Totaal,131,27131
+2020-05-12,Niet vermeld,Totaal,0,55
+2020-05-12,Man,Ziekenhuisopname,19,6955
+2020-05-12,Vrouw,Ziekenhuisopname,16,4415
+2020-05-12,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-12,Man,Overleden,26,3070
+2020-05-12,Vrouw,Overleden,28,2440
+2020-05-12,Niet vermeld,Overleden,,
+2020-05-13,Man,Totaal,77,15875
+2020-05-13,Vrouw,Totaal,150,27281
+2020-05-13,Niet vermeld,Totaal,0,55
+2020-05-13,Man,Ziekenhuisopname,28,6983
+2020-05-13,Vrouw,Ziekenhuisopname,24,4439
+2020-05-13,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-13,Man,Overleden,24,3094
+2020-05-13,Vrouw,Overleden,28,2468
+2020-05-13,Niet vermeld,Overleden,,0
+2020-05-14,Man,Totaal,83,15958
+2020-05-14,Vrouw,Totaal,187,27468
+2020-05-14,Niet vermeld,Totaal,0,55
+2020-05-14,Man,Ziekenhuisopname,20,7003
+2020-05-14,Vrouw,Ziekenhuisopname,7,4446
+2020-05-14,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-14,Man,Overleden,16,3110
+2020-05-14,Vrouw,Overleden,12,2480
+2020-05-14,Niet vermeld,Overleden,0,0
+2020-05-15,Man,Totaal,58,16016
+2020-05-15,Vrouw,Totaal,142,27610
+2020-05-15,Niet vermeld,Totaal,0,55
+2020-05-15,Man,Ziekenhuisopname,20,7023
+2020-05-15,Vrouw,Ziekenhuisopname,14,4460
+2020-05-15,Niet vermeld,Ziekenhuisopname,1,9
+2020-05-15,Man,Overleden,22,3132
+2020-05-15,Vrouw,Overleden,31,2511
+2020-05-15,Niet vermeld,Overleden,0,0
+2020-05-16,Man,Totaal,62,16078
+2020-05-16,Vrouw,Totaal,127,27737
+2020-05-16,Niet vermeld,Totaal,0,55
+2020-05-16,Man,Ziekenhuisopname,26,7049
+2020-05-16,Vrouw,Ziekenhuisopname,19,4479
+2020-05-16,Niet vermeld,Ziekenhuisopname,0,9
+2020-05-16,Man,Overleden,16,3148
+2020-05-16,Vrouw,Overleden,11,2522
+2020-05-16,Niet vermeld,Overleden,0,0
