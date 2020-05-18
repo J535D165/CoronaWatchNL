@@ -4,9 +4,6 @@ import itertools
 import pandas as pd
 import numpy as np
 
-#from utils import convert_to_int
-import utils
-
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
 
@@ -64,14 +61,14 @@ def main_long_nice():
     df_reported = pd.read_csv(Path("data", "nice_ic_by_day.csv"))
     df_reported['new'] = df_reported['newIntake'] + df_reported['newSuspected']
     df_reported['Type'] = 'NA'
-    
+
     big = pd.DataFrame([])
     for i in VARIABLES:
         new = df_reported[['Datum', i, 'Type']]
         new = new.rename(columns={i: "Aantal"})
         new['Type'] = TYPE[VARIABLES.index(i)]
         big = big.append(new, ignore_index = True)
-    
+
     new = pd.DataFrame([])
     new = big.loc[big['Type'].isin(["Cumulatief ontslag (ziekenhuis)", "Cumulatief ontslag (overleden)"])]
     new["AantalCumulatief"] = new["Aantal"]
@@ -82,9 +79,9 @@ def main_long_nice():
         .transform(pd.Series.diff)
     new.loc[new["Datum"] == "2020-02-27", "Aantal"] = \
         new.loc[new["Datum"] == "2020-02-27", "AantalCumulatief"]
-    
+
     big = big.append(new, sort = False)
-    big = big.sort_values('Datum', ascending=True) 
+    big = big.sort_values('Datum', ascending=True)
     big = big.reset_index(drop=True)
 
     big['Aantal'] = big["Aantal"].astype(pd.Int64Dtype())
@@ -128,27 +125,27 @@ def main_wide_nice():
     df_reported['new'] = df_reported['newIntake'] + df_reported['newSuspected']
     df_reported.drop(['newIntake', 'newSuspected'], axis = 1, inplace = True)
     df_reported.rename(columns={
-                       VARIABLES[0]: TYPES[0], 
+                       VARIABLES[0]: TYPES[0],
                        VARIABLES[1]: TYPES[1],
                        VARIABLES[2]: TYPES[2],
                        VARIABLES[3]: TYPES[3],
                        VARIABLES[4]: TYPES[4],
                        VARIABLES[5]: TYPES[5],
                        VARIABLES[6]: TYPES[6]}, inplace=True)
-    
+
     df_reported["ToenameOntslagOverleden"] = df_reported["CumulatiefOntslagOverleden"]
     df_reported["ToenameOntslagOverleden"] = df_reported \
         ['CumulatiefOntslagOverleden'] \
         .transform(pd.Series.diff)
     df_reported['ToenameOntslagOverleden'] = df_reported["ToenameOntslagOverleden"].astype(pd.Int64Dtype())
-    
+
     df_reported["ToenameOntslagZiekenhuis"] = df_reported["CumulatiefOntslagZiekenhuis"]
     df_reported["ToenameOntslagZiekenhuis"] = df_reported \
         ['CumulatiefOntslagZiekenhuis'] \
         .transform(pd.Series.diff)
     df_reported['ToenameOntslagZiekenhuis'] = df_reported["ToenameOntslagZiekenhuis"].astype(pd.Int64Dtype())
 
- 
+
     # format the columns
     df_reported = df_reported[[
         "Datum",
@@ -164,15 +161,15 @@ def main_wide_nice():
     ]]
 
     Path(DATA_FOLDER, "data-nice").mkdir(exist_ok=True)
-    
+
     # export all (latest download)
     export_date(df_reported, "data-nice", "NICE_IC_wide", data_date=None, label="latest")
 
-    
+
 # LCPS data
 def main_lcps():
 
-    df_reported = pd.read_csv(Path("data", "lcps_ic_country.csv"))    
+    df_reported = pd.read_csv(Path("data", "lcps_ic_country.csv"))
     df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
 
     dates = sorted(df_reported["Datum"].unique())
@@ -184,7 +181,7 @@ def main_lcps():
         new['Aantal'] = sum(df_reported.loc[df_reported['Datum'] == i, 'Aantal'])
         df_reported = df_reported.append(new, ignore_index = True)
 
-    df_reported = df_reported.sort_values('Datum', ascending=True)    
+    df_reported = df_reported.sort_values('Datum', ascending=True)
     df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
 
     # format the columns
@@ -205,16 +202,16 @@ def main_lcps():
 
     # export all (latest)
     export_date(df_reported, "data-lcps", "LCPS_IC", data_date=None, label="latest")
-        
-    
+
+
 if __name__ == '__main__':
 
     DATA_FOLDER.mkdir(exist_ok=True)
 
     main_long_nice()
-    
+
     main_wide_nice()
-     
+
     main_lcps()
 
 
