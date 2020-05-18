@@ -3505,7 +3505,7 @@ Datum,LeeftijdGroep,Type,Aantal
 2020-05-17,85-89,Ziekenhuisopname,790
 2020-05-17,90-94,Ziekenhuisopname,242
 2020-05-17,95+,Ziekenhuisopname,41
-2020-05-17,Niet vermeld,Ziekenhuisopname,
+2020-05-17,Niet vermeld,Ziekenhuisopname,0
 2020-05-17,0-4,Overleden,0
 2020-05-17,5-9,Overleden,0
 2020-05-17,10-14,Overleden,0
@@ -3527,3 +3527,66 @@ Datum,LeeftijdGroep,Type,Aantal
 2020-05-17,90-94,Overleden,755
 2020-05-17,95+,Overleden,277
 2020-05-17,Niet vermeld,Overleden,0
+2020-05-18,0-4,Totaal,82
+2020-05-18,5-9,Totaal,23
+2020-05-18,10-14,Totaal,62
+2020-05-18,15-19,Totaal,454
+2020-05-18,20-24,Totaal,1792
+2020-05-18,25-29,Totaal,2221
+2020-05-18,30-34,Totaal,2071
+2020-05-18,35-39,Totaal,1788
+2020-05-18,40-44,Totaal,2058
+2020-05-18,45-49,Totaal,2982
+2020-05-18,50-54,Totaal,3845
+2020-05-18,55-59,Totaal,4263
+2020-05-18,60-64,Totaal,3474
+2020-05-18,65-69,Totaal,2279
+2020-05-18,70-74,Totaal,2842
+2020-05-18,75-79,Totaal,3256
+2020-05-18,80-84,Totaal,3739
+2020-05-18,85-89,Totaal,3833
+2020-05-18,90-94,Totaal,2312
+2020-05-18,95+,Totaal,761
+2020-05-18,Niet vermeld,Totaal,4
+2020-05-18,0-4,Ziekenhuisopname,45
+2020-05-18,5-9,Ziekenhuisopname,2
+2020-05-18,10-14,Ziekenhuisopname,7
+2020-05-18,15-19,Ziekenhuisopname,29
+2020-05-18,20-24,Ziekenhuisopname,59
+2020-05-18,25-29,Ziekenhuisopname,108
+2020-05-18,30-34,Ziekenhuisopname,154
+2020-05-18,35-39,Ziekenhuisopname,192
+2020-05-18,40-44,Ziekenhuisopname,278
+2020-05-18,45-49,Ziekenhuisopname,571
+2020-05-18,50-54,Ziekenhuisopname,837
+2020-05-18,55-59,Ziekenhuisopname,1119
+2020-05-18,60-64,Ziekenhuisopname,1273
+2020-05-18,65-69,Ziekenhuisopname,1328
+2020-05-18,70-74,Ziekenhuisopname,1672
+2020-05-18,75-79,Ziekenhuisopname,1607
+2020-05-18,80-84,Ziekenhuisopname,1222
+2020-05-18,85-89,Ziekenhuisopname,793
+2020-05-18,90-94,Ziekenhuisopname,242
+2020-05-18,95+,Ziekenhuisopname,41
+2020-05-18,Niet vermeld,Ziekenhuisopname,0
+2020-05-18,0-4,Overleden,0
+2020-05-18,5-9,Overleden,0
+2020-05-18,10-14,Overleden,0
+2020-05-18,15-19,Overleden,1
+2020-05-18,20-24,Overleden,0
+2020-05-18,25-29,Overleden,3
+2020-05-18,30-34,Overleden,3
+2020-05-18,35-39,Overleden,7
+2020-05-18,40-44,Overleden,5
+2020-05-18,45-49,Overleden,22
+2020-05-18,50-54,Overleden,42
+2020-05-18,55-59,Overleden,94
+2020-05-18,60-64,Overleden,152
+2020-05-18,65-69,Overleden,315
+2020-05-18,70-74,Overleden,594
+2020-05-18,75-79,Overleden,959
+2020-05-18,80-84,Overleden,1193
+2020-05-18,85-89,Overleden,1270
+2020-05-18,90-94,Overleden,756
+2020-05-18,95+,Overleden,278
+2020-05-18,Niet vermeld,Overleden,0

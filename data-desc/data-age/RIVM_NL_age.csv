@@ -3505,7 +3505,7 @@ Datum,LeeftijdGroep,Type,Aantal,AantalCumulatief
 2020-05-17,85-89,Ziekenhuisopname,-1,790
 2020-05-17,90-94,Ziekenhuisopname,2,242
 2020-05-17,95+,Ziekenhuisopname,0,41
-2020-05-17,Niet vermeld,Ziekenhuisopname,,
+2020-05-17,Niet vermeld,Ziekenhuisopname,0,0
 2020-05-17,0-4,Overleden,0,0
 2020-05-17,5-9,Overleden,0,0
 2020-05-17,10-14,Overleden,0,0
@@ -3527,3 +3527,66 @@ Datum,LeeftijdGroep,Type,Aantal,AantalCumulatief
 2020-05-17,90-94,Overleden,1,755
 2020-05-17,95+,Overleden,0,277
 2020-05-17,Niet vermeld,Overleden,0,0
+2020-05-18,0-4,Totaal,-1,82
+2020-05-18,5-9,Totaal,2,23
+2020-05-18,10-14,Totaal,2,62
+2020-05-18,15-19,Totaal,3,454
+2020-05-18,20-24,Totaal,5,1792
+2020-05-18,25-29,Totaal,12,2221
+2020-05-18,30-34,Totaal,9,2071
+2020-05-18,35-39,Totaal,7,1788
+2020-05-18,40-44,Totaal,4,2058
+2020-05-18,45-49,Totaal,20,2982
+2020-05-18,50-54,Totaal,13,3845
+2020-05-18,55-59,Totaal,13,4263
+2020-05-18,60-64,Totaal,8,3474
+2020-05-18,65-69,Totaal,4,2279
+2020-05-18,70-74,Totaal,6,2842
+2020-05-18,75-79,Totaal,7,3256
+2020-05-18,80-84,Totaal,10,3739
+2020-05-18,85-89,Totaal,14,3833
+2020-05-18,90-94,Totaal,6,2312
+2020-05-18,95+,Totaal,2,761
+2020-05-18,Niet vermeld,Totaal,0,4
+2020-05-18,0-4,Ziekenhuisopname,0,45
+2020-05-18,5-9,Ziekenhuisopname,0,2
+2020-05-18,10-14,Ziekenhuisopname,0,7
+2020-05-18,15-19,Ziekenhuisopname,0,29
+2020-05-18,20-24,Ziekenhuisopname,0,59
+2020-05-18,25-29,Ziekenhuisopname,0,108
+2020-05-18,30-34,Ziekenhuisopname,0,154
+2020-05-18,35-39,Ziekenhuisopname,0,192
+2020-05-18,40-44,Ziekenhuisopname,1,278
+2020-05-18,45-49,Ziekenhuisopname,0,571
+2020-05-18,50-54,Ziekenhuisopname,3,837
+2020-05-18,55-59,Ziekenhuisopname,3,1119
+2020-05-18,60-64,Ziekenhuisopname,4,1273
+2020-05-18,65-69,Ziekenhuisopname,4,1328
+2020-05-18,70-74,Ziekenhuisopname,2,1672
+2020-05-18,75-79,Ziekenhuisopname,3,1607
+2020-05-18,80-84,Ziekenhuisopname,4,1222
+2020-05-18,85-89,Ziekenhuisopname,3,793
+2020-05-18,90-94,Ziekenhuisopname,0,242
+2020-05-18,95+,Ziekenhuisopname,0,41
+2020-05-18,Niet vermeld,Ziekenhuisopname,0,0
+2020-05-18,0-4,Overleden,0,0
+2020-05-18,5-9,Overleden,0,0
+2020-05-18,10-14,Overleden,0,0
+2020-05-18,15-19,Overleden,0,1
+2020-05-18,20-24,Overleden,0,0
+2020-05-18,25-29,Overleden,0,3
+2020-05-18,30-34,Overleden,0,3
+2020-05-18,35-39,Overleden,0,7
+2020-05-18,40-44,Overleden,0,5
+2020-05-18,45-49,Overleden,0,22
+2020-05-18,50-54,Overleden,0,42
+2020-05-18,55-59,Overleden,0,94
+2020-05-18,60-64,Overleden,0,152
+2020-05-18,65-69,Overleden,1,315
+2020-05-18,70-74,Overleden,0,594
+2020-05-18,75-79,Overleden,1,959
+2020-05-18,80-84,Overleden,2,1193
+2020-05-18,85-89,Overleden,8,1270
+2020-05-18,90-94,Overleden,1,756
+2020-05-18,95+,Overleden,1,278
+2020-05-18,Niet vermeld,Overleden,0,0

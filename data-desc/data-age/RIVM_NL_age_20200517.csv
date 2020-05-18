@@ -40,7 +40,7 @@ Datum,LeeftijdGroep,Type,Aantal,AantalCumulatief
 2020-05-17,85-89,Ziekenhuisopname,-1,790
 2020-05-17,90-94,Ziekenhuisopname,2,242
 2020-05-17,95+,Ziekenhuisopname,0,41
-2020-05-17,Niet vermeld,Ziekenhuisopname,,
+2020-05-17,Niet vermeld,Ziekenhuisopname,0,0
 2020-05-17,0-4,Overleden,0,0
 2020-05-17,5-9,Overleden,0,0
 2020-05-17,10-14,Overleden,0,0
