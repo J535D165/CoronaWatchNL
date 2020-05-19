@@ -16,7 +16,7 @@ The datasets available on CoronaWatchNL are updated on a daily base. Availabilit
 * [Intensive care data](#intensive-care-datasets)
 * [Miscellaneous datasets](#miscellaneous-datasets)
 
-For (visual) applications based on these datasets, have a look at the [applications folder](/applications).
+For (interactive) applications based on these datasets, have a look at the [applications folder](/applications). For predictive models based on these datasets, check out the parallel repository [CoronaWatchNL Extended](https://github.com/J535D165/CoronaWatchNLExtended). Please note that the intention of these (too) simplistic models - made by CoronaWatchNL volunteers - is to show how the data can be used for modelling,  *not* to answer specific hypotheses or follow scientific protocol.
 
 
 ### Geographical datasets
@@ -166,8 +166,6 @@ Image from [iXimus](https://pixabay.com/nl/users/iXimus-2352783/?utm_source=link
 
 CoronaWatchNL is collective of researchers and volunteers in The Netherlands. We aim to make the reported number on COVID-19 disease in The Netherlands FAIR. The project is initiated and maintained by [Utrecht University Research Data Management Support](https://www.uu.nl/en/research/research-data-management) and receives support from [Utrecht University Applied Data Science](https://www.uu.nl/en/research/applied-data-science).
 
-Help on this project is appreciated. We are looking for new datasets, data updates, graphs and maps. Please report issues in the Issue Tracker. Want to contribute? Please check out the `help wanted` tag in the [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues). Do you wish to share an application based on these [datasets](/data)? Have a look at the [applications folder](/applications).
-
-For more descriptive charts, forecasts and maps displaying the (development of) COVID-19 cases in the Netherlands, have a look at the parallel repository [CoronaWatchNL Contrib](https://github.com/J535D165/CoronaWatchNLContrib).
+Help on this project is appreciated. We are looking for new datasets, data updates, graphs and maps. Please report issues in the Issue Tracker. Want to contribute? Please check out the `help wanted` tag in the [Issue Tracker](https://github.com/J535D165/CoronaWatchNL/issues). Do you wish to share an application based on these [datasets](/data)? Have a look at the [applications folder](/applications). For predictive models, check out the parallel repository [CoronaWatchNL Extended](https://github.com/J535D165/CoronaWatchNLExtended).
 
 Please send an email to jonathandebruinos@gmail.com and/or r.voorvaart@uu.nl
