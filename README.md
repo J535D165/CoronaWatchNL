@@ -146,10 +146,9 @@ The following sources are used for data collection.
 | https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus/data | RIVM | Epidemiological reports |
 | https://www.stichting-nice.nl/ | Stichting NICE | Postively tested patients admitted to IC, Number of ICUs with positively tested patient(s), Number of fatal IC cases, Number of survived IC cases  |
 
-
 ## Remarks
 
-Since 3 March 2020, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured.
+Please see the [Remarks](REMARKS.md) document. Do you have remarks? Please let us know.
 
 
 ## License and academic use

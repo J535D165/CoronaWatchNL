@@ -181,6 +181,7 @@ samen_cum %>%
   ggsave("plots/overview_plot_true_vs_reported.png", width = 5.5, height=4)
 
 
+
 #############################
 #### NUMBERS PER REPORT #####
 #############################
@@ -332,3 +333,55 @@ print("make grid plot")
 pgrid = plot_grid(plotlist=p_list,
                   ncol=4) +
   ggsave("plots/map_province.png", width = 6, height=4)
+
+
+
+#####################
+####### REMARKS #####
+#####################
+
+
+df_report_diff = samen_cum %>% 
+  spread(Type, Aantal) %>% 
+  mutate(
+    meas = factor(meas, c("Totaal", "Ziekenhuisopname", "Overleden")),
+    Onzichtbaar = Werkelijk - Gerapporteerd) 
+
+df_report_diff %>% 
+  ggplot(aes(x = Datum, y = Onzichtbaar, group = interaction(meas), colour = meas))+
+  geom_line() +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 8),
+        title = element_text(size = 10)
+  ) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9","#999999")) +
+  ggtitle(
+    label="Rapportageachterstand bij rapportage aan het RIVM",
+    subtitle="Het verschil tussen het (voorlopige) totaal aantal patienten op de betreffende dag en het \ntotaal gemeld op die dag door het RIVM."
+  ) +
+  ggsave("plots/remarks_plot_rapportageachterstand.png", width = 5.5, height=4)
+
+
+read_csv("data-geo/data-municipal/RIVM_NL_municipal.csv") %>% 
+  filter(Gemeentenaam == "Tilburg",
+         Datum < "2020-05-01") %>% 
+  mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
+  ggplot(aes(x = Datum, y = AantalCumulatief, colour = Type)) +
+  geom_line() +
+  geom_vline(xintercept = as.Date("2020-03-31")) + 
+  geom_vline(xintercept = as.Date("2020-04-08")) + 
+  geom_vline(xintercept = as.Date("2020-04-18")) + 
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  ggtitle("Totaal aantal COVID-19 patiënten in Tilburg") +
+  ggsave("plots/remarks_plot_tilburg.png", width = 5.5, height=4)
+
+
