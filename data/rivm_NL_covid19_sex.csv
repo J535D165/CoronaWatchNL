@@ -530,3 +530,12 @@ Datum,Geslacht,Type,Aantal
 2020-05-20,Man,Overleden,3181
 2020-05-20,Vrouw,Overleden,2567
 2020-05-20,Niet vermeld,Overleden,0
+2020-05-21,Man,Totaal,16385
+2020-05-21,Vrouw,Totaal,28244
+2020-05-21,Niet vermeld,Totaal,71
+2020-05-21,Man,Ziekenhuisopname,7115
+2020-05-21,Vrouw,Ziekenhuisopname,4517
+2020-05-21,Niet vermeld,Ziekenhuisopname,8
+2020-05-21,Man,Overleden,3195
+2020-05-21,Vrouw,Overleden,2580
+2020-05-21,Niet vermeld,Overleden,0
