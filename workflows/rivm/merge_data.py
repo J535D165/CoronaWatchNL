@@ -28,6 +28,25 @@ DF_MUNICIPALITIES = pandas.read_csv(
 )[["Gemeentecode", "Gemeentenaam", "Provincienaam", "Provinciecode"]]
 
 
+def transform_api_datasets():
+
+    df = pandas.read_csv(
+        Path("raw_data", "rivm_api", "COVID-19_aantallen_gemeente_cumulatief-2020-05-21.csv"),
+        ";"
+    )
+
+    df["Date_of_report"] = df["Date_of_report"].str[0:10]
+    df["Municipality_code"] = df["Municipality_code"].str[2:6].fillna(-1).astype(int)
+
+    df = df \
+        .groupby(["Date_of_report", "Municipality_code"])["Total_reported", "Hospital_admission", "Deceased"] \
+        .sum().reset_index().rename({"Date_of_report":"Datum","Municipality_code":"Gemeentecode"}, axis=1) \
+        .merge(DF_MUNICIPALITIES, on="Gemeentecode", how="left")
+
+    df = convert_to_int(df, ["Provinciecode"])
+
+    return df
+
 def list_files():
 
     return [p for p in Path('raw_data').iterdir() if p.is_file()]
@@ -206,6 +225,11 @@ def merge_hosp():
     for k, v in n_missing.items():
         df.loc[(df["Datum"] == k) & (df["Gemeentecode"] == -1), "Aantal"] = v
 
+    df_rivm_api = transform_api_datasets()[["Datum", "Gemeentecode", "Gemeentenaam", "Provincienaam", "Provinciecode", "Hospital_admission"]]
+    df_rivm_api = df_rivm_api.rename({"Hospital_admission": "Aantal"}, axis=1)
+    df_not_in_rivm_api = df[~df["Datum"].isin(df_rivm_api["Datum"].unique())]
+    df = pandas.concat([df_rivm_api, df_not_in_rivm_api], axis=0)
+
     df.sort_values(["Datum", "Gemeentecode"], inplace=True)
 
     print(df.tail())
@@ -278,6 +302,11 @@ def merge_postest():
     for k, v in n_missing.items():
         df.loc[(df["Datum"] == k) & (df["Gemeentecode"] == -1), "Aantal"] = v
 
+    df_rivm_api = transform_api_datasets()[["Datum", "Gemeentecode", "Gemeentenaam", "Provincienaam", "Provinciecode", "Total_reported"]]
+    df_rivm_api = df_rivm_api.rename({"Total_reported": "Aantal"}, axis=1)
+    df_not_in_rivm_api = df[~df["Datum"].isin(df_rivm_api["Datum"].unique())]
+    df = pandas.concat([df_rivm_api, df_not_in_rivm_api], axis=0)
+
     df.sort_values(["Datum", "Gemeentecode"], inplace=True)
 
     df.to_csv(Path("data", "rivm_NL_covid19_total_municipality.csv"), index=False)
@@ -347,6 +376,11 @@ def merge_dead():
     for k, v in n_missing.items():
         df.loc[(df["Datum"] == k) & (df["Gemeentecode"] == -1), "Aantal"] = v
 
+    df_rivm_api = transform_api_datasets()[["Datum", "Gemeentecode", "Gemeentenaam", "Provincienaam", "Provinciecode", "Deceased"]]
+    df_rivm_api = df_rivm_api.rename({"Deceased": "Aantal"}, axis=1)
+    df_not_in_rivm_api = df[~df["Datum"].isin(df_rivm_api["Datum"].unique())]
+    df = pandas.concat([df_rivm_api, df_not_in_rivm_api], axis=0)
+
     df.sort_values(["Datum", "Gemeentecode"], inplace=True)
 
     print(df.tail())
@@ -360,4 +394,3 @@ if __name__ == '__main__':
     merge_postest()
 
     merge_dead()
-

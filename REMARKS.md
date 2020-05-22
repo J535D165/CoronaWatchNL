@@ -4,7 +4,9 @@
 
 Since 3 March 2020, RIVM reports the number of diagnoses with the coronavirus and their municipality of residence on a daily base. The data contains the total number of positively tested patients. It is not a dataset with the current number of sick people in the Netherlands. The RIVM does not currently provide data on people who have been cured.
 
-## Missing data on municipality level
+## Missing data on municipality level ([RESOLVED #119](https://github.com/J535D165/CoronaWatchNL/pull/119))
+
+
 
 A part of the data on municipal and provincial level is missing because they were not provided by RIVM. The following dates are important to take into acccount:
 
@@ -14,7 +16,7 @@ A part of the data on municipal and provincial level is missing because they wer
 
 See the following chart of the municipality of Tilburg to get a feeling for this incompleteness.
 
-[![plots/remarks_plot_tilburg.png](plots/remarks_plot_tilburg.png)](plots)
+[![plots/remarks_plot_tilburg.png](https://github.com/J535D165/CoronaWatchNL/raw/ce50153440309daa5e1b5d01055c6fdcda313bee/plots/remarks_plot_tilburg.png)](plots)
 
 ## Differences between total on website and timeseries provided by RIVM
 
