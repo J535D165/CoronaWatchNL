@@ -1,7 +1,7 @@
 Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCumulatief
-2020-05-21,-1,,,-1,Totaal,491,873
-2020-05-21,-1,,,-1,Ziekenhuisopname,126,189
-2020-05-21,-1,,,-1,Overleden,77,94
+2020-05-21,-1,,,-1,Totaal,27,409
+2020-05-21,-1,,,-1,Ziekenhuisopname,0,63
+2020-05-21,-1,,,-1,Overleden,0,17
 2020-05-21,3,Appingedam,Groningen,20,Totaal,0,5
 2020-05-21,3,Appingedam,Groningen,20,Ziekenhuisopname,0,3
 2020-05-21,3,Appingedam,Groningen,20,Overleden,0,0
@@ -662,9 +662,9 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-05-21,794,Helmond,Noord-Brabant,30,Totaal,0,346
 2020-05-21,794,Helmond,Noord-Brabant,30,Ziekenhuisopname,0,114
 2020-05-21,794,Helmond,Noord-Brabant,30,Overleden,0,40
-2020-05-21,796,'s-Hertogenbosch,Noord-Brabant,30,Totaal,-464,0
-2020-05-21,796,'s-Hertogenbosch,Noord-Brabant,30,Ziekenhuisopname,-126,0
-2020-05-21,796,'s-Hertogenbosch,Noord-Brabant,30,Overleden,-77,0
+2020-05-21,796,'s-Hertogenbosch,Noord-Brabant,30,Totaal,0,464
+2020-05-21,796,'s-Hertogenbosch,Noord-Brabant,30,Ziekenhuisopname,0,126
+2020-05-21,796,'s-Hertogenbosch,Noord-Brabant,30,Overleden,0,77
 2020-05-21,797,Heusden,Noord-Brabant,30,Totaal,0,135
 2020-05-21,797,Heusden,Noord-Brabant,30,Ziekenhuisopname,0,44
 2020-05-21,797,Heusden,Noord-Brabant,30,Overleden,0,22

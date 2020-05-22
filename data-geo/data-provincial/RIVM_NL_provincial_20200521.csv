@@ -1,7 +1,7 @@
 Datum,Provincienaam,Provinciecode,Type,Aantal,AantalCumulatief
-2020-05-21,,-1,Overleden,77,94
-2020-05-21,,-1,Totaal,491,873
-2020-05-21,,-1,Ziekenhuisopname,126,189
+2020-05-21,,-1,Overleden,0,17
+2020-05-21,,-1,Totaal,27,409
+2020-05-21,,-1,Ziekenhuisopname,0,63
 2020-05-21,Groningen,20,Overleden,0,15
 2020-05-21,Groningen,20,Totaal,2,346
 2020-05-21,Groningen,20,Ziekenhuisopname,0,74
@@ -32,9 +32,9 @@ Datum,Provincienaam,Provinciecode,Type,Aantal,AantalCumulatief
 2020-05-21,Zeeland,29,Overleden,0,63
 2020-05-21,Zeeland,29,Totaal,8,651
 2020-05-21,Zeeland,29,Ziekenhuisopname,0,150
-2020-05-21,Noord-Brabant,30,Overleden,-76,1412
-2020-05-21,Noord-Brabant,30,Totaal,-443,8278
-2020-05-21,Noord-Brabant,30,Ziekenhuisopname,-126,2609
+2020-05-21,Noord-Brabant,30,Overleden,1,1489
+2020-05-21,Noord-Brabant,30,Totaal,21,8742
+2020-05-21,Noord-Brabant,30,Ziekenhuisopname,0,2735
 2020-05-21,Limburg,31,Overleden,3,713
 2020-05-21,Limburg,31,Totaal,16,4554
 2020-05-21,Limburg,31,Ziekenhuisopname,1,1540
