@@ -548,3 +548,12 @@ Datum,Geslacht,Type,Aantal,AantalCumulatief
 2020-05-22,Man,Overleden,8,3203
 2020-05-22,Vrouw,Overleden,5,2585
 2020-05-22,Niet vermeld,Overleden,0,0
+2020-05-23,Man,Totaal,84,16534
+2020-05-23,Vrouw,Totaal,97,28464
+2020-05-23,Niet vermeld,Totaal,-5,66
+2020-05-23,Man,Ziekenhuisopname,8,7133
+2020-05-23,Vrouw,Ziekenhuisopname,2,4518
+2020-05-23,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-23,Man,Overleden,14,3217
+2020-05-23,Vrouw,Overleden,9,2594
+2020-05-23,Niet vermeld,Overleden,0,0
