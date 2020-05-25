@@ -79,6 +79,7 @@ read_csv("data-desc/data-sex/RIVM_NL_sex.csv") %>%
 
 # Sex: Cumulatief
 read_csv("data-desc/data-sex/RIVM_NL_sex.csv") %>%
+  filter(Geslacht %in% c("Man", "Vrouw")) %>%
   mutate(Type = factor(Type, c("Totaal", "Ziekenhuisopname", "Overleden"))) %>%
   ggplot(aes(x = Datum, y = AantalCumulatief, colour = Type, linetype= Geslacht)) +
   geom_line() +
