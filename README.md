@@ -79,10 +79,10 @@ The intensive care datasets describe the new and cumulative number of COVID-19 i
 #### Visualizations intensive care
 The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) COVID-19 ICU admissions per day, as declared by NICE. The total number of ICU admissions per day as reported by LCPS is also shown.
 
-[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_intakes_country.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots) [<img src="plots/ic_lcps_nice_country.png" width="430">](plots)
+[<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_intakes_country.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots)
 
 
-##### Intensive care: RIVM, LCPS, NICE
+#### Intensive care: RIVM, LCPS, NICE
 CoronaWatchNL reports COVID-19 related hospital data of three different sources: RIVM, LCPS and NICE.
 
 * **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care unit (ICU) admissions. These are the highest and most inclusive counts.
@@ -121,9 +121,9 @@ The following datasets are awaiting deprecation. They are replaced by new datase
 | [COVID-19 disease case counts in NL](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
 | [COVID-19 fatalities in NL](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
 | [COVID-19 hospitalizations in NL](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*\*](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
+| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
 
-**\*\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality.
+**\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality.
 
 ### Inactive
 
