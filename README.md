@@ -27,13 +27,11 @@ The following datasets contain newly reported cases.
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Newly reported case counts by date in NL\*](data-geo#national) | RIVM | Date, Type (Total, hopitalized and deceased patients), (Cumulative) Count|
-| [Newly reported case counts by date in NL per province\*](data-geo#provincial) | RIVM | Date, Type (Total, hopitalized and deceased patients), Province, (Cumulative) Count |
-| [Newly reported case counts by date in NL per municipality\*](data-geo#municipal) | RIVM | Date, Type (Total, hopitalized and deceased patients), Municipality, (Cumulative) Count |
-| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*\*](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
+| [Newly reported case counts by date in NL\*](data-geo#national) | RIVM | Date, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+| [Newly reported case counts by date in NL per province\*](data-geo#provincial) | RIVM | Date, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Newly reported case counts by date in NL per municipality\*](data-geo#municipal) | RIVM | Date, Municipality, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
 
 **\*** For more detail about the specific structure of the geographical datasets, have a look at the `data-geo`[codebook](/data-geo/README.md). <br/>
-**\*\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality.
 
 The following datasets contain the actual case counts on the given date.
 
@@ -52,32 +50,32 @@ To get a better picture of the content of the geographical datasets, have a look
 
 ### Descriptive datasets
 
-The datasets in this section contains variables like age and sex.
+The datasets in this section describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day and contain variables like age and sex.
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Case counts in NL per age](data-desc#age) | RIVM | Date, Age group, Type, Number of newly diagnosed, hospitalized, and deceased COVID-19 disease cases in NL|
-| [Case counts in NL per sex](data-desc#sex) | RIVM | Date, Gender group, Type, Number of newly diagnosed, hospitalized, and deceased COVID-19 disease cases in NL|
+| [Case counts in NL per age](data-desc#age) | RIVM | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Case counts in NL per sex](data-desc#sex) | RIVM | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
 
 #### Visualizations descriptive data
 
-The graphs displayed below visualize the impact of age and sex on the development of the COVID-19 disease outbreak.
+The graphs below visualize the development of the COVID-19 disease outbreak per sex and age group.
 
 [<img src="plots/overview_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_plot_geslacht.png" width="430">](plots)[<img src="plots/toename_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_toename_geslacht.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd_cum.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd.png" width="430">](plots)
 
 ### Intensive care datasets
 
-The IC datasets describe the new and cumulative number of hospitalized COVID-19 cases per day. The datasets are categorized by their source.
+The intensive care datasets describe the new and cumulative number of COVID-19 intensive care unit (ICU) admissions per day. The datasets are categorized by their source.
 
 | Dataset | Source | Variables |
 | --- | --- | --- |
-| [COVID-19 intensive care patient counts in NL ](data-ic#nice) | Stichting NICE | Date, New intake of positive IC patients, Total of positive patients currently in IC, Total of positive patients ever in IC, Total of ICUs with currently at least one positive patient, New and total fatal IC cases, New and total survived IC cases, and Total discharged IC cases |
-| [COVID-19 intensive care patient counts with country of hospitalisation ](data-ic#lcps) | LCPS | Date, Country of Hospitalization, Total of positive Dutch patients currently in IC |
+| [COVID-19 intensive care patient counts in NL ](data-ic#nice) | Stichting NICE | Date, New, Total and Cumulative ICU admissions per day, Number of ICUs with at least one COVID-19 case, New and Cumulative fatal, survived and discharged ICU admissions |
+| [COVID-19 intensive care patient counts with country of hospitalisation ](data-ic#lcps) | LCPS | Date, Country of Hospitalization, Total COVID-19 ICU admissions |
 
 **\*** For more detail about the specific structure of the intensive care datasets, have a look at the `data-ic`[codebook](/data-ic/README.md). <br/>
 
 #### Visualizations intensive care
-The first two graphs show the number of newly (*Nieuw*), currently (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) hospitalized COVID-19 cases per day, as declared by NICE. The number of currently hospitalized patients per day as reported by LCPS can be seen in the third graph.
+The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) COVID-19 ICU admissions per day, as declared by NICE. The total number of ICU admissions per day as reported by LCPS is also shown.
 
 [<img src="plots/ic_nice_intakes.png" width="430">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="430">](plots) [<img src="plots/ic_lcps_intakes.png" width="430">](plots) [<img src="plots/ic_lcps_intakes_country.png" width="430">](plots) [<img src="plots/ic_lcps_nice.png" width="430">](plots) [<img src="plots/ic_lcps_nice_country.png" width="430">](plots)
 
@@ -85,9 +83,9 @@ The first two graphs show the number of newly (*Nieuw*), currently (*Actueel*), 
 ##### Intensive care: RIVM, LCPS, NICE
 CoronaWatchNL reports COVID-19 related hospital data of three different sources: RIVM, LCPS and NICE.
 
-* **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care intakes. These are the highest and most inclusive counts.
-* **NICE** only reports COVID-19 cases that are taken into the IC unit.
-* **LCPS**, similarly to NICE, reports IC intakes of COVID-19 cases. However, LCPS tries to compensate for the reporting lag, by estimating its size and adding it to the numbers reported by NICE. These estimates are not corrected, resulting in consistently higher counts compared to NICE.
+* **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care unit (ICU) admissions. These are the highest and most inclusive counts.
+* **NICE** only reports COVID-19 cases that are admitted to the ICU.
+* **LCPS**, similarly to NICE, reports COVID-19 ICU admissions. However, LCPS tries to compensate for the reporting lag, by estimating its size and adding it to the numbers reported by NICE. These estimates are not corrected, resulting in consistently higher counts compared to NICE.
 
 [<img src="plots/overview_IC_data.png" width="430">](plots) [<img src="plots/overview_IC_nieuw.png" width="430">](plots) [<img src="plots/overview_IC_actueel.png" width="430">](plots) [<img src="plots/overview_IC_totaal.png" width="430">](plots)
 
@@ -98,13 +96,13 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [COVID-19 tests in NL per week](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Number of tests |
+| [COVID-19 tests in NL per week](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
 | [COVID-19 measures by the government (NEW)](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
 | [RIVM press releases](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
 
 #### Visualizations miscellaneous data
 
-These graphs display the number of (positively) tested people per week (the end date of each week - Sunday - is used as indicator for the specific weeks).
+These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.
 
 [<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots)
 
@@ -119,6 +117,9 @@ The following datasets are awaiting deprecation. They are replaced by new datase
 | [COVID-19 disease case counts in NL](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
 | [COVID-19 fatalities in NL](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
 | [COVID-19 hospitalizations in NL](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*\*](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
+
+**\*\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality.
 
 ### Inactive
 
@@ -132,7 +133,7 @@ The following datasets are no longer appended with new data (because RIVM is no 
 
 ## Raw data
 
-CoronaWatchNL collects copies of the raw data such that data collection is verifiable. Copies of the collected data can be found in the folder [raw_data/](raw_data/). The data isn't standardised.
+CoronaWatchNL collects copies of the raw data such that data collection is verifiable. Copies of the collected data can be found in the folder [raw_data](raw_data/). The data isn't standardised.
 
 
 ## Data collection sources
@@ -141,14 +142,14 @@ The following sources are used for data collection.
 
 | Source | Institute |Collected variables |
 |---|---| --- |
-| https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus | RIVM | Positively tested patients, Fatalities (total), Hospitalized (total) |
+| https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus | RIVM | Total, hopitalized and deceased COVID-19 cases |
 | https://www.rivm.nl/coronavirus-kaart-van-nederland-per-gemeente | RIVM | Positive tests per municipality |
 | https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus/data | RIVM | Epidemiological reports |
-| https://www.stichting-nice.nl/ | Stichting NICE | Postively tested patients admitted to IC, Number of ICUs with positively tested patient(s), Number of fatal IC cases, Number of survived IC cases  |
+| https://www.stichting-nice.nl/ | Stichting NICE | New, total, cumulative number of COVID-19 ICU admissions, Number of ICUs with positively tested patient(s), Number of fatal, survived and discharged ICU admissions |
 
 ## Remarks
 
-Please see the [Remarks](REMARKS.md) document. Do you have remarks? Please let us know.
+Please see the [Remarks](REMARKS.md) document for notes about the datasets. Do you have remarks? Please let us know.
 
 
 ## License and academic use
