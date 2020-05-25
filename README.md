@@ -54,8 +54,10 @@ The datasets in this section describe the new and cumulative number of confirmed
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Case counts in NL per age](data-desc#age) | RIVM | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
-| [Case counts in NL per sex](data-desc#sex) | RIVM | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+| [Case counts in NL per age\*](data-desc#age) | RIVM | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Case counts in NL per sex\*](data-desc#sex) | RIVM | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+
+**\*** For more detail about the specific structure of the descriptive datasets, have a look at the `data-desc`[codebook](/data-desc/README.md). <br/>
 
 #### Visualizations descriptive data
 
@@ -96,9 +98,11 @@ This dataset shows the total number of tested people and the corresponding numbe
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [COVID-19 tests in NL per week](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
-| [COVID-19 measures by the government (NEW)](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
-| [RIVM press releases](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
+| [COVID-19 tests in NL per week\*](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
+| [COVID-19 measures by the government (NEW)\*](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
+| [RIVM press releases\*](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
+
+**\*** For more detail about the specific structure of the miscellaneous datasets, have a look at the `data-misc`[codebook](/data-misc/README.md). <br/>
 
 #### Visualizations miscellaneous data
 
