@@ -18,6 +18,7 @@ jobs:
       - name: Download and merge
         run: |
           python workflows/lcps/lcps.py
+          python workflows/lcps/data-ic_lcps.py
       - name: Commit files
         run: |
           git config --local user.email "jonathandebruinos@gmail.com"
