@@ -56,6 +56,7 @@ The datasets in this section describe the new and cumulative number of confirmed
 |---|---| --- |
 | [Case counts in NL per age\*](data-desc#age) | RIVM | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
 | [Case counts in NL per sex\*](data-desc#sex) | RIVM | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+| [Deceased case counts in NL per sex and age group\*](data-desc#deceased) | RIVM | Date, Age group, Sex, (Cumulative) Count of deceased cases |
 
 **\*** For more detail about the specific structure of the descriptive datasets, have a look at the `data-desc`[codebook](/data-desc/README.md). <br/>
 
@@ -63,7 +64,8 @@ The datasets in this section describe the new and cumulative number of confirmed
 
 The graphs below visualize the development of the COVID-19 disease outbreak per sex and age group.
 
-[<img src="plots/overview_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_plot_geslacht.png" width="430">](plots)[<img src="plots/toename_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_toename_geslacht.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd_cum.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd.png" width="430">](plots)
+[<img src="plots/overview_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_plot_geslacht.png" width="430">](plots)[<img src="plots/toename_plot_geslacht.png" width="430">](plots)[<img src="plots/ratio_toename_geslacht.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd_cum.png" width="430">](plots)[<img src="plots/overview_plot_leeftijd.png" width="430">](plots)[<img src="plots/deceased_age_sex.png" width="430">](plots)[<img src="plots/deceased_age_sex_toename.png" width="430">](plots)
+
 
 ### Intensive care datasets
 
