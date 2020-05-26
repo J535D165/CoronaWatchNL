@@ -94,12 +94,13 @@ CoronaWatchNL reports COVID-19 related hospital data of three different sources:
 
 ### Miscellaneous datasets
 
-This dataset shows the total number of tested people and the corresponding number of positively tested COVID-19 cases per week.
+This folder contains datasets with the total number of tested people and the corresponding number of positively tested COVID-19 cases per week. The underlying conditions and/or pregnancy of deceased COVID-19 cases younger than 70 can also be found here.
 
 | Dataset | Source | Variables |
 |---|---| --- |
 | [COVID-19 tests in NL per week\*](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
 | [COVID-19 measures by the government (NEW)\*](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
+| [Underlying conditions and/or pregnancy in deceased COVID-19 cased under the age of 70\*](data-misc#underlying) | RIVM | Date, Type of condition, Cumulative count |
 | [RIVM press releases\*](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
 
 **\*** For more detail about the specific structure of the miscellaneous datasets, have a look at the `data-misc`[codebook](/data-misc/README.md). <br/>
@@ -109,6 +110,12 @@ This dataset shows the total number of tested people and the corresponding numbe
 These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.
 
 [<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots)
+
+Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. 
+[<img src="plots/conditions_statistics.png" width="430">](plots)
+
+The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. 
+[<img src="plots/underlying_conditions.png" width="430">](plots)
 
 ## Inactive/deprecated datasets
 
