@@ -384,4 +384,3 @@ read_csv("data-geo/data-municipal/RIVM_NL_municipal.csv") %>%
   ggtitle("Totaal aantal COVID-19 patiënten in Tilburg") +
   ggsave("plots/remarks_plot_tilburg.png", width = 5.5, height=4)
 
-
