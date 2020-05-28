@@ -136,3 +136,48 @@ sex %>%
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("COVID-19 patiënten Man:Vrouw ratio") +
   ggsave("plots/ratio_plot_geslacht.png", width = 5.5, height=4)
+
+### Descriptives deceased cases
+read_csv("data-desc/data-deceased/RIVM_NL_deceased_age_sex.csv") %>%
+  filter(LeeftijdGroep != "Niet vermeld") %>%
+  mutate(
+    groep = ifelse(LeeftijdGroep %in% c("0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59"), "0-59", NA),
+    groep = ifelse(LeeftijdGroep %in% c("60-64", "65-69", "70-74"), "60-74", groep),
+    groep = ifelse(LeeftijdGroep %in% c("75-79", "80-84", "85-89", "90-94", "95+"), "75+", groep)
+  ) %>%
+  group_by(Datum, groep, Geslacht) %>%
+  summarize(Aantal = sum(AantalCumulatief)) %>%
+  ggplot(aes(x = Datum, y = Aantal, group = interaction(Geslacht, groep), colour = Geslacht, linetype=groep)) +
+  geom_line() +
+  theme_minimal() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  ggtitle("Totaal overleden gevallen per geslacht en leeftijdsgroep") +
+  ggsave("plots/deceased_age_sex.png", width = 5.5, height=4)
+
+
+read_csv("data-desc/data-deceased/RIVM_NL_deceased_age_sex.csv") %>%
+  filter(Datum != "2020-04-07") %>%
+  filter(LeeftijdGroep != "Niet vermeld") %>%
+  mutate(
+    groep = ifelse(LeeftijdGroep %in% c("0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59"), "0-59", NA),
+    groep = ifelse(LeeftijdGroep %in% c("60-64", "65-69", "70-74"), "60-74", groep),
+    groep = ifelse(LeeftijdGroep %in% c("75-79", "80-84", "85-89", "90-94", "95+"), "75+", groep)
+  ) %>%
+  group_by(Datum, groep, Geslacht) %>%
+  summarize(Aantal = sum(Aantal)) %>%
+  ggplot(aes(x = Datum, y = Aantal, group = interaction(Geslacht, groep), colour = Geslacht, linetype=groep)) +
+  geom_line() +
+  theme_minimal() +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, NA))+
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  ggtitle("Nieuwe overleden gevallen per geslacht en leeftijdsgroep per dag") +
+  ggsave("plots/deceased_age_sex_toename.png", width = 5.5, height=4)
