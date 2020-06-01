@@ -45,3 +45,35 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **startDate** | Date on which the measure was first enforced | YYYY-MM-DD (ISO 8601) | 2020-03-16|
 | **endDate** | Date on which the measure was no longer enforced | YYYY-MM-DD (ISO 8601) | 2020-04-06 |
 | **notes** | Notes about the measure | character string | Child care facilities open only for childrens of parents working in crucial departments (doctors, police etc...). Restriction valid until April 6th|
+
+### Underlying 
+
+For deceased COVID-19 cases younger than 70, RIVM reported whether or not they suffered from underlying conditions and/or were pregnant. The number of deceased patients with and without underlying disorders and/or pregnancy are listed in [data-underlying_statistics](#underlying-statistics). The number of detected underlying conditions and/or pregnancies can be found in [data-underlying_conditions](#underlying-conditions).
+
+#### Underlying statistics
+
+**Directory:** [data-misc/data-underlying/data-underlying_statistics](data-underlying/data-underlying_statistics) <br>
+**Daily file format:** RIVM_NL_deceased_under70_statistics_yyyy-mm-dd.csv<br>
+**Latest file format:** [RIVM_NL_deceased_under70_statistics_latest.csv](data-underlying/data-underlying_statistics/RIVM_NL_deceased_under70_statistics_latest.csv)<br>
+**Complete file format:** [RIVM_NL_deceased_under70_statistics.csv](data-underlying/data-underlying_statistics/RIVM_NL_deceased_under70_statistics.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
+| **Type** | Type | Type of test measurement (i.e., Totaal gemeld, Onderliggende aandoeningen en/of zwangerschap, Geen onderliggende aandoening, Niet vermeld) | character | Onderliggende aandoening en/of zwangerschap |
+| **AantalCumulatief** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 (*Totaal gemeld*) with (*Onderliggende aandoening en/of zwangerschap*) or without (*Geen onderliggende aandoening*) an underlying condition and/or pregnancy, and the cumulative count of cases where it was unknown whether they had an underlying condition and/or were pregnant (*Niet vermeld*) | 218 |
+
+#### Underlying conditions
+
+**Directory:** [data-misc/data-underlying/data-underlying_conditions](data-underlying/data-underlying_conditions) <br>
+**Daily file format:** RIVM_NL_deceased_under70_conditions_yyyy-mm-dd.csv<br>
+**Latest file format:** [RIVM_NL_deceased_under70_conditions_latest.csv](data-underlying/data-underlying_conditions/RIVM_NL_deceased_under70_conditions_latest.csv)<br>
+**Complete file format:** [RIVM_NL_deceased_under70_conditions.csv](data-underlying/data-underlying_conditions/RIVM_NL_deceased_under70_conditions.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
+| **Type** | Type | Type of test measurement (i.e., Zwangerschap, Cardio-vasculaire aandoeningen en hypertensie, Diabetes, Leveraandoening, Chronische neurologische of neuromusculaire aandoeningen, Immuundeficientie, Nieraandoening, Chronische longaandoeningen, Maligniteit, Overig) | character | Nieraandoening |
+| **AantalCumulatief\*** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 that suffered from cardio vascular conditions and hypertension (*Cardio-vasculaire aandoeningen en hypertensie*), Diabetes, Liver condition (*Leveraandoening*), Chronic neurological or neuromuscular conditions (*Chronische neurologische of neuromusculaire aandoeningen*), Immunodeficiency (*Immuundeficientie*), Kidney conditions (*Nieraandoening*), Chronic lung conditions (*Chronische longaandoeningen*), Malignancy (*Magligniteit*), or other conditions (*Overig*), or that were pregnant (*Zwangerschap*) | 12 |
+
+**\*** Note that one patient can have multiple conditions. Therefore, the sum of the cumulatives per condition is higher than the cumulative number of deceased patients with a known underlying condition and/or pregnancy as mentioned in [data-underlying_statistics](#underlying-statistics).
