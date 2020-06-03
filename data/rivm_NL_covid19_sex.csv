@@ -457,7 +457,7 @@ Datum,Geslacht,Type,Aantal
 2020-05-12,Niet vermeld,Ziekenhuisopname,8
 2020-05-12,Man,Overleden,3070
 2020-05-12,Vrouw,Overleden,2440
-2020-05-12,Niet vermeld,Overleden,
+2020-05-12,Niet vermeld,Overleden,0
 2020-05-13,Man,Totaal,15875
 2020-05-13,Vrouw,Totaal,27281
 2020-05-13,Niet vermeld,Totaal,55
@@ -647,3 +647,12 @@ Datum,Geslacht,Type,Aantal
 2020-06-02,Man,Overleden,3291
 2020-06-02,Vrouw,Overleden,2676
 2020-06-02,Niet vermeld,Overleden,0
+2020-06-03,Man,Totaal,17275
+2020-06-03,Vrouw,Totaal,29367
+2020-06-03,Niet vermeld,Totaal,91
+2020-06-03,Man,Ziekenhuisopname,7199
+2020-06-03,Vrouw,Ziekenhuisopname,4552
+2020-06-03,Niet vermeld,Ziekenhuisopname,8
+2020-06-03,Man,Overleden,3297
+2020-06-03,Vrouw,Overleden,2680
+2020-06-03,Niet vermeld,Overleden,0

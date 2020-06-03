@@ -7,8 +7,8 @@ python workflows/rivm/merge_website_charts.py
 python workflows/nice/nice_download_merge.py
 python workflows/nice/data-ic_nice.py
 python workflows/lcps/data-ic_lcps.py
-pdftotext reports/COVID-19_epidemiological_report_20200602.pdf
+pdftotext reports/COVID-19_epidemiological_report_20200603.pdf
 python workflows/rivm_pdf/parse_pdf_table.py
 python workflows/rivm/data_rivm_desc.py
-
+python tests.py
 

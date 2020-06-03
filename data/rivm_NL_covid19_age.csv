@@ -3211,7 +3211,7 @@ Datum,LeeftijdGroep,Type,Aantal
 2020-05-12,85-89,Overleden,1224
 2020-05-12,90-94,Overleden,724
 2020-05-12,95+,Overleden,266
-2020-05-12,Niet vermeld,Overleden,
+2020-05-12,Niet vermeld,Overleden,0
 2020-05-13,0-4,Totaal,79
 2020-05-13,5-9,Totaal,19
 2020-05-13,10-14,Totaal,53
@@ -4535,3 +4535,66 @@ Datum,LeeftijdGroep,Type,Aantal
 2020-06-02,90-94,Overleden,803
 2020-06-02,95+,Overleden,296
 2020-06-02,Niet vermeld,Overleden,0
+2020-06-03,0-4,Totaal,100
+2020-06-03,5-9,Totaal,41
+2020-06-03,10-14,Totaal,95
+2020-06-03,15-19,Totaal,541
+2020-06-03,20-24,Totaal,2005
+2020-06-03,25-29,Totaal,2475
+2020-06-03,30-34,Totaal,2249
+2020-06-03,35-39,Totaal,1963
+2020-06-03,40-44,Totaal,2213
+2020-06-03,45-49,Totaal,3182
+2020-06-03,50-54,Totaal,4084
+2020-06-03,55-59,Totaal,4485
+2020-06-03,60-64,Totaal,3666
+2020-06-03,65-69,Totaal,2357
+2020-06-03,70-74,Totaal,2926
+2020-06-03,75-79,Totaal,3351
+2020-06-03,80-84,Totaal,3835
+2020-06-03,85-89,Totaal,3960
+2020-06-03,90-94,Totaal,2412
+2020-06-03,95+,Totaal,790
+2020-06-03,Niet vermeld,Totaal,3
+2020-06-03,0-4,Ziekenhuisopname,46
+2020-06-03,5-9,Ziekenhuisopname,2
+2020-06-03,10-14,Ziekenhuisopname,8
+2020-06-03,15-19,Ziekenhuisopname,29
+2020-06-03,20-24,Ziekenhuisopname,63
+2020-06-03,25-29,Ziekenhuisopname,110
+2020-06-03,30-34,Ziekenhuisopname,157
+2020-06-03,35-39,Ziekenhuisopname,193
+2020-06-03,40-44,Ziekenhuisopname,281
+2020-06-03,45-49,Ziekenhuisopname,585
+2020-06-03,50-54,Ziekenhuisopname,853
+2020-06-03,55-59,Ziekenhuisopname,1143
+2020-06-03,60-64,Ziekenhuisopname,1294
+2020-06-03,65-69,Ziekenhuisopname,1343
+2020-06-03,70-74,Ziekenhuisopname,1692
+2020-06-03,75-79,Ziekenhuisopname,1626
+2020-06-03,80-84,Ziekenhuisopname,1237
+2020-06-03,85-89,Ziekenhuisopname,803
+2020-06-03,90-94,Ziekenhuisopname,251
+2020-06-03,95+,Ziekenhuisopname,43
+2020-06-03,Niet vermeld,Ziekenhuisopname,0
+2020-06-03,0-4,Overleden,0
+2020-06-03,5-9,Overleden,0
+2020-06-03,10-14,Overleden,0
+2020-06-03,15-19,Overleden,1
+2020-06-03,20-24,Overleden,0
+2020-06-03,25-29,Overleden,3
+2020-06-03,30-34,Overleden,4
+2020-06-03,35-39,Overleden,7
+2020-06-03,40-44,Overleden,5
+2020-06-03,45-49,Overleden,23
+2020-06-03,50-54,Overleden,46
+2020-06-03,55-59,Overleden,97
+2020-06-03,60-64,Overleden,162
+2020-06-03,65-69,Overleden,327
+2020-06-03,70-74,Overleden,618
+2020-06-03,75-79,Overleden,989
+2020-06-03,80-84,Overleden,1245
+2020-06-03,85-89,Overleden,1348
+2020-06-03,90-94,Overleden,806
+2020-06-03,95+,Overleden,296
+2020-06-03,Niet vermeld,Overleden,0
