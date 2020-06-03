@@ -3211,7 +3211,7 @@ Datum,LeeftijdGroep,Type,Aantal,AantalCumulatief
 2020-05-12,85-89,Overleden,11,1224
 2020-05-12,90-94,Overleden,15,724
 2020-05-12,95+,Overleden,3,266
-2020-05-12,Niet vermeld,Overleden,,
+2020-05-12,Niet vermeld,Overleden,0,0
 2020-05-13,0-4,Totaal,0,79
 2020-05-13,5-9,Totaal,0,19
 2020-05-13,10-14,Totaal,0,53
@@ -3274,7 +3274,7 @@ Datum,LeeftijdGroep,Type,Aantal,AantalCumulatief
 2020-05-13,85-89,Overleden,13,1237
 2020-05-13,90-94,Overleden,13,737
 2020-05-13,95+,Overleden,2,268
-2020-05-13,Niet vermeld,Overleden,,0
+2020-05-13,Niet vermeld,Overleden,0,0
 2020-05-14,0-4,Totaal,2,81
 2020-05-14,5-9,Totaal,1,20
 2020-05-14,10-14,Totaal,0,53
@@ -4472,3 +4472,66 @@ Datum,LeeftijdGroep,Type,Aantal,AantalCumulatief
 2020-06-01,90-94,Overleden,1,802
 2020-06-01,95+,Overleden,0,296
 2020-06-01,Niet vermeld,Overleden,0,0
+2020-06-02,0-4,Totaal,0,100
+2020-06-02,5-9,Totaal,1,40
+2020-06-02,10-14,Totaal,6,95
+2020-06-02,15-19,Totaal,4,540
+2020-06-02,20-24,Totaal,6,1996
+2020-06-02,25-29,Totaal,6,2461
+2020-06-02,30-34,Totaal,9,2243
+2020-06-02,35-39,Totaal,10,1956
+2020-06-02,40-44,Totaal,12,2209
+2020-06-02,45-49,Totaal,8,3173
+2020-06-02,50-54,Totaal,8,4079
+2020-06-02,55-59,Totaal,8,4476
+2020-06-02,60-64,Totaal,5,3662
+2020-06-02,65-69,Totaal,2,2354
+2020-06-02,70-74,Totaal,3,2925
+2020-06-02,75-79,Totaal,3,3345
+2020-06-02,80-84,Totaal,1,3835
+2020-06-02,85-89,Totaal,6,3957
+2020-06-02,90-94,Totaal,2,2409
+2020-06-02,95+,Totaal,2,789
+2020-06-02,Niet vermeld,Totaal,0,3
+2020-06-02,0-4,Ziekenhuisopname,-1,46
+2020-06-02,5-9,Ziekenhuisopname,0,2
+2020-06-02,10-14,Ziekenhuisopname,0,8
+2020-06-02,15-19,Ziekenhuisopname,0,29
+2020-06-02,20-24,Ziekenhuisopname,0,63
+2020-06-02,25-29,Ziekenhuisopname,0,110
+2020-06-02,30-34,Ziekenhuisopname,1,157
+2020-06-02,35-39,Ziekenhuisopname,0,193
+2020-06-02,40-44,Ziekenhuisopname,0,280
+2020-06-02,45-49,Ziekenhuisopname,0,583
+2020-06-02,50-54,Ziekenhuisopname,0,851
+2020-06-02,55-59,Ziekenhuisopname,1,1142
+2020-06-02,60-64,Ziekenhuisopname,0,1295
+2020-06-02,65-69,Ziekenhuisopname,2,1342
+2020-06-02,70-74,Ziekenhuisopname,0,1689
+2020-06-02,75-79,Ziekenhuisopname,0,1624
+2020-06-02,80-84,Ziekenhuisopname,0,1238
+2020-06-02,85-89,Ziekenhuisopname,2,804
+2020-06-02,90-94,Ziekenhuisopname,1,251
+2020-06-02,95+,Ziekenhuisopname,0,43
+2020-06-02,Niet vermeld,Ziekenhuisopname,0,0
+2020-06-02,0-4,Overleden,0,0
+2020-06-02,5-9,Overleden,0,0
+2020-06-02,10-14,Overleden,0,0
+2020-06-02,15-19,Overleden,0,1
+2020-06-02,20-24,Overleden,0,0
+2020-06-02,25-29,Overleden,0,3
+2020-06-02,30-34,Overleden,0,4
+2020-06-02,35-39,Overleden,0,7
+2020-06-02,40-44,Overleden,0,5
+2020-06-02,45-49,Overleden,0,23
+2020-06-02,50-54,Overleden,1,46
+2020-06-02,55-59,Overleden,0,97
+2020-06-02,60-64,Overleden,0,161
+2020-06-02,65-69,Overleden,1,327
+2020-06-02,70-74,Overleden,1,618
+2020-06-02,75-79,Overleden,0,989
+2020-06-02,80-84,Overleden,1,1244
+2020-06-02,85-89,Overleden,0,1343
+2020-06-02,90-94,Overleden,1,803
+2020-06-02,95+,Overleden,0,296
+2020-06-02,Niet vermeld,Overleden,0,0

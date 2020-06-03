@@ -61,4 +61,4 @@ Datum,LeeftijdGroep,Type,Aantal,AantalCumulatief
 2020-05-12,85-89,Overleden,11,1224
 2020-05-12,90-94,Overleden,15,724
 2020-05-12,95+,Overleden,3,266
-2020-05-12,Niet vermeld,Overleden,,
+2020-05-12,Niet vermeld,Overleden,0,0
