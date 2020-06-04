@@ -30,25 +30,25 @@ def parse_onderliggende_a(content):
         content
     )
     assert len(onderliggend_a[0]) == 4
-       
+
     new = pd.DataFrame()
-    for i, v in enumerate(onderliggend_a[0]):   
+    for i, v in enumerate(onderliggend_a[0]):
         data = [(f"{DATE}",f"{ONDERLIGGEND_A[i]}",f"{v}")]
         new = new.append(data, ignore_index=True)
-        
+
     new = new.rename(columns={0: 'Datum', 1: 'Type', 2: 'AantalCumulatief'})
-        
+
     df = pd.read_csv(Path("data-misc/data-underlying/data-underlying_statistics", "RIVM_NL_deceased_under70_statistics.csv"), encoding = "utf8")
-    
+
     if f"{DATE}" not in str(df['Datum']):
         df = df.append(new, ignore_index = True)
-        df = df.sort_values(by='Datum')   
+        df = df.sort_values(by='Datum')
         df = df.reset_index(drop=True)
-        
+
         export_path = Path("data-misc/data-underlying", "data-underlying_statistics", "RIVM_NL_deceased_under70_statistics.csv")
         print(f"Export {export_path}")
         df.to_csv(export_path, index=False)
-        
+
     else:
         print("Selected date is already in statistics file")
 
@@ -73,30 +73,30 @@ def parse_onderliggende_b(content):
         content)
 
     assert len(onderliggend_b[0]) == 10
-        
+
     new = pd.DataFrame()
-    for i, v in enumerate(onderliggend_b[0]):   
+    for i, v in enumerate(onderliggend_b[0]):
         data = [(f"{DATE}",f"{ONDERLIGGEND_B[i]}",f"{v}")]
         new = new.append(data, ignore_index=True)
-        
+
     new = new.rename(columns={0: 'Datum', 1: 'Type', 2: 'AantalCumulatief'})
-        
+
     df = pd.read_csv(Path("data-misc/data-underlying/data-underlying_conditions", "RIVM_NL_deceased_under70_conditions.csv"), encoding = "utf8")
-    
+
     if f"{DATE}" not in str(df['Datum']):
         df = df.append(new, ignore_index = True)
-        df = df.sort_values(by='Datum')   
+        df = df.sort_values(by='Datum')
         df = df.reset_index(drop=True)
-        
+
         export_path = Path("data-misc/data-underlying", "data-underlying_conditions", "RIVM_NL_deceased_under70_conditions.csv")
         print(f"Export {export_path}")
         df.to_csv(export_path, index=False)
-        
+
     else:
         print("Selected date is already in conditions file")
 
 
-### Data-desc 
+### Data-desc
 def parse_age(content):
 
     age_match = re.findall(
@@ -259,7 +259,7 @@ def parse_age(content):
     	r"\d+\.\d\n"
     	r"\d+\.\d",
         content)
-    
+
     assert len(age_match[0]) == 63
 
     new = pd.DataFrame()
@@ -274,25 +274,25 @@ def parse_age(content):
     for i, v in enumerate(age_match[0][42:63]):
         data = [(f"{DATE}", f"{AGES[i]}", "Overleden",f"{v}")]
         new = new.append(data, ignore_index=True)
-        
+
     new = new.rename(columns={0: 'Datum', 1: 'LeeftijdGroep', 2: 'Type', 3: 'Aantal'})
 
     df = pd.read_csv(Path("data", "rivm_NL_covid19_age.csv"), encoding = "utf8")
-    
+
     if f"{DATE}" not in str(df['Datum']):
         df = df.append(new, ignore_index = True)
         df = df.reset_index(drop=True)
-        
+
         export_path = Path("data", "rivm_NL_covid19_age.csv")
         print(f"Export {export_path}")
         df.to_csv(export_path, index=False)
 
     else:
         print("Selected date is already in age file")
-   
+
 
 def parse_gender(content):
-    
+
     gender = re.findall(
         r"Geslacht\n"
         r"Totaal gemeld\n"
@@ -338,15 +338,15 @@ def parse_gender(content):
         #print(f"{DATE},{GENDER[i]},Overleden,{v}")
         data = [(f"{DATE}", f"{GENDER[i]}", "Overleden",f"{v}")]
         new = new.append(data, ignore_index=True)
-    
+
     new = new.rename(columns={0: 'Datum', 1: 'Geslacht', 2: 'Type', 3: 'Aantal'})
 
     df = pd.read_csv(Path("data", "rivm_NL_covid19_sex.csv"), encoding = "utf8")
-    
+
     if f"{DATE}" not in str(df['Datum']):
         df = df.append(new, ignore_index = True)
         df = df.reset_index(drop=True)
-        
+
         export_path = Path("data", "rivm_NL_covid19_sex.csv")
         print(f"Export {export_path}")
         df.to_csv(export_path, index=False)
@@ -386,25 +386,25 @@ def parse_provincie(content):
         r"(\d+)", content, re.MULTILINE)
 
     assert len(provincie_match[0]) == 12
-        
+
     new = pd.DataFrame()
     for i, v in enumerate(provincie_match[0]):
         data = [(f"{DATE}",f"{PROVINCIES[i]}",f"{v}")]
         new = new.append(data, ignore_index=True)
-        
+
     new = new.rename(columns={0: 'Datum', 1: 'Provincienaam', 2: 'Aantal'})
-        
+
     df = pd.read_csv(Path("data", "rivm_NL_covid19_province.csv"), encoding = "utf8")
-    
+
     if f"{DATE}" not in str(df['Datum']):
         df = df.append(new, ignore_index = True)
-        df = df.sort_values(by='Datum')   
+        df = df.sort_values(by='Datum')
         df = df.reset_index(drop=True)
-        
+
         export_path = Path("data", "rivm_NL_covid19_province.csv")
         print(f"Export {export_path}")
         df.to_csv(export_path, index=False)
-        
+
     else:
         print("Selected date is already in conditions file")
 
@@ -469,9 +469,9 @@ if __name__ == '__main__':
     )
 
     parse_onderliggende_a(content)
-    
+
     parse_onderliggende_b(content)
-    
+
     parse_gender(content)
 
     parse_age(content)
