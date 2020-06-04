@@ -1,3 +1,5 @@
+python workflows/rivm_pdf/parse_pdf_table.py
+python workflows/rivm_pdf/data_rivm_pfd_misc.py
 python workflows/rivm/depr.py
 python workflows/rivm/download_rivm_map_data.py
 python workflows/rivm/merge_data.py
