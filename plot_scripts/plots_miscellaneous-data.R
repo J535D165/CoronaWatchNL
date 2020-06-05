@@ -138,3 +138,26 @@ stat %>%
   labs(subtitle = "Cumulatief aantal overleden COVID-19 patienten onder de 70 jaar met onderliggende 
        aandoeningen en/of zwangerschap") +
   ggsave("plots/conditions_statistics.png", width = 8.5, height=4)
+
+
+### Reproduction index
+rep <- read_csv("data-misc/data-reproduction/RIVM_NL_reproduction_index.csv")
+
+rep2 <- spread(rep, Type, Aantal)
+
+rep2 %>%
+  ggplot(aes(x= Datum, y = `Reproductie index`)) +
+  geom_line(aes(y = `Reproductie index`)) +
+  geom_ribbon(aes(ymin = Minimum, ymax = Maximum), fill="#E69F00", alpha=.5) +
+  scale_y_continuous(limits=c(0, NA)) +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank(),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
+        legend.text = element_text(size = 9)) +
+  ggtitle("Reproductie index per dag") +
+  ggsave("plots/reproductie_index.png", width = 8.5, height=4)
+
