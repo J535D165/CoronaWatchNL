@@ -61,37 +61,44 @@ def main_rep():
         aantal = data_rep[i]
         rep.append(aantal)
     
-    df['ReproductieGetal'] = pd.Series(rep)
+    df['Type'] = 'Reproductie index'
+    df['Aantal'] = pd.Series(rep)
     
     # Select minimum values per date
+    df2 = pd.DataFrame()
     mini = []
     for i in data_min:
         aantal = data_min[i]
         mini.append(aantal)
-    
-    df['Minimum'] = mini
+    df2['Datum'] = dates
+    df2['Type'] ='Minimum'
+    df2['Aantal'] = mini
     
     # Select maximum values per date
     data_max = data['max']
     
+    df3 = pd.DataFrame()
     maxi = []
     for i in data_max:
         aantal = data_max[i]
         maxi.append(aantal)
-        
-    df['Maximum'] = maxi
+    df3['Datum'] = dates
+    df3['Type'] ='Maximum'
+    df3['Aantal'] = maxi
+    
+    df = df.append(df2).append(df3)
     
     Path(DATA_FOLDER, "data-reproduction").mkdir(exist_ok=True)
 
     dates = sorted(df["Datum"].unique())
 
     # export by date
-    for data_date in dates:
+    # for data_date in dates:
 
-        export_date(df, "data-reproduction", "RIVM_NL_reproduction_index", data_date, str(data_date).replace("-", ""))
+        #export_date(df, "data-reproduction", "RIVM_NL_reproduction_index", data_date, str(data_date).replace("-", ""))
 
     # export latest
-    export_date(df, "data-reproduction", "RIVM_NL_reproduction_index", data_date=dates[-1], label="latest")
+    # export_date(df, "data-reproduction", "RIVM_NL_reproduction_index", data_date=dates[-1], label="latest")
 
     # export all
     export_date(df, "data-reproduction", "RIVM_NL_reproduction_index", data_date=None, label=None)
