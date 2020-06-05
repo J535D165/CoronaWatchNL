@@ -62,7 +62,7 @@ def main_rep():
         rep.append(aantal)
     
     df['Type'] = 'Reproductie index'
-    df['Aantal'] = pd.Series(rep)
+    df['Waarde'] = pd.Series(rep)
     
     # Select minimum values per date
     df2 = pd.DataFrame()
@@ -72,7 +72,7 @@ def main_rep():
         mini.append(aantal)
     df2['Datum'] = dates
     df2['Type'] ='Minimum'
-    df2['Aantal'] = mini
+    df2['Waarde'] = mini
     
     # Select maximum values per date
     data_max = data['max']
@@ -84,7 +84,7 @@ def main_rep():
         maxi.append(aantal)
     df3['Datum'] = dates
     df3['Type'] ='Maximum'
-    df3['Aantal'] = maxi
+    df3['Waarde'] = maxi
     
     df = df.append(df2).append(df3)
     
