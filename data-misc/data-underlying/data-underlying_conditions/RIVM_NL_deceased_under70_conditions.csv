@@ -9,146 +9,146 @@ Datum,Type,AantalCumulatief
 2020-04-11,Chronische longaandoeningen,49
 2020-04-11,Maligniteit,37
 2020-04-11,Overig,102
-2020-04-12,Chronische longaandoeningen,50
-2020-04-12,Maligniteit,38
-2020-04-12,Immuundeficientie,5
-2020-04-12,Overig,106
-2020-04-12,Nieraandoening,12
+2020-04-12,Chronische neurologische of neuromusculaire aandoeningen,22
+2020-04-12,Zwangerschap,0
+2020-04-12,Cardio-vasculaire aandoeningen en hypertensie,80
 2020-04-12,Leveraandoening,8
 2020-04-12,Diabetes,54
-2020-04-12,Cardio-vasculaire aandoeningen en hypertensie,80
-2020-04-12,Zwangerschap,0
-2020-04-12,Chronische neurologische of neuromusculaire aandoeningen,22
-2020-04-13,Maligniteit,39
-2020-04-13,Chronische longaandoeningen,51
-2020-04-13,Overig,111
-2020-04-13,Nieraandoening,12
-2020-04-13,Immuundeficientie,5
-2020-04-13,Chronische neurologische of neuromusculaire aandoeningen,23
-2020-04-13,Zwangerschap,0
-2020-04-13,Diabetes,58
-2020-04-13,Cardio-vasculaire aandoeningen en hypertensie,85
+2020-04-12,Overig,106
+2020-04-12,Immuundeficientie,5
+2020-04-12,Maligniteit,38
+2020-04-12,Chronische longaandoeningen,50
+2020-04-12,Nieraandoening,12
 2020-04-13,Leveraandoening,8
+2020-04-13,Cardio-vasculaire aandoeningen en hypertensie,85
+2020-04-13,Diabetes,58
+2020-04-13,Zwangerschap,0
+2020-04-13,Chronische neurologische of neuromusculaire aandoeningen,23
+2020-04-13,Immuundeficientie,5
+2020-04-13,Overig,111
+2020-04-13,Chronische longaandoeningen,51
+2020-04-13,Maligniteit,39
+2020-04-13,Nieraandoening,12
+2020-04-14,Zwangerschap,0
+2020-04-14,Leveraandoening,8
+2020-04-14,Chronische neurologische of neuromusculaire aandoeningen,23
+2020-04-14,Cardio-vasculaire aandoeningen en hypertensie,90
+2020-04-14,Diabetes,61
+2020-04-14,Immuundeficientie,5
 2020-04-14,Nieraandoening,13
 2020-04-14,Maligniteit,40
-2020-04-14,Chronische longaandoeningen,55
-2020-04-14,Immuundeficientie,5
 2020-04-14,Overig,114
-2020-04-14,Cardio-vasculaire aandoeningen en hypertensie,90
-2020-04-14,Zwangerschap,0
-2020-04-14,Diabetes,61
-2020-04-14,Chronische neurologische of neuromusculaire aandoeningen,23
-2020-04-14,Leveraandoening,8
+2020-04-14,Chronische longaandoeningen,55
 2020-04-15,Cardio-vasculaire aandoeningen en hypertensie,96
 2020-04-15,Chronische neurologische of neuromusculaire aandoeningen,25
 2020-04-15,Diabetes,65
 2020-04-15,Leveraandoening,10
-2020-04-15,Overig,116
 2020-04-15,Nieraandoening,15
 2020-04-15,Chronische longaandoeningen,59
 2020-04-15,Immuundeficientie,5
 2020-04-15,Maligniteit,42
 2020-04-15,Zwangerschap,0
-2020-04-16,Maligniteit,42
-2020-04-16,Nieraandoening,16
-2020-04-16,Overig,118
-2020-04-16,Immuundeficientie,5
-2020-04-16,Chronische longaandoeningen,62
+2020-04-15,Overig,116
 2020-04-16,Leveraandoening,9
-2020-04-16,Cardio-vasculaire aandoeningen en hypertensie,101
-2020-04-16,Chronische neurologische of neuromusculaire aandoeningen,28
 2020-04-16,Zwangerschap,0
+2020-04-16,Chronische neurologische of neuromusculaire aandoeningen,28
+2020-04-16,Cardio-vasculaire aandoeningen en hypertensie,101
 2020-04-16,Diabetes,68
-2020-04-17,Immuundeficientie,5
-2020-04-17,Chronische neurologische of neuromusculaire aandoeningen,29
-2020-04-17,Leveraandoening,9
-2020-04-17,Nieraandoening,16
-2020-04-17,Chronische longaandoeningen,66
-2020-04-17,Cardio-vasculaire aandoeningen en hypertensie,104
-2020-04-17,Maligniteit,43
-2020-04-17,Zwangerschap,0
-2020-04-17,Diabetes,69
+2020-04-16,Chronische longaandoeningen,62
+2020-04-16,Overig,118
+2020-04-16,Nieraandoening,16
+2020-04-16,Maligniteit,42
+2020-04-16,Immuundeficientie,5
 2020-04-17,Overig,121
-2020-04-18,Leveraandoening,10
-2020-04-18,Overig,129
+2020-04-17,Diabetes,69
+2020-04-17,Zwangerschap,0
+2020-04-17,Maligniteit,43
+2020-04-17,Cardio-vasculaire aandoeningen en hypertensie,104
+2020-04-17,Nieraandoening,16
+2020-04-17,Leveraandoening,9
+2020-04-17,Chronische neurologische of neuromusculaire aandoeningen,29
+2020-04-17,Immuundeficientie,5
+2020-04-17,Chronische longaandoeningen,66
+2020-04-18,Cardio-vasculaire aandoeningen en hypertensie,110
+2020-04-18,Maligniteit,43
+2020-04-18,Immuundeficientie,5
+2020-04-18,Zwangerschap,0
+2020-04-18,Chronische neurologische of neuromusculaire aandoeningen,29
 2020-04-18,Chronische longaandoeningen,69
 2020-04-18,Nieraandoening,17
 2020-04-18,Diabetes,77
-2020-04-18,Chronische neurologische of neuromusculaire aandoeningen,29
-2020-04-18,Cardio-vasculaire aandoeningen en hypertensie,110
-2020-04-18,Zwangerschap,0
-2020-04-18,Immuundeficientie,5
-2020-04-18,Maligniteit,43
-2020-04-19,Overig,134
-2020-04-19,Immuundeficientie,6
-2020-04-19,Chronische longaandoeningen,72
-2020-04-19,Nieraandoening,18
-2020-04-19,Maligniteit,43
-2020-04-19,Diabetes,82
-2020-04-19,Leveraandoening,10
-2020-04-19,Cardio-vasculaire aandoeningen en hypertensie,117
-2020-04-19,Zwangerschap,0
+2020-04-18,Overig,129
+2020-04-18,Leveraandoening,10
 2020-04-19,Chronische neurologische of neuromusculaire aandoeningen,30
-2020-04-20,Immuundeficientie,6
-2020-04-20,Overig,135
-2020-04-20,Nieraandoening,18
-2020-04-20,Chronische longaandoeningen,72
-2020-04-20,Maligniteit,43
-2020-04-20,Chronische neurologische of neuromusculaire aandoeningen,30
-2020-04-20,Diabetes,83
-2020-04-20,Zwangerschap,0
-2020-04-20,Leveraandoening,10
+2020-04-19,Zwangerschap,0
+2020-04-19,Cardio-vasculaire aandoeningen en hypertensie,117
+2020-04-19,Leveraandoening,10
+2020-04-19,Diabetes,82
+2020-04-19,Maligniteit,43
+2020-04-19,Nieraandoening,18
+2020-04-19,Chronische longaandoeningen,72
+2020-04-19,Immuundeficientie,6
+2020-04-19,Overig,134
 2020-04-20,Cardio-vasculaire aandoeningen en hypertensie,118
+2020-04-20,Leveraandoening,10
+2020-04-20,Zwangerschap,0
+2020-04-20,Diabetes,83
+2020-04-20,Chronische neurologische of neuromusculaire aandoeningen,30
+2020-04-20,Chronische longaandoeningen,72
+2020-04-20,Nieraandoening,18
+2020-04-20,Overig,135
+2020-04-20,Immuundeficientie,6
+2020-04-20,Maligniteit,43
+2020-04-21,Cardio-vasculaire aandoeningen en hypertensie,121
 2020-04-21,Leveraandoening,10
 2020-04-21,Chronische neurologische of neuromusculaire aandoeningen,31
 2020-04-21,Zwangerschap,0
 2020-04-21,Diabetes,84
-2020-04-21,Cardio-vasculaire aandoeningen en hypertensie,121
 2020-04-21,Nieraandoening,19
 2020-04-21,Immuundeficientie,6
 2020-04-21,Chronische longaandoeningen,73
 2020-04-21,Maligniteit,43
 2020-04-21,Overig,136
-2020-04-22,Nieraandoening,19
-2020-04-22,Chronische longaandoeningen,75
-2020-04-22,Immuundeficientie,6
-2020-04-22,Maligniteit,46
-2020-04-22,Overig,140
-2020-04-22,Zwangerschap,0
-2020-04-22,Chronische neurologische of neuromusculaire aandoeningen,33
 2020-04-22,Diabetes,86
-2020-04-22,Cardio-vasculaire aandoeningen en hypertensie,127
+2020-04-22,Chronische neurologische of neuromusculaire aandoeningen,33
 2020-04-22,Leveraandoening,11
-2020-04-23,Leveraandoening,11
-2020-04-23,Chronische longaandoeningen,77
-2020-04-23,Immuundeficientie,6
-2020-04-23,Nieraandoening,20
-2020-04-23,Overig,145
-2020-04-23,Cardio-vasculaire aandoeningen en hypertensie,129
-2020-04-23,Zwangerschap,0
-2020-04-23,Diabetes,88
-2020-04-23,Chronische neurologische of neuromusculaire aandoeningen,34
+2020-04-22,Cardio-vasculaire aandoeningen en hypertensie,127
+2020-04-22,Zwangerschap,0
+2020-04-22,Nieraandoening,19
+2020-04-22,Maligniteit,46
+2020-04-22,Immuundeficientie,6
+2020-04-22,Chronische longaandoeningen,75
+2020-04-22,Overig,140
 2020-04-23,Maligniteit,47
-2020-04-24,Maligniteit,47
-2020-04-24,Overig,149
-2020-04-24,Immuundeficientie,6
-2020-04-24,Chronische longaandoeningen,79
-2020-04-24,Leveraandoening,12
-2020-04-24,Nieraandoening,22
+2020-04-23,Chronische neurologische of neuromusculaire aandoeningen,34
+2020-04-23,Diabetes,88
+2020-04-23,Zwangerschap,0
+2020-04-23,Cardio-vasculaire aandoeningen en hypertensie,129
+2020-04-23,Nieraandoening,20
+2020-04-23,Immuundeficientie,6
+2020-04-23,Chronische longaandoeningen,77
+2020-04-23,Leveraandoening,11
+2020-04-23,Overig,145
 2020-04-24,Cardio-vasculaire aandoeningen en hypertensie,135
-2020-04-24,Diabetes,93
-2020-04-24,Zwangerschap,0
 2020-04-24,Chronische neurologische of neuromusculaire aandoeningen,34
-2020-04-25,Immuundeficientie,7
-2020-04-25,Chronische longaandoeningen,80
-2020-04-25,Maligniteit,51
-2020-04-25,Zwangerschap,0
-2020-04-25,Nieraandoening,23
-2020-04-25,Overig,151
+2020-04-24,Zwangerschap,0
+2020-04-24,Diabetes,93
+2020-04-24,Nieraandoening,22
+2020-04-24,Maligniteit,47
+2020-04-24,Chronische longaandoeningen,79
+2020-04-24,Immuundeficientie,6
+2020-04-24,Overig,149
+2020-04-24,Leveraandoening,12
 2020-04-25,Cardio-vasculaire aandoeningen en hypertensie,138
-2020-04-25,Diabetes,93
-2020-04-25,Chronische neurologische of neuromusculaire aandoeningen,34
 2020-04-25,Leveraandoening,12
+2020-04-25,Chronische neurologische of neuromusculaire aandoeningen,34
+2020-04-25,Diabetes,93
+2020-04-25,Overig,151
+2020-04-25,Chronische longaandoeningen,80
+2020-04-25,Zwangerschap,0
+2020-04-25,Immuundeficientie,7
+2020-04-25,Nieraandoening,23
+2020-04-25,Maligniteit,51
 2020-04-26,Nieraandoening,26
 2020-04-26,Maligniteit,51
 2020-04-26,Overig,153
@@ -159,36 +159,36 @@ Datum,Type,AantalCumulatief
 2020-04-26,Zwangerschap,0
 2020-04-26,Leveraandoening,12
 2020-04-26,Immuundeficientie,7
-2020-04-27,Maligniteit,51
-2020-04-27,Chronische longaandoeningen,82
-2020-04-27,Immuundeficientie,7
-2020-04-27,Chronische neurologische of neuromusculaire aandoeningen,36
-2020-04-27,Nieraandoening,27
+2020-04-27,Zwangerschap,0
+2020-04-27,Cardio-vasculaire aandoeningen en hypertensie,141
+2020-04-27,Diabetes,95
 2020-04-27,Overig,153
 2020-04-27,Leveraandoening,13
-2020-04-27,Diabetes,95
-2020-04-27,Cardio-vasculaire aandoeningen en hypertensie,141
-2020-04-27,Zwangerschap,0
-2020-04-28,Maligniteit,52
-2020-04-28,Immuundeficientie,7
-2020-04-28,Overig,154
-2020-04-28,Chronische longaandoeningen,82
-2020-04-28,Nieraandoening,27
-2020-04-28,Zwangerschap,0
-2020-04-28,Cardio-vasculaire aandoeningen en hypertensie,142
-2020-04-28,Diabetes,95
-2020-04-28,Leveraandoening,13
+2020-04-27,Chronische neurologische of neuromusculaire aandoeningen,36
+2020-04-27,Immuundeficientie,7
+2020-04-27,Chronische longaandoeningen,82
+2020-04-27,Maligniteit,51
+2020-04-27,Nieraandoening,27
 2020-04-28,Chronische neurologische of neuromusculaire aandoeningen,36
-2020-04-29,Leveraandoening,13
+2020-04-28,Leveraandoening,13
+2020-04-28,Diabetes,95
+2020-04-28,Cardio-vasculaire aandoeningen en hypertensie,142
+2020-04-28,Zwangerschap,0
+2020-04-28,Nieraandoening,27
+2020-04-28,Overig,154
+2020-04-28,Immuundeficientie,7
+2020-04-28,Maligniteit,52
+2020-04-28,Chronische longaandoeningen,82
+2020-04-29,Zwangerschap,0
+2020-04-29,Maligniteit,52
+2020-04-29,Cardio-vasculaire aandoeningen en hypertensie,149
+2020-04-29,Chronische neurologische of neuromusculaire aandoeningen,39
+2020-04-29,Diabetes,99
 2020-04-29,Immuundeficientie,7
-2020-04-29,Chronische longaandoeningen,82
 2020-04-29,Overig,159
 2020-04-29,Nieraandoening,28
-2020-04-29,Diabetes,99
-2020-04-29,Zwangerschap,0
-2020-04-29,Chronische neurologische of neuromusculaire aandoeningen,39
-2020-04-29,Cardio-vasculaire aandoeningen en hypertensie,149
-2020-04-29,Maligniteit,52
+2020-04-29,Leveraandoening,13
+2020-04-29,Chronische longaandoeningen,82
 2020-04-30,Chronische neurologische of neuromusculaire aandoeningen,52
 2020-04-30,Diabetes,104
 2020-04-30,Nieraandoening,32
@@ -199,166 +199,166 @@ Datum,Type,AantalCumulatief
 2020-04-30,Chronische longaandoeningen,93
 2020-04-30,Immuundeficientie,7
 2020-04-30,Overig,140
-2020-05-01,Chronische longaandoeningen,96
 2020-05-01,Nieraandoening,35
-2020-05-01,Immuundeficientie,7
-2020-05-01,Overig,136
-2020-05-01,Chronische neurologische of neuromusculaire aandoeningen,53
-2020-05-01,Zwangerschap,0
-2020-05-01,Maligniteit,60
-2020-05-01,Diabetes,109
-2020-05-01,Cardio-vasculaire aandoeningen en hypertensie,176
 2020-05-01,Leveraandoening,14
-2020-05-02,Leveraandoening,15
-2020-05-02,Diabetes,110
-2020-05-02,Nieraandoening,36
-2020-05-02,Cardio-vasculaire aandoeningen en hypertensie,178
-2020-05-02,Zwangerschap,0
-2020-05-02,Chronische neurologische of neuromusculaire aandoeningen,54
-2020-05-02,Chronische longaandoeningen,96
-2020-05-02,Overig,138
-2020-05-02,Maligniteit,60
+2020-05-01,Cardio-vasculaire aandoeningen en hypertensie,176
+2020-05-01,Diabetes,109
+2020-05-01,Maligniteit,60
+2020-05-01,Chronische longaandoeningen,96
+2020-05-01,Chronische neurologische of neuromusculaire aandoeningen,53
+2020-05-01,Overig,136
+2020-05-01,Immuundeficientie,7
+2020-05-01,Zwangerschap,0
 2020-05-02,Immuundeficientie,7
-2020-05-03,Chronische longaandoeningen,97
-2020-05-03,Maligniteit,61
-2020-05-03,Overig,138
-2020-05-03,Immuundeficientie,7
-2020-05-03,Nieraandoening,36
-2020-05-03,Leveraandoening,15
-2020-05-03,Zwangerschap,0
-2020-05-03,Diabetes,110
+2020-05-02,Maligniteit,60
+2020-05-02,Overig,138
+2020-05-02,Chronische longaandoeningen,96
+2020-05-02,Chronische neurologische of neuromusculaire aandoeningen,54
+2020-05-02,Zwangerschap,0
+2020-05-02,Nieraandoening,36
+2020-05-02,Diabetes,110
+2020-05-02,Leveraandoening,15
+2020-05-02,Cardio-vasculaire aandoeningen en hypertensie,178
 2020-05-03,Cardio-vasculaire aandoeningen en hypertensie,179
+2020-05-03,Diabetes,110
+2020-05-03,Zwangerschap,0
+2020-05-03,Leveraandoening,15
 2020-05-03,Chronische neurologische of neuromusculaire aandoeningen,54
-2020-05-04,Chronische neurologische of neuromusculaire aandoeningen,54
-2020-05-04,Zwangerschap,0
-2020-05-04,Leveraandoening,15
-2020-05-04,Diabetes,110
-2020-05-04,Cardio-vasculaire aandoeningen en hypertensie,179
-2020-05-04,Maligniteit,61
-2020-05-04,Immuundeficientie,7
-2020-05-04,Nieraandoening,36
-2020-05-04,Overig,138
+2020-05-03,Immuundeficientie,7
+2020-05-03,Overig,138
+2020-05-03,Maligniteit,61
+2020-05-03,Chronische longaandoeningen,97
+2020-05-03,Nieraandoening,36
 2020-05-04,Chronische longaandoeningen,97
-2020-05-05,Maligniteit,61
-2020-05-05,Chronische longaandoeningen,99
-2020-05-05,Overig,138
-2020-05-05,Nieraandoening,36
-2020-05-05,Immuundeficientie,7
-2020-05-05,Leveraandoening,16
+2020-05-04,Overig,138
+2020-05-04,Nieraandoening,36
+2020-05-04,Immuundeficientie,7
+2020-05-04,Maligniteit,61
+2020-05-04,Cardio-vasculaire aandoeningen en hypertensie,179
+2020-05-04,Leveraandoening,15
+2020-05-04,Zwangerschap,0
+2020-05-04,Chronische neurologische of neuromusculaire aandoeningen,54
+2020-05-04,Diabetes,110
 2020-05-05,Cardio-vasculaire aandoeningen en hypertensie,181
-2020-05-05,Zwangerschap,0
 2020-05-05,Diabetes,111
+2020-05-05,Zwangerschap,0
+2020-05-05,Leveraandoening,16
 2020-05-05,Chronische neurologische of neuromusculaire aandoeningen,54
-2020-05-06,Nieraandoening,37
-2020-05-06,Immuundeficientie,8
-2020-05-06,Overig,140
-2020-05-06,Maligniteit,61
-2020-05-06,Chronische longaandoeningen,100
+2020-05-05,Nieraandoening,36
+2020-05-05,Maligniteit,61
+2020-05-05,Immuundeficientie,7
+2020-05-05,Overig,138
+2020-05-05,Chronische longaandoeningen,99
+2020-05-06,Zwangerschap,0
+2020-05-06,Leveraandoening,16
+2020-05-06,Diabetes,113
 2020-05-06,Chronische neurologische of neuromusculaire aandoeningen,54
 2020-05-06,Cardio-vasculaire aandoeningen en hypertensie,184
-2020-05-06,Diabetes,113
-2020-05-06,Leveraandoening,16
-2020-05-06,Zwangerschap,0
-2020-05-07,Nieraandoening,38
-2020-05-07,Maligniteit,62
-2020-05-07,Overig,151
-2020-05-07,Immuundeficientie,8
-2020-05-07,Chronische longaandoeningen,103
-2020-05-07,Chronische neurologische of neuromusculaire aandoeningen,55
-2020-05-07,Zwangerschap,0
-2020-05-07,Leveraandoening,16
-2020-05-07,Diabetes,114
+2020-05-06,Maligniteit,61
+2020-05-06,Overig,140
+2020-05-06,Immuundeficientie,8
+2020-05-06,Nieraandoening,37
+2020-05-06,Chronische longaandoeningen,100
 2020-05-07,Cardio-vasculaire aandoeningen en hypertensie,186
-2020-05-08,Maligniteit,62
-2020-05-08,Overig,152
-2020-05-08,Nieraandoening,38
-2020-05-08,Immuundeficientie,8
-2020-05-08,Chronische longaandoeningen,103
-2020-05-08,Zwangerschap,0
-2020-05-08,Chronische neurologische of neuromusculaire aandoeningen,56
-2020-05-08,Cardio-vasculaire aandoeningen en hypertensie,186
-2020-05-08,Leveraandoening,16
+2020-05-07,Diabetes,114
+2020-05-07,Leveraandoening,16
+2020-05-07,Zwangerschap,0
+2020-05-07,Chronische neurologische of neuromusculaire aandoeningen,55
+2020-05-07,Chronische longaandoeningen,103
+2020-05-07,Overig,151
+2020-05-07,Maligniteit,62
+2020-05-07,Nieraandoening,38
+2020-05-07,Immuundeficientie,8
 2020-05-08,Diabetes,114
-2020-05-09,Zwangerschap,0
-2020-05-09,Cardio-vasculaire aandoeningen en hypertensie,188
-2020-05-09,Diabetes,115
-2020-05-09,Leveraandoening,16
-2020-05-09,Chronische neurologische of neuromusculaire aandoeningen,57
-2020-05-09,Immuundeficientie,8
+2020-05-08,Leveraandoening,16
+2020-05-08,Cardio-vasculaire aandoeningen en hypertensie,186
+2020-05-08,Chronische neurologische of neuromusculaire aandoeningen,56
+2020-05-08,Zwangerschap,0
+2020-05-08,Chronische longaandoeningen,103
+2020-05-08,Nieraandoening,38
+2020-05-08,Overig,152
+2020-05-08,Maligniteit,62
+2020-05-08,Immuundeficientie,8
 2020-05-09,Chronische longaandoeningen,105
-2020-05-09,Overig,153
 2020-05-09,Nieraandoening,38
+2020-05-09,Overig,153
+2020-05-09,Immuundeficientie,8
 2020-05-09,Maligniteit,63
-2020-05-10,Zwangerschap,0
-2020-05-10,Diabetes,115
-2020-05-10,Chronische neurologische of neuromusculaire aandoeningen,64
-2020-05-10,Maligniteit,65
-2020-05-10,Leveraandoening,16
-2020-05-10,Overig,148
-2020-05-10,Nieraandoening,38
-2020-05-10,Chronische longaandoeningen,105
+2020-05-09,Leveraandoening,16
+2020-05-09,Diabetes,115
+2020-05-09,Cardio-vasculaire aandoeningen en hypertensie,188
+2020-05-09,Zwangerschap,0
+2020-05-09,Chronische neurologische of neuromusculaire aandoeningen,57
 2020-05-10,Immuundeficientie,8
+2020-05-10,Chronische longaandoeningen,105
+2020-05-10,Nieraandoening,38
+2020-05-10,Overig,148
 2020-05-10,Cardio-vasculaire aandoeningen en hypertensie,189
-2020-05-11,Nieraandoening,38
-2020-05-11,Immuundeficientie,8
-2020-05-11,Chronische longaandoeningen,105
-2020-05-11,Maligniteit,65
-2020-05-11,Overig,148
-2020-05-11,Zwangerschap,0
-2020-05-11,Leveraandoening,16
-2020-05-11,Cardio-vasculaire aandoeningen en hypertensie,189
-2020-05-11,Diabetes,115
+2020-05-10,Maligniteit,65
+2020-05-10,Chronische neurologische of neuromusculaire aandoeningen,64
+2020-05-10,Diabetes,115
+2020-05-10,Zwangerschap,0
+2020-05-10,Leveraandoening,16
 2020-05-11,Chronische neurologische of neuromusculaire aandoeningen,64
-2020-05-12,Diabetes,115
-2020-05-12,Leveraandoening,16
-2020-05-12,Zwangerschap,0
-2020-05-12,Chronische neurologische of neuromusculaire aandoeningen,65
-2020-05-12,Cardio-vasculaire aandoeningen en hypertensie,189
-2020-05-12,Maligniteit,65
+2020-05-11,Diabetes,115
+2020-05-11,Cardio-vasculaire aandoeningen en hypertensie,189
+2020-05-11,Leveraandoening,16
+2020-05-11,Zwangerschap,0
+2020-05-11,Overig,148
+2020-05-11,Chronische longaandoeningen,105
+2020-05-11,Immuundeficientie,8
+2020-05-11,Nieraandoening,38
+2020-05-11,Maligniteit,65
 2020-05-12,Chronische longaandoeningen,105
-2020-05-12,Nieraandoening,38
 2020-05-12,Immuundeficientie,8
+2020-05-12,Nieraandoening,38
+2020-05-12,Maligniteit,65
 2020-05-12,Overig,149
-2020-05-13,Maligniteit,65
-2020-05-13,Immuundeficientie,8
-2020-05-13,Overig,149
-2020-05-13,Cardio-vasculaire aandoeningen en hypertensie,190
-2020-05-13,Chronische longaandoeningen,106
+2020-05-12,Chronische neurologische of neuromusculaire aandoeningen,65
+2020-05-12,Diabetes,115
+2020-05-12,Cardio-vasculaire aandoeningen en hypertensie,189
+2020-05-12,Zwangerschap,0
+2020-05-12,Leveraandoening,16
+2020-05-13,Diabetes,116
+2020-05-13,Leveraandoening,16
+2020-05-13,Chronische neurologische of neuromusculaire aandoeningen,65
 2020-05-13,Zwangerschap,0
 2020-05-13,Nieraandoening,38
-2020-05-13,Chronische neurologische of neuromusculaire aandoeningen,65
-2020-05-13,Leveraandoening,16
-2020-05-13,Diabetes,116
-2020-05-14,Overig,150
-2020-05-14,Chronische neurologische of neuromusculaire aandoeningen,65
-2020-05-14,Maligniteit,66
-2020-05-14,Nieraandoening,39
-2020-05-14,Immuundeficientie,8
-2020-05-14,Cardio-vasculaire aandoeningen en hypertensie,190
-2020-05-14,Zwangerschap,0
-2020-05-14,Leveraandoening,16
-2020-05-14,Chronische longaandoeningen,106
+2020-05-13,Cardio-vasculaire aandoeningen en hypertensie,190
+2020-05-13,Overig,149
+2020-05-13,Immuundeficientie,8
+2020-05-13,Maligniteit,65
+2020-05-13,Chronische longaandoeningen,106
 2020-05-14,Diabetes,117
-2020-05-15,Zwangerschap,0
-2020-05-15,Cardio-vasculaire aandoeningen en hypertensie,194
-2020-05-15,Overig,153
-2020-05-15,Chronische neurologische of neuromusculaire aandoeningen,66
-2020-05-15,Diabetes,117
-2020-05-15,Chronische longaandoeningen,110
-2020-05-15,Leveraandoening,16
-2020-05-15,Nieraandoening,39
-2020-05-15,Maligniteit,68
+2020-05-14,Chronische longaandoeningen,106
+2020-05-14,Leveraandoening,16
+2020-05-14,Zwangerschap,0
+2020-05-14,Cardio-vasculaire aandoeningen en hypertensie,190
+2020-05-14,Immuundeficientie,8
+2020-05-14,Maligniteit,66
+2020-05-14,Chronische neurologische of neuromusculaire aandoeningen,65
+2020-05-14,Overig,150
+2020-05-14,Nieraandoening,39
 2020-05-15,Immuundeficientie,8
-2020-05-16,Immuundeficientie,8
-2020-05-16,Overig,153
-2020-05-16,Maligniteit,68
-2020-05-16,Nieraandoening,39
-2020-05-16,Zwangerschap,0
-2020-05-16,Chronische longaandoeningen,111
+2020-05-15,Maligniteit,68
+2020-05-15,Nieraandoening,39
+2020-05-15,Leveraandoening,16
+2020-05-15,Chronische longaandoeningen,110
+2020-05-15,Diabetes,117
+2020-05-15,Overig,153
+2020-05-15,Cardio-vasculaire aandoeningen en hypertensie,194
+2020-05-15,Zwangerschap,0
+2020-05-15,Chronische neurologische of neuromusculaire aandoeningen,66
 2020-05-16,Cardio-vasculaire aandoeningen en hypertensie,194
-2020-05-16,Chronische neurologische of neuromusculaire aandoeningen,66
 2020-05-16,Diabetes,117
+2020-05-16,Chronische neurologische of neuromusculaire aandoeningen,66
+2020-05-16,Chronische longaandoeningen,111
 2020-05-16,Leveraandoening,16
+2020-05-16,Nieraandoening,39
+2020-05-16,Immuundeficientie,8
+2020-05-16,Zwangerschap,0
+2020-05-16,Maligniteit,68
+2020-05-16,Overig,153
 2020-05-17,Diabetes,117
 2020-05-17,Nieraandoening,39
 2020-05-17,Immuundeficientie,8
@@ -369,203 +369,213 @@ Datum,Type,AantalCumulatief
 2020-05-17,Zwangerschap,0
 2020-05-17,Leveraandoening,16
 2020-05-17,Overig,154
-2020-05-18,Maligniteit,69
-2020-05-18,Overig,154
-2020-05-18,Immuundeficientie,8
-2020-05-18,Chronische longaandoeningen,111
-2020-05-18,Nieraandoening,39
+2020-05-18,Leveraandoening,16
+2020-05-18,Cardio-vasculaire aandoeningen en hypertensie,196
+2020-05-18,Diabetes,118
 2020-05-18,Chronische neurologische of neuromusculaire aandoeningen,67
 2020-05-18,Zwangerschap,0
-2020-05-18,Diabetes,118
-2020-05-18,Cardio-vasculaire aandoeningen en hypertensie,196
-2020-05-18,Leveraandoening,16
-2020-05-19,Nieraandoening,40
-2020-05-19,Immuundeficientie,8
-2020-05-19,Maligniteit,69
-2020-05-19,Chronische longaandoeningen,111
-2020-05-19,Overig,154
+2020-05-18,Chronische longaandoeningen,111
+2020-05-18,Maligniteit,69
+2020-05-18,Nieraandoening,39
+2020-05-18,Immuundeficientie,8
+2020-05-18,Overig,154
+2020-05-19,Chronische neurologische of neuromusculaire aandoeningen,67
+2020-05-19,Leveraandoening,16
+2020-05-19,Cardio-vasculaire aandoeningen en hypertensie,196
 2020-05-19,Zwangerschap,0
 2020-05-19,Diabetes,119
-2020-05-19,Cardio-vasculaire aandoeningen en hypertensie,196
-2020-05-19,Leveraandoening,16
-2020-05-19,Chronische neurologische of neuromusculaire aandoeningen,67
-2020-05-20,Cardio-vasculaire aandoeningen en hypertensie,196
-2020-05-20,Diabetes,119
-2020-05-20,Immuundeficientie,8
-2020-05-20,Zwangerschap,0
-2020-05-20,Leveraandoening,16
-2020-05-20,Overig,155
-2020-05-20,Chronische longaandoeningen,111
-2020-05-20,Nieraandoening,40
-2020-05-20,Maligniteit,70
+2020-05-19,Chronische longaandoeningen,111
+2020-05-19,Maligniteit,69
+2020-05-19,Immuundeficientie,8
+2020-05-19,Nieraandoening,40
+2020-05-19,Overig,154
 2020-05-20,Chronische neurologische of neuromusculaire aandoeningen,67
+2020-05-20,Maligniteit,70
+2020-05-20,Nieraandoening,40
+2020-05-20,Chronische longaandoeningen,111
+2020-05-20,Overig,155
+2020-05-20,Leveraandoening,16
+2020-05-20,Immuundeficientie,8
+2020-05-20,Cardio-vasculaire aandoeningen en hypertensie,196
+2020-05-20,Zwangerschap,0
+2020-05-20,Diabetes,119
 2020-05-21,Leveraandoening,16
 2020-05-21,Diabetes,121
 2020-05-21,Overig,156
 2020-05-21,Chronische longaandoeningen,112
-2020-05-21,Nieraandoening,41
 2020-05-21,Maligniteit,70
 2020-05-21,Zwangerschap,0
 2020-05-21,Immuundeficientie,8
 2020-05-21,Cardio-vasculaire aandoeningen en hypertensie,199
 2020-05-21,Chronische neurologische of neuromusculaire aandoeningen,67
-2020-05-22,Immuundeficientie,8
-2020-05-22,Nieraandoening,41
-2020-05-22,Maligniteit,70
-2020-05-22,Overig,157
-2020-05-22,Chronische longaandoeningen,112
-2020-05-22,Leveraandoening,16
-2020-05-22,Diabetes,121
-2020-05-22,Cardio-vasculaire aandoeningen en hypertensie,199
-2020-05-22,Zwangerschap,0
+2020-05-21,Nieraandoening,41
 2020-05-22,Chronische neurologische of neuromusculaire aandoeningen,67
-2020-05-23,Chronische longaandoeningen,112
-2020-05-23,Maligniteit,70
-2020-05-23,Overig,158
-2020-05-23,Immuundeficientie,8
-2020-05-23,Nieraandoening,41
-2020-05-23,Zwangerschap,0
-2020-05-23,Cardio-vasculaire aandoeningen en hypertensie,199
-2020-05-23,Diabetes,121
-2020-05-23,Chronische neurologische of neuromusculaire aandoeningen,67
+2020-05-22,Diabetes,121
+2020-05-22,Zwangerschap,0
+2020-05-22,Cardio-vasculaire aandoeningen en hypertensie,199
+2020-05-22,Leveraandoening,16
+2020-05-22,Overig,157
+2020-05-22,Maligniteit,70
+2020-05-22,Nieraandoening,41
+2020-05-22,Immuundeficientie,8
+2020-05-22,Chronische longaandoeningen,112
 2020-05-23,Leveraandoening,16
-2020-05-24,Zwangerschap,0
-2020-05-24,Chronische neurologische of neuromusculaire aandoeningen,68
+2020-05-23,Chronische neurologische of neuromusculaire aandoeningen,67
+2020-05-23,Diabetes,121
+2020-05-23,Cardio-vasculaire aandoeningen en hypertensie,199
+2020-05-23,Zwangerschap,0
+2020-05-23,Nieraandoening,41
+2020-05-23,Overig,158
+2020-05-23,Maligniteit,70
+2020-05-23,Chronische longaandoeningen,112
+2020-05-23,Immuundeficientie,8
+2020-05-24,Overig,159
+2020-05-24,Nieraandoening,41
+2020-05-24,Chronische longaandoeningen,112
+2020-05-24,Immuundeficientie,8
+2020-05-24,Maligniteit,70
 2020-05-24,Cardio-vasculaire aandoeningen en hypertensie,201
 2020-05-24,Diabetes,123
+2020-05-24,Chronische neurologische of neuromusculaire aandoeningen,68
+2020-05-24,Zwangerschap,0
 2020-05-24,Leveraandoening,17
-2020-05-24,Maligniteit,70
-2020-05-24,Overig,159
-2020-05-24,Chronische longaandoeningen,112
-2020-05-24,Nieraandoening,41
-2020-05-24,Immuundeficientie,8
-2020-05-25,Chronische neurologische of neuromusculaire aandoeningen,68
-2020-05-25,Chronische longaandoeningen,112
-2020-05-25,Immuundeficientie,8
-2020-05-25,Nieraandoening,41
-2020-05-25,Leveraandoening,17
-2020-05-25,Zwangerschap,0
-2020-05-25,Diabetes,123
-2020-05-25,Overig,159
 2020-05-25,Maligniteit,70
+2020-05-25,Overig,159
+2020-05-25,Diabetes,123
+2020-05-25,Zwangerschap,0
 2020-05-25,Cardio-vasculaire aandoeningen en hypertensie,201
-2020-05-26,Leveraandoening,17
-2020-05-26,Immuundeficientie,8
-2020-05-26,Chronische longaandoeningen,112
-2020-05-26,Chronische neurologische of neuromusculaire aandoeningen,68
-2020-05-26,Nieraandoening,41
-2020-05-26,Zwangerschap,0
-2020-05-26,Diabetes,123
-2020-05-26,Maligniteit,71
-2020-05-26,Cardio-vasculaire aandoeningen en hypertensie,201
+2020-05-25,Nieraandoening,41
+2020-05-25,Immuundeficientie,8
+2020-05-25,Chronische longaandoeningen,112
+2020-05-25,Chronische neurologische of neuromusculaire aandoeningen,68
+2020-05-25,Leveraandoening,17
 2020-05-26,Overig,160
-2020-05-27,Leveraandoening,17
-2020-05-27,Zwangerschap,0
-2020-05-27,Diabetes,123
-2020-05-27,Overig,161
-2020-05-27,Maligniteit,71
-2020-05-27,Immuundeficientie,8
+2020-05-26,Cardio-vasculaire aandoeningen en hypertensie,201
+2020-05-26,Maligniteit,71
+2020-05-26,Diabetes,123
+2020-05-26,Zwangerschap,0
+2020-05-26,Nieraandoening,41
+2020-05-26,Chronische longaandoeningen,112
+2020-05-26,Immuundeficientie,8
+2020-05-26,Leveraandoening,17
+2020-05-26,Chronische neurologische of neuromusculaire aandoeningen,68
 2020-05-27,Chronische longaandoeningen,112
-2020-05-27,Nieraandoening,41
 2020-05-27,Chronische neurologische of neuromusculaire aandoeningen,69
+2020-05-27,Nieraandoening,41
+2020-05-27,Immuundeficientie,8
 2020-05-27,Cardio-vasculaire aandoeningen en hypertensie,201
-2020-05-28,Cardio-vasculaire aandoeningen en hypertensie,202
-2020-05-28,Nieraandoening,41
-2020-05-28,Chronische longaandoeningen,112
-2020-05-28,Immuundeficientie,8
-2020-05-28,Chronische neurologische of neuromusculaire aandoeningen,69
+2020-05-27,Overig,161
+2020-05-27,Leveraandoening,17
+2020-05-27,Maligniteit,71
+2020-05-27,Diabetes,123
+2020-05-27,Zwangerschap,0
+2020-05-28,Leveraandoening,17
+2020-05-28,Zwangerschap,0
+2020-05-28,Diabetes,123
 2020-05-28,Overig,161
 2020-05-28,Maligniteit,72
-2020-05-28,Diabetes,123
-2020-05-28,Zwangerschap,0
-2020-05-28,Leveraandoening,17
-2020-05-29,Zwangerschap,0
-2020-05-29,Overig,161
-2020-05-29,Diabetes,123
-2020-05-29,Maligniteit,73
-2020-05-29,Leveraandoening,17
-2020-05-29,Cardio-vasculaire aandoeningen en hypertensie,202
-2020-05-29,Chronische longaandoeningen,112
-2020-05-29,Immuundeficientie,9
-2020-05-29,Nieraandoening,41
+2020-05-28,Immuundeficientie,8
+2020-05-28,Chronische longaandoeningen,112
+2020-05-28,Nieraandoening,41
+2020-05-28,Cardio-vasculaire aandoeningen en hypertensie,202
+2020-05-28,Chronische neurologische of neuromusculaire aandoeningen,69
 2020-05-29,Chronische neurologische of neuromusculaire aandoeningen,69
-2020-05-30,Nieraandoening,41
-2020-05-30,Cardio-vasculaire aandoeningen en hypertensie,204
-2020-05-30,Immuundeficientie,9
-2020-05-30,Chronische longaandoeningen,112
-2020-05-30,Chronische neurologische of neuromusculaire aandoeningen,69
-2020-05-30,Overig,162
-2020-05-30,Maligniteit,73
-2020-05-30,Diabetes,123
-2020-05-30,Leveraandoening,17
+2020-05-29,Nieraandoening,41
+2020-05-29,Immuundeficientie,9
+2020-05-29,Chronische longaandoeningen,112
+2020-05-29,Cardio-vasculaire aandoeningen en hypertensie,202
+2020-05-29,Leveraandoening,17
+2020-05-29,Diabetes,123
+2020-05-29,Overig,161
+2020-05-29,Zwangerschap,0
+2020-05-29,Maligniteit,73
 2020-05-30,Zwangerschap,0
-2020-05-31,Leveraandoening,17
-2020-05-31,Maligniteit,73
-2020-05-31,Overig,162
-2020-05-31,Zwangerschap,0
-2020-05-31,Diabetes,123
-2020-05-31,Immuundeficientie,9
+2020-05-30,Leveraandoening,17
+2020-05-30,Diabetes,123
+2020-05-30,Maligniteit,73
+2020-05-30,Overig,162
+2020-05-30,Chronische neurologische of neuromusculaire aandoeningen,69
+2020-05-30,Immuundeficientie,9
+2020-05-30,Cardio-vasculaire aandoeningen en hypertensie,204
+2020-05-30,Nieraandoening,41
+2020-05-30,Chronische longaandoeningen,112
 2020-05-31,Cardio-vasculaire aandoeningen en hypertensie,204
-2020-05-31,Nieraandoening,41
 2020-05-31,Chronische longaandoeningen,112
 2020-05-31,Chronische neurologische of neuromusculaire aandoeningen,69
-2020-06-01,Nieraandoening,41
-2020-06-01,Cardio-vasculaire aandoeningen en hypertensie,204
-2020-06-01,Zwangerschap,0
-2020-06-01,Chronische longaandoeningen,112
-2020-06-01,Diabetes,123
-2020-06-01,Chronische neurologische of neuromusculaire aandoeningen,69
-2020-06-01,Immuundeficientie,9
-2020-06-01,Overig,162
-2020-06-01,Leveraandoening,17
+2020-05-31,Immuundeficientie,9
+2020-05-31,Nieraandoening,41
+2020-05-31,Zwangerschap,0
+2020-05-31,Overig,162
+2020-05-31,Maligniteit,73
+2020-05-31,Leveraandoening,17
+2020-05-31,Diabetes,123
 2020-06-01,Maligniteit,73
-2020-06-02,Diabetes,123
-2020-06-02,Leveraandoening,17
-2020-06-02,Maligniteit,73
-2020-06-02,Cardio-vasculaire aandoeningen en hypertensie,204
-2020-06-02,Zwangerschap,0
-2020-06-02,Chronische neurologische of neuromusculaire aandoeningen,69
-2020-06-02,Nieraandoening,41
-2020-06-02,Chronische longaandoeningen,113
-2020-06-02,Overig,162
+2020-06-01,Leveraandoening,17
+2020-06-01,Overig,162
+2020-06-01,Immuundeficientie,9
+2020-06-01,Chronische neurologische of neuromusculaire aandoeningen,69
+2020-06-01,Diabetes,123
+2020-06-01,Chronische longaandoeningen,112
+2020-06-01,Zwangerschap,0
+2020-06-01,Cardio-vasculaire aandoeningen en hypertensie,204
+2020-06-01,Nieraandoening,41
 2020-06-02,Immuundeficientie,9
-2020-06-03,Immuundeficientie,9
-2020-06-03,Cardio-vasculaire aandoeningen en hypertensie,204
-2020-06-03,Nieraandoening,41
-2020-06-03,Chronische neurologische of neuromusculaire aandoeningen,69
-2020-06-03,Chronische longaandoeningen,113
-2020-06-03,Zwangerschap,0
-2020-06-03,Diabetes,123
-2020-06-03,Overig,162
-2020-06-03,Maligniteit,73
+2020-06-02,Overig,162
+2020-06-02,Chronische longaandoeningen,113
+2020-06-02,Nieraandoening,41
+2020-06-02,Chronische neurologische of neuromusculaire aandoeningen,69
+2020-06-02,Zwangerschap,0
+2020-06-02,Cardio-vasculaire aandoeningen en hypertensie,204
+2020-06-02,Maligniteit,73
+2020-06-02,Leveraandoening,17
+2020-06-02,Diabetes,123
 2020-06-03,Leveraandoening,17
-2020-06-04,Leveraandoening,17
-2020-06-04,Overig,162
+2020-06-03,Maligniteit,73
+2020-06-03,Overig,162
+2020-06-03,Diabetes,123
+2020-06-03,Zwangerschap,0
+2020-06-03,Chronische neurologische of neuromusculaire aandoeningen,69
+2020-06-03,Nieraandoening,41
+2020-06-03,Cardio-vasculaire aandoeningen en hypertensie,204
+2020-06-03,Immuundeficientie,9
+2020-06-03,Chronische longaandoeningen,113
+2020-06-04,Maligniteit,73
+2020-06-04,Zwangerschap,0
+2020-06-04,Chronische longaandoeningen,114
+2020-06-04,Diabetes,124
+2020-06-04,Cardio-vasculaire aandoeningen en hypertensie,206
 2020-06-04,Nieraandoening,41
 2020-06-04,Chronische neurologische of neuromusculaire aandoeningen,70
+2020-06-04,Overig,162
+2020-06-04,Leveraandoening,17
 2020-06-04,Immuundeficientie,9
-2020-06-04,Cardio-vasculaire aandoeningen en hypertensie,206
-2020-06-04,Maligniteit,73
-2020-06-04,Chronische longaandoeningen,114
-2020-06-04,Zwangerschap,0
-2020-06-04,Diabetes,124
-2020-06-05,Immuundeficientie,9
-2020-06-05,Chronische longaandoeningen,114
-2020-06-05,Nieraandoening,41
-2020-06-05,Overig,162
-2020-06-05,Chronische neurologische of neuromusculaire aandoeningen,70
-2020-06-05,Cardio-vasculaire aandoeningen en hypertensie,206
-2020-06-05,Diabetes,124
-2020-06-05,Zwangerschap,0
-2020-06-05,Maligniteit,73
 2020-06-05,Leveraandoening,17
-2020-06-06,Maligniteit,74
-2020-06-06,Zwangerschap,0
+2020-06-05,Maligniteit,73
+2020-06-05,Zwangerschap,0
+2020-06-05,Diabetes,124
+2020-06-05,Cardio-vasculaire aandoeningen en hypertensie,206
+2020-06-05,Overig,162
+2020-06-05,Nieraandoening,41
+2020-06-05,Chronische longaandoeningen,114
+2020-06-05,Immuundeficientie,9
+2020-06-05,Chronische neurologische of neuromusculaire aandoeningen,70
+2020-06-06,Immuundeficientie,9
+2020-06-06,Chronische longaandoeningen,114
+2020-06-06,Nieraandoening,41
+2020-06-06,Overig,162
+2020-06-06,Chronische neurologische of neuromusculaire aandoeningen,70
 2020-06-06,Cardio-vasculaire aandoeningen en hypertensie,206
 2020-06-06,Diabetes,124
+2020-06-06,Zwangerschap,0
+2020-06-06,Maligniteit,74
 2020-06-06,Leveraandoening,17
-2020-06-06,Chronische neurologische of neuromusculaire aandoeningen,70
-2020-06-06,Immuundeficientie,9
-2020-06-06,Nieraandoening,41
-2020-06-06,Chronische longaandoeningen,114
-2020-06-06,Overig,162
+2020-06-07,Maligniteit,74
+2020-06-07,Zwangerschap,0
+2020-06-07,Cardio-vasculaire aandoeningen en hypertensie,206
+2020-06-07,Diabetes,124
+2020-06-07,Leveraandoening,17
+2020-06-07,Chronische neurologische of neuromusculaire aandoeningen,70
+2020-06-07,Immuundeficientie,9
+2020-06-07,Nieraandoening,41
+2020-06-07,Chronische longaandoeningen,114
+2020-06-07,Overig,162
