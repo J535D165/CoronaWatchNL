@@ -112,21 +112,25 @@ This folder contains datasets with the total number of tested people and the cor
 
 #### Visualizations miscellaneous data
 
-These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.
+These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.<br/>
 
 [<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots)
 
-The reproduction index, plotted with the corresponding minimum and maximum values, indicates how quickly the COVID-19 virus is spreading in the Netherlands.
+The reproduction index, plotted with the corresponding minimum and maximum values, indicates how quickly the COVID-19 virus is spreading in the Netherlands.<br/>
+
 [<img src="plots/reproductie_index.png" width="430">](plots)
 
-These graphs show the number of (deceased) nursery home residents infected with COVID-19.
+These graphs show the number of (deceased) nursery home residents infected with COVID-19. <br/>
+
 [<img src="plots/overview_nursery_count.png" width="430">](plots) [<img src="plots/overview_nursery_cumulative.png" width="430">](plots)
 
-Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. 
-[<img src="plots/conditions_statistics.png" width="430">](plots)
+Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. <br/>
 
-The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. 
-[<img src="plots/underlying_conditions.png" width="430">](plots)
+[<img src="plots/conditions_statistics.png" width="600">](plots)
+
+The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. <br/>
+[<img src="plots/underlying_conditions.png" width="600">](plots)
+
 
 ## Inactive/deprecated datasets
 
