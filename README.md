@@ -115,7 +115,7 @@ These graphs display the number of (positively) tested people per week. The end 
 [<img src="plots/overview_plot_tests_weeks_cum.png" width="430">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="430">](plots)
 
 The reproduction index, plotted with the corresponding minimum and maximum values, indicates how quickly the COVID-19 virus is spreading in the Netherlands.
-[<img src="plots/reproductie_index.png" width="430">](plots)[<img src="plots/reproductie_index.png" width="430">](plots)
+[<img src="plots/reproductie_index.png" width="430">](plots)
 
 Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. 
 [<img src="plots/conditions_statistics.png" width="430">](plots)
