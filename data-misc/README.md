@@ -55,7 +55,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
 | **Type** | Type | Type of reproduction measure (i.e., Reproductie index, Minimum, Maximum) | character | Reproductie index |
-| **Waarde** | Value | The (minimum and maximum) reproduction index (*Reproductie index*) per day, indicating how quickly the virus is spreading | 0.69 |
+| **Waarde** | Value | The (minimum and maximum) reproduction index (*Reproductie index*) per day, indicating how quickly the virus is spreading | numeric | 0.69 |
 
 ### Underlying 
 
