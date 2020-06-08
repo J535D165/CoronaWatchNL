@@ -143,7 +143,7 @@ stat %>%
 ### Reproduction index
 rep <- read_csv("data-misc/data-reproduction/RIVM_NL_reproduction_index.csv")
 
-rep2 <- spread(rep, Type, Aantal)
+rep2 <- spread(rep, Type, Waarde)
 
 rep2 %>%
   ggplot(aes(x= Datum, y = `Reproductie index`)) +
