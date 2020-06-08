@@ -161,3 +161,54 @@ rep2 %>%
   ggtitle("Reproductie index per dag") +
   ggsave("plots/reproductie_index.png", width = 5.5, height=4)
 
+# Tests: Cumulatief per kalender week (einde van de week (zondag) als plotdatum)
+test %>%
+  filter(Type == "Totaal") %>%
+  mutate(Cumulatief = cumsum(Aantal)) %>%
+  bind_rows(test %>%
+              filter(Type == "Positief") %>%
+              mutate(Cumulatief = cumsum(Aantal))) %>%
+  mutate(
+    Type = if_else(Type == "Totaal", "Totaal testen", "Positieve testen")
+  ) %>%
+  ggplot(aes(x = EindDatum, y = Cumulatief, colour = Type)) +
+  geom_line() +
+  scale_y_continuous(limits=c(0, NA)) +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  ggtitle("Totaal (positieve) COVID-19 testen per week") +
+  ggsave("plots/overview_plot_tests_weeks_cum.png", width = 5.5, height=4)
+
+
+# Nursery home counts
+read_csv("data-misc/data-nursery/RIVM_NL_nursery_counts.csv") %>%
+  mutate(Type = factor(Type, c("Positief geteste bewoners", "Overleden besmette bewoners"))) %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
+  geom_line() +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  scale_y_continuous(limits=c(0, NA)) +
+  ggtitle("Toename (overleden) positief geteste verpleegtehuis bewoners") +
+  ggsave("plots/overview_nursery_count.png", width = 5.5, height=4)
+
+read_csv("data-misc/data-nursery/RIVM_NL_nursery_counts.csv") %>%
+  mutate(Type = factor(Type, c("Positief geteste bewoners", "Overleden besmette bewoners"))) %>%
+  ggplot(aes(x = Datum, y = AantalCumulatief, colour = Type)) +
+  geom_line() +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank()) +
+  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  scale_y_continuous(limits=c(0, NA)) +
+  ggtitle("Totaal (overleden) positief geteste verpleegtehuis bewoners") +
+  ggsave("plots/overview_nursery_cumulative.png", width = 5.5, height=4)

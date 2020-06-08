@@ -68,11 +68,24 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
-| **Datum** | Date | Date of calculated contagious count | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
+| **Datum** | Date | Date of calculated contagious count | YYYY-MM-DD (ISO 8601) | 2020-05-29 |
 | **Type** | Type | Type of measure (i.e., Geschat aantal besmettelijke mensen, Minimum aantal besmettelijke mensen, Maximum aantal besmettelijke mensen) | character | Geschat aantal besmettelijke mensen |
-| **Waarde** | Value\* | The (minimum and maximum) estimate of contagious people per 100.000 inhabitants (*Geschat aantal besmettelijke mensen*) | numeric | 0.69 |
+| **Waarde** | Value\* | The (minimum and maximum) estimate of contagious people per 100.000 inhabitants (*Geschat aantal besmettelijke mensen*) | numeric | 9.9 |
 
 **\*** This calculated value estimates how many people infected with COVID-19 per 100.000 inhabitants are contagious for others. This value is calculated by RIVM.
+
+### Nursery
+
+**Directory:** [data-misc/data-nursery](data-nursery) <br>
+**Complete file format:** [RIVM_NL_nursery_counts.csv](data-nursery/RIVM_NL_nursery_counts.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
+| **Type** | Type | Type of measurment: Positief geteste bewoners (*Positively tested residents*), Overleden besmette bewoners (*Deceased residents*) | character | Positief geteste bewoners |
+| **Aantal** | Count | Number of newly reported (deceased) COVID-19 cases of nursery home residents on the date of notification in the last 24 hours | numeric (integer) | 160 |
+| **AantalCumulatief** | Total count | Number of (deceased) COVID-19 cases of nursery home residents on the date of notification since the start of the outbreak | numeric (integer) | 4017 |
+
 
 ### Underlying 
 
