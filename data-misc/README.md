@@ -46,6 +46,17 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **endDate** | Date on which the measure was no longer enforced | YYYY-MM-DD (ISO 8601) | 2020-04-06 |
 | **notes** | Notes about the measure | character string | Child care facilities open only for childrens of parents working in crucial departments (doctors, police etc...). Restriction valid until April 6th|
 
+### Reproduction
+
+**Directory:** [data-misc/data-reproduction](data-reproduction) <br>
+**Complete file format:** [RIVM_NL_reproduction_index.csv](data-reproduction/RIVM_NL_reproduction_index.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
+| **Type** | Type | Type of reproduction measure (i.e., Reproductie index, Minimum, Maximum) | character | Reproductie index |
+| **Waarde** | Value | The (minimum and maximum) reproduction index (*Reproductie index*) per day, indicating how quickly the virus is spreading | 0.69 |
+
 ### Underlying 
 
 For deceased COVID-19 cases younger than 70, RIVM reported whether or not they suffered from underlying conditions and/or were pregnant. The number of deceased patients with and without underlying disorders and/or pregnancy are listed in [data-underlying_statistics](#underlying-statistics). The number of detected underlying conditions and/or pregnancies can be found in [data-underlying_conditions](#underlying-conditions).
