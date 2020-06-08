@@ -159,5 +159,5 @@ rep2 %>%
         plot.subtitle=element_text(size=11, hjust=0.5),
         legend.text = element_text(size = 9)) +
   ggtitle("Reproductie index per dag") +
-  ggsave("plots/reproductie_index.png", width = 8.5, height=4)
+  ggsave("plots/reproductie_index.png", width = 5.5, height=4)
 
