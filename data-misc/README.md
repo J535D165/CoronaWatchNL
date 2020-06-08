@@ -53,9 +53,26 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
-| **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
+| **Datum** | Date\* | Date of calculated reproduction index | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
 | **Type** | Type | Type of reproduction measure (i.e., Reproductie index, Minimum, Maximum) | character | Reproductie index |
-| **Waarde** | Value | The (minimum and maximum) reproduction index (*Reproductie index*) per day, indicating how quickly the virus is spreading | numeric | 0.69 |
+| **Waarde** | Value\*\* | The (minimum and maximum) reproduction index (*Reproductie index*) per day, indicating how quickly the virus is spreading | numeric | 0.69 |
+
+**\*** As the reproduction index is calculated in retrospect, the date shown here lies further in the past than the date of notification. <br/>
+**\*\*** The reproduction index is an estimate made by RIVM based on various data sources. The exact number is unknown. The reproduction index is an average for the entire Netherlands.
+
+### Contagious
+
+**Directory:** [data-misc/data-contagious](data-contagious) <br>
+**Complete file format:** [RIVM_NL_contagious_estimate.csv](data-contagious/RIVM_NL_contagious_estimate.csv)<br>
+**Latest file format:** [RIVM_NL_contagious_estimate_latest.csv](data-contagious/RIVM_NL_contagious_estimate_latest.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Datum** | Date | Date of calculated contagious count | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
+| **Type** | Type | Type of measure (i.e., Geschat aantal besmettelijke mensen, Minimum aantal besmettelijke mensen, Maximum aantal besmettelijke mensen) | character | Geschat aantal besmettelijke mensen |
+| **Waarde** | Value\* | The (minimum and maximum) estimate of contagious people per 100.000 inhabitants (*Geschat aantal besmettelijke mensen*) | numeric | 0.69 |
+
+**\*** This calculated value estimates how many people infected with COVID-19 per 100.000 inhabitants are contagious for others. This value is calculated by RIVM.
 
 ### Underlying 
 
