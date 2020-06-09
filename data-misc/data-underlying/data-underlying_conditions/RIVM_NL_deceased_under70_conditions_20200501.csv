@@ -1,11 +1,11 @@
 Datum,Type,AantalCumulatief
-2020-05-01,Zwangerschap,0
-2020-05-01,Immuundeficientie,7
-2020-05-01,Overig,136
-2020-05-01,Chronische neurologische of neuromusculaire aandoeningen,53
-2020-05-01,Chronische longaandoeningen,96
-2020-05-01,Maligniteit,60
-2020-05-01,Cardio-vasculaire aandoeningen en hypertensie,176
-2020-05-01,Leveraandoening,14
-2020-05-01,Nieraandoening,35
 2020-05-01,Diabetes,109
+2020-05-01,Nieraandoening,35
+2020-05-01,Leveraandoening,14
+2020-05-01,Cardio-vasculaire aandoeningen en hypertensie,176
+2020-05-01,Maligniteit,60
+2020-05-01,Chronische longaandoeningen,96
+2020-05-01,Overig,136
+2020-05-01,Immuundeficientie,7
+2020-05-01,Zwangerschap,0
+2020-05-01,Chronische neurologische of neuromusculaire aandoeningen,53

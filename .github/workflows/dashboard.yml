@@ -1,0 +1,32 @@
+name: "Download National Dashboard"
+on:
+  schedule:
+    - cron:  '*/30 10-22 * * *'
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Download and merge
+        run: |
+          python workflows/rivm/data_rivm_dashboard.py
+      - name: Commit files
+        run: |
+          git config --local user.email "jonathandebruinos@gmail.com"
+          git config --local user.name "J535D165 Action"
+          git add .
+          git commit -m "Update Dashboard data"
+        continue-on-error: true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
