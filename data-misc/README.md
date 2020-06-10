@@ -27,25 +27,6 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 **\*\*** The number of people positively tested on COVID-19 differs from the number of patients reported by the GGDs, as some people might have been tested more than once. <br/>
 **\*\*\*** The data is updated every day, except for weekends and holidays. <br/>
 
-
-### Measures
-
-**Directory:** [data-misc/data-measures](data-measures) <br>
-**Daily file format:** [NLD_measures.csv](data-measures/NLD_measures.csv) <br>
-**Latest file format:** [NLD_measures_latest.csv](data-measures/NLD_measures_latest.csv)<br>
-
-| Column name | Description | Format | Example |
-|---|---|---|---|
-| **measureID** | Measure ID | numeric | 1 |
-| **measureDescription** | Description of the enforced measure | character | Schools/Univ. closure |
-| **lastMeasureUpdate** | Date on which the measure was last updated | YYYY-MM-DD (ISO 8601) |  	2020-03-23 |
-| **area** | The area in which the measure is/was enforced | character | National |
-| **status** | Restriction status of the enforced measure (i.e., 'events' can be: Closed, Partially closed, Partially banned, Banned, or Partially cancelled) | character | Closed |
-| **restrictiveMeasures** | Adherence level of the measure (i.e., measure can be: Recommended or Mandatory)  | numeric (integer) | Mandatory|
-| **startDate** | Date on which the measure was first enforced | YYYY-MM-DD (ISO 8601) | 2020-03-16|
-| **endDate** | Date on which the measure was no longer enforced | YYYY-MM-DD (ISO 8601) | 2020-04-06 |
-| **notes** | Notes about the measure | character string | Child care facilities open only for childrens of parents working in crucial departments (doctors, police etc...). Restriction valid until April 6th|
-
 ### Reproduction
 
 **Directory:** [data-misc/data-reproduction](data-reproduction) <br>
@@ -118,3 +99,21 @@ For deceased COVID-19 cases younger than 70, RIVM reported whether or not they s
 | **AantalCumulatief\*** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 that suffered from cardio vascular conditions and hypertension (*Cardio-vasculaire aandoeningen en hypertensie*), Diabetes, Liver condition (*Leveraandoening*), Chronic neurological or neuromuscular conditions (*Chronische neurologische of neuromusculaire aandoeningen*), Immunodeficiency (*Immuundeficientie*), Kidney conditions (*Nieraandoening*), Chronic lung conditions (*Chronische longaandoeningen*), Malignancy (*Magligniteit*), or other conditions (*Overig*), or that were pregnant (*Zwangerschap*) | 12 |
 
 **\*** Note that one patient can have multiple conditions. Therefore, the sum of the cumulatives per condition is higher than the cumulative number of deceased patients with a known underlying condition and/or pregnancy as mentioned in [data-underlying_statistics](#underlying-statistics).
+
+### Measures
+
+**Directory:** [data-misc/data-measures](data-measures) <br>
+**Daily file format:** [NLD_measures.csv](data-measures/NLD_measures.csv) <br>
+**Latest file format:** [NLD_measures_latest.csv](data-measures/NLD_measures_latest.csv)<br>
+
+| Column name | Description | Format | Example |
+|---|---|---|---|
+| **measureID** | Measure ID | numeric | 1 |
+| **measureDescription** | Description of the enforced measure | character | Schools/Univ. closure |
+| **lastMeasureUpdate** | Date on which the measure was last updated | YYYY-MM-DD (ISO 8601) |  	2020-03-23 |
+| **area** | The area in which the measure is/was enforced | character | National |
+| **status** | Restriction status of the enforced measure (i.e., 'events' can be: Closed, Partially closed, Partially banned, Banned, or Partially cancelled) | character | Closed |
+| **restrictiveMeasures** | Adherence level of the measure (i.e., measure can be: Recommended or Mandatory)  | numeric (integer) | Mandatory|
+| **startDate** | Date on which the measure was first enforced | YYYY-MM-DD (ISO 8601) | 2020-03-16|
+| **endDate** | Date on which the measure was no longer enforced | YYYY-MM-DD (ISO 8601) | 2020-04-06 |
+| **notes** | Notes about the measure | character string | Child care facilities open only for childrens of parents working in crucial departments (doctors, police etc...). Restriction valid until April 6th|
