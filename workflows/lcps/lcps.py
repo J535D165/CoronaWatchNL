@@ -67,7 +67,7 @@ if __name__ == '__main__':
                 item['content'],
                 re.MULTILINE
             )
-            patients_in_de = None
+            patients_in_de = 0
             try:
                 patients_in_de = int(matches.group(1))
             except AttributeError:
@@ -90,7 +90,7 @@ if __name__ == '__main__':
     df_lcps_country = df_lcps.copy()
     df_lcps_country['Nederland'] = df_lcps['Aantal'] - df_lcps['AantalDuitsland']
     df_lcps_country['Duitsland'] = df_lcps['AantalDuitsland']
-    df_lcps_country = df_lcps_country[["Nederland", "Duitsland"]].stack(dropna=False)
+    df_lcps_country = df_lcps_country[["Nederland"]].stack(dropna=False)
     df_lcps_country.index.names = ['Datum', 'Land']
     df_lcps_country.name = "Aantal"
     df_lcps_country = df_lcps_country.to_frame()
@@ -101,4 +101,5 @@ if __name__ == '__main__':
     df_lcps_country[~df_lcps_country.index.duplicated()]
     df_lcps_country['Aantal'] = df_lcps_country['Aantal'].astype(pd.Int64Dtype())
 
+    df_lcps_country = df_lcps_country[df_lcps_country['Aantal'] != 0]
     df_lcps_country[["Aantal"]].to_csv('data/lcps_ic_country.csv')
