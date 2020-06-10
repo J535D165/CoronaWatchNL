@@ -8,6 +8,11 @@ Covid Analytics in the Netherlands:
 [https://covid-analytics.nl](https://covid-analytics.nl)
 
 
+## GebiedsMonitor
+COVID-19 Nederland GebiedsMonitor:
+![WZWkaart](wzwkaart.PNG)
+[https://covid19.wzwkaart.info/map/monitor](https://covid19.wzwkaart.info/map/monitor)
+
 ## Corona map
 Overview hospital intakes:
 ![CoronaMap](CoronaMap.png)
