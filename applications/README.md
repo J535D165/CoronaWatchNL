@@ -9,7 +9,7 @@ Covid Analytics in the Netherlands:
 
 
 ## GebiedsMonitor
-COVID-19 Nederland GebiedsMonitor:
+Area monitor of COVID-19 in the Netherlands:
 ![WZWkaart](wzwkaart.PNG)
 [https://covid19.wzwkaart.info/map/monitor](https://covid19.wzwkaart.info/map/monitor)
 
