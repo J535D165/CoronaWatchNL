@@ -131,7 +131,6 @@ Below, the cumulative number of deceased COVID-19 cases younger than 70 with and
 The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. <br/>
 [<img src="plots/underlying_conditions.png" width="600">](plots)
 
-
 ## Inactive/deprecated datasets
 
 ### Deprecated (pending)
