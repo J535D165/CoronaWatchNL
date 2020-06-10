@@ -23,15 +23,16 @@ For (interactive) applications based on these datasets, have a look at the [appl
 
 These datasets describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day. The datasets are categorized by their geographical level (national, provincial, municipal).
 
-The following datasets contain newly reported cases.
+The following datasets contain newly reported cases\*.
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Newly reported case counts by date in NL\*](data-geo#national) | RIVM | Date, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
-| [Newly reported case counts by date in NL per province\*](data-geo#provincial) | RIVM | Date, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
-| [Newly reported case counts by date in NL per municipality\*](data-geo#municipal) | RIVM | Date, Municipality, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Newly reported case counts by date in NL\*\*](data-geo#national) | RIVM | Date, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+| [Newly reported case counts by date in NL per province\*\*](data-geo#provincial) | RIVM | Date, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Newly reported case counts by date in NL per municipality\*\*](data-geo#municipal) | RIVM | Date, Municipality, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
 
 **\*** For more detail about the specific structure of the geographical datasets, have a look at the `data-geo`[codebook](/data-geo/README.md). <br/>
+**\*\*** These datasets contain the (cumulative) sum of all reported (deceased) cases per day. For an overview of all the *indivudally* reported (deceased) cases in the Netherlands, we would like to refer you to the extensive [COVID-19_casus_landelijk](https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/metadata/2c4357c8-76e4-4662-9574-1deb8a73f724?tab=relations) dataset. <br/>
 
 The following datasets contain the actual case counts on the given date.
 
@@ -50,15 +51,16 @@ To get a better picture of the content of the geographical datasets, have a look
 
 ### Descriptive datasets
 
-The datasets in this section describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day and contain variables like age and sex.
+The datasets in this section describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day and contain variables like age and sex\*.
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Case counts in NL per age\*](data-desc#age) | RIVM | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
-| [Case counts in NL per sex\*](data-desc#sex) | RIVM | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
-| [Deceased case counts in NL per sex and age group\*](data-desc#deceased) | RIVM | Date, Age group, Sex, (Cumulative) Count of deceased cases |
+| [Case counts in NL per age\*\*](data-desc#age) | RIVM | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Case counts in NL per sex\*\*](data-desc#sex) | RIVM | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+| [Deceased case counts in NL per sex and age group\*\*](data-desc#deceased) | RIVM | Date, Age group, Sex, (Cumulative) Count of deceased cases |
 
 **\*** For more detail about the specific structure of the descriptive datasets, have a look at the `data-desc`[codebook](/data-desc/README.md). <br/>
+**\*\*** These datasets contain the (cumulative) sum of all reported (deceased) cases per sex and age group per day. For an overview of all the *indivudally* reported (deceased) cases in the Netherlands, described by their sex, age, province of residence and other descriptive information, we would like to refer you to the extensive [COVID-19_casus_landelijk](https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/metadata/2c4357c8-76e4-4662-9574-1deb8a73f724?tab=relations) dataset. <br/>
 
 #### Visualizations descriptive data
 
