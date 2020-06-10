@@ -96,7 +96,7 @@ CoronaWatchNL reports COVID-19 related hospital data of three different sources:
 
 ### Miscellaneous datasets
 
-This folder contains datasets with the total number of tested people and the corresponding number of positively tested COVID-19 cases per week. The underlying conditions and/or pregnancy of deceased COVID-19 cases younger than 70 can also be found here.
+This folder contains datasets describing various topics, such as the number of (positively) tested people, the reproduction index, an estimate of the number of contagious peope, number of (deceased) infected nursery home residents, the underlying conditions and/or pregnancy of deceased cases younger than 70, and on overview of the reinforced measures and press releases in the Netherlands.
 
 | Dataset | Source | Variables |
 |---|---| --- |
@@ -120,7 +120,7 @@ The reproduction index, plotted with the corresponding minimum and maximum value
 
 [<img src="plots/reproductie_index.png" width="600">](plots)
 
-These graphs show the number of (deceased) nursery home residents infected with COVID-19. <br/>
+The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
 
 [<img src="plots/overview_nursery_count.png" width="430">](plots) [<img src="plots/overview_nursery_cumulative.png" width="430">](plots)
 
