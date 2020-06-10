@@ -36,7 +36,6 @@ def export_date(df, data_folder, prefix, data_date=None, label=None):
     
     
 def main_rep():    
-    # Read json 
     with urllib.request.urlopen("https://coronadashboard.rijksoverheid.nl/json/NL.json") as url:
         data = json.loads(url.read().decode())
     
@@ -44,7 +43,6 @@ def main_rep():
     data_min = data['min']
     data_max = data['max']
     data_rep = data['list']
-
     
     dates = []
     for i in data_min:
@@ -89,7 +87,7 @@ def main_rep():
         
     Path(DATA_FOLDER, "data-reproduction").mkdir(exist_ok=True)
 
-    dates = sorted(df["Datum"].unique())
+    # dates = sorted(df["Datum"].unique())
 
     # export by date
     # for data_date in dates:
@@ -102,72 +100,16 @@ def main_rep():
     # export all
     export_date(df, "data-reproduction", "RIVM_NL_reproduction_index", data_date=None, label=None)
 
-def main_test():    
-    # Read json 
-    with urllib.request.urlopen("https://coronadashboard.rijksoverheid.nl/json/NL.json") as url:
-        data = json.loads(url.read().decode())
-        
-    # Only save data related to infected people
-    data = data['infected_people_total']
-    data = data['list']
-    
-    # create dataframe
-    dates = []
-    values = []
-    for i in data:
-        datum = f'{date.fromtimestamp(int(i))}'
-        dates.append(datum)
-        aantal = data[i]
-        values.append(aantal)
-        
-    df = pd.DataFrame()
-    df['Datum'] = dates
-    df['AantalCumulatief'] = values
-    df["Aantal"] = df \
-    ['AantalCumulatief'] \
-    .transform(pd.Series.diff)
-    
-    df.loc[df["Datum"] == sorted(df["Datum"].unique())[0], "Aantal"] = \
-    df.loc[df["Datum"] == sorted(df["Datum"].unique())[0], "AantalCumulatief"]
-
-    
-    df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
-    
-    df = df[[
-        "Datum",
-        "Aantal",
-        "AantalCumulatief"
-    ]]
-    
-    return(df)
-
-    # Path(DATA_FOLDER, "data-test").mkdir(exist_ok=True)
-
-    # dates = sorted(df["Datum"].unique())
-
-    # export by date
-    # for data_date in dates:
-
-        #export_date(df, "data-test", "RIVM_NL_tested", data_date, str(data_date).replace("-", ""))
-
-    # export latest
-    # export_date(df, "data-test", "RIVM_NL_tested", data_date=dates[-1], label="latest")
-
-    # export all
-    # export_date(df, "data-test", "RIVM_NL_tested", data_date=None, label=None)
 
 def main_infectious():    
-    # Read json 
     with urllib.request.urlopen("https://coronadashboard.rijksoverheid.nl/json/NL.json") as url:
         data = json.loads(url.read().decode())
         
-    # Only save data related to infected people
     data = data['infectious_people_count_normalized']
     data_count = data['list']
     data_min = data['min']
     data_max = data['max']
     
-    # create dataframe
     dates = []
     values = []
     for i in data_count:
@@ -195,10 +137,60 @@ def main_infectious():
         df_total = df_total.append(df, ignore_index = True)
         
     Path(DATA_FOLDER, "data-contagious").mkdir(exist_ok=True)
+    
     export_date(df_total, "data-contagious", "RIVM_NL_contagious_estimate", data_date=None, label=None)
 
     export_date(df, "data-contagious", "RIVM_NL_contagious_estimate", data_date=None, label="latest")
 
+
+def main_nursery():    
+    with urllib.request.urlopen("https://coronadashboard.rijksoverheid.nl/json/NL.json") as url:
+        data = json.loads(url.read().decode())
+        
+    data1 = data['infected_people_nursery_count_daily']
+    data_count = data1['list']
+    
+    data2 = data['deceased_people_nursery_count_daily']
+    data_dead = data2['list']
+    
+    # Besmette bewoners
+    dates = []
+    values = []
+    for i in data_count:
+        datum = f'{date.fromtimestamp(int(i))}'
+        dates.append(datum)
+        
+        aantal = data_count[i]        
+        values.append(aantal)
+
+    df = pd.DataFrame()
+    df['Datum'] = dates
+    df['Type'] = "Positief geteste bewoners"
+    df['Aantal'] = values
+    
+    # Overleden bewoners
+    dates = []
+    values = []
+    for i in data_dead:
+        datum = f'{date.fromtimestamp(int(i))}'
+        dates.append(datum)
+        
+        aantal = data_dead[i]        
+        values.append(aantal)
+
+    df2 = pd.DataFrame()
+    df2['Datum'] = dates
+    df2['Type'] = "Overleden besmette bewoners"
+    df2['Aantal'] = values
+    
+    df = df.append(df2)
+    df = df.sort_values(by = ['Datum', 'Type'], ascending=[True, False])
+    df = df.reset_index(drop = True)
+    df['AantalCumulatief'] = df.groupby('Type')['Aantal'].transform(pd.Series.cumsum)
+    
+    Path(DATA_FOLDER, "data-nursery").mkdir(exist_ok=True)
+    
+    export_date(df, "data-nursery", "RIVM_NL_nursery_counts", data_date=None, label=None)
 
 if __name__ == '__main__':
 
@@ -206,7 +198,7 @@ if __name__ == '__main__':
 
     main_rep()
     
-    main_test()
-    
     main_infectious()
+    
+    main_nursery()
      
