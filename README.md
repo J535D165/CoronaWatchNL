@@ -101,11 +101,11 @@ This folder contains datasets with the total number of tested people and the cor
 | Dataset | Source | Variables |
 |---|---| --- |
 | [COVID-19 tests in NL per week\*](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
-| [COVID-19 measures by the government (NEW)\*](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
 | [Reproduction index COVID-19 virus\*](data-misc#reproduction) | RIVM | Date, Type of measure, Value |
 | [Contagion estimate COVID-19 virus\*](data-misc#contagious) | RIVM | Date, Type of measure, Value |
-| [Number of infected and deceased nursery home cases\*](data-misc#nursery) | RIVM | Date, Type of measure, Count |
+| [Number of infected and deceased nursery home cases\*](data-misc#nursery) | RIVM | Date, Type of measure, (Cumulative) Count |
 | [Underlying conditions and/or pregnancy in deceased COVID-19 cased under the age of 70\*](data-misc#underlying) | RIVM | Date, Type of condition, Cumulative count |
+| [COVID-19 measures by the government (NEW)\*](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
 | [RIVM press releases\*](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
 
 **\*** For more detail about the specific structure of the miscellaneous datasets, have a look at the `data-misc`[codebook](/data-misc/README.md). <br/>
@@ -118,7 +118,7 @@ These graphs display the number of (positively) tested people per week. The end 
 
 The reproduction index, plotted with the corresponding minimum and maximum values, indicates how quickly the COVID-19 virus is spreading in the Netherlands.<br/>
 
-[<img src="plots/reproductie_index.png" width="430">](plots)
+[<img src="plots/reproductie_index.png" width="600">](plots)
 
 These graphs show the number of (deceased) nursery home residents infected with COVID-19. <br/>
 
