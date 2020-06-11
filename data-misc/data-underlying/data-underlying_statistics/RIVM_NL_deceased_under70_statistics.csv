@@ -11,10 +11,10 @@ Datum,Type,AantalCumulatief
 2020-04-13,Onderliggende aandoening en/of zwangerschap,239
 2020-04-13,Geen onderliggende aandoening,33
 2020-04-13,Niet vermeld,72
+2020-04-14,Onderliggende aandoening en/of zwangerschap,252
+2020-04-14,Totaal gemeld,364
 2020-04-14,Niet vermeld,78
 2020-04-14,Geen onderliggende aandoening,34
-2020-04-14,Totaal gemeld,364
-2020-04-14,Onderliggende aandoening en/of zwangerschap,252
 2020-04-15,Totaal gemeld,387
 2020-04-15,Onderliggende aandoening en/of zwangerschap,266
 2020-04-15,Geen onderliggende aandoening,36
@@ -23,14 +23,14 @@ Datum,Type,AantalCumulatief
 2020-04-16,Onderliggende aandoening en/of zwangerschap,274
 2020-04-16,Geen onderliggende aandoening,38
 2020-04-16,Niet vermeld,90
+2020-04-17,Geen onderliggende aandoening,38
 2020-04-17,Niet vermeld,93
 2020-04-17,Totaal gemeld,415
 2020-04-17,Onderliggende aandoening en/of zwangerschap,284
-2020-04-17,Geen onderliggende aandoening,38
+2020-04-18,Niet vermeld,94
+2020-04-18,Geen onderliggende aandoening,38
 2020-04-18,Onderliggende aandoening en/of zwangerschap,299
 2020-04-18,Totaal gemeld,431
-2020-04-18,Geen onderliggende aandoening,38
-2020-04-18,Niet vermeld,94
 2020-04-19,Onderliggende aandoening en/of zwangerschap,308
 2020-04-19,Totaal gemeld,442
 2020-04-19,Niet vermeld,95
@@ -43,10 +43,10 @@ Datum,Type,AantalCumulatief
 2020-04-21,Geen onderliggende aandoening,41
 2020-04-21,Totaal gemeld,460
 2020-04-21,Niet vermeld,103
-2020-04-22,Onderliggende aandoening en/of zwangerschap,327
 2020-04-22,Niet vermeld,103
-2020-04-22,Totaal gemeld,475
 2020-04-22,Geen onderliggende aandoening,45
+2020-04-22,Onderliggende aandoening en/of zwangerschap,327
+2020-04-22,Totaal gemeld,475
 2020-04-23,Totaal gemeld,486
 2020-04-23,Geen onderliggende aandoening,45
 2020-04-23,Onderliggende aandoening en/of zwangerschap,337
@@ -55,14 +55,14 @@ Datum,Type,AantalCumulatief
 2020-04-24,Onderliggende aandoening en/of zwangerschap,349
 2020-04-24,Niet vermeld,107
 2020-04-24,Totaal gemeld,503
+2020-04-25,Onderliggende aandoening en/of zwangerschap,357
 2020-04-25,Niet vermeld,110
 2020-04-25,Totaal gemeld,515
-2020-04-25,Onderliggende aandoening en/of zwangerschap,357
 2020-04-25,Geen onderliggende aandoening,48
+2020-04-26,Niet vermeld,110
+2020-04-26,Geen onderliggende aandoening,49
 2020-04-26,Onderliggende aandoening en/of zwangerschap,362
 2020-04-26,Totaal gemeld,521
-2020-04-26,Geen onderliggende aandoening,49
-2020-04-26,Niet vermeld,110
 2020-04-27,Niet vermeld,111
 2020-04-27,Geen onderliggende aandoening,50
 2020-04-27,Onderliggende aandoening en/of zwangerschap,364
@@ -71,26 +71,26 @@ Datum,Type,AantalCumulatief
 2020-04-28,Onderliggende aandoening en/of zwangerschap,366
 2020-04-28,Geen onderliggende aandoening,53
 2020-04-28,Totaal gemeld,531
+2020-04-29,Totaal gemeld,547
 2020-04-29,Niet vermeld,116
 2020-04-29,Geen onderliggende aandoening,53
 2020-04-29,Onderliggende aandoening en/of zwangerschap,378
-2020-04-29,Totaal gemeld,547
+2020-04-30,Onderliggende aandoening en/of zwangerschap,385
+2020-04-30,Geen onderliggende aandoening,54
 2020-04-30,Niet vermeld,117
 2020-04-30,Totaal gemeld,556
-2020-04-30,Geen onderliggende aandoening,54
-2020-04-30,Onderliggende aandoening en/of zwangerschap,385
 2020-05-01,Niet vermeld,116
 2020-05-01,Geen onderliggende aandoening,54
 2020-05-01,Totaal gemeld,570
 2020-05-01,Onderliggende aandoening en/of zwangerschap,400
+2020-05-02,Geen onderliggende aandoening,54
 2020-05-02,Onderliggende aandoening en/of zwangerschap,405
 2020-05-02,Totaal gemeld,578
-2020-05-02,Geen onderliggende aandoening,54
 2020-05-02,Niet vermeld,119
-2020-05-03,Niet vermeld,120
-2020-05-03,Totaal gemeld,582
-2020-05-03,Geen onderliggende aandoening,55
 2020-05-03,Onderliggende aandoening en/of zwangerschap,407
+2020-05-03,Geen onderliggende aandoening,55
+2020-05-03,Totaal gemeld,582
+2020-05-03,Niet vermeld,120
 2020-05-04,Geen onderliggende aandoening,56
 2020-05-04,Onderliggende aandoening en/of zwangerschap,407
 2020-05-04,Niet vermeld,121
@@ -99,10 +99,10 @@ Datum,Type,AantalCumulatief
 2020-05-05,Totaal gemeld,589
 2020-05-05,Niet vermeld,121
 2020-05-05,Onderliggende aandoening en/of zwangerschap,411
-2020-05-06,Geen onderliggende aandoening,57
-2020-05-06,Onderliggende aandoening en/of zwangerschap,416
 2020-05-06,Totaal gemeld,594
 2020-05-06,Niet vermeld,121
+2020-05-06,Geen onderliggende aandoening,57
+2020-05-06,Onderliggende aandoening en/of zwangerschap,416
 2020-05-07,Geen onderliggende aandoening,58
 2020-05-07,Totaal gemeld,600
 2020-05-07,Onderliggende aandoening en/of zwangerschap,422
@@ -111,18 +111,18 @@ Datum,Type,AantalCumulatief
 2020-05-08,Geen onderliggende aandoening,60
 2020-05-08,Niet vermeld,122
 2020-05-08,Totaal gemeld,606
+2020-05-09,Niet vermeld,120
 2020-05-09,Geen onderliggende aandoening,62
 2020-05-09,Totaal gemeld,612
 2020-05-09,Onderliggende aandoening en/of zwangerschap,430
-2020-05-09,Niet vermeld,120
-2020-05-10,Geen onderliggende aandoening,62
-2020-05-10,Onderliggende aandoening en/of zwangerschap,432
 2020-05-10,Niet vermeld,120
 2020-05-10,Totaal gemeld,614
-2020-05-11,Niet vermeld,121
-2020-05-11,Geen onderliggende aandoening,62
+2020-05-10,Geen onderliggende aandoening,62
+2020-05-10,Onderliggende aandoening en/of zwangerschap,432
 2020-05-11,Onderliggende aandoening en/of zwangerschap,432
 2020-05-11,Totaal gemeld,615
+2020-05-11,Niet vermeld,121
+2020-05-11,Geen onderliggende aandoening,62
 2020-05-12,Onderliggende aandoening en/of zwangerschap,433
 2020-05-12,Totaal gemeld,618
 2020-05-12,Niet vermeld,123
@@ -135,10 +135,10 @@ Datum,Type,AantalCumulatief
 2020-05-14,Onderliggende aandoening en/of zwangerschap,437
 2020-05-14,Niet vermeld,125
 2020-05-14,Geen onderliggende aandoening,64
+2020-05-15,Niet vermeld,127
+2020-05-15,Onderliggende aandoening en/of zwangerschap,446
 2020-05-15,Geen onderliggende aandoening,64
 2020-05-15,Totaal gemeld,637
-2020-05-15,Onderliggende aandoening en/of zwangerschap,446
-2020-05-15,Niet vermeld,127
 2020-05-16,Totaal gemeld,640
 2020-05-16,Niet vermeld,128
 2020-05-16,Geen onderliggende aandoening,65
@@ -151,10 +151,10 @@ Datum,Type,AantalCumulatief
 2020-05-18,Onderliggende aandoening en/of zwangerschap,450
 2020-05-18,Totaal gemeld,644
 2020-05-18,Niet vermeld,128
-2020-05-19,Totaal gemeld,646
-2020-05-19,Geen onderliggende aandoening,67
-2020-05-19,Niet vermeld,128
 2020-05-19,Onderliggende aandoening en/of zwangerschap,451
+2020-05-19,Niet vermeld,128
+2020-05-19,Geen onderliggende aandoening,67
+2020-05-19,Totaal gemeld,646
 2020-05-20,Onderliggende aandoening en/of zwangerschap,452
 2020-05-20,Geen onderliggende aandoening,67
 2020-05-20,Niet vermeld,128
@@ -167,10 +167,10 @@ Datum,Type,AantalCumulatief
 2020-05-22,Onderliggende aandoening en/of zwangerschap,457
 2020-05-22,Niet vermeld,129
 2020-05-22,Geen onderliggende aandoening,67
-2020-05-23,Totaal gemeld,656
-2020-05-23,Onderliggende aandoening en/of zwangerschap,458
 2020-05-23,Niet vermeld,130
 2020-05-23,Geen onderliggende aandoening,68
+2020-05-23,Onderliggende aandoening en/of zwangerschap,458
+2020-05-23,Totaal gemeld,656
 2020-05-24,Geen onderliggende aandoening,68
 2020-05-24,Totaal gemeld,659
 2020-05-24,Niet vermeld,130
@@ -183,10 +183,10 @@ Datum,Type,AantalCumulatief
 2020-05-26,Totaal gemeld,662
 2020-05-26,Geen onderliggende aandoening,69
 2020-05-26,Niet vermeld,131
+2020-05-27,Onderliggende aandoening en/of zwangerschap,464
+2020-05-27,Niet vermeld,130
 2020-05-27,Totaal gemeld,663
 2020-05-27,Geen onderliggende aandoening,69
-2020-05-27,Niet vermeld,130
-2020-05-27,Onderliggende aandoening en/of zwangerschap,464
 2020-05-28,Niet vermeld,132
 2020-05-28,Onderliggende aandoening en/of zwangerschap,466
 2020-05-28,Totaal gemeld,668
@@ -199,10 +199,10 @@ Datum,Type,AantalCumulatief
 2020-05-30,Onderliggende aandoening en/of zwangerschap,469
 2020-05-30,Totaal gemeld,671
 2020-05-30,Geen onderliggende aandoening,70
+2020-05-31,Geen onderliggende aandoening,70
+2020-05-31,Totaal gemeld,672
 2020-05-31,Niet vermeld,133
 2020-05-31,Onderliggende aandoening en/of zwangerschap,469
-2020-05-31,Totaal gemeld,672
-2020-05-31,Geen onderliggende aandoening,70
 2020-06-01,Niet vermeld,133
 2020-06-01,Onderliggende aandoening en/of zwangerschap,469
 2020-06-01,Geen onderliggende aandoening,70
@@ -215,10 +215,10 @@ Datum,Type,AantalCumulatief
 2020-06-03,Niet vermeld,135
 2020-06-03,Geen onderliggende aandoening,70
 2020-06-03,Totaal gemeld,675
-2020-06-04,Onderliggende aandoening en/of zwangerschap,473
-2020-06-04,Geen onderliggende aandoening,70
 2020-06-04,Totaal gemeld,678
 2020-06-04,Niet vermeld,135
+2020-06-04,Geen onderliggende aandoening,70
+2020-06-04,Onderliggende aandoening en/of zwangerschap,473
 2020-06-05,Totaal gemeld,678
 2020-06-05,Niet vermeld,135
 2020-06-05,Onderliggende aandoening en/of zwangerschap,473
@@ -227,10 +227,10 @@ Datum,Type,AantalCumulatief
 2020-06-06,Onderliggende aandoening en/of zwangerschap,474
 2020-06-06,Totaal gemeld,680
 2020-06-06,Geen onderliggende aandoening,70
-2020-06-07,Niet vermeld,136
-2020-06-07,Totaal gemeld,680
-2020-06-07,Geen onderliggende aandoening,70
 2020-06-07,Onderliggende aandoening en/of zwangerschap,474
+2020-06-07,Geen onderliggende aandoening,70
+2020-06-07,Totaal gemeld,680
+2020-06-07,Niet vermeld,136
 2020-06-08,Niet vermeld,136
 2020-06-08,Geen onderliggende aandoening,70
 2020-06-08,Totaal gemeld,680
@@ -239,7 +239,11 @@ Datum,Type,AantalCumulatief
 2020-06-09,Onderliggende aandoening en/of zwangerschap,475
 2020-06-09,Geen onderliggende aandoening,70
 2020-06-09,Totaal gemeld,682
-2020-06-10,Onderliggende aandoening en/of zwangerschap,476
-2020-06-10,Geen onderliggende aandoening,70
 2020-06-10,Totaal gemeld,682
 2020-06-10,Niet vermeld,136
+2020-06-10,Onderliggende aandoening en/of zwangerschap,476
+2020-06-10,Geen onderliggende aandoening,70
+2020-06-11,Onderliggende aandoening en/of zwangerschap,476
+2020-06-11,Geen onderliggende aandoening,70
+2020-06-11,Totaal gemeld,682
+2020-06-11,Niet vermeld,136
