@@ -24,9 +24,9 @@ def parse_onderliggende_a(content):
         r"Niet vermeld\n\n"
         r"\%\n\n"
         r"(\d+)\n"
-        r"(\d+) \([0-9\.]+\)\n"
-        r"(\d+) \([0-9\.]+\)\n"
-        r"(\d+) \([0-9\.]+\)",
+        r"(\d+) [0-9\.]+\n"
+        r"(\d+) [0-9\.]+\n"
+        r"(\d+) [0-9\.]+",
         content
     )
     assert len(onderliggend_a[0]) == 4
