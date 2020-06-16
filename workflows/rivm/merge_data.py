@@ -31,7 +31,7 @@ DF_MUNICIPALITIES = pandas.read_csv(
 def transform_api_datasets():
 
     df = pandas.read_csv(
-        Path("raw_data", "rivm_api", "COVID-19_aantallen_gemeente_cumulatief-2020-05-21.csv"),
+        "https://data.rivm.nl/covid-19/COVID-19_aantallen_gemeente_cumulatief.csv",
         ";"
     )
 
@@ -46,6 +46,7 @@ def transform_api_datasets():
     df = convert_to_int(df, ["Provinciecode"])
 
     return df
+
 
 def list_files():
 

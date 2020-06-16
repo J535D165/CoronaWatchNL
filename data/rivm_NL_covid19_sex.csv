@@ -764,3 +764,12 @@ Datum,Geslacht,Type,Aantal
 2020-06-15,Man,Overleden,3337
 2020-06-15,Vrouw,Overleden,2728
 2020-06-15,Niet vermeld,Overleden,0
+2020-06-16,Man,Totaal,18353
+2020-06-16,Vrouw,Totaal,30641
+2020-06-16,Niet vermeld,Totaal,93
+2020-06-16,Man,Ziekenhuisopname,7237
+2020-06-16,Vrouw,Ziekenhuisopname,4589
+2020-06-16,Niet vermeld,Ziekenhuisopname,8
+2020-06-16,Man,Overleden,3337
+2020-06-16,Vrouw,Overleden,2733
+2020-06-16,Niet vermeld,Overleden,0
