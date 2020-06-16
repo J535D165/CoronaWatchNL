@@ -139,9 +139,9 @@ The following datasets are awaiting deprecation. They are replaced by new datase
 
 | Dataset | URL | Source | Variables | Alternative
 |---|---| --- | --- | --- |
-| [COVID-19 disease case counts in NL](data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [COVID-19 fatalities in NL](data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [COVID-19 hospitalizations in NL](data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [COVID-19 disease case counts in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [COVID-19 fatalities in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [COVID-19 hospitalizations in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
 | [Newly reported relative case counts by date in NL per municipality (PDF maps)\*](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
 
 **\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality.
@@ -152,7 +152,7 @@ The following datasets are no longer appended with new data (because RIVM is no 
 
 | Dataset | URL | Source | Variables | Expire date
 |---|---| --- | --- | --- |
-| COVID-19 disease case counts in NL\* |[[long format]](data/rivm_corona_in_nl.csv) [[wide format]](data/rivm_corona_in_nl_table.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 2020-03-30
+| COVID-19 disease case counts in NL\* |[[long format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl.csv) [[wide format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_table.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 2020-03-30
 
 **\*** Nowadays, the data is published again. Please use dataset [data-geo#municipal](https://github.com/J535D165/CoronaWatchNL/tree/master/data-geo#municipal).
 

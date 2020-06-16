@@ -1,7 +1,5 @@
 d=`date +%Y%m%d`
 
-python workflows/rivm/depr.py
-
 python workflows/rivm/merge_data.py
 python workflows/rivm/data_rivm_download.py
 python workflows/rivm/data_rivm_geo.py
