@@ -169,9 +169,9 @@ Datum,Type,Aantal,AantalCumulatief
 2020-05-20,Overleden besmette bewoners,15,2664
 2020-05-21,Positief geteste bewoners,12,8071
 2020-05-21,Overleden besmette bewoners,6,2670
-2020-05-22,Positief geteste bewoners,30,8101
+2020-05-22,Positief geteste bewoners,31,8102
 2020-05-22,Overleden besmette bewoners,11,2681
-2020-05-23,Positief geteste bewoners,11,8112
+2020-05-23,Positief geteste bewoners,10,8112
 2020-05-23,Overleden besmette bewoners,12,2693
 2020-05-24,Positief geteste bewoners,14,8126
 2020-05-24,Overleden besmette bewoners,10,2703
@@ -212,8 +212,10 @@ Datum,Type,Aantal,AantalCumulatief
 2020-06-11,Positief geteste bewoners,10,8310
 2020-06-11,Overleden besmette bewoners,2,2794
 2020-06-12,Positief geteste bewoners,7,8317
-2020-06-12,Overleden besmette bewoners,1,2795
+2020-06-12,Overleden besmette bewoners,3,2797
 2020-06-13,Positief geteste bewoners,5,8322
-2020-06-13,Overleden besmette bewoners,0,2795
+2020-06-13,Overleden besmette bewoners,1,2798
 2020-06-14,Positief geteste bewoners,2,8324
-2020-06-14,Overleden besmette bewoners,1,2796
+2020-06-14,Overleden besmette bewoners,2,2800
+2020-06-15,Positief geteste bewoners,5,8329
+2020-06-15,Overleden besmette bewoners,0,2800
