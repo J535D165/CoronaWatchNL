@@ -4,14 +4,14 @@ from pathlib import Path
 
 import pandas as pd
 
-DATE=datetime.date.today()
-# DATE = datetime.date(2020, 6, 1)
+#DATE=datetime.date.today()
+DATE = datetime.date(2020, 6, 16)
 
 AGES = ["0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80-84", "85-89", "90-94", "95+", "Niet vermeld"]
 PROVINCIES = ["Groningen", "Friesland", "Drenthe", "Overijssel", "Flevoland", "Gelderland", "Utrecht", "Noord-Holland", "Zuid-Holland", "Zeeland", "Noord-Brabant", "Limburg"]
 GENDER = ["Man", "Vrouw", "Niet vermeld"]
 ONDERLIGGEND_A = ["Totaal gemeld","Onderliggende aandoening en/of zwangerschap","Geen onderliggende aandoening","Niet vermeld"]
-ONDERLIGGEND_B = ["Zwangerschap", "Cardio-vasculaire aandoeningen en hypertensie", "Diabetes", "Leveraandoening", "Chronische neurologische of neuromusculaire aandoeningen", "Immuundeficientie", "Nieraandoening", "Chronische longaandoeningen", "Maligniteit", "Overig"]
+ONDERLIGGEND_B = ["Zwangerschap", "Postpartum", "Cardio-vasculaire aandoeningen en hypertensie", "Diabetes", "Leveraandoening", "Chronische neurologische of neuromusculaire aandoeningen", "Immuundeficientie", "Nieraandoening", "Chronische longaandoeningen", "Maligniteit", "Overig"]
 
 
 #### Data-misc
@@ -19,14 +19,15 @@ def parse_onderliggende_a(content):
 
     onderliggend_a = re.findall(
         r"Totaal gemeld\n"
-        r"Onderliggende aandoening en\/of zwangerschap\n"
-        r"Geen onderliggende aandoening\n"
-        r"Niet vermeld\n\n"
-        r"\%\n\n"
-        r"(\d+)\n"
-        r"(\d+) [0-9\.]+\n"
-        r"(\d+) [0-9\.]+\n"
-        r"(\d+) [0-9\.]+",
+    	r"Onderliggende aandoening en\/of zwangerschap\n"
+    	r"Geen onderliggende aandoening\n"
+    	r"Niet vermeld\n"
+    	r"1\n\n"
+    	r"%\n\n"
+    	r"(\d+)\n"
+    	r"(\d+) [0-9\.]+\n"
+    	r"(\d+) [0-9\.]+\n"
+    	r"(\d+) [0-9\.]+",
         content
     )
     assert len(onderliggend_a[0]) == 4
@@ -42,7 +43,7 @@ def parse_onderliggende_a(content):
 
     if f"{DATE}" not in str(df['Datum']):
         df = df.append(new, ignore_index = True)
-        df = df.sort_values(by='Datum')
+        df = df.sort_values(by=['Datum', 'Type'], ascending = [True, False])
         df = df.reset_index(drop=True)
 
         export_path = Path("data-misc/data-underlying", "data-underlying_statistics", "RIVM_NL_deceased_under70_statistics.csv")
@@ -57,22 +58,25 @@ def parse_onderliggende_b(content):
 
     onderliggend_b = re.findall(
         r"Nieraandoening\n"
-        r"Chronische longaandoeningen\n"
-        r"Maligniteit\n"
-        r"Overig\n\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)",
+    	r"Chronische longaandoeningen\n"
+    	r"Maligniteit\n"
+    	r"Overig\n"
+    	r"1\n\n"
+    	r"2\n\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)",
         content)
 
-    assert len(onderliggend_b[0]) == 10
+    assert len(onderliggend_b[0]) == 11
 
     new = pd.DataFrame()
     for i, v in enumerate(onderliggend_b[0]):
@@ -85,7 +89,7 @@ def parse_onderliggende_b(content):
 
     if f"{DATE}" not in str(df['Datum']):
         df = df.append(new, ignore_index = True)
-        df = df.sort_values(by='Datum')
+        df = df.sort_values(by=['Datum', 'Type'])
         df = df.reset_index(drop=True)
 
         export_path = Path("data-misc/data-underlying", "data-underlying_conditions", "RIVM_NL_deceased_under70_conditions.csv")
@@ -100,8 +104,7 @@ def parse_onderliggende_b(content):
 def parse_age(content):
 
     age_match = re.findall(
-        r"Leeftijdsgroep\n\n"
-    	r"Totaal gemeld\n\n"
+    	r"Leeftijdsgroep\n"
     	r"Totaal gemeld\n"
     	r"0-4\n"
     	r"5-9\n"
@@ -123,7 +126,10 @@ def parse_age(content):
     	r"85-89\n"
     	r"90-94\n"
     	r"95\+\n"
-    	r"Niet vermeld\n\n"
+    	r"Niet vermeld\n"
+    	r"1\n\n"
+    	r"2\n\n"
+    	r"Totaal gemeld %\n"
     	r"\d+\n"
     	r"(\d+)\n"
     	r"(\d+)\n"
@@ -146,7 +152,6 @@ def parse_age(content):
     	r"(\d+)\n"
     	r"(\d+)\n"
     	r"(\d+)\n\n"
-    	r"%\n"
     	r"\d+\.\d\n"
     	r"\d+\.\d\n"
     	r"\d+\.\d\n"
@@ -168,7 +173,7 @@ def parse_age(content):
     	r"\d+\.\d\n"
     	r"\d+\.\d\n"
     	r"\d+\.\d\n\n"
-    	r"Ziekenhuisopname\n"
+    	r"Ziekenhuisopname %\n"
     	r"\d+\n"
     	r"(\d+)\n"
     	r"(\d+)\n"
@@ -191,29 +196,7 @@ def parse_age(content):
     	r"(\d+)\n"
     	r"(\d+)\n"
     	r"(\d+)\n\n"
-    	r"%\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n\n"
-    	r"Overleden\n"
+    	r"Overleden %\n"
     	r"\d+\n"
     	r"(\d+)\n"
     	r"(\d+)\n"
@@ -235,29 +218,7 @@ def parse_age(content):
     	r"(\d+)\n"
     	r"(\d+)\n"
     	r"(\d+)\n"
-    	r"(\d+)\n\n"
-    	r"%\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d\n"
-    	r"\d+\.\d",
+    	r"(\d+)\n\n",
         content)
 
     assert len(age_match[0]) == 63
@@ -295,28 +256,27 @@ def parse_gender(content):
 
     gender = re.findall(
         r"Geslacht\n"
-        r"Totaal gemeld\n"
-        r"Man\n"
-        r"Vrouw\n"
-        r"Niet vermeld\n\n"
-        r"Totaal gemeld\n\n"
-        r"%\n\n"
-        r"\d+\n"
-        r"(\d+) \d+\.\d\n"
-        r"(\d+) \d+\.\d\n"
-        r"(\d+) \d+\.\d\n\n"
-        r"Ziekenhuisopname\n\n"
-        r"%\n\n"
-        r"\d+\n"
-        r"(\d+) \d+\.\d\n"
-        r"(\d+) \d+\.\d\n"
-        r"(\d+) \d+\.\d\n\n"
-        r"Overleden\n\n"
-        r"%\n\n"
-        r"\d+\n"
-        r"(\d+) \d+\.\d\n"
-        r"(\d+) \d+\.\d\n"
-        r"(\d+) \d+\.\d",
+    	r"Totaal gemeld\n"
+    	r"Man\n"
+    	r"Vrouw\n"
+    	r"Niet vermeld\n"
+    	r"1\n"
+    	r"2\n\n"
+    	r"Totaal gemeld %\n"
+    	r"\d+\n"
+    	r"(\d+) \d+\.\d\n"
+    	r"(\d+) \d+\.\d\n"
+    	r"(\d+) \d+\.\d\n\n"
+    	r"Ziekenhuisopname %\n\n"
+    	r"Overleden %\n\n"
+    	r"\d+\n"
+    	r"(\d+) \d+\.\d\n"
+    	r"(\d+) \d+\.\d\n"
+    	r"(\d+) \d+\.\d\n\n"
+    	r"\d+\n"
+    	r"(\d+) \d+\.\d\n"
+    	r"(\d+) \d+\.\d\n"
+    	r"(\d+) \d+\.\d",
         content,
         re.MULTILINE
     )
@@ -357,33 +317,38 @@ def parse_gender(content):
 def parse_provincie(content):
 
     provincie_match = re.findall(
-        r"Totaal gemeld\n"
-        r"Groningen\n"
-        r"Friesland\n"
-        r"Drenthe\n"
-        r"Overijssel\n"
-        r"Flevoland\n"
-        r"Gelderland\n"
-        r"Utrecht\n"
-        r"Noord-Holland\n"
-        r"Zuid-Holland\n"
-        r"Zeeland\n"
-        r"Noord-Brabant\n"
-        r"Limburg\n\n"
-        r"Totaal gemeld\n"
-        r"\d+\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)\n"
-        r"(\d+)", content, re.MULTILINE)
+        r"Provincie\n"
+    	r"Totaal gemeld\n"
+    	r"Groningen\n"
+    	r"Friesland\n"
+    	r"Drenthe\n"
+    	r"Overijssel\n"
+    	r"Flevoland\n"
+    	r"Gelderland\n"
+    	r"Utrecht\n"
+    	r"Noord-Holland\n"
+    	r"Zuid-Holland\n"
+    	r"Zeeland\n"
+    	r"Noord-Brabant\n"
+    	r"Limburg\n"
+    	r"1\n\n"
+    	r"2\n\n"
+    	r"Totaal gemeld\n"
+    	r"\d+\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n"
+    	r"(\d+)\n\n"
+    	r"\/100.000\n", 
+        content, re.MULTILINE)
 
     assert len(provincie_match[0]) == 12
 

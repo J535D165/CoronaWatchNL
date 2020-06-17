@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 ONDERLIGGEND_A = ["Totaal gemeld","Onderliggende aandoening en/of zwangerschap","Geen onderliggende aandoening","Niet vermeld"]
-ONDERLIGGEND_B = ["Overleden", "Zwangerschap", "Cardio-vasculaire aandoeningen en hypertensie", "Diabetes", "Leveraandoening", "Chronische neurologische of neuromusculaire aandoeningen", "Immuundeficiëntie", "Nieraandoening", "Chronische longaandoeningen", "Maligniteit", "Overig"]
+ONDERLIGGEND_B = ["Overleden", "Zwangerschap", "Cardio-vasculaire aandoeningen en hypertensie", "Diabetes", "Leveraandoening", "Chronische neurologische of neuromusculaire aandoeningen", "Immuundeficiëntie", "Nieraandoening", "Chronische longaandoeningen", "Maligniteit", "Overig", "Postpartum"]
 
 DATA_FOLDER = Path("data-misc/data-underlying")
 
@@ -67,11 +67,6 @@ def parse_onderliggende_b():
     # export all
     export_date(df, "data-underlying_conditions", "RIVM_NL_deceased_under70_conditions", data_date=None, label=None)
 
-def read_pdf(fp):
-    """Read the pdf"""
-
-    with open(fp, "r", encoding="latin1") as f:
-        return f.read()
 
 if __name__ == '__main__':
 
