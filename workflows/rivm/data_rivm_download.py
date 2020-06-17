@@ -61,6 +61,8 @@ def download_rivm_data():
     
     # Add new data to datafile data-folder
     df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_national.csv"))
+    df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
+
     
     if DATE not in str(df_reported['Datum']):
         df_reported = df_reported.append(df, ignore_index = True)
@@ -69,7 +71,7 @@ def download_rivm_data():
         export_path = Path("data", "rivm_NL_covid19_national.csv")
         print("Downloading...")
         print(f"Export {export_path}")
-        df.to_csv(export_path, index=False)
+        df_reported.to_csv(export_path, index=False)
     else: 
         print('RIVM file is already up to date')
     
