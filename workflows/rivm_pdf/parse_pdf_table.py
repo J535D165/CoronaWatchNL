@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pandas as pd
 
-#DATE=datetime.date.today()
-DATE = datetime.date(2020, 6, 16)
+DATE=datetime.date.today()
+# DATE = datetime.date(2020, 6, 16)
 
 AGES = ["0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60-64", "65-69", "70-74", "75-79", "80-84", "85-89", "90-94", "95+", "Niet vermeld"]
 PROVINCIES = ["Groningen", "Friesland", "Drenthe", "Overijssel", "Flevoland", "Gelderland", "Utrecht", "Noord-Holland", "Zuid-Holland", "Zeeland", "Noord-Brabant", "Limburg"]
@@ -347,7 +347,7 @@ def parse_provincie(content):
     	r"(\d+)\n"
     	r"(\d+)\n"
     	r"(\d+)\n\n"
-    	r"\/100.000\n", 
+    	r"\/100.000\n",
         content, re.MULTILINE)
 
     assert len(provincie_match[0]) == 12
