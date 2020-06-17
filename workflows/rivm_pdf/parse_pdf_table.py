@@ -317,7 +317,7 @@ def parse_gender(content):
 def parse_provincie(content):
 
     provincie_match = re.findall(
-        r"Provincie\n"
+    	r"Provincie\n"
     	r"Totaal gemeld\n"
     	r"Groningen\n"
     	r"Friesland\n"
@@ -346,14 +346,13 @@ def parse_provincie(content):
     	r"(\d+)\n"
     	r"(\d+)\n"
     	r"(\d+)\n"
-    	r"(\d+)\n\n"
-    	r"\/100.000\n", 
+    	r"(\d+)", 
         content, re.MULTILINE)
 
-    assert len(provincie_match[0]) == 12
+    assert len(provincie_match[1]) == 12
 
     new = pd.DataFrame()
-    for i, v in enumerate(provincie_match[0]):
+    for i, v in enumerate(provincie_match[1]):
         data = [(f"{DATE}",f"{PROVINCIES[i]}",f"{v}")]
         new = new.append(data, ignore_index=True)
 
@@ -371,7 +370,7 @@ def parse_provincie(content):
         df.to_csv(export_path, index=False)
 
     else:
-        print("Selected date is already in conditions file")
+        print("Selected date is already in province file")
 
 
 def parse_test_report(content):
