@@ -273,8 +273,10 @@ def merge_postest():
 
     # make combinations of the old items
 
-    result_old = pandas.read_csv(Path("data", "rivm_corona_in_nl.csv"),
-                                 usecols=["Datum", "Gemeentecode", "Aantal"])
+    result_old = pandas.read_csv(
+        "https://raw.githubusercontent.com/J535D165/CoronaWatchNL/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl.csv",
+        usecols=["Datum", "Gemeentecode", "Aantal"]
+    )
     combinations = itertools.product(
         result_old["Datum"].unique(),
         MUNICIPALITIES
