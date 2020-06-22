@@ -2,11 +2,15 @@
 
 If you are interested in applications based on, inspired by, or similar to the CoronaWatchNL datasets, check out the following applications:
 
+## Corona map NL and World
+Current status and prognose for the Netherlands and the world:
+![NLWorldMap](NLWorldMap.PNG)
+[https://app.powerbi.com/view](https://app.powerbi.com/view?r=eyJrIjoiNjQwOTc0OTYtMzEwOC00ZDc0LWFjZjAtOTA2ZmI2OTQxYWYyIiwidCI6IjU1OTRjODBlLWRmNWYtNDgxNi1hMGIyLTg1NjhlMTVkMjY0YyIsImMiOjh9)
+
 ## Covid-Analytics
 Covid Analytics in the Netherlands:
 ![CovidAnalytics](CovidAnalytics.PNG)
 [https://covid-analytics.nl](https://covid-analytics.nl)
-
 
 ## GebiedsMonitor
 Area monitor of COVID-19 in the Netherlands:
