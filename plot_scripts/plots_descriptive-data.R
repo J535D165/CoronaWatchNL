@@ -137,6 +137,8 @@ sex %>%
   ggtitle("COVID-19 patiënten Man:Vrouw ratio") +
   ggsave("plots/ratio_plot_geslacht.png", width = 5.5, height=4)
 
+
+# AGE & SEX
 ### Descriptives deceased cases
 read_csv("data-desc/data-deceased/RIVM_NL_deceased_age_sex.csv") %>%
   filter(LeeftijdGroep != "Niet vermeld") %>%
@@ -179,5 +181,5 @@ read_csv("data-desc/data-deceased/RIVM_NL_deceased_age_sex.csv") %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  ggtitle("Nieuwe overleden gevallen per geslacht en leeftijdsgroep per dag") +
+  ggtitle("Overleden gevallen per geslacht en leeftijdsgroep per dag") +
   ggsave("plots/deceased_age_sex_toename.png", width = 5.5, height=4)
