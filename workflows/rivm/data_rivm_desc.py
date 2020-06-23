@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import re
 import datetime
-from utils import convert_to_int
+#from utils import convert_to_int
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
@@ -156,6 +156,7 @@ def main_age_sex():
           
         
     df_reported = pd.concat(df, axis=0, ignore_index=True)
+    df_reported = df_reported.sort_values(by = ['Datum', 'LeeftijdGroep'])
     
     df_reported["Aantal"] = df_reported \
     .groupby(['Geslacht', 'LeeftijdGroep'], sort=True)['AantalCumulatief'] \
