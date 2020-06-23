@@ -101,7 +101,7 @@ con$Type[which(con$Type == "Chronische neurologische of neuromusculaire aandoeni
 
 con %>%
   filter(Type != "Overig") %>%
-  mutate(Type = factor(Type, c("Cardio-vasculair en hypertensie", "Diabetes", "Chronische longaandoeningen", "Maligniteit", "Chronisch neurologisch/neuromusculair", "Nieraandoening", "Leveraandoening", "Immuundeficientie", "Zwangerschap"))) %>%
+  mutate(Type = factor(Type, c("Cardio-vasculair en hypertensie", "Diabetes", "Chronische longaandoeningen", "Maligniteit", "Chronisch neurologisch/neuromusculair", "Nieraandoening", "Leveraandoening", "Immuundeficientie", "Zwangerschap", "Postpartum"))) %>%
   ggplot(aes(x = Datum, y = AantalCumulatief, colour = Type)) +
   geom_line() +
   scale_y_continuous(limits=c(0, NA)) +
