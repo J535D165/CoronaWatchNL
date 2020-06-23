@@ -41,7 +41,7 @@
   },
   "data": [
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "overledenAantal": 0,
@@ -52,18 +52,18 @@
       "ziekenhuisopnameAantalCumulatief": 116
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Flevoland",
       "Provinciecode": 24,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": -2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 91,
-      "totaalAantalCumulatief": 974,
+      "totaalAantalCumulatief": 972,
       "ziekenhuisopnameAantalCumulatief": 267
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "overledenAantal": 0,
@@ -74,18 +74,18 @@
       "ziekenhuisopnameAantalCumulatief": 130
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "overledenAantal": 0,
-      "totaalAantal": 11,
+      "totaalAantal": 5,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 681,
-      "totaalAantalCumulatief": 6408,
+      "totaalAantalCumulatief": 6413,
       "ziekenhuisopnameAantalCumulatief": 1505
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "overledenAantal": 0,
@@ -96,81 +96,81 @@
       "ziekenhuisopnameAantalCumulatief": 74
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "overledenAantal": 0,
       "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 748,
-      "totaalAantalCumulatief": 4851,
+      "totaalAantalCumulatief": 4853,
       "ziekenhuisopnameAantalCumulatief": 1563
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
-      "overledenAantal": 0,
-      "totaalAantal": 8,
+      "overledenAantal": 1,
+      "totaalAantal": 10,
       "ziekenhuisopnameAantal": 0,
-      "overledenAantalCumulatief": 1530,
-      "totaalAantalCumulatief": 9508,
+      "overledenAantalCumulatief": 1531,
+      "totaalAantalCumulatief": 9518,
       "ziekenhuisopnameAantalCumulatief": 2759
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
-      "overledenAantal": 0,
-      "totaalAantal": 7,
-      "ziekenhuisopnameAantal": 0,
-      "overledenAantalCumulatief": 814,
-      "totaalAantalCumulatief": 7139,
-      "ziekenhuisopnameAantalCumulatief": 1633
+      "overledenAantal": 1,
+      "totaalAantal": 12,
+      "ziekenhuisopnameAantal": 1,
+      "overledenAantalCumulatief": 815,
+      "totaalAantalCumulatief": 7151,
+      "ziekenhuisopnameAantalCumulatief": 1634
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "overledenAantal": 0,
-      "totaalAantal": 5,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 308,
-      "totaalAantalCumulatief": 3073,
+      "totaalAantalCumulatief": 3074,
       "ziekenhuisopnameAantalCumulatief": 548
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
-      "overledenAantal": 0,
-      "totaalAantal": 7,
-      "ziekenhuisopnameAantal": 0,
-      "overledenAantalCumulatief": 424,
-      "totaalAantalCumulatief": 3949,
-      "ziekenhuisopnameAantalCumulatief": 879
+      "overledenAantal": 1,
+      "totaalAantal": 10,
+      "ziekenhuisopnameAantal": -1,
+      "overledenAantalCumulatief": 425,
+      "totaalAantalCumulatief": 3959,
+      "ziekenhuisopnameAantalCumulatief": 878
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "overledenAantal": 0,
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 68,
-      "totaalAantalCumulatief": 728,
+      "totaalAantalCumulatief": 729,
       "ziekenhuisopnameAantalCumulatief": 150
     },
     {
-      "Datum": "2020-06-22",
+      "Datum": "2020-06-23",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
-      "overledenAantal": 0,
-      "totaalAantal": 25,
+      "overledenAantal": 2,
+      "totaalAantal": 24,
       "ziekenhuisopnameAantal": 2,
-      "overledenAantalCumulatief": 1285,
-      "totaalAantalCumulatief": 11005,
-      "ziekenhuisopnameAantalCumulatief": 2166
+      "overledenAantalCumulatief": 1287,
+      "totaalAantalCumulatief": 11029,
+      "ziekenhuisopnameAantalCumulatief": 2168
     }
   ],
   "apiVersion": "0.1"
