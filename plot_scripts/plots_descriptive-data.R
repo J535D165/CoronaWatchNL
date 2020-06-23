@@ -98,8 +98,11 @@ read_csv("data-desc/data-sex/RIVM_NL_sex.csv") %>%
 # Toename
 sex <- read_csv("data-desc/data-sex/RIVM_NL_sex.csv")
 sex <- sex %>% filter(Geslacht != "Niet vermeld")
-ratio <- (sex %>% filter(Geslacht == "Man")   %>% select(Aantal) /
-          sex %>% filter(Geslacht == "Vrouw") %>% select(Aantal))
+
+man <- movavg((sex %>% filter(Geslacht == "Man")%>% select(Aantal) %>% as.matrix), n = 7, type = 's')
+vrouw <- movavg((sex %>% filter(Geslacht == "Vrouw")%>% select(Aantal) %>% as.matrix), n = 7, type = 's')
+ratio <- man / vrouw
+
 sex['Ratio'] <- rep(as.matrix(ratio), each =2)
 
 sex %>%
@@ -113,14 +116,18 @@ sex %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  labs(subtitle = 'Weergegeven als 7-daags voortschrijdend gemiddelde') +
   ggtitle("Toename COVID-19 patiënten Man:Vrouw ratio") +
   ggsave("plots/ratio_toename_geslacht.png", width = 5.5, height=4)
 
 # Cumulatief
 sex <- read_csv("data-desc/data-sex/RIVM_NL_sex.csv")
 sex <- sex %>% filter(Geslacht != "Niet vermeld")
-ratio <- (sex %>% filter(Geslacht == "Man")   %>% select(AantalCumulatief) /
-            sex %>% filter(Geslacht == "Vrouw") %>% select(AantalCumulatief))
+
+man <- movavg((sex %>% filter(Geslacht == "Man")%>% select(AantalCumulatief) %>% as.matrix), n = 7, type = 's')
+vrouw <- movavg((sex %>% filter(Geslacht == "Vrouw")%>% select(AantalCumulatief) %>% as.matrix), n = 7, type = 's')
+ratio <- man / vrouw
+
 sex['Ratio'] <- rep(as.matrix(ratio), each =2)
 
 sex %>%
@@ -133,6 +140,7 @@ sex %>%
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
+  labs(subtitle = 'Weergegeven als 7-daags voortschrijdend gemiddelde') +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("COVID-19 patiënten Man:Vrouw ratio") +
   ggsave("plots/ratio_plot_geslacht.png", width = 5.5, height=4)
