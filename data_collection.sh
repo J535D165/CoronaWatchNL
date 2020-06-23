@@ -6,7 +6,7 @@ python workflows/rivm/data_rivm_download.py
 
 python workflows/rivm/merge_website_charts.py
 
-python workflows/rivm/data_rivm_dashboard.py
+# python workflows/rivm/data_rivm_dashboard.py
 
 
 python workflows/nice/nice_download_merge.py
