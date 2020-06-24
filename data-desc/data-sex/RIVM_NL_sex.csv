@@ -836,3 +836,12 @@ Datum,Geslacht,Type,Aantal,AantalCumulatief
 2020-06-23,Man,Overleden,4,3354
 2020-06-23,Vrouw,Overleden,1,2741
 2020-06-23,Niet vermeld,Overleden,0,0
+2020-06-24,Man,Totaal,34,18671
+2020-06-24,Vrouw,Totaal,48,31042
+2020-06-24,Niet vermeld,Totaal,0,91
+2020-06-24,Man,Ziekenhuisopname,3,7253
+2020-06-24,Vrouw,Ziekenhuisopname,3,4598
+2020-06-24,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-24,Man,Overleden,2,3356
+2020-06-24,Vrouw,Overleden,0,2741
+2020-06-24,Niet vermeld,Overleden,0,0
