@@ -31,9 +31,9 @@ For more detail about the specific structure of the geographical datasets, have 
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Reported case counts by date in NL](data-geo#national) | RIVM | Date, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
-| [Reported case counts by date in NL per province](data-geo#provincial) | RIVM | Date, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
-| [Reported case counts by date in NL per municipality](data-geo#municipal) | RIVM | Date, Municipality, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Reported case counts by date in NL](data-geo#national) | [RIVM](#data-collection-sources) | Date, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+| [Reported case counts by date in NL per province](data-geo#provincial) | [RIVM](#data-collection-sources) | Date, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Reported case counts by date in NL per municipality](data-geo#municipal) | [RIVM](#data-collection-sources) | Date, Municipality, Province, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
 
 #### Reference time: by day (0:00 AM)
 
@@ -43,15 +43,15 @@ For more detail about the specific structure of the geographical datasets, have 
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [ Case counts by date in NL ](data/rivm_NL_covid19_national_by_date/) | RIVM | Date, Type (Total, hopitalized and deceased patients), (Cumulative) Count |
+| [ Case counts by date in NL ](data/rivm_NL_covid19_national_by_date/) | [RIVM](#data-collection-sources) | Date, Type (Total, hopitalized and deceased patients), (Cumulative) Count |
 
 #### Visualizations geographical data
 
 To get a better picture of the content of the geographical datasets, have a look at the following visuals. These visuals show the development of the COVID-19 disease outbreak on a national level.
 
-[<img src="plots/overview_plot.png" width="419">](plots)[<img src="plots/overview_plot_diff.png" width="419">](plots)[<img src="plots/overview_plot_true_vs_reported.png" width="419">](plots)[<img src="plots/overview_plot_true_vs_reported_diff.png" width="419">](plots)[<img src="plots/overview_reports.png" width="419">](plots)
+[<img src="plots/overview_plot.png" width="419">](/data-geo/README.md)[<img src="plots/overview_plot_diff.png" width="419">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported.png" width="419">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported_diff.png" width="419">](/data-geo/README.md)[<img src="plots/overview_reports.png" width="419">](/data-geo/README.md)
 
-[![plots/map_province.png](plots/map_province.png)](plots)
+[![plots/map_province.png](plots/map_province.png)](/data-geo/README.md)
 
 
 ### Descriptive datasets
@@ -62,16 +62,16 @@ For more detail about the specific structure of the descriptive datasets, have a
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [Case counts in NL per age](data-desc#age) | RIVM | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
-| [Case counts in NL per sex](data-desc#sex) | RIVM | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
-| [Deceased case counts in NL per sex and age group](data-desc#deceased) | RIVM | Date, Age group, Sex, (Cumulative) Count of deceased cases |
+| [Case counts in NL per age](data-desc#age) | [RIVM](#data-collection-sources) | Date, Age group, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count |
+| [Case counts in NL per sex](data-desc#sex) | [RIVM](#data-collection-sources) | Date, Sex, Type (Total, hopitalized and deceased COVID-19 cases), (Cumulative) Count|
+| [Deceased case counts in NL per sex and age group](data-desc#deceased) | [RIVM](#data-collection-sources) | Date, Age group, Sex, (Cumulative) Count of deceased cases |
 
 
 #### Visualizations descriptive data
 
 The graphs below visualize the development of the COVID-19 disease outbreak per sex and age group.
 
-[<img src="plots/overview_plot_geslacht.png" width="419">](plots)[<img src="plots/ratio_plot_geslacht.png" width="419">](plots)[<img src="plots/toename_plot_geslacht.png" width="419">](plots)[<img src="plots/ratio_toename_geslacht.png" width="419">](plots)[<img src="plots/overview_plot_leeftijd_cum.png" width="419">](plots)[<img src="plots/overview_plot_leeftijd.png" width="419">](plots)[<img src="plots/deceased_age_sex.png" width="419">](plots)[<img src="plots/deceased_age_sex_toename.png" width="419">](plots)
+[<img src="plots/overview_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/toename_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_toename_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd_cum.png" width="419">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd.png" width="419">](/data-desc/README.md)[<img src="plots/deceased_age_sex.png" width="419">](/data-desc/README.md)[<img src="plots/deceased_age_sex_toename.png" width="419">](/data-desc/README.md)
 
 
 ### Intensive care datasets
@@ -87,14 +87,14 @@ For more detail about the specific structure of the intensive care datasets, hav
 
 | Dataset | Source | Variables |
 | --- | --- | --- |
-| [COVID-19 intensive care patient counts in NL ](data-ic#nice) | Stichting NICE | Date, New, Total and Cumulative ICU admissions per day, Number of ICUs with at least one COVID-19 case, New and Cumulative fatal, survived and discharged ICU admissions |
-| [COVID-19 intensive care patient counts with country of hospitalisation ](data-ic#lcps) | LCPS | Date, Country of Hospitalization, Total COVID-19 ICU admissions |
+| [COVID-19 intensive care patient counts in NL ](data-ic#nice) | [Stichting NICE](#data-collection-sources) | Date, New, Total and Cumulative ICU admissions per day, Number of ICUs with at least one COVID-19 case, New and Cumulative fatal, survived and discharged ICU admissions |
+| [COVID-19 intensive care patient counts with country of hospitalisation ](data-ic#lcps) | [LCPS](#data-collection-sources) | Date, Country of Hospitalization, Total COVID-19 ICU admissions |
 
 
 #### Visualizations intensive care
 The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) COVID-19 ICU admissions per day, as declared by NICE. The total number of ICU admissions per day as reported by LCPS is also shown.
 
-[<img src="plots/ic_nice_intakes.png" width="419">](plots)[<img src="plots/ic_nice_vrijkomst.png" width="419">](plots)[<img src="plots/ic_lcps_intakes.png" width="419">](plots)[<img src="plots/ic_lcps_intakes_country.png" width="419">](plots)[<img src="plots/ic_lcps_nice.png" width="419">](plots)[<img src="plots/overview_IC_data.png" width="419">](plots) [<img src="plots/overview_IC_nieuw.png" width="419">](plots[<img src="plots/overview_IC_actueel.png" width="419">](plots)[<img src="plots/overview_IC_totaal.png" width="419">](plots)
+[<img src="plots/ic_nice_intakes.png" width="419">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="419">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="419">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="419">](/data-ic/README.md)[<img src="plots/ic_lcps_nice.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_data.png" width="419">](/data-ic/README.md) [<img src="plots/overview_IC_nieuw.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="419">](/data-ic/README.md)
 
 
 ### Miscellaneous datasets
@@ -105,35 +105,35 @@ For more detail about the specific structure of the miscellaneous datasets, have
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [COVID-19 tests in NL per week](data-misc#test) | RIVM | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
-| [Reproduction index COVID-19 virus](data-misc#reproduction) | National Dashboard | Date, Type of measure, Value |
-| [Contagion estimate COVID-19 virus](data-misc#contagious) | National Dashboard | Date, Type of measure, Value |
-| [Number of infected and deceased nursery home cases](data-misc#nursery) | National Dashboard | Date, Type of measure, (Cumulative) Count |
-| [Underlying conditions and/or pregnancy in deceased COVID-19 cased under the age of 70](data-misc#underlying) | RIVM | Date, Type of condition, Cumulative count |
-| [COVID-19 measures by the government](data-misc#measures) | European Commission Joint Research Centre | Various variables on governmental measures (in English) |
-| [RIVM press releases](data/rivm_press_releases.csv) | RIVM | Date and Time, Content of press release |
+| [COVID-19 tests in NL per week](data-misc#test) | [RIVM](#data-collection-sources) | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
+| [Reproduction index COVID-19 virus](data-misc#reproduction) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
+| [Contagion estimate COVID-19 virus](data-misc#contagious) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
+| [Number of infected and deceased nursery home cases](data-misc#nursery) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
+| [Underlying conditions and/or pregnancy in deceased COVID-19 cased under the age of 70](data-misc#underlying) | [RIVM](#data-collection-sources) | Date, Type of condition, Cumulative count |
+| [COVID-19 measures by the government](data-misc#measures) | [European Commission Joint Research Centre](#data-collection-sources) | Various variables on governmental measures (in English) |
+| [RIVM press releases](data/rivm_press_releases.csv) | [RIVM](#data-collection-sources) | Date and Time, Content of press release |
 
 
 #### Visualizations miscellaneous data
 
 These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.<br/>
 
-[<img src="plots/overview_plot_tests_weeks_cum.png" width="419">](plots)[<img src="plots/overview_plot_tests_weeks.png" width="419">](plots)
+[<img src="plots/overview_plot_tests_weeks_cum.png" width="419">](/data-misc/README.md)[<img src="plots/overview_plot_tests_weeks.png" width="419">](/data-misc/README.md)
 
 The reproduction index, plotted with the corresponding minimum and maximum values, indicates how quickly the COVID-19 virus is spreading in the Netherlands.<br/>
 
-[<img src="plots/reproductie_index.png" width="600">](plots)
+[<img src="plots/reproductie_index.png" width="600">](/data-misc/README.md)
 
 The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
 
-[<img src="plots/overview_nursery_count.png" width="419">](plots)[<img src="plots/overview_nursery_cumulative.png" width="419">](plots)
+[<img src="plots/overview_nursery_count.png" width="419">](/data-misc/README.md)[<img src="plots/overview_nursery_cumulative.png" width="419">](/data-misc/README.md)
 
 Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. <br/>
 
-[<img src="plots/conditions_statistics.png" width="600">](plots)
+[<img src="plots/conditions_statistics.png" width="600">](/data-misc/README.md)
 
 The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. <br/>
-[<img src="plots/underlying_conditions.png" width="600">](plots)
+[<img src="plots/underlying_conditions.png" width="600">](/data-misc/README.md)
 
 ## Inactive/deprecated datasets
 
@@ -143,10 +143,10 @@ The following datasets are awaiting deprecation. They are replaced by new datase
 
 | Dataset | URL | Source | Variables | Alternative
 |---|---| --- | --- | --- |
-| [COVID-19 disease case counts in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_daily.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [COVID-19 fatalities in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_fatalities.csv) | RIVM | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [COVID-19 hospitalizations in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_hosp.csv) | RIVM | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*](data/rivm_NL_covid19_municipality_range.csv) | RIVM | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
+| [COVID-19 disease case counts in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_daily.csv) | [RIVM](#data-collection-sources) | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [COVID-19 fatalities in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_fatalities.csv) | [RIVM](#data-collection-sources) | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [COVID-19 hospitalizations in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_hosp.csv) | [RIVM](#data-collection-sources) | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*](data/rivm_NL_covid19_municipality_range.csv) | [RIVM](#data-collection-sources) | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
 
 **\*** This dataset is extracted from the maps in the PDF's. The values are relative counts per 100.000 residents in the municipality.
 
@@ -156,7 +156,7 @@ The following datasets are no longer appended with new data (because RIVM is no 
 
 | Dataset | URL | Source | Variables | Expire date
 |---|---| --- | --- | --- |
-| COVID-19 disease case counts in NL\* |[[long format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl.csv) [[wide format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_table.csv) | RIVM | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 2020-03-30
+| COVID-19 disease case counts in NL\* |[[long format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl.csv) [[wide format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_table.csv) | [RIVM](#data-collection-sources) | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 2020-03-30
 
 **\*** Nowadays, the data is published again. Please use dataset [data-geo#municipal](https://github.com/J535D165/CoronaWatchNL/tree/master/data-geo#municipal).
 
