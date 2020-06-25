@@ -156,6 +156,7 @@ def main_age_sex():
           
         
     df_reported = pd.concat(df, axis=0, ignore_index=True)
+    df_reported = df_reported.sort_values(by = ['Datum', 'Geslacht', 'LeeftijdGroep'])
     
     df_reported["Aantal"] = df_reported \
     .groupby(['Geslacht', 'LeeftijdGroep'], sort=True)['AantalCumulatief'] \
