@@ -49,7 +49,7 @@ For more detail about the specific structure of the geographical datasets, have 
 
 To get a better picture of the content of the geographical datasets, have a look at the following visuals. These visuals show the development of the COVID-19 disease outbreak on a national level.
 
-[<img src="plots/overview_plot.png" width="419">](plots) [<img src="plots/overview_plot_diff.png" width="419">](plots) [<img src="plots/overview_plot_true_vs_reported.png" width="419">](plots) [<img src="plots/overview_plot_true_vs_reported_diff.png" width="419">](plots) [<img src="plots/overview_reports.png" width="419">](plots)
+[<img src="plots/overview_plot.png" width="419">](plots)[<img src="plots/overview_plot_diff.png" width="419">](plots)[<img src="plots/overview_plot_true_vs_reported.png" width="419">](plots)[<img src="plots/overview_plot_true_vs_reported_diff.png" width="419">](plots)[<img src="plots/overview_reports.png" width="419">](plots)
 
 [![plots/map_province.png](plots/map_province.png)](plots)
 
@@ -94,7 +94,7 @@ For more detail about the specific structure of the intensive care datasets, hav
 #### Visualizations intensive care
 The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) COVID-19 ICU admissions per day, as declared by NICE. The total number of ICU admissions per day as reported by LCPS is also shown.
 
-[<img src="plots/ic_nice_intakes.png" width="419">](plots) [<img src="plots/ic_nice_vrijkomst.png" width="419">](plots) [<img src="plots/ic_lcps_intakes.png" width="419">](plots) [<img src="plots/ic_lcps_intakes_country.png" width="419">](plots) [<img src="plots/ic_lcps_nice.png" width="419">](plots)[<img src="plots/overview_IC_data.png" width="419">](plots) [<img src="plots/overview_IC_nieuw.png" width="419">](plots) [<img src="plots/overview_IC_actueel.png" width="419">](plots) [<img src="plots/overview_IC_totaal.png" width="419">](plots)
+[<img src="plots/ic_nice_intakes.png" width="419">](plots)[<img src="plots/ic_nice_vrijkomst.png" width="419">](plots)[<img src="plots/ic_lcps_intakes.png" width="419">](plots)[<img src="plots/ic_lcps_intakes_country.png" width="419">](plots)[<img src="plots/ic_lcps_nice.png" width="419">](plots)[<img src="plots/overview_IC_data.png" width="419">](plots) [<img src="plots/overview_IC_nieuw.png" width="419">](plots[<img src="plots/overview_IC_actueel.png" width="419">](plots)[<img src="plots/overview_IC_totaal.png" width="419">](plots)
 
 
 ### Miscellaneous datasets
@@ -126,7 +126,7 @@ The reproduction index, plotted with the corresponding minimum and maximum value
 
 The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
 
-[<img src="plots/overview_nursery_count.png" width="419">](plots) [<img src="plots/overview_nursery_cumulative.png" width="419">](plots)
+[<img src="plots/overview_nursery_count.png" width="419">](plots)[<img src="plots/overview_nursery_cumulative.png" width="419">](plots)
 
 Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. <br/>
 
