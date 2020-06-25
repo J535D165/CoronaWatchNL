@@ -220,7 +220,7 @@ IC %>%
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  ggtitle("NICE vs. RIVM: Aantal nieuwe opnamen per dag") +
+  ggtitle("Nieuwe ziekenhuis (RIVM) en IC (NICE) opnamen per dag") +
   ggsave("plots/overview_IC_nieuw.png", width = 5.5, height=4)
 
 # Alle 'Actuele' opnamen
@@ -237,7 +237,7 @@ IC %>%
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  ggtitle("NICE vs. LCPS: Aantal actuele IC-opnamen per dag") +
+  ggtitle("NICE vs. LCPS: Totaal aantal IC-opnamen per dag") +
   ggsave("plots/overview_IC_actueel.png", width = 5.5, height=4)
 
 # Alle 'Totaal' opnamen
@@ -254,5 +254,5 @@ IC %>%
         axis.title.y=element_blank(),
         legend.pos = "bottom",
         legend.title = element_blank()) +
-  ggtitle("NICE vs. RIVM: Cumulatief aantal opnamen per dag") +
+  ggtitle("Cumulatief aantal ziekenhuis (RIVM) en IC (NICE) opnamen per dag") +
   ggsave("plots/overview_IC_totaal.png", width = 5.5, height=4)
