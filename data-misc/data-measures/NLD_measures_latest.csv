@@ -1,19 +1,31 @@
 measureId,measureDescription,lastMeasureUpdate,area,status,restrictiveMeasures,startDate,endDate,notes
-1,Schools/Univ. closure,2020-06-15T00:00:00,National,Open,Mandatory,2020-05-11T00:00:00,2020-12-31T00:00:00,"Schools in primary education, including special (primary) education, day care and childminder care open their doors on May 11. Children can go to out-of-school care (BSO) on the days they go to school. Day care for children aged 0-4 and childminder care for children aged 0-12 opens regularly.
-Children go to school 50% of the time. The time when the pupils are not in school is interpreted differently. That interpretation is determined by the school and the teachers.
-Primary education will reopen 100% on 8 June, unless current studies show that this is not justified.
-Special (primary) education will open again 100%.
-Schools in secondary (special) education will remain closed until at least 1 June. If necessary, schools are open for (school) exams. Secondary education will restart as of June 2nd.
-Schools take measures so that 1.5 meters can be kept away. In practice, this means that not all pupils can be at school at the same time.  
-Secondary special education will also open to all students on June 2. Here too schools take measures so that 1.5 meters can be kept away.
-On 15 June, secondary vocational education and higher education (universities of applied sciences and universities) will again start with tests, exams, practical lessons and supervision of vulnerable students at the institution."
-2,National movement restrictions,2020-06-03T00:00:00,National,Free,Recommended,2020-05-11T00:00:00,2020-12-31T00:00:00,"Still applies the rule to stay at home as much as possible. Go outside for work only when you cannot work at home. When outside keep the distance of 1,5m.
-Sport: Children up to 12 years old can exercise, exercise and follow activities together under supervision. Young people from 13 to 18 years old are allowed to exercise outside with each other under supervision, but with a distance of 1.5 meters between them. Outdoor sports in groups are allowed for all ages from May 11, if 1.5 meters can be kept apart. No competitions, no shared changing rooms or showers. From 1 June (organized and supervised by sports associations or professionals), young people aged 13 to 18 years old can exercise outside without 1.5 meters away. This relaxation already applied to children up to and including the age of 12. Sports competitions remain prohibited.
-Public transport: Only use public transport if you really need to, avoid rush hour and give each other space.
-As of May 11 a first cautious step is being taken to relax the visiting arrangement for nursing homes. 
-From June 1st Public transport is only intended for necessary trips.
-In the tram, (water) bus, metro and train, it is compulsory for travelers aged 13 years and older to wear a non-medical mask. This does not apply to stations, stops and platforms; there a mask is not mandatory. Everyone here keeps 1.5 meters away from others.
-Travelers who do not wear a face mask after 1 June can be fined € 95."
+1,Schools/Univ. closure,2020-06-26T00:00:00,National,Open,Mandatory,2020-05-11T00:00:00,2020-12-31T00:00:00," From 1 July, Pupils and teaching staff should always keep a distance of 1.5 meters. Pupils do not have to do that. This applies to all students within the school, regardless of their age. Students go to school on foot or by bicycle as much as possible. The protocols for schools are being adapted to the new situation. Secondary and secondary special education schools can open completely after the summer holidays.
+Primary education is already fully open. The distance rule in primary schools is relaxed. Until now, teachers had to keep as far away as possible from students up to the age of 13. This is no longer necessary from 1 July. "
+2,National movement restrictions,2020-06-26T00:00:00,National,Free,Recommended,2020-05-11T00:00:00,2020-12-31T00:00:00,"From July 1st:
+Inside and outside You always keep 1.5 meters away.
+Rules in transport
+You must always wear a face mask on public transport.
+You always wear a mask in taxis, buses and coaches.
+You must make a reservation.
+And you will get a health check.
+Are people from another household in your car?
+Then all wear a mouth mask.
+In all other transport you must keep a distance of 1.5 meters.
+Like on a tour boat.
+
+Exceptions to the 1.5 meter distance apply for children and young people:
+
+People from 1 household do not have to keep a distance of 1.5 meters together.
+Children up to the age of 12 do not have to keep 1.5 meters away from others.
+Young people up to the age of 18 do not have to keep a distance of 1.5 meters.
+They must keep a distance of 1.5 meters from adults.
+In some situations it is difficult to keep 1.5 meters away.
+Therefore, there are also exceptions for:
+
+Persons in need of care and their supervisors.
+Hairdressers, masseurs and instructors in teaching vehicles.
+Athletes, actors and dancers.
+"
 3,International movement restrictions,2020-06-15T00:00:00,National,Partially banned,Mandatory,2020-06-15T00:00:00,2020-07-01T00:00:00,"From June 15 traveling within Europe is possible in the following countries: Belgium, Bulgaria, Germany, Estonia, France, Iceland, Italy, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Poland, Portugal, the Czech Republic and Switzerland. Traveling outside Europe is not recommended to limit the risks of a new outbreak. 
 From June 15 tourists are allowed to travel to the Netherlands this summer. But only tourists from countries with about the same situation as in the Netherlands and must adhere to the Dutch rules.
 The Netherlands extends the border closure for people from outside Europe to July 1st, exceptions apply for specific cases."
@@ -38,12 +50,25 @@ Gyms remain closed.
 
 Forecast as of July 1
 If the virus remains under control, the communal toilets and showers at the campsites and holiday parks will reopen on 1 July. Also, the maximum number of visitors can hopefully be expanded to 100 people for cinemas, cultural institutions. This also applies to organized meetings, such as church services, weddings and funerals."
-6,Events stop,2020-06-03T00:00:00,National,Partially banned,Mandatory,2020-06-01T00:00:00,2020-09-01T00:00:00,"From June 1st 30 people are allowed to meet in public buildings. People who work there don't count.
+6,Events stop,2020-06-26T00:00:00,National,Partially banned,Mandatory,2020-07-01T00:00:00,2020-09-01T00:00:00,"From July 1st:
 
-In principle, all events are prohibited until September 1.
+Rules inside
+You always keep 1.5 meters away.
+In indoor spaces, a maximum of 100 people may gather.
+Staff do not count.
+More than 100 people are allowed.
+But only if you reserve a place.
+And you will get a health check.
+This applies, for example, to cinemas, cafes, restaurants, theaters, weddings and funerals.
+Discos and night clubs remain closed until September 1.
+There will be rules for choirs.
 
-This includes professional football matches, but also cultural events such as festivals, pop concerts and other musical performances.
-Events are a specific category of gatherings. If the general ban on meetings would be relaxed in the future, it can be examined whether exemptions can be granted for certain performances. Cultural institutions will have to make a plan for this in which they apply the advice of RIVM on how this can be done safely.
-
-"
+Outside:
+In outdoor areas, 250 people may gather.
+Staff do not count.
+More than 250 people are allowed in places with fixed seats.
+You reserve a place.
+And you will get a health check.
+This applies, for example, to the catering industry.
+There is no maximum number of people at zoos and amusement parks."
 7,Other,2020-04-15T00:00:00,National,closed/cancelled,Mandatory,,,
