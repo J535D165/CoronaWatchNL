@@ -2,6 +2,7 @@ library(tidyverse)
 library(cowplot)
 library(glue)
 library(lubridate)
+library(pracma)
 dir.create("plots")
 
 ############################
@@ -31,7 +32,7 @@ read_csv("data-desc/data-age/RIVM_NL_age.csv") %>%
         legend.text = element_text(size = 8),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  ggtitle("Toename COVID-19 patiënten per leeftijdsgroep") +
+  ggtitle("Toename COVID-19 gevallen per leeftijdsgroep") +
   ggsave("plots/overview_plot_leeftijd.png", width = 5.5, height=4)
 
 # Age: Cumulatief
@@ -55,7 +56,7 @@ read_csv("data-desc/data-age/RIVM_NL_age.csv") %>%
         legend.text = element_text(size = 8),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  ggtitle("COVID-19 patiënten per leeftijdsgroep") +
+  ggtitle("COVID-19 gevallen per leeftijdsgroep") +
   ggsave("plots/overview_plot_leeftijd_cum.png", width = 5.5, height=4)
 
 
@@ -74,7 +75,7 @@ read_csv("data-desc/data-sex/RIVM_NL_sex.csv") %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  ggtitle("Toename COVID-19 patiënten per geslacht") +
+  ggtitle("Toename COVID-19 gevallen per geslacht") +
   ggsave("plots/toename_plot_geslacht.png", width = 5.5, height=4)
 
 # Sex: Cumulatief
@@ -90,7 +91,7 @@ read_csv("data-desc/data-sex/RIVM_NL_sex.csv") %>%
         legend.pos = "bottom",
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  ggtitle("COVID-19 patiënten per geslacht") +
+  ggtitle("COVID-19 gevallen per geslacht") +
   ggsave("plots/overview_plot_geslacht.png", width = 5.5, height=4)
 
 
@@ -117,7 +118,7 @@ sex %>%
         legend.title = element_blank()) +
   labs(subtitle = 'Weergegeven als 7-daags voortschrijdend gemiddelde') +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  ggtitle("Toename COVID-19 patiënten Man:Vrouw ratio") +
+  ggtitle("Toename COVID-19 gevallen Man:Vrouw ratio") +
   ggsave("plots/ratio_toename_geslacht.png", width = 5.5, height=4)
 
 # Cumulatief
