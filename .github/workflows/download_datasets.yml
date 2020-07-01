@@ -17,6 +17,7 @@ jobs:
           pip install -r requirements.txt
       - name: Download and merge
         run: |
+          python workflows/rivm/data_rivm_download.py
           python workflows/rivm/merge_data.py
           python workflows/rivm/data_rivm_geo.py
           python workflows/json/json-api.py
