@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 DATE = datetime.date.today()
-# DATE = datetime.date(2020, 6, 16)
+DATE = datetime.date(2020, 6, 30)
 
 AGES = ["0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54",
         "55-59", "60-64", "65-69", "70-74", "75-79", "80-84", "85-89", "90-94", "95+", "Niet vermeld"]
@@ -14,8 +14,22 @@ PROVINCIES = ["Groningen", "Friesland", "Drenthe", "Overijssel", "Flevoland", "G
 GENDER = ["Man", "Vrouw", "Niet vermeld"]
 ONDERLIGGEND_A = ["Totaal gemeld", "Onderliggende aandoening en/of zwangerschap",
                   "Geen onderliggende aandoening", "Niet vermeld"]
-ONDERLIGGEND_B = ["Zwangerschap", "Postpartum", "Cardio-vasculaire aandoeningen en hypertensie", "Diabetes", "Leveraandoening",
-                  "Chronische neurologische of neuromusculaire aandoeningen", "Immuundeficientie", "Nieraandoening", "Chronische longaandoeningen", "Maligniteit", "Overig"]
+ONDERLIGGEND_B = [
+    "Zwangerschap",
+    "Postpartum",
+    "Cardio-vasculaire aandoeningen en hypertensie",
+    "Diabetes",
+    "Leveraandoening",
+    "Chronische neurologische of neuromusculaire aandoeningen",
+    "Immuundeficientie",
+    "Nieraandoening",
+    "Chronische longaandoeningen",
+    "Maligniteit",
+    "Obesitas",
+    "Dementie/Alzheimer",
+    "Parkinson",
+    "Overig"
+]
 
 
 # Data-misc
@@ -66,9 +80,16 @@ def parse_onderliggende_b(content):
         r"Nieraandoening\n"
         r"Chronische longaandoeningen\n"
         r"Maligniteit\n"
+        r"Obesitas3\n"
+        r"Dementie/Alzheimer3\n"
+        r"Parkinson3\n"
         r"Overig\n"
         r"1\n\n"
         r"2\n\n"
+        r"3\n\n"
+        r"(\d+)\n"
+        r"(\d+)\n"
+        r"(\d+)\n"
         r"(\d+)\n"
         r"(\d+)\n"
         r"(\d+)\n"
@@ -82,7 +103,7 @@ def parse_onderliggende_b(content):
         r"(\d+)",
         content)
 
-    assert len(onderliggend_b[0]) == 11
+    assert len(onderliggend_b[0]) == 14
 
     new = pd.DataFrame()
     for i, v in enumerate(onderliggend_b[0]):
