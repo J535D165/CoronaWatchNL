@@ -34,8 +34,8 @@
   "data": [
     {
       "Datum": "2020-02-27",
-      "overledenAantal": 0,
-      "totaalAantal": 1,
+      "overledenAantal": null,
+      "totaalAantal": null,
       "ziekenhuisopnameAantal": null,
       "overledenAantalCumulatief": 0,
       "totaalAantalCumulatief": 1,
