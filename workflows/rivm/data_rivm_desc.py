@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import re
 import datetime
-from utils import convert_to_int
+#from utils import convert_to_int
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
@@ -50,12 +50,12 @@ def main_sex():
     df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_sex.csv"))
     df_reported = df_reported.rename(columns={"Aantal": "AantalCumulatief"})
     
-    df_reported["Aantal"] = df_reported \
+    df_reported["Aantal"] = df_reported.loc[df_reported["Datum"] < '2020-07-07'] \
     .groupby(['Type', 'Geslacht'], sort=True)['AantalCumulatief'] \
     .transform(pd.Series.diff)
     
-    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
-    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
+    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
+    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
 
     df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
     df_reported['AantalCumulatief'] = df_reported["AantalCumulatief"].astype(pd.Int64Dtype())
@@ -91,12 +91,12 @@ def main_age():
     df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_age.csv"))
     df_reported = df_reported.rename(columns={"Aantal": "AantalCumulatief"})
 
-    df_reported["Aantal"] = df_reported \
+    df_reported["Aantal"] = df_reported.loc[df_reported["Datum"] < '2020-07-07'] \
     .groupby(['Type', 'LeeftijdGroep'], sort=True)['AantalCumulatief'] \
     .transform(pd.Series.diff)
     
-    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
-    df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
+    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
+    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
 
     df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
     df_reported['AantalCumulatief'] = df_reported["AantalCumulatief"].astype(pd.Int64Dtype())
