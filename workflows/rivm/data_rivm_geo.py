@@ -69,8 +69,8 @@ def main_national():
         .transform(pd.Series.diff)
 
 
-    df_reported.loc[df_reported["Datum"] == "2020-02-27", "Aantal"] = \
-        df_reported.loc[df_reported["Datum"] == "2020-02-27", "AantalCumulatief"]
+    #df_reported.loc[df_reported["Datum"] == "2020-02-27", "Aantal"] = \
+        #df_reported.loc[df_reported["Datum"] == "2020-02-27", "AantalCumulatief"]
 
     df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
     df_reported['AantalCumulatief'] = df_reported["AantalCumulatief"].astype(pd.Int64Dtype())
@@ -120,8 +120,8 @@ def _main_municipality():
         .groupby(['Gemeentecode', 'Type'], sort=True)['AantalCumulatief'] \
         .transform(pd.Series.diff)
 
-    df.loc[df["Datum"] == "2020-02-27", "Aantal"] = \
-        df.loc[df["Datum"] == "2020-02-27", "AantalCumulatief"]
+    #df.loc[df["Datum"] == "2020-02-27", "Aantal"] = \
+      #  df.loc[df["Datum"] == "2020-02-27", "AantalCumulatief"]
 
     df = df[[
         "Datum",

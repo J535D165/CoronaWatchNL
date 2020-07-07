@@ -1,7 +1,7 @@
 Datum,Type,Aantal,AantalCumulatief
-2020-02-27,Totaal,1,1
+2020-02-27,Totaal,,1
 2020-02-27,Ziekenhuisopname,,
-2020-02-27,Overleden,0,0
+2020-02-27,Overleden,,0
 2020-02-28,Totaal,1,2
 2020-02-28,Ziekenhuisopname,,
 2020-02-28,Overleden,0,0
