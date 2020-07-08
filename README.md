@@ -49,7 +49,7 @@ For more detail about the specific structure of the geographical datasets, have 
 
 To get a better picture of the content of the geographical datasets, have a look at the following visuals. These visuals show the development of the COVID-19 disease outbreak on a national level.
 
-[<img src="plots/overview_plot.png" width="419">](/data-geo/README.md)[<img src="plots/overview_plot_diff.png" width="419">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported.png" width="419">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported_diff.png" width="419">](/data-geo/README.md)[<img src="plots/overview_reports.png" width="419">](/data-geo/README.md)
+[<img src="plots/overview_plot.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_diff.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported_diff.png" width="400">](/data-geo/README.md)[<img src="plots/overview_reports.png" width="400">](/data-geo/README.md)
 
 [![plots/map_province.png](plots/map_province.png)](/data-geo/README.md)
 
@@ -71,13 +71,13 @@ For more detail about the specific structure of the descriptive datasets, have a
 
 The graphs below visualize the development of the COVID-19 disease outbreak per sex and age group.
 
-[<img src="plots/overview_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_plot_geslacht.png" width="419">](/data-desc/README.md)
+[<img src="plots/overview_plot_geslacht.png" width="400">](/data-desc/README.md)[<img src="plots/ratio_plot_geslacht.png" width="400">](/data-desc/README.md)
 
-[<img src="plots/toename_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_toename_geslacht.png" width="419">](/data-desc/README.md)
+[<img src="plots/toename_plot_geslacht.png" width="400">](/data-desc/README.md)[<img src="plots/ratio_toename_geslacht.png" width="400">](/data-desc/README.md)
 
-[<img src="plots/overview_plot_leeftijd_cum.png" width="419">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd.png" width="419">](/data-desc/README.md)
+[<img src="plots/overview_plot_leeftijd_cum.png" width="400">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd.png" width="400">](/data-desc/README.md)
 
-[<img src="plots/deceased_age_sex.png" width="419">](/data-desc/README.md)[<img src="plots/deceased_age_sex_toename.png" width="419">](/data-desc/README.md)
+[<img src="plots/deceased_age_sex.png" width="400">](/data-desc/README.md)[<img src="plots/deceased_age_sex_toename.png" width="400">](/data-desc/README.md)
 
 
 ### Intensive care datasets
@@ -100,7 +100,7 @@ For more detail about the specific structure of the intensive care datasets, hav
 #### Visualizations intensive care
 The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) COVID-19 ICU admissions per day, as declared by NICE. The total number of ICU admissions per day as reported by LCPS is also shown.
 
-[<img src="plots/ic_nice_intakes.png" width="419">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="419">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="419">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="419">](/data-ic/README.md)
+[<img src="plots/ic_nice_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
 
 
 ### Miscellaneous datasets
@@ -124,15 +124,15 @@ For more detail about the specific structure of the miscellaneous datasets, have
 
 These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.<br/>
 
-[<img src="plots/overview_plot_tests_weeks_cum.png" width="419">](/data-misc/README.md)[<img src="plots/overview_plot_tests_weeks.png" width="419">](/data-misc/README.md)
+[<img src="plots/overview_plot_tests_weeks_cum.png" width="400">](/data-misc/README.md)[<img src="plots/overview_plot_tests_weeks.png" width="400">](/data-misc/README.md)
 
-The reproduction index, plotted with the corresponding minimum and maximum values, indicates how quickly the COVID-19 virus is spreading in the Netherlands.<br/>
+The reproduction index and estimated contagious people are plotted with their corresponding minimum and maximum values. The reproduction index indicates how quickly the COVID-19 virus is spreading in the Netherlands. The estimated contagious people represent the number of COVID-19 people per 100.000 inhabitants that are contagious for others. <br/>
 
-[<img src="plots/reproductie_index.png" width="700">](/data-misc/README.md)
+[<img src="plots/reproductie_index.png" width="700">](/data-misc/README.md)[<img src="plots/contagious.png" width="400">](/data-misc/README.md)
 
 The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
 
-[<img src="plots/overview_nursery_count.png" width="419">](/data-misc/README.md)[<img src="plots/overview_nursery_cumulative.png" width="419">](/data-misc/README.md)
+[<img src="plots/overview_nursery_count.png" width="400">](/data-misc/README.md)[<img src="plots/overview_nursery_cumulative.png" width="400">](/data-misc/README.md)
 
 Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. <br/>
 
