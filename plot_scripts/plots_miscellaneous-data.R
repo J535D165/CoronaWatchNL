@@ -8,6 +8,29 @@ dir.create("plots")
 ##### MISCELLANEOUS DATA #####
 ##############################
 
+### CONTAGIOUS DATA
+# Contagious: 
+cont <- read_csv("data-misc/data-contagious/RIVM_NL_contagious_estimate.csv")
+
+cont2 <- spread(cont, Type, Waarde)
+
+cont2 %>%
+  ggplot(aes(x= Datum, y = `Geschat aantal besmettelijke mensen`)) +
+  geom_line(aes(y = `Geschat aantal besmettelijke mensen`)) +
+  geom_ribbon(aes(ymin = `Minimum aantal besmettelijke mensen`, ymax = `Maximum aantal besmettelijke mensen`), fill="#E69F00", alpha=.5) +
+  scale_y_continuous(limits=c(0, NA)) +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        legend.title = element_blank(),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
+        legend.text = element_text(size = 9)) +
+  ggtitle("Geschatte besmettelijke mensen per dag") +
+  ggsave("plots/contagious.png", width = 5.5, height=4)
+
+
 ### TEST DATA
 # Tests: Toename per kalender week (einde van de week (zondag) als plotdatum)
 test <- read_csv("data-misc/data-test/RIVM_NL_test_latest.csv")
