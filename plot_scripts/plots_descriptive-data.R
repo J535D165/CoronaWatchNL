@@ -54,6 +54,7 @@ read_csv("data-desc/data-age/RIVM_NL_age.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
         legend.text = element_text(size = 8),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
@@ -105,6 +106,7 @@ age2 %>%
         legend.text = element_text(size = 8),
         legend.title = element_blank(),
         plot.title = element_text(hjust = 0.5),
+        plot.caption = element_text(size = 8),
         plot.subtitle = element_text(hjust = 0.5)) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   geom_vline(xintercept=as.Date('2020-07-01'), linetype = 2, color = 'gray') +
@@ -142,6 +144,7 @@ read_csv("data-desc/data-sex/RIVM_NL_sex.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("COVID-19 patiënten per geslacht") +
@@ -183,6 +186,7 @@ sex2 %>%
         legend.pos = "bottom",
         legend.title = element_blank(),
         plot.title = element_text(hjust = 0.5),
+        plot.caption = element_text(size = 8),
         plot.subtitle = element_text(hjust = 0.5)) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   labs(subtitle = 'Gemiddeld over de afgelopen 3 dagen', caption = 'Vanaf 1 juli wordt toename per dag bepaald door week-toename gedeeld door 7') +
@@ -265,6 +269,7 @@ read_csv("data-desc/data-deceased/RIVM_NL_deceased_age_sex.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   ggtitle("Overleden patiënten per geslacht en leeftijdsgroep") +
@@ -312,6 +317,7 @@ samen %>%
         legend.pos = "bottom",
         legend.title = element_blank(),
         plot.title = element_text(hjust = 0.5),
+        plot.caption = element_text(size = 8),
         plot.subtitle = element_text(hjust = 0.5)) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   labs(subtitle = 'Gemiddeld over de afgelopen 3 dagen', caption = 'Vanaf 1 juli wordt toename per dag bepaald door week-toename gedeeld door 7') +
