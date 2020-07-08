@@ -9,7 +9,7 @@ Dutch:
 
 
 ## Datasets
-The datasets available on CoronaWatchNL are updated on a daily base. Availability depends on the publication by the respective sources (N.B. the epidemiological reports published by RIVM are now released on a *weekly* instead of daily basis). The CoronaWatchNL project divides the datasets into four main categories:
+The datasets available on CoronaWatchNL are updated on a daily base. Availability depends on the publication by the respective sources (N.B. since July 1st, the epidemiological reports published by RIVM will be released on a *weekly* instead of daily basis). The CoronaWatchNL project divides the datasets into four main categories:
 
 * [Geographical data](#geographical-datasets)
 * [Descriptive data](#descriptive-datasets)
