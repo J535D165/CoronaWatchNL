@@ -224,6 +224,8 @@ reports %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   guides(alpha = FALSE)+
+  labs(caption = 'Vanaf 1 juli wordt er een rapport per week i.p.v. per dag gepubliceerd') +
+  geom_vline(xintercept=as.Date('2020-07-01'), linetype = 2, color = 'gray') +
   ggtitle("Gerapporteerde COVID-19 patiënten per rapportagedatum")+
   ggsave("plots/overview_reports.png", width = 5.5, height=4)
 
