@@ -100,7 +100,7 @@ For more detail about the specific structure of the intensive care datasets, hav
 #### Visualizations intensive care
 The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) COVID-19 ICU admissions per day, as declared by NICE. The total number of ICU admissions per day as reported by LCPS is also shown.
 
-[<img src="plots/ic_nice_intakes.png" width="419">](/data-ic/README.md) [<img src="plots/ic_nice_vrijkomst.png" width="419">](/data-ic/README.md) [<img src="plots/ic_lcps_intakes.png" width="419">](/data-ic/README.md) [<img src="plots/ic_lcps_intakes_country.png" width="419">](/data-ic/README.md) [<img src="plots/overview_IC_actueel.png" width="419">](/data-ic/README.md) [<img src="plots/overview_IC_nieuw.png" width="419">](/data-ic/README.md)  [<img src="plots/overview_IC_totaal.png" width="419">](/data-ic/README.md)
+[<img src="plots/ic_nice_intakes.png" width="419">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="419">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="419">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="419">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="419">](/data-ic/README.md)
 
 
 ### Miscellaneous datasets
