@@ -9,7 +9,7 @@ Dutch:
 
 
 ## Datasets
-The datasets available on CoronaWatchNL are updated on a daily base. Availability depends on the publication by the respective sources. The CoronaWatchNL project divides the datasets into four main categories:
+The datasets available on CoronaWatchNL are updated on a daily base. Availability depends on the publication by the respective sources (N.B. the epidemiological reports published by RIVM are now released on a *weekly* instead of daily basis). The CoronaWatchNL project divides the datasets into four main categories:
 
 * [Geographical data](#geographical-datasets)
 * [Descriptive data](#descriptive-datasets)
@@ -71,7 +71,13 @@ For more detail about the specific structure of the descriptive datasets, have a
 
 The graphs below visualize the development of the COVID-19 disease outbreak per sex and age group.
 
-[<img src="plots/overview_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/toename_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_toename_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd_cum.png" width="419">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd.png" width="419">](/data-desc/README.md)[<img src="plots/deceased_age_sex.png" width="419">](/data-desc/README.md)[<img src="plots/deceased_age_sex_toename.png" width="419">](/data-desc/README.md)
+[<img src="plots/overview_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_plot_geslacht.png" width="419">](/data-desc/README.md)
+
+[<img src="plots/toename_plot_geslacht.png" width="419">](/data-desc/README.md)[<img src="plots/ratio_toename_geslacht.png" width="419">](/data-desc/README.md)
+
+[<img src="plots/overview_plot_leeftijd_cum.png" width="419">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd.png" width="419">](/data-desc/README.md)
+
+[<img src="plots/deceased_age_sex.png" width="419">](/data-desc/README.md)[<img src="plots/deceased_age_sex_toename.png" width="419">](/data-desc/README.md)
 
 
 ### Intensive care datasets
@@ -122,7 +128,7 @@ These graphs display the number of (positively) tested people per week. The end 
 
 The reproduction index, plotted with the corresponding minimum and maximum values, indicates how quickly the COVID-19 virus is spreading in the Netherlands.<br/>
 
-[<img src="plots/reproductie_index.png" width="600">](/data-misc/README.md)
+[<img src="plots/reproductie_index.png" width="700">](/data-misc/README.md)
 
 The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
 
@@ -130,10 +136,10 @@ The number of (deceased) nursery home residents infected with COVID-19 are shown
 
 Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. <br/>
 
-[<img src="plots/conditions_statistics.png" width="600">](/data-misc/README.md)
+[<img src="plots/conditions_statistics.png" width="700">](/data-misc/README.md)
 
 The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. <br/>
-[<img src="plots/underlying_conditions.png" width="600">](/data-misc/README.md)
+[<img src="plots/underlying_conditions.png" width="700">](/data-misc/README.md)
 
 ## Inactive/deprecated datasets
 
