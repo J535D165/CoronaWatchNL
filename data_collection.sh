@@ -8,8 +8,8 @@
 
 # python workflows/rivm/data_rivm_dashboard.py
 
-python workflows/nice/nice_download_merge.py
-python workflows/nice/data-ic_nice.py
+# python workflows/nice/nice_download_merge.py
+# python workflows/nice/data-ic_nice.py
 
 # d=`date +%Y%m%d`
 # pdftotext reports/COVID-19_epidemiological_report_${d}.pdf

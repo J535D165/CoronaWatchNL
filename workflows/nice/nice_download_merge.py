@@ -8,6 +8,8 @@ import pandas as pd
 URL_NICE_BASE = "https://www.stichting-nice.nl"
 URL_NICE_API_JSON = "https://www.stichting-nice.nl/js/covid-19.js"
 
+URL_NICE_SIKERDEBAARD = "https://raw.githubusercontent.com/Sikerdebaard/dutchcovid19data/master/data/"
+
 RAW_DATA_FOLDER = Path("raw_data", "nice")
 
 regex = r"\'\/covid-19\/public\/([0-9A-Za-z\-]+)[\/']"
@@ -30,6 +32,19 @@ def collect_api_calls():
 
     return result
 
+def collect_api_urls_sikerdebaard():
+
+    return {
+        'global': URL_NICE_SIKERDEBAARD + 'global.json',
+        'new-intake': URL_NICE_SIKERDEBAARD + 'new-intake.json',
+        'intake-count': URL_NICE_SIKERDEBAARD + 'intake-count.json',
+        'intake-cumulative': URL_NICE_SIKERDEBAARD + 'intake-cumulative.json',
+        'ic-count': URL_NICE_SIKERDEBAARD + 'ic-count.json',
+        'died-and-survivors-cumulative': URL_NICE_SIKERDEBAARD + 'died-and-survivors-cumulative.json',
+        'age-distribution-status': URL_NICE_SIKERDEBAARD + 'age-distribution-status.json',
+        'behandelduur-distribution': URL_NICE_SIKERDEBAARD + 'behandelduur-distribution.json'
+    }
+
 
 def download_api_nice(url, name):
     """Download NICE data"""
@@ -46,15 +61,37 @@ def download_api_nice(url, name):
 def open_multi_dim_table(fp):
 
     with open(fp, "r") as f:
-        content = json.load(f)
+        content = json.load(f)['data']
 
-    return tuple(pd.read_json(json.dumps(file)) for file in content)
+    result = []
+    for file in content:
+        x = pd.read_json(json.dumps(file))
+        try:
+            x["date"] = x["date"].dt.date
+        except Exception:
+            pass
+
+        result.append(x)
+
+    return tuple(result)
+
+
+def read_pandas_json(fp):
+
+    with open(fp, "r") as f:
+        content = pd.DataFrame(json.load(f)['data'])
+        try:
+            content["date"] = pd.to_datetime(content["date"]).dt.date
+        except Exception:
+            pass
+
+    return content
 
 
 if __name__ == '__main__':
 
     # get API entry points
-    api_urls = collect_api_calls()
+    api_urls = collect_api_urls_sikerdebaard()
 
     # download data
     for key, value in api_urls.items():
@@ -62,17 +99,17 @@ if __name__ == '__main__':
 
     # get data
     # icCount: number of ICs with at least 1 COVID-19 case on date of notification
-    df_ic_count = pd.read_json(Path(RAW_DATA_FOLDER, f"ic-count-{datetime.date.today()}.json")) \
+    df_ic_count = read_pandas_json(Path(RAW_DATA_FOLDER, f"ic-count-{datetime.date.today()}.json")) \
         .rename({"date": "Datum", "value": "icCount"}, axis=1) \
         .set_index("Datum")
 
     # intakeCount: number of COVID-19 cases taken into the IC on date of notification
-    df_intake_count = pd.read_json(Path(RAW_DATA_FOLDER, f"intake-count-{datetime.date.today()}.json")) \
+    df_intake_count = read_pandas_json(Path(RAW_DATA_FOLDER, f"intake-count-{datetime.date.today()}.json")) \
         .rename({"date": "Datum", "value": "intakeCount"}, axis=1) \
         .set_index("Datum")
 
-    # intakeCumulative: total number of COVID-19 cases that have been taken into the IC up to the date of notification 
-    df_intake_cum = pd.read_json(Path(RAW_DATA_FOLDER, f"intake-cumulative-{datetime.date.today()}.json")) \
+    # intakeCumulative: total number of COVID-19 cases that have been taken into the IC up to the date of notification
+    df_intake_cum = read_pandas_json(Path(RAW_DATA_FOLDER, f"intake-cumulative-{datetime.date.today()}.json")) \
         .rename({"date": "Datum", "value": "intakeCumulative"}, axis=1) \
         .set_index("Datum")
 
@@ -83,12 +120,12 @@ if __name__ == '__main__':
     df_new_intake_count = df_new_intake_count\
         .rename({"date": "Datum", "value": "newIntake"}, axis=1) \
         .set_index("Datum")
-        
-    # newSuspected: number of new suspected COVID-19 cases taken into the IC on the date of notification   
+
+    # newSuspected: number of new suspected COVID-19 cases taken into the IC on the date of notification
     df_new_intake_susp = df_new_intake_susp\
         .rename({"date": "Datum", "value": "newSuspected"}, axis=1) \
         .set_index("Datum")
-           
+
     # diedCumulative: total number of IC COVID-19 cases that died up to the date of notification
     df_died, df_survived, df_ontslagen = open_multi_dim_table(
         Path(RAW_DATA_FOLDER, f"died-and-survivors-cumulative-{datetime.date.today()}.json")
@@ -101,8 +138,8 @@ if __name__ == '__main__':
     df_survived = df_survived \
         .rename({"date": "Datum", "value": "survivedCumulative"}, axis=1) \
         .set_index("Datum")
-    
-    # dischargedCumulative: total number of IC COVID-19 cases that were discharged from the IC up to the date of notification    
+
+    # dischargedCumulative: total number of IC COVID-19 cases that were discharged from the IC up to the date of notification
     df_ontslagen = df_ontslagen \
         .rename({"date": "Datum", "value": "dischargedTotal"}, axis=1) \
         .set_index("Datum")

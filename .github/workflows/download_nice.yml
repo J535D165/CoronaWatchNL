@@ -1,0 +1,33 @@
+name: "Download datasets"
+on:
+  schedule:
+    - cron:  '*/0 14 * * *'
+
+jobs:
+  download-nice:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Download and merge nice
+        run: |
+          python workflows/nice/nice_download_merge.py
+          python workflows/nice/data-ic_nice.py
+      - name: Commit files
+        run: |
+          git config --local user.email "jonathandebruinos@gmail.com"
+          git config --local user.name "J535D165 Action"
+          git add .
+          git commit -m "Update NICE data (4 PM)"
+        continue-on-error: true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
