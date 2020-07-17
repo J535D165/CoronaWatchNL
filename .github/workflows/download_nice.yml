@@ -1,7 +1,7 @@
 name: "Download datasets"
 on:
   schedule:
-    - cron:  '*/0 14 * * *'
+    - cron:  '0 14 * * *'
 
 jobs:
   download-nice:
