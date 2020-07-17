@@ -422,3 +422,6 @@ Datum,Type,Aantal,AantalCumulatief
 2020-07-16,Totaal,99,51351
 2020-07-16,Ziekenhuisopname,1,11898
 2020-07-16,Overleden,1,6137
+2020-07-17,Totaal,103,51454
+2020-07-17,Ziekenhuisopname,-4,11894
+2020-07-17,Overleden,1,6138
