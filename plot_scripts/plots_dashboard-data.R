@@ -27,8 +27,9 @@ cont2 %>%
         plot.title = element_text(hjust = 0.5),
         plot.subtitle=element_text(size=11, hjust=0.5),
         legend.text = element_text(size = 9)) +
-  ggtitle("Geschatte besmettelijke mensen per dag") +
-  ggsave("plots/contagious.png", width = 5.5, height=4)
+  ggtitle("Geschat aantal besmettelijke mensen") +
+  labs(subtitle = "per 100.000 inwoners per dag") +
+  ggsave("plots/contagious.png", width = 8.5, height=4)
 
 
 ### REPRODUCTION INDEX
@@ -64,6 +65,8 @@ read_csv("data-dashboard/data-nursery/data-nursery_residents/RIVM_NL_nursery_res
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -79,6 +82,8 @@ read_csv("data-dashboard/data-nursery/data-nursery_residents/RIVM_NL_nursery_res
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -93,6 +98,8 @@ read_csv("data-dashboard/data-nursery/data-nursery_homes/RIVM_NL_nursery_counts.
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -107,6 +114,8 @@ read_csv("data-dashboard/data-nursery/data-nursery_homes/RIVM_NL_nursery_counts.
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -123,6 +132,8 @@ read_csv("data-dashboard/data-sewage/RIVM_NL_sewage_counts.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -139,10 +150,13 @@ read_csv("data-dashboard/data-suspects/RIVM_NL_suspects.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Aantal huisarts gerapporteerde verdachte COVID-19 patiënten") +
+  ggtitle("Door huisarts gerapporteerde verdachte COVID-19 patiënten") +
+  labs(subtitle = 'per 100.000 inwoners per week')
   ggsave("plots/overview_suspects.png", width = 5.5, height=4)
 
 ### CASES
@@ -155,6 +169,8 @@ read_csv("data-dashboard/data-cases/RIVM_NL_national_dashboard.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -170,6 +186,8 @@ read_csv("data-dashboard/data-cases/RIVM_NL_national_dashboard.csv") %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -191,6 +209,8 @@ alles %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
@@ -207,6 +227,8 @@ alles %>%
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
