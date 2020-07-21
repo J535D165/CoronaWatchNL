@@ -27,47 +27,6 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 **\*\*** The number of people positively tested on COVID-19 differs from the number of patients reported by the GGDs, as some people might have been tested more than once. <br/>
 **\*\*\*** The data is updated every day, except for weekends and holidays. <br/>
 
-### Reproduction
-
-**Directory:** [data-misc/data-reproduction](data-reproduction) <br>
-**Complete file format:** [RIVM_NL_reproduction_index.csv](data-reproduction/RIVM_NL_reproduction_index.csv)<br>
-
-| Column name | Translation | Description | Format | Example |
-|---|---|---|---|---|
-| **Datum** | Date\* | Date of calculated reproduction index | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
-| **Type** | Type | Type of reproduction measure (i.e., Reproductie index, Minimum, Maximum) | character | Reproductie index |
-| **Waarde** | Value\*\* | The (minimum and maximum) reproduction index (*Reproductie index*) per day, indicating how quickly the virus is spreading | numeric | 0.69 |
-
-**\*** As the reproduction index is calculated in retrospect, the date shown here lies further in the past than the date of notification. <br/>
-**\*\*** The reproduction index is an estimate made by RIVM based on various data sources. The exact number is unknown. The reproduction index is an average for the entire Netherlands.
-
-### Contagious
-
-**Directory:** [data-misc/data-contagious](data-contagious) <br>
-**Complete file format:** [RIVM_NL_contagious_estimate.csv](data-contagious/RIVM_NL_contagious_estimate.csv)<br>
-**Latest file format:** [RIVM_NL_contagious_estimate_latest.csv](data-contagious/RIVM_NL_contagious_estimate_latest.csv)<br>
-
-| Column name | Translation | Description | Format | Example |
-|---|---|---|---|---|
-| **Datum** | Date | Date of calculated contagious count | YYYY-MM-DD (ISO 8601) | 2020-05-29 |
-| **Type** | Type | Type of measure (i.e., Geschat aantal besmettelijke mensen, Minimum aantal besmettelijke mensen, Maximum aantal besmettelijke mensen) | character | Geschat aantal besmettelijke mensen |
-| **Waarde** | Value\* | The (minimum and maximum) estimate of contagious people per 100.000 inhabitants (*Geschat aantal besmettelijke mensen*) | numeric | 9.9 |
-
-**\*** This calculated value estimates how many people infected with COVID-19 per 100.000 inhabitants are contagious for others. This value is calculated by RIVM.
-
-### Nursery
-
-**Directory:** [data-misc/data-nursery](data-nursery) <br>
-**Complete file format:** [RIVM_NL_nursery_counts.csv](data-nursery/RIVM_NL_nursery_counts.csv)<br>
-
-| Column name | Translation | Description | Format | Example |
-|---|---|---|---|---|
-| **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
-| **Type** | Type | Type of measurment: Positief geteste bewoners (*Positively tested residents*), Overleden besmette bewoners (*Deceased residents*) | character | Positief geteste bewoners |
-| **Aantal** | Count | Number of newly reported (deceased) COVID-19 cases of nursery home residents on the date of notification in the last 24 hours | numeric (integer) | 160 |
-| **AantalCumulatief** | Total count | Number of (deceased) COVID-19 cases of nursery home residents on the date of notification since the start of the outbreak | numeric (integer) | 4017 |
-
-
 ### Underlying 
 
 For deceased COVID-19 cases younger than 70, RIVM reported whether or not they suffered from underlying conditions and/or were pregnant. The number of deceased patients with and without underlying disorders and/or pregnancy are listed in [data-underlying_statistics](#underlying-statistics). The number of detected underlying conditions and/or pregnancies can be found in [data-underlying_conditions](#underlying-conditions).
@@ -117,3 +76,16 @@ For deceased COVID-19 cases younger than 70, RIVM reported whether or not they s
 | **startDate** | Date on which the measure was first enforced | YYYY-MM-DD (ISO 8601) | 2020-03-16|
 | **endDate** | Date on which the measure was no longer enforced | YYYY-MM-DD (ISO 8601) | 2020-04-06 |
 | **notes** | Notes about the measure | character string | Child care facilities open only for childrens of parents working in crucial departments (doctors, police etc...). Restriction valid until April 6th|
+
+### Economy
+
+**Directory:** [data-misc/data-economy](data-misc/data-economy) <br>
+**Complete file format:** [now-registry-20200710.csv](data-economy/now-registry-20200710.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Bedrijfsnaam** | Company name | Name of company requesting financial support\*| character | Betonvereniging |
+| **Vestigingsplaats** | Location | Location of company | character | Gouda |
+| **Uitbetaald voorschotbedrag** | Paid amount| The advance paid to the company in euros | numeric | 123492 |
+
+**\*** The NOW register, published by UWV, mentions the companies that requested and received an advance on the reimbursement.

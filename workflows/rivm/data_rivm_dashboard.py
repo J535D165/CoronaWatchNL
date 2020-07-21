@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import date
 from pathlib import Path
 
-DATA_FOLDER = Path("data-misc")
+DATA_FOLDER = Path("data-dashboard")
 URL = "https://coronadashboard.rijksoverheid.nl/json/NL.json"
 
 def export_date(df, data_folder, prefix, data_date=None, label=None):
@@ -75,7 +75,7 @@ def main_infectious():
     df = df.sort_values(by=['Datum', 'Type'])
     df = df.reset_index(drop = True)
 
-    df_total = pd.read_csv(Path("data-misc/data-contagious", "RIVM_NL_contagious_estimate.csv"))
+    df_total = pd.read_csv(Path("data-dashboard/data-contagious/data-contagious_estimates", "RIVM_NL_contagious_estimate.csv"))
 
     if df['Datum'][0] in list(df_total['Datum']):
         next
@@ -84,11 +84,51 @@ def main_infectious():
         df_total = df_total.sort_values(by=['Datum', 'Type'])
         df_total = df_total.reset_index(drop=True)
 
-    Path(DATA_FOLDER, "data-contagious").mkdir(exist_ok=True)
+    Path(DATA_FOLDER, "data-contagious/data-contagious_estimates").mkdir(exist_ok=True)
 
-    export_date(df_total, "data-contagious", "RIVM_NL_contagious_estimate", data_date=None, label=None)
+    dates = sorted(df_total["Datum"].unique())
 
-    export_date(df, "data-contagious", "RIVM_NL_contagious_estimate", data_date=None, label="latest")
+    for data_date in dates:
+
+        export_date(df_total, "data-contagious/data-contagious_estimates", "RIVM_NL_contagious_estimate", data_date, str(data_date).replace("-", ""))
+
+    export_date(df_total, "data-contagious/data-contagious_estimates", "RIVM_NL_contagious_estimate", data_date=None, label=None)
+
+    export_date(df, "data-contagious/data-contagious_estimates", "RIVM_NL_contagious_estimate", data_date=None, label="latest")
+
+def main_infectcounts():
+    data = pd.read_json(URL)
+
+    selection = data['infectious_people_count']['list']
+    type = ['Geschat aantal besmettelijke mensen'] * len(selection)
+
+    df = pd.DataFrame(selection.keys(), columns=['Datum'])
+    df['Type'] = type
+    df['Aantal'] = selection.values()
+    df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
+
+    for i in range(len(df)):
+        df.iloc[i, 0] = f'{date.fromtimestamp(int(df.iloc[i, 0]))}'
+
+    df_total = pd.read_csv(Path("data-dashboard/data-contagious/data-contagious_count", "RIVM_NL_contagious_count.csv"))
+    if df['Datum'][0] in list(df_total['Datum']):
+        df_total = df
+    else:
+        df_total = df_total.append(df, ignore_index=True)
+        df_total = df_total.sort_values(by=['Datum', 'Type'])
+        df_total = df_total.reset_index(drop=True)
+
+    Path(DATA_FOLDER, "data-contagious/data-contagious_count").mkdir(exist_ok=True)
+
+    dates = sorted(df_total["Datum"].unique())
+
+    for data_date in dates:
+
+        export_date(df_total, "data-contagious/data-contagious_count", "RIVM_NL_contagious_count", data_date, str(data_date).replace("-", ""))
+
+    export_date(df_total, "data-contagious/data-contagious_count", "RIVM_NL_contagious_count", data_date=None, label=None)
+
+    export_date(df, "data-contagious/data-contagious_count", "RIVM_NL_contagious_count", data_date=None, label="latest")
 
 def main_nursery():
     data = pd.read_json(URL)
@@ -113,10 +153,121 @@ def main_nursery():
     df = df.sort_values(by=['Datum', 'Type'], ascending=[True, False])
     df = df.reset_index(drop = True)
     df['AantalCumulatief'] = df.groupby('Type')['Aantal'].transform(pd.Series.cumsum)
+    df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
+    df['AantalCumulatief'] = df["AantalCumulatief"].astype(pd.Int64Dtype())
 
-    Path(DATA_FOLDER, "data-nursery").mkdir(exist_ok=True)
+    Path(DATA_FOLDER, "data-nursery/data-nursery_residents").mkdir(exist_ok=True)
 
-    export_date(df, "data-nursery", "RIVM_NL_nursery_counts", data_date=None, label=None)
+    export_date(df, "data-nursery/data-nursery_residents", "RIVM_NL_nursery_residents", data_date=None, label=None)
+
+def main_nurseryhomes():
+    data = pd.read_json(URL)
+
+    selection = data['total_newly_reported_locations']['list']
+    selection2 = data['total_reported_locations']['list']
+    type = ['Besmette verpleeghuizen'] * len(selection)
+
+    df = pd.DataFrame(selection.keys(), columns=['Datum'])
+    df['Type'] = type
+
+    df['NieuwAantal'] = selection.values()
+    df['Aantal'] = selection2.values()
+
+    for i in range(len(df)):
+        df.iloc[i, 0] = f'{date.fromtimestamp(int(df.iloc[i, 0]))}'
+
+    df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
+    df['NieuwAantal'] = df["NieuwAantal"].astype(pd.Int64Dtype())
+
+    Path(DATA_FOLDER, "data-nursery/data-nursery_homes").mkdir(exist_ok=True)
+
+    export_date(df, "data-nursery/data-nursery_homes", "RIVM_NL_nursery_counts", data_date=None, label=None)
+
+def main_tests():
+    data = pd.read_json(URL)
+
+    selection = data['infected_people_total']['list']
+    type = ['Totaal'] * len(selection)
+
+    df = pd.DataFrame(selection.keys(), columns=['Datum'])
+    df['Type'] = type
+    df['Aantal'] = selection.values()
+    df['AantalCumulatief'] = df['Aantal'].transform(pd.Series.cumsum)
+    df.iloc[0,2] = 191
+
+    selection2 = data['intake_hospital_ma']['list']
+    type = ['Ziekenhuisopname'] * len(selection2)
+    df2 = pd.DataFrame(selection2.keys(), columns=['Datum'])
+    df2['Type'] = type
+
+    df2['Aantal'] = selection2.values()
+
+    value = [43, 109, 94]
+    for i in range(0,3):
+        df2.iloc[i,2] = value[i]
+
+    for i in range(3,len(df2)):
+        df2.iloc[i,2] = round((df2.iloc[i,2] * 3) - df2.iloc[i-1,2] - df2.iloc[i-2,2])
+
+    df2['AantalCumulatief'] = 205
+    df2.iloc[1:, 3] = (df2.iloc[1:, 2].transform(pd.Series.cumsum)) + 205
+
+    df = df.append(df2)
+    df = df.sort_values(by=['Datum', 'Type'], ascending=[True, True])
+    df = df.reset_index(drop = True)
+
+    for i in range(len(df)):
+        df.iloc[i, 0] = f'{date.fromtimestamp(int(df.iloc[i, 0]))}'
+
+    df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
+    df['AantalCumulatief'] = df["AantalCumulatief"].astype(pd.Int64Dtype())
+
+    Path(DATA_FOLDER, "data-cases").mkdir(exist_ok=True)
+
+    dates = sorted(df["Datum"].unique())
+
+    for data_date in dates:
+
+        export_date(df, "data-cases", "RIVM_NL_national_dashboard", data_date, str(data_date).replace("-", ""))
+
+    export_date(df, "data-cases", "RIVM_NL_national_dashboard", data_date=dates[-1], label="latest")
+
+    export_date(df, "data-cases", "RIVM_NL_national_dashboard", data_date=None, label=None)
+
+def main_suspects():
+    data = pd.read_json(URL)
+
+    selection = data['verdenkingen_huisartsen']['list']
+    type = ['Verdachte patienten'] * len(selection)
+
+    df = pd.DataFrame(selection.keys(), columns=['Datum'])
+    df['Type'] = type
+    df['Aantal'] = selection.values()
+
+    for i in range(len(df)):
+        df.iloc[i, 0] = f'{date.fromtimestamp(int(df.iloc[i, 0]))}'
+
+    Path(DATA_FOLDER, "data-suspects").mkdir(exist_ok=True)
+
+    export_date(df, "data-suspects", "RIVM_NL_suspects", data_date=None, label=None)
+
+def main_riool():
+    data = pd.read_json(URL)
+    selection = data['rioolwater_metingen']['list']
+
+    df = pd.DataFrame(selection.keys(), columns=['Datum'])
+    df['Type'] = "Virusdeeltjes per ml rioolwater"
+    df['Aantal'] = selection.values()
+
+    for i in range(len(df)):
+        df.iloc[i, 0] = f'{date.fromtimestamp(int(df.iloc[i, 0]))}'
+
+    df = df.sort_values(by=['Datum', 'Type'], ascending=[True, False])
+    df = df.reset_index(drop = True)
+
+    Path(DATA_FOLDER, "data-sewage").mkdir(exist_ok=True)
+
+    export_date(df, "data-sewage", "RIVM_NL_sewage_counts", data_date=None, label=None)
 
 if __name__ == '__main__':
     DATA_FOLDER.mkdir(exist_ok=True)
@@ -125,5 +276,15 @@ if __name__ == '__main__':
 
     main_infectious()
 
+    main_infectcounts()
+
     main_nursery()
+
+    main_nurseryhomes()
+
+    main_riool()
+
+    main_tests()
+
+    main_suspects()
 
