@@ -8,28 +8,6 @@ dir.create("plots")
 ##### MISCELLANEOUS DATA #####
 ##############################
 
-### CONTAGIOUS DATA
-# Contagious: 
-cont <- read_csv("data-misc/data-contagious/RIVM_NL_contagious_estimate.csv")
-
-cont2 <- spread(cont, Type, Waarde)
-
-cont2 %>%
-  ggplot(aes(x= Datum, y = `Geschat aantal besmettelijke mensen`)) +
-  geom_line(aes(y = `Geschat aantal besmettelijke mensen`)) +
-  geom_ribbon(aes(ymin = `Minimum aantal besmettelijke mensen`, ymax = `Maximum aantal besmettelijke mensen`), fill="#E69F00", alpha=.5) +
-  scale_y_continuous(limits=c(0, NA)) +
-  theme_minimal() +
-  theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank(),
-        legend.pos = "bottom",
-        legend.title = element_blank(),
-        plot.title = element_text(hjust = 0.5),
-        plot.subtitle=element_text(size=11, hjust=0.5),
-        legend.text = element_text(size = 9)) +
-  ggtitle("Geschatte besmettelijke mensen per dag") +
-  ggsave("plots/contagious.png", width = 5.5, height=4)
-
 
 ### TEST DATA
 # Tests: Toename per kalender week (einde van de week (zondag) als plotdatum)
@@ -49,7 +27,7 @@ test %>%
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
   ggtitle("Toename totaal (positieve) COVID-19 testen per week") +
-  labs(caption = paste('N.B. Data van week ', as.character(tail(test['Week'], 1)), " wordt nog aangevuld." , sep = ""))
+  labs(caption = paste('N.B. Data van week ', as.character(tail(test['Week'], 1)), " wordt nog aangevuld." , sep = "")) +
   ggsave("plots/overview_plot_tests_weeks.png", width = 5.5, height=4)
   
 # Tests: Cumulatief per kalender week (einde van de week (zondag) als plotdatum)
@@ -161,55 +139,4 @@ stat %>%
        aandoeningen en/of zwangerschap") +
   ggsave("plots/conditions_statistics.png", width = 8.5, height=4)
 
-
-### REPRODUCTION INDEX
-rep <- read_csv("data-misc/data-reproduction/RIVM_NL_reproduction_index.csv")
-
-rep2 <- spread(rep, Type, Waarde)
-
-rep2 %>%
-  ggplot(aes(x= Datum, y = `Reproductie index`)) +
-  geom_line(aes(y = `Reproductie index`)) +
-  geom_ribbon(aes(ymin = Minimum, ymax = Maximum), fill="#E69F00", alpha=.5) +
-  scale_y_continuous(limits=c(0, NA)) +
-  theme_minimal() +
-  theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank(),
-        legend.pos = "bottom",
-        legend.title = element_blank(),
-        plot.title = element_text(hjust = 0.5),
-        plot.subtitle=element_text(size=11, hjust=0.5),
-        legend.text = element_text(size = 9)) +
-  ggtitle("Reproductie index per dag") +
-  ggsave("plots/reproductie_index.png", width = 8.5, height=4)
-
-
-### NURSERY HOME COUNTS
-read_csv("data-misc/data-nursery/RIVM_NL_nursery_counts.csv") %>%
-  mutate(Type = factor(Type, c("Positief geteste bewoners", "Overleden besmette bewoners"))) %>%
-  ggplot(aes(x = Datum, y = Aantal, colour = Type)) +
-  geom_line() +
-  theme_minimal() +
-  theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank(),
-        legend.pos = "bottom",
-        legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Toename (overleden) positief geteste verpleegtehuis bewoners") +
-  ggsave("plots/overview_nursery_count.png", width = 5.5, height=4)
-
-read_csv("data-misc/data-nursery/RIVM_NL_nursery_counts.csv") %>%
-  mutate(Type = factor(Type, c("Positief geteste bewoners", "Overleden besmette bewoners"))) %>%
-  ggplot(aes(x = Datum, y = AantalCumulatief, colour = Type)) +
-  geom_line() +
-  theme_minimal() +
-  theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank(),
-        legend.pos = "bottom",
-        legend.title = element_blank()) +
-  scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
-  scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Totaal (overleden) positief geteste verpleegtehuis bewoners") +
-  ggsave("plots/overview_nursery_cumulative.png", width = 5.5, height=4)
 
