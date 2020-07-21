@@ -917,3 +917,12 @@ Datum,Geslacht,Type,Aantal,AantalCumulatief
 2020-07-14,Man,Overleden,,3373
 2020-07-14,Vrouw,Overleden,,2762
 2020-07-14,Niet vermeld,Overleden,,0
+2020-07-21,Man,Totaal,,19773
+2020-07-21,Vrouw,Totaal,,32209
+2020-07-21,Niet vermeld,Totaal,,91
+2020-07-21,Man,Ziekenhuisopname,,7284
+2020-07-21,Vrouw,Ziekenhuisopname,,4610
+2020-07-21,Niet vermeld,Ziekenhuisopname,,8
+2020-07-21,Man,Overleden,,3374
+2020-07-21,Vrouw,Overleden,,2762
+2020-07-21,Niet vermeld,Overleden,,0

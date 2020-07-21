@@ -23,7 +23,11 @@ def merge_data(date, type_data):
 
     df_totaal["Datum"] = pd.date_range(START_DATE, periods=len(df_totaal))
     df_totaal["Type"] = type_data
-    df_totaal["Aantal"] = df_totaal["nieuw"] + df_totaal["tot en met gisteren"]
+
+    try:
+        df_totaal["Aantal"] = df_totaal["nieuw"] + df_totaal["tot en met gisteren"]
+    except Exception:
+        df_totaal["Aantal"] = df_totaal["nieuw"] + df_totaal["t/m afgelopen week"]
 
     return df_totaal[["Datum", "Type", "Aantal"]]
 
