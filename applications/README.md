@@ -47,6 +47,11 @@ Coronovirus in Netherlands Power BI report:
 [https://worktimesheet2014.blogspot.com/2020/03/coronovirus-in-netherlands-power-bi.html](https://worktimesheet2014.blogspot.com/2020/03/coronovirus-in-netherlands-power-bi.html)
 
 
+## Gemeente-wise daily new cases
+Gemeente-wise daily new cases:
+![GemeeteWiseDailyNewCasesScreeShot](GemeeteWiseDailyNewCasesScreeShot.png)
+[https://shadkam.github.io/jsutils/html/covnl01.html](https://shadkam.github.io/jsutils/html/covnl01.html)
+
 
 ## Interesting links
 
