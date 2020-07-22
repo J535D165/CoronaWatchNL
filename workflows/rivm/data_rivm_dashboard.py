@@ -290,7 +290,7 @@ def main_descriptive():
         next
     else:
         df_total = df_total.append(df, ignore_index=True)
-        df_total = df_total.sort_values(by=['Datum', 'Type'])
+        df_total = df_total.sort_values(by=['Datum', 'LeeftijdGroep'])
         df_total = df_total.reset_index(drop=True)
 
     dates = sorted(df_total["Datum"].unique())

@@ -282,10 +282,12 @@ Datum,Type,Aantal,AantalCumulatief
 2020-07-16,Positief geteste bewoners,1,8395
 2020-07-16,Overleden besmette bewoners,0,2841
 2020-07-17,Positief geteste bewoners,7,8402
-2020-07-17,Overleden besmette bewoners,0,2841
+2020-07-17,Overleden besmette bewoners,1,2842
 2020-07-18,Positief geteste bewoners,1,8403
-2020-07-18,Overleden besmette bewoners,0,2841
+2020-07-18,Overleden besmette bewoners,0,2842
 2020-07-19,Positief geteste bewoners,1,8404
-2020-07-19,Overleden besmette bewoners,0,2841
+2020-07-19,Overleden besmette bewoners,1,2843
 2020-07-20,Positief geteste bewoners,0,8404
-2020-07-20,Overleden besmette bewoners,0,2841
+2020-07-20,Overleden besmette bewoners,0,2843
+2020-07-21,Positief geteste bewoners,2,8406
+2020-07-21,Overleden besmette bewoners,0,2843

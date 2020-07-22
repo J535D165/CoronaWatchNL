@@ -236,8 +236,8 @@ alles %>%
   ggsave("plots/overview_national_vs_dashboard_new.png", width = 5.5, height=4)
 
 
-### SUSPECTS
-# Verdachte patienten:
+### DESCRIPTIVE
+# Leeftijdsverdeling patienten:
 read_csv("data-dashboard/data-descriptive/RIVM_NL_age_distribution.csv") %>%
   ggplot(aes(x = Datum, y = Aantal, colour = LeeftijdGroep)) +
   geom_line() +

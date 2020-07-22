@@ -258,3 +258,5 @@ Datum,Type,Aantal,AantalCumulatief
 2020-07-20,Ziekenhuisopname,2,11900
 2020-07-21,Totaal,163,52093
 2020-07-21,Ziekenhuisopname,4,11904
+2020-07-22,Totaal,168,52261
+2020-07-22,Ziekenhuisopname,-2,11902
