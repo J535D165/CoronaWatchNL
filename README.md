@@ -14,7 +14,9 @@ The datasets available on CoronaWatchNL are updated on a daily base. Availabilit
 * [Geographical data](#geographical-datasets)
 * [Descriptive data](#descriptive-datasets)
 * [Intensive care data](#intensive-care-datasets)
+* [Dashboard data](#dashboard-datasets)
 * [Miscellaneous datasets](#miscellaneous-datasets)
+
 
 For (interactive) applications based on these datasets, have a look at the [applications folder](/applications). For predictive models based on these datasets, check out the parallel repository [CoronaWatchNL Extended](https://github.com/J535D165/CoronaWatchNLExtended). Please note that the intention of these (too) simplistic models - made by CoronaWatchNL volunteers - is to show how the data can be used for modelling,  *not* to answer specific hypotheses or follow scientific protocol.
 
@@ -102,44 +104,68 @@ The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumula
 
 [<img src="plots/ic_nice_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
 
+### Dashboard datasets
+The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. This folder includes an overview of the number of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water. 
+
+For more detail about the specific structure of the dashboard datasets, have a look at the `data-dashboard`[codebook](/data-dashboard/README.md).
+
+| Dataset | Source | Variables |
+|---|---| --- |
+| [Reported case counts in NL](data-dashboard#cases) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
+| [COVID-19 particles in sewage](data-dashboard#sewage) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count |
+| [Suspected patients in NL](data-dashboard#suspects) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count |
+| [Reproduction index COVID-19 virus](data-dashboard#reproduction) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
+| [Contagion estimate COVID-19 virus](data-dashboard#contagious) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
+| [Number of infected and deceased nursery home cases](data-dashboard#nursery) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
+
+#### Visualizations miscellaneous data
+These visuals show the development of the COVID-19 disease outbreak on a national level as reported by the National Dashboard and by the RIVM reports.
+
+[<img src="plots/overview_national_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_dashboard_new.png" width="400">](/data-dashboard/README.md)
+[<img src="overview_national_vs_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_vs_dashboard_new.png" width="400">](/data-dashboard/README.md)
+
+Below, the number of suspected COVID-19 patients, as registered by the GPs, are shown.
+
+[<img src="plots/overview_suspects.png" width="400">](/data-dashboard/README.md)
+
+The number of COVID-19 particles found per milliliter sewage water is visualised here.
+
+[<img src="plots/overview_sewage.png" width="400">](/data-dashboard/README.md)
+
+The reproduction index and estimated contagious people are plotted with their corresponding minimum and maximum values. The reproduction index indicates how quickly the COVID-19 virus is spreading in the Netherlands. The estimated contagious people represent the number of COVID-19 people per 100.000 inhabitants that are contagious for others. <br/>
+
+[<img src="plots/reproductie_index.png" width="400">](/data-dashboard/README.md)[<img src="plots/contagious.png" width="400">](/data-dashboard/README.md)
+
+The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
+
+[<img src="plots/overview_nursery_cumulative.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_nursery_count.png" width="400">](/data-dashboard/README.md)
+[<img src="plots/overview_nursery_homes.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_nursery_homes_new.png" width="400">](/data-dashboard/README.md)
 
 ### Miscellaneous datasets
 
-This folder contains datasets describing various topics, such as the number of (positively) tested people, the reproduction index, an estimate of the number of contagious peope, number of (deceased) infected nursery home residents, the underlying conditions and/or pregnancy of deceased cases younger than 70, and on overview of the reinforced measures and press releases in the Netherlands.
+This folder contains datasets describing various miscellaneous topics, such as the number of (positively) tested people, the underlying conditions and/or pregnancy of deceased cases younger than 70, an overview of the reinforced measures and press releases in the Netherlands, and a list of companies that requested and received an advance on their reimbursement.
 
 For more detail about the specific structure of the miscellaneous datasets, have a look at the `data-misc`[codebook](/data-misc/README.md).
 
 | Dataset | Source | Variables |
 |---|---| --- |
 | [COVID-19 tests in NL per week](data-misc#test) | [RIVM](#data-collection-sources) | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
-| [Reproduction index COVID-19 virus](data-misc#reproduction) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
-| [Contagion estimate COVID-19 virus](data-misc#contagious) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
-| [Number of infected and deceased nursery home cases](data-misc#nursery) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
 | [Underlying conditions and/or pregnancy in deceased COVID-19 cased under the age of 70](data-misc#underlying) | [RIVM](#data-collection-sources) | Date, Type of condition, Cumulative count |
 | [COVID-19 measures by the government](data-misc#measures) | [European Commission Joint Research Centre](#data-collection-sources) | Various variables on governmental measures (in English) |
 | [RIVM press releases](data/rivm_press_releases.csv) | [RIVM](#data-collection-sources) | Date and Time, Content of press release |
-
+| [NOW registry](data-misc#economy) | [UWV](#data-collection-sources) | Company, Location, Advance |
 
 #### Visualizations miscellaneous data
-
 These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.<br/>
 
-[<img src="plots/overview_plot_tests_weeks_cum.png" width="400">](/data-misc/README.md)[<img src="plots/overview_plot_tests_weeks.png" width="400">](/data-misc/README.md)
-
-The reproduction index and estimated contagious people are plotted with their corresponding minimum and maximum values. The reproduction index indicates how quickly the COVID-19 virus is spreading in the Netherlands. The estimated contagious people represent the number of COVID-19 people per 100.000 inhabitants that are contagious for others. <br/>
-
-[<img src="plots/reproductie_index.png" width="700">](/data-misc/README.md)[<img src="plots/contagious.png" width="400">](/data-misc/README.md)
-
-The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
-
-[<img src="plots/overview_nursery_count.png" width="400">](/data-misc/README.md)[<img src="plots/overview_nursery_cumulative.png" width="400">](/data-misc/README.md)
+[<img src="plots/overview_plot_tests_weeks_cum.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_plot_tests_weeks.png" width="400">](/data-dashboard/README.md)
 
 Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. <br/>
 
-[<img src="plots/conditions_statistics.png" width="700">](/data-misc/README.md)
+[<img src="plots/conditions_statistics.png" width="700">](/data-dashboard/README.md)
 
 The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. <br/>
-[<img src="plots/underlying_conditions.png" width="700">](/data-misc/README.md)
+[<img src="plots/underlying_conditions.png" width="700">](/data-dashboard/README.md)
 
 ## Inactive/deprecated datasets
 
@@ -184,6 +210,7 @@ The following sources are used for data collection.
 | https://www.lcsp.nu/ | LCPS | Intensive care numbers on COVID-19 patients |
 | https://coronadashboard.rijksoverheid.nl/ | National Dashboard | Various variables and estimations like Reproduction Index |
 | https://covid-statistics.jrc.ec.europa.eu/ | European Commision Joint Research Centre | Governmental measures database |
+| https://www.uwv.nl/overuwv/pers/documenten/2020/gegevens-ontvangers-now-1-0-regeling.aspx/ | Employee Insurance Agency | NOW registry |
 
 
 ## License and academic use
