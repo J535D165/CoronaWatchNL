@@ -73,9 +73,9 @@ For more detail about the specific structure of the descriptive datasets, have a
 
 The graphs below visualize the development of the COVID-19 disease outbreak per sex and age group.
 
-[<img src="plots/overview_plot_geslacht.png" width="400">](/data-desc/README.md)[<img src="plots/ratio_plot_geslacht.png" width="400">](/data-desc/README.md)
+[<img src="plots/overview_plot_geslacht.png" width="400">](/data-desc/README.md)[<img src="plots/toename_plot_geslacht.png" width="400">](/data-desc/README.md)
 
-[<img src="plots/toename_plot_geslacht.png" width="400">](/data-desc/README.md)[<img src="plots/ratio_toename_geslacht.png" width="400">](/data-desc/README.md)
+[<img src="plots/ratio_plot_geslacht.png" width="400">](/data-desc/README.md)[<img src="plots/ratio_toename_geslacht.png" width="400">](/data-desc/README.md)
 
 [<img src="plots/overview_plot_leeftijd_cum.png" width="400">](/data-desc/README.md)[<img src="plots/overview_plot_leeftijd.png" width="400">](/data-desc/README.md)
 
@@ -118,11 +118,11 @@ For more detail about the specific structure of the dashboard datasets, have a l
 | [Contagion estimate COVID-19 virus](data-dashboard#contagious) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
 | [Number of infected and deceased nursery home cases](data-dashboard#nursery) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
 
-#### Visualizations miscellaneous data
+#### Visualizations dashboard data
 These visuals show the development of the COVID-19 disease outbreak on a national level as reported by the National Dashboard and by the RIVM reports.
 
 [<img src="plots/overview_national_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_dashboard_new.png" width="400">](/data-dashboard/README.md)
-[<img src="overview_national_vs_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_vs_dashboard_new.png" width="400">](/data-dashboard/README.md)
+[<img src="plots/overview_national_vs_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_vs_dashboard_new.png" width="400">](/data-dashboard/README.md)
 
 Below, the number of suspected COVID-19 patients, as registered by the GPs, are shown.
 
