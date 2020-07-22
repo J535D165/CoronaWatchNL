@@ -155,7 +155,7 @@ read_csv("data-dashboard/data-suspects/RIVM_NL_suspects.csv") %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Door huisarts gerapporteerde verdachte COVID-19 patiÃ«nten") +
+  ggtitle("Door huisarts gerapporteerde verdachte COVID-19 patiënten") +
   labs(subtitle = 'per 100.000 inwoners per week')
   ggsave("plots/overview_suspects.png", width = 5.5, height=4)
 
@@ -174,7 +174,7 @@ read_csv("data-dashboard/data-cases/RIVM_NL_national_dashboard.csv") %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Totaal COVID-19 patiÃ«nten") +
+  ggtitle("Totaal COVID-19 patiënten") +
   ggsave("plots/overview_national_dashboard.png", width = 5.5, height=4)
 
 # Toename
@@ -191,7 +191,7 @@ read_csv("data-dashboard/data-cases/RIVM_NL_national_dashboard.csv") %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Toename COVID-19 patiÃ«nten") +
+  ggtitle("Toename COVID-19 patiënten") +
   ggsave("plots/overview_national_dashboard_new.png", width = 5.5, height=4)
 
 # Cumulatief: Rapport vs. Dashboard
@@ -214,7 +214,7 @@ alles %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Totaal COVID-19 patiÃ«nten: Rapport vs. Dashboard") +
+  ggtitle("Totaal COVID-19 patiënten: Rapport vs. Dashboard") +
   ggsave("plots/overview_national_vs_dashboard.png", width = 5.5, height=4)
 
 # Toename: Rapport vs. Dashboard
@@ -232,6 +232,23 @@ alles %>%
         legend.title = element_blank()) +
   scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("Toename COVID-19 patiÃ«nten: Rapport vs. Dashboard") +
+  ggtitle("Toename COVID-19 patiënten: Rapport vs. Dashboard") +
   ggsave("plots/overview_national_vs_dashboard_new.png", width = 5.5, height=4)
 
+
+### SUSPECTS
+# Verdachte patienten:
+read_csv("data-dashboard/data-descriptive/RIVM_NL_age_distribution.csv") %>%
+  ggplot(aes(x = Datum, y = Aantal, colour = LeeftijdGroep)) +
+  geom_line() +
+  theme_minimal() +
+  theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        legend.pos = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle=element_text(size=11, hjust=0.5),
+        legend.title = element_blank()) +
+  #scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
+  scale_y_continuous(limits=c(0, NA)) +
+  ggtitle("COVID-19 patiënten per leeftijdsgroep") +
+  ggsave("plots/overview_desc_dashboard.png", width = 5.5, height=4)
