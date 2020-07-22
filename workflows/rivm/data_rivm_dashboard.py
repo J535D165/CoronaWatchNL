@@ -152,7 +152,9 @@ def main_nursery():
 
     df = df.sort_values(by=['Datum', 'Type'], ascending=[True, False])
     df = df.reset_index(drop = True)
+
     df['AantalCumulatief'] = df.groupby('Type')['Aantal'].transform(pd.Series.cumsum)
+
     df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
     df['AantalCumulatief'] = df["AantalCumulatief"].astype(pd.Int64Dtype())
 
@@ -197,9 +199,9 @@ def main_national():
 
     selection2 = data['intake_hospital_ma']['list']
     type = ['Ziekenhuisopname'] * len(selection2)
+
     df2 = pd.DataFrame(selection2.keys(), columns=['Datum'])
     df2['Type'] = type
-
     df2['Aantal'] = selection2.values()
 
     value = [43, 109, 94]
@@ -269,6 +271,39 @@ def main_riool():
 
     export_date(df, "data-sewage", "RIVM_NL_sewage_counts", data_date=None, label=None)
 
+def main_descriptive():
+    data = pd.read_json(URL)
+
+    selection = data['intake_share_age_groups']['list']
+    datum = data['intake_share_age_groups']['lastupdate']
+    datum = [f'{date.fromtimestamp(datum)}'] * len(selection)
+
+    df = pd.DataFrame()
+    df['Datum'] = datum
+    df['LeeftijdGroep'] = selection.keys()
+    df['Aantal'] = selection.values()
+    df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
+
+    df_total = pd.read_csv(Path("data-dashboard/data-descriptive", "RIVM_NL_age_distribution.csv"))
+
+    if df['Datum'][0] in list(df_total['Datum']):
+        next
+    else:
+        df_total = df_total.append(df, ignore_index=True)
+        df_total = df_total.sort_values(by=['Datum', 'Type'])
+        df_total = df_total.reset_index(drop=True)
+
+    dates = sorted(df_total["Datum"].unique())
+
+    Path(DATA_FOLDER, "data-descriptive").mkdir(exist_ok=True)
+
+    for data_date in dates:
+        export_date(df_total, "data-descriptive", "RIVM_NL_age_distribution", data_date, str(data_date).replace("-", ""))
+
+    export_date(df_total, "data-descriptive", "RIVM_NL_age_distribution", data_date=None, label=None)
+
+    export_date(df_total, "data-descriptive", "RIVM_NL_age_distribution", data_date=dates[-1], label="latest")
+
 if __name__ == '__main__':
     DATA_FOLDER.mkdir(exist_ok=True)
 
@@ -288,3 +323,4 @@ if __name__ == '__main__':
 
     main_suspects()
 
+    main_descriptive()
