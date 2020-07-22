@@ -94,7 +94,7 @@ def main_infectious():
 
     export_date(df_total, "data-contagious/data-contagious_estimates", "RIVM_NL_contagious_estimate", data_date=None, label=None)
 
-    export_date(df_total, "data-contagious/data-contagious_estimates", "RIVM_NL_contagious_estimate", data_date=None, label="latest")
+    export_date(df_total, "data-contagious/data-contagious_estimates", "RIVM_NL_contagious_estimate", data_date=dates[-1], label="latest")
 
 def main_infectcounts():
     data = pd.read_json(URL)
@@ -128,7 +128,7 @@ def main_infectcounts():
 
     export_date(df_total, "data-contagious/data-contagious_count", "RIVM_NL_contagious_count", data_date=None, label=None)
 
-    export_date(df_total, "data-contagious/data-contagious_count", "RIVM_NL_contagious_count", data_date=None, label="latest")
+    export_date(df_total, "data-contagious/data-contagious_count", "RIVM_NL_contagious_count", data_date=dates[-1], label="latest")
 
 def main_nursery():
     data = pd.read_json(URL)
