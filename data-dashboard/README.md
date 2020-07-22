@@ -50,6 +50,19 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 **\*** This calculated value estimates how many people infected with COVID-19 are contagious for others. This value is calculated by RIVM on a weekly basis.
 
+### Descriptive
+
+**Directory:** [data-dashboard/data-descriptive](data-descriptive) <br>
+**Daily file format:** RIVM_NL_age_distribution_yyyy-mm-dd.csv<br>
+**Complete file format:** [RIVM_NL_age_distribution.csv](data-descriptive/RIVM_NL_age_distribution.csv)<br>
+**Latest file format:** [RIVM_NL_age_distribution_latest.csv](data-descriptive/RIVM_NL_age_distribution_latest.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-07-21 |
+| **LeeftijdGroep** | Age group | Age group (i.e., 0-20, 20-40, 40-60, 60-80, 80+, Unknown) | character | 20 tot 40 |
+| **Aantal** | Aantal | The number of positively tested patients per age group on the date of notificiation | numeric | 70 |
+
 ### Nursery
 
 #### Residents
