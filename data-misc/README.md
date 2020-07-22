@@ -42,7 +42,7 @@ For deceased COVID-19 cases younger than 70, RIVM reported whether or not they s
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
 | **Type** | Type | Type of test measurement (i.e., Totaal gemeld, Onderliggende aandoeningen en/of zwangerschap, Geen onderliggende aandoening, Niet vermeld) | character | Onderliggende aandoening en/of zwangerschap |
-| **AantalCumulatief** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 (*Totaal gemeld*) with (*Onderliggende aandoening en/of zwangerschap*) or without (*Geen onderliggende aandoening*) an underlying condition and/or pregnancy, and the cumulative count of cases where it was unknown whether they had an underlying condition and/or were pregnant (*Niet vermeld*) | 218 |
+| **AantalCumulatief** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 (*Totaal gemeld*) with (*Onderliggende aandoening en/of zwangerschap*) or without (*Geen onderliggende aandoening*) an underlying condition and/or pregnancy, and the cumulative count of cases where it was unknown whether they had an underlying condition and/or were pregnant (*Niet vermeld*) | numeric (integer) | 218 |
 
 #### Underlying conditions
 
@@ -55,7 +55,7 @@ For deceased COVID-19 cases younger than 70, RIVM reported whether or not they s
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
 | **Type** | Type | Type of test measurement (i.e., Zwangerschap, Cardio-vasculaire aandoeningen en hypertensie, Diabetes, Leveraandoening, Chronische neurologische of neuromusculaire aandoeningen, Immuundeficientie, Nieraandoening, Chronische longaandoeningen, Maligniteit, Overig) | character | Nieraandoening |
-| **AantalCumulatief\*** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 that suffered from cardio vascular conditions and hypertension (*Cardio-vasculaire aandoeningen en hypertensie*), Diabetes, Liver condition (*Leveraandoening*), Chronic neurological or neuromuscular conditions (*Chronische neurologische of neuromusculaire aandoeningen*), Immunodeficiency (*Immuundeficientie*), Kidney conditions (*Nieraandoening*), Chronic lung conditions (*Chronische longaandoeningen*), Malignancy (*Magligniteit*), or other conditions (*Overig*), or that were pregnant (*Zwangerschap*) | 12 |
+| **AantalCumulatief\*** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 that suffered from cardio vascular conditions and hypertension (*Cardio-vasculaire aandoeningen en hypertensie*), Diabetes, Liver condition (*Leveraandoening*), Chronic neurological or neuromuscular conditions (*Chronische neurologische of neuromusculaire aandoeningen*), Immunodeficiency (*Immuundeficientie*), Kidney conditions (*Nieraandoening*), Chronic lung conditions (*Chronische longaandoeningen*), Malignancy (*Magligniteit*), or other conditions (*Overig*), or that were pregnant (*Zwangerschap*) | numeric (integer) | 12 |
 
 **\*** Note that one patient can have multiple conditions. Therefore, the sum of the cumulatives per condition is higher than the cumulative number of deceased patients with a known underlying condition and/or pregnancy as mentioned in [data-underlying_statistics](#underlying-statistics).
 
@@ -86,6 +86,6 @@ For deceased COVID-19 cases younger than 70, RIVM reported whether or not they s
 |---|---|---|---|---|
 | **Bedrijfsnaam** | Company name | Name of company requesting financial support\*| character | Betonvereniging |
 | **Vestigingsplaats** | Location | Location of company | character | Gouda |
-| **Uitbetaald voorschotbedrag** | Paid amount| The advance paid to the company in euros | numeric | 123492 |
+| **Uitbetaald voorschotbedrag** | Paid amount| The advance paid to the company in euros | numeric (integer) | 123492 |
 
 **\*** The NOW register, published by UWV, mentions the companies that requested and received an advance on the reimbursement.
