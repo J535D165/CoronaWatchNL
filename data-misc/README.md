@@ -21,11 +21,10 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **EindDatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
 | **AantalLaboratoria** | Number of laboratories | Number of Dutch laboratories that have performed diagnostics for SARS-CoV-2 in said week | character | 30 |
 | **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
-| **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*), and number of positively tested people for COVID-19 (*Positief*\*\*) per week\*\*\* | numeric (integer) | 17080|
+| **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*), and number of positively tested people for COVID-19 (*Positief*\*\*) per week | numeric (integer) | 17080|
 
 **\*** Before the 21st of April, RIVM reports did not use weeks but seperate dates to report test counts. This format can be found in the [RIVM_NL_test_depr_2020-04-20.csv](data-test/RIVM_NL_test_depr_2020-04-20.csv) dataset. Note that, due to this change in format, this specific file could not be updated after the 20th of April.<br/>
 **\*\*** The number of people positively tested on COVID-19 differs from the number of patients reported by the GGDs, as some people might have been tested more than once. <br/>
-**\*\*\*** The data is updated every day, except for weekends and holidays. <br/>
 
 ### Underlying 
 
@@ -55,7 +54,7 @@ For deceased COVID-19 cases younger than 70, RIVM reported whether or not they s
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
 | **Type** | Type | Type of test measurement (i.e., Zwangerschap, Cardio-vasculaire aandoeningen en hypertensie, Diabetes, Leveraandoening, Chronische neurologische of neuromusculaire aandoeningen, Immuundeficientie, Nieraandoening, Chronische longaandoeningen, Maligniteit, Overig) | character | Nieraandoening |
-| **AantalCumulatief\*** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 that suffered from cardio vascular conditions and hypertension (*Cardio-vasculaire aandoeningen en hypertensie*), Diabetes, Liver condition (*Leveraandoening*), Chronic neurological or neuromuscular conditions (*Chronische neurologische of neuromusculaire aandoeningen*), Immunodeficiency (*Immuundeficientie*), Kidney conditions (*Nieraandoening*), Chronic lung conditions (*Chronische longaandoeningen*), Malignancy (*Magligniteit*), or other conditions (*Overig*), or that were pregnant (*Zwangerschap*) | numeric (integer) | 12 |
+| **AantalCumulatief\*** | Cumulative count | The cumulative number of deceased COVID-19 cases younger than 70 that suffered from cardio vascular conditions and hypertension (*Cardio-vasculaire aandoeningen en hypertensie*), Dementia/Alzheimer, Diabetes, Liver condition (*Leveraandoening*), Chronic neurological or neuromuscular conditions (*Chronische neurologische of neuromusculaire aandoeningen*), Obesitas, Parkinson, Immunodeficiency (*Immuundeficientie*), Kidney conditions (*Nieraandoening*), Chronic lung conditions (*Chronische longaandoeningen*), Malignancy (*Magligniteit*), or other conditions (*Overig*), or that were pregnant (*Zwangerschap*) | numeric (integer) | 12 |
 
 **\*** Note that one patient can have multiple conditions. Therefore, the sum of the cumulatives per condition is higher than the cumulative number of deceased patients with a known underlying condition and/or pregnancy as mentioned in [data-underlying_statistics](#underlying-statistics).
 

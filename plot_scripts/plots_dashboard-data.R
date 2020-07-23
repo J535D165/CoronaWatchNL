@@ -28,7 +28,7 @@ cont2 %>%
         plot.subtitle=element_text(size=11, hjust=0.5),
         legend.text = element_text(size = 9)) +
   ggtitle("Geschat aantal besmettelijke mensen") +
-  labs(subtitle = "per 100.000 inwoners per dag") +
+  labs(subtitle = "per 100.000 inwoners per week") +
   ggsave("plots/contagious.png", width = 8.5, height=4)
 
 

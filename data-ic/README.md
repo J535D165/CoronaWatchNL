@@ -2,7 +2,7 @@
 
 ## Data update
 
-All datasets are updated on a daily base. Availability depends on the publication by RIVM.
+All datasets are updated on a daily base. Availability depends on the publication by NICE and LCPS.
 
 ## Data format
 
@@ -16,15 +16,15 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-03-27 |
-| **IngezetteICs** | Used IC units | Number of intensive care (IC) units\* with at least one Dutch COVID-19 case on the date of notification | numeric | 74 |
-| **TotaalOpnamen** | Total IC intakes | Total number of IC intakes on the date of notificationn | numeric | 921 |
-| **ToenameOpnamen** | New IC intakes | Number of newly confirmed or suspected COVID-19 IC intakes on the date of notification | numeric | 112 |
-| **CumulatiefOpnamen** | Cumulative IC intakes | Total number of IC intakes since the start of the outbreak until the date of notification | numeric | 1135 |
-| **ToenameOntslagZiekenhuis** | New hospital discharges | New number of IC-cases that left the hospital alive on the date of notification | numeric | 5 |
-| **CumulatiefOntslagZiekenhuis** | Cumulative hospital discharges | Total number of IC-cases that left the hospital alive since the start of the outbreak until the date of notification | numeric | 39 |
-| **ToenameOntslagOverleden** | New IC deaths | New number of IC-cases that died\*\* in hospital during/after IC intake on the date of notification | numeric | 14 |
-| **CumulatiefOntslagOverleden** | Cumulative IC deaths | Total number of IC-cases that died in hospital during/after IC intake since the start of the outbreak until the date of notification | numeric | 121 |
-| **TotaalOntslagIC** | Total IC discharges | Total number of discharged IC-cases that are still in hospital\*\*\* on the date of notification | numeric | 83 |
+| **IngezetteICs** | Used IC units | Number of intensive care (IC) units\* with at least one Dutch COVID-19 case on the date of notification | numeric (integer) | 74 |
+| **TotaalOpnamen** | Total IC intakes | Total number of IC intakes on the date of notificationn | numeric (integer) | 921 |
+| **ToenameOpnamen** | New IC intakes | Number of newly confirmed or suspected COVID-19 IC intakes on the date of notification | numeric (integer) | 112 |
+| **CumulatiefOpnamen** | Cumulative IC intakes | Total number of IC intakes since the start of the outbreak until the date of notification | numeric (integer) | 1135 |
+| **ToenameOntslagZiekenhuis** | New hospital discharges | New number of IC-cases that left the hospital alive on the date of notification | numeric (integer) | 5 |
+| **CumulatiefOntslagZiekenhuis** | Cumulative hospital discharges | Total number of IC-cases that left the hospital alive since the start of the outbreak until the date of notification | numeric (integer) | 39 |
+| **ToenameOntslagOverleden** | New IC deaths | New number of IC-cases that died\*\* in hospital during/after IC intake on the date of notification | numeric (integer) | 14 |
+| **CumulatiefOntslagOverleden** | Cumulative IC deaths | Total number of IC-cases that died in hospital during/after IC intake since the start of the outbreak until the date of notification | numeric (integer) | 121 |
+| **TotaalOntslagIC** | Total IC discharges | Total number of discharged IC-cases that are still in hospital\*\*\* on the date of notification | numeric (integer) | 83 |
 
 **\*** These can be situated in either the Netherlands or in Germany. <br/>
 **\*\*** Deaths outside hospitals are not included in these numbers. <br/>

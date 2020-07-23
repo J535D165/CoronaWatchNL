@@ -46,7 +46,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification| YYYY-MM-DD (ISO 8601) | 2020-07-10 |
 | **Type** | Type | Type of measure (i.e., Geschat aantal besmettelijke mensen) | character | Geschat aantal besmettelijke mensen |
-| **Waarde** | Value\* | The estimated number of contagious people per week | numeric | 2726 |
+| **Waarde** | Value\* | The estimated number of contagious people per week | numeric (integer) | 2726 |
 
 **\*** This calculated value estimates how many people infected with COVID-19 are contagious for others. This value is calculated by RIVM on a weekly basis.
 
@@ -61,7 +61,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-07-21 |
 | **LeeftijdGroep** | Age group | Age group (i.e., 0-20, 20-40, 40-60, 60-80, 80+, Unknown) | character | 20 tot 40 |
-| **Aantal** | Aantal | The number of positively tested patients per age group on the date of notificiation | numeric | 70 |
+| **Aantal** | Aantal | The number of positively tested patients per age group on the date of notificiation | numeric (integer) | 70 |
 
 ### Nursery
 
@@ -72,7 +72,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
-| **Type** | Type | Type of measurment: Positief geteste bewoners (*Positively tested residents*), Overleden besmette bewoners (*Deceased residents*) | character | Positief geteste bewoners |
+| **Type** | Type | Type of measurment (i.e., Positief geteste bewoners, Overleden besmette bewoners) | character | Positief geteste bewoners |
 | **Aantal** | Count | Number of newly reported (deceased) COVID-19 cases of nursery home residents on the date of notification | numeric (integer) | 160 |
 | **AantalCumulatief** | Total count | Number of (deceased) COVID-19 cases of nursery home residents on the date of notification since the start of the outbreak | numeric (integer) | 4017 |
 
@@ -98,7 +98,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **Type** | Type | Type of reproduction measure (i.e., Reproductie index, Minimum, Maximum) | character | Reproductie index |
 | **Waarde** | Value\*\* | The (minimum and maximum) reproduction index (*Reproductie index*) per day, indicating how quickly the virus is spreading | numeric | 0.69 |
 
-**\*** As the reproduction index is calculated in retrospect, the reproduction index for the most recent dates are, therefore, still unknown. <br/>
+**\*** As the reproduction index is calculated in retrospect, the reproduction index for the most recent dates are still unknown. <br/>
 **\*\*** The reproduction index is an estimate made by RIVM based on various data sources. The exact number is unknown. The reproduction index is an average for the entire Netherlands.
 
 ### Sewage

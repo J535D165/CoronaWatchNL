@@ -105,7 +105,7 @@ The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumula
 [<img src="plots/ic_nice_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
 
 ### Dashboard datasets
-The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. This folder includes an overview of the number and age distribution of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water. 
+The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. These datasets concern various topics, such as an overview of the number and age distribution of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water. 
 
 For more detail about the specific structure of the dashboard datasets, have a look at the `data-dashboard`[codebook](/data-dashboard/README.md).
 
@@ -126,13 +126,9 @@ These visuals show the development of the COVID-19 disease outbreak on a nationa
 [<img src="plots/overview_national_vs_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_vs_dashboard_new.png" width="400">](/data-dashboard/README.md)
 [<img src="plots/overview_desc_dashboard.png" width="400">](/data-dashboard/README.md)
 
-Below, the number of suspected COVID-19 patients, as registered by the GPs, are shown.
+Below, the number of suspected COVID-19 patients as registered by the GPs, and the amount of COVID-19 particles per milliliter sewage water are depicted. 
 
-[<img src="plots/overview_suspects.png" width="400">](/data-dashboard/README.md)
-
-The number of COVID-19 particles found per milliliter sewage water is visualised here.
-
-[<img src="plots/overview_sewage.png" width="400">](/data-dashboard/README.md)
+[<img src="plots/overview_suspects.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_sewage.png" width="400">](/data-dashboard/README.md)
 
 The reproduction index and estimated contagious people are plotted with their corresponding minimum and maximum values. The reproduction index indicates how quickly the COVID-19 virus is spreading in the Netherlands. The estimated contagious people represent the number of COVID-19 people per 100.000 inhabitants that are contagious for others. <br/>
 
@@ -160,14 +156,14 @@ For more detail about the specific structure of the miscellaneous datasets, have
 #### Visualizations miscellaneous data
 These graphs display the number of (positively) tested people per week. The end date of each week - Sunday - is used as indicator for the respective week.<br/>
 
-[<img src="plots/overview_plot_tests_weeks_cum.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_plot_tests_weeks.png" width="400">](/data-dashboard/README.md)
+[<img src="plots/overview_plot_tests_weeks_cum.png" width="400">](/data-misc/README.md)[<img src="plots/overview_plot_tests_weeks.png" width="400">](/data-dashboard/README.md)
 
 Below, the cumulative number of deceased COVID-19 cases younger than 70 with and without underlying conditions and/or pregnancy are displayed per notification date. <br/>
 
-[<img src="plots/conditions_statistics.png" width="700">](/data-dashboard/README.md)
+[<img src="plots/conditions_statistics.png" width="700">](/data-misc/README.md)
 
 The cumulative number of specific conditions found in these deceased COVID-19 cases are shown here. <br/>
-[<img src="plots/underlying_conditions.png" width="700">](/data-dashboard/README.md)
+[<img src="plots/underlying_conditions.png" width="700">](/data-misc/README.md)
 
 ## Inactive/deprecated datasets
 
