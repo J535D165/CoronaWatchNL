@@ -105,15 +105,16 @@ The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumula
 [<img src="plots/ic_nice_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
 
 ### Dashboard datasets
-The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. This folder includes an overview of the number of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water. 
+The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. This folder includes an overview of the number and age distribution of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water. 
 
 For more detail about the specific structure of the dashboard datasets, have a look at the `data-dashboard`[codebook](/data-dashboard/README.md).
 
 | Dataset | Source | Variables |
 |---|---| --- |
 | [Reported case counts in NL](data-dashboard#cases) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
-| [COVID-19 particles in sewage](data-dashboard#sewage) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count |
+| [Age distribution of reported cases in NL](data-dashboard#descriptive) | [National Dashboard](#data-collection-sources) | Date, Age group, Count |
 | [Suspected patients in NL](data-dashboard#suspects) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count |
+| [COVID-19 particles in sewage](data-dashboard#sewage) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count |
 | [Reproduction index COVID-19 virus](data-dashboard#reproduction) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
 | [Contagion estimate COVID-19 virus](data-dashboard#contagious) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
 | [Number of infected and deceased nursery home cases](data-dashboard#nursery) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
@@ -123,6 +124,7 @@ These visuals show the development of the COVID-19 disease outbreak on a nationa
 
 [<img src="plots/overview_national_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_dashboard_new.png" width="400">](/data-dashboard/README.md)
 [<img src="plots/overview_national_vs_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_vs_dashboard_new.png" width="400">](/data-dashboard/README.md)
+[<img src="plots/overview_desc_dashboard.png" width="400">](/data-dashboard/README.md)
 
 Below, the number of suspected COVID-19 patients, as registered by the GPs, are shown.
 
