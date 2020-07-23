@@ -250,5 +250,5 @@ read_csv("data-dashboard/data-descriptive/RIVM_NL_age_distribution.csv") %>%
         legend.title = element_blank()) +
   #scale_color_manual(values=c("#E69F00", "#56B4E9", "#999999")) +
   scale_y_continuous(limits=c(0, NA)) +
-  ggtitle("COVID-19 patiënten per leeftijdsgroep") +
+  ggtitle("COVID-19 patiënten per leeftijdsgroep per dag") +
   ggsave("plots/overview_desc_dashboard.png", width = 5.5, height=4)
