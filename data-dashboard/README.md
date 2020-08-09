@@ -22,11 +22,10 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 ### Contagious
 
-#### Estimates
-**Directory:** [data-dashboard/data-contagious/data-contagious_estimates](data-contagious/data-contagious_estimates) <br>
-**Daily file format:** RIVM_NL_contagious_estimate_yyyy-mm-dd.csv<br>
-**Complete file format:** [RIVM_NL_contagious_estimate.csv](data-contagious/data-contagious_estimates/RIVM_NL_contagious_estimate.csv)<br>
-**Latest file format:** [RIVM_NL_contagious_estimate_latest.csv](data-contagious/data-contagious_estimates/RIVM_NL_contagious_estimate_latest.csv)<br>
+#### Estimates (normalized)
+
+**Directory:** [data-dashboard/data-contagious](data-contagious/data-contagious_estimates) <br>
+**Complete file format:** [RIVM_NL_contagious_estimate_normalized.csv](data-contagious/RIVM_NL_contagious_estimate_normalized.csv)<br>
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
@@ -36,11 +35,10 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 **\*** This calculated value estimates how many people infected with COVID-19 per 100.000 inhabitants are contagious for others. This value is calculated by RIVM on a weekly basis.
 
-#### Count
-**Directory:** [data-dashboard/data-contagious/data-contagious_count](data-contagious/data-contagious_count) <br>
-**Daily file format:** RIVM_NL_contagious_count_yyyy-mm-dd.csv<br>
-**Complete file format:** [RIVM_NL_contagious_count.csv](data-contagious/data-contagious_count/RIVM_NL_contagious_count.csv)<br>
-**Latest file format:** [RIVM_NL_contagious_count_latest.csv](data-contagious/data-contagious_count/RIVM_NL_contagious_count_latest.csv)<br>
+#### Estimates
+
+**Directory:** [data-dashboard/data-contagious](data-contagious/data-contagious_estimates) <br>
+**Complete file format:** [RIVM_NL_contagious_estimate.csv](data-contagious/RIVM_NL_contagious_estimate.csv)<br>
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|
