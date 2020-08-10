@@ -49,7 +49,7 @@
   },
   "data": [
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Aa en Hunze",
@@ -62,20 +62,20 @@
       "ziekenhuisopnameAantalCumulatief": 1
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Assen",
       "Gemeentecode": 106,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 54,
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Borger-Odoorn",
@@ -88,7 +88,7 @@
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Coevorden",
@@ -101,7 +101,7 @@
       "ziekenhuisopnameAantalCumulatief": 13
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "De Wolden",
@@ -114,33 +114,33 @@
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Emmen",
       "Gemeentecode": 114,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 11,
       "totaalAantalCumulatief": 108,
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Hoogeveen",
       "Gemeentecode": 118,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 8,
       "totaalAantalCumulatief": 104,
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Meppel",
@@ -153,20 +153,20 @@
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Midden-Drenthe",
       "Gemeentecode": 1731,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
       "totaalAantalCumulatief": 25,
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Noordenveld",
@@ -179,7 +179,7 @@
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Tynaarlo",
@@ -192,7 +192,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Drenthe",
       "Provinciecode": 22,
       "Gemeentenaam": "Westerveld",
@@ -205,20 +205,20 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Flevoland",
       "Provinciecode": 24,
       "Gemeentenaam": "Almere",
       "Gemeentecode": 34,
       "overledenAantal": 0,
-      "totaalAantal": 4,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 32,
-      "totaalAantalCumulatief": 518,
+      "totaalAantalCumulatief": 519,
       "ziekenhuisopnameAantalCumulatief": 127
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Flevoland",
       "Provinciecode": 24,
       "Gemeentenaam": "Dronten",
@@ -231,7 +231,7 @@
       "ziekenhuisopnameAantalCumulatief": 30
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Flevoland",
       "Provinciecode": 24,
       "Gemeentenaam": "Lelystad",
@@ -240,11 +240,11 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 29,
-      "totaalAantalCumulatief": 196,
+      "totaalAantalCumulatief": 197,
       "ziekenhuisopnameAantalCumulatief": 63
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Flevoland",
       "Provinciecode": 24,
       "Gemeentenaam": "Noordoostpolder",
@@ -257,7 +257,7 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Flevoland",
       "Provinciecode": 24,
       "Gemeentenaam": "Urk",
@@ -270,7 +270,7 @@
       "ziekenhuisopnameAantalCumulatief": 23
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Flevoland",
       "Provinciecode": 24,
       "Gemeentenaam": "Zeewolde",
@@ -283,7 +283,7 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Achtkarspelen",
@@ -296,7 +296,7 @@
       "ziekenhuisopnameAantalCumulatief": 0
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Ameland",
@@ -309,7 +309,7 @@
       "ziekenhuisopnameAantalCumulatief": 0
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Dantumadiel",
@@ -322,7 +322,7 @@
       "ziekenhuisopnameAantalCumulatief": 2
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "De Fryske Marren",
@@ -335,7 +335,7 @@
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Harlingen",
@@ -348,7 +348,7 @@
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Heerenveen",
@@ -361,33 +361,33 @@
       "ziekenhuisopnameAantalCumulatief": 13
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Leeuwarden",
       "Gemeentecode": 80,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 6,
-      "totaalAantalCumulatief": 73,
+      "totaalAantalCumulatief": 74,
       "ziekenhuisopnameAantalCumulatief": 33
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Noardeast-Frysl\u00e2n",
       "Gemeentecode": 1970,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 12,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 4,
-      "totaalAantalCumulatief": 36,
+      "totaalAantalCumulatief": 48,
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Ooststellingwerf",
@@ -400,7 +400,7 @@
       "ziekenhuisopnameAantalCumulatief": 3
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Opsterland",
@@ -413,7 +413,7 @@
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Schiermonnikoog",
@@ -426,7 +426,7 @@
       "ziekenhuisopnameAantalCumulatief": 0
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Smallingerland",
@@ -439,20 +439,20 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "S\u00fadwest-Frysl\u00e2n",
       "Gemeentecode": 1900,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 6,
-      "totaalAantalCumulatief": 107,
+      "totaalAantalCumulatief": 108,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Terschelling",
@@ -465,7 +465,7 @@
       "ziekenhuisopnameAantalCumulatief": 0
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Tytsjerksteradiel",
@@ -478,7 +478,7 @@
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Vlieland",
@@ -491,7 +491,7 @@
       "ziekenhuisopnameAantalCumulatief": 0
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Waadhoeke",
@@ -504,7 +504,7 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Friesland",
       "Provinciecode": 21,
       "Gemeentenaam": "Weststellingwerf",
@@ -517,72 +517,72 @@
       "ziekenhuisopnameAantalCumulatief": 3
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Aalten",
       "Gemeentecode": 197,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 7,
       "totaalAantalCumulatief": 61,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Apeldoorn",
       "Gemeentecode": 200,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 5,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 50,
-      "totaalAantalCumulatief": 481,
+      "totaalAantalCumulatief": 486,
       "ziekenhuisopnameAantalCumulatief": 97
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Arnhem",
       "Gemeentecode": 202,
       "overledenAantal": 0,
-      "totaalAantal": 6,
+      "totaalAantal": -4,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 32,
-      "totaalAantalCumulatief": 447,
+      "totaalAantalCumulatief": 443,
       "ziekenhuisopnameAantalCumulatief": 67
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Barneveld",
       "Gemeentecode": 203,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 6,
-      "totaalAantalCumulatief": 145,
+      "totaalAantalCumulatief": 146,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Berg en Dal",
       "Gemeentecode": 1945,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 16,
-      "totaalAantalCumulatief": 187,
+      "totaalAantalCumulatief": 188,
       "ziekenhuisopnameAantalCumulatief": 29
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Berkelland",
@@ -595,7 +595,7 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Beuningen",
@@ -608,7 +608,7 @@
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Bronckhorst",
@@ -621,20 +621,20 @@
       "ziekenhuisopnameAantalCumulatief": 17
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Brummen",
       "Gemeentecode": 213,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 6,
-      "totaalAantalCumulatief": 42,
+      "totaalAantalCumulatief": 44,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Buren",
@@ -647,20 +647,20 @@
       "ziekenhuisopnameAantalCumulatief": 17
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Culemborg",
       "Gemeentecode": 216,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 7,
       "totaalAantalCumulatief": 88,
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Doesburg",
@@ -673,20 +673,20 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Doetinchem",
       "Gemeentecode": 222,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 15,
-      "totaalAantalCumulatief": 106,
+      "totaalAantalCumulatief": 109,
       "ziekenhuisopnameAantalCumulatief": 26
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Druten",
@@ -699,7 +699,7 @@
       "ziekenhuisopnameAantalCumulatief": 25
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Duiven",
@@ -712,20 +712,20 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Ede",
       "Gemeentecode": 228,
       "overledenAantal": 0,
-      "totaalAantal": 5,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 20,
-      "totaalAantalCumulatief": 247,
+      "totaalAantalCumulatief": 248,
       "ziekenhuisopnameAantalCumulatief": 53
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Elburg",
@@ -738,7 +738,7 @@
       "ziekenhuisopnameAantalCumulatief": 28
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Epe",
@@ -751,20 +751,20 @@
       "ziekenhuisopnameAantalCumulatief": 48
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Ermelo",
       "Gemeentecode": 233,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 23,
-      "totaalAantalCumulatief": 150,
+      "totaalAantalCumulatief": 151,
       "ziekenhuisopnameAantalCumulatief": 33
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Harderwijk",
@@ -777,7 +777,7 @@
       "ziekenhuisopnameAantalCumulatief": 42
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Hattem",
@@ -790,7 +790,7 @@
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Heerde",
@@ -803,20 +803,20 @@
       "ziekenhuisopnameAantalCumulatief": 55
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Heumen",
       "Gemeentecode": 252,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 9,
       "totaalAantalCumulatief": 77,
       "ziekenhuisopnameAantalCumulatief": 17
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Lingewaard",
@@ -829,20 +829,20 @@
       "ziekenhuisopnameAantalCumulatief": 31
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Lochem",
       "Gemeentecode": 262,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 15,
-      "totaalAantalCumulatief": 98,
+      "totaalAantalCumulatief": 100,
       "ziekenhuisopnameAantalCumulatief": 15
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Maasdriel",
@@ -855,7 +855,7 @@
       "ziekenhuisopnameAantalCumulatief": 15
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Montferland",
@@ -868,7 +868,7 @@
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Neder-Betuwe",
@@ -881,7 +881,7 @@
       "ziekenhuisopnameAantalCumulatief": 37
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Nijkerk",
@@ -894,20 +894,20 @@
       "ziekenhuisopnameAantalCumulatief": 22
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Nijmegen",
       "Gemeentecode": 268,
       "overledenAantal": 0,
-      "totaalAantal": 5,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 70,
-      "totaalAantalCumulatief": 706,
+      "totaalAantalCumulatief": 708,
       "ziekenhuisopnameAantalCumulatief": 128
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Nunspeet",
@@ -920,7 +920,7 @@
       "ziekenhuisopnameAantalCumulatief": 55
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Oldebroek",
@@ -933,7 +933,7 @@
       "ziekenhuisopnameAantalCumulatief": 40
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Oost Gelre",
@@ -946,7 +946,7 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Oude IJsselstreek",
@@ -959,7 +959,7 @@
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Overbetuwe",
@@ -972,33 +972,33 @@
       "ziekenhuisopnameAantalCumulatief": 55
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Putten",
       "Gemeentecode": 273,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
-      "totaalAantalCumulatief": 37,
+      "totaalAantalCumulatief": 40,
       "ziekenhuisopnameAantalCumulatief": 10
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Renkum",
       "Gemeentecode": 274,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 7,
       "totaalAantalCumulatief": 83,
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Rheden",
@@ -1011,7 +1011,7 @@
       "ziekenhuisopnameAantalCumulatief": 34
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Rozendaal",
@@ -1024,33 +1024,33 @@
       "ziekenhuisopnameAantalCumulatief": 1
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Scherpenzeel",
       "Gemeentecode": 279,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 34,
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Tiel",
       "Gemeentecode": 281,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 18,
       "totaalAantalCumulatief": 154,
       "ziekenhuisopnameAantalCumulatief": 42
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Voorst",
@@ -1063,7 +1063,7 @@
       "ziekenhuisopnameAantalCumulatief": 17
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Wageningen",
@@ -1072,11 +1072,11 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 9,
-      "totaalAantalCumulatief": 58,
+      "totaalAantalCumulatief": 59,
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "West Betuwe",
@@ -1089,7 +1089,7 @@
       "ziekenhuisopnameAantalCumulatief": 43
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "West Maas en Waal",
@@ -1102,7 +1102,7 @@
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Westervoort",
@@ -1111,24 +1111,24 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 6,
-      "totaalAantalCumulatief": 44,
+      "totaalAantalCumulatief": 45,
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Wijchen",
       "Gemeentecode": 296,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
-      "totaalAantalCumulatief": 152,
+      "totaalAantalCumulatief": 153,
       "ziekenhuisopnameAantalCumulatief": 44
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Winterswijk",
@@ -1141,7 +1141,7 @@
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Zaltbommel",
@@ -1154,7 +1154,7 @@
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Zevenaar",
@@ -1167,7 +1167,7 @@
       "ziekenhuisopnameAantalCumulatief": 45
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Gelderland",
       "Provinciecode": 25,
       "Gemeentenaam": "Zutphen",
@@ -1180,7 +1180,7 @@
       "ziekenhuisopnameAantalCumulatief": 30
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Appingedam",
@@ -1193,33 +1193,33 @@
       "ziekenhuisopnameAantalCumulatief": 3
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Delfzijl",
       "Gemeentecode": 10,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
-      "totaalAantalCumulatief": 19,
+      "totaalAantalCumulatief": 20,
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Groningen",
       "Gemeentecode": 14,
       "overledenAantal": 0,
-      "totaalAantal": 3,
+      "totaalAantal": 4,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 3,
-      "totaalAantalCumulatief": 224,
+      "totaalAantalCumulatief": 228,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Het Hogeland",
@@ -1232,7 +1232,7 @@
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Loppersum",
@@ -1245,7 +1245,7 @@
       "ziekenhuisopnameAantalCumulatief": 0
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Midden-Groningen",
@@ -1258,59 +1258,59 @@
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Oldambt",
       "Gemeentecode": 1895,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 16,
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Pekela",
       "Gemeentecode": 765,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
       "totaalAantalCumulatief": 6,
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Stadskanaal",
       "Gemeentecode": 37,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
-      "totaalAantalCumulatief": 9,
+      "totaalAantalCumulatief": 10,
       "ziekenhuisopnameAantalCumulatief": 2
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Veendam",
       "Gemeentecode": 47,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
-      "totaalAantalCumulatief": 8,
+      "totaalAantalCumulatief": 11,
       "ziekenhuisopnameAantalCumulatief": 2
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Westerkwartier",
@@ -1323,20 +1323,20 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Groningen",
       "Provinciecode": 20,
       "Gemeentenaam": "Westerwolde",
       "Gemeentecode": 1950,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
       "totaalAantalCumulatief": 8,
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Beek",
@@ -1349,20 +1349,20 @@
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Beekdaelen",
       "Gemeentecode": 1954,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 23,
       "totaalAantalCumulatief": 173,
       "ziekenhuisopnameAantalCumulatief": 52
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Beesel",
@@ -1375,7 +1375,7 @@
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Bergen (L.)",
@@ -1388,7 +1388,7 @@
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Brunssum",
@@ -1401,7 +1401,7 @@
       "ziekenhuisopnameAantalCumulatief": 44
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Echt-Susteren",
@@ -1414,7 +1414,7 @@
       "ziekenhuisopnameAantalCumulatief": 39
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Eijsden-Margraten",
@@ -1427,7 +1427,7 @@
       "ziekenhuisopnameAantalCumulatief": 54
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Gennep",
@@ -1440,7 +1440,7 @@
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Gulpen-Wittem",
@@ -1453,46 +1453,46 @@
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Heerlen",
       "Gemeentecode": 917,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 54,
       "totaalAantalCumulatief": 394,
       "ziekenhuisopnameAantalCumulatief": 125
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Horst aan de Maas",
       "Gemeentecode": 1507,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 24,
-      "totaalAantalCumulatief": 140,
+      "totaalAantalCumulatief": 142,
       "ziekenhuisopnameAantalCumulatief": 41
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Kerkrade",
       "Gemeentecode": 928,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 35,
       "totaalAantalCumulatief": 207,
       "ziekenhuisopnameAantalCumulatief": 64
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Landgraaf",
@@ -1505,20 +1505,20 @@
       "ziekenhuisopnameAantalCumulatief": 52
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Leudal",
       "Gemeentecode": 1640,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 33,
       "totaalAantalCumulatief": 193,
       "ziekenhuisopnameAantalCumulatief": 53
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Maasgouw",
@@ -1531,20 +1531,20 @@
       "ziekenhuisopnameAantalCumulatief": 27
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Maastricht",
       "Gemeentecode": 935,
       "overledenAantal": 0,
-      "totaalAantal": 3,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 140,
-      "totaalAantalCumulatief": 927,
+      "totaalAantalCumulatief": 929,
       "ziekenhuisopnameAantalCumulatief": 186
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Meerssen",
@@ -1557,20 +1557,20 @@
       "ziekenhuisopnameAantalCumulatief": 22
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Mook en Middelaar",
       "Gemeentecode": 944,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 5,
-      "totaalAantalCumulatief": 40,
+      "totaalAantalCumulatief": 41,
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Nederweert",
@@ -1583,7 +1583,7 @@
       "ziekenhuisopnameAantalCumulatief": 31
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Peel en Maas",
@@ -1596,20 +1596,20 @@
       "ziekenhuisopnameAantalCumulatief": 144
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Roerdalen",
       "Gemeentecode": 1669,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 8,
-      "totaalAantalCumulatief": 50,
+      "totaalAantalCumulatief": 51,
       "ziekenhuisopnameAantalCumulatief": 27
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Roermond",
@@ -1622,7 +1622,7 @@
       "ziekenhuisopnameAantalCumulatief": 59
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Simpelveld",
@@ -1635,20 +1635,20 @@
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Sittard-Geleen",
       "Gemeentecode": 1883,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 64,
-      "totaalAantalCumulatief": 420,
+      "totaalAantalCumulatief": 421,
       "ziekenhuisopnameAantalCumulatief": 115
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Stein",
@@ -1661,7 +1661,7 @@
       "ziekenhuisopnameAantalCumulatief": 43
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Vaals",
@@ -1674,7 +1674,7 @@
       "ziekenhuisopnameAantalCumulatief": 10
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Valkenburg aan de Geul",
@@ -1687,33 +1687,33 @@
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Venlo",
       "Gemeentecode": 983,
       "overledenAantal": 0,
-      "totaalAantal": 6,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 63,
-      "totaalAantalCumulatief": 329,
+      "totaalAantalCumulatief": 332,
       "ziekenhuisopnameAantalCumulatief": 129
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Venray",
       "Gemeentecode": 984,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 17,
-      "totaalAantalCumulatief": 131,
+      "totaalAantalCumulatief": 133,
       "ziekenhuisopnameAantalCumulatief": 37
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Voerendaal",
@@ -1726,7 +1726,7 @@
       "ziekenhuisopnameAantalCumulatief": 17
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Limburg",
       "Provinciecode": 31,
       "Gemeentenaam": "Weert",
@@ -1739,33 +1739,33 @@
       "ziekenhuisopnameAantalCumulatief": 67
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "'s-Hertogenbosch",
       "Gemeentecode": 796,
       "overledenAantal": 0,
-      "totaalAantal": 4,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 78,
-      "totaalAantalCumulatief": 559,
+      "totaalAantalCumulatief": 560,
       "ziekenhuisopnameAantalCumulatief": 128
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Alphen-Chaam",
       "Gemeentecode": 1723,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 5,
       "totaalAantalCumulatief": 63,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Altena",
@@ -1778,7 +1778,7 @@
       "ziekenhuisopnameAantalCumulatief": 32
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Asten",
@@ -1791,7 +1791,7 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Baarle-Nassau",
@@ -1804,33 +1804,33 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Bergeijk",
       "Gemeentecode": 1724,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 5,
       "totaalAantalCumulatief": 59,
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Bergen op Zoom",
       "Gemeentecode": 748,
       "overledenAantal": 0,
-      "totaalAantal": 41,
+      "totaalAantal": 9,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
-      "totaalAantalCumulatief": 324,
+      "totaalAantalCumulatief": 333,
       "ziekenhuisopnameAantalCumulatief": 26
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Bernheze",
@@ -1843,7 +1843,7 @@
       "ziekenhuisopnameAantalCumulatief": 95
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Best",
@@ -1856,7 +1856,7 @@
       "ziekenhuisopnameAantalCumulatief": 31
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Bladel",
@@ -1869,7 +1869,7 @@
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Boekel",
@@ -1882,7 +1882,7 @@
       "ziekenhuisopnameAantalCumulatief": 34
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Boxmeer",
@@ -1895,33 +1895,33 @@
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Boxtel",
       "Gemeentecode": 757,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 26,
       "totaalAantalCumulatief": 135,
       "ziekenhuisopnameAantalCumulatief": 24
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Breda",
       "Gemeentecode": 758,
       "overledenAantal": 0,
-      "totaalAantal": 4,
+      "totaalAantal": 18,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 64,
-      "totaalAantalCumulatief": 715,
+      "totaalAantalCumulatief": 733,
       "ziekenhuisopnameAantalCumulatief": 146
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Cranendonck",
@@ -1934,7 +1934,7 @@
       "ziekenhuisopnameAantalCumulatief": 63
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Cuijk",
@@ -1947,7 +1947,7 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Deurne",
@@ -1956,37 +1956,37 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 24,
-      "totaalAantalCumulatief": 195,
+      "totaalAantalCumulatief": 196,
       "ziekenhuisopnameAantalCumulatief": 55
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Dongen",
       "Gemeentecode": 766,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
       "totaalAantalCumulatief": 91,
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Drimmelen",
       "Gemeentecode": 1719,
       "overledenAantal": 0,
-      "totaalAantal": 1,
-      "ziekenhuisopnameAantal": 1,
+      "totaalAantal": 2,
+      "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 8,
-      "totaalAantalCumulatief": 74,
+      "totaalAantalCumulatief": 76,
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Eersel",
@@ -1995,24 +1995,24 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 10,
-      "totaalAantalCumulatief": 70,
+      "totaalAantalCumulatief": 71,
       "ziekenhuisopnameAantalCumulatief": 27
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Eindhoven",
       "Gemeentecode": 772,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 8,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 86,
-      "totaalAantalCumulatief": 614,
+      "totaalAantalCumulatief": 622,
       "ziekenhuisopnameAantalCumulatief": 182
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Etten-Leur",
@@ -2025,7 +2025,7 @@
       "ziekenhuisopnameAantalCumulatief": 41
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Geertruidenberg",
@@ -2038,20 +2038,20 @@
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Geldrop-Mierlo",
       "Gemeentecode": 1771,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 16,
-      "totaalAantalCumulatief": 117,
+      "totaalAantalCumulatief": 120,
       "ziekenhuisopnameAantalCumulatief": 33
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Gemert-Bakel",
@@ -2064,7 +2064,7 @@
       "ziekenhuisopnameAantalCumulatief": 79
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Gilze en Rijen",
@@ -2077,7 +2077,7 @@
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Goirle",
@@ -2090,7 +2090,7 @@
       "ziekenhuisopnameAantalCumulatief": 32
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Grave",
@@ -2103,7 +2103,7 @@
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Haaren",
@@ -2116,20 +2116,20 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Halderberge",
       "Gemeentecode": 1655,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 7,
-      "totaalAantalCumulatief": 69,
+      "totaalAantalCumulatief": 71,
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Heeze-Leende",
@@ -2142,33 +2142,33 @@
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Helmond",
       "Gemeentecode": 794,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 7,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 43,
-      "totaalAantalCumulatief": 452,
+      "totaalAantalCumulatief": 459,
       "ziekenhuisopnameAantalCumulatief": 115
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Heusden",
       "Gemeentecode": 797,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 22,
       "totaalAantalCumulatief": 167,
       "ziekenhuisopnameAantalCumulatief": 45
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Hilvarenbeek",
@@ -2181,7 +2181,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Laarbeek",
@@ -2194,20 +2194,20 @@
       "ziekenhuisopnameAantalCumulatief": 41
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Landerd",
       "Gemeentecode": 1685,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 21,
       "totaalAantalCumulatief": 148,
       "ziekenhuisopnameAantalCumulatief": 39
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Loon op Zand",
@@ -2220,20 +2220,20 @@
       "ziekenhuisopnameAantalCumulatief": 25
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Meierijstad",
       "Gemeentecode": 1948,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 131,
-      "totaalAantalCumulatief": 563,
+      "totaalAantalCumulatief": 564,
       "ziekenhuisopnameAantalCumulatief": 211
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Mill en Sint Hubert",
@@ -2246,7 +2246,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Moerdijk",
@@ -2259,7 +2259,7 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Nuenen, Gerwen en Nederwetten",
@@ -2272,7 +2272,7 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Oirschot",
@@ -2285,33 +2285,33 @@
       "ziekenhuisopnameAantalCumulatief": 13
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Oisterwijk",
       "Gemeentecode": 824,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 11,
       "totaalAantalCumulatief": 83,
       "ziekenhuisopnameAantalCumulatief": 23
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Oosterhout",
       "Gemeentecode": 826,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 17,
-      "totaalAantalCumulatief": 165,
+      "totaalAantalCumulatief": 168,
       "ziekenhuisopnameAantalCumulatief": 48
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Oss",
@@ -2320,11 +2320,11 @@
       "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 88,
-      "totaalAantalCumulatief": 506,
+      "totaalAantalCumulatief": 508,
       "ziekenhuisopnameAantalCumulatief": 165
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Reusel-De Mierden",
@@ -2337,20 +2337,20 @@
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Roosendaal",
       "Gemeentecode": 1674,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 22,
-      "totaalAantalCumulatief": 282,
+      "totaalAantalCumulatief": 284,
       "ziekenhuisopnameAantalCumulatief": 29
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Rucphen",
@@ -2363,7 +2363,7 @@
       "ziekenhuisopnameAantalCumulatief": 10
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Sint Anthonis",
@@ -2376,7 +2376,7 @@
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Sint-Michielsgestel",
@@ -2389,7 +2389,7 @@
       "ziekenhuisopnameAantalCumulatief": 36
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Someren",
@@ -2402,7 +2402,7 @@
       "ziekenhuisopnameAantalCumulatief": 33
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Son en Breugel",
@@ -2415,46 +2415,46 @@
       "ziekenhuisopnameAantalCumulatief": 31
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Steenbergen",
       "Gemeentecode": 851,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
       "totaalAantalCumulatief": 101,
       "ziekenhuisopnameAantalCumulatief": 13
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Tilburg",
       "Gemeentecode": 855,
       "overledenAantal": 0,
-      "totaalAantal": 9,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 163,
-      "totaalAantalCumulatief": 912,
+      "totaalAantalCumulatief": 915,
       "ziekenhuisopnameAantalCumulatief": 251
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Uden",
       "Gemeentecode": 856,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 63,
       "totaalAantalCumulatief": 269,
       "ziekenhuisopnameAantalCumulatief": 115
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Valkenswaard",
@@ -2467,33 +2467,33 @@
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Veldhoven",
       "Gemeentecode": 861,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 16,
-      "totaalAantalCumulatief": 141,
+      "totaalAantalCumulatief": 142,
       "ziekenhuisopnameAantalCumulatief": 31
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Vught",
       "Gemeentecode": 865,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 17,
       "totaalAantalCumulatief": 110,
       "ziekenhuisopnameAantalCumulatief": 43
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Waalre",
@@ -2506,7 +2506,7 @@
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Waalwijk",
@@ -2515,11 +2515,11 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 37,
-      "totaalAantalCumulatief": 201,
+      "totaalAantalCumulatief": 202,
       "ziekenhuisopnameAantalCumulatief": 36
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Woensdrecht",
@@ -2532,7 +2532,7 @@
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Brabant",
       "Provinciecode": 30,
       "Gemeentenaam": "Zundert",
@@ -2541,11 +2541,11 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 11,
-      "totaalAantalCumulatief": 115,
+      "totaalAantalCumulatief": 116,
       "ziekenhuisopnameAantalCumulatief": 24
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Aalsmeer",
@@ -2558,85 +2558,85 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Alkmaar",
       "Gemeentecode": 361,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 31,
-      "totaalAantalCumulatief": 271,
+      "totaalAantalCumulatief": 272,
       "ziekenhuisopnameAantalCumulatief": 54
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Amstelveen",
       "Gemeentecode": 362,
       "overledenAantal": 0,
-      "totaalAantal": 3,
+      "totaalAantal": 6,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 35,
-      "totaalAantalCumulatief": 383,
+      "totaalAantalCumulatief": 389,
       "ziekenhuisopnameAantalCumulatief": 58
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Amsterdam",
       "Gemeentecode": 363,
       "overledenAantal": 0,
-      "totaalAantal": 82,
+      "totaalAantal": 177,
       "ziekenhuisopnameAantal": 3,
       "overledenAantalCumulatief": 282,
-      "totaalAantalCumulatief": 3912,
-      "ziekenhuisopnameAantalCumulatief": 642
+      "totaalAantalCumulatief": 4089,
+      "ziekenhuisopnameAantalCumulatief": 645
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Beemster",
       "Gemeentecode": 370,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 1,
-      "totaalAantalCumulatief": 21,
+      "totaalAantalCumulatief": 23,
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Bergen (NH.)",
       "Gemeentecode": 373,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 4,
-      "totaalAantalCumulatief": 102,
+      "totaalAantalCumulatief": 103,
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Beverwijk",
       "Gemeentecode": 375,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 10,
       "totaalAantalCumulatief": 88,
       "ziekenhuisopnameAantalCumulatief": 15
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Blaricum",
@@ -2649,20 +2649,20 @@
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Bloemendaal",
       "Gemeentecode": 377,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 5,
       "totaalAantalCumulatief": 59,
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Castricum",
@@ -2675,7 +2675,7 @@
       "ziekenhuisopnameAantalCumulatief": 15
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Den Helder",
@@ -2688,20 +2688,20 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Diemen",
       "Gemeentecode": 384,
       "overledenAantal": 0,
-      "totaalAantal": 3,
+      "totaalAantal": 8,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
-      "totaalAantalCumulatief": 126,
+      "totaalAantalCumulatief": 134,
       "ziekenhuisopnameAantalCumulatief": 17
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Drechterland",
@@ -2714,20 +2714,20 @@
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Edam-Volendam",
       "Gemeentecode": 385,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 3,
       "totaalAantalCumulatief": 129,
       "ziekenhuisopnameAantalCumulatief": 25
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Enkhuizen",
@@ -2740,46 +2740,46 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Gooise Meren",
       "Gemeentecode": 1942,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 9,
       "totaalAantalCumulatief": 134,
       "ziekenhuisopnameAantalCumulatief": 23
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Haarlem",
       "Gemeentecode": 392,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 58,
-      "totaalAantalCumulatief": 358,
+      "totaalAantalCumulatief": 361,
       "ziekenhuisopnameAantalCumulatief": 61
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Haarlemmermeer",
       "Gemeentecode": 394,
       "overledenAantal": 0,
-      "totaalAantal": 4,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 28,
-      "totaalAantalCumulatief": 385,
+      "totaalAantalCumulatief": 387,
       "ziekenhuisopnameAantalCumulatief": 69
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Heemskerk",
@@ -2792,7 +2792,7 @@
       "ziekenhuisopnameAantalCumulatief": 28
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Heemstede",
@@ -2805,7 +2805,7 @@
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Heerhugowaard",
@@ -2818,7 +2818,7 @@
       "ziekenhuisopnameAantalCumulatief": 27
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Heiloo",
@@ -2831,7 +2831,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Hilversum",
@@ -2840,11 +2840,11 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 24,
-      "totaalAantalCumulatief": 256,
+      "totaalAantalCumulatief": 257,
       "ziekenhuisopnameAantalCumulatief": 33
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Hollands Kroon",
@@ -2857,7 +2857,7 @@
       "ziekenhuisopnameAantalCumulatief": 26
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Hoorn",
@@ -2870,7 +2870,7 @@
       "ziekenhuisopnameAantalCumulatief": 35
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Huizen",
@@ -2883,7 +2883,7 @@
       "ziekenhuisopnameAantalCumulatief": 22
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Koggenland",
@@ -2896,20 +2896,20 @@
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Landsmeer",
       "Gemeentecode": 415,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 3,
       "totaalAantalCumulatief": 25,
       "ziekenhuisopnameAantalCumulatief": 3
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Langedijk",
@@ -2922,7 +2922,7 @@
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Laren",
@@ -2931,11 +2931,11 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
-      "totaalAantalCumulatief": 31,
+      "totaalAantalCumulatief": 32,
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Medemblik",
@@ -2944,24 +2944,24 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 6,
-      "totaalAantalCumulatief": 76,
+      "totaalAantalCumulatief": 77,
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Oostzaan",
       "Gemeentecode": 431,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 33,
       "ziekenhuisopnameAantalCumulatief": 10
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Opmeer",
@@ -2974,33 +2974,33 @@
       "ziekenhuisopnameAantalCumulatief": 1
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Ouder-Amstel",
       "Gemeentecode": 437,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
-      "totaalAantalCumulatief": 49,
+      "totaalAantalCumulatief": 51,
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Purmerend",
       "Gemeentecode": 439,
       "overledenAantal": 0,
-      "totaalAantal": 7,
-      "ziekenhuisopnameAantal": 0,
+      "totaalAantal": 1,
+      "ziekenhuisopnameAantal": 1,
       "overledenAantalCumulatief": 35,
-      "totaalAantalCumulatief": 252,
-      "ziekenhuisopnameAantalCumulatief": 66
+      "totaalAantalCumulatief": 253,
+      "ziekenhuisopnameAantalCumulatief": 67
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Schagen",
@@ -3013,7 +3013,7 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Stede Broec",
@@ -3026,7 +3026,7 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Texel",
@@ -3039,7 +3039,7 @@
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Uitgeest",
@@ -3052,33 +3052,33 @@
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Uithoorn",
       "Gemeentecode": 451,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
-      "totaalAantalCumulatief": 65,
+      "totaalAantalCumulatief": 66,
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Velsen",
       "Gemeentecode": 453,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 39,
-      "totaalAantalCumulatief": 296,
+      "totaalAantalCumulatief": 297,
       "ziekenhuisopnameAantalCumulatief": 32
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Waterland",
@@ -3087,24 +3087,24 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 4,
-      "totaalAantalCumulatief": 35,
+      "totaalAantalCumulatief": 36,
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Weesp",
       "Gemeentecode": 457,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
       "totaalAantalCumulatief": 89,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Wijdemeren",
@@ -3117,7 +3117,7 @@
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Wormerland",
@@ -3130,20 +3130,20 @@
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Zaanstad",
       "Gemeentecode": 479,
       "overledenAantal": 0,
-      "totaalAantal": 8,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 48,
       "totaalAantalCumulatief": 511,
       "ziekenhuisopnameAantalCumulatief": 121
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Noord-Holland",
       "Provinciecode": 27,
       "Gemeentenaam": "Zandvoort",
@@ -3152,11 +3152,11 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 8,
-      "totaalAantalCumulatief": 45,
+      "totaalAantalCumulatief": 46,
       "ziekenhuisopnameAantalCumulatief": 10
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Almelo",
@@ -3169,7 +3169,7 @@
       "ziekenhuisopnameAantalCumulatief": 23
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Borne",
@@ -3182,7 +3182,7 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Dalfsen",
@@ -3195,20 +3195,20 @@
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Deventer",
       "Gemeentecode": 150,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 4,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 33,
-      "totaalAantalCumulatief": 360,
+      "totaalAantalCumulatief": 364,
       "ziekenhuisopnameAantalCumulatief": 47
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Dinkelland",
@@ -3221,20 +3221,20 @@
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Enschede",
       "Gemeentecode": 153,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 25,
-      "totaalAantalCumulatief": 271,
+      "totaalAantalCumulatief": 272,
       "ziekenhuisopnameAantalCumulatief": 54
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Haaksbergen",
@@ -3247,7 +3247,7 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Hardenberg",
@@ -3260,7 +3260,7 @@
       "ziekenhuisopnameAantalCumulatief": 23
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Hellendoorn",
@@ -3273,7 +3273,7 @@
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Hengelo",
@@ -3286,7 +3286,7 @@
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Hof van Twente",
@@ -3299,7 +3299,7 @@
       "ziekenhuisopnameAantalCumulatief": 15
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Kampen",
@@ -3312,7 +3312,7 @@
       "ziekenhuisopnameAantalCumulatief": 59
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Losser",
@@ -3325,7 +3325,7 @@
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Oldenzaal",
@@ -3338,7 +3338,7 @@
       "ziekenhuisopnameAantalCumulatief": 13
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Olst-Wijhe",
@@ -3351,7 +3351,7 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Ommen",
@@ -3364,7 +3364,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Raalte",
@@ -3377,7 +3377,7 @@
       "ziekenhuisopnameAantalCumulatief": 24
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Rijssen-Holten",
@@ -3390,20 +3390,20 @@
       "ziekenhuisopnameAantalCumulatief": 29
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Staphorst",
       "Gemeentecode": 180,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 4,
-      "totaalAantalCumulatief": 61,
+      "totaalAantalCumulatief": 62,
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Steenwijkerland",
@@ -3416,7 +3416,7 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Tubbergen",
@@ -3429,7 +3429,7 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Twenterand",
@@ -3442,7 +3442,7 @@
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Wierden",
@@ -3455,7 +3455,7 @@
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Zwartewaterland",
@@ -3468,33 +3468,33 @@
       "ziekenhuisopnameAantalCumulatief": 35
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Overijssel",
       "Provinciecode": 23,
       "Gemeentenaam": "Zwolle",
       "Gemeentecode": 193,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 46,
-      "totaalAantalCumulatief": 370,
+      "totaalAantalCumulatief": 372,
       "ziekenhuisopnameAantalCumulatief": 53
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Amersfoort",
       "Gemeentecode": 307,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 4,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 23,
-      "totaalAantalCumulatief": 284,
+      "totaalAantalCumulatief": 288,
       "ziekenhuisopnameAantalCumulatief": 62
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Baarn",
@@ -3507,7 +3507,7 @@
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Bunnik",
@@ -3520,20 +3520,20 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Bunschoten",
       "Gemeentecode": 313,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 7,
       "totaalAantalCumulatief": 74,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "De Bilt",
@@ -3546,20 +3546,20 @@
       "ziekenhuisopnameAantalCumulatief": 28
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "De Ronde Venen",
       "Gemeentecode": 736,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
-      "totaalAantalCumulatief": 116,
+      "totaalAantalCumulatief": 117,
       "ziekenhuisopnameAantalCumulatief": 39
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Eemnes",
@@ -3572,33 +3572,33 @@
       "ziekenhuisopnameAantalCumulatief": 2
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Houten",
       "Gemeentecode": 321,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 14,
       "totaalAantalCumulatief": 162,
       "ziekenhuisopnameAantalCumulatief": 24
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "IJsselstein",
       "Gemeentecode": 353,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 4,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 35,
-      "totaalAantalCumulatief": 167,
+      "totaalAantalCumulatief": 171,
       "ziekenhuisopnameAantalCumulatief": 36
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Leusden",
@@ -3611,7 +3611,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Lopik",
@@ -3624,7 +3624,7 @@
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Montfoort",
@@ -3637,33 +3637,33 @@
       "ziekenhuisopnameAantalCumulatief": 13
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Nieuwegein",
       "Gemeentecode": 356,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 14,
-      "totaalAantalCumulatief": 192,
+      "totaalAantalCumulatief": 193,
       "ziekenhuisopnameAantalCumulatief": 45
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Oudewater",
       "Gemeentecode": 589,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 9,
       "totaalAantalCumulatief": 64,
       "ziekenhuisopnameAantalCumulatief": 26
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Renswoude",
@@ -3676,7 +3676,7 @@
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Rhenen",
@@ -3689,46 +3689,46 @@
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Soest",
       "Gemeentecode": 342,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 13,
       "totaalAantalCumulatief": 99,
       "ziekenhuisopnameAantalCumulatief": 24
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Stichtse Vecht",
       "Gemeentecode": 1904,
       "overledenAantal": 0,
-      "totaalAantal": 1,
-      "ziekenhuisopnameAantal": 0,
+      "totaalAantal": 3,
+      "ziekenhuisopnameAantal": 1,
       "overledenAantalCumulatief": 14,
-      "totaalAantalCumulatief": 152,
-      "ziekenhuisopnameAantalCumulatief": 34
+      "totaalAantalCumulatief": 155,
+      "ziekenhuisopnameAantalCumulatief": 35
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Utrecht",
       "Gemeentecode": 344,
       "overledenAantal": 0,
-      "totaalAantal": 20,
+      "totaalAantal": 16,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 118,
-      "totaalAantalCumulatief": 1641,
+      "totaalAantalCumulatief": 1657,
       "ziekenhuisopnameAantalCumulatief": 271
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Utrechtse Heuvelrug",
@@ -3741,7 +3741,7 @@
       "ziekenhuisopnameAantalCumulatief": 28
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Veenendaal",
@@ -3754,7 +3754,7 @@
       "ziekenhuisopnameAantalCumulatief": 47
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Vijfheerenlanden",
@@ -3763,24 +3763,24 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 36,
-      "totaalAantalCumulatief": 283,
+      "totaalAantalCumulatief": 284,
       "ziekenhuisopnameAantalCumulatief": 34
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Wijk bij Duurstede",
       "Gemeentecode": 352,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 1,
-      "totaalAantalCumulatief": 43,
+      "totaalAantalCumulatief": 44,
       "ziekenhuisopnameAantalCumulatief": 10
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Woerden",
@@ -3793,20 +3793,20 @@
       "ziekenhuisopnameAantalCumulatief": 49
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Woudenberg",
       "Gemeentecode": 351,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 34,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Utrecht",
       "Provinciecode": 26,
       "Gemeentenaam": "Zeist",
@@ -3815,11 +3815,11 @@
       "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 24,
-      "totaalAantalCumulatief": 233,
+      "totaalAantalCumulatief": 235,
       "ziekenhuisopnameAantalCumulatief": 37
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Borsele",
@@ -3832,20 +3832,20 @@
       "ziekenhuisopnameAantalCumulatief": 5
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Goes",
       "Gemeentecode": 664,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 11,
       "totaalAantalCumulatief": 151,
       "ziekenhuisopnameAantalCumulatief": 12
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Hulst",
@@ -3858,7 +3858,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Kapelle",
@@ -3871,20 +3871,20 @@
       "ziekenhuisopnameAantalCumulatief": 3
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Middelburg",
       "Gemeentecode": 687,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 10,
       "totaalAantalCumulatief": 88,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Noord-Beveland",
@@ -3897,7 +3897,7 @@
       "ziekenhuisopnameAantalCumulatief": 1
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Reimerswaal",
@@ -3910,20 +3910,20 @@
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Schouwen-Duiveland",
       "Gemeentecode": 1676,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 9,
       "totaalAantalCumulatief": 99,
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Sluis",
@@ -3936,7 +3936,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Terneuzen",
@@ -3949,7 +3949,7 @@
       "ziekenhuisopnameAantalCumulatief": 25
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Tholen",
@@ -3962,189 +3962,189 @@
       "ziekenhuisopnameAantalCumulatief": 40
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Veere",
       "Gemeentecode": 717,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 40,
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zeeland",
       "Provinciecode": 29,
       "Gemeentenaam": "Vlissingen",
       "Gemeentecode": 718,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 5,
       "totaalAantalCumulatief": 82,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "'s-Gravenhage",
       "Gemeentecode": 518,
       "overledenAantal": 0,
-      "totaalAantal": 30,
-      "ziekenhuisopnameAantal": 0,
+      "totaalAantal": 46,
+      "ziekenhuisopnameAantal": 1,
       "overledenAantalCumulatief": 249,
-      "totaalAantalCumulatief": 2412,
-      "ziekenhuisopnameAantalCumulatief": 348
+      "totaalAantalCumulatief": 2458,
+      "ziekenhuisopnameAantalCumulatief": 349
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Alblasserdam",
       "Gemeentecode": 482,
       "overledenAantal": 0,
-      "totaalAantal": 0,
-      "ziekenhuisopnameAantal": 1,
+      "totaalAantal": 1,
+      "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 4,
-      "totaalAantalCumulatief": 49,
+      "totaalAantalCumulatief": 50,
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Albrandswaard",
       "Gemeentecode": 613,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 8,
       "totaalAantalCumulatief": 129,
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Alphen aan den Rijn",
       "Gemeentecode": 484,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 25,
       "totaalAantalCumulatief": 245,
       "ziekenhuisopnameAantalCumulatief": 62
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Barendrecht",
       "Gemeentecode": 489,
       "overledenAantal": 0,
-      "totaalAantal": 6,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 12,
       "totaalAantalCumulatief": 176,
       "ziekenhuisopnameAantalCumulatief": 40
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Bodegraven-Reeuwijk",
       "Gemeentecode": 1901,
       "overledenAantal": 0,
-      "totaalAantal": 5,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 1,
-      "totaalAantalCumulatief": 85,
+      "totaalAantalCumulatief": 88,
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Brielle",
       "Gemeentecode": 501,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
       "totaalAantalCumulatief": 37,
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Capelle aan den IJssel",
       "Gemeentecode": 502,
       "overledenAantal": 0,
-      "totaalAantal": 5,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 54,
-      "totaalAantalCumulatief": 388,
+      "totaalAantalCumulatief": 391,
       "ziekenhuisopnameAantalCumulatief": 55
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Delft",
       "Gemeentecode": 503,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 12,
-      "totaalAantalCumulatief": 201,
+      "totaalAantalCumulatief": 204,
       "ziekenhuisopnameAantalCumulatief": 38
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Dordrecht",
       "Gemeentecode": 505,
       "overledenAantal": 0,
-      "totaalAantal": 6,
-      "ziekenhuisopnameAantal": 1,
+      "totaalAantal": 9,
+      "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 62,
-      "totaalAantalCumulatief": 611,
+      "totaalAantalCumulatief": 620,
       "ziekenhuisopnameAantalCumulatief": 87
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Goeree-Overflakkee",
       "Gemeentecode": 1924,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 34,
       "totaalAantalCumulatief": 275,
       "ziekenhuisopnameAantalCumulatief": 54
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Gorinchem",
       "Gemeentecode": 512,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 4,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 15,
-      "totaalAantalCumulatief": 192,
+      "totaalAantalCumulatief": 196,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Gouda",
@@ -4153,11 +4153,11 @@
       "totaalAantal": 12,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 41,
-      "totaalAantalCumulatief": 384,
+      "totaalAantalCumulatief": 396,
       "ziekenhuisopnameAantalCumulatief": 45
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Hardinxveld-Giessendam",
@@ -4170,46 +4170,46 @@
       "ziekenhuisopnameAantalCumulatief": 2
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Hellevoetsluis",
       "Gemeentecode": 530,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 3,
       "totaalAantalCumulatief": 95,
       "ziekenhuisopnameAantalCumulatief": 16
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Hendrik-Ido-Ambacht",
       "Gemeentecode": 531,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 6,
-      "totaalAantalCumulatief": 88,
+      "totaalAantalCumulatief": 91,
       "ziekenhuisopnameAantalCumulatief": 10
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Hillegom",
       "Gemeentecode": 534,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 81,
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Hoeksche Waard",
@@ -4222,20 +4222,20 @@
       "ziekenhuisopnameAantalCumulatief": 76
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Kaag en Braassem",
       "Gemeentecode": 1884,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
       "totaalAantalCumulatief": 36,
       "ziekenhuisopnameAantalCumulatief": 7
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Katwijk",
@@ -4248,59 +4248,59 @@
       "ziekenhuisopnameAantalCumulatief": 31
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Krimpen aan den IJssel",
       "Gemeentecode": 542,
       "overledenAantal": 0,
-      "totaalAantal": 4,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 8,
       "totaalAantalCumulatief": 98,
       "ziekenhuisopnameAantalCumulatief": 11
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Krimpenerwaard",
       "Gemeentecode": 1931,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 34,
-      "totaalAantalCumulatief": 220,
+      "totaalAantalCumulatief": 222,
       "ziekenhuisopnameAantalCumulatief": 45
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Lansingerland",
       "Gemeentecode": 1621,
       "overledenAantal": 0,
-      "totaalAantal": 3,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 25,
-      "totaalAantalCumulatief": 230,
+      "totaalAantalCumulatief": 232,
       "ziekenhuisopnameAantalCumulatief": 43
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Leiden",
       "Gemeentecode": 546,
       "overledenAantal": 0,
-      "totaalAantal": 6,
+      "totaalAantal": 7,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 18,
-      "totaalAantalCumulatief": 221,
+      "totaalAantalCumulatief": 228,
       "ziekenhuisopnameAantalCumulatief": 40
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Leiderdorp",
@@ -4313,20 +4313,20 @@
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Leidschendam-Voorburg",
       "Gemeentecode": 1916,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 15,
-      "totaalAantalCumulatief": 184,
+      "totaalAantalCumulatief": 186,
       "ziekenhuisopnameAantalCumulatief": 21
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Lisse",
@@ -4339,7 +4339,7 @@
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Maassluis",
@@ -4348,24 +4348,24 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 9,
-      "totaalAantalCumulatief": 117,
+      "totaalAantalCumulatief": 118,
       "ziekenhuisopnameAantalCumulatief": 20
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Midden-Delfland",
       "Gemeentecode": 1842,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
       "totaalAantalCumulatief": 36,
       "ziekenhuisopnameAantalCumulatief": 4
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Molenlanden",
@@ -4378,7 +4378,7 @@
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Nieuwkoop",
@@ -4391,124 +4391,124 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Nissewaard",
       "Gemeentecode": 1930,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 17,
-      "totaalAantalCumulatief": 253,
+      "totaalAantalCumulatief": 254,
       "ziekenhuisopnameAantalCumulatief": 56
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Noordwijk",
       "Gemeentecode": 575,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 3,
       "totaalAantalCumulatief": 64,
       "ziekenhuisopnameAantalCumulatief": 19
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Oegstgeest",
       "Gemeentecode": 579,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 3,
       "totaalAantalCumulatief": 49,
       "ziekenhuisopnameAantalCumulatief": 8
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Papendrecht",
       "Gemeentecode": 590,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 2,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 8,
-      "totaalAantalCumulatief": 86,
+      "totaalAantalCumulatief": 88,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Pijnacker-Nootdorp",
       "Gemeentecode": 1926,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 5,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 16,
-      "totaalAantalCumulatief": 164,
+      "totaalAantalCumulatief": 169,
       "ziekenhuisopnameAantalCumulatief": 24
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Ridderkerk",
       "Gemeentecode": 597,
       "overledenAantal": 0,
-      "totaalAantal": 4,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 16,
-      "totaalAantalCumulatief": 189,
+      "totaalAantalCumulatief": 190,
       "ziekenhuisopnameAantalCumulatief": 37
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Rijswijk",
       "Gemeentecode": 603,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 22,
-      "totaalAantalCumulatief": 196,
+      "totaalAantalCumulatief": 199,
       "ziekenhuisopnameAantalCumulatief": 37
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Rotterdam",
       "Gemeentecode": 599,
       "overledenAantal": 0,
-      "totaalAantal": 107,
+      "totaalAantal": 105,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 348,
-      "totaalAantalCumulatief": 4206,
+      "totaalAantalCumulatief": 4311,
       "ziekenhuisopnameAantalCumulatief": 536
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Schiedam",
       "Gemeentecode": 606,
       "overledenAantal": 0,
-      "totaalAantal": 7,
+      "totaalAantal": 11,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 23,
-      "totaalAantalCumulatief": 372,
+      "totaalAantalCumulatief": 383,
       "ziekenhuisopnameAantalCumulatief": 58
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Sliedrecht",
@@ -4521,7 +4521,7 @@
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Teylingen",
@@ -4530,102 +4530,102 @@
       "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 2,
-      "totaalAantalCumulatief": 72,
+      "totaalAantalCumulatief": 73,
       "ziekenhuisopnameAantalCumulatief": 14
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Vlaardingen",
       "Gemeentecode": 622,
       "overledenAantal": 0,
-      "totaalAantal": 9,
+      "totaalAantal": 5,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 30,
-      "totaalAantalCumulatief": 382,
+      "totaalAantalCumulatief": 387,
       "ziekenhuisopnameAantalCumulatief": 43
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Voorschoten",
       "Gemeentecode": 626,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 11,
-      "totaalAantalCumulatief": 71,
+      "totaalAantalCumulatief": 72,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Waddinxveen",
       "Gemeentecode": 627,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 7,
       "totaalAantalCumulatief": 128,
       "ziekenhuisopnameAantalCumulatief": 18
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Wassenaar",
       "Gemeentecode": 629,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 0,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 12,
       "totaalAantalCumulatief": 65,
       "ziekenhuisopnameAantalCumulatief": 9
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Westland",
       "Gemeentecode": 1783,
       "overledenAantal": 0,
-      "totaalAantal": 4,
+      "totaalAantal": 5,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 30,
-      "totaalAantalCumulatief": 351,
+      "totaalAantalCumulatief": 356,
       "ziekenhuisopnameAantalCumulatief": 57
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Westvoorne",
       "Gemeentecode": 614,
       "overledenAantal": 0,
-      "totaalAantal": 0,
+      "totaalAantal": 1,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 0,
-      "totaalAantalCumulatief": 31,
+      "totaalAantalCumulatief": 32,
       "ziekenhuisopnameAantalCumulatief": 6
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Zoetermeer",
       "Gemeentecode": 637,
       "overledenAantal": 0,
-      "totaalAantal": 2,
+      "totaalAantal": 8,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 14,
-      "totaalAantalCumulatief": 284,
+      "totaalAantalCumulatief": 292,
       "ziekenhuisopnameAantalCumulatief": 53
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Zoeterwoude",
@@ -4638,7 +4638,7 @@
       "ziekenhuisopnameAantalCumulatief": 3
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Zuidplas",
@@ -4647,20 +4647,20 @@
       "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 21,
-      "totaalAantalCumulatief": 167,
+      "totaalAantalCumulatief": 170,
       "ziekenhuisopnameAantalCumulatief": 24
     },
     {
-      "Datum": "2020-08-09",
+      "Datum": "2020-08-10",
       "Provincienaam": "Zuid-Holland",
       "Provinciecode": 28,
       "Gemeentenaam": "Zwijndrecht",
       "Gemeentecode": 642,
       "overledenAantal": 0,
-      "totaalAantal": 1,
+      "totaalAantal": 3,
       "ziekenhuisopnameAantal": 0,
       "overledenAantalCumulatief": 26,
-      "totaalAantalCumulatief": 181,
+      "totaalAantalCumulatief": 184,
       "ziekenhuisopnameAantalCumulatief": 23
     }
   ],
