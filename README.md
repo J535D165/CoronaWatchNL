@@ -84,7 +84,7 @@ The graphs below visualize the development of the COVID-19 disease outbreak per 
 
 ### Intensive care datasets
 
-The intensive care datasets describe the new and cumulative number of COVID-19 intensive care unit (ICU) admissions per day. The datasets are categorized by their source. Compared to RIVM (reporting COVID-19 hospital admissions), CoronaWatchNL collects COVID-19 related intensive care data from LCPS and NICE. 
+The intensive care datasets describe the new and cumulative number of COVID-19 intensive care unit (ICU) admissions per day. The datasets are categorized by their source. Compared to RIVM (reporting COVID-19 hospital admissions), CoronaWatchNL collects COVID-19 related intensive care data from LCPS and NICE.
 
 * **RIVM** reports hospitalized COVID-19 cases, including - but not limited to - the intensive care unit (ICU) admissions. These are the largest numbers and most inclusive counts.
 * **NICE** only reports COVID-19 cases that are admitted to the ICU.
@@ -105,7 +105,7 @@ The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumula
 [<img src="plots/ic_nice_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
 
 ### Dashboard datasets
-The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. These datasets concern various topics, such as an overview of the number and age distribution of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water. 
+The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. These datasets concern various topics, such as an overview of the number and age distribution of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water.
 
 For more detail about the specific structure of the dashboard datasets, have a look at the `data-dashboard`[codebook](/data-dashboard/README.md).
 
@@ -126,7 +126,7 @@ These visuals show the development of the COVID-19 disease outbreak on a nationa
 [<img src="plots/overview_national_vs_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_vs_dashboard_new.png" width="400">](/data-dashboard/README.md)
 [<img src="plots/overview_desc_dashboard.png" width="400">](/data-dashboard/README.md)
 
-Below, the number of suspected COVID-19 patients as registered by the GPs, and the amount of COVID-19 particles per milliliter sewage water are depicted. 
+Below, the number of suspected COVID-19 patients as registered by the GPs, and the amount of COVID-19 particles per milliliter sewage water are depicted.
 
 [<img src="plots/overview_suspects.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_sewage.png" width="400">](/data-dashboard/README.md)
 
@@ -187,6 +187,7 @@ The following datasets are no longer appended with new data (because RIVM is no 
 | Dataset | URL | Source | Variables | Expire date
 |---|---| --- | --- | --- |
 | COVID-19 disease case counts in NL\* |[[long format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl.csv) [[wide format]](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_table.csv) | [RIVM](#data-collection-sources) | Date, Number of positive COVID-19 disease cases in NL, Municipality of residence, Municipality code (2019), Province | 2020-03-30
+| Test count (before 2020-04-20) |[Test count](https://github.com/J535D165/CoronaWatchNL/blob/9eaf2bec1789635dc3d3c8321fb033d988c11422/data/rivm_NL_covid19_tests.csv) | [RIVM](#data-collection-sources) | PublicatieDatum, Datum, Labs, Type, Aantal | 2020-04-20
 
 **\*** Nowadays, the data is published again. Please use dataset [data-geo#municipal](https://github.com/J535D165/CoronaWatchNL/tree/master/data-geo#municipal).
 
