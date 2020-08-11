@@ -944,3 +944,12 @@ Datum,Geslacht,Type,Aantal,AantalCumulatief
 2020-08-04,Man,Overleden,,3381
 2020-08-04,Vrouw,Overleden,,2769
 2020-08-04,Niet vermeld,Overleden,,0
+2020-08-11,Man,Totaal,,23428
+2020-08-11,Vrouw,Totaal,,36454
+2020-08-11,Niet vermeld,Totaal,,91
+2020-08-11,Man,Ziekenhuisopname,,7342
+2020-08-11,Vrouw,Ziekenhuisopname,,4644
+2020-08-11,Niet vermeld,Ziekenhuisopname,,8
+2020-08-11,Man,Overleden,,3386
+2020-08-11,Vrouw,Overleden,,2773
+2020-08-11,Niet vermeld,Overleden,,0

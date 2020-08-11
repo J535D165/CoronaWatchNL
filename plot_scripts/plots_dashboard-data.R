@@ -10,14 +10,14 @@ dir.create("plots")
 
 ### CONTAGIOUS DATA
 # Contagious:
-cont <- read_csv("data-dashboard/data-contagious/data-contagious_estimates/RIVM_NL_contagious_estimate.csv")
+cont <- read_csv("data-dashboard/data-contagious/RIVM_NL_contagious_estimate.csv")
 
 cont2 <- spread(cont, Type, Waarde)
 
 cont2 %>%
   ggplot(aes(x= Datum, y = `Geschat aantal besmettelijke mensen`)) +
   geom_line(aes(y = `Geschat aantal besmettelijke mensen`)) +
-  geom_ribbon(aes(ymin = `Minimum aantal besmettelijke mensen`, ymax = `Maximum aantal besmettelijke mensen`), fill="#E69F00", alpha=.5) +
+  geom_ribbon(aes(ymin = `Minimum`, ymax = `Maximum`), fill="#E69F00", alpha=.5) +
   scale_y_continuous(limits=c(0, NA)) +
   theme_minimal() +
   theme(axis.title.x=element_blank(),
