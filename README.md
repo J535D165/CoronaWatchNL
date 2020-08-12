@@ -51,7 +51,11 @@ For more detail about the specific structure of the geographical datasets, have 
 
 To get a better picture of the content of the geographical datasets, have a look at the following visuals. These visuals show the development of the COVID-19 disease outbreak on a national level.
 
-[<img src="plots/overview_plot.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_diff.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported_diff.png" width="400">](/data-geo/README.md)[<img src="plots/overview_reports.png" width="400">](/data-geo/README.md)
+[<img src="plots/overview_plot.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_diff.png" width="400">](/data-geo/README.md)
+
+[<img src="plots/overview_plot_true_vs_reported.png" width="400">](/data-geo/README.md)[<img src="plots/overview_plot_true_vs_reported_diff.png" width="400">](/data-geo/README.md)
+
+[<img src="plots/overview_reports.png" width="400">](/data-geo/README.md)
 
 [![plots/map_province.png](plots/map_province.png)](/data-geo/README.md)
 
@@ -102,7 +106,13 @@ For more detail about the specific structure of the intensive care datasets, hav
 #### Visualizations intensive care
 The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumulative (*Cumulatief*), deceased (*Overleden*), and survived (*Overleefd*) COVID-19 ICU admissions per day, as declared by NICE. The total number of ICU admissions per day as reported by LCPS is also shown.
 
-[<img src="plots/ic_nice_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
+[<img src="plots/ic_nice_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_nice_vrijkomst.png" width="400">](/data-ic/README.md)
+
+[<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)
+
+[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">]
+
+(/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
 
 ### Dashboard datasets
 The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. These datasets concern various topics, such as an overview of the number and age distribution of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water.
@@ -123,7 +133,9 @@ For more detail about the specific structure of the dashboard datasets, have a l
 These visuals show the development of the COVID-19 disease outbreak on a national level as reported by the National Dashboard and by the RIVM reports.
 
 [<img src="plots/overview_national_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_dashboard_new.png" width="400">](/data-dashboard/README.md)
+
 [<img src="plots/overview_national_vs_dashboard.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_national_vs_dashboard_new.png" width="400">](/data-dashboard/README.md)
+
 [<img src="plots/overview_desc_dashboard.png" width="400">](/data-dashboard/README.md)
 
 Below, the number of suspected COVID-19 patients as registered by the GPs, and the amount of COVID-19 particles per milliliter sewage water are depicted.
@@ -137,6 +149,7 @@ The reproduction index and estimated contagious people are plotted with their co
 The number of (deceased) nursery home residents infected with COVID-19 are shown here. <br/>
 
 [<img src="plots/overview_nursery_cumulative.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_nursery_count.png" width="400">](/data-dashboard/README.md)
+
 [<img src="plots/overview_nursery_homes.png" width="400">](/data-dashboard/README.md)[<img src="plots/overview_nursery_homes_new.png" width="400">](/data-dashboard/README.md)
 
 ### Miscellaneous datasets
