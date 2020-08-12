@@ -110,9 +110,9 @@ The first two graphs show the number of new (*Nieuw*), total (*Actueel*), cumula
 
 [<img src="plots/ic_lcps_intakes.png" width="400">](/data-ic/README.md)[<img src="plots/ic_lcps_intakes_country.png" width="400">](/data-ic/README.md)
 
-[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">]
+[<img src="plots/overview_IC_actueel.png" width="400">](/data-ic/README.md)[<img src="plots/overview_IC_nieuw.png" width="400">](/data-ic/README.md)
 
-(/data-ic/README.md)[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
+[<img src="plots/overview_IC_totaal.png" width="400">](/data-ic/README.md)
 
 ### Dashboard datasets
 The datasets underlying the [National Dashboard](#data-collection-sources) are listed in this folder. These datasets concern various topics, such as an overview of the number and age distribution of hospitalized, positively tested, and suspected cases, an estimate of the number of contagious people, the reproduction index, the number of (deceased) infected nursery home residents, and the amount of virus particles measured in the sewage water.
