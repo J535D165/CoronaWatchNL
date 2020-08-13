@@ -49,11 +49,11 @@ def main_sex():
 
     df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_sex.csv"))
     df_reported = df_reported.rename(columns={"Aantal": "AantalCumulatief"})
-    
+
     df_reported["Aantal"] = df_reported.loc[df_reported["Datum"] < '2020-07-07'] \
     .groupby(['Type', 'Geslacht'], sort=True)['AantalCumulatief'] \
     .transform(pd.Series.diff)
-    
+
     #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
     #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
 
@@ -63,6 +63,7 @@ def main_sex():
     # format the columns
     df_reported = df_reported[[
         "Datum",
+        "Bron",
         "Geslacht",
         "Type",
         "Aantal",
@@ -94,7 +95,7 @@ def main_age():
     df_reported["Aantal"] = df_reported.loc[df_reported["Datum"] < '2020-07-07'] \
     .groupby(['Type', 'LeeftijdGroep'], sort=True)['AantalCumulatief'] \
     .transform(pd.Series.diff)
-    
+
     #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
     #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
 
@@ -104,6 +105,7 @@ def main_age():
     # format the columns
     df_reported = df_reported[[
         "Datum",
+        "Bron",
         "LeeftijdGroep",
         "Type",
         "Aantal",
@@ -124,51 +126,51 @@ def main_age():
 
     # export all
     export_date(df_reported, "data-age", "RIVM_NL_age", data_date=None, label=None)
-    
-    
+
+
 
 def main_age_sex():
-    
+
     DATA_FOLDER_INPUT = Path("raw_data/website_charts")
     files = DATA_FOLDER_INPUT.glob('*leeftijd-en-geslacht-overledenen*')
-    
+
     df = []
     for file in files:
         match = re.search('\d{4}-\d{2}-\d{2}', f'{file}')
         date = datetime.datetime.strptime(match.group(), '%Y-%m-%d').date()
-          
+
         new = pd.read_csv(file, sep = ';')
         new['Datum'] = date
-        
+
         genders = ['Vrouw', 'Man']
-        
+
         for geslacht in genders:
             new_man = new[[
                 "Datum",
                 "Leeftijdsgroep",
                 geslacht
             ]]
-            
+
             new_man['Geslacht'] = geslacht
             new_man = new_man.rename(columns={geslacht:'AantalCumulatief', 'Leeftijdsgroep':'LeeftijdGroep'})
-            
+
             df.append(new_man)
-          
-        
+
+
     df_reported = pd.concat(df, axis=0, ignore_index=True)
     df_reported = df_reported.sort_values(by = ['Datum', 'Geslacht', 'LeeftijdGroep'])
-    
+
     df_reported["Aantal"] = df_reported \
     .groupby(['Geslacht', 'LeeftijdGroep'], sort=True)['AantalCumulatief'] \
     .transform(pd.Series.diff)
-    
+
     df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
     df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
 
     df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
-    
+
     Path(DATA_FOLDER, "data-deceased").mkdir(exist_ok=True)
-    
+
     df_reported = df_reported[[
         "Datum",
         "LeeftijdGroep",
@@ -176,9 +178,9 @@ def main_age_sex():
         "Aantal",
         "AantalCumulatief"
     ]]
-    
+
     dates = sorted(df_reported["Datum"].unique())
-        
+
     # export by date
     for data_date in dates:
 
@@ -189,17 +191,17 @@ def main_age_sex():
 
     # export all
     export_date(df_reported, "data-deceased", "RIVM_NL_deceased_age_sex", data_date=None, label=None)
-    
-    
-    
+
+
+
 if __name__ == '__main__':
 
     DATA_FOLDER.mkdir(exist_ok=True)
 
     main_sex()
-     
+
     main_age()
-    
+
     main_age_sex()
 
 

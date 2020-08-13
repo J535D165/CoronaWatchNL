@@ -1,10 +1,10 @@
-Datum,Geslacht,Type,Aantal,AantalCumulatief
-2020-06-17,Man,Totaal,50,18403
-2020-06-17,Vrouw,Totaal,68,30709
-2020-06-17,Niet vermeld,Totaal,-1,92
-2020-06-17,Man,Ziekenhuisopname,2,7239
-2020-06-17,Vrouw,Ziekenhuisopname,0,4589
-2020-06-17,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-17,Man,Overleden,2,3339
-2020-06-17,Vrouw,Overleden,2,2735
-2020-06-17,Niet vermeld,Overleden,0,0
+Datum,Bron,Geslacht,Type,Aantal,AantalCumulatief
+2020-06-17,RIVM_report_20200617,Man,Totaal,50,18403
+2020-06-17,RIVM_report_20200617,Vrouw,Totaal,68,30709
+2020-06-17,RIVM_report_20200617,Niet vermeld,Totaal,-1,92
+2020-06-17,RIVM_report_20200617,Man,Ziekenhuisopname,2,7239
+2020-06-17,RIVM_report_20200617,Vrouw,Ziekenhuisopname,0,4589
+2020-06-17,RIVM_report_20200617,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-17,RIVM_report_20200617,Man,Overleden,2,3339
+2020-06-17,RIVM_report_20200617,Vrouw,Overleden,2,2735
+2020-06-17,RIVM_report_20200617,Niet vermeld,Overleden,0,0

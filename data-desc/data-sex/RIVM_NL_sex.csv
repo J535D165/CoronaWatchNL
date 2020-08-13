@@ -1,955 +1,955 @@
-Datum,Geslacht,Type,Aantal,AantalCumulatief
-2020-03-23,Man,Totaal,,2330
-2020-03-23,Vrouw,Totaal,,2394
-2020-03-23,Niet vermeld,Totaal,,25
-2020-03-23,Man,Ziekenhuisopname,,772
-2020-03-23,Vrouw,Ziekenhuisopname,,453
-2020-03-23,Niet vermeld,Ziekenhuisopname,,5
-2020-03-23,Man,Overleden,,133
-2020-03-23,Vrouw,Overleden,,79
-2020-03-23,Niet vermeld,Overleden,,1
-2020-03-24,Man,Totaal,434,2764
-2020-03-24,Vrouw,Totaal,373,2767
-2020-03-24,Niet vermeld,Totaal,4,29
-2020-03-24,Man,Ziekenhuisopname,174,946
-2020-03-24,Vrouw,Ziekenhuisopname,88,541
-2020-03-24,Niet vermeld,Ziekenhuisopname,3,8
-2020-03-24,Man,Overleden,45,178
-2020-03-24,Vrouw,Overleden,18,97
-2020-03-24,Niet vermeld,Overleden,0,1
-2020-03-25,Man,Totaal,417,3181
-2020-03-25,Vrouw,Totaal,432,3199
-2020-03-25,Niet vermeld,Totaal,3,32
-2020-03-25,Man,Ziekenhuisopname,209,1155
-2020-03-25,Vrouw,Ziekenhuisopname,132,673
-2020-03-25,Niet vermeld,Ziekenhuisopname,0,8
-2020-03-25,Man,Overleden,48,226
-2020-03-25,Vrouw,Overleden,31,128
-2020-03-25,Niet vermeld,Overleden,1,2
-2020-03-26,Man,Totaal,490,3671
-2020-03-26,Vrouw,Totaal,530,3729
-2020-03-26,Niet vermeld,Totaal,-1,31
-2020-03-26,Man,Ziekenhuisopname,191,1346
-2020-03-26,Vrouw,Ziekenhuisopname,124,797
-2020-03-26,Niet vermeld,Ziekenhuisopname,0,8
-2020-03-26,Man,Overleden,53,279
-2020-03-26,Vrouw,Overleden,25,153
-2020-03-26,Niet vermeld,Overleden,0,2
-2020-03-27,Man,Totaal,596,4267
-2020-03-27,Vrouw,Totaal,580,4309
-2020-03-27,Niet vermeld,Totaal,-4,27
-2020-03-27,Man,Ziekenhuisopname,198,1544
-2020-03-27,Vrouw,Ziekenhuisopname,154,951
-2020-03-27,Niet vermeld,Ziekenhuisopname,-3,5
-2020-03-27,Man,Overleden,71,350
-2020-03-27,Vrouw,Overleden,40,193
-2020-03-27,Niet vermeld,Overleden,1,3
-2020-03-28,Man,Totaal,585,4852
-2020-03-28,Vrouw,Totaal,572,4881
-2020-03-28,Niet vermeld,Totaal,2,29
-2020-03-28,Man,Ziekenhuisopname,288,1832
-2020-03-28,Vrouw,Ziekenhuisopname,166,1117
-2020-03-28,Niet vermeld,Ziekenhuisopname,0,5
-2020-03-28,Man,Overleden,54,404
-2020-03-28,Vrouw,Overleden,39,232
-2020-03-28,Niet vermeld,Overleden,0,3
-2020-03-29,Man,Totaal,551,5403
-2020-03-29,Vrouw,Totaal,552,5433
-2020-03-29,Niet vermeld,Totaal,1,30
-2020-03-29,Man,Ziekenhuisopname,340,2172
-2020-03-29,Vrouw,Ziekenhuisopname,189,1306
-2020-03-29,Niet vermeld,Ziekenhuisopname,0,5
-2020-03-29,Man,Overleden,77,481
-2020-03-29,Vrouw,Overleden,55,287
-2020-03-29,Niet vermeld,Overleden,0,3
-2020-03-30,Man,Totaal,487,5890
-2020-03-30,Vrouw,Totaal,399,5832
-2020-03-30,Niet vermeld,Totaal,-2,28
-2020-03-30,Man,Ziekenhuisopname,330,2502
-2020-03-30,Vrouw,Ziekenhuisopname,177,1483
-2020-03-30,Niet vermeld,Ziekenhuisopname,0,5
-2020-03-30,Man,Overleden,59,540
-2020-03-30,Vrouw,Overleden,34,321
-2020-03-30,Niet vermeld,Overleden,0,3
-2020-03-31,Man,Totaal,427,6317
-2020-03-31,Vrouw,Totaal,426,6258
-2020-03-31,Niet vermeld,Totaal,-8,20
-2020-03-31,Man,Ziekenhuisopname,452,2954
-2020-03-31,Vrouw,Ziekenhuisopname,271,1754
-2020-03-31,Niet vermeld,Ziekenhuisopname,-1,4
-2020-03-31,Man,Overleden,97,637
-2020-03-31,Vrouw,Overleden,78,399
-2020-03-31,Niet vermeld,Overleden,0,3
-2020-04-01,Man,Totaal,479,6796
-2020-04-01,Vrouw,Totaal,545,6803
-2020-04-01,Niet vermeld,Totaal,-5,15
-2020-04-01,Man,Ziekenhuisopname,271,3225
-2020-04-01,Vrouw,Ziekenhuisopname,177,1931
-2020-04-01,Niet vermeld,Ziekenhuisopname,-1,3
-2020-04-01,Man,Overleden,84,721
-2020-04-01,Vrouw,Overleden,53,452
-2020-04-01,Niet vermeld,Overleden,-3,0
-2020-04-02,Man,Totaal,482,7278
-2020-04-02,Vrouw,Totaal,592,7395
-2020-04-02,Niet vermeld,Totaal,9,24
-2020-04-02,Man,Ziekenhuisopname,408,3633
-2020-04-02,Vrouw,Ziekenhuisopname,215,2146
-2020-04-02,Niet vermeld,Ziekenhuisopname,2,5
-2020-04-02,Man,Overleden,103,824
-2020-04-02,Vrouw,Overleden,63,515
-2020-04-02,Niet vermeld,Overleden,0,0
-2020-04-03,Man,Totaal,442,7720
-2020-04-03,Vrouw,Totaal,589,7984
-2020-04-03,Niet vermeld,Totaal,-5,19
-2020-04-03,Man,Ziekenhuisopname,313,3946
-2020-04-03,Vrouw,Ziekenhuisopname,188,2334
-2020-04-03,Niet vermeld,Ziekenhuisopname,1,6
-2020-04-03,Man,Overleden,85,909
-2020-04-03,Vrouw,Overleden,63,578
-2020-04-03,Niet vermeld,Overleden,0,0
-2020-04-04,Man,Totaal,351,8071
-2020-04-04,Vrouw,Totaal,551,8535
-2020-04-04,Niet vermeld,Totaal,2,21
-2020-04-04,Man,Ziekenhuisopname,227,4173
-2020-04-04,Vrouw,Ziekenhuisopname,109,2443
-2020-04-04,Niet vermeld,Ziekenhuisopname,0,6
-2020-04-04,Man,Overleden,101,1010
-2020-04-04,Vrouw,Overleden,63,641
-2020-04-04,Niet vermeld,Overleden,0,0
-2020-04-05,Man,Totaal,486,8557
-2020-04-05,Vrouw,Totaal,736,9271
-2020-04-05,Niet vermeld,Totaal,2,23
-2020-04-05,Man,Ziekenhuisopname,152,4325
-2020-04-05,Vrouw,Ziekenhuisopname,102,2545
-2020-04-05,Niet vermeld,Ziekenhuisopname,-1,5
-2020-04-05,Man,Overleden,75,1085
-2020-04-05,Vrouw,Overleden,40,681
-2020-04-05,Niet vermeld,Overleden,0,0
-2020-04-06,Man,Totaal,332,8889
-2020-04-06,Vrouw,Totaal,621,9892
-2020-04-06,Niet vermeld,Totaal,-1,22
-2020-04-06,Man,Ziekenhuisopname,140,4465
-2020-04-06,Vrouw,Ziekenhuisopname,120,2665
-2020-04-06,Niet vermeld,Ziekenhuisopname,0,5
-2020-04-06,Man,Overleden,71,1156
-2020-04-06,Vrouw,Overleden,30,711
-2020-04-06,Niet vermeld,Overleden,0,0
-2020-04-07,Man,Totaal,316,9205
-2020-04-07,Vrouw,Totaal,461,10353
-2020-04-07,Niet vermeld,Totaal,0,22
-2020-04-07,Man,Ziekenhuisopname,180,4645
-2020-04-07,Vrouw,Ziekenhuisopname,112,2777
-2020-04-07,Niet vermeld,Ziekenhuisopname,0,5
-2020-04-07,Man,Overleden,133,1289
-2020-04-07,Vrouw,Overleden,101,812
-2020-04-07,Niet vermeld,Overleden,0,0
-2020-04-08,Man,Totaal,367,9572
-2020-04-08,Vrouw,Totaal,601,10954
-2020-04-08,Niet vermeld,Totaal,1,23
-2020-04-08,Man,Ziekenhuisopname,181,4826
-2020-04-08,Vrouw,Ziekenhuisopname,126,2903
-2020-04-08,Niet vermeld,Ziekenhuisopname,1,6
-2020-04-08,Man,Overleden,94,1383
-2020-04-08,Vrouw,Overleden,53,865
-2020-04-08,Niet vermeld,Overleden,0,0
-2020-04-09,Man,Totaal,421,9993
-2020-04-09,Vrouw,Totaal,789,11743
-2020-04-09,Niet vermeld,Totaal,3,26
-2020-04-09,Man,Ziekenhuisopname,142,4968
-2020-04-09,Vrouw,Ziekenhuisopname,95,2998
-2020-04-09,Niet vermeld,Ziekenhuisopname,0,6
-2020-04-09,Man,Overleden,84,1467
-2020-04-09,Vrouw,Overleden,64,929
-2020-04-09,Niet vermeld,Overleden,0,0
-2020-04-10,Man,Totaal,399,10392
-2020-04-10,Vrouw,Totaal,936,12679
-2020-04-10,Niet vermeld,Totaal,0,26
-2020-04-10,Man,Ziekenhuisopname,127,5095
-2020-04-10,Vrouw,Ziekenhuisopname,98,3096
-2020-04-10,Niet vermeld,Ziekenhuisopname,0,6
-2020-04-10,Man,Overleden,62,1529
-2020-04-10,Vrouw,Overleden,53,982
-2020-04-10,Niet vermeld,Overleden,0,0
-2020-04-11,Man,Totaal,389,10781
-2020-04-11,Vrouw,Totaal,920,13599
-2020-04-11,Niet vermeld,Totaal,7,33
-2020-04-11,Man,Ziekenhuisopname,119,5214
-2020-04-11,Vrouw,Ziekenhuisopname,69,3165
-2020-04-11,Niet vermeld,Ziekenhuisopname,1,7
-2020-04-11,Man,Overleden,69,1598
-2020-04-11,Vrouw,Overleden,63,1045
-2020-04-11,Niet vermeld,Overleden,0,0
-2020-04-12,Man,Totaal,335,11116
-2020-04-12,Vrouw,Totaal,837,14436
-2020-04-12,Niet vermeld,Totaal,2,35
-2020-04-12,Man,Ziekenhuisopname,122,5336
-2020-04-12,Vrouw,Ziekenhuisopname,74,3239
-2020-04-12,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-12,Man,Overleden,53,1651
-2020-04-12,Vrouw,Overleden,41,1086
-2020-04-12,Niet vermeld,Overleden,0,0
-2020-04-13,Man,Totaal,223,11339
-2020-04-13,Vrouw,Totaal,742,15178
-2020-04-13,Niet vermeld,Totaal,-1,34
-2020-04-13,Man,Ziekenhuisopname,95,5431
-2020-04-13,Vrouw,Ziekenhuisopname,52,3291
-2020-04-13,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-13,Man,Overleden,52,1703
-2020-04-13,Vrouw,Overleden,34,1120
-2020-04-13,Niet vermeld,Overleden,0,0
-2020-04-14,Man,Totaal,269,11608
-2020-04-14,Vrouw,Totaal,595,15773
-2020-04-14,Niet vermeld,Totaal,4,38
-2020-04-14,Man,Ziekenhuisopname,113,5544
-2020-04-14,Vrouw,Ziekenhuisopname,97,3388
-2020-04-14,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-14,Man,Overleden,79,1782
-2020-04-14,Vrouw,Overleden,43,1163
-2020-04-14,Niet vermeld,Overleden,0,0
-2020-04-15,Man,Totaal,247,11855
-2020-04-15,Vrouw,Totaal,487,16260
-2020-04-15,Niet vermeld,Totaal,0,38
-2020-04-15,Man,Ziekenhuisopname,107,5651
-2020-04-15,Vrouw,Ziekenhuisopname,81,3469
-2020-04-15,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-15,Man,Overleden,110,1892
-2020-04-15,Vrouw,Overleden,79,1242
-2020-04-15,Niet vermeld,Overleden,0,0
-2020-04-16,Man,Totaal,296,12151
-2020-04-16,Vrouw,Totaal,760,17020
-2020-04-16,Niet vermeld,Totaal,5,43
-2020-04-16,Man,Ziekenhuisopname,107,5758
-2020-04-16,Vrouw,Ziekenhuisopname,74,3543
-2020-04-16,Niet vermeld,Ziekenhuisopname,1,8
-2020-04-16,Man,Overleden,87,1979
-2020-04-16,Vrouw,Overleden,94,1336
-2020-04-16,Niet vermeld,Overleden,0,0
-2020-04-17,Man,Totaal,302,12453
-2020-04-17,Vrouw,Totaal,933,17953
-2020-04-17,Niet vermeld,Totaal,0,43
-2020-04-17,Man,Ziekenhuisopname,83,5841
-2020-04-17,Vrouw,Ziekenhuisopname,73,3616
-2020-04-17,Niet vermeld,Ziekenhuisopname,0,8
-2020-04-17,Man,Overleden,76,2055
-2020-04-17,Vrouw,Overleden,68,1404
-2020-04-17,Niet vermeld,Overleden,0,0
-2020-04-18,Man,Totaal,284,12737
-2020-04-18,Vrouw,Totaal,856,18809
-2020-04-18,Niet vermeld,Totaal,0,43
-2020-04-18,Man,Ziekenhuisopname,73,5914
-2020-04-18,Vrouw,Ziekenhuisopname,57,3673
-2020-04-18,Niet vermeld,Ziekenhuisopname,-1,7
-2020-04-18,Man,Overleden,72,2127
-2020-04-18,Vrouw,Overleden,70,1474
-2020-04-18,Niet vermeld,Overleden,0,0
-2020-04-19,Man,Totaal,245,12982
-2020-04-19,Vrouw,Totaal,820,19629
-2020-04-19,Niet vermeld,Totaal,1,44
-2020-04-19,Man,Ziekenhuisopname,69,5983
-2020-04-19,Vrouw,Ziekenhuisopname,41,3714
-2020-04-19,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-19,Man,Overleden,43,2170
-2020-04-19,Vrouw,Overleden,40,1514
-2020-04-19,Niet vermeld,Overleden,0,0
-2020-04-20,Man,Totaal,202,13184
-2020-04-20,Vrouw,Totaal,548,20177
-2020-04-20,Niet vermeld,Totaal,0,44
-2020-04-20,Man,Ziekenhuisopname,42,6025
-2020-04-20,Vrouw,Ziekenhuisopname,33,3747
-2020-04-20,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-20,Man,Overleden,38,2208
-2020-04-20,Vrouw,Overleden,29,1543
-2020-04-20,Niet vermeld,Overleden,0,0
-2020-04-21,Man,Totaal,189,13373
-2020-04-21,Vrouw,Totaal,539,20716
-2020-04-21,Niet vermeld,Totaal,1,45
-2020-04-21,Man,Ziekenhuisopname,78,6103
-2020-04-21,Vrouw,Ziekenhuisopname,40,3787
-2020-04-21,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-21,Man,Overleden,92,2300
-2020-04-21,Vrouw,Overleden,73,1616
-2020-04-21,Niet vermeld,Overleden,0,0
-2020-04-22,Man,Totaal,193,13566
-2020-04-22,Vrouw,Totaal,515,21231
-2020-04-22,Niet vermeld,Totaal,0,45
-2020-04-22,Man,Ziekenhuisopname,76,6179
-2020-04-22,Vrouw,Ziekenhuisopname,48,3835
-2020-04-22,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-22,Man,Overleden,64,2364
-2020-04-22,Vrouw,Overleden,74,1690
-2020-04-22,Niet vermeld,Overleden,0,0
-2020-04-23,Man,Totaal,213,13779
-2020-04-23,Vrouw,Totaal,671,21902
-2020-04-23,Niet vermeld,Totaal,3,48
-2020-04-23,Man,Ziekenhuisopname,82,6261
-2020-04-23,Vrouw,Ziekenhuisopname,55,3890
-2020-04-23,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-23,Man,Overleden,53,2417
-2020-04-23,Vrouw,Overleden,70,1760
-2020-04-23,Niet vermeld,Overleden,0,0
-2020-04-24,Man,Totaal,210,13989
-2020-04-24,Vrouw,Totaal,597,22499
-2020-04-24,Niet vermeld,Totaal,-1,47
-2020-04-24,Man,Ziekenhuisopname,70,6331
-2020-04-24,Vrouw,Ziekenhuisopname,53,3943
-2020-04-24,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-24,Man,Overleden,66,2483
-2020-04-24,Vrouw,Overleden,46,1806
-2020-04-24,Niet vermeld,Overleden,0,0
-2020-04-25,Man,Totaal,165,14154
-2020-04-25,Vrouw,Totaal,490,22989
-2020-04-25,Niet vermeld,Totaal,0,47
-2020-04-25,Man,Ziekenhuisopname,57,6388
-2020-04-25,Vrouw,Ziekenhuisopname,43,3986
-2020-04-25,Niet vermeld,Ziekenhuisopname,0,7
-2020-04-25,Man,Overleden,64,2547
-2020-04-25,Vrouw,Overleden,56,1862
-2020-04-25,Niet vermeld,Overleden,0,0
-2020-04-26,Man,Totaal,188,14342
-2020-04-26,Vrouw,Totaal,464,23453
-2020-04-26,Niet vermeld,Totaal,3,50
-2020-04-26,Man,Ziekenhuisopname,44,6432
-2020-04-26,Vrouw,Ziekenhuisopname,30,4016
-2020-04-26,Niet vermeld,Ziekenhuisopname,1,8
-2020-04-26,Man,Overleden,28,2575
-2020-04-26,Vrouw,Overleden,38,1900
-2020-04-26,Niet vermeld,Overleden,0,0
-2020-04-27,Man,Totaal,97,14439
-2020-04-27,Vrouw,Totaal,302,23755
-2020-04-27,Niet vermeld,Totaal,1,51
-2020-04-27,Man,Ziekenhuisopname,37,6469
-2020-04-27,Vrouw,Ziekenhuisopname,28,4044
-2020-04-27,Niet vermeld,Ziekenhuisopname,0,8
-2020-04-27,Man,Overleden,22,2597
-2020-04-27,Vrouw,Overleden,21,1921
-2020-04-27,Niet vermeld,Overleden,0,0
-2020-04-28,Man,Totaal,53,14492
-2020-04-28,Vrouw,Totaal,118,23873
-2020-04-28,Niet vermeld,Totaal,0,51
-2020-04-28,Man,Ziekenhuisopname,59,6528
-2020-04-28,Vrouw,Ziekenhuisopname,29,4073
-2020-04-28,Niet vermeld,Ziekenhuisopname,0,8
-2020-04-28,Man,Overleden,24,2621
-2020-04-28,Vrouw,Overleden,24,1945
-2020-04-28,Niet vermeld,Overleden,0,0
-2020-04-29,Man,Totaal,123,14615
-2020-04-29,Vrouw,Totaal,266,24139
-2020-04-29,Niet vermeld,Totaal,-3,48
-2020-04-29,Man,Ziekenhuisopname,40,6568
-2020-04-29,Vrouw,Ziekenhuisopname,36,4109
-2020-04-29,Niet vermeld,Ziekenhuisopname,0,8
-2020-04-29,Man,Overleden,70,2691
-2020-04-29,Vrouw,Overleden,75,2020
-2020-04-29,Niet vermeld,Overleden,0,0
-2020-04-30,Man,Totaal,145,14760
-2020-04-30,Vrouw,Totaal,369,24508
-2020-04-30,Niet vermeld,Totaal,0,48
-2020-04-30,Man,Ziekenhuisopname,50,6618
-2020-04-30,Vrouw,Ziekenhuisopname,34,4143
-2020-04-30,Niet vermeld,Ziekenhuisopname,0,8
-2020-04-30,Man,Overleden,33,2724
-2020-04-30,Vrouw,Overleden,51,2071
-2020-04-30,Niet vermeld,Overleden,0,0
-2020-05-01,Man,Totaal,123,14883
-2020-05-01,Vrouw,Totaal,345,24853
-2020-05-01,Niet vermeld,Totaal,7,55
-2020-05-01,Man,Ziekenhuisopname,50,6668
-2020-05-01,Vrouw,Ziekenhuisopname,35,4178
-2020-05-01,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-01,Man,Overleden,56,2780
-2020-05-01,Vrouw,Overleden,42,2113
-2020-05-01,Niet vermeld,Overleden,0,0
-2020-05-02,Man,Totaal,135,15018
-2020-05-02,Vrouw,Totaal,310,25163
-2020-05-02,Niet vermeld,Totaal,0,55
-2020-05-02,Man,Ziekenhuisopname,51,6719
-2020-05-02,Vrouw,Ziekenhuisopname,46,4224
-2020-05-02,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-02,Man,Overleden,46,2826
-2020-05-02,Vrouw,Overleden,48,2161
-2020-05-02,Niet vermeld,Overleden,0,0
-2020-05-03,Man,Totaal,84,15102
-2020-05-03,Vrouw,Totaal,253,25416
-2020-05-03,Niet vermeld,Totaal,-2,53
-2020-05-03,Man,Ziekenhuisopname,21,6740
-2020-05-03,Vrouw,Ziekenhuisopname,23,4247
-2020-05-03,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-03,Man,Overleden,33,2859
-2020-05-03,Vrouw,Overleden,36,2197
-2020-05-03,Niet vermeld,Overleden,0,0
-2020-05-04,Man,Totaal,50,15152
-2020-05-04,Vrouw,Totaal,150,25566
-2020-05-04,Niet vermeld,Totaal,-1,52
-2020-05-04,Man,Ziekenhuisopname,27,6767
-2020-05-04,Vrouw,Ziekenhuisopname,15,4262
-2020-05-04,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-04,Man,Overleden,12,2871
-2020-05-04,Vrouw,Overleden,14,2211
-2020-05-04,Niet vermeld,Overleden,0,0
-2020-05-05,Man,Totaal,92,15244
-2020-05-05,Vrouw,Totaal,224,25790
-2020-05-05,Niet vermeld,Totaal,1,53
-2020-05-05,Man,Ziekenhuisopname,49,6816
-2020-05-05,Vrouw,Ziekenhuisopname,40,4302
-2020-05-05,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-05,Man,Overleden,41,2912
-2020-05-05,Vrouw,Overleden,45,2256
-2020-05-05,Niet vermeld,Overleden,0,0
-2020-05-06,Man,Totaal,73,15317
-2020-05-06,Vrouw,Totaal,159,25949
-2020-05-06,Niet vermeld,Totaal,0,53
-2020-05-06,Man,Ziekenhuisopname,15,6831
-2020-05-06,Vrouw,Ziekenhuisopname,12,4314
-2020-05-06,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-06,Man,Overleden,18,2930
-2020-05-06,Vrouw,Overleden,18,2274
-2020-05-06,Niet vermeld,Overleden,0,0
-2020-05-07,Man,Totaal,104,15421
-2020-05-07,Vrouw,Totaal,351,26300
-2020-05-07,Niet vermeld,Totaal,0,53
-2020-05-07,Man,Ziekenhuisopname,19,6850
-2020-05-07,Vrouw,Ziekenhuisopname,20,4334
-2020-05-07,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-07,Man,Overleden,43,2973
-2020-05-07,Vrouw,Overleden,41,2315
-2020-05-07,Niet vermeld,Overleden,0,0
-2020-05-08,Man,Totaal,87,15508
-2020-05-08,Vrouw,Totaal,232,26532
-2020-05-08,Niet vermeld,Totaal,0,53
-2020-05-08,Man,Ziekenhuisopname,19,6869
-2020-05-08,Vrouw,Ziekenhuisopname,16,4350
-2020-05-08,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-08,Man,Overleden,28,3001
-2020-05-08,Vrouw,Overleden,43,2358
-2020-05-08,Niet vermeld,Overleden,0,0
-2020-05-09,Man,Totaal,100,15608
-2020-05-09,Vrouw,Totaal,188,26720
-2020-05-09,Niet vermeld,Totaal,1,54
-2020-05-09,Man,Ziekenhuisopname,32,6901
-2020-05-09,Vrouw,Ziekenhuisopname,26,4376
-2020-05-09,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-09,Man,Overleden,31,3032
-2020-05-09,Vrouw,Overleden,32,2390
-2020-05-09,Niet vermeld,Overleden,0,0
-2020-05-10,Man,Totaal,64,15672
-2020-05-10,Vrouw,Totaal,181,26901
-2020-05-10,Niet vermeld,Totaal,0,54
-2020-05-10,Man,Ziekenhuisopname,14,6915
-2020-05-10,Vrouw,Ziekenhuisopname,8,4384
-2020-05-10,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-10,Man,Overleden,8,3040
-2020-05-10,Vrouw,Overleden,10,2400
-2020-05-10,Niet vermeld,Overleden,0,0
-2020-05-11,Man,Totaal,61,15733
-2020-05-11,Vrouw,Totaal,99,27000
-2020-05-11,Niet vermeld,Totaal,1,55
-2020-05-11,Man,Ziekenhuisopname,21,6936
-2020-05-11,Vrouw,Ziekenhuisopname,15,4399
-2020-05-11,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-11,Man,Overleden,4,3044
-2020-05-11,Vrouw,Overleden,12,2412
-2020-05-11,Niet vermeld,Overleden,0,0
-2020-05-12,Man,Totaal,65,15798
-2020-05-12,Vrouw,Totaal,131,27131
-2020-05-12,Niet vermeld,Totaal,0,55
-2020-05-12,Man,Ziekenhuisopname,19,6955
-2020-05-12,Vrouw,Ziekenhuisopname,16,4415
-2020-05-12,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-12,Man,Overleden,26,3070
-2020-05-12,Vrouw,Overleden,28,2440
-2020-05-12,Niet vermeld,Overleden,0,0
-2020-05-13,Man,Totaal,77,15875
-2020-05-13,Vrouw,Totaal,150,27281
-2020-05-13,Niet vermeld,Totaal,0,55
-2020-05-13,Man,Ziekenhuisopname,28,6983
-2020-05-13,Vrouw,Ziekenhuisopname,24,4439
-2020-05-13,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-13,Man,Overleden,24,3094
-2020-05-13,Vrouw,Overleden,28,2468
-2020-05-13,Niet vermeld,Overleden,0,0
-2020-05-14,Man,Totaal,83,15958
-2020-05-14,Vrouw,Totaal,187,27468
-2020-05-14,Niet vermeld,Totaal,0,55
-2020-05-14,Man,Ziekenhuisopname,20,7003
-2020-05-14,Vrouw,Ziekenhuisopname,7,4446
-2020-05-14,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-14,Man,Overleden,16,3110
-2020-05-14,Vrouw,Overleden,12,2480
-2020-05-14,Niet vermeld,Overleden,0,0
-2020-05-15,Man,Totaal,58,16016
-2020-05-15,Vrouw,Totaal,142,27610
-2020-05-15,Niet vermeld,Totaal,0,55
-2020-05-15,Man,Ziekenhuisopname,20,7023
-2020-05-15,Vrouw,Ziekenhuisopname,14,4460
-2020-05-15,Niet vermeld,Ziekenhuisopname,1,9
-2020-05-15,Man,Overleden,22,3132
-2020-05-15,Vrouw,Overleden,31,2511
-2020-05-15,Niet vermeld,Overleden,0,0
-2020-05-16,Man,Totaal,62,16078
-2020-05-16,Vrouw,Totaal,127,27737
-2020-05-16,Niet vermeld,Totaal,0,55
-2020-05-16,Man,Ziekenhuisopname,26,7049
-2020-05-16,Vrouw,Ziekenhuisopname,19,4479
-2020-05-16,Niet vermeld,Ziekenhuisopname,0,9
-2020-05-16,Man,Overleden,16,3148
-2020-05-16,Vrouw,Overleden,11,2522
-2020-05-16,Niet vermeld,Overleden,0,0
-2020-05-17,Man,Totaal,51,16129
-2020-05-17,Vrouw,Totaal,75,27812
-2020-05-17,Niet vermeld,Totaal,-1,54
-2020-05-17,Man,Ziekenhuisopname,11,7060
-2020-05-17,Vrouw,Ziekenhuisopname,5,4484
-2020-05-17,Niet vermeld,Ziekenhuisopname,-1,8
-2020-05-17,Man,Overleden,6,3154
-2020-05-17,Vrouw,Overleden,4,2526
-2020-05-17,Niet vermeld,Overleden,0,0
-2020-05-18,Man,Totaal,64,16193
-2020-05-18,Vrouw,Totaal,83,27895
-2020-05-18,Niet vermeld,Totaal,-1,53
-2020-05-18,Man,Ziekenhuisopname,16,7076
-2020-05-18,Vrouw,Ziekenhuisopname,11,4495
-2020-05-18,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-18,Man,Overleden,6,3160
-2020-05-18,Vrouw,Overleden,8,2534
-2020-05-18,Niet vermeld,Overleden,0,0
-2020-05-19,Man,Totaal,37,16230
-2020-05-19,Vrouw,Totaal,71,27966
-2020-05-19,Niet vermeld,Totaal,0,53
-2020-05-19,Man,Ziekenhuisopname,17,7093
-2020-05-19,Vrouw,Ziekenhuisopname,17,4512
-2020-05-19,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-19,Man,Overleden,7,3167
-2020-05-19,Vrouw,Overleden,14,2548
-2020-05-19,Niet vermeld,Overleden,0,0
-2020-05-20,Man,Totaal,80,16310
-2020-05-20,Vrouw,Totaal,117,28083
-2020-05-20,Niet vermeld,Totaal,1,54
-2020-05-20,Man,Ziekenhuisopname,14,7107
-2020-05-20,Vrouw,Ziekenhuisopname,0,4512
-2020-05-20,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-20,Man,Overleden,14,3181
-2020-05-20,Vrouw,Overleden,19,2567
-2020-05-20,Niet vermeld,Overleden,0,0
-2020-05-21,Man,Totaal,75,16385
-2020-05-21,Vrouw,Totaal,161,28244
-2020-05-21,Niet vermeld,Totaal,17,71
-2020-05-21,Man,Ziekenhuisopname,8,7115
-2020-05-21,Vrouw,Ziekenhuisopname,5,4517
-2020-05-21,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-21,Man,Overleden,14,3195
-2020-05-21,Vrouw,Overleden,13,2580
-2020-05-21,Niet vermeld,Overleden,0,0
-2020-05-22,Man,Totaal,65,16450
-2020-05-22,Vrouw,Totaal,123,28367
-2020-05-22,Niet vermeld,Totaal,0,71
-2020-05-22,Man,Ziekenhuisopname,10,7125
-2020-05-22,Vrouw,Ziekenhuisopname,-1,4516
-2020-05-22,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-22,Man,Overleden,8,3203
-2020-05-22,Vrouw,Overleden,5,2585
-2020-05-22,Niet vermeld,Overleden,0,0
-2020-05-23,Man,Totaal,84,16534
-2020-05-23,Vrouw,Totaal,97,28464
-2020-05-23,Niet vermeld,Totaal,-5,66
-2020-05-23,Man,Ziekenhuisopname,8,7133
-2020-05-23,Vrouw,Ziekenhuisopname,2,4518
-2020-05-23,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-23,Man,Overleden,14,3217
-2020-05-23,Vrouw,Overleden,9,2594
-2020-05-23,Niet vermeld,Overleden,0,0
-2020-05-24,Man,Totaal,77,16611
-2020-05-24,Vrouw,Totaal,88,28552
-2020-05-24,Niet vermeld,Totaal,7,73
-2020-05-24,Man,Ziekenhuisopname,7,7140
-2020-05-24,Vrouw,Ziekenhuisopname,6,4524
-2020-05-24,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-24,Man,Overleden,4,3221
-2020-05-24,Vrouw,Overleden,7,2601
-2020-05-24,Niet vermeld,Overleden,0,0
-2020-05-25,Man,Totaal,81,16692
-2020-05-25,Vrouw,Totaal,118,28670
-2020-05-25,Niet vermeld,Totaal,10,83
-2020-05-25,Man,Ziekenhuisopname,7,7147
-2020-05-25,Vrouw,Ziekenhuisopname,1,4525
-2020-05-25,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-25,Man,Overleden,5,3226
-2020-05-25,Vrouw,Overleden,3,2604
-2020-05-25,Niet vermeld,Overleden,0,0
-2020-05-26,Man,Totaal,63,16755
-2020-05-26,Vrouw,Totaal,63,28733
-2020-05-26,Niet vermeld,Totaal,7,90
-2020-05-26,Man,Ziekenhuisopname,6,7153
-2020-05-26,Vrouw,Ziekenhuisopname,4,4529
-2020-05-26,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-26,Man,Overleden,14,3240
-2020-05-26,Vrouw,Overleden,12,2616
-2020-05-26,Niet vermeld,Overleden,0,0
-2020-05-27,Man,Totaal,76,16831
-2020-05-27,Vrouw,Totaal,113,28846
-2020-05-27,Niet vermeld,Totaal,1,91
-2020-05-27,Man,Ziekenhuisopname,6,7159
-2020-05-27,Vrouw,Ziekenhuisopname,1,4530
-2020-05-27,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-27,Man,Overleden,6,3246
-2020-05-27,Vrouw,Overleden,9,2625
-2020-05-27,Niet vermeld,Overleden,0,0
-2020-05-28,Man,Totaal,78,16909
-2020-05-28,Vrouw,Totaal,104,28950
-2020-05-28,Niet vermeld,Totaal,0,91
-2020-05-28,Man,Ziekenhuisopname,11,7170
-2020-05-28,Vrouw,Ziekenhuisopname,5,4535
-2020-05-28,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-28,Man,Overleden,13,3259
-2020-05-28,Vrouw,Overleden,19,2644
-2020-05-28,Niet vermeld,Overleden,0,0
-2020-05-29,Man,Totaal,83,16992
-2020-05-29,Vrouw,Totaal,93,29043
-2020-05-29,Niet vermeld,Totaal,0,91
-2020-05-29,Man,Ziekenhuisopname,5,7175
-2020-05-29,Vrouw,Ziekenhuisopname,4,4539
-2020-05-29,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-29,Man,Overleden,14,3273
-2020-05-29,Vrouw,Overleden,14,2658
-2020-05-29,Niet vermeld,Overleden,0,0
-2020-05-30,Man,Totaal,63,17055
-2020-05-30,Vrouw,Totaal,68,29111
-2020-05-30,Niet vermeld,Totaal,0,91
-2020-05-30,Man,Ziekenhuisopname,4,7179
-2020-05-30,Vrouw,Ziekenhuisopname,1,4540
-2020-05-30,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-30,Man,Overleden,7,3280
-2020-05-30,Vrouw,Overleden,13,2671
-2020-05-30,Niet vermeld,Overleden,0,0
-2020-05-31,Man,Totaal,85,17140
-2020-05-31,Vrouw,Totaal,99,29210
-2020-05-31,Niet vermeld,Totaal,1,92
-2020-05-31,Man,Ziekenhuisopname,5,7184
-2020-05-31,Vrouw,Ziekenhuisopname,3,4543
-2020-05-31,Niet vermeld,Ziekenhuisopname,0,8
-2020-05-31,Man,Overleden,4,3284
-2020-05-31,Vrouw,Overleden,1,2672
-2020-05-31,Niet vermeld,Overleden,0,0
-2020-06-01,Man,Totaal,44,17184
-2020-06-01,Vrouw,Totaal,60,29270
-2020-06-01,Niet vermeld,Totaal,-1,91
-2020-06-01,Man,Ziekenhuisopname,6,7190
-2020-06-01,Vrouw,Ziekenhuisopname,3,4546
-2020-06-01,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-01,Man,Overleden,5,3289
-2020-06-01,Vrouw,Overleden,1,2673
-2020-06-01,Niet vermeld,Overleden,0,0
-2020-06-02,Man,Totaal,54,17238
-2020-06-02,Vrouw,Totaal,48,29318
-2020-06-02,Niet vermeld,Totaal,0,91
-2020-06-02,Man,Ziekenhuisopname,2,7192
-2020-06-02,Vrouw,Ziekenhuisopname,4,4550
-2020-06-02,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-02,Man,Overleden,2,3291
-2020-06-02,Vrouw,Overleden,3,2676
-2020-06-02,Niet vermeld,Overleden,0,0
-2020-06-03,Man,Totaal,37,17275
-2020-06-03,Vrouw,Totaal,49,29367
-2020-06-03,Niet vermeld,Totaal,0,91
-2020-06-03,Man,Ziekenhuisopname,7,7199
-2020-06-03,Vrouw,Ziekenhuisopname,2,4552
-2020-06-03,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-03,Man,Overleden,6,3297
-2020-06-03,Vrouw,Overleden,4,2680
-2020-06-03,Niet vermeld,Overleden,0,0
-2020-06-04,Man,Totaal,109,17384
-2020-06-04,Vrouw,Totaal,100,29467
-2020-06-04,Niet vermeld,Totaal,0,91
-2020-06-04,Man,Ziekenhuisopname,7,7206
-2020-06-04,Vrouw,Ziekenhuisopname,5,4557
-2020-06-04,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-04,Man,Overleden,10,3307
-2020-06-04,Vrouw,Overleden,3,2683
-2020-06-04,Niet vermeld,Overleden,0,0
-2020-06-05,Man,Totaal,98,17482
-2020-06-05,Vrouw,Totaal,111,29578
-2020-06-05,Niet vermeld,Totaal,1,92
-2020-06-05,Man,Ziekenhuisopname,4,7210
-2020-06-05,Vrouw,Ziekenhuisopname,7,4564
-2020-06-05,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-05,Man,Overleden,6,3313
-2020-06-05,Vrouw,Overleden,9,2692
-2020-06-05,Niet vermeld,Overleden,0,0
-2020-06-06,Man,Totaal,83,17565
-2020-06-06,Vrouw,Totaal,100,29678
-2020-06-06,Niet vermeld,Totaal,0,92
-2020-06-06,Man,Ziekenhuisopname,4,7214
-2020-06-06,Vrouw,Ziekenhuisopname,-1,4563
-2020-06-06,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-06,Man,Overleden,3,3316
-2020-06-06,Vrouw,Overleden,3,2695
-2020-06-06,Niet vermeld,Overleden,0,0
-2020-06-07,Man,Totaal,103,17668
-2020-06-07,Vrouw,Totaal,135,29813
-2020-06-07,Niet vermeld,Totaal,1,93
-2020-06-07,Man,Ziekenhuisopname,2,7216
-2020-06-07,Vrouw,Ziekenhuisopname,2,4565
-2020-06-07,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-07,Man,Overleden,1,3317
-2020-06-07,Vrouw,Overleden,1,2696
-2020-06-07,Niet vermeld,Overleden,0,0
-2020-06-08,Man,Totaal,76,17744
-2020-06-08,Vrouw,Totaal,90,29903
-2020-06-08,Niet vermeld,Totaal,-1,92
-2020-06-08,Man,Ziekenhuisopname,2,7218
-2020-06-08,Vrouw,Ziekenhuisopname,3,4568
-2020-06-08,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-08,Man,Overleden,2,3319
-2020-06-08,Vrouw,Overleden,1,2697
-2020-06-08,Niet vermeld,Overleden,0,0
-2020-06-09,Man,Totaal,73,17817
-2020-06-09,Vrouw,Totaal,91,29994
-2020-06-09,Niet vermeld,Totaal,0,92
-2020-06-09,Man,Ziekenhuisopname,4,7222
-2020-06-09,Vrouw,Ziekenhuisopname,2,4570
-2020-06-09,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-09,Man,Overleden,4,3323
-2020-06-09,Vrouw,Overleden,11,2708
-2020-06-09,Niet vermeld,Overleden,0,0
-2020-06-10,Man,Totaal,78,17895
-2020-06-10,Vrouw,Totaal,106,30100
-2020-06-10,Niet vermeld,Totaal,0,92
-2020-06-10,Man,Ziekenhuisopname,2,7224
-2020-06-10,Vrouw,Ziekenhuisopname,3,4573
-2020-06-10,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-10,Man,Overleden,4,3327
-2020-06-10,Vrouw,Overleden,7,2715
-2020-06-10,Niet vermeld,Overleden,0,0
-2020-06-11,Man,Totaal,71,17966
-2020-06-11,Vrouw,Totaal,92,30192
-2020-06-11,Niet vermeld,Totaal,1,93
-2020-06-11,Man,Ziekenhuisopname,1,7225
-2020-06-11,Vrouw,Ziekenhuisopname,2,4575
-2020-06-11,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-11,Man,Overleden,0,3327
-2020-06-11,Vrouw,Overleden,2,2717
-2020-06-11,Niet vermeld,Overleden,0,0
-2020-06-12,Man,Totaal,97,18063
-2020-06-12,Vrouw,Totaal,113,30305
-2020-06-12,Niet vermeld,Totaal,0,93
-2020-06-12,Man,Ziekenhuisopname,2,7227
-2020-06-12,Vrouw,Ziekenhuisopname,3,4578
-2020-06-12,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-12,Man,Overleden,5,3332
-2020-06-12,Vrouw,Overleden,4,2721
-2020-06-12,Niet vermeld,Overleden,0,0
-2020-06-13,Man,Totaal,94,18157
-2020-06-13,Vrouw,Totaal,85,30390
-2020-06-13,Niet vermeld,Totaal,0,93
-2020-06-13,Man,Ziekenhuisopname,6,7233
-2020-06-13,Vrouw,Ziekenhuisopname,3,4581
-2020-06-13,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-13,Man,Overleden,0,3332
-2020-06-13,Vrouw,Overleden,4,2725
-2020-06-13,Niet vermeld,Overleden,0,0
-2020-06-14,Man,Totaal,63,18220
-2020-06-14,Vrouw,Totaal,80,30470
-2020-06-14,Niet vermeld,Totaal,0,93
-2020-06-14,Man,Ziekenhuisopname,2,7235
-2020-06-14,Vrouw,Ziekenhuisopname,4,4585
-2020-06-14,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-14,Man,Overleden,2,3334
-2020-06-14,Vrouw,Overleden,0,2725
-2020-06-14,Niet vermeld,Overleden,0,0
-2020-06-15,Man,Totaal,69,18289
-2020-06-15,Vrouw,Totaal,96,30566
-2020-06-15,Niet vermeld,Totaal,0,93
-2020-06-15,Man,Ziekenhuisopname,1,7236
-2020-06-15,Vrouw,Ziekenhuisopname,2,4587
-2020-06-15,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-15,Man,Overleden,3,3337
-2020-06-15,Vrouw,Overleden,3,2728
-2020-06-15,Niet vermeld,Overleden,0,0
-2020-06-16,Man,Totaal,64,18353
-2020-06-16,Vrouw,Totaal,75,30641
-2020-06-16,Niet vermeld,Totaal,0,93
-2020-06-16,Man,Ziekenhuisopname,1,7237
-2020-06-16,Vrouw,Ziekenhuisopname,2,4589
-2020-06-16,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-16,Man,Overleden,0,3337
-2020-06-16,Vrouw,Overleden,5,2733
-2020-06-16,Niet vermeld,Overleden,0,0
-2020-06-17,Man,Totaal,50,18403
-2020-06-17,Vrouw,Totaal,68,30709
-2020-06-17,Niet vermeld,Totaal,-1,92
-2020-06-17,Man,Ziekenhuisopname,2,7239
-2020-06-17,Vrouw,Ziekenhuisopname,0,4589
-2020-06-17,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-17,Man,Overleden,2,3339
-2020-06-17,Vrouw,Overleden,2,2735
-2020-06-17,Niet vermeld,Overleden,0,0
-2020-06-18,Man,Totaal,53,18456
-2020-06-18,Vrouw,Totaal,61,30770
-2020-06-18,Niet vermeld,Totaal,1,93
-2020-06-18,Man,Ziekenhuisopname,1,7240
-2020-06-18,Vrouw,Ziekenhuisopname,-2,4587
-2020-06-18,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-18,Man,Overleden,3,3342
-2020-06-18,Vrouw,Overleden,1,2736
-2020-06-18,Niet vermeld,Overleden,0,0
-2020-06-19,Man,Totaal,48,18504
-2020-06-19,Vrouw,Totaal,60,30830
-2020-06-19,Niet vermeld,Totaal,-1,92
-2020-06-19,Man,Ziekenhuisopname,5,7245
-2020-06-19,Vrouw,Ziekenhuisopname,6,4593
-2020-06-19,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-19,Man,Overleden,3,3345
-2020-06-19,Vrouw,Overleden,0,2736
-2020-06-19,Niet vermeld,Overleden,0,0
-2020-06-20,Man,Totaal,33,18537
-2020-06-20,Vrouw,Totaal,44,30874
-2020-06-20,Niet vermeld,Totaal,-1,91
-2020-06-20,Man,Ziekenhuisopname,0,7245
-2020-06-20,Vrouw,Ziekenhuisopname,0,4593
-2020-06-20,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-20,Man,Overleden,4,3349
-2020-06-20,Vrouw,Overleden,4,2740
-2020-06-20,Niet vermeld,Overleden,0,0
-2020-06-21,Man,Totaal,40,18577
-2020-06-21,Vrouw,Totaal,51,30925
-2020-06-21,Niet vermeld,Totaal,0,91
-2020-06-21,Man,Ziekenhuisopname,2,7247
-2020-06-21,Vrouw,Ziekenhuisopname,1,4594
-2020-06-21,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-21,Man,Overleden,1,3350
-2020-06-21,Vrouw,Overleden,0,2740
-2020-06-21,Niet vermeld,Overleden,0,0
-2020-06-22,Man,Totaal,33,18610
-2020-06-22,Vrouw,Totaal,32,30957
-2020-06-22,Niet vermeld,Totaal,0,91
-2020-06-22,Man,Ziekenhuisopname,1,7248
-2020-06-22,Vrouw,Ziekenhuisopname,1,4595
-2020-06-22,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-22,Man,Overleden,0,3350
-2020-06-22,Vrouw,Overleden,0,2740
-2020-06-22,Niet vermeld,Overleden,0,0
-2020-06-23,Man,Totaal,27,18637
-2020-06-23,Vrouw,Totaal,37,30994
-2020-06-23,Niet vermeld,Totaal,0,91
-2020-06-23,Man,Ziekenhuisopname,2,7250
-2020-06-23,Vrouw,Ziekenhuisopname,0,4595
-2020-06-23,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-23,Man,Overleden,4,3354
-2020-06-23,Vrouw,Overleden,1,2741
-2020-06-23,Niet vermeld,Overleden,0,0
-2020-06-24,Man,Totaal,34,18671
-2020-06-24,Vrouw,Totaal,48,31042
-2020-06-24,Niet vermeld,Totaal,0,91
-2020-06-24,Man,Ziekenhuisopname,3,7253
-2020-06-24,Vrouw,Ziekenhuisopname,3,4598
-2020-06-24,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-24,Man,Overleden,2,3356
-2020-06-24,Vrouw,Overleden,0,2741
-2020-06-24,Niet vermeld,Overleden,0,0
-2020-06-25,Man,Totaal,53,18724
-2020-06-25,Vrouw,Totaal,57,31099
-2020-06-25,Niet vermeld,Totaal,0,91
-2020-06-25,Man,Ziekenhuisopname,4,7257
-2020-06-25,Vrouw,Ziekenhuisopname,0,4598
-2020-06-25,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-25,Man,Overleden,1,3357
-2020-06-25,Vrouw,Overleden,2,2743
-2020-06-25,Niet vermeld,Overleden,0,0
-2020-06-26,Man,Totaal,38,18762
-2020-06-26,Vrouw,Totaal,53,31152
-2020-06-26,Niet vermeld,Totaal,0,91
-2020-06-26,Man,Ziekenhuisopname,3,7260
-2020-06-26,Vrouw,Ziekenhuisopname,2,4600
-2020-06-26,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-26,Man,Overleden,1,3358
-2020-06-26,Vrouw,Overleden,2,2745
-2020-06-26,Niet vermeld,Overleden,0,0
-2020-06-27,Man,Totaal,37,18799
-2020-06-27,Vrouw,Totaal,32,31184
-2020-06-27,Niet vermeld,Totaal,0,91
-2020-06-27,Man,Ziekenhuisopname,1,7261
-2020-06-27,Vrouw,Ziekenhuisopname,-1,4599
-2020-06-27,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-27,Man,Overleden,0,3358
-2020-06-27,Vrouw,Overleden,2,2747
-2020-06-27,Niet vermeld,Overleden,0,0
-2020-06-28,Man,Totaal,35,18834
-2020-06-28,Vrouw,Totaal,38,31222
-2020-06-28,Niet vermeld,Totaal,0,91
-2020-06-28,Man,Ziekenhuisopname,3,7264
-2020-06-28,Vrouw,Ziekenhuisopname,0,4599
-2020-06-28,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-28,Man,Overleden,0,3358
-2020-06-28,Vrouw,Overleden,0,2747
-2020-06-28,Niet vermeld,Overleden,0,0
-2020-06-29,Man,Totaal,37,18871
-2020-06-29,Vrouw,Totaal,38,31260
-2020-06-29,Niet vermeld,Totaal,1,92
-2020-06-29,Man,Ziekenhuisopname,2,7266
-2020-06-29,Vrouw,Ziekenhuisopname,1,4600
-2020-06-29,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-29,Man,Overleden,0,3358
-2020-06-29,Vrouw,Overleden,2,2749
-2020-06-29,Niet vermeld,Overleden,0,0
-2020-06-30,Man,Totaal,29,18900
-2020-06-30,Vrouw,Totaal,22,31282
-2020-06-30,Niet vermeld,Totaal,-1,91
-2020-06-30,Man,Ziekenhuisopname,1,7267
-2020-06-30,Vrouw,Ziekenhuisopname,2,4602
-2020-06-30,Niet vermeld,Ziekenhuisopname,0,8
-2020-06-30,Man,Overleden,4,3362
-2020-06-30,Vrouw,Overleden,2,2751
-2020-06-30,Niet vermeld,Overleden,0,0
-2020-07-07,Man,Totaal,,19103
-2020-07-07,Vrouw,Totaal,,31500
-2020-07-07,Niet vermeld,Totaal,,91
-2020-07-07,Man,Ziekenhuisopname,,7269
-2020-07-07,Vrouw,Ziekenhuisopname,,4609
-2020-07-07,Niet vermeld,Ziekenhuisopname,,8
-2020-07-07,Man,Overleden,,3372
-2020-07-07,Vrouw,Overleden,,2760
-2020-07-07,Niet vermeld,Overleden,,0
-2020-07-14,Man,Totaal,,19336
-2020-07-14,Vrouw,Totaal,,31719
-2020-07-14,Niet vermeld,Totaal,,91
-2020-07-14,Man,Ziekenhuisopname,,7276
-2020-07-14,Vrouw,Ziekenhuisopname,,4608
-2020-07-14,Niet vermeld,Ziekenhuisopname,,8
-2020-07-14,Man,Overleden,,3373
-2020-07-14,Vrouw,Overleden,,2762
-2020-07-14,Niet vermeld,Overleden,,0
-2020-07-21,Man,Totaal,,19773
-2020-07-21,Vrouw,Totaal,,32209
-2020-07-21,Niet vermeld,Totaal,,91
-2020-07-21,Man,Ziekenhuisopname,,7284
-2020-07-21,Vrouw,Ziekenhuisopname,,4610
-2020-07-21,Niet vermeld,Ziekenhuisopname,,8
-2020-07-21,Man,Overleden,,3374
-2020-07-21,Vrouw,Overleden,,2762
-2020-07-21,Niet vermeld,Overleden,,0
-2020-07-28,Man,Totaal,,20401
-2020-07-28,Vrouw,Totaal,,32882
-2020-07-28,Niet vermeld,Totaal,,91
-2020-07-28,Man,Ziekenhuisopname,,7295
-2020-07-28,Vrouw,Ziekenhuisopname,,4616
-2020-07-28,Niet vermeld,Ziekenhuisopname,,8
-2020-07-28,Man,Overleden,,3378
-2020-07-28,Vrouw,Overleden,,2767
-2020-07-28,Niet vermeld,Overleden,,0
-2020-08-04,Man,Totaal,,21619
-2020-08-04,Vrouw,Totaal,,34245
-2020-08-04,Niet vermeld,Totaal,,91
-2020-08-04,Man,Ziekenhuisopname,,7318
-2020-08-04,Vrouw,Ziekenhuisopname,,4633
-2020-08-04,Niet vermeld,Ziekenhuisopname,,8
-2020-08-04,Man,Overleden,,3381
-2020-08-04,Vrouw,Overleden,,2769
-2020-08-04,Niet vermeld,Overleden,,0
-2020-08-11,Man,Totaal,,23428
-2020-08-11,Vrouw,Totaal,,36454
-2020-08-11,Niet vermeld,Totaal,,91
-2020-08-11,Man,Ziekenhuisopname,,7342
-2020-08-11,Vrouw,Ziekenhuisopname,,4644
-2020-08-11,Niet vermeld,Ziekenhuisopname,,8
-2020-08-11,Man,Overleden,,3386
-2020-08-11,Vrouw,Overleden,,2773
-2020-08-11,Niet vermeld,Overleden,,0
+Datum,Bron,Geslacht,Type,Aantal,AantalCumulatief
+2020-03-23,RIVM_report_20200323,Man,Totaal,,2330
+2020-03-23,RIVM_report_20200323,Vrouw,Totaal,,2394
+2020-03-23,RIVM_report_20200323,Niet vermeld,Totaal,,25
+2020-03-23,RIVM_report_20200323,Man,Ziekenhuisopname,,772
+2020-03-23,RIVM_report_20200323,Vrouw,Ziekenhuisopname,,453
+2020-03-23,RIVM_report_20200323,Niet vermeld,Ziekenhuisopname,,5
+2020-03-23,RIVM_report_20200323,Man,Overleden,,133
+2020-03-23,RIVM_report_20200323,Vrouw,Overleden,,79
+2020-03-23,RIVM_report_20200323,Niet vermeld,Overleden,,1
+2020-03-24,RIVM_report_20200324,Man,Totaal,434,2764
+2020-03-24,RIVM_report_20200324,Vrouw,Totaal,373,2767
+2020-03-24,RIVM_report_20200324,Niet vermeld,Totaal,4,29
+2020-03-24,RIVM_report_20200324,Man,Ziekenhuisopname,174,946
+2020-03-24,RIVM_report_20200324,Vrouw,Ziekenhuisopname,88,541
+2020-03-24,RIVM_report_20200324,Niet vermeld,Ziekenhuisopname,3,8
+2020-03-24,RIVM_report_20200324,Man,Overleden,45,178
+2020-03-24,RIVM_report_20200324,Vrouw,Overleden,18,97
+2020-03-24,RIVM_report_20200324,Niet vermeld,Overleden,0,1
+2020-03-25,RIVM_report_20200325,Man,Totaal,417,3181
+2020-03-25,RIVM_report_20200325,Vrouw,Totaal,432,3199
+2020-03-25,RIVM_report_20200325,Niet vermeld,Totaal,3,32
+2020-03-25,RIVM_report_20200325,Man,Ziekenhuisopname,209,1155
+2020-03-25,RIVM_report_20200325,Vrouw,Ziekenhuisopname,132,673
+2020-03-25,RIVM_report_20200325,Niet vermeld,Ziekenhuisopname,0,8
+2020-03-25,RIVM_report_20200325,Man,Overleden,48,226
+2020-03-25,RIVM_report_20200325,Vrouw,Overleden,31,128
+2020-03-25,RIVM_report_20200325,Niet vermeld,Overleden,1,2
+2020-03-26,RIVM_report_20200326,Man,Totaal,490,3671
+2020-03-26,RIVM_report_20200326,Vrouw,Totaal,530,3729
+2020-03-26,RIVM_report_20200326,Niet vermeld,Totaal,-1,31
+2020-03-26,RIVM_report_20200326,Man,Ziekenhuisopname,191,1346
+2020-03-26,RIVM_report_20200326,Vrouw,Ziekenhuisopname,124,797
+2020-03-26,RIVM_report_20200326,Niet vermeld,Ziekenhuisopname,0,8
+2020-03-26,RIVM_report_20200326,Man,Overleden,53,279
+2020-03-26,RIVM_report_20200326,Vrouw,Overleden,25,153
+2020-03-26,RIVM_report_20200326,Niet vermeld,Overleden,0,2
+2020-03-27,RIVM_report_20200327,Man,Totaal,596,4267
+2020-03-27,RIVM_report_20200327,Vrouw,Totaal,580,4309
+2020-03-27,RIVM_report_20200327,Niet vermeld,Totaal,-4,27
+2020-03-27,RIVM_report_20200327,Man,Ziekenhuisopname,198,1544
+2020-03-27,RIVM_report_20200327,Vrouw,Ziekenhuisopname,154,951
+2020-03-27,RIVM_report_20200327,Niet vermeld,Ziekenhuisopname,-3,5
+2020-03-27,RIVM_report_20200327,Man,Overleden,71,350
+2020-03-27,RIVM_report_20200327,Vrouw,Overleden,40,193
+2020-03-27,RIVM_report_20200327,Niet vermeld,Overleden,1,3
+2020-03-28,RIVM_report_20200328,Man,Totaal,585,4852
+2020-03-28,RIVM_report_20200328,Vrouw,Totaal,572,4881
+2020-03-28,RIVM_report_20200328,Niet vermeld,Totaal,2,29
+2020-03-28,RIVM_report_20200328,Man,Ziekenhuisopname,288,1832
+2020-03-28,RIVM_report_20200328,Vrouw,Ziekenhuisopname,166,1117
+2020-03-28,RIVM_report_20200328,Niet vermeld,Ziekenhuisopname,0,5
+2020-03-28,RIVM_report_20200328,Man,Overleden,54,404
+2020-03-28,RIVM_report_20200328,Vrouw,Overleden,39,232
+2020-03-28,RIVM_report_20200328,Niet vermeld,Overleden,0,3
+2020-03-29,RIVM_report_20200329,Man,Totaal,551,5403
+2020-03-29,RIVM_report_20200329,Vrouw,Totaal,552,5433
+2020-03-29,RIVM_report_20200329,Niet vermeld,Totaal,1,30
+2020-03-29,RIVM_report_20200329,Man,Ziekenhuisopname,340,2172
+2020-03-29,RIVM_report_20200329,Vrouw,Ziekenhuisopname,189,1306
+2020-03-29,RIVM_report_20200329,Niet vermeld,Ziekenhuisopname,0,5
+2020-03-29,RIVM_report_20200329,Man,Overleden,77,481
+2020-03-29,RIVM_report_20200329,Vrouw,Overleden,55,287
+2020-03-29,RIVM_report_20200329,Niet vermeld,Overleden,0,3
+2020-03-30,RIVM_report_20200330,Man,Totaal,487,5890
+2020-03-30,RIVM_report_20200330,Vrouw,Totaal,399,5832
+2020-03-30,RIVM_report_20200330,Niet vermeld,Totaal,-2,28
+2020-03-30,RIVM_report_20200330,Man,Ziekenhuisopname,330,2502
+2020-03-30,RIVM_report_20200330,Vrouw,Ziekenhuisopname,177,1483
+2020-03-30,RIVM_report_20200330,Niet vermeld,Ziekenhuisopname,0,5
+2020-03-30,RIVM_report_20200330,Man,Overleden,59,540
+2020-03-30,RIVM_report_20200330,Vrouw,Overleden,34,321
+2020-03-30,RIVM_report_20200330,Niet vermeld,Overleden,0,3
+2020-03-31,RIVM_report_20200331,Man,Totaal,427,6317
+2020-03-31,RIVM_report_20200331,Vrouw,Totaal,426,6258
+2020-03-31,RIVM_report_20200331,Niet vermeld,Totaal,-8,20
+2020-03-31,RIVM_report_20200331,Man,Ziekenhuisopname,452,2954
+2020-03-31,RIVM_report_20200331,Vrouw,Ziekenhuisopname,271,1754
+2020-03-31,RIVM_report_20200331,Niet vermeld,Ziekenhuisopname,-1,4
+2020-03-31,RIVM_report_20200331,Man,Overleden,97,637
+2020-03-31,RIVM_report_20200331,Vrouw,Overleden,78,399
+2020-03-31,RIVM_report_20200331,Niet vermeld,Overleden,0,3
+2020-04-01,RIVM_report_20200401,Man,Totaal,479,6796
+2020-04-01,RIVM_report_20200401,Vrouw,Totaal,545,6803
+2020-04-01,RIVM_report_20200401,Niet vermeld,Totaal,-5,15
+2020-04-01,RIVM_report_20200401,Man,Ziekenhuisopname,271,3225
+2020-04-01,RIVM_report_20200401,Vrouw,Ziekenhuisopname,177,1931
+2020-04-01,RIVM_report_20200401,Niet vermeld,Ziekenhuisopname,-1,3
+2020-04-01,RIVM_report_20200401,Man,Overleden,84,721
+2020-04-01,RIVM_report_20200401,Vrouw,Overleden,53,452
+2020-04-01,RIVM_report_20200401,Niet vermeld,Overleden,-3,0
+2020-04-02,RIVM_report_20200402,Man,Totaal,482,7278
+2020-04-02,RIVM_report_20200402,Vrouw,Totaal,592,7395
+2020-04-02,RIVM_report_20200402,Niet vermeld,Totaal,9,24
+2020-04-02,RIVM_report_20200402,Man,Ziekenhuisopname,408,3633
+2020-04-02,RIVM_report_20200402,Vrouw,Ziekenhuisopname,215,2146
+2020-04-02,RIVM_report_20200402,Niet vermeld,Ziekenhuisopname,2,5
+2020-04-02,RIVM_report_20200402,Man,Overleden,103,824
+2020-04-02,RIVM_report_20200402,Vrouw,Overleden,63,515
+2020-04-02,RIVM_report_20200402,Niet vermeld,Overleden,0,0
+2020-04-03,RIVM_report_20200403,Man,Totaal,442,7720
+2020-04-03,RIVM_report_20200403,Vrouw,Totaal,589,7984
+2020-04-03,RIVM_report_20200403,Niet vermeld,Totaal,-5,19
+2020-04-03,RIVM_report_20200403,Man,Ziekenhuisopname,313,3946
+2020-04-03,RIVM_report_20200403,Vrouw,Ziekenhuisopname,188,2334
+2020-04-03,RIVM_report_20200403,Niet vermeld,Ziekenhuisopname,1,6
+2020-04-03,RIVM_report_20200403,Man,Overleden,85,909
+2020-04-03,RIVM_report_20200403,Vrouw,Overleden,63,578
+2020-04-03,RIVM_report_20200403,Niet vermeld,Overleden,0,0
+2020-04-04,RIVM_report_20200404,Man,Totaal,351,8071
+2020-04-04,RIVM_report_20200404,Vrouw,Totaal,551,8535
+2020-04-04,RIVM_report_20200404,Niet vermeld,Totaal,2,21
+2020-04-04,RIVM_report_20200404,Man,Ziekenhuisopname,227,4173
+2020-04-04,RIVM_report_20200404,Vrouw,Ziekenhuisopname,109,2443
+2020-04-04,RIVM_report_20200404,Niet vermeld,Ziekenhuisopname,0,6
+2020-04-04,RIVM_report_20200404,Man,Overleden,101,1010
+2020-04-04,RIVM_report_20200404,Vrouw,Overleden,63,641
+2020-04-04,RIVM_report_20200404,Niet vermeld,Overleden,0,0
+2020-04-05,RIVM_report_20200405,Man,Totaal,486,8557
+2020-04-05,RIVM_report_20200405,Vrouw,Totaal,736,9271
+2020-04-05,RIVM_report_20200405,Niet vermeld,Totaal,2,23
+2020-04-05,RIVM_report_20200405,Man,Ziekenhuisopname,152,4325
+2020-04-05,RIVM_report_20200405,Vrouw,Ziekenhuisopname,102,2545
+2020-04-05,RIVM_report_20200405,Niet vermeld,Ziekenhuisopname,-1,5
+2020-04-05,RIVM_report_20200405,Man,Overleden,75,1085
+2020-04-05,RIVM_report_20200405,Vrouw,Overleden,40,681
+2020-04-05,RIVM_report_20200405,Niet vermeld,Overleden,0,0
+2020-04-06,RIVM_report_20200406,Man,Totaal,332,8889
+2020-04-06,RIVM_report_20200406,Vrouw,Totaal,621,9892
+2020-04-06,RIVM_report_20200406,Niet vermeld,Totaal,-1,22
+2020-04-06,RIVM_report_20200406,Man,Ziekenhuisopname,140,4465
+2020-04-06,RIVM_report_20200406,Vrouw,Ziekenhuisopname,120,2665
+2020-04-06,RIVM_report_20200406,Niet vermeld,Ziekenhuisopname,0,5
+2020-04-06,RIVM_report_20200406,Man,Overleden,71,1156
+2020-04-06,RIVM_report_20200406,Vrouw,Overleden,30,711
+2020-04-06,RIVM_report_20200406,Niet vermeld,Overleden,0,0
+2020-04-07,RIVM_report_20200407,Man,Totaal,316,9205
+2020-04-07,RIVM_report_20200407,Vrouw,Totaal,461,10353
+2020-04-07,RIVM_report_20200407,Niet vermeld,Totaal,0,22
+2020-04-07,RIVM_report_20200407,Man,Ziekenhuisopname,180,4645
+2020-04-07,RIVM_report_20200407,Vrouw,Ziekenhuisopname,112,2777
+2020-04-07,RIVM_report_20200407,Niet vermeld,Ziekenhuisopname,0,5
+2020-04-07,RIVM_report_20200407,Man,Overleden,133,1289
+2020-04-07,RIVM_report_20200407,Vrouw,Overleden,101,812
+2020-04-07,RIVM_report_20200407,Niet vermeld,Overleden,0,0
+2020-04-08,RIVM_report_20200408,Man,Totaal,367,9572
+2020-04-08,RIVM_report_20200408,Vrouw,Totaal,601,10954
+2020-04-08,RIVM_report_20200408,Niet vermeld,Totaal,1,23
+2020-04-08,RIVM_report_20200408,Man,Ziekenhuisopname,181,4826
+2020-04-08,RIVM_report_20200408,Vrouw,Ziekenhuisopname,126,2903
+2020-04-08,RIVM_report_20200408,Niet vermeld,Ziekenhuisopname,1,6
+2020-04-08,RIVM_report_20200408,Man,Overleden,94,1383
+2020-04-08,RIVM_report_20200408,Vrouw,Overleden,53,865
+2020-04-08,RIVM_report_20200408,Niet vermeld,Overleden,0,0
+2020-04-09,RIVM_report_20200409,Man,Totaal,421,9993
+2020-04-09,RIVM_report_20200409,Vrouw,Totaal,789,11743
+2020-04-09,RIVM_report_20200409,Niet vermeld,Totaal,3,26
+2020-04-09,RIVM_report_20200409,Man,Ziekenhuisopname,142,4968
+2020-04-09,RIVM_report_20200409,Vrouw,Ziekenhuisopname,95,2998
+2020-04-09,RIVM_report_20200409,Niet vermeld,Ziekenhuisopname,0,6
+2020-04-09,RIVM_report_20200409,Man,Overleden,84,1467
+2020-04-09,RIVM_report_20200409,Vrouw,Overleden,64,929
+2020-04-09,RIVM_report_20200409,Niet vermeld,Overleden,0,0
+2020-04-10,RIVM_report_20200410,Man,Totaal,399,10392
+2020-04-10,RIVM_report_20200410,Vrouw,Totaal,936,12679
+2020-04-10,RIVM_report_20200410,Niet vermeld,Totaal,0,26
+2020-04-10,RIVM_report_20200410,Man,Ziekenhuisopname,127,5095
+2020-04-10,RIVM_report_20200410,Vrouw,Ziekenhuisopname,98,3096
+2020-04-10,RIVM_report_20200410,Niet vermeld,Ziekenhuisopname,0,6
+2020-04-10,RIVM_report_20200410,Man,Overleden,62,1529
+2020-04-10,RIVM_report_20200410,Vrouw,Overleden,53,982
+2020-04-10,RIVM_report_20200410,Niet vermeld,Overleden,0,0
+2020-04-11,RIVM_report_20200411,Man,Totaal,389,10781
+2020-04-11,RIVM_report_20200411,Vrouw,Totaal,920,13599
+2020-04-11,RIVM_report_20200411,Niet vermeld,Totaal,7,33
+2020-04-11,RIVM_report_20200411,Man,Ziekenhuisopname,119,5214
+2020-04-11,RIVM_report_20200411,Vrouw,Ziekenhuisopname,69,3165
+2020-04-11,RIVM_report_20200411,Niet vermeld,Ziekenhuisopname,1,7
+2020-04-11,RIVM_report_20200411,Man,Overleden,69,1598
+2020-04-11,RIVM_report_20200411,Vrouw,Overleden,63,1045
+2020-04-11,RIVM_report_20200411,Niet vermeld,Overleden,0,0
+2020-04-12,RIVM_report_20200412,Man,Totaal,335,11116
+2020-04-12,RIVM_report_20200412,Vrouw,Totaal,837,14436
+2020-04-12,RIVM_report_20200412,Niet vermeld,Totaal,2,35
+2020-04-12,RIVM_report_20200412,Man,Ziekenhuisopname,122,5336
+2020-04-12,RIVM_report_20200412,Vrouw,Ziekenhuisopname,74,3239
+2020-04-12,RIVM_report_20200412,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-12,RIVM_report_20200412,Man,Overleden,53,1651
+2020-04-12,RIVM_report_20200412,Vrouw,Overleden,41,1086
+2020-04-12,RIVM_report_20200412,Niet vermeld,Overleden,0,0
+2020-04-13,RIVM_report_20200413,Man,Totaal,223,11339
+2020-04-13,RIVM_report_20200413,Vrouw,Totaal,742,15178
+2020-04-13,RIVM_report_20200413,Niet vermeld,Totaal,-1,34
+2020-04-13,RIVM_report_20200413,Man,Ziekenhuisopname,95,5431
+2020-04-13,RIVM_report_20200413,Vrouw,Ziekenhuisopname,52,3291
+2020-04-13,RIVM_report_20200413,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-13,RIVM_report_20200413,Man,Overleden,52,1703
+2020-04-13,RIVM_report_20200413,Vrouw,Overleden,34,1120
+2020-04-13,RIVM_report_20200413,Niet vermeld,Overleden,0,0
+2020-04-14,RIVM_report_20200414,Man,Totaal,269,11608
+2020-04-14,RIVM_report_20200414,Vrouw,Totaal,595,15773
+2020-04-14,RIVM_report_20200414,Niet vermeld,Totaal,4,38
+2020-04-14,RIVM_report_20200414,Man,Ziekenhuisopname,113,5544
+2020-04-14,RIVM_report_20200414,Vrouw,Ziekenhuisopname,97,3388
+2020-04-14,RIVM_report_20200414,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-14,RIVM_report_20200414,Man,Overleden,79,1782
+2020-04-14,RIVM_report_20200414,Vrouw,Overleden,43,1163
+2020-04-14,RIVM_report_20200414,Niet vermeld,Overleden,0,0
+2020-04-15,RIVM_report_20200415,Man,Totaal,247,11855
+2020-04-15,RIVM_report_20200415,Vrouw,Totaal,487,16260
+2020-04-15,RIVM_report_20200415,Niet vermeld,Totaal,0,38
+2020-04-15,RIVM_report_20200415,Man,Ziekenhuisopname,107,5651
+2020-04-15,RIVM_report_20200415,Vrouw,Ziekenhuisopname,81,3469
+2020-04-15,RIVM_report_20200415,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-15,RIVM_report_20200415,Man,Overleden,110,1892
+2020-04-15,RIVM_report_20200415,Vrouw,Overleden,79,1242
+2020-04-15,RIVM_report_20200415,Niet vermeld,Overleden,0,0
+2020-04-16,RIVM_report_20200416,Man,Totaal,296,12151
+2020-04-16,RIVM_report_20200416,Vrouw,Totaal,760,17020
+2020-04-16,RIVM_report_20200416,Niet vermeld,Totaal,5,43
+2020-04-16,RIVM_report_20200416,Man,Ziekenhuisopname,107,5758
+2020-04-16,RIVM_report_20200416,Vrouw,Ziekenhuisopname,74,3543
+2020-04-16,RIVM_report_20200416,Niet vermeld,Ziekenhuisopname,1,8
+2020-04-16,RIVM_report_20200416,Man,Overleden,87,1979
+2020-04-16,RIVM_report_20200416,Vrouw,Overleden,94,1336
+2020-04-16,RIVM_report_20200416,Niet vermeld,Overleden,0,0
+2020-04-17,RIVM_report_20200417,Man,Totaal,302,12453
+2020-04-17,RIVM_report_20200417,Vrouw,Totaal,933,17953
+2020-04-17,RIVM_report_20200417,Niet vermeld,Totaal,0,43
+2020-04-17,RIVM_report_20200417,Man,Ziekenhuisopname,83,5841
+2020-04-17,RIVM_report_20200417,Vrouw,Ziekenhuisopname,73,3616
+2020-04-17,RIVM_report_20200417,Niet vermeld,Ziekenhuisopname,0,8
+2020-04-17,RIVM_report_20200417,Man,Overleden,76,2055
+2020-04-17,RIVM_report_20200417,Vrouw,Overleden,68,1404
+2020-04-17,RIVM_report_20200417,Niet vermeld,Overleden,0,0
+2020-04-18,RIVM_report_20200418,Man,Totaal,284,12737
+2020-04-18,RIVM_report_20200418,Vrouw,Totaal,856,18809
+2020-04-18,RIVM_report_20200418,Niet vermeld,Totaal,0,43
+2020-04-18,RIVM_report_20200418,Man,Ziekenhuisopname,73,5914
+2020-04-18,RIVM_report_20200418,Vrouw,Ziekenhuisopname,57,3673
+2020-04-18,RIVM_report_20200418,Niet vermeld,Ziekenhuisopname,-1,7
+2020-04-18,RIVM_report_20200418,Man,Overleden,72,2127
+2020-04-18,RIVM_report_20200418,Vrouw,Overleden,70,1474
+2020-04-18,RIVM_report_20200418,Niet vermeld,Overleden,0,0
+2020-04-19,RIVM_report_20200419,Man,Totaal,245,12982
+2020-04-19,RIVM_report_20200419,Vrouw,Totaal,820,19629
+2020-04-19,RIVM_report_20200419,Niet vermeld,Totaal,1,44
+2020-04-19,RIVM_report_20200419,Man,Ziekenhuisopname,69,5983
+2020-04-19,RIVM_report_20200419,Vrouw,Ziekenhuisopname,41,3714
+2020-04-19,RIVM_report_20200419,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-19,RIVM_report_20200419,Man,Overleden,43,2170
+2020-04-19,RIVM_report_20200419,Vrouw,Overleden,40,1514
+2020-04-19,RIVM_report_20200419,Niet vermeld,Overleden,0,0
+2020-04-20,RIVM_report_20200420,Man,Totaal,202,13184
+2020-04-20,RIVM_report_20200420,Vrouw,Totaal,548,20177
+2020-04-20,RIVM_report_20200420,Niet vermeld,Totaal,0,44
+2020-04-20,RIVM_report_20200420,Man,Ziekenhuisopname,42,6025
+2020-04-20,RIVM_report_20200420,Vrouw,Ziekenhuisopname,33,3747
+2020-04-20,RIVM_report_20200420,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-20,RIVM_report_20200420,Man,Overleden,38,2208
+2020-04-20,RIVM_report_20200420,Vrouw,Overleden,29,1543
+2020-04-20,RIVM_report_20200420,Niet vermeld,Overleden,0,0
+2020-04-21,RIVM_report_20200421,Man,Totaal,189,13373
+2020-04-21,RIVM_report_20200421,Vrouw,Totaal,539,20716
+2020-04-21,RIVM_report_20200421,Niet vermeld,Totaal,1,45
+2020-04-21,RIVM_report_20200421,Man,Ziekenhuisopname,78,6103
+2020-04-21,RIVM_report_20200421,Vrouw,Ziekenhuisopname,40,3787
+2020-04-21,RIVM_report_20200421,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-21,RIVM_report_20200421,Man,Overleden,92,2300
+2020-04-21,RIVM_report_20200421,Vrouw,Overleden,73,1616
+2020-04-21,RIVM_report_20200421,Niet vermeld,Overleden,0,0
+2020-04-22,RIVM_report_20200422,Man,Totaal,193,13566
+2020-04-22,RIVM_report_20200422,Vrouw,Totaal,515,21231
+2020-04-22,RIVM_report_20200422,Niet vermeld,Totaal,0,45
+2020-04-22,RIVM_report_20200422,Man,Ziekenhuisopname,76,6179
+2020-04-22,RIVM_report_20200422,Vrouw,Ziekenhuisopname,48,3835
+2020-04-22,RIVM_report_20200422,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-22,RIVM_report_20200422,Man,Overleden,64,2364
+2020-04-22,RIVM_report_20200422,Vrouw,Overleden,74,1690
+2020-04-22,RIVM_report_20200422,Niet vermeld,Overleden,0,0
+2020-04-23,RIVM_report_20200423,Man,Totaal,213,13779
+2020-04-23,RIVM_report_20200423,Vrouw,Totaal,671,21902
+2020-04-23,RIVM_report_20200423,Niet vermeld,Totaal,3,48
+2020-04-23,RIVM_report_20200423,Man,Ziekenhuisopname,82,6261
+2020-04-23,RIVM_report_20200423,Vrouw,Ziekenhuisopname,55,3890
+2020-04-23,RIVM_report_20200423,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-23,RIVM_report_20200423,Man,Overleden,53,2417
+2020-04-23,RIVM_report_20200423,Vrouw,Overleden,70,1760
+2020-04-23,RIVM_report_20200423,Niet vermeld,Overleden,0,0
+2020-04-24,RIVM_report_20200424,Man,Totaal,210,13989
+2020-04-24,RIVM_report_20200424,Vrouw,Totaal,597,22499
+2020-04-24,RIVM_report_20200424,Niet vermeld,Totaal,-1,47
+2020-04-24,RIVM_report_20200424,Man,Ziekenhuisopname,70,6331
+2020-04-24,RIVM_report_20200424,Vrouw,Ziekenhuisopname,53,3943
+2020-04-24,RIVM_report_20200424,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-24,RIVM_report_20200424,Man,Overleden,66,2483
+2020-04-24,RIVM_report_20200424,Vrouw,Overleden,46,1806
+2020-04-24,RIVM_report_20200424,Niet vermeld,Overleden,0,0
+2020-04-25,RIVM_report_20200425,Man,Totaal,165,14154
+2020-04-25,RIVM_report_20200425,Vrouw,Totaal,490,22989
+2020-04-25,RIVM_report_20200425,Niet vermeld,Totaal,0,47
+2020-04-25,RIVM_report_20200425,Man,Ziekenhuisopname,57,6388
+2020-04-25,RIVM_report_20200425,Vrouw,Ziekenhuisopname,43,3986
+2020-04-25,RIVM_report_20200425,Niet vermeld,Ziekenhuisopname,0,7
+2020-04-25,RIVM_report_20200425,Man,Overleden,64,2547
+2020-04-25,RIVM_report_20200425,Vrouw,Overleden,56,1862
+2020-04-25,RIVM_report_20200425,Niet vermeld,Overleden,0,0
+2020-04-26,RIVM_report_20200426,Man,Totaal,188,14342
+2020-04-26,RIVM_report_20200426,Vrouw,Totaal,464,23453
+2020-04-26,RIVM_report_20200426,Niet vermeld,Totaal,3,50
+2020-04-26,RIVM_report_20200426,Man,Ziekenhuisopname,44,6432
+2020-04-26,RIVM_report_20200426,Vrouw,Ziekenhuisopname,30,4016
+2020-04-26,RIVM_report_20200426,Niet vermeld,Ziekenhuisopname,1,8
+2020-04-26,RIVM_report_20200426,Man,Overleden,28,2575
+2020-04-26,RIVM_report_20200426,Vrouw,Overleden,38,1900
+2020-04-26,RIVM_report_20200426,Niet vermeld,Overleden,0,0
+2020-04-27,RIVM_report_20200427,Man,Totaal,97,14439
+2020-04-27,RIVM_report_20200427,Vrouw,Totaal,302,23755
+2020-04-27,RIVM_report_20200427,Niet vermeld,Totaal,1,51
+2020-04-27,RIVM_report_20200427,Man,Ziekenhuisopname,37,6469
+2020-04-27,RIVM_report_20200427,Vrouw,Ziekenhuisopname,28,4044
+2020-04-27,RIVM_report_20200427,Niet vermeld,Ziekenhuisopname,0,8
+2020-04-27,RIVM_report_20200427,Man,Overleden,22,2597
+2020-04-27,RIVM_report_20200427,Vrouw,Overleden,21,1921
+2020-04-27,RIVM_report_20200427,Niet vermeld,Overleden,0,0
+2020-04-28,RIVM_report_20200428,Man,Totaal,53,14492
+2020-04-28,RIVM_report_20200428,Vrouw,Totaal,118,23873
+2020-04-28,RIVM_report_20200428,Niet vermeld,Totaal,0,51
+2020-04-28,RIVM_report_20200428,Man,Ziekenhuisopname,59,6528
+2020-04-28,RIVM_report_20200428,Vrouw,Ziekenhuisopname,29,4073
+2020-04-28,RIVM_report_20200428,Niet vermeld,Ziekenhuisopname,0,8
+2020-04-28,RIVM_report_20200428,Man,Overleden,24,2621
+2020-04-28,RIVM_report_20200428,Vrouw,Overleden,24,1945
+2020-04-28,RIVM_report_20200428,Niet vermeld,Overleden,0,0
+2020-04-29,RIVM_report_20200429,Man,Totaal,123,14615
+2020-04-29,RIVM_report_20200429,Vrouw,Totaal,266,24139
+2020-04-29,RIVM_report_20200429,Niet vermeld,Totaal,-3,48
+2020-04-29,RIVM_report_20200429,Man,Ziekenhuisopname,40,6568
+2020-04-29,RIVM_report_20200429,Vrouw,Ziekenhuisopname,36,4109
+2020-04-29,RIVM_report_20200429,Niet vermeld,Ziekenhuisopname,0,8
+2020-04-29,RIVM_report_20200429,Man,Overleden,70,2691
+2020-04-29,RIVM_report_20200429,Vrouw,Overleden,75,2020
+2020-04-29,RIVM_report_20200429,Niet vermeld,Overleden,0,0
+2020-04-30,RIVM_report_20200430,Man,Totaal,145,14760
+2020-04-30,RIVM_report_20200430,Vrouw,Totaal,369,24508
+2020-04-30,RIVM_report_20200430,Niet vermeld,Totaal,0,48
+2020-04-30,RIVM_report_20200430,Man,Ziekenhuisopname,50,6618
+2020-04-30,RIVM_report_20200430,Vrouw,Ziekenhuisopname,34,4143
+2020-04-30,RIVM_report_20200430,Niet vermeld,Ziekenhuisopname,0,8
+2020-04-30,RIVM_report_20200430,Man,Overleden,33,2724
+2020-04-30,RIVM_report_20200430,Vrouw,Overleden,51,2071
+2020-04-30,RIVM_report_20200430,Niet vermeld,Overleden,0,0
+2020-05-01,RIVM_report_20200501,Man,Totaal,123,14883
+2020-05-01,RIVM_report_20200501,Vrouw,Totaal,345,24853
+2020-05-01,RIVM_report_20200501,Niet vermeld,Totaal,7,55
+2020-05-01,RIVM_report_20200501,Man,Ziekenhuisopname,50,6668
+2020-05-01,RIVM_report_20200501,Vrouw,Ziekenhuisopname,35,4178
+2020-05-01,RIVM_report_20200501,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-01,RIVM_report_20200501,Man,Overleden,56,2780
+2020-05-01,RIVM_report_20200501,Vrouw,Overleden,42,2113
+2020-05-01,RIVM_report_20200501,Niet vermeld,Overleden,0,0
+2020-05-02,RIVM_report_20200502,Man,Totaal,135,15018
+2020-05-02,RIVM_report_20200502,Vrouw,Totaal,310,25163
+2020-05-02,RIVM_report_20200502,Niet vermeld,Totaal,0,55
+2020-05-02,RIVM_report_20200502,Man,Ziekenhuisopname,51,6719
+2020-05-02,RIVM_report_20200502,Vrouw,Ziekenhuisopname,46,4224
+2020-05-02,RIVM_report_20200502,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-02,RIVM_report_20200502,Man,Overleden,46,2826
+2020-05-02,RIVM_report_20200502,Vrouw,Overleden,48,2161
+2020-05-02,RIVM_report_20200502,Niet vermeld,Overleden,0,0
+2020-05-03,RIVM_report_20200503,Man,Totaal,84,15102
+2020-05-03,RIVM_report_20200503,Vrouw,Totaal,253,25416
+2020-05-03,RIVM_report_20200503,Niet vermeld,Totaal,-2,53
+2020-05-03,RIVM_report_20200503,Man,Ziekenhuisopname,21,6740
+2020-05-03,RIVM_report_20200503,Vrouw,Ziekenhuisopname,23,4247
+2020-05-03,RIVM_report_20200503,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-03,RIVM_report_20200503,Man,Overleden,33,2859
+2020-05-03,RIVM_report_20200503,Vrouw,Overleden,36,2197
+2020-05-03,RIVM_report_20200503,Niet vermeld,Overleden,0,0
+2020-05-04,RIVM_report_20200504,Man,Totaal,50,15152
+2020-05-04,RIVM_report_20200504,Vrouw,Totaal,150,25566
+2020-05-04,RIVM_report_20200504,Niet vermeld,Totaal,-1,52
+2020-05-04,RIVM_report_20200504,Man,Ziekenhuisopname,27,6767
+2020-05-04,RIVM_report_20200504,Vrouw,Ziekenhuisopname,15,4262
+2020-05-04,RIVM_report_20200504,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-04,RIVM_report_20200504,Man,Overleden,12,2871
+2020-05-04,RIVM_report_20200504,Vrouw,Overleden,14,2211
+2020-05-04,RIVM_report_20200504,Niet vermeld,Overleden,0,0
+2020-05-05,RIVM_report_20200505,Man,Totaal,92,15244
+2020-05-05,RIVM_report_20200505,Vrouw,Totaal,224,25790
+2020-05-05,RIVM_report_20200505,Niet vermeld,Totaal,1,53
+2020-05-05,RIVM_report_20200505,Man,Ziekenhuisopname,49,6816
+2020-05-05,RIVM_report_20200505,Vrouw,Ziekenhuisopname,40,4302
+2020-05-05,RIVM_report_20200505,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-05,RIVM_report_20200505,Man,Overleden,41,2912
+2020-05-05,RIVM_report_20200505,Vrouw,Overleden,45,2256
+2020-05-05,RIVM_report_20200505,Niet vermeld,Overleden,0,0
+2020-05-06,RIVM_report_20200506,Man,Totaal,73,15317
+2020-05-06,RIVM_report_20200506,Vrouw,Totaal,159,25949
+2020-05-06,RIVM_report_20200506,Niet vermeld,Totaal,0,53
+2020-05-06,RIVM_report_20200506,Man,Ziekenhuisopname,15,6831
+2020-05-06,RIVM_report_20200506,Vrouw,Ziekenhuisopname,12,4314
+2020-05-06,RIVM_report_20200506,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-06,RIVM_report_20200506,Man,Overleden,18,2930
+2020-05-06,RIVM_report_20200506,Vrouw,Overleden,18,2274
+2020-05-06,RIVM_report_20200506,Niet vermeld,Overleden,0,0
+2020-05-07,RIVM_report_20200507,Man,Totaal,104,15421
+2020-05-07,RIVM_report_20200507,Vrouw,Totaal,351,26300
+2020-05-07,RIVM_report_20200507,Niet vermeld,Totaal,0,53
+2020-05-07,RIVM_report_20200507,Man,Ziekenhuisopname,19,6850
+2020-05-07,RIVM_report_20200507,Vrouw,Ziekenhuisopname,20,4334
+2020-05-07,RIVM_report_20200507,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-07,RIVM_report_20200507,Man,Overleden,43,2973
+2020-05-07,RIVM_report_20200507,Vrouw,Overleden,41,2315
+2020-05-07,RIVM_report_20200507,Niet vermeld,Overleden,0,0
+2020-05-08,RIVM_report_20200508,Man,Totaal,87,15508
+2020-05-08,RIVM_report_20200508,Vrouw,Totaal,232,26532
+2020-05-08,RIVM_report_20200508,Niet vermeld,Totaal,0,53
+2020-05-08,RIVM_report_20200508,Man,Ziekenhuisopname,19,6869
+2020-05-08,RIVM_report_20200508,Vrouw,Ziekenhuisopname,16,4350
+2020-05-08,RIVM_report_20200508,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-08,RIVM_report_20200508,Man,Overleden,28,3001
+2020-05-08,RIVM_report_20200508,Vrouw,Overleden,43,2358
+2020-05-08,RIVM_report_20200508,Niet vermeld,Overleden,0,0
+2020-05-09,RIVM_report_20200509,Man,Totaal,100,15608
+2020-05-09,RIVM_report_20200509,Vrouw,Totaal,188,26720
+2020-05-09,RIVM_report_20200509,Niet vermeld,Totaal,1,54
+2020-05-09,RIVM_report_20200509,Man,Ziekenhuisopname,32,6901
+2020-05-09,RIVM_report_20200509,Vrouw,Ziekenhuisopname,26,4376
+2020-05-09,RIVM_report_20200509,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-09,RIVM_report_20200509,Man,Overleden,31,3032
+2020-05-09,RIVM_report_20200509,Vrouw,Overleden,32,2390
+2020-05-09,RIVM_report_20200509,Niet vermeld,Overleden,0,0
+2020-05-10,RIVM_report_20200510,Man,Totaal,64,15672
+2020-05-10,RIVM_report_20200510,Vrouw,Totaal,181,26901
+2020-05-10,RIVM_report_20200510,Niet vermeld,Totaal,0,54
+2020-05-10,RIVM_report_20200510,Man,Ziekenhuisopname,14,6915
+2020-05-10,RIVM_report_20200510,Vrouw,Ziekenhuisopname,8,4384
+2020-05-10,RIVM_report_20200510,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-10,RIVM_report_20200510,Man,Overleden,8,3040
+2020-05-10,RIVM_report_20200510,Vrouw,Overleden,10,2400
+2020-05-10,RIVM_report_20200510,Niet vermeld,Overleden,0,0
+2020-05-11,RIVM_report_20200511,Man,Totaal,61,15733
+2020-05-11,RIVM_report_20200511,Vrouw,Totaal,99,27000
+2020-05-11,RIVM_report_20200511,Niet vermeld,Totaal,1,55
+2020-05-11,RIVM_report_20200511,Man,Ziekenhuisopname,21,6936
+2020-05-11,RIVM_report_20200511,Vrouw,Ziekenhuisopname,15,4399
+2020-05-11,RIVM_report_20200511,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-11,RIVM_report_20200511,Man,Overleden,4,3044
+2020-05-11,RIVM_report_20200511,Vrouw,Overleden,12,2412
+2020-05-11,RIVM_report_20200511,Niet vermeld,Overleden,0,0
+2020-05-12,RIVM_report_20200512,Man,Totaal,65,15798
+2020-05-12,RIVM_report_20200512,Vrouw,Totaal,131,27131
+2020-05-12,RIVM_report_20200512,Niet vermeld,Totaal,0,55
+2020-05-12,RIVM_report_20200512,Man,Ziekenhuisopname,19,6955
+2020-05-12,RIVM_report_20200512,Vrouw,Ziekenhuisopname,16,4415
+2020-05-12,RIVM_report_20200512,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-12,RIVM_report_20200512,Man,Overleden,26,3070
+2020-05-12,RIVM_report_20200512,Vrouw,Overleden,28,2440
+2020-05-12,RIVM_report_20200512,Niet vermeld,Overleden,0,0
+2020-05-13,RIVM_report_20200513,Man,Totaal,77,15875
+2020-05-13,RIVM_report_20200513,Vrouw,Totaal,150,27281
+2020-05-13,RIVM_report_20200513,Niet vermeld,Totaal,0,55
+2020-05-13,RIVM_report_20200513,Man,Ziekenhuisopname,28,6983
+2020-05-13,RIVM_report_20200513,Vrouw,Ziekenhuisopname,24,4439
+2020-05-13,RIVM_report_20200513,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-13,RIVM_report_20200513,Man,Overleden,24,3094
+2020-05-13,RIVM_report_20200513,Vrouw,Overleden,28,2468
+2020-05-13,RIVM_report_20200513,Niet vermeld,Overleden,0,0
+2020-05-14,RIVM_report_20200514,Man,Totaal,83,15958
+2020-05-14,RIVM_report_20200514,Vrouw,Totaal,187,27468
+2020-05-14,RIVM_report_20200514,Niet vermeld,Totaal,0,55
+2020-05-14,RIVM_report_20200514,Man,Ziekenhuisopname,20,7003
+2020-05-14,RIVM_report_20200514,Vrouw,Ziekenhuisopname,7,4446
+2020-05-14,RIVM_report_20200514,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-14,RIVM_report_20200514,Man,Overleden,16,3110
+2020-05-14,RIVM_report_20200514,Vrouw,Overleden,12,2480
+2020-05-14,RIVM_report_20200514,Niet vermeld,Overleden,0,0
+2020-05-15,RIVM_report_20200515,Man,Totaal,58,16016
+2020-05-15,RIVM_report_20200515,Vrouw,Totaal,142,27610
+2020-05-15,RIVM_report_20200515,Niet vermeld,Totaal,0,55
+2020-05-15,RIVM_report_20200515,Man,Ziekenhuisopname,20,7023
+2020-05-15,RIVM_report_20200515,Vrouw,Ziekenhuisopname,14,4460
+2020-05-15,RIVM_report_20200515,Niet vermeld,Ziekenhuisopname,1,9
+2020-05-15,RIVM_report_20200515,Man,Overleden,22,3132
+2020-05-15,RIVM_report_20200515,Vrouw,Overleden,31,2511
+2020-05-15,RIVM_report_20200515,Niet vermeld,Overleden,0,0
+2020-05-16,RIVM_report_20200516,Man,Totaal,62,16078
+2020-05-16,RIVM_report_20200516,Vrouw,Totaal,127,27737
+2020-05-16,RIVM_report_20200516,Niet vermeld,Totaal,0,55
+2020-05-16,RIVM_report_20200516,Man,Ziekenhuisopname,26,7049
+2020-05-16,RIVM_report_20200516,Vrouw,Ziekenhuisopname,19,4479
+2020-05-16,RIVM_report_20200516,Niet vermeld,Ziekenhuisopname,0,9
+2020-05-16,RIVM_report_20200516,Man,Overleden,16,3148
+2020-05-16,RIVM_report_20200516,Vrouw,Overleden,11,2522
+2020-05-16,RIVM_report_20200516,Niet vermeld,Overleden,0,0
+2020-05-17,RIVM_report_20200517,Man,Totaal,51,16129
+2020-05-17,RIVM_report_20200517,Vrouw,Totaal,75,27812
+2020-05-17,RIVM_report_20200517,Niet vermeld,Totaal,-1,54
+2020-05-17,RIVM_report_20200517,Man,Ziekenhuisopname,11,7060
+2020-05-17,RIVM_report_20200517,Vrouw,Ziekenhuisopname,5,4484
+2020-05-17,RIVM_report_20200517,Niet vermeld,Ziekenhuisopname,-1,8
+2020-05-17,RIVM_report_20200517,Man,Overleden,6,3154
+2020-05-17,RIVM_report_20200517,Vrouw,Overleden,4,2526
+2020-05-17,RIVM_report_20200517,Niet vermeld,Overleden,0,0
+2020-05-18,RIVM_report_20200518,Man,Totaal,64,16193
+2020-05-18,RIVM_report_20200518,Vrouw,Totaal,83,27895
+2020-05-18,RIVM_report_20200518,Niet vermeld,Totaal,-1,53
+2020-05-18,RIVM_report_20200518,Man,Ziekenhuisopname,16,7076
+2020-05-18,RIVM_report_20200518,Vrouw,Ziekenhuisopname,11,4495
+2020-05-18,RIVM_report_20200518,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-18,RIVM_report_20200518,Man,Overleden,6,3160
+2020-05-18,RIVM_report_20200518,Vrouw,Overleden,8,2534
+2020-05-18,RIVM_report_20200518,Niet vermeld,Overleden,0,0
+2020-05-19,RIVM_report_20200519,Man,Totaal,37,16230
+2020-05-19,RIVM_report_20200519,Vrouw,Totaal,71,27966
+2020-05-19,RIVM_report_20200519,Niet vermeld,Totaal,0,53
+2020-05-19,RIVM_report_20200519,Man,Ziekenhuisopname,17,7093
+2020-05-19,RIVM_report_20200519,Vrouw,Ziekenhuisopname,17,4512
+2020-05-19,RIVM_report_20200519,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-19,RIVM_report_20200519,Man,Overleden,7,3167
+2020-05-19,RIVM_report_20200519,Vrouw,Overleden,14,2548
+2020-05-19,RIVM_report_20200519,Niet vermeld,Overleden,0,0
+2020-05-20,RIVM_report_20200520,Man,Totaal,80,16310
+2020-05-20,RIVM_report_20200520,Vrouw,Totaal,117,28083
+2020-05-20,RIVM_report_20200520,Niet vermeld,Totaal,1,54
+2020-05-20,RIVM_report_20200520,Man,Ziekenhuisopname,14,7107
+2020-05-20,RIVM_report_20200520,Vrouw,Ziekenhuisopname,0,4512
+2020-05-20,RIVM_report_20200520,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-20,RIVM_report_20200520,Man,Overleden,14,3181
+2020-05-20,RIVM_report_20200520,Vrouw,Overleden,19,2567
+2020-05-20,RIVM_report_20200520,Niet vermeld,Overleden,0,0
+2020-05-21,RIVM_report_20200521,Man,Totaal,75,16385
+2020-05-21,RIVM_report_20200521,Vrouw,Totaal,161,28244
+2020-05-21,RIVM_report_20200521,Niet vermeld,Totaal,17,71
+2020-05-21,RIVM_report_20200521,Man,Ziekenhuisopname,8,7115
+2020-05-21,RIVM_report_20200521,Vrouw,Ziekenhuisopname,5,4517
+2020-05-21,RIVM_report_20200521,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-21,RIVM_report_20200521,Man,Overleden,14,3195
+2020-05-21,RIVM_report_20200521,Vrouw,Overleden,13,2580
+2020-05-21,RIVM_report_20200521,Niet vermeld,Overleden,0,0
+2020-05-22,RIVM_report_20200522,Man,Totaal,65,16450
+2020-05-22,RIVM_report_20200522,Vrouw,Totaal,123,28367
+2020-05-22,RIVM_report_20200522,Niet vermeld,Totaal,0,71
+2020-05-22,RIVM_report_20200522,Man,Ziekenhuisopname,10,7125
+2020-05-22,RIVM_report_20200522,Vrouw,Ziekenhuisopname,-1,4516
+2020-05-22,RIVM_report_20200522,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-22,RIVM_report_20200522,Man,Overleden,8,3203
+2020-05-22,RIVM_report_20200522,Vrouw,Overleden,5,2585
+2020-05-22,RIVM_report_20200522,Niet vermeld,Overleden,0,0
+2020-05-23,RIVM_report_20200523,Man,Totaal,84,16534
+2020-05-23,RIVM_report_20200523,Vrouw,Totaal,97,28464
+2020-05-23,RIVM_report_20200523,Niet vermeld,Totaal,-5,66
+2020-05-23,RIVM_report_20200523,Man,Ziekenhuisopname,8,7133
+2020-05-23,RIVM_report_20200523,Vrouw,Ziekenhuisopname,2,4518
+2020-05-23,RIVM_report_20200523,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-23,RIVM_report_20200523,Man,Overleden,14,3217
+2020-05-23,RIVM_report_20200523,Vrouw,Overleden,9,2594
+2020-05-23,RIVM_report_20200523,Niet vermeld,Overleden,0,0
+2020-05-24,RIVM_report_20200524,Man,Totaal,77,16611
+2020-05-24,RIVM_report_20200524,Vrouw,Totaal,88,28552
+2020-05-24,RIVM_report_20200524,Niet vermeld,Totaal,7,73
+2020-05-24,RIVM_report_20200524,Man,Ziekenhuisopname,7,7140
+2020-05-24,RIVM_report_20200524,Vrouw,Ziekenhuisopname,6,4524
+2020-05-24,RIVM_report_20200524,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-24,RIVM_report_20200524,Man,Overleden,4,3221
+2020-05-24,RIVM_report_20200524,Vrouw,Overleden,7,2601
+2020-05-24,RIVM_report_20200524,Niet vermeld,Overleden,0,0
+2020-05-25,RIVM_report_20200525,Man,Totaal,81,16692
+2020-05-25,RIVM_report_20200525,Vrouw,Totaal,118,28670
+2020-05-25,RIVM_report_20200525,Niet vermeld,Totaal,10,83
+2020-05-25,RIVM_report_20200525,Man,Ziekenhuisopname,7,7147
+2020-05-25,RIVM_report_20200525,Vrouw,Ziekenhuisopname,1,4525
+2020-05-25,RIVM_report_20200525,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-25,RIVM_report_20200525,Man,Overleden,5,3226
+2020-05-25,RIVM_report_20200525,Vrouw,Overleden,3,2604
+2020-05-25,RIVM_report_20200525,Niet vermeld,Overleden,0,0
+2020-05-26,RIVM_report_20200526,Man,Totaal,63,16755
+2020-05-26,RIVM_report_20200526,Vrouw,Totaal,63,28733
+2020-05-26,RIVM_report_20200526,Niet vermeld,Totaal,7,90
+2020-05-26,RIVM_report_20200526,Man,Ziekenhuisopname,6,7153
+2020-05-26,RIVM_report_20200526,Vrouw,Ziekenhuisopname,4,4529
+2020-05-26,RIVM_report_20200526,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-26,RIVM_report_20200526,Man,Overleden,14,3240
+2020-05-26,RIVM_report_20200526,Vrouw,Overleden,12,2616
+2020-05-26,RIVM_report_20200526,Niet vermeld,Overleden,0,0
+2020-05-27,RIVM_report_20200527,Man,Totaal,76,16831
+2020-05-27,RIVM_report_20200527,Vrouw,Totaal,113,28846
+2020-05-27,RIVM_report_20200527,Niet vermeld,Totaal,1,91
+2020-05-27,RIVM_report_20200527,Man,Ziekenhuisopname,6,7159
+2020-05-27,RIVM_report_20200527,Vrouw,Ziekenhuisopname,1,4530
+2020-05-27,RIVM_report_20200527,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-27,RIVM_report_20200527,Man,Overleden,6,3246
+2020-05-27,RIVM_report_20200527,Vrouw,Overleden,9,2625
+2020-05-27,RIVM_report_20200527,Niet vermeld,Overleden,0,0
+2020-05-28,RIVM_report_20200528,Man,Totaal,78,16909
+2020-05-28,RIVM_report_20200528,Vrouw,Totaal,104,28950
+2020-05-28,RIVM_report_20200528,Niet vermeld,Totaal,0,91
+2020-05-28,RIVM_report_20200528,Man,Ziekenhuisopname,11,7170
+2020-05-28,RIVM_report_20200528,Vrouw,Ziekenhuisopname,5,4535
+2020-05-28,RIVM_report_20200528,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-28,RIVM_report_20200528,Man,Overleden,13,3259
+2020-05-28,RIVM_report_20200528,Vrouw,Overleden,19,2644
+2020-05-28,RIVM_report_20200528,Niet vermeld,Overleden,0,0
+2020-05-29,RIVM_report_20200529,Man,Totaal,83,16992
+2020-05-29,RIVM_report_20200529,Vrouw,Totaal,93,29043
+2020-05-29,RIVM_report_20200529,Niet vermeld,Totaal,0,91
+2020-05-29,RIVM_report_20200529,Man,Ziekenhuisopname,5,7175
+2020-05-29,RIVM_report_20200529,Vrouw,Ziekenhuisopname,4,4539
+2020-05-29,RIVM_report_20200529,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-29,RIVM_report_20200529,Man,Overleden,14,3273
+2020-05-29,RIVM_report_20200529,Vrouw,Overleden,14,2658
+2020-05-29,RIVM_report_20200529,Niet vermeld,Overleden,0,0
+2020-05-30,RIVM_report_20200530,Man,Totaal,63,17055
+2020-05-30,RIVM_report_20200530,Vrouw,Totaal,68,29111
+2020-05-30,RIVM_report_20200530,Niet vermeld,Totaal,0,91
+2020-05-30,RIVM_report_20200530,Man,Ziekenhuisopname,4,7179
+2020-05-30,RIVM_report_20200530,Vrouw,Ziekenhuisopname,1,4540
+2020-05-30,RIVM_report_20200530,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-30,RIVM_report_20200530,Man,Overleden,7,3280
+2020-05-30,RIVM_report_20200530,Vrouw,Overleden,13,2671
+2020-05-30,RIVM_report_20200530,Niet vermeld,Overleden,0,0
+2020-05-31,RIVM_report_20200531,Man,Totaal,85,17140
+2020-05-31,RIVM_report_20200531,Vrouw,Totaal,99,29210
+2020-05-31,RIVM_report_20200531,Niet vermeld,Totaal,1,92
+2020-05-31,RIVM_report_20200531,Man,Ziekenhuisopname,5,7184
+2020-05-31,RIVM_report_20200531,Vrouw,Ziekenhuisopname,3,4543
+2020-05-31,RIVM_report_20200531,Niet vermeld,Ziekenhuisopname,0,8
+2020-05-31,RIVM_report_20200531,Man,Overleden,4,3284
+2020-05-31,RIVM_report_20200531,Vrouw,Overleden,1,2672
+2020-05-31,RIVM_report_20200531,Niet vermeld,Overleden,0,0
+2020-06-01,RIVM_report_20200601,Man,Totaal,44,17184
+2020-06-01,RIVM_report_20200601,Vrouw,Totaal,60,29270
+2020-06-01,RIVM_report_20200601,Niet vermeld,Totaal,-1,91
+2020-06-01,RIVM_report_20200601,Man,Ziekenhuisopname,6,7190
+2020-06-01,RIVM_report_20200601,Vrouw,Ziekenhuisopname,3,4546
+2020-06-01,RIVM_report_20200601,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-01,RIVM_report_20200601,Man,Overleden,5,3289
+2020-06-01,RIVM_report_20200601,Vrouw,Overleden,1,2673
+2020-06-01,RIVM_report_20200601,Niet vermeld,Overleden,0,0
+2020-06-02,RIVM_report_20200602,Man,Totaal,54,17238
+2020-06-02,RIVM_report_20200602,Vrouw,Totaal,48,29318
+2020-06-02,RIVM_report_20200602,Niet vermeld,Totaal,0,91
+2020-06-02,RIVM_report_20200602,Man,Ziekenhuisopname,2,7192
+2020-06-02,RIVM_report_20200602,Vrouw,Ziekenhuisopname,4,4550
+2020-06-02,RIVM_report_20200602,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-02,RIVM_report_20200602,Man,Overleden,2,3291
+2020-06-02,RIVM_report_20200602,Vrouw,Overleden,3,2676
+2020-06-02,RIVM_report_20200602,Niet vermeld,Overleden,0,0
+2020-06-03,RIVM_report_20200603,Man,Totaal,37,17275
+2020-06-03,RIVM_report_20200603,Vrouw,Totaal,49,29367
+2020-06-03,RIVM_report_20200603,Niet vermeld,Totaal,0,91
+2020-06-03,RIVM_report_20200603,Man,Ziekenhuisopname,7,7199
+2020-06-03,RIVM_report_20200603,Vrouw,Ziekenhuisopname,2,4552
+2020-06-03,RIVM_report_20200603,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-03,RIVM_report_20200603,Man,Overleden,6,3297
+2020-06-03,RIVM_report_20200603,Vrouw,Overleden,4,2680
+2020-06-03,RIVM_report_20200603,Niet vermeld,Overleden,0,0
+2020-06-04,RIVM_report_20200604,Man,Totaal,109,17384
+2020-06-04,RIVM_report_20200604,Vrouw,Totaal,100,29467
+2020-06-04,RIVM_report_20200604,Niet vermeld,Totaal,0,91
+2020-06-04,RIVM_report_20200604,Man,Ziekenhuisopname,7,7206
+2020-06-04,RIVM_report_20200604,Vrouw,Ziekenhuisopname,5,4557
+2020-06-04,RIVM_report_20200604,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-04,RIVM_report_20200604,Man,Overleden,10,3307
+2020-06-04,RIVM_report_20200604,Vrouw,Overleden,3,2683
+2020-06-04,RIVM_report_20200604,Niet vermeld,Overleden,0,0
+2020-06-05,RIVM_report_20200605,Man,Totaal,98,17482
+2020-06-05,RIVM_report_20200605,Vrouw,Totaal,111,29578
+2020-06-05,RIVM_report_20200605,Niet vermeld,Totaal,1,92
+2020-06-05,RIVM_report_20200605,Man,Ziekenhuisopname,4,7210
+2020-06-05,RIVM_report_20200605,Vrouw,Ziekenhuisopname,7,4564
+2020-06-05,RIVM_report_20200605,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-05,RIVM_report_20200605,Man,Overleden,6,3313
+2020-06-05,RIVM_report_20200605,Vrouw,Overleden,9,2692
+2020-06-05,RIVM_report_20200605,Niet vermeld,Overleden,0,0
+2020-06-06,RIVM_report_20200606,Man,Totaal,83,17565
+2020-06-06,RIVM_report_20200606,Vrouw,Totaal,100,29678
+2020-06-06,RIVM_report_20200606,Niet vermeld,Totaal,0,92
+2020-06-06,RIVM_report_20200606,Man,Ziekenhuisopname,4,7214
+2020-06-06,RIVM_report_20200606,Vrouw,Ziekenhuisopname,-1,4563
+2020-06-06,RIVM_report_20200606,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-06,RIVM_report_20200606,Man,Overleden,3,3316
+2020-06-06,RIVM_report_20200606,Vrouw,Overleden,3,2695
+2020-06-06,RIVM_report_20200606,Niet vermeld,Overleden,0,0
+2020-06-07,RIVM_report_20200607,Man,Totaal,103,17668
+2020-06-07,RIVM_report_20200607,Vrouw,Totaal,135,29813
+2020-06-07,RIVM_report_20200607,Niet vermeld,Totaal,1,93
+2020-06-07,RIVM_report_20200607,Man,Ziekenhuisopname,2,7216
+2020-06-07,RIVM_report_20200607,Vrouw,Ziekenhuisopname,2,4565
+2020-06-07,RIVM_report_20200607,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-07,RIVM_report_20200607,Man,Overleden,1,3317
+2020-06-07,RIVM_report_20200607,Vrouw,Overleden,1,2696
+2020-06-07,RIVM_report_20200607,Niet vermeld,Overleden,0,0
+2020-06-08,RIVM_report_20200608,Man,Totaal,76,17744
+2020-06-08,RIVM_report_20200608,Vrouw,Totaal,90,29903
+2020-06-08,RIVM_report_20200608,Niet vermeld,Totaal,-1,92
+2020-06-08,RIVM_report_20200608,Man,Ziekenhuisopname,2,7218
+2020-06-08,RIVM_report_20200608,Vrouw,Ziekenhuisopname,3,4568
+2020-06-08,RIVM_report_20200608,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-08,RIVM_report_20200608,Man,Overleden,2,3319
+2020-06-08,RIVM_report_20200608,Vrouw,Overleden,1,2697
+2020-06-08,RIVM_report_20200608,Niet vermeld,Overleden,0,0
+2020-06-09,RIVM_report_20200609,Man,Totaal,73,17817
+2020-06-09,RIVM_report_20200609,Vrouw,Totaal,91,29994
+2020-06-09,RIVM_report_20200609,Niet vermeld,Totaal,0,92
+2020-06-09,RIVM_report_20200609,Man,Ziekenhuisopname,4,7222
+2020-06-09,RIVM_report_20200609,Vrouw,Ziekenhuisopname,2,4570
+2020-06-09,RIVM_report_20200609,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-09,RIVM_report_20200609,Man,Overleden,4,3323
+2020-06-09,RIVM_report_20200609,Vrouw,Overleden,11,2708
+2020-06-09,RIVM_report_20200609,Niet vermeld,Overleden,0,0
+2020-06-10,RIVM_report_20200610,Man,Totaal,78,17895
+2020-06-10,RIVM_report_20200610,Vrouw,Totaal,106,30100
+2020-06-10,RIVM_report_20200610,Niet vermeld,Totaal,0,92
+2020-06-10,RIVM_report_20200610,Man,Ziekenhuisopname,2,7224
+2020-06-10,RIVM_report_20200610,Vrouw,Ziekenhuisopname,3,4573
+2020-06-10,RIVM_report_20200610,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-10,RIVM_report_20200610,Man,Overleden,4,3327
+2020-06-10,RIVM_report_20200610,Vrouw,Overleden,7,2715
+2020-06-10,RIVM_report_20200610,Niet vermeld,Overleden,0,0
+2020-06-11,RIVM_report_20200611,Man,Totaal,71,17966
+2020-06-11,RIVM_report_20200611,Vrouw,Totaal,92,30192
+2020-06-11,RIVM_report_20200611,Niet vermeld,Totaal,1,93
+2020-06-11,RIVM_report_20200611,Man,Ziekenhuisopname,1,7225
+2020-06-11,RIVM_report_20200611,Vrouw,Ziekenhuisopname,2,4575
+2020-06-11,RIVM_report_20200611,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-11,RIVM_report_20200611,Man,Overleden,0,3327
+2020-06-11,RIVM_report_20200611,Vrouw,Overleden,2,2717
+2020-06-11,RIVM_report_20200611,Niet vermeld,Overleden,0,0
+2020-06-12,RIVM_report_20200612,Man,Totaal,97,18063
+2020-06-12,RIVM_report_20200612,Vrouw,Totaal,113,30305
+2020-06-12,RIVM_report_20200612,Niet vermeld,Totaal,0,93
+2020-06-12,RIVM_report_20200612,Man,Ziekenhuisopname,2,7227
+2020-06-12,RIVM_report_20200612,Vrouw,Ziekenhuisopname,3,4578
+2020-06-12,RIVM_report_20200612,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-12,RIVM_report_20200612,Man,Overleden,5,3332
+2020-06-12,RIVM_report_20200612,Vrouw,Overleden,4,2721
+2020-06-12,RIVM_report_20200612,Niet vermeld,Overleden,0,0
+2020-06-13,RIVM_report_20200613,Man,Totaal,94,18157
+2020-06-13,RIVM_report_20200613,Vrouw,Totaal,85,30390
+2020-06-13,RIVM_report_20200613,Niet vermeld,Totaal,0,93
+2020-06-13,RIVM_report_20200613,Man,Ziekenhuisopname,6,7233
+2020-06-13,RIVM_report_20200613,Vrouw,Ziekenhuisopname,3,4581
+2020-06-13,RIVM_report_20200613,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-13,RIVM_report_20200613,Man,Overleden,0,3332
+2020-06-13,RIVM_report_20200613,Vrouw,Overleden,4,2725
+2020-06-13,RIVM_report_20200613,Niet vermeld,Overleden,0,0
+2020-06-14,RIVM_report_20200614,Man,Totaal,63,18220
+2020-06-14,RIVM_report_20200614,Vrouw,Totaal,80,30470
+2020-06-14,RIVM_report_20200614,Niet vermeld,Totaal,0,93
+2020-06-14,RIVM_report_20200614,Man,Ziekenhuisopname,2,7235
+2020-06-14,RIVM_report_20200614,Vrouw,Ziekenhuisopname,4,4585
+2020-06-14,RIVM_report_20200614,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-14,RIVM_report_20200614,Man,Overleden,2,3334
+2020-06-14,RIVM_report_20200614,Vrouw,Overleden,0,2725
+2020-06-14,RIVM_report_20200614,Niet vermeld,Overleden,0,0
+2020-06-15,RIVM_report_20200615,Man,Totaal,69,18289
+2020-06-15,RIVM_report_20200615,Vrouw,Totaal,96,30566
+2020-06-15,RIVM_report_20200615,Niet vermeld,Totaal,0,93
+2020-06-15,RIVM_report_20200615,Man,Ziekenhuisopname,1,7236
+2020-06-15,RIVM_report_20200615,Vrouw,Ziekenhuisopname,2,4587
+2020-06-15,RIVM_report_20200615,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-15,RIVM_report_20200615,Man,Overleden,3,3337
+2020-06-15,RIVM_report_20200615,Vrouw,Overleden,3,2728
+2020-06-15,RIVM_report_20200615,Niet vermeld,Overleden,0,0
+2020-06-16,RIVM_report_20200616,Man,Totaal,64,18353
+2020-06-16,RIVM_report_20200616,Vrouw,Totaal,75,30641
+2020-06-16,RIVM_report_20200616,Niet vermeld,Totaal,0,93
+2020-06-16,RIVM_report_20200616,Man,Ziekenhuisopname,1,7237
+2020-06-16,RIVM_report_20200616,Vrouw,Ziekenhuisopname,2,4589
+2020-06-16,RIVM_report_20200616,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-16,RIVM_report_20200616,Man,Overleden,0,3337
+2020-06-16,RIVM_report_20200616,Vrouw,Overleden,5,2733
+2020-06-16,RIVM_report_20200616,Niet vermeld,Overleden,0,0
+2020-06-17,RIVM_report_20200617,Man,Totaal,50,18403
+2020-06-17,RIVM_report_20200617,Vrouw,Totaal,68,30709
+2020-06-17,RIVM_report_20200617,Niet vermeld,Totaal,-1,92
+2020-06-17,RIVM_report_20200617,Man,Ziekenhuisopname,2,7239
+2020-06-17,RIVM_report_20200617,Vrouw,Ziekenhuisopname,0,4589
+2020-06-17,RIVM_report_20200617,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-17,RIVM_report_20200617,Man,Overleden,2,3339
+2020-06-17,RIVM_report_20200617,Vrouw,Overleden,2,2735
+2020-06-17,RIVM_report_20200617,Niet vermeld,Overleden,0,0
+2020-06-18,RIVM_report_20200618,Man,Totaal,53,18456
+2020-06-18,RIVM_report_20200618,Vrouw,Totaal,61,30770
+2020-06-18,RIVM_report_20200618,Niet vermeld,Totaal,1,93
+2020-06-18,RIVM_report_20200618,Man,Ziekenhuisopname,1,7240
+2020-06-18,RIVM_report_20200618,Vrouw,Ziekenhuisopname,-2,4587
+2020-06-18,RIVM_report_20200618,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-18,RIVM_report_20200618,Man,Overleden,3,3342
+2020-06-18,RIVM_report_20200618,Vrouw,Overleden,1,2736
+2020-06-18,RIVM_report_20200618,Niet vermeld,Overleden,0,0
+2020-06-19,RIVM_report_20200619,Man,Totaal,48,18504
+2020-06-19,RIVM_report_20200619,Vrouw,Totaal,60,30830
+2020-06-19,RIVM_report_20200619,Niet vermeld,Totaal,-1,92
+2020-06-19,RIVM_report_20200619,Man,Ziekenhuisopname,5,7245
+2020-06-19,RIVM_report_20200619,Vrouw,Ziekenhuisopname,6,4593
+2020-06-19,RIVM_report_20200619,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-19,RIVM_report_20200619,Man,Overleden,3,3345
+2020-06-19,RIVM_report_20200619,Vrouw,Overleden,0,2736
+2020-06-19,RIVM_report_20200619,Niet vermeld,Overleden,0,0
+2020-06-20,RIVM_report_20200620,Man,Totaal,33,18537
+2020-06-20,RIVM_report_20200620,Vrouw,Totaal,44,30874
+2020-06-20,RIVM_report_20200620,Niet vermeld,Totaal,-1,91
+2020-06-20,RIVM_report_20200620,Man,Ziekenhuisopname,0,7245
+2020-06-20,RIVM_report_20200620,Vrouw,Ziekenhuisopname,0,4593
+2020-06-20,RIVM_report_20200620,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-20,RIVM_report_20200620,Man,Overleden,4,3349
+2020-06-20,RIVM_report_20200620,Vrouw,Overleden,4,2740
+2020-06-20,RIVM_report_20200620,Niet vermeld,Overleden,0,0
+2020-06-21,RIVM_report_20200621,Man,Totaal,40,18577
+2020-06-21,RIVM_report_20200621,Vrouw,Totaal,51,30925
+2020-06-21,RIVM_report_20200621,Niet vermeld,Totaal,0,91
+2020-06-21,RIVM_report_20200621,Man,Ziekenhuisopname,2,7247
+2020-06-21,RIVM_report_20200621,Vrouw,Ziekenhuisopname,1,4594
+2020-06-21,RIVM_report_20200621,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-21,RIVM_report_20200621,Man,Overleden,1,3350
+2020-06-21,RIVM_report_20200621,Vrouw,Overleden,0,2740
+2020-06-21,RIVM_report_20200621,Niet vermeld,Overleden,0,0
+2020-06-22,RIVM_report_20200622,Man,Totaal,33,18610
+2020-06-22,RIVM_report_20200622,Vrouw,Totaal,32,30957
+2020-06-22,RIVM_report_20200622,Niet vermeld,Totaal,0,91
+2020-06-22,RIVM_report_20200622,Man,Ziekenhuisopname,1,7248
+2020-06-22,RIVM_report_20200622,Vrouw,Ziekenhuisopname,1,4595
+2020-06-22,RIVM_report_20200622,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-22,RIVM_report_20200622,Man,Overleden,0,3350
+2020-06-22,RIVM_report_20200622,Vrouw,Overleden,0,2740
+2020-06-22,RIVM_report_20200622,Niet vermeld,Overleden,0,0
+2020-06-23,RIVM_report_20200623,Man,Totaal,27,18637
+2020-06-23,RIVM_report_20200623,Vrouw,Totaal,37,30994
+2020-06-23,RIVM_report_20200623,Niet vermeld,Totaal,0,91
+2020-06-23,RIVM_report_20200623,Man,Ziekenhuisopname,2,7250
+2020-06-23,RIVM_report_20200623,Vrouw,Ziekenhuisopname,0,4595
+2020-06-23,RIVM_report_20200623,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-23,RIVM_report_20200623,Man,Overleden,4,3354
+2020-06-23,RIVM_report_20200623,Vrouw,Overleden,1,2741
+2020-06-23,RIVM_report_20200623,Niet vermeld,Overleden,0,0
+2020-06-24,RIVM_report_20200624,Man,Totaal,34,18671
+2020-06-24,RIVM_report_20200624,Vrouw,Totaal,48,31042
+2020-06-24,RIVM_report_20200624,Niet vermeld,Totaal,0,91
+2020-06-24,RIVM_report_20200624,Man,Ziekenhuisopname,3,7253
+2020-06-24,RIVM_report_20200624,Vrouw,Ziekenhuisopname,3,4598
+2020-06-24,RIVM_report_20200624,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-24,RIVM_report_20200624,Man,Overleden,2,3356
+2020-06-24,RIVM_report_20200624,Vrouw,Overleden,0,2741
+2020-06-24,RIVM_report_20200624,Niet vermeld,Overleden,0,0
+2020-06-25,RIVM_report_20200625,Man,Totaal,53,18724
+2020-06-25,RIVM_report_20200625,Vrouw,Totaal,57,31099
+2020-06-25,RIVM_report_20200625,Niet vermeld,Totaal,0,91
+2020-06-25,RIVM_report_20200625,Man,Ziekenhuisopname,4,7257
+2020-06-25,RIVM_report_20200625,Vrouw,Ziekenhuisopname,0,4598
+2020-06-25,RIVM_report_20200625,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-25,RIVM_report_20200625,Man,Overleden,1,3357
+2020-06-25,RIVM_report_20200625,Vrouw,Overleden,2,2743
+2020-06-25,RIVM_report_20200625,Niet vermeld,Overleden,0,0
+2020-06-26,RIVM_report_20200626,Man,Totaal,38,18762
+2020-06-26,RIVM_report_20200626,Vrouw,Totaal,53,31152
+2020-06-26,RIVM_report_20200626,Niet vermeld,Totaal,0,91
+2020-06-26,RIVM_report_20200626,Man,Ziekenhuisopname,3,7260
+2020-06-26,RIVM_report_20200626,Vrouw,Ziekenhuisopname,2,4600
+2020-06-26,RIVM_report_20200626,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-26,RIVM_report_20200626,Man,Overleden,1,3358
+2020-06-26,RIVM_report_20200626,Vrouw,Overleden,2,2745
+2020-06-26,RIVM_report_20200626,Niet vermeld,Overleden,0,0
+2020-06-27,RIVM_report_20200627,Man,Totaal,37,18799
+2020-06-27,RIVM_report_20200627,Vrouw,Totaal,32,31184
+2020-06-27,RIVM_report_20200627,Niet vermeld,Totaal,0,91
+2020-06-27,RIVM_report_20200627,Man,Ziekenhuisopname,1,7261
+2020-06-27,RIVM_report_20200627,Vrouw,Ziekenhuisopname,-1,4599
+2020-06-27,RIVM_report_20200627,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-27,RIVM_report_20200627,Man,Overleden,0,3358
+2020-06-27,RIVM_report_20200627,Vrouw,Overleden,2,2747
+2020-06-27,RIVM_report_20200627,Niet vermeld,Overleden,0,0
+2020-06-28,RIVM_report_20200628,Man,Totaal,35,18834
+2020-06-28,RIVM_report_20200628,Vrouw,Totaal,38,31222
+2020-06-28,RIVM_report_20200628,Niet vermeld,Totaal,0,91
+2020-06-28,RIVM_report_20200628,Man,Ziekenhuisopname,3,7264
+2020-06-28,RIVM_report_20200628,Vrouw,Ziekenhuisopname,0,4599
+2020-06-28,RIVM_report_20200628,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-28,RIVM_report_20200628,Man,Overleden,0,3358
+2020-06-28,RIVM_report_20200628,Vrouw,Overleden,0,2747
+2020-06-28,RIVM_report_20200628,Niet vermeld,Overleden,0,0
+2020-06-29,RIVM_report_20200629,Man,Totaal,37,18871
+2020-06-29,RIVM_report_20200629,Vrouw,Totaal,38,31260
+2020-06-29,RIVM_report_20200629,Niet vermeld,Totaal,1,92
+2020-06-29,RIVM_report_20200629,Man,Ziekenhuisopname,2,7266
+2020-06-29,RIVM_report_20200629,Vrouw,Ziekenhuisopname,1,4600
+2020-06-29,RIVM_report_20200629,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-29,RIVM_report_20200629,Man,Overleden,0,3358
+2020-06-29,RIVM_report_20200629,Vrouw,Overleden,2,2749
+2020-06-29,RIVM_report_20200629,Niet vermeld,Overleden,0,0
+2020-06-30,RIVM_report_20200630,Man,Totaal,29,18900
+2020-06-30,RIVM_report_20200630,Vrouw,Totaal,22,31282
+2020-06-30,RIVM_report_20200630,Niet vermeld,Totaal,-1,91
+2020-06-30,RIVM_report_20200630,Man,Ziekenhuisopname,1,7267
+2020-06-30,RIVM_report_20200630,Vrouw,Ziekenhuisopname,2,4602
+2020-06-30,RIVM_report_20200630,Niet vermeld,Ziekenhuisopname,0,8
+2020-06-30,RIVM_report_20200630,Man,Overleden,4,3362
+2020-06-30,RIVM_report_20200630,Vrouw,Overleden,2,2751
+2020-06-30,RIVM_report_20200630,Niet vermeld,Overleden,0,0
+2020-07-07,RIVM_report_20200707,Man,Totaal,,19103
+2020-07-07,RIVM_report_20200707,Vrouw,Totaal,,31500
+2020-07-07,RIVM_report_20200707,Niet vermeld,Totaal,,91
+2020-07-07,RIVM_report_20200707,Man,Ziekenhuisopname,,7269
+2020-07-07,RIVM_report_20200707,Vrouw,Ziekenhuisopname,,4609
+2020-07-07,RIVM_report_20200707,Niet vermeld,Ziekenhuisopname,,8
+2020-07-07,RIVM_report_20200707,Man,Overleden,,3372
+2020-07-07,RIVM_report_20200707,Vrouw,Overleden,,2760
+2020-07-07,RIVM_report_20200707,Niet vermeld,Overleden,,0
+2020-07-14,RIVM_report_20200714,Man,Totaal,,19336
+2020-07-14,RIVM_report_20200714,Vrouw,Totaal,,31719
+2020-07-14,RIVM_report_20200714,Niet vermeld,Totaal,,91
+2020-07-14,RIVM_report_20200714,Man,Ziekenhuisopname,,7276
+2020-07-14,RIVM_report_20200714,Vrouw,Ziekenhuisopname,,4608
+2020-07-14,RIVM_report_20200714,Niet vermeld,Ziekenhuisopname,,8
+2020-07-14,RIVM_report_20200714,Man,Overleden,,3373
+2020-07-14,RIVM_report_20200714,Vrouw,Overleden,,2762
+2020-07-14,RIVM_report_20200714,Niet vermeld,Overleden,,0
+2020-07-21,RIVM_report_20200721,Man,Totaal,,19773
+2020-07-21,RIVM_report_20200721,Vrouw,Totaal,,32209
+2020-07-21,RIVM_report_20200721,Niet vermeld,Totaal,,91
+2020-07-21,RIVM_report_20200721,Man,Ziekenhuisopname,,7284
+2020-07-21,RIVM_report_20200721,Vrouw,Ziekenhuisopname,,4610
+2020-07-21,RIVM_report_20200721,Niet vermeld,Ziekenhuisopname,,8
+2020-07-21,RIVM_report_20200721,Man,Overleden,,3374
+2020-07-21,RIVM_report_20200721,Vrouw,Overleden,,2762
+2020-07-21,RIVM_report_20200721,Niet vermeld,Overleden,,0
+2020-07-28,RIVM_report_20200728,Man,Totaal,,20401
+2020-07-28,RIVM_report_20200728,Vrouw,Totaal,,32882
+2020-07-28,RIVM_report_20200728,Niet vermeld,Totaal,,91
+2020-07-28,RIVM_report_20200728,Man,Ziekenhuisopname,,7295
+2020-07-28,RIVM_report_20200728,Vrouw,Ziekenhuisopname,,4616
+2020-07-28,RIVM_report_20200728,Niet vermeld,Ziekenhuisopname,,8
+2020-07-28,RIVM_report_20200728,Man,Overleden,,3378
+2020-07-28,RIVM_report_20200728,Vrouw,Overleden,,2767
+2020-07-28,RIVM_report_20200728,Niet vermeld,Overleden,,0
+2020-08-04,RIVM_report_20200804,Man,Totaal,,21619
+2020-08-04,RIVM_report_20200804,Vrouw,Totaal,,34245
+2020-08-04,RIVM_report_20200804,Niet vermeld,Totaal,,91
+2020-08-04,RIVM_report_20200804,Man,Ziekenhuisopname,,7318
+2020-08-04,RIVM_report_20200804,Vrouw,Ziekenhuisopname,,4633
+2020-08-04,RIVM_report_20200804,Niet vermeld,Ziekenhuisopname,,8
+2020-08-04,RIVM_report_20200804,Man,Overleden,,3381
+2020-08-04,RIVM_report_20200804,Vrouw,Overleden,,2769
+2020-08-04,RIVM_report_20200804,Niet vermeld,Overleden,,0
+2020-08-11,RIVM_report_20200811,Man,Totaal,,23428
+2020-08-11,RIVM_report_20200811,Vrouw,Totaal,,36454
+2020-08-11,RIVM_report_20200811,Niet vermeld,Totaal,,91
+2020-08-11,RIVM_report_20200811,Man,Ziekenhuisopname,,7342
+2020-08-11,RIVM_report_20200811,Vrouw,Ziekenhuisopname,,4644
+2020-08-11,RIVM_report_20200811,Niet vermeld,Ziekenhuisopname,,8
+2020-08-11,RIVM_report_20200811,Man,Overleden,,3386
+2020-08-11,RIVM_report_20200811,Vrouw,Overleden,,2773
+2020-08-11,RIVM_report_20200811,Niet vermeld,Overleden,,0
