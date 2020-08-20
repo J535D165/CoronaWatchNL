@@ -1,32 +1,32 @@
 measureId,measureDescription,lastMeasureUpdate,area,status,restrictiveMeasures,startDate,endDate,notes
-1,Schools/Univ. closure,2020-06-26T00:00:00,National,Open,Mandatory,2020-05-11T00:00:00,2020-12-31T00:00:00," From 1 July, Pupils and teaching staff should always keep a distance of 1.5 meters. Pupils do not have to do that. This applies to all students within the school, regardless of their age. Students go to school on foot or by bicycle as much as possible. The protocols for schools are being adapted to the new situation. Secondary and secondary special education schools can open completely after the summer holidays.
-Primary education is already fully open. The distance rule in primary schools is relaxed. Until now, teachers had to keep as far away as possible from students up to the age of 13. This is no longer necessary from 1 July. "
-2,National movement restrictions,2020-06-26T00:00:00,National,Free,Recommended,2020-05-11T00:00:00,2020-12-31T00:00:00,"From July 1st:
-Inside and outside You always keep 1.5 meters away.
-Rules in transport
-You must always wear a face mask on public transport.
-You always wear a mask in taxis, buses and coaches.
-You must make a reservation.
-And you will get a health check.
-Are people from another household in your car?
-Then all wear a mouth mask.
-In all other transport you must keep a distance of 1.5 meters.
-Like on a tour boat.
+1,Schools/Univ. closure,2020-08-20T00:00:00,National,Open,Mandatory,2020-08-18T00:00:00,2020-12-31T00:00:00,"Schools work on a safe environment:
 
-Exceptions to the 1.5 meter distance apply for children and young people:
+Children with complaints stay at home.
+Does anyone in the family have corona? 
+Even then children stay at home."
+2,National movement restrictions,2020-08-20T00:00:00,National,Free,Recommended,2020-05-11T00:00:00,2020-12-31T00:00:00,"You receive a maximum of 6 people in your house or garden.
+Keep 1.5 meters away.
+Children up to the age of 13 do not count.
+People who live in your house don't count either.
+Ask your visit if they don't have a fever or a cold.
 
-People from 1 household do not have to keep a distance of 1.5 meters together.
-Children up to the age of 12 do not have to keep 1.5 meters away from others.
-Young people up to the age of 18 do not have to keep a distance of 1.5 meters.
-They must keep a distance of 1.5 meters from adults.
-In some situations it is difficult to keep 1.5 meters away.
-Therefore, there are also exceptions for:
+Working at home
+Keep working from home as much as possible.
 
-Persons in need of care and their supervisors.
-Hairdressers, masseurs and instructors in teaching vehicles.
-Athletes, actors and dancers.
-"
-3,International movement restrictions,2020-08-05T00:00:00,National,Partially banned,Mandatory,2020-06-15T00:00:00,2020-07-01T00:00:00,"From June 15 traveling within Europe is possible in the following countries: Belgium, Bulgaria, Germany, Estonia, France, Iceland, Italy, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Poland, Portugal, the Czech Republic and Switzerland. Traveling outside Europe is not recommended to limit the risks of a new outbreak. 
+Do not forget:
+Stay at home in case of complaints and get tested.
+Keep 1.5 meters away from others. 
+Also when visiting at home.
+Stay away from crowded places.
+Wash your hands often.
+Work from home as much as possible."
+3,International movement restrictions,2020-08-20T00:00:00,National,Partially banned,Mandatory,2020-06-15T00:00:00,2020-07-01T00:00:00,"Have you been on holiday in an area with a lot of infections?
+
+Stay at home for 10 days.
+Get tested.
+
+
+From June 15 traveling within Europe is possible in the following countries: Belgium, Bulgaria, Germany, Estonia, France, Iceland, Italy, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Poland, Portugal, the Czech Republic and Switzerland. Traveling outside Europe is not recommended to limit the risks of a new outbreak. 
 From June 15 tourists are allowed to travel to the Netherlands this summer. But only tourists from countries with about the same situation as in the Netherlands and must adhere to the Dutch rules.
 
 As of 1 July 2020, the Netherlands has lifted the travel ban for travelers who reside permanently in the following countries: Algeria, Australia, Canada, Georgia, Japan, Montenegro, Morocco, New Zealand, Rwanda, Serbia, South Korea, Thailand, Tunisia, Uruguay. For travelers from China, the entry ban will be lifted as soon as the country also allows EU citizens.
@@ -51,25 +51,12 @@ We keep 1.5 meters away from others.
 Maximum 100 people per room with fixed seats (excluding staff).
 No maximum number of people under the following conditions: fixed seats, reservation and health check in advance.
 In shops, museums, libraries and other locations with flow of visitors, 1.5 meters away is the rule (locations themselves ensure compliance with this rule). There is no maximum number of people."
-6,Events stop,2020-06-26T00:00:00,National,Partially banned,Mandatory,2020-07-01T00:00:00,2020-09-01T00:00:00,"From July 1st:
+6,Events stop,2020-08-20T00:00:00,National,Partially banned,Mandatory,2020-08-19T00:00:00,2020-09-01T00:00:00,"Parties for large groups:
+Prefer to celebrate parties for large groups in a room. 
+Then the following rules apply:
 
-Rules inside
-You always keep 1.5 meters away.
-In indoor spaces, a maximum of 100 people may gather.
-Staff do not count.
-More than 100 people are allowed.
-But only if you reserve a place.
-And you will get a health check.
-This applies, for example, to cinemas, cafes, restaurants, theaters, weddings and funerals.
-Discos and night clubs remain closed until September 1.
-There will be rules for choirs.
-
-Outside:
-In outdoor areas, 250 people may gather.
-Staff do not count.
-More than 250 people are allowed in places with fixed seats.
-You reserve a place.
-And you will get a health check.
-This applies, for example, to the catering industry.
-There is no maximum number of people at zoos and amusement parks."
+Everyone has a fixed seat.
+Upon arrival, visitors are asked about their health. 
+For example, whether they have a fever. Or have a cold.
+Visitors provide their address and telephone number."
 7,Other,2020-04-15T00:00:00,National,closed/cancelled,Mandatory,,,
