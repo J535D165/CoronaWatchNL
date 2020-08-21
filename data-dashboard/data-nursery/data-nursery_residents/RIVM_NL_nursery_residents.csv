@@ -344,8 +344,10 @@ Datum,Type,Aantal,AantalCumulatief
 2020-08-16,Positief geteste bewoners,4,8658
 2020-08-16,Overleden besmette bewoners,3,2903
 2020-08-17,Positief geteste bewoners,6,8664
-2020-08-17,Overleden besmette bewoners,4,2907
+2020-08-17,Overleden besmette bewoners,5,2908
 2020-08-18,Positief geteste bewoners,7,8671
-2020-08-18,Overleden besmette bewoners,1,2908
+2020-08-18,Overleden besmette bewoners,2,2910
 2020-08-19,Positief geteste bewoners,8,8679
-2020-08-19,Overleden besmette bewoners,0,2908
+2020-08-19,Overleden besmette bewoners,0,2910
+2020-08-20,Positief geteste bewoners,6,8685
+2020-08-20,Overleden besmette bewoners,2,2912
