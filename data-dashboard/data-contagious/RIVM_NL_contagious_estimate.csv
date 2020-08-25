@@ -350,192 +350,213 @@ Datum,Type,Waarde
 2020-06-12,Minimum,2702
 2020-06-12,Maximum,7037
 2020-06-12,Geschat aantal besmettelijke mensen,4826
-2020-06-13,Minimum,3648
-2020-06-13,Maximum,7613
-2020-06-13,Geschat aantal besmettelijke mensen,5510
-2020-06-14,Minimum,3277
-2020-06-14,Maximum,7244
-2020-06-14,Geschat aantal besmettelijke mensen,5190
-2020-06-15,Minimum,3058
-2020-06-15,Maximum,7082
-2020-06-15,Geschat aantal besmettelijke mensen,4895
-2020-06-16,Minimum,2747
-2020-06-16,Maximum,6554
-2020-06-16,Geschat aantal besmettelijke mensen,4497
-2020-06-17,Minimum,2533
-2020-06-17,Maximum,6182
-2020-06-17,Geschat aantal besmettelijke mensen,4161
-2020-06-18,Minimum,2385
-2020-06-18,Maximum,5769
-2020-06-18,Geschat aantal besmettelijke mensen,3930
-2020-06-19,Minimum,2145
-2020-06-19,Maximum,5425
-2020-06-19,Geschat aantal besmettelijke mensen,3645
-2020-06-20,Minimum,2213
-2020-06-20,Maximum,5257
-2020-06-20,Geschat aantal besmettelijke mensen,3583
-2020-06-21,Minimum,2185
-2020-06-21,Maximum,5088
-2020-06-21,Geschat aantal besmettelijke mensen,3470
-2020-06-22,Minimum,2336
-2020-06-22,Maximum,5018
-2020-06-22,Geschat aantal besmettelijke mensen,3511
-2020-06-23,Minimum,2367
-2020-06-23,Maximum,4828
-2020-06-23,Geschat aantal besmettelijke mensen,3469
-2020-06-24,Minimum,2276
-2020-06-24,Maximum,4730
-2020-06-24,Geschat aantal besmettelijke mensen,3403
-2020-06-25,Minimum,2357
-2020-06-25,Maximum,4746
-2020-06-25,Geschat aantal besmettelijke mensen,3455
-2020-06-26,Minimum,2217
-2020-06-26,Maximum,4756
-2020-06-26,Geschat aantal besmettelijke mensen,3415
-2020-06-27,Minimum,2237
-2020-06-27,Maximum,4844
-2020-06-27,Geschat aantal besmettelijke mensen,3447
-2020-06-28,Minimum,2051
-2020-06-28,Maximum,4733
-2020-06-28,Geschat aantal besmettelijke mensen,3321
-2020-06-29,Minimum,2076
-2020-06-29,Maximum,4818
-2020-06-29,Geschat aantal besmettelijke mensen,3316
-2020-06-30,Minimum,2057
-2020-06-30,Maximum,4641
-2020-06-30,Geschat aantal besmettelijke mensen,3209
-2020-07-01,Minimum,1946
-2020-07-01,Maximum,4539
-2020-07-01,Geschat aantal besmettelijke mensen,3105
-2020-07-02,Minimum,1900
-2020-07-02,Maximum,4354
-2020-07-02,Geschat aantal besmettelijke mensen,3021
-2020-07-03,Minimum,1799
-2020-07-03,Maximum,4297
-2020-07-03,Geschat aantal besmettelijke mensen,2955
-2020-07-04,Minimum,2039
-2020-07-04,Maximum,4546
-2020-07-04,Geschat aantal besmettelijke mensen,3164
-2020-07-05,Minimum,2221
-2020-07-05,Maximum,4759
-2020-07-05,Geschat aantal besmettelijke mensen,3387
-2020-07-06,Minimum,2630
-2020-07-06,Maximum,5198
-2020-07-06,Geschat aantal besmettelijke mensen,3792
-2020-07-07,Minimum,2993
-2020-07-07,Maximum,5517
-2020-07-07,Geschat aantal besmettelijke mensen,4136
-2020-07-08,Minimum,3408
-2020-07-08,Maximum,5982
-2020-07-08,Geschat aantal besmettelijke mensen,4562
-2020-07-09,Minimum,3799
-2020-07-09,Maximum,6352
-2020-07-09,Geschat aantal besmettelijke mensen,4966
-2020-07-10,Minimum,4150
-2020-07-10,Maximum,7015
-2020-07-10,Geschat aantal besmettelijke mensen,5524
-2020-07-11,Minimum,4798
-2020-07-11,Maximum,8082
-2020-07-11,Geschat aantal besmettelijke mensen,6396
-2020-07-12,Minimum,5259
-2020-07-12,Maximum,9094
-2020-07-12,Geschat aantal besmettelijke mensen,7138
-2020-07-13,Minimum,6040
-2020-07-13,Maximum,10351
-2020-07-13,Geschat aantal besmettelijke mensen,8087
-2020-07-14,Minimum,6379
-2020-07-14,Maximum,10950
-2020-07-14,Geschat aantal besmettelijke mensen,8529
-2020-07-15,Minimum,6966
-2020-07-15,Maximum,11756
-2020-07-15,Geschat aantal besmettelijke mensen,9195
-2020-07-16,Minimum,7120
-2020-07-16,Maximum,12099
-2020-07-16,Geschat aantal besmettelijke mensen,9496
-2020-07-17,Minimum,7080
-2020-07-17,Maximum,12675
-2020-07-17,Geschat aantal besmettelijke mensen,9855
-2020-07-18,Minimum,7669
-2020-07-18,Maximum,13907
-2020-07-18,Geschat aantal besmettelijke mensen,10749
-2020-07-19,Minimum,7851
-2020-07-19,Maximum,14963
-2020-07-19,Geschat aantal besmettelijke mensen,11339
-2020-07-20,Minimum,8888
-2020-07-20,Maximum,16345
-2020-07-20,Geschat aantal besmettelijke mensen,12357
-2020-07-21,Minimum,9238
-2020-07-21,Maximum,16841
-2020-07-21,Geschat aantal besmettelijke mensen,12779
-2020-07-22,Minimum,10060
-2020-07-22,Maximum,17601
-2020-07-22,Geschat aantal besmettelijke mensen,13491
-2020-07-23,Minimum,11290
-2020-07-23,Maximum,18722
-2020-07-23,Geschat aantal besmettelijke mensen,14772
-2020-07-24,Minimum,11753
-2020-07-24,Maximum,19999
-2020-07-24,Geschat aantal besmettelijke mensen,15782
-2020-07-25,Minimum,13407
-2020-07-25,Maximum,22326
-2020-07-25,Geschat aantal besmettelijke mensen,17819
-2020-07-26,Minimum,14191
-2020-07-26,Maximum,24438
-2020-07-26,Geschat aantal besmettelijke mensen,19245
-2020-07-27,Minimum,15794
-2020-07-27,Maximum,26750
-2020-07-27,Geschat aantal besmettelijke mensen,20945
-2020-07-28,Minimum,17056
-2020-07-28,Maximum,28295
-2020-07-28,Geschat aantal besmettelijke mensen,22356
-2020-07-29,Minimum,18091
-2020-07-29,Maximum,30297
-2020-07-29,Geschat aantal besmettelijke mensen,23952
-2020-07-30,Minimum,19593
-2020-07-30,Maximum,32221
-2020-07-30,Geschat aantal besmettelijke mensen,25756
-2020-07-31,Minimum,20425
-2020-07-31,Maximum,35014
-2020-07-31,Geschat aantal besmettelijke mensen,27699
-2020-08-01,Minimum,22406
-2020-08-01,Maximum,38405
-2020-08-01,Geschat aantal besmettelijke mensen,30207
-2020-08-02,Minimum,23931
-2020-08-02,Maximum,41197
-2020-08-02,Geschat aantal besmettelijke mensen,32337
-2020-08-03,Minimum,25877
-2020-08-03,Maximum,44415
-2020-08-03,Geschat aantal besmettelijke mensen,34628
-2020-08-04,Minimum,27302
-2020-08-04,Maximum,46265
-2020-08-04,Geschat aantal besmettelijke mensen,36409
-2020-08-05,Minimum,28607
-2020-08-05,Maximum,48740
-2020-08-05,Geschat aantal besmettelijke mensen,38300
-2020-08-06,Minimum,29638
-2020-08-06,Maximum,50967
-2020-08-06,Geschat aantal besmettelijke mensen,40030
-2020-08-07,Minimum,30244
-2020-08-07,Maximum,53683
-2020-08-07,Geschat aantal besmettelijke mensen,41794
-2020-08-08,Minimum,31306
-2020-08-08,Maximum,56601
-2020-08-08,Geschat aantal besmettelijke mensen,43656
-2020-08-09,Minimum,31856
-2020-08-09,Maximum,59066
-2020-08-09,Geschat aantal besmettelijke mensen,44992
-2020-08-10,Minimum,33018
-2020-08-10,Maximum,61682
-2020-08-10,Geschat aantal besmettelijke mensen,46587
-2020-08-11,Minimum,34168
-2020-08-11,Maximum,64259
-2020-08-11,Geschat aantal besmettelijke mensen,48468
-2020-08-12,Minimum,34258
-2020-08-12,Maximum,66921
-2020-08-12,Geschat aantal besmettelijke mensen,49726
-2020-08-13,Minimum,33370
-2020-08-13,Maximum,70008
-2020-08-13,Geschat aantal besmettelijke mensen,50833
-2020-08-14,Minimum,31775
-2020-08-14,Maximum,73758
-2020-08-14,Geschat aantal besmettelijke mensen,51762
+2020-06-13,Minimum,3661
+2020-06-13,Maximum,7644
+2020-06-13,Geschat aantal besmettelijke mensen,5527
+2020-06-14,Minimum,3284
+2020-06-14,Maximum,7273
+2020-06-14,Geschat aantal besmettelijke mensen,5204
+2020-06-15,Minimum,3067
+2020-06-15,Maximum,7109
+2020-06-15,Geschat aantal besmettelijke mensen,4910
+2020-06-16,Minimum,2756
+2020-06-16,Maximum,6577
+2020-06-16,Geschat aantal besmettelijke mensen,4510
+2020-06-17,Minimum,2540
+2020-06-17,Maximum,6199
+2020-06-17,Geschat aantal besmettelijke mensen,4172
+2020-06-18,Minimum,2393
+2020-06-18,Maximum,5788
+2020-06-18,Geschat aantal besmettelijke mensen,3938
+2020-06-19,Minimum,2143
+2020-06-19,Maximum,5430
+2020-06-19,Geschat aantal besmettelijke mensen,3643
+2020-06-20,Minimum,2218
+2020-06-20,Maximum,5268
+2020-06-20,Geschat aantal besmettelijke mensen,3588
+2020-06-21,Minimum,2192
+2020-06-21,Maximum,5096
+2020-06-21,Geschat aantal besmettelijke mensen,3475
+2020-06-22,Minimum,2348
+2020-06-22,Maximum,5028
+2020-06-22,Geschat aantal besmettelijke mensen,3520
+2020-06-23,Minimum,2377
+2020-06-23,Maximum,4841
+2020-06-23,Geschat aantal besmettelijke mensen,3478
+2020-06-24,Minimum,2284
+2020-06-24,Maximum,4739
+2020-06-24,Geschat aantal besmettelijke mensen,3408
+2020-06-25,Minimum,2380
+2020-06-25,Maximum,4761
+2020-06-25,Geschat aantal besmettelijke mensen,3469
+2020-06-26,Minimum,2235
+2020-06-26,Maximum,4771
+2020-06-26,Geschat aantal besmettelijke mensen,3427
+2020-06-27,Minimum,2250
+2020-06-27,Maximum,4854
+2020-06-27,Geschat aantal besmettelijke mensen,3457
+2020-06-28,Minimum,2054
+2020-06-28,Maximum,4744
+2020-06-28,Geschat aantal besmettelijke mensen,3328
+2020-06-29,Minimum,2078
+2020-06-29,Maximum,4833
+2020-06-29,Geschat aantal besmettelijke mensen,3320
+2020-06-30,Minimum,2059
+2020-06-30,Maximum,4646
+2020-06-30,Geschat aantal besmettelijke mensen,3208
+2020-07-01,Minimum,1936
+2020-07-01,Maximum,4535
+2020-07-01,Geschat aantal besmettelijke mensen,3096
+2020-07-02,Minimum,1891
+2020-07-02,Maximum,4346
+2020-07-02,Geschat aantal besmettelijke mensen,3007
+2020-07-03,Minimum,1786
+2020-07-03,Maximum,4284
+2020-07-03,Geschat aantal besmettelijke mensen,2938
+2020-07-04,Minimum,2019
+2020-07-04,Maximum,4523
+2020-07-04,Geschat aantal besmettelijke mensen,3137
+2020-07-05,Minimum,2191
+2020-07-05,Maximum,4716
+2020-07-05,Geschat aantal besmettelijke mensen,3346
+2020-07-06,Minimum,2600
+2020-07-06,Maximum,5151
+2020-07-06,Geschat aantal besmettelijke mensen,3748
+2020-07-07,Minimum,2955
+2020-07-07,Maximum,5461
+2020-07-07,Geschat aantal besmettelijke mensen,4084
+2020-07-08,Minimum,3351
+2020-07-08,Maximum,5910
+2020-07-08,Geschat aantal besmettelijke mensen,4493
+2020-07-09,Minimum,3740
+2020-07-09,Maximum,6272
+2020-07-09,Geschat aantal besmettelijke mensen,4894
+2020-07-10,Minimum,4095
+2020-07-10,Maximum,6931
+2020-07-10,Geschat aantal besmettelijke mensen,5448
+2020-07-11,Minimum,4761
+2020-07-11,Maximum,8005
+2020-07-11,Geschat aantal besmettelijke mensen,6330
+2020-07-12,Minimum,5211
+2020-07-12,Maximum,9004
+2020-07-12,Geschat aantal besmettelijke mensen,7060
+2020-07-13,Minimum,5999
+2020-07-13,Maximum,10269
+2020-07-13,Geschat aantal besmettelijke mensen,8018
+2020-07-14,Minimum,6346
+2020-07-14,Maximum,10865
+2020-07-14,Geschat aantal besmettelijke mensen,8459
+2020-07-15,Minimum,6898
+2020-07-15,Maximum,11644
+2020-07-15,Geschat aantal besmettelijke mensen,9096
+2020-07-16,Minimum,7043
+2020-07-16,Maximum,11972
+2020-07-16,Geschat aantal besmettelijke mensen,9384
+2020-07-17,Minimum,6973
+2020-07-17,Maximum,12529
+2020-07-17,Geschat aantal besmettelijke mensen,9723
+2020-07-18,Minimum,7538
+2020-07-18,Maximum,13736
+2020-07-18,Geschat aantal besmettelijke mensen,10584
+2020-07-19,Minimum,7650
+2020-07-19,Maximum,14715
+2020-07-19,Geschat aantal besmettelijke mensen,11104
+2020-07-20,Minimum,8641
+2020-07-20,Maximum,16043
+2020-07-20,Geschat aantal besmettelijke mensen,12071
+2020-07-21,Minimum,8949
+2020-07-21,Maximum,16447
+2020-07-21,Geschat aantal besmettelijke mensen,12429
+2020-07-22,Minimum,9731
+2020-07-22,Maximum,17146
+2020-07-22,Geschat aantal besmettelijke mensen,13084
+2020-07-23,Minimum,10904
+2020-07-23,Maximum,18177
+2020-07-23,Geschat aantal besmettelijke mensen,14291
+2020-07-24,Minimum,11314
+2020-07-24,Maximum,19369
+2020-07-24,Geschat aantal besmettelijke mensen,15229
+2020-07-25,Minimum,12939
+2020-07-25,Maximum,21631
+2020-07-25,Geschat aantal besmettelijke mensen,17214
+2020-07-26,Minimum,13638
+2020-07-26,Maximum,23603
+2020-07-26,Geschat aantal besmettelijke mensen,18538
+2020-07-27,Minimum,15153
+2020-07-27,Maximum,25768
+2020-07-27,Geschat aantal besmettelijke mensen,20129
+2020-07-28,Minimum,16240
+2020-07-28,Maximum,27094
+2020-07-28,Geschat aantal besmettelijke mensen,21345
+2020-07-29,Minimum,17135
+2020-07-29,Maximum,28888
+2020-07-29,Geschat aantal besmettelijke mensen,22768
+2020-07-30,Minimum,18513
+2020-07-30,Maximum,30623
+2020-07-30,Geschat aantal besmettelijke mensen,24416
+2020-07-31,Minimum,18992
+2020-07-31,Maximum,33001
+2020-07-31,Geschat aantal besmettelijke mensen,25985
+2020-08-01,Minimum,20716
+2020-08-01,Maximum,36009
+2020-08-01,Geschat aantal besmettelijke mensen,28169
+2020-08-02,Minimum,21662
+2020-08-02,Maximum,38042
+2020-08-02,Geschat aantal besmettelijke mensen,29613
+2020-08-03,Minimum,23023
+2020-08-03,Maximum,40410
+2020-08-03,Geschat aantal besmettelijke mensen,31163
+2020-08-04,Minimum,23843
+2020-08-04,Maximum,41378
+2020-08-04,Geschat aantal besmettelijke mensen,32227
+2020-08-05,Minimum,24412
+2020-08-05,Maximum,42893
+2020-08-05,Geschat aantal besmettelijke mensen,33290
+2020-08-06,Minimum,24588
+2020-08-06,Maximum,43757
+2020-08-06,Geschat aantal besmettelijke mensen,33898
+2020-08-07,Minimum,23951
+2020-08-07,Maximum,44842
+2020-08-07,Geschat aantal besmettelijke mensen,34216
+2020-08-08,Minimum,24189
+2020-08-08,Maximum,46063
+2020-08-08,Geschat aantal besmettelijke mensen,34750
+2020-08-09,Minimum,24008
+2020-08-09,Maximum,46688
+2020-08-09,Geschat aantal besmettelijke mensen,34839
+2020-08-10,Minimum,24537
+2020-08-10,Maximum,47674
+2020-08-10,Geschat aantal besmettelijke mensen,35334
+2020-08-11,Minimum,24500
+2020-08-11,Maximum,47199
+2020-08-11,Geschat aantal besmettelijke mensen,35195
+2020-08-12,Minimum,24667
+2020-08-12,Maximum,47154
+2020-08-12,Geschat aantal besmettelijke mensen,35146
+2020-08-13,Minimum,24888
+2020-08-13,Maximum,46966
+2020-08-13,Geschat aantal besmettelijke mensen,35232
+2020-08-14,Minimum,24539
+2020-08-14,Maximum,46849
+2020-08-14,Geschat aantal besmettelijke mensen,35140
+2020-08-15,Minimum,24308
+2020-08-15,Maximum,46619
+2020-08-15,Geschat aantal besmettelijke mensen,34954
+2020-08-16,Minimum,23695
+2020-08-16,Maximum,46789
+2020-08-16,Geschat aantal besmettelijke mensen,34787
+2020-08-17,Minimum,23705
+2020-08-17,Maximum,47188
+2020-08-17,Geschat aantal besmettelijke mensen,34755
+2020-08-18,Minimum,23611
+2020-08-18,Maximum,47105
+2020-08-18,Geschat aantal besmettelijke mensen,34639
+2020-08-19,Minimum,22792
+2020-08-19,Maximum,47332
+2020-08-19,Geschat aantal besmettelijke mensen,34328
+2020-08-20,Minimum,21585
+2020-08-20,Maximum,47670
+2020-08-20,Geschat aantal besmettelijke mensen,34049
+2020-08-21,Minimum,20165
+2020-08-21,Maximum,48953
+2020-08-21,Geschat aantal besmettelijke mensen,33922
