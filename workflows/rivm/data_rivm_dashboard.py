@@ -242,11 +242,10 @@ def main_suspects():
     df = _get_data(
         "verdenkingen_huisartsen",
         {
-            "geschat_aantal": "Verdachte patienten",
+            "incidentie": "Verdachte patienten",
         },
         "week_unix"
     ).rename({"Waarde": "Aantal"}, axis=1)
-    df['Aantal'] = df["Aantal"].astype(pd.Int64Dtype())
 
     Path(DATA_FOLDER, "data-suspects").mkdir(exist_ok=True)
 
