@@ -971,3 +971,12 @@ Datum,Bron,Geslacht,Type,Aantal,AantalCumulatief
 2020-08-25,RIVM_report_20200825,Man,Overleden,,3410
 2020-08-25,RIVM_report_20200825,Vrouw,Overleden,,2797
 2020-08-25,RIVM_report_20200825,Niet vermeld,Overleden,,0
+2020-09-01,RIVM_report_20200901,Man,Totaal,,28908
+2020-09-01,RIVM_report_20200901,Vrouw,Totaal,,42130
+2020-09-01,RIVM_report_20200901,Niet vermeld,Totaal,,91
+2020-09-01,RIVM_report_20200901,Man,Ziekenhuisopname,,7460
+2020-09-01,RIVM_report_20200901,Vrouw,Ziekenhuisopname,,4714
+2020-09-01,RIVM_report_20200901,Niet vermeld,Ziekenhuisopname,,8
+2020-09-01,RIVM_report_20200901,Man,Overleden,,3419
+2020-09-01,RIVM_report_20200901,Vrouw,Overleden,,2811
+2020-09-01,RIVM_report_20200901,Niet vermeld,Overleden,,0
