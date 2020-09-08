@@ -6,14 +6,35 @@ from requests import Session
 from retry_requests import retry
 import pandas as pd
 
+from bs4 import BeautifulSoup
 
-LCPS_API_URL = 'https://s3.eu-de.cloud-object-storage.appdomain.cloud/cloud-object-storage-lcps/news.json'  # noqa
+
+LCPS_API_URL = 'https://lcps.nu/nieuws/'  # noqa
 
 
+def htmltoobj(content):
+    soup = BeautifulSoup(content, 'html.parser')
+    updates = []
+    
+    for post in soup.select('div.post'):
+        title = post.select_one('h3').text
+        date = post.select_one('span.meta span').text
+        content = post.select_one('div.excerpt').text
+
+        updates.append({
+            "title": title.strip(),
+            "date": date.strip(),
+            "content": content.strip()
+        })
+        
+    return {'updates': updates}
+
+                      
 def get(url):
     session = retry(Session(), retries=10, backoff_factor=0.2)
 
-    ret = session.get(url)
+    headers = {'User-Agent': 'curl/7.51.0'}  # curl is fine, requests is not :/
+    ret = session.get(url, headers=headers)
 
     while ret.status_code != 200:  # keep trying until we succeed
         ret = session.get(url)
@@ -44,7 +65,8 @@ def titleclassifier(title):
 
 if __name__ == '__main__':
 
-    news = get(LCPS_API_URL).json()
+    news = htmltoobj(get(LCPS_API_URL).content)
+    
 
     year = datetime.now().year
 
@@ -52,8 +74,8 @@ if __name__ == '__main__':
 
     for item in news['updates']:
 
-        # print(item["content"])
-
+        # print(item["date"])
+        
         title = titlenormalizer(item['title'])
 
         # print(item['content'])
