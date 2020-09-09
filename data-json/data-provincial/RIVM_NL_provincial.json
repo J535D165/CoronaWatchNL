@@ -25779,6 +25779,138 @@
       "overledenAantalCumulatief": 1350,
       "totaalAantalCumulatief": 21289,
       "ziekenhuisopnameAantalCumulatief": 2334
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Drenthe",
+      "Provinciecode": 22,
+      "overledenAantal": 0,
+      "totaalAantal": 3,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 41,
+      "totaalAantalCumulatief": 629,
+      "ziekenhuisopnameAantalCumulatief": 119
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Flevoland",
+      "Provinciecode": 24,
+      "overledenAantal": 0,
+      "totaalAantal": 27,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 95,
+      "totaalAantalCumulatief": 1475,
+      "ziekenhuisopnameAantalCumulatief": 277
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Friesland",
+      "Provinciecode": 21,
+      "overledenAantal": 0,
+      "totaalAantal": 9,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 69,
+      "totaalAantalCumulatief": 864,
+      "ziekenhuisopnameAantalCumulatief": 131
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Gelderland",
+      "Provinciecode": 25,
+      "overledenAantal": 0,
+      "totaalAantal": 88,
+      "ziekenhuisopnameAantal": 1,
+      "overledenAantalCumulatief": 691,
+      "totaalAantalCumulatief": 7936,
+      "ziekenhuisopnameAantalCumulatief": 1521
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Groningen",
+      "Provinciecode": 20,
+      "overledenAantal": 0,
+      "totaalAantal": 16,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 19,
+      "totaalAantalCumulatief": 673,
+      "ziekenhuisopnameAantalCumulatief": 75
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Limburg",
+      "Provinciecode": 31,
+      "overledenAantal": 0,
+      "totaalAantal": 26,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 757,
+      "totaalAantalCumulatief": 5618,
+      "ziekenhuisopnameAantalCumulatief": 1573
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Noord-Brabant",
+      "Provinciecode": 30,
+      "overledenAantal": 0,
+      "totaalAantal": 114,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 1551,
+      "totaalAantalCumulatief": 12941,
+      "ziekenhuisopnameAantalCumulatief": 2791
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Noord-Holland",
+      "Provinciecode": 27,
+      "overledenAantal": 0,
+      "totaalAantal": 263,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 830,
+      "totaalAantalCumulatief": 14274,
+      "ziekenhuisopnameAantalCumulatief": 1716
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Overijssel",
+      "Provinciecode": 23,
+      "overledenAantal": 0,
+      "totaalAantal": 27,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 314,
+      "totaalAantalCumulatief": 3644,
+      "ziekenhuisopnameAantalCumulatief": 553
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Utrecht",
+      "Provinciecode": 26,
+      "overledenAantal": 0,
+      "totaalAantal": 102,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 437,
+      "totaalAantalCumulatief": 6120,
+      "ziekenhuisopnameAantalCumulatief": 919
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Zeeland",
+      "Provinciecode": 29,
+      "overledenAantal": 0,
+      "totaalAantal": 4,
+      "ziekenhuisopnameAantal": 0,
+      "overledenAantalCumulatief": 72,
+      "totaalAantalCumulatief": 1101,
+      "ziekenhuisopnameAantalCumulatief": 152
+    },
+    {
+      "Datum": "2020-09-09",
+      "Provincienaam": "Zuid-Holland",
+      "Provinciecode": 28,
+      "overledenAantal": 2,
+      "totaalAantal": 449,
+      "ziekenhuisopnameAantal": 6,
+      "overledenAantalCumulatief": 1352,
+      "totaalAantalCumulatief": 21738,
+      "ziekenhuisopnameAantalCumulatief": 2340
     }
   ],
   "apiVersion": "0.1"
