@@ -15,7 +15,7 @@ LCPS_API_URL = 'https://lcps.nu/nieuws/'  # noqa
 def htmltoobj(content):
     soup = BeautifulSoup(content, 'html.parser')
     updates = []
-    
+
     for post in soup.select('div.post'):
         title = post.select_one('h3').text
         date = post.select_one('span.meta span').text
@@ -26,10 +26,10 @@ def htmltoobj(content):
             "date": date.strip(),
             "content": content.strip()
         })
-        
+
     return {'updates': updates}
 
-                      
+
 def get(url):
     session = retry(Session(), retries=10, backoff_factor=0.2)
 
@@ -66,16 +66,15 @@ def titleclassifier(title):
 if __name__ == '__main__':
 
     news = htmltoobj(get(LCPS_API_URL).content)
-    
 
     year = datetime.now().year
 
     data = []
 
-    for item in news['updates']:
+    for item in news['updates'][0:10]:
 
         # print(item["date"])
-        
+
         title = titlenormalizer(item['title'])
 
         # print(item['content'])
@@ -107,7 +106,7 @@ if __name__ == '__main__':
     df_lcps['AantalDuitsland'] = df_lcps['AantalDuitsland'].astype(pd.Int64Dtype())
 
     df_lcps[~df_lcps.index.duplicated()]
-    df_lcps[["Aantal"]].to_csv('data/lcps_ic.csv')
+    # df_lcps[["Aantal"]].to_csv('data/lcps_ic.csv')
 
     df_lcps_country = df_lcps.copy()
     df_lcps_country['Nederland'] = df_lcps['Aantal'] - df_lcps['AantalDuitsland']
@@ -124,4 +123,4 @@ if __name__ == '__main__':
     df_lcps_country['Aantal'] = df_lcps_country['Aantal'].astype(pd.Int64Dtype())
 
     df_lcps_country = df_lcps_country[df_lcps_country['Aantal'] != 0]
-    df_lcps_country[["Aantal"]].to_csv('data/lcps_ic_country.csv')
+    # df_lcps_country[["Aantal"]].to_csv('data/lcps_ic_country.csv')
