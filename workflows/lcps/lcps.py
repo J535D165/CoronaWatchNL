@@ -106,7 +106,7 @@ if __name__ == '__main__':
     df_lcps['AantalDuitsland'] = df_lcps['AantalDuitsland'].astype(pd.Int64Dtype())
 
     df_lcps[~df_lcps.index.duplicated()]
-    # df_lcps[["Aantal"]].to_csv('data/lcps_ic.csv')
+    df_lcps[["Aantal"]].to_csv('data/lcps_ic.csv')
 
     df_lcps_country = df_lcps.copy()
     df_lcps_country['Nederland'] = df_lcps['Aantal'] - df_lcps['AantalDuitsland']
@@ -123,4 +123,4 @@ if __name__ == '__main__':
     df_lcps_country['Aantal'] = df_lcps_country['Aantal'].astype(pd.Int64Dtype())
 
     df_lcps_country = df_lcps_country[df_lcps_country['Aantal'] != 0]
-    # df_lcps_country[["Aantal"]].to_csv('data/lcps_ic_country.csv')
+    df_lcps_country[["Aantal"]].to_csv('data/lcps_ic_country.csv')
