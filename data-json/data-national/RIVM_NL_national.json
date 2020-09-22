@@ -1867,6 +1867,42 @@
       "overledenAantalCumulatief": 6266,
       "totaalAantalCumulatief": 88073,
       "ziekenhuisopnameAantalCumulatief": 12344
+    },
+    {
+      "Datum": "2020-09-18",
+      "overledenAantal": 7,
+      "totaalAantal": 1974,
+      "ziekenhuisopnameAantal": 12,
+      "overledenAantalCumulatief": 6273,
+      "totaalAantalCumulatief": 90047,
+      "ziekenhuisopnameAantalCumulatief": 12356
+    },
+    {
+      "Datum": "2020-09-19",
+      "overledenAantal": 2,
+      "totaalAantal": 1887,
+      "ziekenhuisopnameAantal": 33,
+      "overledenAantalCumulatief": 6275,
+      "totaalAantalCumulatief": 91934,
+      "ziekenhuisopnameAantalCumulatief": 12389
+    },
+    {
+      "Datum": "2020-09-20",
+      "overledenAantal": 4,
+      "totaalAantal": 1844,
+      "ziekenhuisopnameAantal": 20,
+      "overledenAantalCumulatief": 6279,
+      "totaalAantalCumulatief": 93778,
+      "ziekenhuisopnameAantalCumulatief": 12409
+    },
+    {
+      "Datum": "2020-09-21",
+      "overledenAantal": 2,
+      "totaalAantal": 2217,
+      "ziekenhuisopnameAantal": 26,
+      "overledenAantalCumulatief": 6281,
+      "totaalAantalCumulatief": 95995,
+      "ziekenhuisopnameAantalCumulatief": 12435
     }
   ],
   "apiVersion": "0.1"
