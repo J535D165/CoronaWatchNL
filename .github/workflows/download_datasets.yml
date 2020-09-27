@@ -1,7 +1,7 @@
 name: "Download datasets"
 on:
   schedule:
-    - cron:  '*/15 14-16 * * *'
+    - cron:  '*/15 12-14 * * *'
 
 jobs:
   download-rivm-geo:
