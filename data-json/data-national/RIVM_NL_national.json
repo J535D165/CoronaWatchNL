@@ -1903,6 +1903,69 @@
       "overledenAantalCumulatief": 6281,
       "totaalAantalCumulatief": 95995,
       "ziekenhuisopnameAantalCumulatief": 12435
+    },
+    {
+      "Datum": "2020-09-22",
+      "overledenAantal": 10,
+      "totaalAantal": 2245,
+      "ziekenhuisopnameAantal": 32,
+      "overledenAantalCumulatief": 6291,
+      "totaalAantalCumulatief": 98240,
+      "ziekenhuisopnameAantalCumulatief": 12467
+    },
+    {
+      "Datum": "2020-09-23",
+      "overledenAantal": 5,
+      "totaalAantal": 2357,
+      "ziekenhuisopnameAantal": 32,
+      "overledenAantalCumulatief": 6296,
+      "totaalAantalCumulatief": 100597,
+      "ziekenhuisopnameAantalCumulatief": 12499
+    },
+    {
+      "Datum": "2020-09-24",
+      "overledenAantal": 16,
+      "totaalAantal": 2544,
+      "ziekenhuisopnameAantal": 25,
+      "overledenAantalCumulatief": 6312,
+      "totaalAantalCumulatief": 103141,
+      "ziekenhuisopnameAantalCumulatief": 12524
+    },
+    {
+      "Datum": "2020-09-25",
+      "overledenAantal": 16,
+      "totaalAantal": 2777,
+      "ziekenhuisopnameAantal": 36,
+      "overledenAantalCumulatief": 6328,
+      "totaalAantalCumulatief": 105918,
+      "ziekenhuisopnameAantalCumulatief": 12560
+    },
+    {
+      "Datum": "2020-09-26",
+      "overledenAantal": 38,
+      "totaalAantal": 2713,
+      "ziekenhuisopnameAantal": 29,
+      "overledenAantalCumulatief": 6366,
+      "totaalAantalCumulatief": 108631,
+      "ziekenhuisopnameAantalCumulatief": 12589
+    },
+    {
+      "Datum": "2020-09-27",
+      "overledenAantal": 8,
+      "totaalAantal": 2995,
+      "ziekenhuisopnameAantal": 37,
+      "overledenAantalCumulatief": 6374,
+      "totaalAantalCumulatief": 111626,
+      "ziekenhuisopnameAantalCumulatief": 12626
+    },
+    {
+      "Datum": "2020-09-28",
+      "overledenAantal": 6,
+      "totaalAantal": 2914,
+      "ziekenhuisopnameAantal": 38,
+      "overledenAantalCumulatief": 6380,
+      "totaalAantalCumulatief": 114540,
+      "ziekenhuisopnameAantalCumulatief": 12664
     }
   ],
   "apiVersion": "0.1"
