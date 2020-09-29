@@ -4,9 +4,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-# Change this
-OUTPUT_FILE = 'euromomo.json'
-
 # Change this if the script breaks
 BASE_PAGE = "https://www.euromomo.eu/graphs-and-maps/"
 JS_FILE_PATTERN = "src-templates-graphs-and-maps-js"
