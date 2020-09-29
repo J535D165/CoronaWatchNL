@@ -1007,3 +1007,12 @@ Datum,Bron,Geslacht,Type,Aantal
 2020-09-22,RIVM_report_20200922,Man,Overleden,3457
 2020-09-22,RIVM_report_20200922,Vrouw,Overleden,2834
 2020-09-22,RIVM_report_20200922,Niet vermeld,Overleden,0
+2020-09-29,RIVM_report_20200929,Man,Totaal,50862
+2020-09-29,RIVM_report_20200929,Vrouw,Totaal,66597
+2020-09-29,RIVM_report_20200929,Niet vermeld,Totaal,92
+2020-09-29,RIVM_report_20200929,Man,Ziekenhuisopname,7761
+2020-09-29,RIVM_report_20200929,Vrouw,Ziekenhuisopname,4941
+2020-09-29,RIVM_report_20200929,Niet vermeld,Ziekenhuisopname,8
+2020-09-29,RIVM_report_20200929,Man,Overleden,3509
+2020-09-29,RIVM_report_20200929,Vrouw,Overleden,2884
+2020-09-29,RIVM_report_20200929,Niet vermeld,Overleden,0
