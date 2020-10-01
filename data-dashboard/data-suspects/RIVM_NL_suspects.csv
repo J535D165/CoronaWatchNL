@@ -2,9 +2,9 @@ Datum,Type,Aantal
 2020-03-08,Verdachte patienten,5.7
 2020-03-15,Verdachte patienten,18.7
 2020-03-22,Verdachte patienten,87.3
-2020-03-29,Verdachte patienten,120.1
-2020-04-05,Verdachte patienten,103.7
-2020-04-12,Verdachte patienten,81.1
+2020-03-29,Verdachte patienten,119.9
+2020-04-05,Verdachte patienten,103.6
+2020-04-12,Verdachte patienten,81.0
 2020-04-19,Verdachte patienten,52.0
 2020-04-26,Verdachte patienten,43.3
 2020-05-03,Verdachte patienten,25.2
@@ -14,7 +14,7 @@ Datum,Type,Aantal
 2020-05-31,Verdachte patienten,19.1
 2020-06-07,Verdachte patienten,14.0
 2020-06-14,Verdachte patienten,15.5
-2020-06-21,Verdachte patienten,15.6
+2020-06-21,Verdachte patienten,15.5
 2020-06-28,Verdachte patienten,12.2
 2020-07-05,Verdachte patienten,10.9
 2020-07-12,Verdachte patienten,9.5
@@ -26,5 +26,6 @@ Datum,Type,Aantal
 2020-08-23,Verdachte patienten,8.1
 2020-08-30,Verdachte patienten,12.0
 2020-09-06,Verdachte patienten,15.6
-2020-09-13,Verdachte patienten,23.3
-2020-09-20,Verdachte patienten,23.6
+2020-09-13,Verdachte patienten,23.0
+2020-09-20,Verdachte patienten,24.6
+2020-09-27,Verdachte patienten,22.7
