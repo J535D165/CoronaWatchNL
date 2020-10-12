@@ -48,6 +48,8 @@ Even then children stay at home.
 When back from holidays Children from 0 to 4 years old are allowed to go to childcare and sports.
 Children aged 4 to 12 are allowed to go to school.
 And they are also allowed to go to childcare and sports."
+1,Schools/Univ. closure,2020-10-12T00:00:00,National,Open,Mandatory,2020-08-18T00:00:00,2020-12-31T00:00:00,"
+"
 2,National movement restrictions,2020-03-17T00:00:00,National,Partially banned,Recommended,,,Limitation only for people in quarantine and at risk.
 2,National movement restrictions,2020-03-20T00:00:00,National,Partially banned,Recommended,,,Limitation only for people in quarantine and at risk. Nursing homes and small-scale housing in elderly care will be closed from March 20th for visitors and others who are not necessary for basic care.
 2,National movement restrictions,2020-03-23T00:00:00,National,Partially banned,Recommended,2020-03-12T00:00:00,2020-04-06T00:00:00,Limitation only for people in quarantine and at risk. Nursing homes and small-scale housing in elderly care will be closed from March 20th for visitors and others who are not necessary for basic care.
@@ -148,6 +150,42 @@ Do you have a cold? Then stay at home!
 Do you have a fever or are you short of breath? Then all housemates must stay at home.
 Work from home as much as possible.
 "
+2,National movement restrictions,2020-10-12T00:00:00,Sub-National,Free,Recommended,2020-09-20T00:00:00,2020-12-31T00:00:00,"As of October 2 the following applies for masks:
+New advice for masks in public buildings
+Wear a face mask in public buildings.
+This is urgent advice.
+These are non-medical face masks.
+The advice applies to all people from the age of 13.
+
+Examples of these buildings are:
+
+stores
+museums
+town halls
+stations
+airports
+parking garages
+gas stations
+restaurants and cafes
+theaters and concert halls.
+
+Rules for indoors
+Working from home remains the norm, unless that is really not possible. If contamination does occur in a work situation, the work location can be closed for 14 days.
+Visits in your own home, in the garden or on the balcony are limited to 3 guests. This applies in addition to your own household and excluding children up to and including 12 years old.
+In buildings other than the owner-occupied home, a group may be formed with a maximum of 4 people. Children up to and including 12 are not included. This means that a reservation at a cinema or restaurant can be made for 1 household or a maximum of 4 people, excluding children.
+The number of people per room is limited to 30. This includes children up to and including 12 years old and excluding staff.
+Food and beverage outlets open until 9 p.m., the store is closed at 10 p.m.
+Sports canteens are closed.
+For indoor spaces with a flow of visitors, such as in monuments, libraries and museums, visits are based on a reservation per period. Markets and retail are excluded from this.
+People with a contact profession ask their customers to register, just like in the hospitality industry.
+Rules for outside
+For activities outside, where there is no continuous flow of people, a maximum of 40 people applies. This includes children up to and including 12 years old and excluding staff.
+If there is a continuous flow of people outside, such as in zoos or markets, there is a standard for the number of visitors per square meter.
+Sports competitions, both amateur and professional, take place without an audience.
+The advice is to limit the number of travel movements as much as possible.
+
+Exceptions applies as per Source #2
+Local additional measures might be applied in regions with higher positives as per source #3."
 3,International movement restrictions,2020-03-17T00:00:00,National,Partially banned,Recommended,,,People are recommended not to traver in high risk areas and unless they have sintoms they don't need to declare that they came back to NL from abroad.
 3,International movement restrictions,2020-03-18T00:00:00,National,Partially banned,Recommended,,,People are strongly recommended not to travel abroad. Unless they have sintoms they don't need to declare that they came back to NL from abroad.
 3,International movement restrictions,2020-03-19T00:00:00,National,Partially banned,Mandatory,,,"Only EU citizens and some other with specific requirements can enter NL from March 19, 6pm. This is valid for 30 days. details here in source 4."
@@ -375,6 +413,10 @@ At midnight the music stops.
 The cafes and restaurants close at 1am.
 You must be gone then.
 The rules apply to indoors and outdoors."
+5,Non-essential shops closure,2020-10-12T00:00:00,Sub-National,Open,Mandatory,2020-10-02T00:00:00,2020-12-31T00:00:00,"Food and beverage outlets open until 9 p.m., the store is closed at 10 p.m.
+Sports canteens are closed.
+For indoor spaces with a flow of visitors, such as in monuments, libraries and museums, visits are based on a reservation per period. Markets and retail are excluded from this.
+People with a contact profession ask their customers to register, just like in the hospitality industry."
 6,Events stop,2020-03-17T00:00:00,National,Banned,Mandatory,,,
 6,Events stop,2020-03-23T00:00:00,National,Banned,Mandatory,2020-03-12T00:00:00,2020-04-06T00:00:00,Events with more than 100 people are cancelled
 6,Events stop,2020-03-24T00:00:00,National,Banned,Mandatory,2020-03-12T00:00:00,2020-06-01T00:00:00,"From Mrach 23 All meetings are prohibited until June 1 (instead of April 6), even with fewer than 100 people."
@@ -487,4 +529,7 @@ For example markets and libraries.
 The rules apply to indoors and outdoors.
 Then your group may not be larger than 50 people.
 So also not together to parties and drinks for more than 50 people."
+6,Events stop,2020-10-12T00:00:00,Sub-National,Partially banned,Mandatory,2020-10-02T00:00:00,2020-12-31T00:00:00,"Visits in your own home, in the garden or on the balcony are limited to 3 guests. This applies in addition to your own household and excluding children up to and including 12 years old.
+In buildings other than the owner-occupied home, a group may be formed with a maximum of 4 people. Children up to and including 12 are not included. This means that a reservation at a cinema or restaurant can be made for 1 household or a maximum of 4 people, excluding children.
+The number of people per room is limited to 30. This includes children up to and including 12 years old and excluding staff."
 7,Other,2020-04-15T00:00:00,National,closed/cancelled,Mandatory,,,

@@ -1,32 +1,42 @@
 measureId,measureDescription,lastMeasureUpdate,area,status,restrictiveMeasures,startDate,endDate,notes
-1,Schools/Univ. closure,2020-09-08T00:00:00,National,Open,Mandatory,2020-08-18T00:00:00,2020-12-31T00:00:00,"Schools work on a safe environment:
-
-Children with complaints stay at home.
-Does anyone in the family have corona? 
-Even then children stay at home.
-
-When back from holidays Children from 0 to 4 years old are allowed to go to childcare and sports.
-Children aged 4 to 12 are allowed to go to school.
-And they are also allowed to go to childcare and sports."
-2,National movement restrictions,2020-09-25T00:00:00,Sub-National,Free,Recommended,2020-09-20T00:00:00,2020-12-31T00:00:00,"6 regions with many infections will have specific rules for events, gatherings and catering (see related sections) plus others specific that each region will communicate to the population.
-Amsterdam-Amstelland
-Rotterdam-Rijnmond
-Haaglanden
-Utrecht
-Hollands-Midden
-Kennemerland
-
-In all the country the following rule still apply:
-
-Do not forget:
-Always keep a distance of 1.5 meters.
-Do not go to places where it is crowded.
-Sneeze and cough into your elbow.
-Wash your hands often with soap.
-Do you have a cold? Then stay at home!
-Do you have a fever or are you short of breath? Then all housemates must stay at home.
-Work from home as much as possible.
+1,Schools/Univ. closure,2020-10-12T00:00:00,National,Open,Mandatory,2020-08-18T00:00:00,2020-12-31T00:00:00,"
 "
+2,National movement restrictions,2020-10-12T00:00:00,Sub-National,Free,Recommended,2020-09-20T00:00:00,2020-12-31T00:00:00,"As of October 2 the following applies for masks:
+New advice for masks in public buildings
+Wear a face mask in public buildings.
+This is urgent advice.
+These are non-medical face masks.
+The advice applies to all people from the age of 13.
+
+Examples of these buildings are:
+
+stores
+museums
+town halls
+stations
+airports
+parking garages
+gas stations
+restaurants and cafes
+theaters and concert halls.
+
+Rules for indoors
+Working from home remains the norm, unless that is really not possible. If contamination does occur in a work situation, the work location can be closed for 14 days.
+Visits in your own home, in the garden or on the balcony are limited to 3 guests. This applies in addition to your own household and excluding children up to and including 12 years old.
+In buildings other than the owner-occupied home, a group may be formed with a maximum of 4 people. Children up to and including 12 are not included. This means that a reservation at a cinema or restaurant can be made for 1 household or a maximum of 4 people, excluding children.
+The number of people per room is limited to 30. This includes children up to and including 12 years old and excluding staff.
+Food and beverage outlets open until 9 p.m., the store is closed at 10 p.m.
+Sports canteens are closed.
+For indoor spaces with a flow of visitors, such as in monuments, libraries and museums, visits are based on a reservation per period. Markets and retail are excluded from this.
+People with a contact profession ask their customers to register, just like in the hospitality industry.
+Rules for outside
+For activities outside, where there is no continuous flow of people, a maximum of 40 people applies. This includes children up to and including 12 years old and excluding staff.
+If there is a continuous flow of people outside, such as in zoos or markets, there is a standard for the number of visitors per square meter.
+Sports competitions, both amateur and professional, take place without an audience.
+The advice is to limit the number of travel movements as much as possible.
+
+Exceptions applies as per Source #2
+Local additional measures might be applied in regions with higher positives as per source #3."
 3,International movement restrictions,2020-09-08T00:00:00,National,Partially banned,Mandatory,2020-06-15T00:00:00,2020-12-31T00:00:00,"Have you been on holiday in an area with a lot of infections?
 
 Stay at home for 10 days.
@@ -52,28 +62,11 @@ Croatia
 1 area in Belgium (Antwerp);
 countries outside the EU, the Schengen area and the United Kingdom."
 4,Flight restrictions,2020-09-08T00:00:00,National,Partially cancelled,Mandatory,2020-06-15T00:00:00,2020-12-31T00:00:00,"From June 15 traveling within Europe is possible in the following countries: Belgium, Bulgaria, Germany, Estonia, France, Iceland, Italy, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Poland, Portugal, the Czech Republic and Switzerland. Traveling outside Europe is not recommended to limit the risks of a new outbreak. "
-5,Non-essential shops closure,2020-09-25T00:00:00,Sub-National,Open,Mandatory,2020-09-20T00:00:00,2020-12-31T00:00:00,"Adjusted rules apply to cafés and restaurants:
-
-You are no longer allowed to enter a café or restaurant at midnight (midnight).
-You are therefore not allowed to sit on a terrace.
-At midnight the music stops.
-The cafes and restaurants close at 1am.
-You must be gone then.
-The rules apply to indoors and outdoors."
-6,Events stop,2020-09-25T00:00:00,Sub-National,Partially banned,Mandatory,2020-09-20T00:00:00,2020-12-31T00:00:00,"No parties for large groups
-You may not meet with a large group.
-For example, to go to a cinema or the fair together.
-
-Report a large group meeting
-If more than 50 people come together, you must report this to the municipality.
-For example if you are organizing a concert in a park.
-The duty to report does not apply to:
-restaurants and cafes
-religious gatherings
-supermarkets and shops
-other places where many people walk.
-For example markets and libraries.
-The rules apply to indoors and outdoors.
-Then your group may not be larger than 50 people.
-So also not together to parties and drinks for more than 50 people."
+5,Non-essential shops closure,2020-10-12T00:00:00,Sub-National,Open,Mandatory,2020-10-02T00:00:00,2020-12-31T00:00:00,"Food and beverage outlets open until 9 p.m., the store is closed at 10 p.m.
+Sports canteens are closed.
+For indoor spaces with a flow of visitors, such as in monuments, libraries and museums, visits are based on a reservation per period. Markets and retail are excluded from this.
+People with a contact profession ask their customers to register, just like in the hospitality industry."
+6,Events stop,2020-10-12T00:00:00,Sub-National,Partially banned,Mandatory,2020-10-02T00:00:00,2020-12-31T00:00:00,"Visits in your own home, in the garden or on the balcony are limited to 3 guests. This applies in addition to your own household and excluding children up to and including 12 years old.
+In buildings other than the owner-occupied home, a group may be formed with a maximum of 4 people. Children up to and including 12 are not included. This means that a reservation at a cinema or restaurant can be made for 1 household or a maximum of 4 people, excluding children.
+The number of people per room is limited to 30. This includes children up to and including 12 years old and excluding staff."
 7,Other,2020-04-15T00:00:00,National,closed/cancelled,Mandatory,,,
