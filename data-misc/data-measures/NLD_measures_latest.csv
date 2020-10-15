@@ -1,72 +1,80 @@
 measureId,measureDescription,lastMeasureUpdate,area,status,restrictiveMeasures,startDate,endDate,notes
-1,Schools/Univ. closure,2020-10-12T00:00:00,National,Open,Mandatory,2020-08-18T00:00:00,2020-12-31T00:00:00,"
+1,Schools/Univ. closure,2020-10-15T00:00:00,National,Open,Mandatory,2020-10-14T00:00:00,2020-10-31T00:00:00,"Wear a face mask in high school.
+Wear a face mask in secondary vocational schools.
+Wear a face mask at colleges and universities.
+Only remove the mouth mask during class.
+This applies to everyone from the age of 13.
 "
-2,National movement restrictions,2020-10-12T00:00:00,Sub-National,Free,Recommended,2020-09-20T00:00:00,2020-12-31T00:00:00,"As of October 2 the following applies for masks:
-New advice for masks in public buildings
-Wear a face mask in public buildings.
-This is urgent advice.
-These are non-medical face masks.
-The advice applies to all people from the age of 13.
+2,National movement restrictions,2020-10-15T00:00:00,National,Free,Mandatory,2020-10-14T00:00:00,2020-10-31T00:00:00,"Travel as little as possible.
+Work from home as much as possible.
+Only go to work if there is absolutely no other option.
 
-Examples of these buildings are:
+Wear a mouth mask in buildings where you as a public are allowed to enter. For example in the library, a shop or the station.
+Wear a face mask on public transport.
 
-stores
-museums
-town halls
-stations
-airports
-parking garages
-gas stations
-restaurants and cafes
-theaters and concert halls.
 
-Rules for indoors
-Working from home remains the norm, unless that is really not possible. If contamination does occur in a work situation, the work location can be closed for 14 days.
-Visits in your own home, in the garden or on the balcony are limited to 3 guests. This applies in addition to your own household and excluding children up to and including 12 years old.
-In buildings other than the owner-occupied home, a group may be formed with a maximum of 4 people. Children up to and including 12 are not included. This means that a reservation at a cinema or restaurant can be made for 1 household or a maximum of 4 people, excluding children.
-The number of people per room is limited to 30. This includes children up to and including 12 years old and excluding staff.
-Food and beverage outlets open until 9 p.m., the store is closed at 10 p.m.
+New rules for sports
+Sports are only allowed at a distance of 1.5 meters from others.
+Exercise alone. Or in a team of up to 4 people.
+Competitions are not allowed.
+This applies to people aged 18 and over.
+The sports rules do not apply to children under the age of 18.
+They are allowed to sport in larger teams.
+Or play matches with teams from their own club.
 Sports canteens are closed.
-For indoor spaces with a flow of visitors, such as in monuments, libraries and museums, visits are based on a reservation per period. Markets and retail are excluded from this.
-People with a contact profession ask their customers to register, just like in the hospitality industry.
-Rules for outside
-For activities outside, where there is no continuous flow of people, a maximum of 40 people applies. This includes children up to and including 12 years old and excluding staff.
-If there is a continuous flow of people outside, such as in zoos or markets, there is a standard for the number of visitors per square meter.
-Sports competitions, both amateur and professional, take place without an audience.
-The advice is to limit the number of travel movements as much as possible.
+Showers and changing rooms are closed.
 
-Exceptions applies as per Source #2
-Local additional measures might be applied in regions with higher positives as per source #3."
-3,International movement restrictions,2020-09-08T00:00:00,National,Partially banned,Mandatory,2020-06-15T00:00:00,2020-12-31T00:00:00,"Have you been on holiday in an area with a lot of infections?
+Always keep a distance of 1.5 meters.
+Do not go to places where it is busy.
+Sneeze and cough into your elbow.
+Wash your hands often with soap.
+Wear a mouth mask where necessary.
+Do you have a cold? Then stay at home!
+Do you have a fever or are you short of breath? Then all housemates must stay at home.
+"
+3,International movement restrictions,2020-10-15T00:00:00,National,Partially banned,Mandatory,2020-10-14T00:00:00,2020-12-31T00:00:00,"Travel as little as possible.
+Are you going on a trip? Then stay at your holiday address as much as possible. For example in your holiday home.
 
-Stay at home for 10 days.
-Get tested.
+All passengers flying to and from the Netherlands must complete a health declaration. With this you declare that you will not travel if you have complaints that match COVID-19. Otherwise you will not receive a boarding pass or you will not be allowed on board. In addition, everyone who travels to the Netherlands from a country to which the entry ban applies, is placed in home quarantine after arriving in the Netherlands. Airline crew members, medical personnel (who come to the Netherlands for work-related purposes), seafarers with a sailor's booklet and diplomats are exempt from the quarantine measure.
 
-
-From June 15 traveling within Europe is possible in the following countries: Belgium, Bulgaria, Germany, Estonia, France, Iceland, Italy, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Poland, Portugal, the Czech Republic and Switzerland. Traveling outside Europe is not recommended to limit the risks of a new outbreak. 
-From June 15 tourists are allowed to travel to the Netherlands this summer. But only tourists from countries with about the same situation as in the Netherlands and must adhere to the Dutch rules.
-
-As of 1 July 2020, the Netherlands has lifted the travel ban for travelers who reside permanently in the following countries: Algeria, Australia, Canada, Georgia, Japan, Montenegro, Morocco, New Zealand, Rwanda, Serbia, South Korea, Thailand, Tunisia, Uruguay. For travelers from China, the entry ban will be lifted as soon as the country also allows EU citizens.
-Exceptions apply for specific cases. 
-The Netherlands has reintroduced the entry ban for Serbia and Montenegro on 8 July 2020.
-The Netherlands has reintroduced the entry ban for Algeria on 5 August 2020 at midnight. 
-Travellers arriving in the Netherlands from certain countries and regions are strongly advised to self-quarantine for 14 days. Even if you do not have any symptoms or if you have tested negative for COVID-19. This applies to anyone aged 13 and over.  You are strongly advised to self-quarantine if you're travelling from: 
-
-Sweden
-Romania
-Bulgaria
-Croatia
-3 areas in Spain (Segrià, La Mariña-Lugo and Barcelona)
-1 area in Portugal (Vale do Tejo, this includes Lisbon)
-1 area in the United Kingdom (Leicester)
-1 area in Belgium (Antwerp);
-countries outside the EU, the Schengen area and the United Kingdom."
+The cabinet has taken these measures to limit the influx of people who may be infected with COVID-19. In addition, we protect passengers and crew during the flight."
 4,Flight restrictions,2020-09-08T00:00:00,National,Partially cancelled,Mandatory,2020-06-15T00:00:00,2020-12-31T00:00:00,"From June 15 traveling within Europe is possible in the following countries: Belgium, Bulgaria, Germany, Estonia, France, Iceland, Italy, Croatia, Latvia, Liechtenstein, Lithuania, Luxembourg, Poland, Portugal, the Czech Republic and Switzerland. Traveling outside Europe is not recommended to limit the risks of a new outbreak. "
-5,Non-essential shops closure,2020-10-12T00:00:00,Sub-National,Open,Mandatory,2020-10-02T00:00:00,2020-12-31T00:00:00,"Food and beverage outlets open until 9 p.m., the store is closed at 10 p.m.
-Sports canteens are closed.
-For indoor spaces with a flow of visitors, such as in monuments, libraries and museums, visits are based on a reservation per period. Markets and retail are excluded from this.
-People with a contact profession ask their customers to register, just like in the hospitality industry."
-6,Events stop,2020-10-12T00:00:00,Sub-National,Partially banned,Mandatory,2020-10-02T00:00:00,2020-12-31T00:00:00,"Visits in your own home, in the garden or on the balcony are limited to 3 guests. This applies in addition to your own household and excluding children up to and including 12 years old.
-In buildings other than the owner-occupied home, a group may be formed with a maximum of 4 people. Children up to and including 12 are not included. This means that a reservation at a cinema or restaurant can be made for 1 household or a maximum of 4 people, excluding children.
-The number of people per room is limited to 30. This includes children up to and including 12 years old and excluding staff."
+5,Non-essential shops closure,2020-10-15T00:00:00,National,Partially closed,Mandatory,2020-10-14T00:00:00,2020-10-31T00:00:00,"All cafes and restaurants are closed.
+Takeaways may open.
+The rules do not apply to cafes and restaurants at:
+hotels (for hotel guests);
+funeral homes;
+airports past the security check.
+Cafés and restaurants in other buildings must be closed.
+For example in museums.
+
+Shops close at 8 p.m. at the latest.
+There are no shopping evenings.
+Only supermarkets are allowed to open longer.
+
+The sale of alcohol is prohibited between 8 PM and 7 AM.
+You are therefore not allowed to have alcohol with you on the street.
+You are also not allowed to use alcohol in public places. For example on the street.
+Alcohol should also not be home delivery.
+Coffee shops must close at 8 p.m.
+Coffee shops are only open for takeout."
+6,Events stop,2020-10-15T00:00:00,National,Banned,Mandatory,2020-10-14T00:00:00,2020-10-31T00:00:00,"Receive a maximum of 3 guests per day at home.
+Children up to and including 12 years are not included.
+A maximum of 30 people may be together in an indoor space.
+Children count.
+You may meet with a group of maximum 4 people.
+Or with all the people who belong to your household.
+For example in a cinema.
+Children up to and including 12 years are not included.
+A maximum of 4 people may be together outside.
+Or all people who belong to 1 household.
+
+All events are prohibited.
+The following events may take place:
+
+Food markets
+Trade fairs and conferences
+Cinemas and theaters
+Matches
+Demonstrations"
 7,Other,2020-04-15T00:00:00,National,closed/cancelled,Mandatory,,,
