@@ -1034,3 +1034,12 @@ Datum,Bron,Geslacht,Type,Aantal
 2020-10-13,RIVM_report_20201013,Man,Overleden,3643
 2020-10-13,RIVM_report_20201013,Vrouw,Overleden,2988
 2020-10-13,RIVM_report_20201013,Niet vermeld,Overleden,0
+2020-10-20,RIVM_report_20201020,Man,Totaal,109996
+2020-10-20,RIVM_report_20201020,Vrouw,Totaal,134304
+2020-10-20,RIVM_report_20201020,Niet vermeld,Totaal,91
+2020-10-20,RIVM_report_20201020,Man,Ziekenhuisopname,8536
+2020-10-20,RIVM_report_20201020,Vrouw,Ziekenhuisopname,5485
+2020-10-20,RIVM_report_20201020,Niet vermeld,Ziekenhuisopname,8
+2020-10-20,RIVM_report_20201020,Man,Overleden,3751
+2020-10-20,RIVM_report_20201020,Vrouw,Overleden,3063
+2020-10-20,RIVM_report_20201020,Niet vermeld,Overleden,0
