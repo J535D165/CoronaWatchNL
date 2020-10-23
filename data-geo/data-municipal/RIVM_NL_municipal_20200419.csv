@@ -1,7 +1,7 @@
 Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCumulatief
-2020-04-19,-1,,,-1,Totaal,9,353
-2020-04-19,-1,,,-1,Ziekenhuisopname,0,53
-2020-04-19,-1,,,-1,Overleden,1,15
+2020-04-19,-1,,,-1,Totaal,13,471
+2020-04-19,-1,,,-1,Ziekenhuisopname,0,76
+2020-04-19,-1,,,-1,Overleden,1,33
 2020-04-19,3,Appingedam,Groningen,20,Totaal,0,3
 2020-04-19,3,Appingedam,Groningen,20,Ziekenhuisopname,0,2
 2020-04-19,3,Appingedam,Groningen,20,Overleden,0,0
@@ -38,7 +38,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,74,Heerenveen,Friesland,21,Totaal,2,77
 2020-04-19,74,Heerenveen,Friesland,21,Ziekenhuisopname,0,12
 2020-04-19,74,Heerenveen,Friesland,21,Overleden,1,11
-2020-04-19,80,Leeuwarden,Friesland,21,Totaal,0,50
+2020-04-19,80,Leeuwarden,Friesland,21,Totaal,0,49
 2020-04-19,80,Leeuwarden,Friesland,21,Ziekenhuisopname,0,32
 2020-04-19,80,Leeuwarden,Friesland,21,Overleden,0,6
 2020-04-19,85,Ooststellingwerf,Friesland,21,Totaal,1,3
@@ -86,8 +86,8 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,148,Dalfsen,Overijssel,23,Totaal,1,63
 2020-04-19,148,Dalfsen,Overijssel,23,Ziekenhuisopname,0,15
 2020-04-19,148,Dalfsen,Overijssel,23,Overleden,0,6
-2020-04-19,150,Deventer,Overijssel,23,Totaal,6,158
-2020-04-19,150,Deventer,Overijssel,23,Ziekenhuisopname,0,42
+2020-04-19,150,Deventer,Overijssel,23,Totaal,6,151
+2020-04-19,150,Deventer,Overijssel,23,Ziekenhuisopname,0,41
 2020-04-19,150,Deventer,Overijssel,23,Overleden,0,23
 2020-04-19,153,Enschede,Overijssel,23,Totaal,3,156
 2020-04-19,153,Enschede,Overijssel,23,Ziekenhuisopname,1,48
@@ -152,9 +152,9 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,209,Beuningen,Gelderland,25,Totaal,5,49
 2020-04-19,209,Beuningen,Gelderland,25,Ziekenhuisopname,0,19
 2020-04-19,209,Beuningen,Gelderland,25,Overleden,0,4
-2020-04-19,213,Brummen,Gelderland,25,Totaal,0,28
-2020-04-19,213,Brummen,Gelderland,25,Ziekenhuisopname,0,12
-2020-04-19,213,Brummen,Gelderland,25,Overleden,0,3
+2020-04-19,213,Brummen,Gelderland,25,Totaal,1,32
+2020-04-19,213,Brummen,Gelderland,25,Ziekenhuisopname,0,14
+2020-04-19,213,Brummen,Gelderland,25,Overleden,0,5
 2020-04-19,214,Buren,Gelderland,25,Totaal,1,32
 2020-04-19,214,Buren,Gelderland,25,Ziekenhuisopname,0,11
 2020-04-19,214,Buren,Gelderland,25,Overleden,1,5
@@ -164,8 +164,8 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,221,Doesburg,Gelderland,25,Totaal,0,21
 2020-04-19,221,Doesburg,Gelderland,25,Ziekenhuisopname,0,7
 2020-04-19,221,Doesburg,Gelderland,25,Overleden,0,6
-2020-04-19,222,Doetinchem,Gelderland,25,Totaal,3,68
-2020-04-19,222,Doetinchem,Gelderland,25,Ziekenhuisopname,1,13
+2020-04-19,222,Doetinchem,Gelderland,25,Totaal,3,71
+2020-04-19,222,Doetinchem,Gelderland,25,Ziekenhuisopname,1,12
 2020-04-19,222,Doetinchem,Gelderland,25,Overleden,1,11
 2020-04-19,225,Druten,Gelderland,25,Totaal,2,94
 2020-04-19,225,Druten,Gelderland,25,Ziekenhuisopname,0,20
@@ -173,7 +173,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,226,Duiven,Gelderland,25,Totaal,0,34
 2020-04-19,226,Duiven,Gelderland,25,Ziekenhuisopname,0,12
 2020-04-19,226,Duiven,Gelderland,25,Overleden,1,4
-2020-04-19,228,Ede,Gelderland,25,Totaal,4,156
+2020-04-19,228,Ede,Gelderland,25,Totaal,4,155
 2020-04-19,228,Ede,Gelderland,25,Ziekenhuisopname,0,51
 2020-04-19,228,Ede,Gelderland,25,Overleden,1,18
 2020-04-19,230,Elburg,Gelderland,25,Totaal,3,91
@@ -206,9 +206,9 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,267,Nijkerk,Gelderland,25,Totaal,2,47
 2020-04-19,267,Nijkerk,Gelderland,25,Ziekenhuisopname,0,21
 2020-04-19,267,Nijkerk,Gelderland,25,Overleden,0,2
-2020-04-19,268,Nijmegen,Gelderland,25,Totaal,25,493
-2020-04-19,268,Nijmegen,Gelderland,25,Ziekenhuisopname,1,118
-2020-04-19,268,Nijmegen,Gelderland,25,Overleden,0,42
+2020-04-19,268,Nijmegen,Gelderland,25,Totaal,24,473
+2020-04-19,268,Nijmegen,Gelderland,25,Ziekenhuisopname,0,114
+2020-04-19,268,Nijmegen,Gelderland,25,Overleden,0,41
 2020-04-19,269,Oldebroek,Gelderland,25,Totaal,0,98
 2020-04-19,269,Oldebroek,Gelderland,25,Ziekenhuisopname,1,25
 2020-04-19,269,Oldebroek,Gelderland,25,Overleden,0,13
@@ -230,8 +230,8 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,281,Tiel,Gelderland,25,Totaal,4,81
 2020-04-19,281,Tiel,Gelderland,25,Ziekenhuisopname,0,37
 2020-04-19,281,Tiel,Gelderland,25,Overleden,0,14
-2020-04-19,285,Voorst,Gelderland,25,Totaal,2,42
-2020-04-19,285,Voorst,Gelderland,25,Ziekenhuisopname,0,10
+2020-04-19,285,Voorst,Gelderland,25,Totaal,2,49
+2020-04-19,285,Voorst,Gelderland,25,Ziekenhuisopname,0,11
 2020-04-19,285,Voorst,Gelderland,25,Overleden,0,7
 2020-04-19,289,Wageningen,Gelderland,25,Totaal,1,39
 2020-04-19,289,Wageningen,Gelderland,25,Ziekenhuisopname,0,17
@@ -248,12 +248,12 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,297,Zaltbommel,Gelderland,25,Totaal,4,55
 2020-04-19,297,Zaltbommel,Gelderland,25,Ziekenhuisopname,0,18
 2020-04-19,297,Zaltbommel,Gelderland,25,Overleden,0,4
-2020-04-19,299,Zevenaar,Gelderland,25,Totaal,3,78
+2020-04-19,299,Zevenaar,Gelderland,25,Totaal,3,77
 2020-04-19,299,Zevenaar,Gelderland,25,Ziekenhuisopname,0,41
 2020-04-19,299,Zevenaar,Gelderland,25,Overleden,0,10
-2020-04-19,301,Zutphen,Gelderland,25,Totaal,5,58
-2020-04-19,301,Zutphen,Gelderland,25,Ziekenhuisopname,0,20
-2020-04-19,301,Zutphen,Gelderland,25,Overleden,0,10
+2020-04-19,301,Zutphen,Gelderland,25,Totaal,4,54
+2020-04-19,301,Zutphen,Gelderland,25,Ziekenhuisopname,0,18
+2020-04-19,301,Zutphen,Gelderland,25,Overleden,0,8
 2020-04-19,302,Nunspeet,Gelderland,25,Totaal,2,139
 2020-04-19,302,Nunspeet,Gelderland,25,Ziekenhuisopname,0,33
 2020-04-19,302,Nunspeet,Gelderland,25,Overleden,1,15
@@ -329,16 +329,16 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,362,Amstelveen,Noord-Holland,27,Totaal,6,252
 2020-04-19,362,Amstelveen,Noord-Holland,27,Ziekenhuisopname,1,49
 2020-04-19,362,Amstelveen,Noord-Holland,27,Overleden,1,29
-2020-04-19,363,Amsterdam,Noord-Holland,27,Totaal,54,1535
-2020-04-19,363,Amsterdam,Noord-Holland,27,Ziekenhuisopname,14,471
-2020-04-19,363,Amsterdam,Noord-Holland,27,Overleden,6,129
+2020-04-19,363,Amsterdam,Noord-Holland,27,Totaal,53,1472
+2020-04-19,363,Amsterdam,Noord-Holland,27,Ziekenhuisopname,14,466
+2020-04-19,363,Amsterdam,Noord-Holland,27,Overleden,6,113
 2020-04-19,370,Beemster,Noord-Holland,27,Totaal,0,8
 2020-04-19,370,Beemster,Noord-Holland,27,Ziekenhuisopname,0,4
 2020-04-19,370,Beemster,Noord-Holland,27,Overleden,0,1
 2020-04-19,373,Bergen (NH.),Noord-Holland,27,Totaal,0,47
 2020-04-19,373,Bergen (NH.),Noord-Holland,27,Ziekenhuisopname,0,16
 2020-04-19,373,Bergen (NH.),Noord-Holland,27,Overleden,0,3
-2020-04-19,375,Beverwijk,Noord-Holland,27,Totaal,2,68
+2020-04-19,375,Beverwijk,Noord-Holland,27,Totaal,2,67
 2020-04-19,375,Beverwijk,Noord-Holland,27,Ziekenhuisopname,0,15
 2020-04-19,375,Beverwijk,Noord-Holland,27,Overleden,0,5
 2020-04-19,376,Blaricum,Noord-Holland,27,Totaal,0,20
@@ -377,15 +377,15 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,399,Heiloo,Noord-Holland,27,Totaal,0,40
 2020-04-19,399,Heiloo,Noord-Holland,27,Ziekenhuisopname,0,9
 2020-04-19,399,Heiloo,Noord-Holland,27,Overleden,0,5
-2020-04-19,400,Den Helder,Noord-Holland,27,Totaal,1,35
-2020-04-19,400,Den Helder,Noord-Holland,27,Ziekenhuisopname,0,12
+2020-04-19,400,Den Helder,Noord-Holland,27,Totaal,1,29
+2020-04-19,400,Den Helder,Noord-Holland,27,Ziekenhuisopname,0,8
 2020-04-19,400,Den Helder,Noord-Holland,27,Overleden,0,0
 2020-04-19,402,Hilversum,Noord-Holland,27,Totaal,9,98
 2020-04-19,402,Hilversum,Noord-Holland,27,Ziekenhuisopname,0,23
 2020-04-19,402,Hilversum,Noord-Holland,27,Overleden,0,3
-2020-04-19,405,Hoorn,Noord-Holland,27,Totaal,3,79
-2020-04-19,405,Hoorn,Noord-Holland,27,Ziekenhuisopname,2,33
-2020-04-19,405,Hoorn,Noord-Holland,27,Overleden,0,12
+2020-04-19,405,Hoorn,Noord-Holland,27,Totaal,3,69
+2020-04-19,405,Hoorn,Noord-Holland,27,Ziekenhuisopname,2,29
+2020-04-19,405,Hoorn,Noord-Holland,27,Overleden,0,11
 2020-04-19,406,Huizen,Noord-Holland,27,Totaal,5,67
 2020-04-19,406,Huizen,Noord-Holland,27,Ziekenhuisopname,0,18
 2020-04-19,406,Huizen,Noord-Holland,27,Overleden,0,3
@@ -464,12 +464,12 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,512,Gorinchem,Zuid-Holland,28,Totaal,1,125
 2020-04-19,512,Gorinchem,Zuid-Holland,28,Ziekenhuisopname,0,16
 2020-04-19,512,Gorinchem,Zuid-Holland,28,Overleden,0,11
-2020-04-19,513,Gouda,Zuid-Holland,28,Totaal,1,196
+2020-04-19,513,Gouda,Zuid-Holland,28,Totaal,1,195
 2020-04-19,513,Gouda,Zuid-Holland,28,Ziekenhuisopname,0,32
 2020-04-19,513,Gouda,Zuid-Holland,28,Overleden,0,18
-2020-04-19,518,'s-Gravenhage,Zuid-Holland,28,Totaal,57,847
-2020-04-19,518,'s-Gravenhage,Zuid-Holland,28,Ziekenhuisopname,2,243
-2020-04-19,518,'s-Gravenhage,Zuid-Holland,28,Overleden,8,82
+2020-04-19,518,'s-Gravenhage,Zuid-Holland,28,Totaal,57,845
+2020-04-19,518,'s-Gravenhage,Zuid-Holland,28,Ziekenhuisopname,2,242
+2020-04-19,518,'s-Gravenhage,Zuid-Holland,28,Overleden,8,83
 2020-04-19,523,Hardinxveld-Giessendam,Zuid-Holland,28,Totaal,0,28
 2020-04-19,523,Hardinxveld-Giessendam,Zuid-Holland,28,Ziekenhuisopname,0,1
 2020-04-19,523,Hardinxveld-Giessendam,Zuid-Holland,28,Overleden,0,2
@@ -488,7 +488,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,537,Katwijk,Zuid-Holland,28,Totaal,5,118
 2020-04-19,537,Katwijk,Zuid-Holland,28,Ziekenhuisopname,0,21
 2020-04-19,537,Katwijk,Zuid-Holland,28,Overleden,0,7
-2020-04-19,542,Krimpen aan den IJssel,Zuid-Holland,28,Totaal,4,55
+2020-04-19,542,Krimpen aan den IJssel,Zuid-Holland,28,Totaal,4,54
 2020-04-19,542,Krimpen aan den IJssel,Zuid-Holland,28,Ziekenhuisopname,0,9
 2020-04-19,542,Krimpen aan den IJssel,Zuid-Holland,28,Overleden,0,3
 2020-04-19,546,Leiden,Zuid-Holland,28,Totaal,2,109
@@ -524,7 +524,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,599,Rotterdam,Zuid-Holland,28,Totaal,55,1557
 2020-04-19,599,Rotterdam,Zuid-Holland,28,Ziekenhuisopname,13,347
 2020-04-19,599,Rotterdam,Zuid-Holland,28,Overleden,2,119
-2020-04-19,603,Rijswijk,Zuid-Holland,28,Totaal,4,78
+2020-04-19,603,Rijswijk,Zuid-Holland,28,Totaal,4,77
 2020-04-19,603,Rijswijk,Zuid-Holland,28,Ziekenhuisopname,2,23
 2020-04-19,603,Rijswijk,Zuid-Holland,28,Overleden,1,5
 2020-04-19,606,Schiedam,Zuid-Holland,28,Totaal,13,135
@@ -590,7 +590,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,716,Tholen,Zeeland,29,Totaal,3,121
 2020-04-19,716,Tholen,Zeeland,29,Ziekenhuisopname,0,37
 2020-04-19,716,Tholen,Zeeland,29,Overleden,0,12
-2020-04-19,717,Veere,Zeeland,29,Totaal,1,24
+2020-04-19,717,Veere,Zeeland,29,Totaal,1,23
 2020-04-19,717,Veere,Zeeland,29,Ziekenhuisopname,0,6
 2020-04-19,717,Veere,Zeeland,29,Overleden,0,1
 2020-04-19,718,Vlissingen,Zeeland,29,Totaal,0,45
@@ -605,9 +605,9 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,743,Asten,Noord-Brabant,30,Totaal,1,58
 2020-04-19,743,Asten,Noord-Brabant,30,Ziekenhuisopname,0,14
 2020-04-19,743,Asten,Noord-Brabant,30,Overleden,0,6
-2020-04-19,744,Baarle-Nassau,Noord-Brabant,30,Totaal,2,17
-2020-04-19,744,Baarle-Nassau,Noord-Brabant,30,Ziekenhuisopname,0,8
-2020-04-19,744,Baarle-Nassau,Noord-Brabant,30,Overleden,0,1
+2020-04-19,744,Baarle-Nassau,Noord-Brabant,30,Totaal,0,4
+2020-04-19,744,Baarle-Nassau,Noord-Brabant,30,Ziekenhuisopname,0,1
+2020-04-19,744,Baarle-Nassau,Noord-Brabant,30,Overleden,0,0
 2020-04-19,748,Bergen op Zoom,Noord-Brabant,30,Totaal,7,77
 2020-04-19,748,Bergen op Zoom,Noord-Brabant,30,Ziekenhuisopname,1,21
 2020-04-19,748,Bergen op Zoom,Noord-Brabant,30,Overleden,0,5
@@ -623,7 +623,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,757,Boxtel,Noord-Brabant,30,Totaal,1,50
 2020-04-19,757,Boxtel,Noord-Brabant,30,Ziekenhuisopname,1,20
 2020-04-19,757,Boxtel,Noord-Brabant,30,Overleden,0,11
-2020-04-19,758,Breda,Noord-Brabant,30,Totaal,7,390
+2020-04-19,758,Breda,Noord-Brabant,30,Totaal,7,388
 2020-04-19,758,Breda,Noord-Brabant,30,Ziekenhuisopname,2,140
 2020-04-19,758,Breda,Noord-Brabant,30,Overleden,1,51
 2020-04-19,762,Deurne,Noord-Brabant,30,Totaal,0,121
@@ -710,7 +710,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,852,Waterland,Noord-Holland,27,Totaal,1,25
 2020-04-19,852,Waterland,Noord-Holland,27,Ziekenhuisopname,0,14
 2020-04-19,852,Waterland,Noord-Holland,27,Overleden,0,2
-2020-04-19,855,Tilburg,Noord-Brabant,30,Totaal,15,565
+2020-04-19,855,Tilburg,Noord-Brabant,30,Totaal,15,557
 2020-04-19,855,Tilburg,Noord-Brabant,30,Ziekenhuisopname,0,163
 2020-04-19,855,Tilburg,Noord-Brabant,30,Overleden,0,119
 2020-04-19,856,Uden,Noord-Brabant,30,Totaal,0,220
@@ -803,13 +803,13 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,994,Valkenburg aan de Geul,Limburg,31,Totaal,1,55
 2020-04-19,994,Valkenburg aan de Geul,Limburg,31,Ziekenhuisopname,0,16
 2020-04-19,994,Valkenburg aan de Geul,Limburg,31,Overleden,1,6
-2020-04-19,995,Lelystad,Flevoland,24,Totaal,3,114
+2020-04-19,995,Lelystad,Flevoland,24,Totaal,3,113
 2020-04-19,995,Lelystad,Flevoland,24,Ziekenhuisopname,0,49
 2020-04-19,995,Lelystad,Flevoland,24,Overleden,0,7
 2020-04-19,1507,Horst aan de Maas,Limburg,31,Totaal,1,100
 2020-04-19,1507,Horst aan de Maas,Limburg,31,Ziekenhuisopname,0,40
 2020-04-19,1507,Horst aan de Maas,Limburg,31,Overleden,0,17
-2020-04-19,1509,Oude IJsselstreek,Gelderland,25,Totaal,5,54
+2020-04-19,1509,Oude IJsselstreek,Gelderland,25,Totaal,5,50
 2020-04-19,1509,Oude IJsselstreek,Gelderland,25,Ziekenhuisopname,0,12
 2020-04-19,1509,Oude IJsselstreek,Gelderland,25,Overleden,0,5
 2020-04-19,1525,Teylingen,Zuid-Holland,28,Totaal,1,39
@@ -827,7 +827,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,1621,Lansingerland,Zuid-Holland,28,Totaal,6,148
 2020-04-19,1621,Lansingerland,Zuid-Holland,28,Ziekenhuisopname,0,35
 2020-04-19,1621,Lansingerland,Zuid-Holland,28,Overleden,0,15
-2020-04-19,1640,Leudal,Limburg,31,Totaal,10,157
+2020-04-19,1640,Leudal,Limburg,31,Totaal,9,156
 2020-04-19,1640,Leudal,Limburg,31,Ziekenhuisopname,0,53
 2020-04-19,1640,Leudal,Limburg,31,Overleden,0,22
 2020-04-19,1641,Maasgouw,Limburg,31,Totaal,2,62
@@ -875,7 +875,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,1695,Noord-Beveland,Zeeland,29,Totaal,0,5
 2020-04-19,1695,Noord-Beveland,Zeeland,29,Ziekenhuisopname,0,1
 2020-04-19,1695,Noord-Beveland,Zeeland,29,Overleden,0,0
-2020-04-19,1696,Wijdemeren,Noord-Holland,27,Totaal,0,20
+2020-04-19,1696,Wijdemeren,Noord-Holland,27,Totaal,0,21
 2020-04-19,1696,Wijdemeren,Noord-Holland,27,Ziekenhuisopname,0,7
 2020-04-19,1696,Wijdemeren,Noord-Holland,27,Overleden,0,0
 2020-04-19,1699,Noordenveld,Drenthe,22,Totaal,0,17
@@ -953,9 +953,9 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,1774,Dinkelland,Overijssel,23,Totaal,0,65
 2020-04-19,1774,Dinkelland,Overijssel,23,Ziekenhuisopname,0,17
 2020-04-19,1774,Dinkelland,Overijssel,23,Overleden,0,7
-2020-04-19,1783,Westland,Zuid-Holland,28,Totaal,16,206
-2020-04-19,1783,Westland,Zuid-Holland,28,Ziekenhuisopname,1,49
-2020-04-19,1783,Westland,Zuid-Holland,28,Overleden,0,22
+2020-04-19,1783,Westland,Zuid-Holland,28,Totaal,16,203
+2020-04-19,1783,Westland,Zuid-Holland,28,Ziekenhuisopname,1,48
+2020-04-19,1783,Westland,Zuid-Holland,28,Overleden,0,21
 2020-04-19,1842,Midden-Delfland,Zuid-Holland,28,Totaal,1,13
 2020-04-19,1842,Midden-Delfland,Zuid-Holland,28,Ziekenhuisopname,0,4
 2020-04-19,1842,Midden-Delfland,Zuid-Holland,28,Overleden,0,0
@@ -995,10 +995,10 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,1903,Eijsden-Margraten,Limburg,31,Totaal,0,126
 2020-04-19,1903,Eijsden-Margraten,Limburg,31,Ziekenhuisopname,0,49
 2020-04-19,1903,Eijsden-Margraten,Limburg,31,Overleden,0,18
-2020-04-19,1904,Stichtse Vecht,Utrecht,26,Totaal,2,78
+2020-04-19,1904,Stichtse Vecht,Utrecht,26,Totaal,2,77
 2020-04-19,1904,Stichtse Vecht,Utrecht,26,Ziekenhuisopname,0,28
 2020-04-19,1904,Stichtse Vecht,Utrecht,26,Overleden,0,6
-2020-04-19,1911,Hollands Kroon,Noord-Holland,27,Totaal,2,55
+2020-04-19,1911,Hollands Kroon,Noord-Holland,27,Totaal,2,54
 2020-04-19,1911,Hollands Kroon,Noord-Holland,27,Ziekenhuisopname,0,26
 2020-04-19,1911,Hollands Kroon,Noord-Holland,27,Overleden,0,5
 2020-04-19,1916,Leidschendam-Voorburg,Zuid-Holland,28,Totaal,2,70
@@ -1022,9 +1022,9 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,1942,Gooise Meren,Noord-Holland,27,Totaal,1,82
 2020-04-19,1942,Gooise Meren,Noord-Holland,27,Ziekenhuisopname,0,23
 2020-04-19,1942,Gooise Meren,Noord-Holland,27,Overleden,1,2
-2020-04-19,1945,Berg en Dal,Gelderland,25,Totaal,14,133
-2020-04-19,1945,Berg en Dal,Gelderland,25,Ziekenhuisopname,0,26
-2020-04-19,1945,Berg en Dal,Gelderland,25,Overleden,0,12
+2020-04-19,1945,Berg en Dal,Gelderland,25,Totaal,15,153
+2020-04-19,1945,Berg en Dal,Gelderland,25,Ziekenhuisopname,1,30
+2020-04-19,1945,Berg en Dal,Gelderland,25,Overleden,0,13
 2020-04-19,1948,Meierijstad,Noord-Brabant,30,Totaal,5,432
 2020-04-19,1948,Meierijstad,Noord-Brabant,30,Ziekenhuisopname,0,169
 2020-04-19,1948,Meierijstad,Noord-Brabant,30,Overleden,0,106
@@ -1040,7 +1040,7 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCu
 2020-04-19,1954,Beekdaelen,Limburg,31,Totaal,8,99
 2020-04-19,1954,Beekdaelen,Limburg,31,Ziekenhuisopname,0,42
 2020-04-19,1954,Beekdaelen,Limburg,31,Overleden,0,19
-2020-04-19,1955,Montferland,Gelderland,25,Totaal,4,61
+2020-04-19,1955,Montferland,Gelderland,25,Totaal,4,62
 2020-04-19,1955,Montferland,Gelderland,25,Ziekenhuisopname,0,9
 2020-04-19,1955,Montferland,Gelderland,25,Overleden,0,4
 2020-04-19,1959,Altena,Noord-Brabant,30,Totaal,4,98
