@@ -62,6 +62,11 @@ def titleclassifier(title):
 
     return False
 
+def kliniekextractor(title):
+    if 'kliniek' in title.lower():
+        return int(re.sub('[^0-9]', '', title.split(',')[1].strip().split(' ')[0]))
+    return None
+
 
 if __name__ == '__main__':
 
@@ -71,17 +76,15 @@ if __name__ == '__main__':
 
     data = []
 
-    for item in news['updates'][0:10]:
-
-        # print(item["date"])
-
+    for item in news['updates']:
         title = titlenormalizer(item['title'])
 
-        # print(item['content'])
         if titleclassifier(title):
             patients = int(title.split(' ')[0])
 
             date = str(dateparser.parse(item['date'], languages=["nl"]).date())
+
+            kliniek = kliniekextractor(item['title'])
 
             matches = re.search(
                 r"(\d+)\s+in\s+Duitsland",
@@ -95,7 +98,8 @@ if __name__ == '__main__':
                 pass
 
             data.append({'Date': date, 'Aantal': patients,
-                         'AantalDuitsland': patients_in_de})
+                         'AantalDuitsland': patients_in_de,
+                         'AantalKliniek': kliniek})
 
     df_parsed_nums = pd.DataFrame(data).set_index('Date').sort_index()
 
@@ -124,3 +128,10 @@ if __name__ == '__main__':
 
     df_lcps_country = df_lcps_country[df_lcps_country['Aantal'] != 0]
     df_lcps_country[["Aantal"]].to_csv('data/lcps_ic_country.csv')
+
+
+    df_lcps_clinic = df_parsed_nums.copy()
+    df_lcps_clinic = df_lcps_clinic[df_lcps_clinic['AantalKliniek'].notna()]
+    df_lcps_clinic['Aantal'] = df_lcps_clinic['AantalKliniek'].astype(pd.Int64Dtype())
+    df_lcps_clinic = df_lcps_clinic['Aantal']
+    df_lcps_clinic.to_csv('data/lcps_clinic.csv')
