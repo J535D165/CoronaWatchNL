@@ -6,7 +6,18 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 
 ## Data format
 
-### Test
+### Test data (virologische dagstaten)
+
+Number of persons tested and number of persons tested positively on SARS-CoV-2 in
+the Netherlands, reported by laboratories per week.
+
+> Om zicht te houden op het aantal geteste personen en het aantal positief geteste personen
+op het SARS-CoV-2 virus in Nederland, is alle laboratoria in Nederland die diagnostiek voor
+SARS-CoV-2 uitvoeren gevraagd om vanaf 9 maart deze data dagelijks te melden. De laboratoria
+rapporteren op maandag voor 12 uur over de voorgaande week. Het aantal personen met een
+positieve uitslag wijkt af van het aantal patiënten gemeld door GGD’en omdat sommige personen
+mogelijk vaker getest worden en omdat positieve laboratorium uitslagen sneller gerapporteerd
+kunnen worden. (reports/COVID-19_epidemiological_report_20201027.pdf, Table 15)
 
 **Directory:** [data-misc/data-test](data-test) <br>
 **Daily file format:** RIVM_NL_test_yyyy-mm-dd.csv<br>
@@ -19,6 +30,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **Week** | Week number\* | Week of notification | numeric | 11 |
 | **BeginDatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
 | **EindDatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
+| **Bron**                        | Source                   | The id of the report [(See report metadata)](reports/report_metadata.csv)                 | RIVM_report_YYYYMMDD | RIVM_report_20200327 |
 | **AantalLaboratoria** | Number of laboratories | Number of Dutch laboratories that have performed diagnostics for SARS-CoV-2 in said week | character | 30 |
 | **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
 | **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*), and number of positively tested people for COVID-19 (*Positief*\*\*) per week | numeric (integer) | 17080|
@@ -26,7 +38,29 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 **\*** Before the 21st of April, RIVM reports did not use weeks but seperate dates to report test counts. This format can be found in the [RIVM_NL_test_depr_2020-04-20.csv](data-test/RIVM_NL_test_depr_2020-04-20.csv) dataset. Note that, due to this change in format, this specific file could not be updated after the 20th of April.<br/>
 **\*\*** The number of people positively tested on COVID-19 differs from the number of patients reported by the GGDs, as some people might have been tested more than once. <br/>
 
-### Underlying 
+### Test data (GGD GHOR)
+
+Number of persons tested by GGD organizations.
+
+Source: https://ggdghor.nl/actueel-bericht/weekupdate-cijfers-coronatests-bij-de-ggden-2/
+
+**Directory:** [data-misc/data-test-ggd-ghor](data-test-ggd-ghor) <br>
+**Daily file format:** RIVM_NL_test_ggd_ghor_yyyy-mm-dd.csv<br>
+**Latest file format:** [RIVM_NL_test_ggd_ghor_latest.csv](data-test/RIVM_NL_test_ggd_ghor_latest.csv)<br>
+
+| Column name | Translation | Description | Format | Example |
+|---|---|---|---|---|
+| **Jaar** | Year | Year of notification | YYYY (ISO 8601) | 2020 |
+| **Week** | Week number | Week of notification | numeric | 11 |
+| **BeginDatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
+| **EindDatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
+| **Bron**                        | Source                   | URL to GGD website | URL | https://ggdghor.nl/actueel-bericht/weekupdate-cijfers-coronatests-bij-de-ggden-2/ |
+| **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
+| **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*) per week\*\* | numeric (integer) | 17080|
+
+**\*\*** These numbers relate to the persons tested by the GGDs. In addition, tests are also carried out by others (including GPs and hospitals).
+
+### Underlying
 
 For deceased COVID-19 cases younger than 70, RIVM reported whether or not they suffered from underlying conditions and/or were pregnant. The number of deceased patients with and without underlying disorders and/or pregnancy are listed in [data-underlying_statistics](#underlying-statistics). The number of detected underlying conditions and/or pregnancies can be found in [data-underlying_conditions](#underlying-conditions).
 
