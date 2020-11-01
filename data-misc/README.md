@@ -30,7 +30,7 @@ kunnen worden. (reports/COVID-19_epidemiological_report_20201027.pdf, Table 15)
 | **Week** | Week number\* | Week of notification | numeric | 11 |
 | **BeginDatum** | Start date | Beginning of the week (Monday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-09 |
 | **EindDatum** | End date | End of the week (Sunday) of notification | YYYY-MM-DD (ISO 8601) | 2020-03-15 |
-| **Bron**                        | Source                   | The id of the report [(See report metadata)](reports/report_metadata.csv)                 | RIVM_report_YYYYMMDD | RIVM_report_20200327 |
+| **Bron**                        | Source                   | The id of the report [(See report metadata)](/reports/reports_metadata.csv)                 | RIVM_report_YYYYMMDD | RIVM_report_20200327 |
 | **AantalLaboratoria** | Number of laboratories | Number of Dutch laboratories that have performed diagnostics for SARS-CoV-2 in said week | character | 30 |
 | **Type** | Type | Type of test measurement (i.e., Totaal, Positief) | character | Totaal |
 | **Aantal** | Count | Number of people tested for COVID-19 (*Totaal*), and number of positively tested people for COVID-19 (*Positief*\*\*) per week | numeric (integer) | 17080|
@@ -46,7 +46,7 @@ Source: https://ggdghor.nl/actueel-bericht/weekupdate-cijfers-coronatests-bij-de
 
 **Directory:** [data-misc/data-test-ggd-ghor](data-test-ggd-ghor) <br>
 **Daily file format:** RIVM_NL_test_ggd_ghor_yyyy-mm-dd.csv<br>
-**Latest file format:** [RIVM_NL_test_ggd_ghor_latest.csv](data-test/RIVM_NL_test_ggd_ghor_latest.csv)<br>
+**Latest file format:** [RIVM_NL_test_ggd_ghor_latest.csv](data-test-ggd-ghor/RIVM_NL_test_ggd_ghor_latest.csv)<br>
 
 | Column name | Translation | Description | Format | Example |
 |---|---|---|---|---|

@@ -160,8 +160,8 @@ For more detail about the specific structure of the miscellaneous datasets, have
 
 | Dataset | Source | Variables |
 |---|---| --- |
-| [COVID-19 tests in NL per week](data-misc#test) | [RIVM](#data-collection-sources) | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
-| [COVID-19 tests in NL per week by GGD-GHOR](data-misc#test) | [GGD-GHOR](#data-collection-sources) | Year, Calendar week, Start date (Monday), End date (Sunday), Type (Total), Count |
+| [COVID-19 tests in NL per week](data-misc#test-data-virologische-dagstaten) | [RIVM](#data-collection-sources) | Year, Calendar week, Start date (Monday), End date (Sunday), Included labs, Type (Total and positive tests), Count |
+| [COVID-19 tests in NL per week by GGD-GHOR](data-misc#test-data-ggd-ghor) | [GGD-GHOR](#data-collection-sources) | Year, Calendar week, Start date (Monday), End date (Sunday), Type (Total), Count |
 | [Underlying conditions and/or pregnancy in deceased COVID-19 cased under the age of 70](data-misc#underlying) | [RIVM](#data-collection-sources) | Date, Type of condition, Cumulative count |
 | [COVID-19 measures by the government](data-misc#measures) | [European Commission Joint Research Centre](#data-collection-sources) | Various variables on governmental measures (in English) |
 | [RIVM press releases](data/rivm_press_releases.csv) | [RIVM](#data-collection-sources) | Date and Time, Content of press release |

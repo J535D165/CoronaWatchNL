@@ -16,7 +16,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | Column name                  | Translation                       | Description                       | Format                            | Example                       |
 |-----------------------------|-----------------------------------|-----------------------------------|----------------------------------------|-------------------------------|
 | **Datum**                        | Date                   | Date of notification                   | YYYY-MM-DD (ISO 8601) | 2020-03-27 |
-| **Bron**                        | Source                   | The id of the report [(See report metadata)](reports/report_metadata.csv)                 | RIVM_report_YYYYMMDD | RIVM_report_20200327 |
+| **Bron**                        | Source                   | The id of the report [(See report metadata)](/reports/reports_metadata.csv)                 | RIVM_report_YYYYMMDD | RIVM_report_20200327 |
 | **Geslacht**                       | Sex                   | Sex: Man, Vrouw, Niet vermeld (i.e., man, woman, not specified, respectively)                   | character      | Vrouw
 | **Type**                       | Type                   | Type of measurement: Totaal, Ziekenhuisopname, Overleden (i.e., total, hospitilzed, deceased, respectively)                   | character      | Totaal                 |
 | **Aantal** | Count | Number of newly diagnosed (*Totaal*\*), hospitalized (*Ziekenhuisopname*\*\*), and deceased (*Overleden*\*\*) female (*vrouw*), male (*man*), and non-specified cases on the date of notification in the last 24 hours | numeric (integer) | 580 |
@@ -35,7 +35,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | Column name                  | Translation                       | Description                       | Format                            | Example                       |
 |-----------------------------|-----------------------------------|-----------------------------------|----------------------------------------|-------------------------------|
 | **Datum**                        | Date                   | Date of notification                   | YYYY-MM-DD (ISO 8601) | 2020-03-27 |
-| **Bron**                        | Source                   | The id of the report [(See report metadata)](reports/report_metadata.csv)                 | RIVM_report_YYYYMMDD | RIVM_report_20200327 |
+| **Bron**                        | Source                   | The id of the report [(See report metadata)](/reports/reports_metadata.csv)                 | RIVM_report_YYYYMMDD | RIVM_report_20200327 |
 | **LeeftijdGroep**                       | Age group                   | Ages, ranging from 0 to 95,  divided in 19 groups of 5. Two additional groups are 95+ and Niet vermeld (i.e., not specified)                     | character      | 25-29
 | **Type**                       | Type                   | Type of measurement: Totaal, Ziekenhuisopname, Overleden (i.e., total, hospitilzed, deceased, respectively)                   | character      | Totaal                 |
 | **Aantal** | Count | Number of newly diagnosed (*Totaal*\*), hospitalized (*Ziekenhuisopname*\*\*), and deceased (*Overleden*\*\*) cases per age group on the date of notification in the last 24 hours | numeric (integer) | 34 |
