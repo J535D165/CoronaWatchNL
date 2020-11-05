@@ -119,17 +119,17 @@ def main_nursery():
 
 
     df_pos = _get_data(
-        "infected_people_nursery_count_daily",
+        "nursing_home",
         {
-            "infected_nursery_daily": "Positief geteste bewoners",
+            "newly_infected_people": "Positief geteste bewoners",
         },
         "date_of_report_unix"
     )
 
     df_deceased = _get_data(
-        "deceased_people_nursery_count_daily",
+        "nursing_home",
         {
-            "deceased_nursery_daily": "Overleden besmette bewoners",
+            "newly_infected_people": "Overleden besmette bewoners",
         },
         "date_of_report_unix"
     )
@@ -158,17 +158,17 @@ def main_nursery():
 def main_nurseryhomes():
 
     df_new = _get_data(
-        "total_newly_reported_locations",
+        "nursing_home",
         {
-            "total_new_reported_locations": "Besmette verpleeghuizen",
+            "newly_infected_locations": "Besmette verpleeghuizen",
         },
         "date_of_report_unix"
     ).rename({"Waarde": "NieuwAantal"}, axis=1)
 
     df_total = _get_data(
-        "total_reported_locations",
+        "nursing_home",
         {
-            "total_reported_locations": "Besmette verpleeghuizen",
+            "infected_locations_total": "Besmette verpleeghuizen",
         },
         "date_of_report_unix"
     ).rename({"Waarde": "Aantal"}, axis=1)
@@ -255,13 +255,23 @@ def main_suspects():
 
 def main_riool():
 
-    df = _get_data(
-        "rioolwater_metingen",
+    df_ml = _get_data(
+        "sewer",
         {
             "average": "Virusdeeltjes per ml rioolwater",
         },
         "week_unix"
     ).rename({"Waarde": "Aantal"}, axis=1)
+
+    df_installations = _get_data(
+        "sewer",
+        {
+            "total_installation_count": "Installaties",
+        },
+        "week_unix"
+    ).rename({"Waarde": "Installaties"}, axis=1).drop("Type", axis=1)
+
+    df = df_ml.merge(df_installations, on=["Datum"])
 
     Path(DATA_FOLDER, "data-sewage").mkdir(exist_ok=True)
 
