@@ -84727,3 +84727,359 @@ Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Aantal
 2020-11-05,1969,Westerkwartier,Groningen,20,19
 2020-11-05,1970,Noardeast-Fryslân,Friesland,21,8
 2020-11-05,1978,Molenlanden,Zuid-Holland,28,20
+2020-11-06,-1,,,,92
+2020-11-06,3,Appingedam,Groningen,20,8
+2020-11-06,10,Delfzijl,Groningen,20,8
+2020-11-06,14,Groningen,Groningen,20,32
+2020-11-06,24,Loppersum,Groningen,20,0
+2020-11-06,34,Almere,Flevoland,24,171
+2020-11-06,37,Stadskanaal,Groningen,20,8
+2020-11-06,47,Veendam,Groningen,20,4
+2020-11-06,50,Zeewolde,Flevoland,24,13
+2020-11-06,59,Achtkarspelen,Friesland,21,0
+2020-11-06,60,Ameland,Friesland,21,0
+2020-11-06,72,Harlingen,Friesland,21,5
+2020-11-06,74,Heerenveen,Friesland,21,16
+2020-11-06,80,Leeuwarden,Friesland,21,47
+2020-11-06,85,Ooststellingwerf,Friesland,21,5
+2020-11-06,86,Opsterland,Friesland,21,9
+2020-11-06,88,Schiermonnikoog,Friesland,21,1
+2020-11-06,90,Smallingerland,Friesland,21,12
+2020-11-06,93,Terschelling,Friesland,21,1
+2020-11-06,96,Vlieland,Friesland,21,0
+2020-11-06,98,Weststellingwerf,Friesland,21,3
+2020-11-06,106,Assen,Drenthe,22,14
+2020-11-06,109,Coevorden,Drenthe,22,19
+2020-11-06,114,Emmen,Drenthe,22,51
+2020-11-06,118,Hoogeveen,Drenthe,22,31
+2020-11-06,119,Meppel,Drenthe,22,11
+2020-11-06,141,Almelo,Overijssel,23,35
+2020-11-06,147,Borne,Overijssel,23,16
+2020-11-06,148,Dalfsen,Overijssel,23,18
+2020-11-06,150,Deventer,Overijssel,23,50
+2020-11-06,153,Enschede,Overijssel,23,76
+2020-11-06,158,Haaksbergen,Overijssel,23,18
+2020-11-06,160,Hardenberg,Overijssel,23,25
+2020-11-06,163,Hellendoorn,Overijssel,23,13
+2020-11-06,164,Hengelo,Overijssel,23,41
+2020-11-06,166,Kampen,Overijssel,23,61
+2020-11-06,168,Losser,Overijssel,23,13
+2020-11-06,171,Noordoostpolder,Flevoland,24,20
+2020-11-06,173,Oldenzaal,Overijssel,23,16
+2020-11-06,175,Ommen,Overijssel,23,9
+2020-11-06,177,Raalte,Overijssel,23,26
+2020-11-06,180,Staphorst,Overijssel,23,9
+2020-11-06,183,Tubbergen,Overijssel,23,12
+2020-11-06,184,Urk,Flevoland,24,26
+2020-11-06,189,Wierden,Overijssel,23,8
+2020-11-06,193,Zwolle,Overijssel,23,55
+2020-11-06,197,Aalten,Gelderland,25,13
+2020-11-06,200,Apeldoorn,Gelderland,25,122
+2020-11-06,202,Arnhem,Gelderland,25,102
+2020-11-06,203,Barneveld,Gelderland,25,25
+2020-11-06,209,Beuningen,Gelderland,25,21
+2020-11-06,213,Brummen,Gelderland,25,19
+2020-11-06,214,Buren,Gelderland,25,23
+2020-11-06,216,Culemborg,Gelderland,25,29
+2020-11-06,221,Doesburg,Gelderland,25,11
+2020-11-06,222,Doetinchem,Gelderland,25,36
+2020-11-06,225,Druten,Gelderland,25,29
+2020-11-06,226,Duiven,Gelderland,25,18
+2020-11-06,228,Ede,Gelderland,25,77
+2020-11-06,230,Elburg,Gelderland,25,29
+2020-11-06,232,Epe,Gelderland,25,53
+2020-11-06,233,Ermelo,Gelderland,25,33
+2020-11-06,243,Harderwijk,Gelderland,25,48
+2020-11-06,244,Hattem,Gelderland,25,18
+2020-11-06,246,Heerde,Gelderland,25,55
+2020-11-06,252,Heumen,Gelderland,25,19
+2020-11-06,262,Lochem,Gelderland,25,19
+2020-11-06,263,Maasdriel,Gelderland,25,24
+2020-11-06,267,Nijkerk,Gelderland,25,30
+2020-11-06,268,Nijmegen,Gelderland,25,186
+2020-11-06,269,Oldebroek,Gelderland,25,40
+2020-11-06,273,Putten,Gelderland,25,12
+2020-11-06,274,Renkum,Gelderland,25,19
+2020-11-06,275,Rheden,Gelderland,25,36
+2020-11-06,277,Rozendaal,Gelderland,25,1
+2020-11-06,279,Scherpenzeel,Gelderland,25,5
+2020-11-06,281,Tiel,Gelderland,25,50
+2020-11-06,285,Voorst,Gelderland,25,18
+2020-11-06,289,Wageningen,Gelderland,25,27
+2020-11-06,293,Westervoort,Gelderland,25,12
+2020-11-06,294,Winterswijk,Gelderland,25,9
+2020-11-06,296,Wijchen,Gelderland,25,55
+2020-11-06,297,Zaltbommel,Gelderland,25,23
+2020-11-06,299,Zevenaar,Gelderland,25,58
+2020-11-06,301,Zutphen,Gelderland,25,35
+2020-11-06,302,Nunspeet,Gelderland,25,61
+2020-11-06,303,Dronten,Flevoland,24,40
+2020-11-06,307,Amersfoort,Utrecht,26,103
+2020-11-06,308,Baarn,Utrecht,26,18
+2020-11-06,310,De Bilt,Utrecht,26,35
+2020-11-06,312,Bunnik,Utrecht,26,12
+2020-11-06,313,Bunschoten,Utrecht,26,19
+2020-11-06,317,Eemnes,Utrecht,26,3
+2020-11-06,321,Houten,Utrecht,26,36
+2020-11-06,327,Leusden,Utrecht,26,12
+2020-11-06,331,Lopik,Utrecht,26,25
+2020-11-06,335,Montfoort,Utrecht,26,16
+2020-11-06,339,Renswoude,Utrecht,26,5
+2020-11-06,340,Rhenen,Utrecht,26,13
+2020-11-06,342,Soest,Utrecht,26,38
+2020-11-06,344,Utrecht,Utrecht,26,384
+2020-11-06,345,Veenendaal,Utrecht,26,62
+2020-11-06,351,Woudenberg,Utrecht,26,10
+2020-11-06,352,Wijk bij Duurstede,Utrecht,26,12
+2020-11-06,353,IJsselstein,Utrecht,26,47
+2020-11-06,355,Zeist,Utrecht,26,47
+2020-11-06,356,Nieuwegein,Utrecht,26,58
+2020-11-06,358,Aalsmeer,Noord-Holland,27,13
+2020-11-06,361,Alkmaar,Noord-Holland,27,70
+2020-11-06,362,Amstelveen,Noord-Holland,27,78
+2020-11-06,363,Amsterdam,Noord-Holland,27,1081
+2020-11-06,370,Beemster,Noord-Holland,27,4
+2020-11-06,373,Bergen (NH.),Noord-Holland,27,22
+2020-11-06,375,Beverwijk,Noord-Holland,27,22
+2020-11-06,376,Blaricum,Noord-Holland,27,8
+2020-11-06,377,Bloemendaal,Noord-Holland,27,10
+2020-11-06,383,Castricum,Noord-Holland,27,18
+2020-11-06,384,Diemen,Noord-Holland,27,25
+2020-11-06,385,Edam-Volendam,Noord-Holland,27,43
+2020-11-06,388,Enkhuizen,Noord-Holland,27,20
+2020-11-06,392,Haarlem,Noord-Holland,27,115
+2020-11-06,394,Haarlemmermeer,Noord-Holland,27,104
+2020-11-06,396,Heemskerk,Noord-Holland,27,35
+2020-11-06,397,Heemstede,Noord-Holland,27,17
+2020-11-06,398,Heerhugowaard,Noord-Holland,27,31
+2020-11-06,399,Heiloo,Noord-Holland,27,13
+2020-11-06,400,Den Helder,Noord-Holland,27,17
+2020-11-06,402,Hilversum,Noord-Holland,27,43
+2020-11-06,405,Hoorn,Noord-Holland,27,41
+2020-11-06,406,Huizen,Noord-Holland,27,31
+2020-11-06,415,Landsmeer,Noord-Holland,27,6
+2020-11-06,416,Langedijk,Noord-Holland,27,21
+2020-11-06,417,Laren,Noord-Holland,27,10
+2020-11-06,420,Medemblik,Noord-Holland,27,22
+2020-11-06,431,Oostzaan,Noord-Holland,27,12
+2020-11-06,432,Opmeer,Noord-Holland,27,1
+2020-11-06,437,Ouder-Amstel,Noord-Holland,27,8
+2020-11-06,439,Purmerend,Noord-Holland,27,90
+2020-11-06,441,Schagen,Noord-Holland,27,21
+2020-11-06,448,Texel,Noord-Holland,27,6
+2020-11-06,450,Uitgeest,Noord-Holland,27,7
+2020-11-06,451,Uithoorn,Noord-Holland,27,21
+2020-11-06,453,Velsen,Noord-Holland,27,50
+2020-11-06,457,Weesp,Noord-Holland,27,11
+2020-11-06,473,Zandvoort,Noord-Holland,27,15
+2020-11-06,479,Zaanstad,Noord-Holland,27,171
+2020-11-06,482,Alblasserdam,Zuid-Holland,28,11
+2020-11-06,484,Alphen aan den Rijn,Zuid-Holland,28,91
+2020-11-06,489,Barendrecht,Zuid-Holland,28,53
+2020-11-06,498,Drechterland,Noord-Holland,27,7
+2020-11-06,501,Brielle,Zuid-Holland,28,18
+2020-11-06,502,Capelle aan den IJssel,Zuid-Holland,28,76
+2020-11-06,503,Delft,Zuid-Holland,28,53
+2020-11-06,505,Dordrecht,Zuid-Holland,28,98
+2020-11-06,512,Gorinchem,Zuid-Holland,28,20
+2020-11-06,513,Gouda,Zuid-Holland,28,77
+2020-11-06,518,'s-Gravenhage,Zuid-Holland,28,649
+2020-11-06,523,Hardinxveld-Giessendam,Zuid-Holland,28,2
+2020-11-06,530,Hellevoetsluis,Zuid-Holland,28,20
+2020-11-06,531,Hendrik-Ido-Ambacht,Zuid-Holland,28,13
+2020-11-06,532,Stede Broec,Noord-Holland,27,20
+2020-11-06,534,Hillegom,Zuid-Holland,28,9
+2020-11-06,537,Katwijk,Zuid-Holland,28,52
+2020-11-06,542,Krimpen aan den IJssel,Zuid-Holland,28,18
+2020-11-06,546,Leiden,Zuid-Holland,28,65
+2020-11-06,547,Leiderdorp,Zuid-Holland,28,27
+2020-11-06,553,Lisse,Zuid-Holland,28,11
+2020-11-06,556,Maassluis,Zuid-Holland,28,34
+2020-11-06,569,Nieuwkoop,Zuid-Holland,28,14
+2020-11-06,575,Noordwijk,Zuid-Holland,28,35
+2020-11-06,579,Oegstgeest,Zuid-Holland,28,14
+2020-11-06,589,Oudewater,Utrecht,26,31
+2020-11-06,590,Papendrecht,Zuid-Holland,28,9
+2020-11-06,597,Ridderkerk,Zuid-Holland,28,48
+2020-11-06,599,Rotterdam,Zuid-Holland,28,894
+2020-11-06,603,Rijswijk,Zuid-Holland,28,62
+2020-11-06,606,Schiedam,Zuid-Holland,28,83
+2020-11-06,610,Sliedrecht,Zuid-Holland,28,10
+2020-11-06,613,Albrandswaard,Zuid-Holland,28,19
+2020-11-06,614,Westvoorne,Zuid-Holland,28,7
+2020-11-06,622,Vlaardingen,Zuid-Holland,28,66
+2020-11-06,626,Voorschoten,Zuid-Holland,28,12
+2020-11-06,627,Waddinxveen,Zuid-Holland,28,31
+2020-11-06,629,Wassenaar,Zuid-Holland,28,11
+2020-11-06,632,Woerden,Utrecht,26,65
+2020-11-06,637,Zoetermeer,Zuid-Holland,28,73
+2020-11-06,638,Zoeterwoude,Zuid-Holland,28,4
+2020-11-06,642,Zwijndrecht,Zuid-Holland,28,30
+2020-11-06,654,Borsele,Zeeland,29,5
+2020-11-06,664,Goes,Zeeland,29,15
+2020-11-06,668,West Maas en Waal,Gelderland,25,24
+2020-11-06,677,Hulst,Zeeland,29,13
+2020-11-06,678,Kapelle,Zeeland,29,3
+2020-11-06,687,Middelburg,Zeeland,29,22
+2020-11-06,703,Reimerswaal,Zeeland,29,6
+2020-11-06,715,Terneuzen,Zeeland,29,27
+2020-11-06,716,Tholen,Zeeland,29,46
+2020-11-06,717,Veere,Zeeland,29,8
+2020-11-06,718,Vlissingen,Zeeland,29,13
+2020-11-06,736,De Ronde Venen,Utrecht,26,57
+2020-11-06,737,Tytsjerksteradiel,Friesland,21,7
+2020-11-06,743,Asten,Noord-Brabant,30,19
+2020-11-06,744,Baarle-Nassau,Noord-Brabant,30,9
+2020-11-06,748,Bergen op Zoom,Noord-Brabant,30,51
+2020-11-06,753,Best,Noord-Brabant,30,35
+2020-11-06,755,Boekel,Noord-Brabant,30,36
+2020-11-06,756,Boxmeer,Noord-Brabant,30,23
+2020-11-06,757,Boxtel,Noord-Brabant,30,25
+2020-11-06,758,Breda,Noord-Brabant,30,189
+2020-11-06,762,Deurne,Noord-Brabant,30,59
+2020-11-06,765,Pekela,Groningen,20,7
+2020-11-06,766,Dongen,Noord-Brabant,30,30
+2020-11-06,770,Eersel,Noord-Brabant,30,33
+2020-11-06,772,Eindhoven,Noord-Brabant,30,213
+2020-11-06,777,Etten-Leur,Noord-Brabant,30,53
+2020-11-06,779,Geertruidenberg,Noord-Brabant,30,17
+2020-11-06,784,Gilze en Rijen,Noord-Brabant,30,25
+2020-11-06,785,Goirle,Noord-Brabant,30,35
+2020-11-06,786,Grave,Noord-Brabant,30,27
+2020-11-06,788,Haaren,Noord-Brabant,30,20
+2020-11-06,794,Helmond,Noord-Brabant,30,128
+2020-11-06,796,'s-Hertogenbosch,Noord-Brabant,30,154
+2020-11-06,797,Heusden,Noord-Brabant,30,52
+2020-11-06,798,Hilvarenbeek,Noord-Brabant,30,16
+2020-11-06,809,Loon op Zand,Noord-Brabant,30,31
+2020-11-06,815,Mill en Sint Hubert,Noord-Brabant,30,12
+2020-11-06,820,"Nuenen, Gerwen en Nederwetten",Noord-Brabant,30,20
+2020-11-06,823,Oirschot,Noord-Brabant,30,17
+2020-11-06,824,Oisterwijk,Noord-Brabant,30,29
+2020-11-06,826,Oosterhout,Noord-Brabant,30,53
+2020-11-06,828,Oss,Noord-Brabant,30,182
+2020-11-06,840,Rucphen,Noord-Brabant,30,18
+2020-11-06,845,Sint-Michielsgestel,Noord-Brabant,30,38
+2020-11-06,847,Someren,Noord-Brabant,30,34
+2020-11-06,848,Son en Breugel,Noord-Brabant,30,32
+2020-11-06,851,Steenbergen,Noord-Brabant,30,18
+2020-11-06,852,Waterland,Noord-Holland,27,23
+2020-11-06,855,Tilburg,Noord-Brabant,30,286
+2020-11-06,856,Uden,Noord-Brabant,30,116
+2020-11-06,858,Valkenswaard,Noord-Brabant,30,23
+2020-11-06,861,Veldhoven,Noord-Brabant,30,40
+2020-11-06,865,Vught,Noord-Brabant,30,43
+2020-11-06,866,Waalre,Noord-Brabant,30,8
+2020-11-06,867,Waalwijk,Noord-Brabant,30,47
+2020-11-06,873,Woensdrecht,Noord-Brabant,30,10
+2020-11-06,879,Zundert,Noord-Brabant,30,27
+2020-11-06,880,Wormerland,Noord-Holland,27,22
+2020-11-06,882,Landgraaf,Limburg,31,55
+2020-11-06,888,Beek,Limburg,31,18
+2020-11-06,889,Beesel,Limburg,31,21
+2020-11-06,893,Bergen (L.),Limburg,31,10
+2020-11-06,899,Brunssum,Limburg,31,50
+2020-11-06,907,Gennep,Limburg,31,18
+2020-11-06,917,Heerlen,Limburg,31,131
+2020-11-06,928,Kerkrade,Limburg,31,72
+2020-11-06,935,Maastricht,Limburg,31,203
+2020-11-06,938,Meerssen,Limburg,31,23
+2020-11-06,944,Mook en Middelaar,Limburg,31,8
+2020-11-06,946,Nederweert,Limburg,31,34
+2020-11-06,957,Roermond,Limburg,31,65
+2020-11-06,965,Simpelveld,Limburg,31,19
+2020-11-06,971,Stein,Limburg,31,49
+2020-11-06,981,Vaals,Limburg,31,10
+2020-11-06,983,Venlo,Limburg,31,147
+2020-11-06,984,Venray,Limburg,31,43
+2020-11-06,986,Voerendaal,Limburg,31,18
+2020-11-06,988,Weert,Limburg,31,75
+2020-11-06,994,Valkenburg aan de Geul,Limburg,31,23
+2020-11-06,995,Lelystad,Flevoland,24,87
+2020-11-06,1507,Horst aan de Maas,Limburg,31,47
+2020-11-06,1509,Oude IJsselstreek,Gelderland,25,25
+2020-11-06,1525,Teylingen,Zuid-Holland,28,19
+2020-11-06,1581,Utrechtse Heuvelrug,Utrecht,26,33
+2020-11-06,1586,Oost Gelre,Gelderland,25,21
+2020-11-06,1598,Koggenland,Noord-Holland,27,9
+2020-11-06,1621,Lansingerland,Zuid-Holland,28,53
+2020-11-06,1640,Leudal,Limburg,31,54
+2020-11-06,1641,Maasgouw,Limburg,31,28
+2020-11-06,1652,Gemert-Bakel,Noord-Brabant,30,80
+2020-11-06,1655,Halderberge,Noord-Brabant,30,29
+2020-11-06,1658,Heeze-Leende,Noord-Brabant,30,18
+2020-11-06,1659,Laarbeek,Noord-Brabant,30,42
+2020-11-06,1667,Reusel-De Mierden,Noord-Brabant,30,15
+2020-11-06,1669,Roerdalen,Limburg,31,27
+2020-11-06,1674,Roosendaal,Noord-Brabant,30,49
+2020-11-06,1676,Schouwen-Duiveland,Zeeland,29,13
+2020-11-06,1680,Aa en Hunze,Drenthe,22,1
+2020-11-06,1681,Borger-Odoorn,Drenthe,22,8
+2020-11-06,1684,Cuijk,Noord-Brabant,30,18
+2020-11-06,1685,Landerd,Noord-Brabant,30,42
+2020-11-06,1690,De Wolden,Drenthe,22,16
+2020-11-06,1695,Noord-Beveland,Zeeland,29,1
+2020-11-06,1696,Wijdemeren,Noord-Holland,27,14
+2020-11-06,1699,Noordenveld,Drenthe,22,6
+2020-11-06,1700,Twenterand,Overijssel,23,12
+2020-11-06,1701,Westerveld,Drenthe,22,9
+2020-11-06,1702,Sint Anthonis,Noord-Brabant,30,21
+2020-11-06,1705,Lingewaard,Gelderland,25,39
+2020-11-06,1706,Cranendonck,Noord-Brabant,30,65
+2020-11-06,1708,Steenwijkerland,Overijssel,23,16
+2020-11-06,1709,Moerdijk,Noord-Brabant,30,23
+2020-11-06,1711,Echt-Susteren,Limburg,31,43
+2020-11-06,1714,Sluis,Zeeland,29,10
+2020-11-06,1719,Drimmelen,Noord-Brabant,30,22
+2020-11-06,1721,Bernheze,Noord-Brabant,30,98
+2020-11-06,1723,Alphen-Chaam,Noord-Brabant,30,18
+2020-11-06,1724,Bergeijk,Noord-Brabant,30,20
+2020-11-06,1728,Bladel,Noord-Brabant,30,24
+2020-11-06,1729,Gulpen-Wittem,Limburg,31,26
+2020-11-06,1730,Tynaarlo,Drenthe,22,11
+2020-11-06,1731,Midden-Drenthe,Drenthe,22,6
+2020-11-06,1734,Overbetuwe,Gelderland,25,62
+2020-11-06,1735,Hof van Twente,Overijssel,23,20
+2020-11-06,1740,Neder-Betuwe,Gelderland,25,44
+2020-11-06,1742,Rijssen-Holten,Overijssel,23,30
+2020-11-06,1771,Geldrop-Mierlo,Noord-Brabant,30,37
+2020-11-06,1773,Olst-Wijhe,Overijssel,23,12
+2020-11-06,1774,Dinkelland,Overijssel,23,22
+2020-11-06,1783,Westland,Zuid-Holland,28,76
+2020-11-06,1842,Midden-Delfland,Zuid-Holland,28,8
+2020-11-06,1859,Berkelland,Gelderland,25,21
+2020-11-06,1876,Bronckhorst,Gelderland,25,19
+2020-11-06,1883,Sittard-Geleen,Limburg,31,129
+2020-11-06,1884,Kaag en Braassem,Zuid-Holland,28,9
+2020-11-06,1891,Dantumadiel,Friesland,21,2
+2020-11-06,1892,Zuidplas,Zuid-Holland,28,35
+2020-11-06,1894,Peel en Maas,Limburg,31,146
+2020-11-06,1895,Oldambt,Groningen,20,11
+2020-11-06,1896,Zwartewaterland,Overijssel,23,35
+2020-11-06,1900,Súdwest-Fryslân,Friesland,21,23
+2020-11-06,1901,Bodegraven-Reeuwijk,Zuid-Holland,28,17
+2020-11-06,1903,Eijsden-Margraten,Limburg,31,59
+2020-11-06,1904,Stichtse Vecht,Utrecht,26,55
+2020-11-06,1911,Hollands Kroon,Noord-Holland,27,29
+2020-11-06,1916,Leidschendam-Voorburg,Zuid-Holland,28,43
+2020-11-06,1924,Goeree-Overflakkee,Zuid-Holland,28,64
+2020-11-06,1926,Pijnacker-Nootdorp,Zuid-Holland,28,33
+2020-11-06,1930,Nissewaard,Zuid-Holland,28,79
+2020-11-06,1931,Krimpenerwaard,Zuid-Holland,28,63
+2020-11-06,1940,De Fryske Marren,Friesland,21,24
+2020-11-06,1942,Gooise Meren,Noord-Holland,27,31
+2020-11-06,1945,Berg en Dal,Gelderland,25,42
+2020-11-06,1948,Meierijstad,Noord-Brabant,30,219
+2020-11-06,1949,Waadhoeke,Friesland,21,15
+2020-11-06,1950,Westerwolde,Groningen,20,12
+2020-11-06,1952,Midden-Groningen,Groningen,20,10
+2020-11-06,1954,Beekdaelen,Limburg,31,52
+2020-11-06,1955,Montferland,Gelderland,25,25
+2020-11-06,1959,Altena,Noord-Brabant,30,41
+2020-11-06,1960,West Betuwe,Gelderland,25,57
+2020-11-06,1961,Vijfheerenlanden,Utrecht,26,50
+2020-11-06,1963,Hoeksche Waard,Zuid-Holland,28,86
+2020-11-06,1966,Het Hogeland,Groningen,20,8
+2020-11-06,1969,Westerkwartier,Groningen,20,19
+2020-11-06,1970,Noardeast-Fryslân,Friesland,21,8
+2020-11-06,1978,Molenlanden,Zuid-Holland,28,20
