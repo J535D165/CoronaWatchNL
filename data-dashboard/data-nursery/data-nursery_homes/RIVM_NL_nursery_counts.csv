@@ -224,9 +224,9 @@ Datum,Type,Aantal,NieuwAantal
 2020-10-06,Besmette verpleeghuizen,231,19
 2020-10-07,Besmette verpleeghuizen,244,16
 2020-10-08,Besmette verpleeghuizen,259,17
-2020-10-09,Besmette verpleeghuizen,270,14
-2020-10-10,Besmette verpleeghuizen,285,18
-2020-10-11,Besmette verpleeghuizen,287,11
+2020-10-09,Besmette verpleeghuizen,271,15
+2020-10-10,Besmette verpleeghuizen,286,18
+2020-10-11,Besmette verpleeghuizen,287,10
 2020-10-12,Besmette verpleeghuizen,304,23
 2020-10-13,Besmette verpleeghuizen,316,14
 2020-10-14,Besmette verpleeghuizen,334,24
@@ -240,8 +240,8 @@ Datum,Type,Aantal,NieuwAantal
 2020-10-22,Besmette verpleeghuizen,464,28
 2020-10-23,Besmette verpleeghuizen,480,22
 2020-10-24,Besmette verpleeghuizen,496,28
-2020-10-25,Besmette verpleeghuizen,509,20
-2020-10-26,Besmette verpleeghuizen,530,26
+2020-10-25,Besmette verpleeghuizen,510,20
+2020-10-26,Besmette verpleeghuizen,530,25
 2020-10-27,Besmette verpleeghuizen,539,15
 2020-10-28,Besmette verpleeghuizen,561,27
 2020-10-29,Besmette verpleeghuizen,581,30
@@ -258,3 +258,4 @@ Datum,Type,Aantal,NieuwAantal
 2020-11-09,Besmette verpleeghuizen,658,10
 2020-11-10,Besmette verpleeghuizen,656,12
 2020-11-11,Besmette verpleeghuizen,667,16
+2020-11-12,Besmette verpleeghuizen,679,21
