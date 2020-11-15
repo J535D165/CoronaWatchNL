@@ -16,6 +16,9 @@ DATA_FP = {
 def merge_data(date, type_data):
 
     data_totaal_fp = str(DATA_FP[type_data]).format(date=date)
+    if type_data == "Totaal" and date > "2020-10-20":
+        data_totaal_fp = Path("raw_data", "website_charts", "ggd-meldingen-positief-geteste-personen-per-dag-{date}.csv".format(date=date))
+
     df_totaal = pd.read_csv(data_totaal_fp, sep=";")
 
     if df_totaal.iloc[0, 0] not in ["2020-02-27", "27-feb", "27 feb"]:
@@ -34,10 +37,12 @@ def merge_data(date, type_data):
 
 if __name__ == '__main__':
 
-    files = Path("raw_data", "website_charts").glob("bij-de-ggd-gemelde-patiënten-*.csv")
+    files = Path("raw_data", "website_charts").glob("overledenen-per-dag-*.csv")
     files = sorted([str(file) for file in files])
 
     for file in files:
+        print(file)
+
         date_str = re.search(r"(\d{4}-\d{2}-\d{2})", str(file)).group(1)
 
         df_totaal = merge_data(date_str, "Totaal")
