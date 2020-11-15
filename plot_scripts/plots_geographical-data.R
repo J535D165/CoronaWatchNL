@@ -235,7 +235,7 @@ reports %>%
 #####################
 
 # load province data
-data_prov <- read_csv("data/rivm_NL_covid19_province.csv")
+data_prov <- read_csv("data-geo/data-provincial/RIVM_NL_provincial.csv")
 
 # Positief-geteste Coronavirus besmettingen per provincie
 data_prov %>%
@@ -256,9 +256,6 @@ data_prov %>%
   ggplot(aes(Datum, Aantal, color=Provincienaam)) +
   geom_line() +
   theme_minimal() +
-  scale_x_date(date_labels = "%d-%m-%Y",
-               date_breaks = "1 weeks",
-               date_minor_breaks = "1 days") +
   labs(title = "Positief-geteste Coronavirus besmettingen per provincie") +
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank()) +
@@ -286,8 +283,9 @@ mun <- read_csv2(
 p_list = list()
 
 data_map = data_prov %>%
-  filter(!is.na(Provincienaam)) %>%
-  complete(Datum, Provincienaam, fill = list("Aantal"=0)) %>%
+  filter(!is.na(Provincienaam),
+         Type == "Totaal") %>%
+  complete(Datum, Provincienaam, fill = list("AantalCumulatief"=0)) %>%
   left_join(province_shp, by=c("Provincienaam"="NAME_1")) %>%
   st_as_sf() %>%
   st_set_crs(4326)
@@ -298,11 +296,12 @@ for (i in seq(0, 6)){
     filter(Datum == max(Datum) - i*7)
 
   date_submap = max(data_subset_map$Datum)
-  aantal_max = max(data_map$Aantal)
+  aantal_max = max(data_map$AantalCumulatief)
 
   p = data_subset_map %>%
     ggplot() +
-    geom_sf(aes(fill=Aantal, color=Aantal, geometry = geometry)) + coord_sf( expand = FALSE) +
+    geom_sf(aes(fill=AantalCumulatief, color=AantalCumulatief, geometry = geometry)) + 
+    coord_sf( expand = FALSE) +
     theme_minimal() +
     theme(panel.grid.major = element_line(colour = "transparent"),
           axis.text.x=element_blank(),
