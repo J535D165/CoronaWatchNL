@@ -47,30 +47,8 @@ def export_date(df, data_folder, prefix, data_date=None, label=None):
 
 def main_sex():
 
-    df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_sex.csv"))
-    df_reported = df_reported.rename(columns={"Aantal": "AantalCumulatief"})
-
-    df_reported["Aantal"] = df_reported.loc[df_reported["Datum"] < '2020-07-07'] \
-    .groupby(['Type', 'Geslacht'], sort=True)['AantalCumulatief'] \
-    .transform(pd.Series.diff)
-
-    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
-    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
-
-    df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
-    df_reported['AantalCumulatief'] = df_reported["AantalCumulatief"].astype(pd.Int64Dtype())
-
-    # format the columns
-    df_reported = df_reported[[
-        "Datum",
-        "Bron",
-        "Geslacht",
-        "Type",
-        "Aantal",
-        "AantalCumulatief"
-    ]]
-
-    Path(DATA_FOLDER, "data-sex").mkdir(exist_ok=True)
+    df_reported = pd.read_csv(Path("data-desc", "data-sex", "RIVM_NL_sex.csv"))
+    df_reported["Aantal"] = df_reported["Aantal"].astype(pd.Int64Dtype())
 
     dates = sorted(df_reported["Datum"].unique())
 
@@ -82,37 +60,11 @@ def main_sex():
     # export latest
     export_date(df_reported, "data-sex", "RIVM_NL_sex", data_date=dates[-1], label="latest")
 
-    # export all
-    export_date(df_reported, "data-sex", "RIVM_NL_sex", data_date=None, label=None)
-
-
 
 def main_age():
 
-    df_reported = pd.read_csv(Path("data", "rivm_NL_covid19_age.csv"))
-    df_reported = df_reported.rename(columns={"Aantal": "AantalCumulatief"})
-
-    df_reported["Aantal"] = df_reported.loc[df_reported["Datum"] < '2020-07-07'] \
-    .groupby(['Type', 'LeeftijdGroep'], sort=True)['AantalCumulatief'] \
-    .transform(pd.Series.diff)
-
-    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "Aantal"] = \
-    #df_reported.loc[df_reported["Datum"] == sorted(df_reported["Datum"].unique())[0], "AantalCumulatief"]
-
-    df_reported['Aantal'] = df_reported["Aantal"].astype(pd.Int64Dtype())
-    df_reported['AantalCumulatief'] = df_reported["AantalCumulatief"].astype(pd.Int64Dtype())
-
-    # format the columns
-    df_reported = df_reported[[
-        "Datum",
-        "Bron",
-        "LeeftijdGroep",
-        "Type",
-        "Aantal",
-        "AantalCumulatief"
-    ]]
-
-    Path(DATA_FOLDER, "data-age").mkdir(exist_ok=True)
+    df_reported = pd.read_csv(Path("data-desc", "data-age", "RIVM_NL_age.csv"))
+    df_reported["Aantal"] = df_reported["Aantal"].astype(pd.Int64Dtype())
 
     dates = sorted(df_reported["Datum"].unique())
 
@@ -123,10 +75,6 @@ def main_age():
 
     # export latest
     export_date(df_reported, "data-age", "RIVM_NL_age", data_date=dates[-1], label="latest")
-
-    # export all
-    export_date(df_reported, "data-age", "RIVM_NL_age", data_date=None, label=None)
-
 
 
 def main_age_sex():
