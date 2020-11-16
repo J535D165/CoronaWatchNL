@@ -185,12 +185,12 @@ The cumulative number of specific conditions found in these deceased COVID-19 ca
 
 The following datasets are awaiting deprecation. They are replaced by new datasets.
 
-| Dataset | URL | Source | Variables | Alternative
-|---|---| --- | --- | --- |
-| [COVID-19 disease case counts in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_daily.csv) | [RIVM](#data-collection-sources) | Date, Number of positive COVID-19 disease cases in NL| rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [COVID-19 fatalities in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_fatalities.csv) | [RIVM](#data-collection-sources) | Date, Number of COVID-19 fatalities in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [COVID-19 hospitalizations in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_hosp.csv) | [RIVM](#data-collection-sources) | Date, Number of COVID-19 hospitalized patients in NL | rivm_NL_covid19_national.csv | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
-| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*](data/rivm_NL_covid19_municipality_range.csv) | [RIVM](#data-collection-sources) | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province|
+| Dataset | Source | Variables | Alternative  |
+|---|---|---|---|
+| [COVID-19 disease case counts in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_daily.csv) | [RIVM](#data-collection-sources) | Date, Number of positive COVID-19 disease cases in NL| [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [COVID-19 fatalities in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_fatalities.csv) | [RIVM](#data-collection-sources) | Date, Number of COVID-19 fatalities in NL | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [COVID-19 hospitalizations in NL](https://github.com/J535D165/CoronaWatchNL/blob/b71cd70e51bb2e30e8fb9244f360a1e70446c939/data/rivm_corona_in_nl_hosp.csv) | [RIVM](#data-collection-sources) | Date, Number of COVID-19 hospitalized patients in NL | [COVID-19 case counts in NL](data/rivm_NL_covid19_national.csv) |
+| [Newly reported relative case counts by date in NL per municipality (PDF maps)\*](data/rivm_NL_covid19_municipality_range.csv) | [RIVM](#data-collection-sources) | Date, Type, Number of positive COVID-19 disease cases, hospitalizations and fatalities per 100.000 people, Municipality, Province| [Reported case counts by date in NL per municipality](data-geo#municipal) |
 | [COVID-19 age distribution](https://github.com/J535D165/CoronaWatchNL/blob/b64201202e9e50eeea5d1389eea6930c041fbaaf/data/rivm_NL_covid19_age.csv) | [RIVM](#data-collection-sources) | Date, Type, Age, number of cases| [data-desc#age](https://github.com/J535D165/CoronaWatchNL/tree/master/data-desc#age) |
 | [COVID-19 sex distribution](https://github.com/J535D165/CoronaWatchNL/blob/b64201202e9e50eeea5d1389eea6930c041fbaaf/data/rivm_NL_covid19_sex.csv) | [RIVM](#data-collection-sources) | Date, Type, Sex, number of cases| [data-desc#age](https://github.com/J535D165/CoronaWatchNL/tree/master/data-desc#sex) |
 
