@@ -220,7 +220,7 @@ The following sources are used for data collection.
 |---|---| --- |
 | https://www.rivm.nl/coronavirus-covid-19/actueel | RIVM | National cumulative numbers and press releases |
 | https://www.rivm.nl/coronavirus-covid-19/grafieken | RIVM | Case counts per day |
-| https://www.rivm.nl/documenten/dagelijkse-update-epidemiologische-situatie-covid-19-in-nederland | RIVM | Epidemiological report |
+| https://www.rivm.nl/coronavirus-covid-19/actueel/wekelijkse-update-epidemiologische-situatie-covid-19-in-nederland | RIVM | Epidemiological report |
 | https://ggdghor.nl/actueel-bericht/ | GGD-GHOR | Test data |
 | https://www.stichting-nice.nl/ | Stichting NICE | Intensive care numbers on COVID-19 patients |
 | https://www.lcsp.nu/ | LCPS | Intensive care numbers on COVID-19 patients |
