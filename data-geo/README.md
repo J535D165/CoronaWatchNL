@@ -59,7 +59,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-23 |
 | **Gemeentenaam** | Municipality name | Municipality | character | Oosterhout |
-| **Gemeentecode** | Municipality code | Corresponding code of municipality | numeric | 826 |
+| **Gemeentecode** | Municipality code | Corresponding code of municipality | numeric (integer) | 826 |
 | **Provincienaam** | Province name | Corresponding province of municipality | character | Noord-Brabant |
 | **Provinciecode** | Province code | Corresponding code of province | numeric (integer) | 30 |
 | **Type** | Type | Type of measurement (i.e., Totaal, Ziekenhuisopname, Overleden) | character | Totaal |
