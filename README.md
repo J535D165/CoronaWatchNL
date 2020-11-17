@@ -2,14 +2,14 @@
 
 # Dataset: COVID-19 case counts in The Netherlands
 
-**CoronaWatchNL** collects numbers on COVID-19 disease count cases in **The Netherlands**. The numbers are collected from various sources on a daily base, like [RIVM (National Institute for Public Health and the Environment)](https://www.rivm.nl/coronavirus-covid-19/actueel), [LCPS (Landelijk Coördinatiecentrum Patiënten Spreiding)](https://www.lcps.nu/), [NICE (Nationale Intesive Care Evaluatie)](https://www.stichting-nice.nl/), and the [National Corona Dashboard](https://coronadashboard.rijksoverheid.nl/). This project standardizes, and publishes data and makes it **Findable, Accessible, Interoperable, and Reusable (FAIR)**. We aim to collect a complete time series and prepare a dataset for reproducible analysis and academic use.
+**CoronaWatchNL** collects numbers on COVID-19 disease count cases in **The Netherlands**. The numbers are collected from various sources on a daily basis, like [RIVM (National Institute for Public Health and the Environment)](https://www.rivm.nl/coronavirus-covid-19/actueel), [LCPS (Landelijk Coördinatiecentrum Patiënten Spreiding)](https://www.lcps.nu/), [NICE (Nationale Intesive Care Evaluatie)](https://www.stichting-nice.nl/), and the [National Corona Dashboard](https://coronadashboard.rijksoverheid.nl/). This project standardizes, and publishes data and makes it **Findable, Accessible, Interoperable, and Reusable (FAIR)**. We aim to collect a complete time series and prepare a dataset for reproducible analysis and academic use.
 
 Dutch:
 > CoronalWatchNL verzamelt ziektecijfers over COVID-19 in Nederland. Dagelijks worden de cijfers verzameld van het [RIVM (Rijksinstituut voor de Volksgezondheid en Milieu)](https://www.rivm.nl/coronavirus-covid-19/actueel), [LCPS (Landelijk Coördinatiecentrum Patiënten Spreiding)](https://www.lcps.nu/), [NICE (Nationale Intesive Care Evaluatie)](https://www.stichting-nice.nl/) en [Nationale Corona Dashboard](https://coronadashboard.rijksoverheid.nl/). Dit project standaardiseert en publiceert de gegevens en maakt ze vindbaar, toegankelijk, interoperabel en herbruikbaar (FAIR). We streven ernaar om een dataset beschikbaar te stellen voor reproduceerbare analyses en wetenschappelijk gebruik.
 
 
 ## Datasets
-The datasets available on CoronaWatchNL are updated on a daily base. Availability depends on the publication by the respective sources (N.B. since July 1st, the epidemiological reports published by RIVM will be released on a *weekly* instead of daily basis). The CoronaWatchNL project divides the datasets into four main categories:
+The datasets available on CoronaWatchNL are updated on a daily basis. Availability depends on the publication by the respective sources (N.B. since July 1st, the epidemiological reports published by RIVM will be released on a *weekly* instead of a daily basis). The CoronaWatchNL project divides the datasets into four main categories:
 
 * [Geographical data](#geographical-datasets)
 * [Descriptive data](#descriptive-datasets)
@@ -20,16 +20,16 @@ The datasets available on CoronaWatchNL are updated on a daily base. Availabilit
 
 For (interactive) applications based on these datasets, have a look at the [applications folder](/applications). For predictive models based on these datasets, check out the parallel repository [CoronaWatchNL Extended](https://github.com/J535D165/CoronaWatchNLExtended). Please note that the intention of these (too) simplistic models - made by CoronaWatchNL volunteers - is to show how the data can be used for modelling,  *not* to answer specific hypotheses or follow scientific protocol.
 
-Please see the [Remarks](REMARKS.md) document for notes about the datasets. Do you have remarks? Please let us know
+Please see the [Remarks](REMARKS.md) document for notes about the datasets. Do you have remarks? Please let us know.
 
 
 ### Geographical datasets
 
 #### Reference time: 10:00 AM
 
-These datasets describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases. Every day, the data is retrieved from the central database [OSIRIS](https://www.rivm.nl/sniv/handleiding-osiris) at 10:00 AM by RIVM. The datasets are categorized by their geographical level (national, provincial, municipal).
+These datasets describe the new and cumulative number of confirmed, hospitalized, and deceased COVID-19 cases. Every day, RIVM retrieves the data from the central database [OSIRIS](https://www.rivm.nl/sniv/handleiding-osiris) at 10:00 AM. Here, the datasets are categorized by their geographical level (i.e., national, provincial, municipal).
 
-For more detail about the specific structure of the geographical datasets, have a look at the `data-geo`[codebook](/data-geo/README.md). <br/>
+For more detail about the specific structure of these geographical datasets, have a look at the `data-geo`[codebook](/data-geo/README.md). <br/>
 
 | Dataset | Source | Variables |
 |---|---| --- |
@@ -39,9 +39,9 @@ For more detail about the specific structure of the geographical datasets, have 
 
 #### Reference time: by day (0:00 AM)
 
-These datasets describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day. The data is retrieved from the central database [OSIRIS](https://www.rivm.nl/sniv/handleiding-osiris) and counts the number per day (0:00 AM) by RIVM. The dataset concerns numbers on a national level.
+These datasets describe the new and cumulative number of confirmed, hospitalized, and deceased COVID-19 cases per day. The data is retrieved from the central database [OSIRIS](https://www.rivm.nl/sniv/handleiding-osiris) and counts the number of cases per day (0:00 AM) by RIVM. The dataset concerns numbers on a national level.
 
-For more detail about the specific structure of the geographical datasets, have a look at the `data-geo`[codebook](/data-geo/README.md). <br/>
+For more detail about the specific structure of this geographical dataset, have a look at the `data-geo`[codebook](/data-geo/README.md). <br/>
 
 | Dataset | Source | Variables |
 |---|---| --- |
@@ -62,9 +62,9 @@ To get a better picture of the content of the geographical datasets, have a look
 
 ### Descriptive datasets
 
-The datasets in this section describe the new and cumulative number of confirmed, hospitalized and deceased COVID-19 cases per day and contain variables like age and sex.
+The datasets in this section describe the new and cumulative number of confirmed, hospitalized, and deceased COVID-19 cases per day and contain variables like age and sex.
 
-For more detail about the specific structure of the descriptive datasets, have a look at the `data-desc`[codebook](/data-desc/README.md). <br/>
+For more detail about the specific structure of these descriptive datasets, have a look at the `data-desc`[codebook](/data-desc/README.md). <br/>
 
 | Dataset | Source | Variables |
 |---|---| --- |
@@ -124,7 +124,7 @@ For more detail about the specific structure of the dashboard datasets, have a l
 | [Reported case counts in NL](data-dashboard#cases) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
 | [Age distribution of reported cases in NL](data-dashboard#descriptive) | [National Dashboard](#data-collection-sources) | Date, Age group, Count |
 | [Suspected patients in NL](data-dashboard#suspects) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count |
-| [COVID-19 particles in sewage](data-dashboard#sewage) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count |
+| [COVID-19 particles in sewage](data-dashboard#sewage) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Count, Measurement units |
 | [Reproduction index COVID-19 virus](data-dashboard#reproduction) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
 | [Contagion estimate COVID-19 virus](data-dashboard#contagious) | [National Dashboard](#data-collection-sources) | Date, Type of measure, Value |
 | [Number of infected and deceased nursery home cases](data-dashboard#nursery) | [National Dashboard](#data-collection-sources) | Date, Type of measure, (Cumulative) Count |
@@ -183,7 +183,7 @@ The cumulative number of specific conditions found in these deceased COVID-19 ca
 
 ### Deprecated (pending)
 
-The following datasets are awaiting deprecation. They are replaced by new datasets.
+The following datasets are awaiting deprecation. They are (being) replaced by new datasets.
 
 | Dataset | Source | Variables | Alternative  |
 |---|---|---|---|
