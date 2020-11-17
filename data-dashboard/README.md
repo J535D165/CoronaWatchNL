@@ -82,8 +82,8 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 |---|---|---|---|---|
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-04-11 |
 | **Type** | Type | Type of measurment (i.e., Besmette verpleeghuizen) | character | Besmette verpleeghuizen |
-| **NieuwAantal** | New count | Number of newly reported nursery homes with at least one COVID-19 infected resident on the date of notification | numeric (integer) | 9 |
 | **Aantal** | Total count | Total number of reported nursery homes with at least one COVID-19 infected resident on the date of notification | numeric (integer) | 828 |
+| **NieuwAantal** | New count | Number of newly reported nursery homes with at least one COVID-19 infected resident on the date of notification | numeric (integer) | 9 |
 
 ### Reproduction
 
@@ -109,6 +109,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-07-06 |
 | **Type** | Type | Type of measurement (i.e., Virusdeeltjes per ml rioolwater) | character | Virusdeeltjes per ml rioolwater |
 | **Aantal** | Count\* | The number of virus particles measured in one mililiter sewage water per week | numeric | 3.25 |
+| **Installaties** | Count\* | The number of sewage treatment plants that have reported at least one measurement per week | numeric | 3.25 |
 
 **\*** Once per week the number of virus particles per mililiter sewage water, obtained at 28 location in the Netherlands, is determined.
 
