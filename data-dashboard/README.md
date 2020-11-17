@@ -109,7 +109,7 @@ All datasets are updated on a daily base. Availability depends on the publicatio
 | **Datum** | Date | Date of notification | YYYY-MM-DD (ISO 8601) | 2020-09-07 |
 | **Type** | Type | Type of measurement (i.e., Virusdeeltjes per ml rioolwater) | character | Virusdeeltjes per ml rioolwater |
 | **Aantal** | Count\* | The number of virus particles measured in one mililiter sewage water per week | numeric | 47.3 |
-| **Installaties** | Count\* | The number of sewage treatment plants that have reported at least one measurement per week | numeric | 236 |
+| **Installaties** | Count\* | The number of sewage treatment plants that have reported at least one measurement per week | numeric (integer) | 236 |
 
 **\*** Once per week the number of virus particles per mililiter sewage water, obtained at 28 location in the Netherlands, is determined.
 
