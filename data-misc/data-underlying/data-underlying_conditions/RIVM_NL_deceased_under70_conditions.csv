@@ -1096,15 +1096,15 @@ Datum,Type,AantalCumulatief
 2020-11-17,Cardio-vasculaire aandoeningen en hypertensie,261
 2020-11-17,Chronische longaandoeningen,141
 2020-11-17,Chronische neurologische of neuromusculaire aandoeningen,93
-2020-11-17,Dementie/Alzheimer3,39
+2020-11-17,Dementie/Alzheimer,39
 2020-11-17,Diabetes,165
 2020-11-17,Immuundeficiëntie,11
 2020-11-17,Leveraandoening,22
 2020-11-17,Maligniteit,102
 2020-11-17,Nieraandoening,59
-2020-11-17,Obesitas3,43
+2020-11-17,Obesitas,43
 2020-11-17,Overig,146
-2020-11-17,Parkinson3,6
+2020-11-17,Parkinson,6
 2020-11-17,Postpartum,0
 2020-11-17,Zwangerschap,0
 2020-11-24,Cardio-vasculaire aandoeningen en hypertensie,267
@@ -1131,7 +1131,21 @@ Datum,Type,AantalCumulatief
 2020-12-01,Nieraandoening,63
 2020-12-01,Chronische longaandoeningen,152
 2020-12-01,Maligniteit,107
-2020-12-01,Obesitas3,47
-2020-12-01,Dementie/Alzheimer3,47
-2020-12-01,Parkinson3,7
+2020-12-01,Obesitas,47
+2020-12-01,Dementie/Alzheimer,47
+2020-12-01,Parkinson,7
 2020-12-01,Overig,153
+2020-12-08,Zwangerschap,0
+2020-12-08,Postpartum,0
+2020-12-08,Cardio-vasculaire aandoeningen en hypertensie,279
+2020-12-08,Diabetes,176
+2020-12-08,Leveraandoening,23
+2020-12-08,Chronische neurologische of neuromusculaire aandoeningen,100
+2020-12-08,Immuundeficiëntie,13
+2020-12-08,Nieraandoening,64
+2020-12-08,Chronische longaandoeningen,158
+2020-12-08,Maligniteit,110
+2020-12-08,Obesitas,48
+2020-12-08,Dementie/Alzheimer,47
+2020-12-08,Parkinson,7
+2020-12-08,Overig,156
