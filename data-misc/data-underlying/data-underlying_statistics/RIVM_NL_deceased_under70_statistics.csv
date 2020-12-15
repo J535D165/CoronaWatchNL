@@ -409,9 +409,13 @@ Datum,Type,AantalCumulatief
 2020-11-24,Geen onderliggende aandoening,89
 2020-12-01,Totaal gemeld,973
 2020-12-01,Onderliggende aandoening en/of zwangerschap,652
-2020-12-01,Geen onderliggende aandoening,91
 2020-12-01,Niet vermeld,230
+2020-12-01,Geen onderliggende aandoening,91
 2020-12-08,Totaal gemeld,1001
 2020-12-08,Onderliggende aandoening en/of zwangerschap,666
-2020-12-08,Geen onderliggende aandoening,98
 2020-12-08,Niet vermeld,237
+2020-12-08,Geen onderliggende aandoening,98
+2020-12-15,Totaal gemeld,1033
+2020-12-15,Onderliggende aandoening en/of zwangerschap,682
+2020-12-15,Niet vermeld,251
+2020-12-15,Geen onderliggende aandoening,100
