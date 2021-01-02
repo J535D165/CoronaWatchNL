@@ -335,18 +335,19 @@ def main_descriptive():
 if __name__ == '__main__':
     DATA_FOLDER.mkdir(exist_ok=True)
 
-    main_rep()
+    funs = [
+        main_rep,
+        main_infectious,
+        main_nursery,
+        main_nurseryhomes,
+        # main_riool,
+        # main_national,
+        main_suspects,
+        main_descriptive,
+    ]
 
-    main_infectious()
-
-    main_nursery()
-
-    main_nurseryhomes()
-
-    main_riool()
-
-    # main_national()
-
-    main_suspects()
-
-    main_descriptive()
+    for f in funs:
+        try:
+            f()
+        except KeyError as err:
+            print("key no longer available", err)
