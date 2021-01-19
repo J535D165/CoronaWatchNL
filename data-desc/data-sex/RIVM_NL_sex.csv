@@ -1109,3 +1109,9 @@ Datum,Bron,Geslacht,Type,Aantal,AantalCumulatief
 2021-01-05,RIVM_report_20210105,Man,Overleden,,6457
 2021-01-05,RIVM_report_20210105,Vrouw,Overleden,,5369
 2021-01-05,RIVM_report_20210105,Niet vermeld,Overleden,,0
+2021-01-12,RIVM_report_20210112,Man,Totaal,,407734
+2021-01-12,RIVM_report_20210112,Vrouw,Totaal,,475310
+2021-01-12,RIVM_report_20210112,Niet vermeld,Totaal,,91
+2021-01-12,RIVM_report_20210112,Man,Overleden,,6847
+2021-01-12,RIVM_report_20210112,Vrouw,Overleden,,5716
+2021-01-12,RIVM_report_20210112,Niet vermeld,Overleden,,0
