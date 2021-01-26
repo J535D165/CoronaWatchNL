@@ -21,7 +21,7 @@ def merge_data(date, type_data):
 
     df_totaal = pd.read_csv(data_totaal_fp, sep=";")
 
-    if df_totaal.iloc[0, 0] not in ["2020-02-27", "27-feb", "27 feb"]:
+    if df_totaal.iloc[0, 0] not in ["2020-02-27", "27-feb", "27 feb", "27 feb 2020"]:
         raise ValueError("Start date not feb 27, {}".format(df_totaal.iloc[0, 0]))
 
     df_totaal["Datum"] = pd.date_range(START_DATE, periods=len(df_totaal))
