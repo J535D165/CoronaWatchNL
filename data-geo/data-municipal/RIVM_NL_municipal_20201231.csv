@@ -1,1069 +1,1069 @@
 Datum,Gemeentecode,Gemeentenaam,Provincienaam,Provinciecode,Type,Aantal,AantalCumulatief
-2020-12-31,-1,,,-1,Totaal,34,3668
-2020-12-31,-1,,,-1,Ziekenhuisopname,0,113
-2020-12-31,-1,,,-1,Overleden,0,34
-2020-12-31,3,Appingedam,Groningen,20,Totaal,8,297
-2020-12-31,3,Appingedam,Groningen,20,Ziekenhuisopname,0,9
-2020-12-31,3,Appingedam,Groningen,20,Overleden,0,1
-2020-12-31,10,Delfzijl,Groningen,20,Totaal,23,696
-2020-12-31,10,Delfzijl,Groningen,20,Ziekenhuisopname,0,12
-2020-12-31,10,Delfzijl,Groningen,20,Overleden,1,3
-2020-12-31,14,Groningen,Groningen,20,Totaal,37,6302
-2020-12-31,14,Groningen,Groningen,20,Ziekenhuisopname,0,51
-2020-12-31,14,Groningen,Groningen,20,Overleden,2,16
-2020-12-31,24,Loppersum,Groningen,20,Totaal,3,194
-2020-12-31,24,Loppersum,Groningen,20,Ziekenhuisopname,0,2
-2020-12-31,24,Loppersum,Groningen,20,Overleden,0,0
-2020-12-31,34,Almere,Flevoland,24,Totaal,161,10639
-2020-12-31,34,Almere,Flevoland,24,Ziekenhuisopname,2,216
-2020-12-31,34,Almere,Flevoland,24,Overleden,0,52
-2020-12-31,37,Stadskanaal,Groningen,20,Totaal,12,1207
-2020-12-31,37,Stadskanaal,Groningen,20,Ziekenhuisopname,1,15
-2020-12-31,37,Stadskanaal,Groningen,20,Overleden,0,8
-2020-12-31,47,Veendam,Groningen,20,Totaal,12,650
-2020-12-31,47,Veendam,Groningen,20,Ziekenhuisopname,0,4
-2020-12-31,47,Veendam,Groningen,20,Overleden,0,4
-2020-12-31,50,Zeewolde,Flevoland,24,Totaal,16,824
-2020-12-31,50,Zeewolde,Flevoland,24,Ziekenhuisopname,0,17
-2020-12-31,50,Zeewolde,Flevoland,24,Overleden,0,9
-2020-12-31,59,Achtkarspelen,Friesland,21,Totaal,14,605
-2020-12-31,59,Achtkarspelen,Friesland,21,Ziekenhuisopname,0,2
-2020-12-31,59,Achtkarspelen,Friesland,21,Overleden,0,0
-2020-12-31,60,Ameland,Friesland,21,Totaal,9,121
-2020-12-31,60,Ameland,Friesland,21,Ziekenhuisopname,0,0
-2020-12-31,60,Ameland,Friesland,21,Overleden,0,0
-2020-12-31,72,Harlingen,Friesland,21,Totaal,4,220
-2020-12-31,72,Harlingen,Friesland,21,Ziekenhuisopname,0,5
-2020-12-31,72,Harlingen,Friesland,21,Overleden,0,2
-2020-12-31,74,Heerenveen,Friesland,21,Totaal,17,916
-2020-12-31,74,Heerenveen,Friesland,21,Ziekenhuisopname,1,19
-2020-12-31,74,Heerenveen,Friesland,21,Overleden,0,24
-2020-12-31,80,Leeuwarden,Friesland,21,Totaal,35,2870
-2020-12-31,80,Leeuwarden,Friesland,21,Ziekenhuisopname,0,57
-2020-12-31,80,Leeuwarden,Friesland,21,Overleden,1,23
-2020-12-31,85,Ooststellingwerf,Friesland,21,Totaal,5,500
-2020-12-31,85,Ooststellingwerf,Friesland,21,Ziekenhuisopname,0,10
-2020-12-31,85,Ooststellingwerf,Friesland,21,Overleden,0,1
-2020-12-31,86,Opsterland,Friesland,21,Totaal,6,502
-2020-12-31,86,Opsterland,Friesland,21,Ziekenhuisopname,0,15
-2020-12-31,86,Opsterland,Friesland,21,Overleden,0,1
-2020-12-31,88,Schiermonnikoog,Friesland,21,Totaal,0,7
-2020-12-31,88,Schiermonnikoog,Friesland,21,Ziekenhuisopname,0,1
-2020-12-31,88,Schiermonnikoog,Friesland,21,Overleden,0,0
-2020-12-31,90,Smallingerland,Friesland,21,Totaal,19,1028
-2020-12-31,90,Smallingerland,Friesland,21,Ziekenhuisopname,0,16
-2020-12-31,90,Smallingerland,Friesland,21,Overleden,0,14
-2020-12-31,93,Terschelling,Friesland,21,Totaal,7,91
-2020-12-31,93,Terschelling,Friesland,21,Ziekenhuisopname,0,1
-2020-12-31,93,Terschelling,Friesland,21,Overleden,0,1
-2020-12-31,96,Vlieland,Friesland,21,Totaal,0,21
-2020-12-31,96,Vlieland,Friesland,21,Ziekenhuisopname,0,0
-2020-12-31,96,Vlieland,Friesland,21,Overleden,0,0
-2020-12-31,98,Weststellingwerf,Friesland,21,Totaal,2,585
-2020-12-31,98,Weststellingwerf,Friesland,21,Ziekenhuisopname,0,6
-2020-12-31,98,Weststellingwerf,Friesland,21,Overleden,0,12
-2020-12-31,106,Assen,Drenthe,22,Totaal,24,1505
-2020-12-31,106,Assen,Drenthe,22,Ziekenhuisopname,0,30
-2020-12-31,106,Assen,Drenthe,22,Overleden,0,9
-2020-12-31,109,Coevorden,Drenthe,22,Totaal,34,1099
-2020-12-31,109,Coevorden,Drenthe,22,Ziekenhuisopname,0,27
-2020-12-31,109,Coevorden,Drenthe,22,Overleden,0,8
-2020-12-31,114,Emmen,Drenthe,22,Totaal,51,3630
-2020-12-31,114,Emmen,Drenthe,22,Ziekenhuisopname,0,65
-2020-12-31,114,Emmen,Drenthe,22,Overleden,0,34
-2020-12-31,118,Hoogeveen,Drenthe,22,Totaal,55,2008
-2020-12-31,118,Hoogeveen,Drenthe,22,Ziekenhuisopname,1,42
-2020-12-31,118,Hoogeveen,Drenthe,22,Overleden,0,20
-2020-12-31,119,Meppel,Drenthe,22,Totaal,40,970
-2020-12-31,119,Meppel,Drenthe,22,Ziekenhuisopname,0,15
-2020-12-31,119,Meppel,Drenthe,22,Overleden,1,10
-2020-12-31,141,Almelo,Overijssel,23,Totaal,58,4126
-2020-12-31,141,Almelo,Overijssel,23,Ziekenhuisopname,0,54
-2020-12-31,141,Almelo,Overijssel,23,Overleden,0,35
-2020-12-31,147,Borne,Overijssel,23,Totaal,27,1257
-2020-12-31,147,Borne,Overijssel,23,Ziekenhuisopname,0,22
-2020-12-31,147,Borne,Overijssel,23,Overleden,0,15
-2020-12-31,148,Dalfsen,Overijssel,23,Totaal,24,1075
-2020-12-31,148,Dalfsen,Overijssel,23,Ziekenhuisopname,0,19
-2020-12-31,148,Dalfsen,Overijssel,23,Overleden,0,15
-2020-12-31,150,Deventer,Overijssel,23,Totaal,45,4227
-2020-12-31,150,Deventer,Overijssel,23,Ziekenhuisopname,0,68
-2020-12-31,150,Deventer,Overijssel,23,Overleden,1,64
-2020-12-31,153,Enschede,Overijssel,23,Totaal,122,7385
-2020-12-31,153,Enschede,Overijssel,23,Ziekenhuisopname,4,135
-2020-12-31,153,Enschede,Overijssel,23,Overleden,0,97
-2020-12-31,158,Haaksbergen,Overijssel,23,Totaal,24,1548
-2020-12-31,158,Haaksbergen,Overijssel,23,Ziekenhuisopname,0,24
-2020-12-31,158,Haaksbergen,Overijssel,23,Overleden,0,25
-2020-12-31,160,Hardenberg,Overijssel,23,Totaal,67,2295
-2020-12-31,160,Hardenberg,Overijssel,23,Ziekenhuisopname,1,38
-2020-12-31,160,Hardenberg,Overijssel,23,Overleden,1,19
-2020-12-31,163,Hellendoorn,Overijssel,23,Totaal,47,2052
-2020-12-31,163,Hellendoorn,Overijssel,23,Ziekenhuisopname,0,17
-2020-12-31,163,Hellendoorn,Overijssel,23,Overleden,0,21
-2020-12-31,164,Hengelo,Overijssel,23,Totaal,93,4017
-2020-12-31,164,Hengelo,Overijssel,23,Ziekenhuisopname,0,55
-2020-12-31,164,Hengelo,Overijssel,23,Overleden,0,40
-2020-12-31,166,Kampen,Overijssel,23,Totaal,19,1786
-2020-12-31,166,Kampen,Overijssel,23,Ziekenhuisopname,0,68
-2020-12-31,166,Kampen,Overijssel,23,Overleden,0,41
-2020-12-31,168,Losser,Overijssel,23,Totaal,54,1411
-2020-12-31,168,Losser,Overijssel,23,Ziekenhuisopname,2,26
-2020-12-31,168,Losser,Overijssel,23,Overleden,1,15
-2020-12-31,171,Noordoostpolder,Flevoland,24,Totaal,21,1827
-2020-12-31,171,Noordoostpolder,Flevoland,24,Ziekenhuisopname,0,26
-2020-12-31,171,Noordoostpolder,Flevoland,24,Overleden,0,21
-2020-12-31,173,Oldenzaal,Overijssel,23,Totaal,52,1803
-2020-12-31,173,Oldenzaal,Overijssel,23,Ziekenhuisopname,1,35
-2020-12-31,173,Oldenzaal,Overijssel,23,Overleden,0,34
-2020-12-31,175,Ommen,Overijssel,23,Totaal,13,568
-2020-12-31,175,Ommen,Overijssel,23,Ziekenhuisopname,0,11
-2020-12-31,175,Ommen,Overijssel,23,Overleden,1,9
-2020-12-31,177,Raalte,Overijssel,23,Totaal,28,1787
-2020-12-31,177,Raalte,Overijssel,23,Ziekenhuisopname,0,27
-2020-12-31,177,Raalte,Overijssel,23,Overleden,0,25
-2020-12-31,180,Staphorst,Overijssel,23,Totaal,18,988
-2020-12-31,180,Staphorst,Overijssel,23,Ziekenhuisopname,0,12
-2020-12-31,180,Staphorst,Overijssel,23,Overleden,0,6
-2020-12-31,183,Tubbergen,Overijssel,23,Totaal,23,1495
-2020-12-31,183,Tubbergen,Overijssel,23,Ziekenhuisopname,0,16
-2020-12-31,183,Tubbergen,Overijssel,23,Overleden,1,12
-2020-12-31,184,Urk,Flevoland,24,Totaal,14,1642
-2020-12-31,184,Urk,Flevoland,24,Ziekenhuisopname,0,40
-2020-12-31,184,Urk,Flevoland,24,Overleden,0,11
-2020-12-31,189,Wierden,Overijssel,23,Totaal,41,1855
-2020-12-31,189,Wierden,Overijssel,23,Ziekenhuisopname,0,11
-2020-12-31,189,Wierden,Overijssel,23,Overleden,0,18
-2020-12-31,193,Zwolle,Overijssel,23,Totaal,54,3737
-2020-12-31,193,Zwolle,Overijssel,23,Ziekenhuisopname,0,66
-2020-12-31,193,Zwolle,Overijssel,23,Overleden,1,69
-2020-12-31,197,Aalten,Gelderland,25,Totaal,13,1028
-2020-12-31,197,Aalten,Gelderland,25,Ziekenhuisopname,0,17
-2020-12-31,197,Aalten,Gelderland,25,Overleden,0,14
-2020-12-31,200,Apeldoorn,Gelderland,25,Totaal,103,5752
-2020-12-31,200,Apeldoorn,Gelderland,25,Ziekenhuisopname,0,148
-2020-12-31,200,Apeldoorn,Gelderland,25,Overleden,-1,91
-2020-12-31,202,Arnhem,Gelderland,25,Totaal,79,6722
-2020-12-31,202,Arnhem,Gelderland,25,Ziekenhuisopname,0,132
-2020-12-31,202,Arnhem,Gelderland,25,Overleden,1,86
-2020-12-31,203,Barneveld,Gelderland,25,Totaal,90,3986
-2020-12-31,203,Barneveld,Gelderland,25,Ziekenhuisopname,0,32
-2020-12-31,203,Barneveld,Gelderland,25,Overleden,2,27
-2020-12-31,209,Beuningen,Gelderland,25,Totaal,14,1027
-2020-12-31,209,Beuningen,Gelderland,25,Ziekenhuisopname,0,25
-2020-12-31,209,Beuningen,Gelderland,25,Overleden,0,12
-2020-12-31,213,Brummen,Gelderland,25,Totaal,16,721
-2020-12-31,213,Brummen,Gelderland,25,Ziekenhuisopname,0,25
-2020-12-31,213,Brummen,Gelderland,25,Overleden,0,9
-2020-12-31,214,Buren,Gelderland,25,Totaal,12,1140
-2020-12-31,214,Buren,Gelderland,25,Ziekenhuisopname,0,29
-2020-12-31,214,Buren,Gelderland,25,Overleden,0,13
-2020-12-31,216,Culemborg,Gelderland,25,Totaal,13,1324
-2020-12-31,216,Culemborg,Gelderland,25,Ziekenhuisopname,0,35
-2020-12-31,216,Culemborg,Gelderland,25,Overleden,0,13
-2020-12-31,221,Doesburg,Gelderland,25,Totaal,4,382
-2020-12-31,221,Doesburg,Gelderland,25,Ziekenhuisopname,0,15
-2020-12-31,221,Doesburg,Gelderland,25,Overleden,0,8
-2020-12-31,222,Doetinchem,Gelderland,25,Totaal,36,2088
-2020-12-31,222,Doetinchem,Gelderland,25,Ziekenhuisopname,0,45
-2020-12-31,222,Doetinchem,Gelderland,25,Overleden,0,23
-2020-12-31,225,Druten,Gelderland,25,Totaal,12,820
-2020-12-31,225,Druten,Gelderland,25,Ziekenhuisopname,0,32
-2020-12-31,225,Druten,Gelderland,25,Overleden,0,18
-2020-12-31,226,Duiven,Gelderland,25,Totaal,13,1114
-2020-12-31,226,Duiven,Gelderland,25,Ziekenhuisopname,0,22
-2020-12-31,226,Duiven,Gelderland,25,Overleden,0,8
-2020-12-31,228,Ede,Gelderland,25,Totaal,121,6210
-2020-12-31,228,Ede,Gelderland,25,Ziekenhuisopname,0,101
-2020-12-31,228,Ede,Gelderland,25,Overleden,1,58
-2020-12-31,230,Elburg,Gelderland,25,Totaal,19,967
-2020-12-31,230,Elburg,Gelderland,25,Ziekenhuisopname,0,32
-2020-12-31,230,Elburg,Gelderland,25,Overleden,0,12
-2020-12-31,232,Epe,Gelderland,25,Totaal,28,1199
-2020-12-31,232,Epe,Gelderland,25,Ziekenhuisopname,1,62
-2020-12-31,232,Epe,Gelderland,25,Overleden,0,29
-2020-12-31,233,Ermelo,Gelderland,25,Totaal,32,1342
-2020-12-31,233,Ermelo,Gelderland,25,Ziekenhuisopname,0,34
-2020-12-31,233,Ermelo,Gelderland,25,Overleden,0,28
-2020-12-31,243,Harderwijk,Gelderland,25,Totaal,36,2007
-2020-12-31,243,Harderwijk,Gelderland,25,Ziekenhuisopname,0,60
-2020-12-31,243,Harderwijk,Gelderland,25,Overleden,0,27
-2020-12-31,244,Hattem,Gelderland,25,Totaal,12,397
-2020-12-31,244,Hattem,Gelderland,25,Ziekenhuisopname,0,19
-2020-12-31,244,Hattem,Gelderland,25,Overleden,0,5
-2020-12-31,246,Heerde,Gelderland,25,Totaal,6,594
-2020-12-31,246,Heerde,Gelderland,25,Ziekenhuisopname,0,55
-2020-12-31,246,Heerde,Gelderland,25,Overleden,0,29
-2020-12-31,252,Heumen,Gelderland,25,Totaal,6,748
-2020-12-31,252,Heumen,Gelderland,25,Ziekenhuisopname,0,24
-2020-12-31,252,Heumen,Gelderland,25,Overleden,0,13
-2020-12-31,262,Lochem,Gelderland,25,Totaal,18,1079
-2020-12-31,262,Lochem,Gelderland,25,Ziekenhuisopname,0,26
-2020-12-31,262,Lochem,Gelderland,25,Overleden,0,24
-2020-12-31,263,Maasdriel,Gelderland,25,Totaal,17,1212
-2020-12-31,263,Maasdriel,Gelderland,25,Ziekenhuisopname,0,28
-2020-12-31,263,Maasdriel,Gelderland,25,Overleden,0,22
-2020-12-31,267,Nijkerk,Gelderland,25,Totaal,51,2258
-2020-12-31,267,Nijkerk,Gelderland,25,Ziekenhuisopname,0,37
-2020-12-31,267,Nijkerk,Gelderland,25,Overleden,0,9
-2020-12-31,268,Nijmegen,Gelderland,25,Totaal,55,7406
-2020-12-31,268,Nijmegen,Gelderland,25,Ziekenhuisopname,0,211
-2020-12-31,268,Nijmegen,Gelderland,25,Overleden,1,131
-2020-12-31,269,Oldebroek,Gelderland,25,Totaal,21,946
-2020-12-31,269,Oldebroek,Gelderland,25,Ziekenhuisopname,0,43
-2020-12-31,269,Oldebroek,Gelderland,25,Overleden,0,26
-2020-12-31,273,Putten,Gelderland,25,Totaal,23,1279
-2020-12-31,273,Putten,Gelderland,25,Ziekenhuisopname,2,16
-2020-12-31,273,Putten,Gelderland,25,Overleden,0,6
-2020-12-31,274,Renkum,Gelderland,25,Totaal,13,1092
-2020-12-31,274,Renkum,Gelderland,25,Ziekenhuisopname,2,25
-2020-12-31,274,Renkum,Gelderland,25,Overleden,1,22
-2020-12-31,275,Rheden,Gelderland,25,Totaal,27,1704
-2020-12-31,275,Rheden,Gelderland,25,Ziekenhuisopname,0,43
-2020-12-31,275,Rheden,Gelderland,25,Overleden,1,30
-2020-12-31,277,Rozendaal,Gelderland,25,Totaal,1,62
-2020-12-31,277,Rozendaal,Gelderland,25,Ziekenhuisopname,0,1
-2020-12-31,277,Rozendaal,Gelderland,25,Overleden,0,0
-2020-12-31,279,Scherpenzeel,Gelderland,25,Totaal,4,614
-2020-12-31,279,Scherpenzeel,Gelderland,25,Ziekenhuisopname,0,5
-2020-12-31,279,Scherpenzeel,Gelderland,25,Overleden,0,8
-2020-12-31,281,Tiel,Gelderland,25,Totaal,11,1943
-2020-12-31,281,Tiel,Gelderland,25,Ziekenhuisopname,0,66
-2020-12-31,281,Tiel,Gelderland,25,Overleden,0,39
-2020-12-31,285,Voorst,Gelderland,25,Totaal,16,847
-2020-12-31,285,Voorst,Gelderland,25,Ziekenhuisopname,0,23
-2020-12-31,285,Voorst,Gelderland,25,Overleden,0,12
-2020-12-31,289,Wageningen,Gelderland,25,Totaal,14,1500
-2020-12-31,289,Wageningen,Gelderland,25,Ziekenhuisopname,0,30
-2020-12-31,289,Wageningen,Gelderland,25,Overleden,0,30
-2020-12-31,293,Westervoort,Gelderland,25,Totaal,4,606
-2020-12-31,293,Westervoort,Gelderland,25,Ziekenhuisopname,1,18
-2020-12-31,293,Westervoort,Gelderland,25,Overleden,0,7
-2020-12-31,294,Winterswijk,Gelderland,25,Totaal,11,941
-2020-12-31,294,Winterswijk,Gelderland,25,Ziekenhuisopname,0,13
-2020-12-31,294,Winterswijk,Gelderland,25,Overleden,0,8
-2020-12-31,296,Wijchen,Gelderland,25,Totaal,28,1941
-2020-12-31,296,Wijchen,Gelderland,25,Ziekenhuisopname,3,65
-2020-12-31,296,Wijchen,Gelderland,25,Overleden,0,33
-2020-12-31,297,Zaltbommel,Gelderland,25,Totaal,6,1756
-2020-12-31,297,Zaltbommel,Gelderland,25,Ziekenhuisopname,0,28
-2020-12-31,297,Zaltbommel,Gelderland,25,Overleden,0,31
-2020-12-31,299,Zevenaar,Gelderland,25,Totaal,28,1382
-2020-12-31,299,Zevenaar,Gelderland,25,Ziekenhuisopname,0,65
-2020-12-31,299,Zevenaar,Gelderland,25,Overleden,0,23
-2020-12-31,301,Zutphen,Gelderland,25,Totaal,30,1504
-2020-12-31,301,Zutphen,Gelderland,25,Ziekenhuisopname,0,44
-2020-12-31,301,Zutphen,Gelderland,25,Overleden,1,21
-2020-12-31,302,Nunspeet,Gelderland,25,Totaal,15,1107
-2020-12-31,302,Nunspeet,Gelderland,25,Ziekenhuisopname,0,69
-2020-12-31,302,Nunspeet,Gelderland,25,Overleden,0,26
-2020-12-31,303,Dronten,Flevoland,24,Totaal,26,1568
-2020-12-31,303,Dronten,Flevoland,24,Ziekenhuisopname,0,50
-2020-12-31,303,Dronten,Flevoland,24,Overleden,0,17
-2020-12-31,307,Amersfoort,Utrecht,26,Totaal,78,7589
-2020-12-31,307,Amersfoort,Utrecht,26,Ziekenhuisopname,2,156
-2020-12-31,307,Amersfoort,Utrecht,26,Overleden,0,77
-2020-12-31,308,Baarn,Utrecht,26,Totaal,13,1112
-2020-12-31,308,Baarn,Utrecht,26,Ziekenhuisopname,0,27
-2020-12-31,308,Baarn,Utrecht,26,Overleden,0,21
-2020-12-31,310,De Bilt,Utrecht,26,Totaal,21,1962
-2020-12-31,310,De Bilt,Utrecht,26,Ziekenhuisopname,0,42
-2020-12-31,310,De Bilt,Utrecht,26,Overleden,4,51
-2020-12-31,312,Bunnik,Utrecht,26,Totaal,8,618
-2020-12-31,312,Bunnik,Utrecht,26,Ziekenhuisopname,0,16
-2020-12-31,312,Bunnik,Utrecht,26,Overleden,0,11
-2020-12-31,313,Bunschoten,Utrecht,26,Totaal,33,2334
-2020-12-31,313,Bunschoten,Utrecht,26,Ziekenhuisopname,0,39
-2020-12-31,313,Bunschoten,Utrecht,26,Overleden,2,29
-2020-12-31,317,Eemnes,Utrecht,26,Totaal,9,436
-2020-12-31,317,Eemnes,Utrecht,26,Ziekenhuisopname,1,8
-2020-12-31,317,Eemnes,Utrecht,26,Overleden,0,1
-2020-12-31,321,Houten,Utrecht,26,Totaal,15,2167
-2020-12-31,321,Houten,Utrecht,26,Ziekenhuisopname,0,45
-2020-12-31,321,Houten,Utrecht,26,Overleden,0,48
-2020-12-31,327,Leusden,Utrecht,26,Totaal,23,1232
-2020-12-31,327,Leusden,Utrecht,26,Ziekenhuisopname,1,21
-2020-12-31,327,Leusden,Utrecht,26,Overleden,1,18
-2020-12-31,331,Lopik,Utrecht,26,Totaal,5,720
-2020-12-31,331,Lopik,Utrecht,26,Ziekenhuisopname,0,25
-2020-12-31,331,Lopik,Utrecht,26,Overleden,0,9
-2020-12-31,335,Montfoort,Utrecht,26,Totaal,7,713
-2020-12-31,335,Montfoort,Utrecht,26,Ziekenhuisopname,0,17
-2020-12-31,335,Montfoort,Utrecht,26,Overleden,0,7
-2020-12-31,339,Renswoude,Utrecht,26,Totaal,5,318
-2020-12-31,339,Renswoude,Utrecht,26,Ziekenhuisopname,0,5
-2020-12-31,339,Renswoude,Utrecht,26,Overleden,0,5
-2020-12-31,340,Rhenen,Utrecht,26,Totaal,17,1272
-2020-12-31,340,Rhenen,Utrecht,26,Ziekenhuisopname,0,20
-2020-12-31,340,Rhenen,Utrecht,26,Overleden,0,9
-2020-12-31,342,Soest,Utrecht,26,Totaal,26,2228
-2020-12-31,342,Soest,Utrecht,26,Ziekenhuisopname,0,50
-2020-12-31,342,Soest,Utrecht,26,Overleden,0,37
-2020-12-31,344,Utrecht,Utrecht,26,Totaal,146,17869
-2020-12-31,344,Utrecht,Utrecht,26,Ziekenhuisopname,0,486
-2020-12-31,344,Utrecht,Utrecht,26,Overleden,1,187
-2020-12-31,345,Veenendaal,Utrecht,26,Totaal,64,4652
-2020-12-31,345,Veenendaal,Utrecht,26,Ziekenhuisopname,1,86
-2020-12-31,345,Veenendaal,Utrecht,26,Overleden,0,42
-2020-12-31,351,Woudenberg,Utrecht,26,Totaal,16,819
-2020-12-31,351,Woudenberg,Utrecht,26,Ziekenhuisopname,1,13
-2020-12-31,351,Woudenberg,Utrecht,26,Overleden,0,5
-2020-12-31,352,Wijk bij Duurstede,Utrecht,26,Totaal,18,883
-2020-12-31,352,Wijk bij Duurstede,Utrecht,26,Ziekenhuisopname,0,15
-2020-12-31,352,Wijk bij Duurstede,Utrecht,26,Overleden,0,9
-2020-12-31,353,IJsselstein,Utrecht,26,Totaal,15,1513
-2020-12-31,353,IJsselstein,Utrecht,26,Ziekenhuisopname,0,56
-2020-12-31,353,IJsselstein,Utrecht,26,Overleden,0,46
-2020-12-31,355,Zeist,Utrecht,26,Totaal,22,2748
-2020-12-31,355,Zeist,Utrecht,26,Ziekenhuisopname,1,57
-2020-12-31,355,Zeist,Utrecht,26,Overleden,1,37
-2020-12-31,356,Nieuwegein,Utrecht,26,Totaal,22,2488
-2020-12-31,356,Nieuwegein,Utrecht,26,Ziekenhuisopname,0,75
-2020-12-31,356,Nieuwegein,Utrecht,26,Overleden,1,19
-2020-12-31,358,Aalsmeer,Noord-Holland,27,Totaal,16,1465
-2020-12-31,358,Aalsmeer,Noord-Holland,27,Ziekenhuisopname,0,19
-2020-12-31,358,Aalsmeer,Noord-Holland,27,Overleden,0,21
-2020-12-31,361,Alkmaar,Noord-Holland,27,Totaal,56,4184
-2020-12-31,361,Alkmaar,Noord-Holland,27,Ziekenhuisopname,1,89
-2020-12-31,361,Alkmaar,Noord-Holland,27,Overleden,0,47
-2020-12-31,362,Amstelveen,Noord-Holland,27,Totaal,27,3953
-2020-12-31,362,Amstelveen,Noord-Holland,27,Ziekenhuisopname,0,94
-2020-12-31,362,Amstelveen,Noord-Holland,27,Overleden,2,80
-2020-12-31,363,Amsterdam,Noord-Holland,27,Totaal,387,51312
-2020-12-31,363,Amsterdam,Noord-Holland,27,Ziekenhuisopname,18,1349
-2020-12-31,363,Amsterdam,Noord-Holland,27,Overleden,12,507
-2020-12-31,370,Beemster,Noord-Holland,27,Totaal,6,326
-2020-12-31,370,Beemster,Noord-Holland,27,Ziekenhuisopname,0,5
-2020-12-31,370,Beemster,Noord-Holland,27,Overleden,0,2
-2020-12-31,373,Bergen (NH.),Noord-Holland,27,Totaal,15,1205
-2020-12-31,373,Bergen (NH.),Noord-Holland,27,Ziekenhuisopname,1,28
-2020-12-31,373,Bergen (NH.),Noord-Holland,27,Overleden,0,28
-2020-12-31,375,Beverwijk,Noord-Holland,27,Totaal,36,1726
-2020-12-31,375,Beverwijk,Noord-Holland,27,Ziekenhuisopname,0,25
-2020-12-31,375,Beverwijk,Noord-Holland,27,Overleden,0,17
-2020-12-31,376,Blaricum,Noord-Holland,27,Totaal,4,486
-2020-12-31,376,Blaricum,Noord-Holland,27,Ziekenhuisopname,0,8
-2020-12-31,376,Blaricum,Noord-Holland,27,Overleden,0,4
-2020-12-31,377,Bloemendaal,Noord-Holland,27,Totaal,14,783
-2020-12-31,377,Bloemendaal,Noord-Holland,27,Ziekenhuisopname,0,11
-2020-12-31,377,Bloemendaal,Noord-Holland,27,Overleden,0,8
-2020-12-31,383,Castricum,Noord-Holland,27,Totaal,13,1346
-2020-12-31,383,Castricum,Noord-Holland,27,Ziekenhuisopname,0,18
-2020-12-31,383,Castricum,Noord-Holland,27,Overleden,0,13
-2020-12-31,384,Diemen,Noord-Holland,27,Totaal,16,1822
-2020-12-31,384,Diemen,Noord-Holland,27,Ziekenhuisopname,1,34
-2020-12-31,384,Diemen,Noord-Holland,27,Overleden,0,25
-2020-12-31,385,Edam-Volendam,Noord-Holland,27,Totaal,27,1695
-2020-12-31,385,Edam-Volendam,Noord-Holland,27,Ziekenhuisopname,1,63
-2020-12-31,385,Edam-Volendam,Noord-Holland,27,Overleden,1,9
-2020-12-31,388,Enkhuizen,Noord-Holland,27,Totaal,21,999
-2020-12-31,388,Enkhuizen,Noord-Holland,27,Ziekenhuisopname,0,24
-2020-12-31,388,Enkhuizen,Noord-Holland,27,Overleden,0,5
-2020-12-31,392,Haarlem,Noord-Holland,27,Totaal,84,6545
-2020-12-31,392,Haarlem,Noord-Holland,27,Ziekenhuisopname,0,147
-2020-12-31,392,Haarlem,Noord-Holland,27,Overleden,0,114
-2020-12-31,394,Haarlemmermeer,Noord-Holland,27,Totaal,91,7093
-2020-12-31,394,Haarlemmermeer,Noord-Holland,27,Ziekenhuisopname,0,127
-2020-12-31,394,Haarlemmermeer,Noord-Holland,27,Overleden,0,78
-2020-12-31,396,Heemskerk,Noord-Holland,27,Totaal,17,1736
-2020-12-31,396,Heemskerk,Noord-Holland,27,Ziekenhuisopname,0,45
-2020-12-31,396,Heemskerk,Noord-Holland,27,Overleden,0,23
-2020-12-31,397,Heemstede,Noord-Holland,27,Totaal,14,1011
-2020-12-31,397,Heemstede,Noord-Holland,27,Ziekenhuisopname,0,21
-2020-12-31,397,Heemstede,Noord-Holland,27,Overleden,0,49
-2020-12-31,398,Heerhugowaard,Noord-Holland,27,Totaal,31,2278
-2020-12-31,398,Heerhugowaard,Noord-Holland,27,Ziekenhuisopname,1,38
-2020-12-31,398,Heerhugowaard,Noord-Holland,27,Overleden,0,14
-2020-12-31,399,Heiloo,Noord-Holland,27,Totaal,9,807
-2020-12-31,399,Heiloo,Noord-Holland,27,Ziekenhuisopname,0,15
-2020-12-31,399,Heiloo,Noord-Holland,27,Overleden,0,10
-2020-12-31,400,Den Helder,Noord-Holland,27,Totaal,27,1668
-2020-12-31,400,Den Helder,Noord-Holland,27,Ziekenhuisopname,1,27
-2020-12-31,400,Den Helder,Noord-Holland,27,Overleden,0,8
-2020-12-31,402,Hilversum,Noord-Holland,27,Totaal,58,3409
-2020-12-31,402,Hilversum,Noord-Holland,27,Ziekenhuisopname,1,53
-2020-12-31,402,Hilversum,Noord-Holland,27,Overleden,0,59
-2020-12-31,405,Hoorn,Noord-Holland,27,Totaal,80,3085
-2020-12-31,405,Hoorn,Noord-Holland,27,Ziekenhuisopname,0,54
-2020-12-31,405,Hoorn,Noord-Holland,27,Overleden,0,20
-2020-12-31,406,Huizen,Noord-Holland,27,Totaal,27,2207
-2020-12-31,406,Huizen,Noord-Holland,27,Ziekenhuisopname,0,41
-2020-12-31,406,Huizen,Noord-Holland,27,Overleden,1,31
-2020-12-31,415,Landsmeer,Noord-Holland,27,Totaal,10,528
-2020-12-31,415,Landsmeer,Noord-Holland,27,Ziekenhuisopname,0,8
-2020-12-31,415,Landsmeer,Noord-Holland,27,Overleden,1,5
-2020-12-31,416,Langedijk,Noord-Holland,27,Totaal,23,1192
-2020-12-31,416,Langedijk,Noord-Holland,27,Ziekenhuisopname,0,23
-2020-12-31,416,Langedijk,Noord-Holland,27,Overleden,0,7
-2020-12-31,417,Laren,Noord-Holland,27,Totaal,5,522
-2020-12-31,417,Laren,Noord-Holland,27,Ziekenhuisopname,0,12
-2020-12-31,417,Laren,Noord-Holland,27,Overleden,2,16
-2020-12-31,420,Medemblik,Noord-Holland,27,Totaal,45,2032
-2020-12-31,420,Medemblik,Noord-Holland,27,Ziekenhuisopname,0,27
-2020-12-31,420,Medemblik,Noord-Holland,27,Overleden,0,10
-2020-12-31,431,Oostzaan,Noord-Holland,27,Totaal,8,536
-2020-12-31,431,Oostzaan,Noord-Holland,27,Ziekenhuisopname,0,13
-2020-12-31,431,Oostzaan,Noord-Holland,27,Overleden,0,3
-2020-12-31,432,Opmeer,Noord-Holland,27,Totaal,10,460
-2020-12-31,432,Opmeer,Noord-Holland,27,Ziekenhuisopname,0,3
-2020-12-31,432,Opmeer,Noord-Holland,27,Overleden,0,2
-2020-12-31,437,Ouder-Amstel,Noord-Holland,27,Totaal,10,753
-2020-12-31,437,Ouder-Amstel,Noord-Holland,27,Ziekenhuisopname,0,8
-2020-12-31,437,Ouder-Amstel,Noord-Holland,27,Overleden,0,1
-2020-12-31,439,Purmerend,Noord-Holland,27,Totaal,58,3032
-2020-12-31,439,Purmerend,Noord-Holland,27,Ziekenhuisopname,0,107
-2020-12-31,439,Purmerend,Noord-Holland,27,Overleden,0,51
-2020-12-31,441,Schagen,Noord-Holland,27,Totaal,27,1814
-2020-12-31,441,Schagen,Noord-Holland,27,Ziekenhuisopname,1,28
-2020-12-31,441,Schagen,Noord-Holland,27,Overleden,0,23
-2020-12-31,448,Texel,Noord-Holland,27,Totaal,7,252
-2020-12-31,448,Texel,Noord-Holland,27,Ziekenhuisopname,0,6
-2020-12-31,448,Texel,Noord-Holland,27,Overleden,0,2
-2020-12-31,450,Uitgeest,Noord-Holland,27,Totaal,7,671
-2020-12-31,450,Uitgeest,Noord-Holland,27,Ziekenhuisopname,0,8
-2020-12-31,450,Uitgeest,Noord-Holland,27,Overleden,0,6
-2020-12-31,451,Uithoorn,Noord-Holland,27,Totaal,18,1253
-2020-12-31,451,Uithoorn,Noord-Holland,27,Ziekenhuisopname,0,27
-2020-12-31,451,Uithoorn,Noord-Holland,27,Overleden,0,6
-2020-12-31,453,Velsen,Noord-Holland,27,Totaal,42,3112
-2020-12-31,453,Velsen,Noord-Holland,27,Ziekenhuisopname,0,67
-2020-12-31,453,Velsen,Noord-Holland,27,Overleden,1,68
-2020-12-31,457,Weesp,Noord-Holland,27,Totaal,10,1191
-2020-12-31,457,Weesp,Noord-Holland,27,Ziekenhuisopname,0,12
-2020-12-31,457,Weesp,Noord-Holland,27,Overleden,0,16
-2020-12-31,473,Zandvoort,Noord-Holland,27,Totaal,8,679
-2020-12-31,473,Zandvoort,Noord-Holland,27,Ziekenhuisopname,0,15
-2020-12-31,473,Zandvoort,Noord-Holland,27,Overleden,0,19
-2020-12-31,479,Zaanstad,Noord-Holland,27,Totaal,101,8154
-2020-12-31,479,Zaanstad,Noord-Holland,27,Ziekenhuisopname,2,225
-2020-12-31,479,Zaanstad,Noord-Holland,27,Overleden,2,126
-2020-12-31,482,Alblasserdam,Zuid-Holland,28,Totaal,14,1279
-2020-12-31,482,Alblasserdam,Zuid-Holland,28,Ziekenhuisopname,1,18
-2020-12-31,482,Alblasserdam,Zuid-Holland,28,Overleden,0,16
-2020-12-31,484,Alphen aan den Rijn,Zuid-Holland,28,Totaal,63,6045
-2020-12-31,484,Alphen aan den Rijn,Zuid-Holland,28,Ziekenhuisopname,1,128
-2020-12-31,484,Alphen aan den Rijn,Zuid-Holland,28,Overleden,1,69
-2020-12-31,489,Barendrecht,Zuid-Holland,28,Totaal,29,2754
-2020-12-31,489,Barendrecht,Zuid-Holland,28,Ziekenhuisopname,0,75
-2020-12-31,489,Barendrecht,Zuid-Holland,28,Overleden,0,34
-2020-12-31,498,Drechterland,Noord-Holland,27,Totaal,23,883
-2020-12-31,498,Drechterland,Noord-Holland,27,Ziekenhuisopname,0,8
-2020-12-31,498,Drechterland,Noord-Holland,27,Overleden,0,9
-2020-12-31,501,Brielle,Zuid-Holland,28,Totaal,6,741
-2020-12-31,501,Brielle,Zuid-Holland,28,Ziekenhuisopname,0,23
-2020-12-31,501,Brielle,Zuid-Holland,28,Overleden,0,7
-2020-12-31,502,Capelle aan den IJssel,Zuid-Holland,28,Totaal,37,3780
-2020-12-31,502,Capelle aan den IJssel,Zuid-Holland,28,Ziekenhuisopname,1,107
-2020-12-31,502,Capelle aan den IJssel,Zuid-Holland,28,Overleden,0,98
-2020-12-31,503,Delft,Zuid-Holland,28,Totaal,45,4997
-2020-12-31,503,Delft,Zuid-Holland,28,Ziekenhuisopname,1,73
-2020-12-31,503,Delft,Zuid-Holland,28,Overleden,0,53
-2020-12-31,505,Dordrecht,Zuid-Holland,28,Totaal,71,6935
-2020-12-31,505,Dordrecht,Zuid-Holland,28,Ziekenhuisopname,2,124
-2020-12-31,505,Dordrecht,Zuid-Holland,28,Overleden,0,111
-2020-12-31,512,Gorinchem,Zuid-Holland,28,Totaal,23,2059
-2020-12-31,512,Gorinchem,Zuid-Holland,28,Ziekenhuisopname,1,24
-2020-12-31,512,Gorinchem,Zuid-Holland,28,Overleden,0,26
-2020-12-31,513,Gouda,Zuid-Holland,28,Totaal,37,4108
-2020-12-31,513,Gouda,Zuid-Holland,28,Ziekenhuisopname,1,120
-2020-12-31,513,Gouda,Zuid-Holland,28,Overleden,1,112
-2020-12-31,518,'s-Gravenhage,Zuid-Holland,28,Totaal,188,28484
-2020-12-31,518,'s-Gravenhage,Zuid-Holland,28,Ziekenhuisopname,6,909
-2020-12-31,518,'s-Gravenhage,Zuid-Holland,28,Overleden,1,418
-2020-12-31,523,Hardinxveld-Giessendam,Zuid-Holland,28,Totaal,17,1149
-2020-12-31,523,Hardinxveld-Giessendam,Zuid-Holland,28,Ziekenhuisopname,0,2
-2020-12-31,523,Hardinxveld-Giessendam,Zuid-Holland,28,Overleden,0,8
-2020-12-31,530,Hellevoetsluis,Zuid-Holland,28,Totaal,29,1553
-2020-12-31,530,Hellevoetsluis,Zuid-Holland,28,Ziekenhuisopname,0,35
-2020-12-31,530,Hellevoetsluis,Zuid-Holland,28,Overleden,0,15
-2020-12-31,531,Hendrik-Ido-Ambacht,Zuid-Holland,28,Totaal,16,1757
-2020-12-31,531,Hendrik-Ido-Ambacht,Zuid-Holland,28,Ziekenhuisopname,0,15
-2020-12-31,531,Hendrik-Ido-Ambacht,Zuid-Holland,28,Overleden,0,20
-2020-12-31,532,Stede Broec,Noord-Holland,27,Totaal,21,972
-2020-12-31,532,Stede Broec,Noord-Holland,27,Ziekenhuisopname,0,20
-2020-12-31,532,Stede Broec,Noord-Holland,27,Overleden,0,6
-2020-12-31,534,Hillegom,Zuid-Holland,28,Totaal,5,852
-2020-12-31,534,Hillegom,Zuid-Holland,28,Ziekenhuisopname,0,12
-2020-12-31,534,Hillegom,Zuid-Holland,28,Overleden,0,2
-2020-12-31,537,Katwijk,Zuid-Holland,28,Totaal,57,4133
-2020-12-31,537,Katwijk,Zuid-Holland,28,Ziekenhuisopname,2,71
-2020-12-31,537,Katwijk,Zuid-Holland,28,Overleden,1,34
-2020-12-31,542,Krimpen aan den IJssel,Zuid-Holland,28,Totaal,24,1869
-2020-12-31,542,Krimpen aan den IJssel,Zuid-Holland,28,Ziekenhuisopname,1,28
-2020-12-31,542,Krimpen aan den IJssel,Zuid-Holland,28,Overleden,1,41
-2020-12-31,546,Leiden,Zuid-Holland,28,Totaal,61,5591
-2020-12-31,546,Leiden,Zuid-Holland,28,Ziekenhuisopname,0,91
-2020-12-31,546,Leiden,Zuid-Holland,28,Overleden,0,43
-2020-12-31,547,Leiderdorp,Zuid-Holland,28,Totaal,7,1213
-2020-12-31,547,Leiderdorp,Zuid-Holland,28,Ziekenhuisopname,1,31
-2020-12-31,547,Leiderdorp,Zuid-Holland,28,Overleden,1,16
-2020-12-31,553,Lisse,Zuid-Holland,28,Totaal,18,1035
-2020-12-31,553,Lisse,Zuid-Holland,28,Ziekenhuisopname,0,20
-2020-12-31,553,Lisse,Zuid-Holland,28,Overleden,2,11
-2020-12-31,556,Maassluis,Zuid-Holland,28,Totaal,13,1906
-2020-12-31,556,Maassluis,Zuid-Holland,28,Ziekenhuisopname,0,47
-2020-12-31,556,Maassluis,Zuid-Holland,28,Overleden,0,21
-2020-12-31,569,Nieuwkoop,Zuid-Holland,28,Totaal,19,1403
-2020-12-31,569,Nieuwkoop,Zuid-Holland,28,Ziekenhuisopname,0,23
-2020-12-31,569,Nieuwkoop,Zuid-Holland,28,Overleden,0,16
-2020-12-31,575,Noordwijk,Zuid-Holland,28,Totaal,22,1963
-2020-12-31,575,Noordwijk,Zuid-Holland,28,Ziekenhuisopname,1,50
-2020-12-31,575,Noordwijk,Zuid-Holland,28,Overleden,2,12
-2020-12-31,579,Oegstgeest,Zuid-Holland,28,Totaal,17,1133
-2020-12-31,579,Oegstgeest,Zuid-Holland,28,Ziekenhuisopname,0,17
-2020-12-31,579,Oegstgeest,Zuid-Holland,28,Overleden,1,20
-2020-12-31,589,Oudewater,Utrecht,26,Totaal,3,519
-2020-12-31,589,Oudewater,Utrecht,26,Ziekenhuisopname,0,32
-2020-12-31,589,Oudewater,Utrecht,26,Overleden,0,12
-2020-12-31,590,Papendrecht,Zuid-Holland,28,Totaal,16,1643
-2020-12-31,590,Papendrecht,Zuid-Holland,28,Ziekenhuisopname,0,13
-2020-12-31,590,Papendrecht,Zuid-Holland,28,Overleden,0,26
-2020-12-31,597,Ridderkerk,Zuid-Holland,28,Totaal,29,2614
-2020-12-31,597,Ridderkerk,Zuid-Holland,28,Ziekenhuisopname,1,63
-2020-12-31,597,Ridderkerk,Zuid-Holland,28,Overleden,0,57
-2020-12-31,599,Rotterdam,Zuid-Holland,28,Totaal,262,41960
-2020-12-31,599,Rotterdam,Zuid-Holland,28,Ziekenhuisopname,2,1249
-2020-12-31,599,Rotterdam,Zuid-Holland,28,Overleden,0,672
-2020-12-31,603,Rijswijk,Zuid-Holland,28,Totaal,18,2676
-2020-12-31,603,Rijswijk,Zuid-Holland,28,Ziekenhuisopname,2,89
-2020-12-31,603,Rijswijk,Zuid-Holland,28,Overleden,1,67
-2020-12-31,606,Schiedam,Zuid-Holland,28,Totaal,40,5017
-2020-12-31,606,Schiedam,Zuid-Holland,28,Ziekenhuisopname,0,151
-2020-12-31,606,Schiedam,Zuid-Holland,28,Overleden,0,50
-2020-12-31,610,Sliedrecht,Zuid-Holland,28,Totaal,29,1599
-2020-12-31,610,Sliedrecht,Zuid-Holland,28,Ziekenhuisopname,0,12
-2020-12-31,610,Sliedrecht,Zuid-Holland,28,Overleden,0,23
-2020-12-31,613,Albrandswaard,Zuid-Holland,28,Totaal,25,1672
-2020-12-31,613,Albrandswaard,Zuid-Holland,28,Ziekenhuisopname,0,33
-2020-12-31,613,Albrandswaard,Zuid-Holland,28,Overleden,0,17
-2020-12-31,614,Westvoorne,Zuid-Holland,28,Totaal,10,540
-2020-12-31,614,Westvoorne,Zuid-Holland,28,Ziekenhuisopname,0,10
-2020-12-31,614,Westvoorne,Zuid-Holland,28,Overleden,0,4
-2020-12-31,622,Vlaardingen,Zuid-Holland,28,Totaal,27,4599
-2020-12-31,622,Vlaardingen,Zuid-Holland,28,Ziekenhuisopname,0,104
-2020-12-31,622,Vlaardingen,Zuid-Holland,28,Overleden,0,59
-2020-12-31,626,Voorschoten,Zuid-Holland,28,Totaal,8,970
-2020-12-31,626,Voorschoten,Zuid-Holland,28,Ziekenhuisopname,0,14
-2020-12-31,626,Voorschoten,Zuid-Holland,28,Overleden,0,16
-2020-12-31,627,Waddinxveen,Zuid-Holland,28,Totaal,10,1486
-2020-12-31,627,Waddinxveen,Zuid-Holland,28,Ziekenhuisopname,0,50
-2020-12-31,627,Waddinxveen,Zuid-Holland,28,Overleden,0,11
-2020-12-31,629,Wassenaar,Zuid-Holland,28,Totaal,13,1034
-2020-12-31,629,Wassenaar,Zuid-Holland,28,Ziekenhuisopname,0,21
-2020-12-31,629,Wassenaar,Zuid-Holland,28,Overleden,3,22
-2020-12-31,632,Woerden,Utrecht,26,Totaal,29,2503
-2020-12-31,632,Woerden,Utrecht,26,Ziekenhuisopname,0,79
-2020-12-31,632,Woerden,Utrecht,26,Overleden,0,26
-2020-12-31,637,Zoetermeer,Zuid-Holland,28,Totaal,43,6114
-2020-12-31,637,Zoetermeer,Zuid-Holland,28,Ziekenhuisopname,0,98
-2020-12-31,637,Zoetermeer,Zuid-Holland,28,Overleden,2,35
-2020-12-31,638,Zoeterwoude,Zuid-Holland,28,Totaal,2,380
-2020-12-31,638,Zoeterwoude,Zuid-Holland,28,Ziekenhuisopname,0,6
-2020-12-31,638,Zoeterwoude,Zuid-Holland,28,Overleden,0,1
-2020-12-31,642,Zwijndrecht,Zuid-Holland,28,Totaal,32,2586
-2020-12-31,642,Zwijndrecht,Zuid-Holland,28,Ziekenhuisopname,0,40
-2020-12-31,642,Zwijndrecht,Zuid-Holland,28,Overleden,0,56
-2020-12-31,654,Borsele,Zeeland,29,Totaal,10,506
-2020-12-31,654,Borsele,Zeeland,29,Ziekenhuisopname,4,13
-2020-12-31,654,Borsele,Zeeland,29,Overleden,0,3
-2020-12-31,664,Goes,Zeeland,29,Totaal,11,898
-2020-12-31,664,Goes,Zeeland,29,Ziekenhuisopname,0,33
-2020-12-31,664,Goes,Zeeland,29,Overleden,0,15
-2020-12-31,668,West Maas en Waal,Gelderland,25,Totaal,8,704
-2020-12-31,668,West Maas en Waal,Gelderland,25,Ziekenhuisopname,0,24
-2020-12-31,668,West Maas en Waal,Gelderland,25,Overleden,0,15
-2020-12-31,677,Hulst,Zeeland,29,Totaal,12,856
-2020-12-31,677,Hulst,Zeeland,29,Ziekenhuisopname,0,22
-2020-12-31,677,Hulst,Zeeland,29,Overleden,0,11
-2020-12-31,678,Kapelle,Zeeland,29,Totaal,0,316
-2020-12-31,678,Kapelle,Zeeland,29,Ziekenhuisopname,0,6
-2020-12-31,678,Kapelle,Zeeland,29,Overleden,0,3
-2020-12-31,687,Middelburg,Zeeland,29,Totaal,12,1045
-2020-12-31,687,Middelburg,Zeeland,29,Ziekenhuisopname,3,34
-2020-12-31,687,Middelburg,Zeeland,29,Overleden,1,16
-2020-12-31,703,Reimerswaal,Zeeland,29,Totaal,23,814
-2020-12-31,703,Reimerswaal,Zeeland,29,Ziekenhuisopname,0,10
-2020-12-31,703,Reimerswaal,Zeeland,29,Overleden,0,5
-2020-12-31,715,Terneuzen,Zeeland,29,Totaal,11,1856
-2020-12-31,715,Terneuzen,Zeeland,29,Ziekenhuisopname,1,49
-2020-12-31,715,Terneuzen,Zeeland,29,Overleden,2,11
-2020-12-31,716,Tholen,Zeeland,29,Totaal,15,1093
-2020-12-31,716,Tholen,Zeeland,29,Ziekenhuisopname,0,51
-2020-12-31,716,Tholen,Zeeland,29,Overleden,0,22
-2020-12-31,717,Veere,Zeeland,29,Totaal,12,475
-2020-12-31,717,Veere,Zeeland,29,Ziekenhuisopname,0,10
-2020-12-31,717,Veere,Zeeland,29,Overleden,0,2
-2020-12-31,718,Vlissingen,Zeeland,29,Totaal,12,854
-2020-12-31,718,Vlissingen,Zeeland,29,Ziekenhuisopname,1,24
-2020-12-31,718,Vlissingen,Zeeland,29,Overleden,0,7
-2020-12-31,736,De Ronde Venen,Utrecht,26,Totaal,18,2018
-2020-12-31,736,De Ronde Venen,Utrecht,26,Ziekenhuisopname,1,76
-2020-12-31,736,De Ronde Venen,Utrecht,26,Overleden,1,30
-2020-12-31,737,Tytsjerksteradiel,Friesland,21,Totaal,16,556
-2020-12-31,737,Tytsjerksteradiel,Friesland,21,Ziekenhuisopname,0,9
-2020-12-31,737,Tytsjerksteradiel,Friesland,21,Overleden,0,3
-2020-12-31,743,Asten,Noord-Brabant,30,Totaal,6,744
-2020-12-31,743,Asten,Noord-Brabant,30,Ziekenhuisopname,0,23
-2020-12-31,743,Asten,Noord-Brabant,30,Overleden,0,14
-2020-12-31,744,Baarle-Nassau,Noord-Brabant,30,Totaal,1,262
-2020-12-31,744,Baarle-Nassau,Noord-Brabant,30,Ziekenhuisopname,0,12
-2020-12-31,744,Baarle-Nassau,Noord-Brabant,30,Overleden,0,4
-2020-12-31,748,Bergen op Zoom,Noord-Brabant,30,Totaal,23,3578
-2020-12-31,748,Bergen op Zoom,Noord-Brabant,30,Ziekenhuisopname,0,69
-2020-12-31,748,Bergen op Zoom,Noord-Brabant,30,Overleden,0,33
-2020-12-31,753,Best,Noord-Brabant,30,Totaal,22,1395
-2020-12-31,753,Best,Noord-Brabant,30,Ziekenhuisopname,0,41
-2020-12-31,753,Best,Noord-Brabant,30,Overleden,1,18
-2020-12-31,755,Boekel,Noord-Brabant,30,Totaal,16,503
-2020-12-31,755,Boekel,Noord-Brabant,30,Ziekenhuisopname,0,39
-2020-12-31,755,Boekel,Noord-Brabant,30,Overleden,0,21
-2020-12-31,756,Boxmeer,Noord-Brabant,30,Totaal,25,1566
-2020-12-31,756,Boxmeer,Noord-Brabant,30,Ziekenhuisopname,0,30
-2020-12-31,756,Boxmeer,Noord-Brabant,30,Overleden,1,36
-2020-12-31,757,Boxtel,Noord-Brabant,30,Totaal,14,1433
-2020-12-31,757,Boxtel,Noord-Brabant,30,Ziekenhuisopname,0,37
-2020-12-31,757,Boxtel,Noord-Brabant,30,Overleden,0,46
-2020-12-31,758,Breda,Noord-Brabant,30,Totaal,69,8670
-2020-12-31,758,Breda,Noord-Brabant,30,Ziekenhuisopname,0,217
-2020-12-31,758,Breda,Noord-Brabant,30,Overleden,5,127
-2020-12-31,762,Deurne,Noord-Brabant,30,Totaal,15,1543
-2020-12-31,762,Deurne,Noord-Brabant,30,Ziekenhuisopname,0,69
-2020-12-31,762,Deurne,Noord-Brabant,30,Overleden,0,35
-2020-12-31,765,Pekela,Groningen,20,Totaal,3,232
-2020-12-31,765,Pekela,Groningen,20,Ziekenhuisopname,0,11
-2020-12-31,765,Pekela,Groningen,20,Overleden,0,2
-2020-12-31,766,Dongen,Noord-Brabant,30,Totaal,15,1518
-2020-12-31,766,Dongen,Noord-Brabant,30,Ziekenhuisopname,0,39
-2020-12-31,766,Dongen,Noord-Brabant,30,Overleden,0,22
-2020-12-31,770,Eersel,Noord-Brabant,30,Totaal,9,1129
-2020-12-31,770,Eersel,Noord-Brabant,30,Ziekenhuisopname,0,40
-2020-12-31,770,Eersel,Noord-Brabant,30,Overleden,0,19
-2020-12-31,772,Eindhoven,Noord-Brabant,30,Totaal,104,9649
-2020-12-31,772,Eindhoven,Noord-Brabant,30,Ziekenhuisopname,3,289
-2020-12-31,772,Eindhoven,Noord-Brabant,30,Overleden,1,172
-2020-12-31,777,Etten-Leur,Noord-Brabant,30,Totaal,19,2096
-2020-12-31,777,Etten-Leur,Noord-Brabant,30,Ziekenhuisopname,0,61
-2020-12-31,777,Etten-Leur,Noord-Brabant,30,Overleden,0,31
-2020-12-31,779,Geertruidenberg,Noord-Brabant,30,Totaal,17,1035
-2020-12-31,779,Geertruidenberg,Noord-Brabant,30,Ziekenhuisopname,0,22
-2020-12-31,779,Geertruidenberg,Noord-Brabant,30,Overleden,0,19
-2020-12-31,784,Gilze en Rijen,Noord-Brabant,30,Totaal,11,1299
-2020-12-31,784,Gilze en Rijen,Noord-Brabant,30,Ziekenhuisopname,0,30
-2020-12-31,784,Gilze en Rijen,Noord-Brabant,30,Overleden,0,18
-2020-12-31,785,Goirle,Noord-Brabant,30,Totaal,14,1166
-2020-12-31,785,Goirle,Noord-Brabant,30,Ziekenhuisopname,0,37
-2020-12-31,785,Goirle,Noord-Brabant,30,Overleden,0,24
-2020-12-31,786,Grave,Noord-Brabant,30,Totaal,9,749
-2020-12-31,786,Grave,Noord-Brabant,30,Ziekenhuisopname,0,28
-2020-12-31,786,Grave,Noord-Brabant,30,Overleden,0,23
-2020-12-31,788,Haaren,Noord-Brabant,30,Totaal,7,723
-2020-12-31,788,Haaren,Noord-Brabant,30,Ziekenhuisopname,1,26
-2020-12-31,788,Haaren,Noord-Brabant,30,Overleden,0,13
-2020-12-31,794,Helmond,Noord-Brabant,30,Totaal,40,4531
-2020-12-31,794,Helmond,Noord-Brabant,30,Ziekenhuisopname,0,152
-2020-12-31,794,Helmond,Noord-Brabant,30,Overleden,1,55
-2020-12-31,796,'s-Hertogenbosch,Noord-Brabant,30,Totaal,62,7273
-2020-12-31,796,'s-Hertogenbosch,Noord-Brabant,30,Ziekenhuisopname,1,183
-2020-12-31,796,'s-Hertogenbosch,Noord-Brabant,30,Overleden,0,127
-2020-12-31,797,Heusden,Noord-Brabant,30,Totaal,27,2241
-2020-12-31,797,Heusden,Noord-Brabant,30,Ziekenhuisopname,0,68
-2020-12-31,797,Heusden,Noord-Brabant,30,Overleden,0,41
-2020-12-31,798,Hilvarenbeek,Noord-Brabant,30,Totaal,17,850
-2020-12-31,798,Hilvarenbeek,Noord-Brabant,30,Ziekenhuisopname,0,18
-2020-12-31,798,Hilvarenbeek,Noord-Brabant,30,Overleden,0,17
-2020-12-31,809,Loon op Zand,Noord-Brabant,30,Totaal,21,1329
-2020-12-31,809,Loon op Zand,Noord-Brabant,30,Ziekenhuisopname,0,39
-2020-12-31,809,Loon op Zand,Noord-Brabant,30,Overleden,0,30
-2020-12-31,815,Mill en Sint Hubert,Noord-Brabant,30,Totaal,11,543
-2020-12-31,815,Mill en Sint Hubert,Noord-Brabant,30,Ziekenhuisopname,0,14
-2020-12-31,815,Mill en Sint Hubert,Noord-Brabant,30,Overleden,0,7
-2020-12-31,820,"Nuenen, Gerwen en Nederwetten",Noord-Brabant,30,Totaal,12,937
-2020-12-31,820,"Nuenen, Gerwen en Nederwetten",Noord-Brabant,30,Ziekenhuisopname,0,24
-2020-12-31,820,"Nuenen, Gerwen en Nederwetten",Noord-Brabant,30,Overleden,0,14
-2020-12-31,823,Oirschot,Noord-Brabant,30,Totaal,14,1017
-2020-12-31,823,Oirschot,Noord-Brabant,30,Ziekenhuisopname,0,21
-2020-12-31,823,Oirschot,Noord-Brabant,30,Overleden,0,20
-2020-12-31,824,Oisterwijk,Noord-Brabant,30,Totaal,11,1239
-2020-12-31,824,Oisterwijk,Noord-Brabant,30,Ziekenhuisopname,0,32
-2020-12-31,824,Oisterwijk,Noord-Brabant,30,Overleden,1,16
-2020-12-31,826,Oosterhout,Noord-Brabant,30,Totaal,29,2761
-2020-12-31,826,Oosterhout,Noord-Brabant,30,Ziekenhuisopname,1,67
-2020-12-31,826,Oosterhout,Noord-Brabant,30,Overleden,0,32
-2020-12-31,828,Oss,Noord-Brabant,30,Totaal,33,4392
-2020-12-31,828,Oss,Noord-Brabant,30,Ziekenhuisopname,0,202
-2020-12-31,828,Oss,Noord-Brabant,30,Overleden,0,106
-2020-12-31,840,Rucphen,Noord-Brabant,30,Totaal,21,1140
-2020-12-31,840,Rucphen,Noord-Brabant,30,Ziekenhuisopname,2,27
-2020-12-31,840,Rucphen,Noord-Brabant,30,Overleden,0,12
-2020-12-31,845,Sint-Michielsgestel,Noord-Brabant,30,Totaal,28,1474
-2020-12-31,845,Sint-Michielsgestel,Noord-Brabant,30,Ziekenhuisopname,0,42
-2020-12-31,845,Sint-Michielsgestel,Noord-Brabant,30,Overleden,0,28
-2020-12-31,847,Someren,Noord-Brabant,30,Totaal,21,932
-2020-12-31,847,Someren,Noord-Brabant,30,Ziekenhuisopname,0,37
-2020-12-31,847,Someren,Noord-Brabant,30,Overleden,0,10
-2020-12-31,848,Son en Breugel,Noord-Brabant,30,Totaal,10,660
-2020-12-31,848,Son en Breugel,Noord-Brabant,30,Ziekenhuisopname,0,35
-2020-12-31,848,Son en Breugel,Noord-Brabant,30,Overleden,0,22
-2020-12-31,851,Steenbergen,Noord-Brabant,30,Totaal,8,1035
-2020-12-31,851,Steenbergen,Noord-Brabant,30,Ziekenhuisopname,0,24
-2020-12-31,851,Steenbergen,Noord-Brabant,30,Overleden,0,15
-2020-12-31,852,Waterland,Noord-Holland,27,Totaal,16,861
-2020-12-31,852,Waterland,Noord-Holland,27,Ziekenhuisopname,0,27
-2020-12-31,852,Waterland,Noord-Holland,27,Overleden,0,14
-2020-12-31,855,Tilburg,Noord-Brabant,30,Totaal,106,11001
-2020-12-31,855,Tilburg,Noord-Brabant,30,Ziekenhuisopname,3,341
-2020-12-31,855,Tilburg,Noord-Brabant,30,Overleden,0,244
-2020-12-31,856,Uden,Noord-Brabant,30,Totaal,15,1690
-2020-12-31,856,Uden,Noord-Brabant,30,Ziekenhuisopname,0,121
-2020-12-31,856,Uden,Noord-Brabant,30,Overleden,0,70
-2020-12-31,858,Valkenswaard,Noord-Brabant,30,Totaal,18,1647
-2020-12-31,858,Valkenswaard,Noord-Brabant,30,Ziekenhuisopname,0,31
-2020-12-31,858,Valkenswaard,Noord-Brabant,30,Overleden,0,45
-2020-12-31,861,Veldhoven,Noord-Brabant,30,Totaal,13,2205
-2020-12-31,861,Veldhoven,Noord-Brabant,30,Ziekenhuisopname,0,51
-2020-12-31,861,Veldhoven,Noord-Brabant,30,Overleden,0,28
-2020-12-31,865,Vught,Noord-Brabant,30,Totaal,16,1509
-2020-12-31,865,Vught,Noord-Brabant,30,Ziekenhuisopname,0,51
-2020-12-31,865,Vught,Noord-Brabant,30,Overleden,0,39
-2020-12-31,866,Waalre,Noord-Brabant,30,Totaal,10,758
-2020-12-31,866,Waalre,Noord-Brabant,30,Ziekenhuisopname,0,9
-2020-12-31,866,Waalre,Noord-Brabant,30,Overleden,0,10
-2020-12-31,867,Waalwijk,Noord-Brabant,30,Totaal,33,2687
-2020-12-31,867,Waalwijk,Noord-Brabant,30,Ziekenhuisopname,1,62
-2020-12-31,867,Waalwijk,Noord-Brabant,30,Overleden,3,64
-2020-12-31,873,Woensdrecht,Noord-Brabant,30,Totaal,3,856
-2020-12-31,873,Woensdrecht,Noord-Brabant,30,Ziekenhuisopname,0,12
-2020-12-31,873,Woensdrecht,Noord-Brabant,30,Overleden,0,21
-2020-12-31,879,Zundert,Noord-Brabant,30,Totaal,10,908
-2020-12-31,879,Zundert,Noord-Brabant,30,Ziekenhuisopname,0,32
-2020-12-31,879,Zundert,Noord-Brabant,30,Overleden,0,13
-2020-12-31,880,Wormerland,Noord-Holland,27,Totaal,5,705
-2020-12-31,880,Wormerland,Noord-Holland,27,Ziekenhuisopname,0,25
-2020-12-31,880,Wormerland,Noord-Holland,27,Overleden,0,14
-2020-12-31,882,Landgraaf,Limburg,31,Totaal,31,1334
-2020-12-31,882,Landgraaf,Limburg,31,Ziekenhuisopname,0,61
-2020-12-31,882,Landgraaf,Limburg,31,Overleden,0,28
-2020-12-31,888,Beek,Limburg,31,Totaal,3,628
-2020-12-31,888,Beek,Limburg,31,Ziekenhuisopname,0,19
-2020-12-31,888,Beek,Limburg,31,Overleden,0,11
-2020-12-31,889,Beesel,Limburg,31,Totaal,9,518
-2020-12-31,889,Beesel,Limburg,31,Ziekenhuisopname,0,24
-2020-12-31,889,Beesel,Limburg,31,Overleden,0,10
-2020-12-31,893,Bergen (L.),Limburg,31,Totaal,14,660
-2020-12-31,893,Bergen (L.),Limburg,31,Ziekenhuisopname,0,12
-2020-12-31,893,Bergen (L.),Limburg,31,Overleden,0,5
-2020-12-31,899,Brunssum,Limburg,31,Totaal,19,1080
-2020-12-31,899,Brunssum,Limburg,31,Ziekenhuisopname,1,60
-2020-12-31,899,Brunssum,Limburg,31,Overleden,1,26
-2020-12-31,907,Gennep,Limburg,31,Totaal,22,927
-2020-12-31,907,Gennep,Limburg,31,Ziekenhuisopname,1,24
-2020-12-31,907,Gennep,Limburg,31,Overleden,0,16
-2020-12-31,917,Heerlen,Limburg,31,Totaal,58,3008
-2020-12-31,917,Heerlen,Limburg,31,Ziekenhuisopname,2,150
-2020-12-31,917,Heerlen,Limburg,31,Overleden,0,66
-2020-12-31,928,Kerkrade,Limburg,31,Totaal,26,1389
-2020-12-31,928,Kerkrade,Limburg,31,Ziekenhuisopname,0,92
-2020-12-31,928,Kerkrade,Limburg,31,Overleden,0,45
-2020-12-31,935,Maastricht,Limburg,31,Totaal,47,4816
-2020-12-31,935,Maastricht,Limburg,31,Ziekenhuisopname,0,227
-2020-12-31,935,Maastricht,Limburg,31,Overleden,1,156
-2020-12-31,938,Meerssen,Limburg,31,Totaal,10,680
-2020-12-31,938,Meerssen,Limburg,31,Ziekenhuisopname,0,26
-2020-12-31,938,Meerssen,Limburg,31,Overleden,0,17
-2020-12-31,944,Mook en Middelaar,Limburg,31,Totaal,5,350
-2020-12-31,944,Mook en Middelaar,Limburg,31,Ziekenhuisopname,0,10
-2020-12-31,944,Mook en Middelaar,Limburg,31,Overleden,0,9
-2020-12-31,946,Nederweert,Limburg,31,Totaal,17,1019
-2020-12-31,946,Nederweert,Limburg,31,Ziekenhuisopname,0,38
-2020-12-31,946,Nederweert,Limburg,31,Overleden,1,15
-2020-12-31,957,Roermond,Limburg,31,Totaal,15,2273
-2020-12-31,957,Roermond,Limburg,31,Ziekenhuisopname,0,70
-2020-12-31,957,Roermond,Limburg,31,Overleden,0,29
-2020-12-31,965,Simpelveld,Limburg,31,Totaal,5,411
-2020-12-31,965,Simpelveld,Limburg,31,Ziekenhuisopname,0,22
-2020-12-31,965,Simpelveld,Limburg,31,Overleden,0,5
-2020-12-31,971,Stein,Limburg,31,Totaal,8,923
-2020-12-31,971,Stein,Limburg,31,Ziekenhuisopname,0,55
-2020-12-31,971,Stein,Limburg,31,Overleden,0,16
-2020-12-31,981,Vaals,Limburg,31,Totaal,7,255
-2020-12-31,981,Vaals,Limburg,31,Ziekenhuisopname,1,15
-2020-12-31,981,Vaals,Limburg,31,Overleden,0,5
-2020-12-31,983,Venlo,Limburg,31,Totaal,83,5187
-2020-12-31,983,Venlo,Limburg,31,Ziekenhuisopname,0,171
-2020-12-31,983,Venlo,Limburg,31,Overleden,1,108
-2020-12-31,984,Venray,Limburg,31,Totaal,30,2724
-2020-12-31,984,Venray,Limburg,31,Ziekenhuisopname,0,49
-2020-12-31,984,Venray,Limburg,31,Overleden,0,27
-2020-12-31,986,Voerendaal,Limburg,31,Totaal,7,399
-2020-12-31,986,Voerendaal,Limburg,31,Ziekenhuisopname,0,18
-2020-12-31,986,Voerendaal,Limburg,31,Overleden,0,8
-2020-12-31,988,Weert,Limburg,31,Totaal,39,3266
-2020-12-31,988,Weert,Limburg,31,Ziekenhuisopname,3,94
-2020-12-31,988,Weert,Limburg,31,Overleden,2,41
-2020-12-31,994,Valkenburg aan de Geul,Limburg,31,Totaal,5,615
-2020-12-31,994,Valkenburg aan de Geul,Limburg,31,Ziekenhuisopname,0,27
-2020-12-31,994,Valkenburg aan de Geul,Limburg,31,Overleden,1,13
-2020-12-31,995,Lelystad,Flevoland,24,Totaal,32,3038
-2020-12-31,995,Lelystad,Flevoland,24,Ziekenhuisopname,1,105
-2020-12-31,995,Lelystad,Flevoland,24,Overleden,0,46
-2020-12-31,1507,Horst aan de Maas,Limburg,31,Totaal,38,2482
-2020-12-31,1507,Horst aan de Maas,Limburg,31,Ziekenhuisopname,0,53
-2020-12-31,1507,Horst aan de Maas,Limburg,31,Overleden,2,49
-2020-12-31,1509,Oude IJsselstreek,Gelderland,25,Totaal,23,1510
-2020-12-31,1509,Oude IJsselstreek,Gelderland,25,Ziekenhuisopname,1,30
-2020-12-31,1509,Oude IJsselstreek,Gelderland,25,Overleden,0,26
-2020-12-31,1525,Teylingen,Zuid-Holland,28,Totaal,31,1954
-2020-12-31,1525,Teylingen,Zuid-Holland,28,Ziekenhuisopname,0,27
-2020-12-31,1525,Teylingen,Zuid-Holland,28,Overleden,0,9
-2020-12-31,1581,Utrechtse Heuvelrug,Utrecht,26,Totaal,34,2269
-2020-12-31,1581,Utrechtse Heuvelrug,Utrecht,26,Ziekenhuisopname,0,51
-2020-12-31,1581,Utrechtse Heuvelrug,Utrecht,26,Overleden,0,35
-2020-12-31,1586,Oost Gelre,Gelderland,25,Totaal,15,1342
-2020-12-31,1586,Oost Gelre,Gelderland,25,Ziekenhuisopname,1,26
-2020-12-31,1586,Oost Gelre,Gelderland,25,Overleden,1,30
-2020-12-31,1598,Koggenland,Noord-Holland,27,Totaal,13,879
-2020-12-31,1598,Koggenland,Noord-Holland,27,Ziekenhuisopname,0,13
-2020-12-31,1598,Koggenland,Noord-Holland,27,Overleden,0,12
-2020-12-31,1621,Lansingerland,Zuid-Holland,28,Totaal,39,3449
-2020-12-31,1621,Lansingerland,Zuid-Holland,28,Ziekenhuisopname,0,68
-2020-12-31,1621,Lansingerland,Zuid-Holland,28,Overleden,0,53
-2020-12-31,1640,Leudal,Limburg,31,Totaal,20,1660
-2020-12-31,1640,Leudal,Limburg,31,Ziekenhuisopname,1,62
-2020-12-31,1640,Leudal,Limburg,31,Overleden,0,42
-2020-12-31,1641,Maasgouw,Limburg,31,Totaal,10,894
-2020-12-31,1641,Maasgouw,Limburg,31,Ziekenhuisopname,0,31
-2020-12-31,1641,Maasgouw,Limburg,31,Overleden,0,16
-2020-12-31,1652,Gemert-Bakel,Noord-Brabant,30,Totaal,20,1293
-2020-12-31,1652,Gemert-Bakel,Noord-Brabant,30,Ziekenhuisopname,0,84
-2020-12-31,1652,Gemert-Bakel,Noord-Brabant,30,Overleden,0,34
-2020-12-31,1655,Halderberge,Noord-Brabant,30,Totaal,9,1399
-2020-12-31,1655,Halderberge,Noord-Brabant,30,Ziekenhuisopname,0,38
-2020-12-31,1655,Halderberge,Noord-Brabant,30,Overleden,0,17
-2020-12-31,1658,Heeze-Leende,Noord-Brabant,30,Totaal,9,795
-2020-12-31,1658,Heeze-Leende,Noord-Brabant,30,Ziekenhuisopname,0,20
-2020-12-31,1658,Heeze-Leende,Noord-Brabant,30,Overleden,0,13
-2020-12-31,1659,Laarbeek,Noord-Brabant,30,Totaal,15,1134
-2020-12-31,1659,Laarbeek,Noord-Brabant,30,Ziekenhuisopname,1,46
-2020-12-31,1659,Laarbeek,Noord-Brabant,30,Overleden,0,29
-2020-12-31,1667,Reusel-De Mierden,Noord-Brabant,30,Totaal,8,821
-2020-12-31,1667,Reusel-De Mierden,Noord-Brabant,30,Ziekenhuisopname,1,20
-2020-12-31,1667,Reusel-De Mierden,Noord-Brabant,30,Overleden,0,6
-2020-12-31,1669,Roerdalen,Limburg,31,Totaal,7,726
-2020-12-31,1669,Roerdalen,Limburg,31,Ziekenhuisopname,0,30
-2020-12-31,1669,Roerdalen,Limburg,31,Overleden,0,14
-2020-12-31,1674,Roosendaal,Noord-Brabant,30,Totaal,22,3914
-2020-12-31,1674,Roosendaal,Noord-Brabant,30,Ziekenhuisopname,0,65
-2020-12-31,1674,Roosendaal,Noord-Brabant,30,Overleden,0,57
-2020-12-31,1676,Schouwen-Duiveland,Zeeland,29,Totaal,15,819
-2020-12-31,1676,Schouwen-Duiveland,Zeeland,29,Ziekenhuisopname,3,22
-2020-12-31,1676,Schouwen-Duiveland,Zeeland,29,Overleden,0,17
-2020-12-31,1680,Aa en Hunze,Drenthe,22,Totaal,19,570
-2020-12-31,1680,Aa en Hunze,Drenthe,22,Ziekenhuisopname,0,3
-2020-12-31,1680,Aa en Hunze,Drenthe,22,Overleden,0,1
-2020-12-31,1681,Borger-Odoorn,Drenthe,22,Totaal,10,701
-2020-12-31,1681,Borger-Odoorn,Drenthe,22,Ziekenhuisopname,1,14
-2020-12-31,1681,Borger-Odoorn,Drenthe,22,Overleden,1,11
-2020-12-31,1684,Cuijk,Noord-Brabant,30,Totaal,22,1166
-2020-12-31,1684,Cuijk,Noord-Brabant,30,Ziekenhuisopname,0,22
-2020-12-31,1684,Cuijk,Noord-Brabant,30,Overleden,0,17
-2020-12-31,1685,Landerd,Noord-Brabant,30,Totaal,10,919
-2020-12-31,1685,Landerd,Noord-Brabant,30,Ziekenhuisopname,0,45
-2020-12-31,1685,Landerd,Noord-Brabant,30,Overleden,0,22
-2020-12-31,1690,De Wolden,Drenthe,22,Totaal,18,722
-2020-12-31,1690,De Wolden,Drenthe,22,Ziekenhuisopname,0,18
-2020-12-31,1690,De Wolden,Drenthe,22,Overleden,0,7
-2020-12-31,1695,Noord-Beveland,Zeeland,29,Totaal,0,126
-2020-12-31,1695,Noord-Beveland,Zeeland,29,Ziekenhuisopname,0,3
-2020-12-31,1695,Noord-Beveland,Zeeland,29,Overleden,0,1
-2020-12-31,1696,Wijdemeren,Noord-Holland,27,Totaal,16,947
-2020-12-31,1696,Wijdemeren,Noord-Holland,27,Ziekenhuisopname,0,17
-2020-12-31,1696,Wijdemeren,Noord-Holland,27,Overleden,0,8
-2020-12-31,1699,Noordenveld,Drenthe,22,Totaal,11,487
-2020-12-31,1699,Noordenveld,Drenthe,22,Ziekenhuisopname,0,11
-2020-12-31,1699,Noordenveld,Drenthe,22,Overleden,0,16
-2020-12-31,1700,Twenterand,Overijssel,23,Totaal,54,2204
-2020-12-31,1700,Twenterand,Overijssel,23,Ziekenhuisopname,1,26
-2020-12-31,1700,Twenterand,Overijssel,23,Overleden,0,11
-2020-12-31,1701,Westerveld,Drenthe,22,Totaal,7,365
-2020-12-31,1701,Westerveld,Drenthe,22,Ziekenhuisopname,0,11
-2020-12-31,1701,Westerveld,Drenthe,22,Overleden,0,6
-2020-12-31,1702,Sint Anthonis,Noord-Brabant,30,Totaal,5,562
-2020-12-31,1702,Sint Anthonis,Noord-Brabant,30,Ziekenhuisopname,0,21
-2020-12-31,1702,Sint Anthonis,Noord-Brabant,30,Overleden,0,11
-2020-12-31,1705,Lingewaard,Gelderland,25,Totaal,25,2013
-2020-12-31,1705,Lingewaard,Gelderland,25,Ziekenhuisopname,1,53
-2020-12-31,1705,Lingewaard,Gelderland,25,Overleden,0,19
-2020-12-31,1706,Cranendonck,Noord-Brabant,30,Totaal,12,1222
-2020-12-31,1706,Cranendonck,Noord-Brabant,30,Ziekenhuisopname,0,68
-2020-12-31,1706,Cranendonck,Noord-Brabant,30,Overleden,0,43
-2020-12-31,1708,Steenwijkerland,Overijssel,23,Totaal,7,1202
-2020-12-31,1708,Steenwijkerland,Overijssel,23,Ziekenhuisopname,0,21
-2020-12-31,1708,Steenwijkerland,Overijssel,23,Overleden,0,13
-2020-12-31,1709,Moerdijk,Noord-Brabant,30,Totaal,15,1555
-2020-12-31,1709,Moerdijk,Noord-Brabant,30,Ziekenhuisopname,0,32
-2020-12-31,1709,Moerdijk,Noord-Brabant,30,Overleden,0,24
-2020-12-31,1711,Echt-Susteren,Limburg,31,Totaal,20,1046
-2020-12-31,1711,Echt-Susteren,Limburg,31,Ziekenhuisopname,0,46
-2020-12-31,1711,Echt-Susteren,Limburg,31,Overleden,0,20
-2020-12-31,1714,Sluis,Zeeland,29,Totaal,13,804
-2020-12-31,1714,Sluis,Zeeland,29,Ziekenhuisopname,0,25
-2020-12-31,1714,Sluis,Zeeland,29,Overleden,0,14
-2020-12-31,1719,Drimmelen,Noord-Brabant,30,Totaal,14,1206
-2020-12-31,1719,Drimmelen,Noord-Brabant,30,Ziekenhuisopname,0,35
-2020-12-31,1719,Drimmelen,Noord-Brabant,30,Overleden,0,22
-2020-12-31,1721,Bernheze,Noord-Brabant,30,Totaal,24,1591
-2020-12-31,1721,Bernheze,Noord-Brabant,30,Ziekenhuisopname,0,102
-2020-12-31,1721,Bernheze,Noord-Brabant,30,Overleden,0,68
-2020-12-31,1723,Alphen-Chaam,Noord-Brabant,30,Totaal,4,450
-2020-12-31,1723,Alphen-Chaam,Noord-Brabant,30,Ziekenhuisopname,0,21
-2020-12-31,1723,Alphen-Chaam,Noord-Brabant,30,Overleden,0,5
-2020-12-31,1724,Bergeijk,Noord-Brabant,30,Totaal,11,1189
-2020-12-31,1724,Bergeijk,Noord-Brabant,30,Ziekenhuisopname,0,24
-2020-12-31,1724,Bergeijk,Noord-Brabant,30,Overleden,0,6
-2020-12-31,1728,Bladel,Noord-Brabant,30,Totaal,10,1434
-2020-12-31,1728,Bladel,Noord-Brabant,30,Ziekenhuisopname,0,27
-2020-12-31,1728,Bladel,Noord-Brabant,30,Overleden,0,18
-2020-12-31,1729,Gulpen-Wittem,Limburg,31,Totaal,7,561
-2020-12-31,1729,Gulpen-Wittem,Limburg,31,Ziekenhuisopname,0,28
-2020-12-31,1729,Gulpen-Wittem,Limburg,31,Overleden,0,16
-2020-12-31,1730,Tynaarlo,Drenthe,22,Totaal,13,626
-2020-12-31,1730,Tynaarlo,Drenthe,22,Ziekenhuisopname,0,13
-2020-12-31,1730,Tynaarlo,Drenthe,22,Overleden,0,13
-2020-12-31,1731,Midden-Drenthe,Drenthe,22,Totaal,15,799
-2020-12-31,1731,Midden-Drenthe,Drenthe,22,Ziekenhuisopname,0,13
-2020-12-31,1731,Midden-Drenthe,Drenthe,22,Overleden,0,3
-2020-12-31,1734,Overbetuwe,Gelderland,25,Totaal,25,1671
-2020-12-31,1734,Overbetuwe,Gelderland,25,Ziekenhuisopname,1,65
-2020-12-31,1734,Overbetuwe,Gelderland,25,Overleden,1,24
-2020-12-31,1735,Hof van Twente,Overijssel,23,Totaal,44,1726
-2020-12-31,1735,Hof van Twente,Overijssel,23,Ziekenhuisopname,0,28
-2020-12-31,1735,Hof van Twente,Overijssel,23,Overleden,1,16
-2020-12-31,1740,Neder-Betuwe,Gelderland,25,Totaal,22,1416
-2020-12-31,1740,Neder-Betuwe,Gelderland,25,Ziekenhuisopname,0,52
-2020-12-31,1740,Neder-Betuwe,Gelderland,25,Overleden,1,27
-2020-12-31,1742,Rijssen-Holten,Overijssel,23,Totaal,63,2390
-2020-12-31,1742,Rijssen-Holten,Overijssel,23,Ziekenhuisopname,0,36
-2020-12-31,1742,Rijssen-Holten,Overijssel,23,Overleden,0,35
-2020-12-31,1771,Geldrop-Mierlo,Noord-Brabant,30,Totaal,18,1871
-2020-12-31,1771,Geldrop-Mierlo,Noord-Brabant,30,Ziekenhuisopname,1,54
-2020-12-31,1771,Geldrop-Mierlo,Noord-Brabant,30,Overleden,0,21
-2020-12-31,1773,Olst-Wijhe,Overijssel,23,Totaal,10,530
-2020-12-31,1773,Olst-Wijhe,Overijssel,23,Ziekenhuisopname,0,12
-2020-12-31,1773,Olst-Wijhe,Overijssel,23,Overleden,0,8
-2020-12-31,1774,Dinkelland,Overijssel,23,Totaal,31,1683
-2020-12-31,1774,Dinkelland,Overijssel,23,Ziekenhuisopname,0,24
-2020-12-31,1774,Dinkelland,Overijssel,23,Overleden,0,19
-2020-12-31,1783,Westland,Zuid-Holland,28,Totaal,81,6769
-2020-12-31,1783,Westland,Zuid-Holland,28,Ziekenhuisopname,1,123
-2020-12-31,1783,Westland,Zuid-Holland,28,Overleden,2,68
-2020-12-31,1842,Midden-Delfland,Zuid-Holland,28,Totaal,14,1027
-2020-12-31,1842,Midden-Delfland,Zuid-Holland,28,Ziekenhuisopname,1,14
-2020-12-31,1842,Midden-Delfland,Zuid-Holland,28,Overleden,0,9
-2020-12-31,1859,Berkelland,Gelderland,25,Totaal,29,1833
-2020-12-31,1859,Berkelland,Gelderland,25,Ziekenhuisopname,0,30
-2020-12-31,1859,Berkelland,Gelderland,25,Overleden,0,35
-2020-12-31,1876,Bronckhorst,Gelderland,25,Totaal,14,1440
-2020-12-31,1876,Bronckhorst,Gelderland,25,Ziekenhuisopname,0,22
-2020-12-31,1876,Bronckhorst,Gelderland,25,Overleden,0,12
-2020-12-31,1883,Sittard-Geleen,Limburg,31,Totaal,75,3288
-2020-12-31,1883,Sittard-Geleen,Limburg,31,Ziekenhuisopname,2,155
-2020-12-31,1883,Sittard-Geleen,Limburg,31,Overleden,1,79
-2020-12-31,1884,Kaag en Braassem,Zuid-Holland,28,Totaal,15,1168
-2020-12-31,1884,Kaag en Braassem,Zuid-Holland,28,Ziekenhuisopname,0,16
-2020-12-31,1884,Kaag en Braassem,Zuid-Holland,28,Overleden,0,3
-2020-12-31,1891,Dantumadiel,Friesland,21,Totaal,21,499
-2020-12-31,1891,Dantumadiel,Friesland,21,Ziekenhuisopname,0,3
-2020-12-31,1891,Dantumadiel,Friesland,21,Overleden,2,4
-2020-12-31,1892,Zuidplas,Zuid-Holland,28,Totaal,15,2297
-2020-12-31,1892,Zuidplas,Zuid-Holland,28,Ziekenhuisopname,0,54
-2020-12-31,1892,Zuidplas,Zuid-Holland,28,Overleden,0,31
-2020-12-31,1894,Peel en Maas,Limburg,31,Totaal,30,1947
-2020-12-31,1894,Peel en Maas,Limburg,31,Ziekenhuisopname,0,150
-2020-12-31,1894,Peel en Maas,Limburg,31,Overleden,0,68
-2020-12-31,1895,Oldambt,Groningen,20,Totaal,28,841
-2020-12-31,1895,Oldambt,Groningen,20,Ziekenhuisopname,3,18
-2020-12-31,1895,Oldambt,Groningen,20,Overleden,0,13
-2020-12-31,1896,Zwartewaterland,Overijssel,23,Totaal,12,872
-2020-12-31,1896,Zwartewaterland,Overijssel,23,Ziekenhuisopname,0,40
-2020-12-31,1896,Zwartewaterland,Overijssel,23,Overleden,0,24
-2020-12-31,1900,Súdwest-Fryslân,Friesland,21,Totaal,35,2970
-2020-12-31,1900,Súdwest-Fryslân,Friesland,21,Ziekenhuisopname,0,30
-2020-12-31,1900,Súdwest-Fryslân,Friesland,21,Overleden,0,39
-2020-12-31,1901,Bodegraven-Reeuwijk,Zuid-Holland,28,Totaal,14,1912
-2020-12-31,1901,Bodegraven-Reeuwijk,Zuid-Holland,28,Ziekenhuisopname,0,36
-2020-12-31,1901,Bodegraven-Reeuwijk,Zuid-Holland,28,Overleden,0,18
-2020-12-31,1903,Eijsden-Margraten,Limburg,31,Totaal,19,1075
-2020-12-31,1903,Eijsden-Margraten,Limburg,31,Ziekenhuisopname,0,62
-2020-12-31,1903,Eijsden-Margraten,Limburg,31,Overleden,0,32
-2020-12-31,1904,Stichtse Vecht,Utrecht,26,Totaal,36,2940
-2020-12-31,1904,Stichtse Vecht,Utrecht,26,Ziekenhuisopname,0,74
-2020-12-31,1904,Stichtse Vecht,Utrecht,26,Overleden,0,42
-2020-12-31,1911,Hollands Kroon,Noord-Holland,27,Totaal,34,1552
-2020-12-31,1911,Hollands Kroon,Noord-Holland,27,Ziekenhuisopname,1,36
-2020-12-31,1911,Hollands Kroon,Noord-Holland,27,Overleden,0,9
-2020-12-31,1916,Leidschendam-Voorburg,Zuid-Holland,28,Totaal,31,3496
-2020-12-31,1916,Leidschendam-Voorburg,Zuid-Holland,28,Ziekenhuisopname,2,86
-2020-12-31,1916,Leidschendam-Voorburg,Zuid-Holland,28,Overleden,1,57
-2020-12-31,1924,Goeree-Overflakkee,Zuid-Holland,28,Totaal,26,2257
-2020-12-31,1924,Goeree-Overflakkee,Zuid-Holland,28,Ziekenhuisopname,0,80
-2020-12-31,1924,Goeree-Overflakkee,Zuid-Holland,28,Overleden,0,57
-2020-12-31,1926,Pijnacker-Nootdorp,Zuid-Holland,28,Totaal,20,2906
-2020-12-31,1926,Pijnacker-Nootdorp,Zuid-Holland,28,Ziekenhuisopname,0,41
-2020-12-31,1926,Pijnacker-Nootdorp,Zuid-Holland,28,Overleden,1,25
-2020-12-31,1930,Nissewaard,Zuid-Holland,28,Totaal,51,4368
-2020-12-31,1930,Nissewaard,Zuid-Holland,28,Ziekenhuisopname,0,105
-2020-12-31,1930,Nissewaard,Zuid-Holland,28,Overleden,0,58
-2020-12-31,1931,Krimpenerwaard,Zuid-Holland,28,Totaal,53,2906
-2020-12-31,1931,Krimpenerwaard,Zuid-Holland,28,Ziekenhuisopname,0,86
-2020-12-31,1931,Krimpenerwaard,Zuid-Holland,28,Overleden,0,55
-2020-12-31,1940,De Fryske Marren,Friesland,21,Totaal,23,1167
-2020-12-31,1940,De Fryske Marren,Friesland,21,Ziekenhuisopname,0,31
-2020-12-31,1940,De Fryske Marren,Friesland,21,Overleden,0,13
-2020-12-31,1942,Gooise Meren,Noord-Holland,27,Totaal,24,2449
-2020-12-31,1942,Gooise Meren,Noord-Holland,27,Ziekenhuisopname,0,41
-2020-12-31,1942,Gooise Meren,Noord-Holland,27,Overleden,0,22
-2020-12-31,1945,Berg en Dal,Gelderland,25,Totaal,9,1623
-2020-12-31,1945,Berg en Dal,Gelderland,25,Ziekenhuisopname,0,45
-2020-12-31,1945,Berg en Dal,Gelderland,25,Overleden,0,36
-2020-12-31,1948,Meierijstad,Noord-Brabant,30,Totaal,53,3765
-2020-12-31,1948,Meierijstad,Noord-Brabant,30,Ziekenhuisopname,0,229
-2020-12-31,1948,Meierijstad,Noord-Brabant,30,Overleden,0,148
-2020-12-31,1949,Waadhoeke,Friesland,21,Totaal,14,1067
-2020-12-31,1949,Waadhoeke,Friesland,21,Ziekenhuisopname,0,20
-2020-12-31,1949,Waadhoeke,Friesland,21,Overleden,0,22
-2020-12-31,1950,Westerwolde,Groningen,20,Totaal,8,781
-2020-12-31,1950,Westerwolde,Groningen,20,Ziekenhuisopname,1,15
-2020-12-31,1950,Westerwolde,Groningen,20,Overleden,1,4
-2020-12-31,1952,Midden-Groningen,Groningen,20,Totaal,25,1334
-2020-12-31,1952,Midden-Groningen,Groningen,20,Ziekenhuisopname,1,24
-2020-12-31,1952,Midden-Groningen,Groningen,20,Overleden,1,18
-2020-12-31,1954,Beekdaelen,Limburg,31,Totaal,17,1335
-2020-12-31,1954,Beekdaelen,Limburg,31,Ziekenhuisopname,0,65
-2020-12-31,1954,Beekdaelen,Limburg,31,Overleden,0,31
-2020-12-31,1955,Montferland,Gelderland,25,Totaal,26,1317
-2020-12-31,1955,Montferland,Gelderland,25,Ziekenhuisopname,0,31
-2020-12-31,1955,Montferland,Gelderland,25,Overleden,0,12
-2020-12-31,1959,Altena,Noord-Brabant,30,Totaal,23,3664
-2020-12-31,1959,Altena,Noord-Brabant,30,Ziekenhuisopname,-1,59
-2020-12-31,1959,Altena,Noord-Brabant,30,Overleden,0,60
-2020-12-31,1960,West Betuwe,Gelderland,25,Totaal,31,2636
-2020-12-31,1960,West Betuwe,Gelderland,25,Ziekenhuisopname,0,74
-2020-12-31,1960,West Betuwe,Gelderland,25,Overleden,0,42
-2020-12-31,1961,Vijfheerenlanden,Utrecht,26,Totaal,21,2934
-2020-12-31,1961,Vijfheerenlanden,Utrecht,26,Ziekenhuisopname,0,65
-2020-12-31,1961,Vijfheerenlanden,Utrecht,26,Overleden,0,55
-2020-12-31,1963,Hoeksche Waard,Zuid-Holland,28,Totaal,49,3760
-2020-12-31,1963,Hoeksche Waard,Zuid-Holland,28,Ziekenhuisopname,0,94
-2020-12-31,1963,Hoeksche Waard,Zuid-Holland,28,Overleden,1,37
-2020-12-31,1966,Het Hogeland,Groningen,20,Totaal,25,1305
-2020-12-31,1966,Het Hogeland,Groningen,20,Ziekenhuisopname,1,16
-2020-12-31,1966,Het Hogeland,Groningen,20,Overleden,0,11
-2020-12-31,1969,Westerkwartier,Groningen,20,Totaal,20,1183
-2020-12-31,1969,Westerkwartier,Groningen,20,Ziekenhuisopname,0,22
-2020-12-31,1969,Westerkwartier,Groningen,20,Overleden,0,10
-2020-12-31,1970,Noardeast-Fryslân,Friesland,21,Totaal,29,1051
-2020-12-31,1970,Noardeast-Fryslân,Friesland,21,Ziekenhuisopname,0,18
-2020-12-31,1970,Noardeast-Fryslân,Friesland,21,Overleden,0,13
-2020-12-31,1978,Molenlanden,Zuid-Holland,28,Totaal,25,2339
-2020-12-31,1978,Molenlanden,Zuid-Holland,28,Ziekenhuisopname,0,26
-2020-12-31,1978,Molenlanden,Zuid-Holland,28,Overleden,0,21
+2020-12-31,-1,,,-1,Totaal,,
+2020-12-31,-1,,,-1,Ziekenhuisopname,,
+2020-12-31,-1,,,-1,Overleden,,
+2020-12-31,3,Appingedam,Groningen,20,Totaal,,
+2020-12-31,3,Appingedam,Groningen,20,Ziekenhuisopname,,
+2020-12-31,3,Appingedam,Groningen,20,Overleden,,
+2020-12-31,10,Delfzijl,Groningen,20,Totaal,,
+2020-12-31,10,Delfzijl,Groningen,20,Ziekenhuisopname,,
+2020-12-31,10,Delfzijl,Groningen,20,Overleden,,
+2020-12-31,14,Groningen,Groningen,20,Totaal,,
+2020-12-31,14,Groningen,Groningen,20,Ziekenhuisopname,,
+2020-12-31,14,Groningen,Groningen,20,Overleden,,
+2020-12-31,24,Loppersum,Groningen,20,Totaal,,
+2020-12-31,24,Loppersum,Groningen,20,Ziekenhuisopname,,
+2020-12-31,24,Loppersum,Groningen,20,Overleden,,
+2020-12-31,34,Almere,Flevoland,24,Totaal,,
+2020-12-31,34,Almere,Flevoland,24,Ziekenhuisopname,,
+2020-12-31,34,Almere,Flevoland,24,Overleden,,
+2020-12-31,37,Stadskanaal,Groningen,20,Totaal,,
+2020-12-31,37,Stadskanaal,Groningen,20,Ziekenhuisopname,,
+2020-12-31,37,Stadskanaal,Groningen,20,Overleden,,
+2020-12-31,47,Veendam,Groningen,20,Totaal,,
+2020-12-31,47,Veendam,Groningen,20,Ziekenhuisopname,,
+2020-12-31,47,Veendam,Groningen,20,Overleden,,
+2020-12-31,50,Zeewolde,Flevoland,24,Totaal,,
+2020-12-31,50,Zeewolde,Flevoland,24,Ziekenhuisopname,,
+2020-12-31,50,Zeewolde,Flevoland,24,Overleden,,
+2020-12-31,59,Achtkarspelen,Friesland,21,Totaal,,
+2020-12-31,59,Achtkarspelen,Friesland,21,Ziekenhuisopname,,
+2020-12-31,59,Achtkarspelen,Friesland,21,Overleden,,
+2020-12-31,60,Ameland,Friesland,21,Totaal,,
+2020-12-31,60,Ameland,Friesland,21,Ziekenhuisopname,,
+2020-12-31,60,Ameland,Friesland,21,Overleden,,
+2020-12-31,72,Harlingen,Friesland,21,Totaal,,
+2020-12-31,72,Harlingen,Friesland,21,Ziekenhuisopname,,
+2020-12-31,72,Harlingen,Friesland,21,Overleden,,
+2020-12-31,74,Heerenveen,Friesland,21,Totaal,,
+2020-12-31,74,Heerenveen,Friesland,21,Ziekenhuisopname,,
+2020-12-31,74,Heerenveen,Friesland,21,Overleden,,
+2020-12-31,80,Leeuwarden,Friesland,21,Totaal,,
+2020-12-31,80,Leeuwarden,Friesland,21,Ziekenhuisopname,,
+2020-12-31,80,Leeuwarden,Friesland,21,Overleden,,
+2020-12-31,85,Ooststellingwerf,Friesland,21,Totaal,,
+2020-12-31,85,Ooststellingwerf,Friesland,21,Ziekenhuisopname,,
+2020-12-31,85,Ooststellingwerf,Friesland,21,Overleden,,
+2020-12-31,86,Opsterland,Friesland,21,Totaal,,
+2020-12-31,86,Opsterland,Friesland,21,Ziekenhuisopname,,
+2020-12-31,86,Opsterland,Friesland,21,Overleden,,
+2020-12-31,88,Schiermonnikoog,Friesland,21,Totaal,,
+2020-12-31,88,Schiermonnikoog,Friesland,21,Ziekenhuisopname,,
+2020-12-31,88,Schiermonnikoog,Friesland,21,Overleden,,
+2020-12-31,90,Smallingerland,Friesland,21,Totaal,,
+2020-12-31,90,Smallingerland,Friesland,21,Ziekenhuisopname,,
+2020-12-31,90,Smallingerland,Friesland,21,Overleden,,
+2020-12-31,93,Terschelling,Friesland,21,Totaal,,
+2020-12-31,93,Terschelling,Friesland,21,Ziekenhuisopname,,
+2020-12-31,93,Terschelling,Friesland,21,Overleden,,
+2020-12-31,96,Vlieland,Friesland,21,Totaal,,
+2020-12-31,96,Vlieland,Friesland,21,Ziekenhuisopname,,
+2020-12-31,96,Vlieland,Friesland,21,Overleden,,
+2020-12-31,98,Weststellingwerf,Friesland,21,Totaal,,
+2020-12-31,98,Weststellingwerf,Friesland,21,Ziekenhuisopname,,
+2020-12-31,98,Weststellingwerf,Friesland,21,Overleden,,
+2020-12-31,106,Assen,Drenthe,22,Totaal,,
+2020-12-31,106,Assen,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,106,Assen,Drenthe,22,Overleden,,
+2020-12-31,109,Coevorden,Drenthe,22,Totaal,,
+2020-12-31,109,Coevorden,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,109,Coevorden,Drenthe,22,Overleden,,
+2020-12-31,114,Emmen,Drenthe,22,Totaal,,
+2020-12-31,114,Emmen,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,114,Emmen,Drenthe,22,Overleden,,
+2020-12-31,118,Hoogeveen,Drenthe,22,Totaal,,
+2020-12-31,118,Hoogeveen,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,118,Hoogeveen,Drenthe,22,Overleden,,
+2020-12-31,119,Meppel,Drenthe,22,Totaal,,
+2020-12-31,119,Meppel,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,119,Meppel,Drenthe,22,Overleden,,
+2020-12-31,141,Almelo,Overijssel,23,Totaal,,
+2020-12-31,141,Almelo,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,141,Almelo,Overijssel,23,Overleden,,
+2020-12-31,147,Borne,Overijssel,23,Totaal,,
+2020-12-31,147,Borne,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,147,Borne,Overijssel,23,Overleden,,
+2020-12-31,148,Dalfsen,Overijssel,23,Totaal,,
+2020-12-31,148,Dalfsen,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,148,Dalfsen,Overijssel,23,Overleden,,
+2020-12-31,150,Deventer,Overijssel,23,Totaal,,
+2020-12-31,150,Deventer,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,150,Deventer,Overijssel,23,Overleden,,
+2020-12-31,153,Enschede,Overijssel,23,Totaal,,
+2020-12-31,153,Enschede,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,153,Enschede,Overijssel,23,Overleden,,
+2020-12-31,158,Haaksbergen,Overijssel,23,Totaal,,
+2020-12-31,158,Haaksbergen,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,158,Haaksbergen,Overijssel,23,Overleden,,
+2020-12-31,160,Hardenberg,Overijssel,23,Totaal,,
+2020-12-31,160,Hardenberg,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,160,Hardenberg,Overijssel,23,Overleden,,
+2020-12-31,163,Hellendoorn,Overijssel,23,Totaal,,
+2020-12-31,163,Hellendoorn,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,163,Hellendoorn,Overijssel,23,Overleden,,
+2020-12-31,164,Hengelo,Overijssel,23,Totaal,,
+2020-12-31,164,Hengelo,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,164,Hengelo,Overijssel,23,Overleden,,
+2020-12-31,166,Kampen,Overijssel,23,Totaal,,
+2020-12-31,166,Kampen,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,166,Kampen,Overijssel,23,Overleden,,
+2020-12-31,168,Losser,Overijssel,23,Totaal,,
+2020-12-31,168,Losser,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,168,Losser,Overijssel,23,Overleden,,
+2020-12-31,171,Noordoostpolder,Flevoland,24,Totaal,,
+2020-12-31,171,Noordoostpolder,Flevoland,24,Ziekenhuisopname,,
+2020-12-31,171,Noordoostpolder,Flevoland,24,Overleden,,
+2020-12-31,173,Oldenzaal,Overijssel,23,Totaal,,
+2020-12-31,173,Oldenzaal,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,173,Oldenzaal,Overijssel,23,Overleden,,
+2020-12-31,175,Ommen,Overijssel,23,Totaal,,
+2020-12-31,175,Ommen,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,175,Ommen,Overijssel,23,Overleden,,
+2020-12-31,177,Raalte,Overijssel,23,Totaal,,
+2020-12-31,177,Raalte,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,177,Raalte,Overijssel,23,Overleden,,
+2020-12-31,180,Staphorst,Overijssel,23,Totaal,,
+2020-12-31,180,Staphorst,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,180,Staphorst,Overijssel,23,Overleden,,
+2020-12-31,183,Tubbergen,Overijssel,23,Totaal,,
+2020-12-31,183,Tubbergen,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,183,Tubbergen,Overijssel,23,Overleden,,
+2020-12-31,184,Urk,Flevoland,24,Totaal,,
+2020-12-31,184,Urk,Flevoland,24,Ziekenhuisopname,,
+2020-12-31,184,Urk,Flevoland,24,Overleden,,
+2020-12-31,189,Wierden,Overijssel,23,Totaal,,
+2020-12-31,189,Wierden,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,189,Wierden,Overijssel,23,Overleden,,
+2020-12-31,193,Zwolle,Overijssel,23,Totaal,,
+2020-12-31,193,Zwolle,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,193,Zwolle,Overijssel,23,Overleden,,
+2020-12-31,197,Aalten,Gelderland,25,Totaal,,
+2020-12-31,197,Aalten,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,197,Aalten,Gelderland,25,Overleden,,
+2020-12-31,200,Apeldoorn,Gelderland,25,Totaal,,
+2020-12-31,200,Apeldoorn,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,200,Apeldoorn,Gelderland,25,Overleden,,
+2020-12-31,202,Arnhem,Gelderland,25,Totaal,,
+2020-12-31,202,Arnhem,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,202,Arnhem,Gelderland,25,Overleden,,
+2020-12-31,203,Barneveld,Gelderland,25,Totaal,,
+2020-12-31,203,Barneveld,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,203,Barneveld,Gelderland,25,Overleden,,
+2020-12-31,209,Beuningen,Gelderland,25,Totaal,,
+2020-12-31,209,Beuningen,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,209,Beuningen,Gelderland,25,Overleden,,
+2020-12-31,213,Brummen,Gelderland,25,Totaal,,
+2020-12-31,213,Brummen,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,213,Brummen,Gelderland,25,Overleden,,
+2020-12-31,214,Buren,Gelderland,25,Totaal,,
+2020-12-31,214,Buren,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,214,Buren,Gelderland,25,Overleden,,
+2020-12-31,216,Culemborg,Gelderland,25,Totaal,,
+2020-12-31,216,Culemborg,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,216,Culemborg,Gelderland,25,Overleden,,
+2020-12-31,221,Doesburg,Gelderland,25,Totaal,,
+2020-12-31,221,Doesburg,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,221,Doesburg,Gelderland,25,Overleden,,
+2020-12-31,222,Doetinchem,Gelderland,25,Totaal,,
+2020-12-31,222,Doetinchem,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,222,Doetinchem,Gelderland,25,Overleden,,
+2020-12-31,225,Druten,Gelderland,25,Totaal,,
+2020-12-31,225,Druten,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,225,Druten,Gelderland,25,Overleden,,
+2020-12-31,226,Duiven,Gelderland,25,Totaal,,
+2020-12-31,226,Duiven,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,226,Duiven,Gelderland,25,Overleden,,
+2020-12-31,228,Ede,Gelderland,25,Totaal,,
+2020-12-31,228,Ede,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,228,Ede,Gelderland,25,Overleden,,
+2020-12-31,230,Elburg,Gelderland,25,Totaal,,
+2020-12-31,230,Elburg,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,230,Elburg,Gelderland,25,Overleden,,
+2020-12-31,232,Epe,Gelderland,25,Totaal,,
+2020-12-31,232,Epe,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,232,Epe,Gelderland,25,Overleden,,
+2020-12-31,233,Ermelo,Gelderland,25,Totaal,,
+2020-12-31,233,Ermelo,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,233,Ermelo,Gelderland,25,Overleden,,
+2020-12-31,243,Harderwijk,Gelderland,25,Totaal,,
+2020-12-31,243,Harderwijk,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,243,Harderwijk,Gelderland,25,Overleden,,
+2020-12-31,244,Hattem,Gelderland,25,Totaal,,
+2020-12-31,244,Hattem,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,244,Hattem,Gelderland,25,Overleden,,
+2020-12-31,246,Heerde,Gelderland,25,Totaal,,
+2020-12-31,246,Heerde,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,246,Heerde,Gelderland,25,Overleden,,
+2020-12-31,252,Heumen,Gelderland,25,Totaal,,
+2020-12-31,252,Heumen,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,252,Heumen,Gelderland,25,Overleden,,
+2020-12-31,262,Lochem,Gelderland,25,Totaal,,
+2020-12-31,262,Lochem,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,262,Lochem,Gelderland,25,Overleden,,
+2020-12-31,263,Maasdriel,Gelderland,25,Totaal,,
+2020-12-31,263,Maasdriel,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,263,Maasdriel,Gelderland,25,Overleden,,
+2020-12-31,267,Nijkerk,Gelderland,25,Totaal,,
+2020-12-31,267,Nijkerk,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,267,Nijkerk,Gelderland,25,Overleden,,
+2020-12-31,268,Nijmegen,Gelderland,25,Totaal,,
+2020-12-31,268,Nijmegen,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,268,Nijmegen,Gelderland,25,Overleden,,
+2020-12-31,269,Oldebroek,Gelderland,25,Totaal,,
+2020-12-31,269,Oldebroek,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,269,Oldebroek,Gelderland,25,Overleden,,
+2020-12-31,273,Putten,Gelderland,25,Totaal,,
+2020-12-31,273,Putten,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,273,Putten,Gelderland,25,Overleden,,
+2020-12-31,274,Renkum,Gelderland,25,Totaal,,
+2020-12-31,274,Renkum,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,274,Renkum,Gelderland,25,Overleden,,
+2020-12-31,275,Rheden,Gelderland,25,Totaal,,
+2020-12-31,275,Rheden,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,275,Rheden,Gelderland,25,Overleden,,
+2020-12-31,277,Rozendaal,Gelderland,25,Totaal,,
+2020-12-31,277,Rozendaal,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,277,Rozendaal,Gelderland,25,Overleden,,
+2020-12-31,279,Scherpenzeel,Gelderland,25,Totaal,,
+2020-12-31,279,Scherpenzeel,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,279,Scherpenzeel,Gelderland,25,Overleden,,
+2020-12-31,281,Tiel,Gelderland,25,Totaal,,
+2020-12-31,281,Tiel,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,281,Tiel,Gelderland,25,Overleden,,
+2020-12-31,285,Voorst,Gelderland,25,Totaal,,
+2020-12-31,285,Voorst,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,285,Voorst,Gelderland,25,Overleden,,
+2020-12-31,289,Wageningen,Gelderland,25,Totaal,,
+2020-12-31,289,Wageningen,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,289,Wageningen,Gelderland,25,Overleden,,
+2020-12-31,293,Westervoort,Gelderland,25,Totaal,,
+2020-12-31,293,Westervoort,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,293,Westervoort,Gelderland,25,Overleden,,
+2020-12-31,294,Winterswijk,Gelderland,25,Totaal,,
+2020-12-31,294,Winterswijk,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,294,Winterswijk,Gelderland,25,Overleden,,
+2020-12-31,296,Wijchen,Gelderland,25,Totaal,,
+2020-12-31,296,Wijchen,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,296,Wijchen,Gelderland,25,Overleden,,
+2020-12-31,297,Zaltbommel,Gelderland,25,Totaal,,
+2020-12-31,297,Zaltbommel,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,297,Zaltbommel,Gelderland,25,Overleden,,
+2020-12-31,299,Zevenaar,Gelderland,25,Totaal,,
+2020-12-31,299,Zevenaar,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,299,Zevenaar,Gelderland,25,Overleden,,
+2020-12-31,301,Zutphen,Gelderland,25,Totaal,,
+2020-12-31,301,Zutphen,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,301,Zutphen,Gelderland,25,Overleden,,
+2020-12-31,302,Nunspeet,Gelderland,25,Totaal,,
+2020-12-31,302,Nunspeet,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,302,Nunspeet,Gelderland,25,Overleden,,
+2020-12-31,303,Dronten,Flevoland,24,Totaal,,
+2020-12-31,303,Dronten,Flevoland,24,Ziekenhuisopname,,
+2020-12-31,303,Dronten,Flevoland,24,Overleden,,
+2020-12-31,307,Amersfoort,Utrecht,26,Totaal,,
+2020-12-31,307,Amersfoort,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,307,Amersfoort,Utrecht,26,Overleden,,
+2020-12-31,308,Baarn,Utrecht,26,Totaal,,
+2020-12-31,308,Baarn,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,308,Baarn,Utrecht,26,Overleden,,
+2020-12-31,310,De Bilt,Utrecht,26,Totaal,,
+2020-12-31,310,De Bilt,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,310,De Bilt,Utrecht,26,Overleden,,
+2020-12-31,312,Bunnik,Utrecht,26,Totaal,,
+2020-12-31,312,Bunnik,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,312,Bunnik,Utrecht,26,Overleden,,
+2020-12-31,313,Bunschoten,Utrecht,26,Totaal,,
+2020-12-31,313,Bunschoten,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,313,Bunschoten,Utrecht,26,Overleden,,
+2020-12-31,317,Eemnes,Utrecht,26,Totaal,,
+2020-12-31,317,Eemnes,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,317,Eemnes,Utrecht,26,Overleden,,
+2020-12-31,321,Houten,Utrecht,26,Totaal,,
+2020-12-31,321,Houten,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,321,Houten,Utrecht,26,Overleden,,
+2020-12-31,327,Leusden,Utrecht,26,Totaal,,
+2020-12-31,327,Leusden,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,327,Leusden,Utrecht,26,Overleden,,
+2020-12-31,331,Lopik,Utrecht,26,Totaal,,
+2020-12-31,331,Lopik,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,331,Lopik,Utrecht,26,Overleden,,
+2020-12-31,335,Montfoort,Utrecht,26,Totaal,,
+2020-12-31,335,Montfoort,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,335,Montfoort,Utrecht,26,Overleden,,
+2020-12-31,339,Renswoude,Utrecht,26,Totaal,,
+2020-12-31,339,Renswoude,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,339,Renswoude,Utrecht,26,Overleden,,
+2020-12-31,340,Rhenen,Utrecht,26,Totaal,,
+2020-12-31,340,Rhenen,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,340,Rhenen,Utrecht,26,Overleden,,
+2020-12-31,342,Soest,Utrecht,26,Totaal,,
+2020-12-31,342,Soest,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,342,Soest,Utrecht,26,Overleden,,
+2020-12-31,344,Utrecht,Utrecht,26,Totaal,,
+2020-12-31,344,Utrecht,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,344,Utrecht,Utrecht,26,Overleden,,
+2020-12-31,345,Veenendaal,Utrecht,26,Totaal,,
+2020-12-31,345,Veenendaal,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,345,Veenendaal,Utrecht,26,Overleden,,
+2020-12-31,351,Woudenberg,Utrecht,26,Totaal,,
+2020-12-31,351,Woudenberg,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,351,Woudenberg,Utrecht,26,Overleden,,
+2020-12-31,352,Wijk bij Duurstede,Utrecht,26,Totaal,,
+2020-12-31,352,Wijk bij Duurstede,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,352,Wijk bij Duurstede,Utrecht,26,Overleden,,
+2020-12-31,353,IJsselstein,Utrecht,26,Totaal,,
+2020-12-31,353,IJsselstein,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,353,IJsselstein,Utrecht,26,Overleden,,
+2020-12-31,355,Zeist,Utrecht,26,Totaal,,
+2020-12-31,355,Zeist,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,355,Zeist,Utrecht,26,Overleden,,
+2020-12-31,356,Nieuwegein,Utrecht,26,Totaal,,
+2020-12-31,356,Nieuwegein,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,356,Nieuwegein,Utrecht,26,Overleden,,
+2020-12-31,358,Aalsmeer,Noord-Holland,27,Totaal,,
+2020-12-31,358,Aalsmeer,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,358,Aalsmeer,Noord-Holland,27,Overleden,,
+2020-12-31,361,Alkmaar,Noord-Holland,27,Totaal,,
+2020-12-31,361,Alkmaar,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,361,Alkmaar,Noord-Holland,27,Overleden,,
+2020-12-31,362,Amstelveen,Noord-Holland,27,Totaal,,
+2020-12-31,362,Amstelveen,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,362,Amstelveen,Noord-Holland,27,Overleden,,
+2020-12-31,363,Amsterdam,Noord-Holland,27,Totaal,,
+2020-12-31,363,Amsterdam,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,363,Amsterdam,Noord-Holland,27,Overleden,,
+2020-12-31,370,Beemster,Noord-Holland,27,Totaal,,
+2020-12-31,370,Beemster,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,370,Beemster,Noord-Holland,27,Overleden,,
+2020-12-31,373,Bergen (NH.),Noord-Holland,27,Totaal,,
+2020-12-31,373,Bergen (NH.),Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,373,Bergen (NH.),Noord-Holland,27,Overleden,,
+2020-12-31,375,Beverwijk,Noord-Holland,27,Totaal,,
+2020-12-31,375,Beverwijk,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,375,Beverwijk,Noord-Holland,27,Overleden,,
+2020-12-31,376,Blaricum,Noord-Holland,27,Totaal,,
+2020-12-31,376,Blaricum,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,376,Blaricum,Noord-Holland,27,Overleden,,
+2020-12-31,377,Bloemendaal,Noord-Holland,27,Totaal,,
+2020-12-31,377,Bloemendaal,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,377,Bloemendaal,Noord-Holland,27,Overleden,,
+2020-12-31,383,Castricum,Noord-Holland,27,Totaal,,
+2020-12-31,383,Castricum,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,383,Castricum,Noord-Holland,27,Overleden,,
+2020-12-31,384,Diemen,Noord-Holland,27,Totaal,,
+2020-12-31,384,Diemen,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,384,Diemen,Noord-Holland,27,Overleden,,
+2020-12-31,385,Edam-Volendam,Noord-Holland,27,Totaal,,
+2020-12-31,385,Edam-Volendam,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,385,Edam-Volendam,Noord-Holland,27,Overleden,,
+2020-12-31,388,Enkhuizen,Noord-Holland,27,Totaal,,
+2020-12-31,388,Enkhuizen,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,388,Enkhuizen,Noord-Holland,27,Overleden,,
+2020-12-31,392,Haarlem,Noord-Holland,27,Totaal,,
+2020-12-31,392,Haarlem,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,392,Haarlem,Noord-Holland,27,Overleden,,
+2020-12-31,394,Haarlemmermeer,Noord-Holland,27,Totaal,,
+2020-12-31,394,Haarlemmermeer,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,394,Haarlemmermeer,Noord-Holland,27,Overleden,,
+2020-12-31,396,Heemskerk,Noord-Holland,27,Totaal,,
+2020-12-31,396,Heemskerk,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,396,Heemskerk,Noord-Holland,27,Overleden,,
+2020-12-31,397,Heemstede,Noord-Holland,27,Totaal,,
+2020-12-31,397,Heemstede,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,397,Heemstede,Noord-Holland,27,Overleden,,
+2020-12-31,398,Heerhugowaard,Noord-Holland,27,Totaal,,
+2020-12-31,398,Heerhugowaard,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,398,Heerhugowaard,Noord-Holland,27,Overleden,,
+2020-12-31,399,Heiloo,Noord-Holland,27,Totaal,,
+2020-12-31,399,Heiloo,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,399,Heiloo,Noord-Holland,27,Overleden,,
+2020-12-31,400,Den Helder,Noord-Holland,27,Totaal,,
+2020-12-31,400,Den Helder,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,400,Den Helder,Noord-Holland,27,Overleden,,
+2020-12-31,402,Hilversum,Noord-Holland,27,Totaal,,
+2020-12-31,402,Hilversum,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,402,Hilversum,Noord-Holland,27,Overleden,,
+2020-12-31,405,Hoorn,Noord-Holland,27,Totaal,,
+2020-12-31,405,Hoorn,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,405,Hoorn,Noord-Holland,27,Overleden,,
+2020-12-31,406,Huizen,Noord-Holland,27,Totaal,,
+2020-12-31,406,Huizen,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,406,Huizen,Noord-Holland,27,Overleden,,
+2020-12-31,415,Landsmeer,Noord-Holland,27,Totaal,,
+2020-12-31,415,Landsmeer,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,415,Landsmeer,Noord-Holland,27,Overleden,,
+2020-12-31,416,Langedijk,Noord-Holland,27,Totaal,,
+2020-12-31,416,Langedijk,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,416,Langedijk,Noord-Holland,27,Overleden,,
+2020-12-31,417,Laren,Noord-Holland,27,Totaal,,
+2020-12-31,417,Laren,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,417,Laren,Noord-Holland,27,Overleden,,
+2020-12-31,420,Medemblik,Noord-Holland,27,Totaal,,
+2020-12-31,420,Medemblik,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,420,Medemblik,Noord-Holland,27,Overleden,,
+2020-12-31,431,Oostzaan,Noord-Holland,27,Totaal,,
+2020-12-31,431,Oostzaan,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,431,Oostzaan,Noord-Holland,27,Overleden,,
+2020-12-31,432,Opmeer,Noord-Holland,27,Totaal,,
+2020-12-31,432,Opmeer,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,432,Opmeer,Noord-Holland,27,Overleden,,
+2020-12-31,437,Ouder-Amstel,Noord-Holland,27,Totaal,,
+2020-12-31,437,Ouder-Amstel,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,437,Ouder-Amstel,Noord-Holland,27,Overleden,,
+2020-12-31,439,Purmerend,Noord-Holland,27,Totaal,,
+2020-12-31,439,Purmerend,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,439,Purmerend,Noord-Holland,27,Overleden,,
+2020-12-31,441,Schagen,Noord-Holland,27,Totaal,,
+2020-12-31,441,Schagen,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,441,Schagen,Noord-Holland,27,Overleden,,
+2020-12-31,448,Texel,Noord-Holland,27,Totaal,,
+2020-12-31,448,Texel,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,448,Texel,Noord-Holland,27,Overleden,,
+2020-12-31,450,Uitgeest,Noord-Holland,27,Totaal,,
+2020-12-31,450,Uitgeest,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,450,Uitgeest,Noord-Holland,27,Overleden,,
+2020-12-31,451,Uithoorn,Noord-Holland,27,Totaal,,
+2020-12-31,451,Uithoorn,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,451,Uithoorn,Noord-Holland,27,Overleden,,
+2020-12-31,453,Velsen,Noord-Holland,27,Totaal,,
+2020-12-31,453,Velsen,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,453,Velsen,Noord-Holland,27,Overleden,,
+2020-12-31,457,Weesp,Noord-Holland,27,Totaal,,
+2020-12-31,457,Weesp,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,457,Weesp,Noord-Holland,27,Overleden,,
+2020-12-31,473,Zandvoort,Noord-Holland,27,Totaal,,
+2020-12-31,473,Zandvoort,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,473,Zandvoort,Noord-Holland,27,Overleden,,
+2020-12-31,479,Zaanstad,Noord-Holland,27,Totaal,,
+2020-12-31,479,Zaanstad,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,479,Zaanstad,Noord-Holland,27,Overleden,,
+2020-12-31,482,Alblasserdam,Zuid-Holland,28,Totaal,,
+2020-12-31,482,Alblasserdam,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,482,Alblasserdam,Zuid-Holland,28,Overleden,,
+2020-12-31,484,Alphen aan den Rijn,Zuid-Holland,28,Totaal,,
+2020-12-31,484,Alphen aan den Rijn,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,484,Alphen aan den Rijn,Zuid-Holland,28,Overleden,,
+2020-12-31,489,Barendrecht,Zuid-Holland,28,Totaal,,
+2020-12-31,489,Barendrecht,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,489,Barendrecht,Zuid-Holland,28,Overleden,,
+2020-12-31,498,Drechterland,Noord-Holland,27,Totaal,,
+2020-12-31,498,Drechterland,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,498,Drechterland,Noord-Holland,27,Overleden,,
+2020-12-31,501,Brielle,Zuid-Holland,28,Totaal,,
+2020-12-31,501,Brielle,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,501,Brielle,Zuid-Holland,28,Overleden,,
+2020-12-31,502,Capelle aan den IJssel,Zuid-Holland,28,Totaal,,
+2020-12-31,502,Capelle aan den IJssel,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,502,Capelle aan den IJssel,Zuid-Holland,28,Overleden,,
+2020-12-31,503,Delft,Zuid-Holland,28,Totaal,,
+2020-12-31,503,Delft,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,503,Delft,Zuid-Holland,28,Overleden,,
+2020-12-31,505,Dordrecht,Zuid-Holland,28,Totaal,,
+2020-12-31,505,Dordrecht,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,505,Dordrecht,Zuid-Holland,28,Overleden,,
+2020-12-31,512,Gorinchem,Zuid-Holland,28,Totaal,,
+2020-12-31,512,Gorinchem,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,512,Gorinchem,Zuid-Holland,28,Overleden,,
+2020-12-31,513,Gouda,Zuid-Holland,28,Totaal,,
+2020-12-31,513,Gouda,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,513,Gouda,Zuid-Holland,28,Overleden,,
+2020-12-31,518,'s-Gravenhage,Zuid-Holland,28,Totaal,,
+2020-12-31,518,'s-Gravenhage,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,518,'s-Gravenhage,Zuid-Holland,28,Overleden,,
+2020-12-31,523,Hardinxveld-Giessendam,Zuid-Holland,28,Totaal,,
+2020-12-31,523,Hardinxveld-Giessendam,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,523,Hardinxveld-Giessendam,Zuid-Holland,28,Overleden,,
+2020-12-31,530,Hellevoetsluis,Zuid-Holland,28,Totaal,,
+2020-12-31,530,Hellevoetsluis,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,530,Hellevoetsluis,Zuid-Holland,28,Overleden,,
+2020-12-31,531,Hendrik-Ido-Ambacht,Zuid-Holland,28,Totaal,,
+2020-12-31,531,Hendrik-Ido-Ambacht,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,531,Hendrik-Ido-Ambacht,Zuid-Holland,28,Overleden,,
+2020-12-31,532,Stede Broec,Noord-Holland,27,Totaal,,
+2020-12-31,532,Stede Broec,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,532,Stede Broec,Noord-Holland,27,Overleden,,
+2020-12-31,534,Hillegom,Zuid-Holland,28,Totaal,,
+2020-12-31,534,Hillegom,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,534,Hillegom,Zuid-Holland,28,Overleden,,
+2020-12-31,537,Katwijk,Zuid-Holland,28,Totaal,,
+2020-12-31,537,Katwijk,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,537,Katwijk,Zuid-Holland,28,Overleden,,
+2020-12-31,542,Krimpen aan den IJssel,Zuid-Holland,28,Totaal,,
+2020-12-31,542,Krimpen aan den IJssel,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,542,Krimpen aan den IJssel,Zuid-Holland,28,Overleden,,
+2020-12-31,546,Leiden,Zuid-Holland,28,Totaal,,
+2020-12-31,546,Leiden,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,546,Leiden,Zuid-Holland,28,Overleden,,
+2020-12-31,547,Leiderdorp,Zuid-Holland,28,Totaal,,
+2020-12-31,547,Leiderdorp,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,547,Leiderdorp,Zuid-Holland,28,Overleden,,
+2020-12-31,553,Lisse,Zuid-Holland,28,Totaal,,
+2020-12-31,553,Lisse,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,553,Lisse,Zuid-Holland,28,Overleden,,
+2020-12-31,556,Maassluis,Zuid-Holland,28,Totaal,,
+2020-12-31,556,Maassluis,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,556,Maassluis,Zuid-Holland,28,Overleden,,
+2020-12-31,569,Nieuwkoop,Zuid-Holland,28,Totaal,,
+2020-12-31,569,Nieuwkoop,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,569,Nieuwkoop,Zuid-Holland,28,Overleden,,
+2020-12-31,575,Noordwijk,Zuid-Holland,28,Totaal,,
+2020-12-31,575,Noordwijk,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,575,Noordwijk,Zuid-Holland,28,Overleden,,
+2020-12-31,579,Oegstgeest,Zuid-Holland,28,Totaal,,
+2020-12-31,579,Oegstgeest,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,579,Oegstgeest,Zuid-Holland,28,Overleden,,
+2020-12-31,589,Oudewater,Utrecht,26,Totaal,,
+2020-12-31,589,Oudewater,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,589,Oudewater,Utrecht,26,Overleden,,
+2020-12-31,590,Papendrecht,Zuid-Holland,28,Totaal,,
+2020-12-31,590,Papendrecht,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,590,Papendrecht,Zuid-Holland,28,Overleden,,
+2020-12-31,597,Ridderkerk,Zuid-Holland,28,Totaal,,
+2020-12-31,597,Ridderkerk,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,597,Ridderkerk,Zuid-Holland,28,Overleden,,
+2020-12-31,599,Rotterdam,Zuid-Holland,28,Totaal,,
+2020-12-31,599,Rotterdam,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,599,Rotterdam,Zuid-Holland,28,Overleden,,
+2020-12-31,603,Rijswijk,Zuid-Holland,28,Totaal,,
+2020-12-31,603,Rijswijk,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,603,Rijswijk,Zuid-Holland,28,Overleden,,
+2020-12-31,606,Schiedam,Zuid-Holland,28,Totaal,,
+2020-12-31,606,Schiedam,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,606,Schiedam,Zuid-Holland,28,Overleden,,
+2020-12-31,610,Sliedrecht,Zuid-Holland,28,Totaal,,
+2020-12-31,610,Sliedrecht,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,610,Sliedrecht,Zuid-Holland,28,Overleden,,
+2020-12-31,613,Albrandswaard,Zuid-Holland,28,Totaal,,
+2020-12-31,613,Albrandswaard,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,613,Albrandswaard,Zuid-Holland,28,Overleden,,
+2020-12-31,614,Westvoorne,Zuid-Holland,28,Totaal,,
+2020-12-31,614,Westvoorne,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,614,Westvoorne,Zuid-Holland,28,Overleden,,
+2020-12-31,622,Vlaardingen,Zuid-Holland,28,Totaal,,
+2020-12-31,622,Vlaardingen,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,622,Vlaardingen,Zuid-Holland,28,Overleden,,
+2020-12-31,626,Voorschoten,Zuid-Holland,28,Totaal,,
+2020-12-31,626,Voorschoten,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,626,Voorschoten,Zuid-Holland,28,Overleden,,
+2020-12-31,627,Waddinxveen,Zuid-Holland,28,Totaal,,
+2020-12-31,627,Waddinxveen,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,627,Waddinxveen,Zuid-Holland,28,Overleden,,
+2020-12-31,629,Wassenaar,Zuid-Holland,28,Totaal,,
+2020-12-31,629,Wassenaar,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,629,Wassenaar,Zuid-Holland,28,Overleden,,
+2020-12-31,632,Woerden,Utrecht,26,Totaal,,
+2020-12-31,632,Woerden,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,632,Woerden,Utrecht,26,Overleden,,
+2020-12-31,637,Zoetermeer,Zuid-Holland,28,Totaal,,
+2020-12-31,637,Zoetermeer,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,637,Zoetermeer,Zuid-Holland,28,Overleden,,
+2020-12-31,638,Zoeterwoude,Zuid-Holland,28,Totaal,,
+2020-12-31,638,Zoeterwoude,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,638,Zoeterwoude,Zuid-Holland,28,Overleden,,
+2020-12-31,642,Zwijndrecht,Zuid-Holland,28,Totaal,,
+2020-12-31,642,Zwijndrecht,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,642,Zwijndrecht,Zuid-Holland,28,Overleden,,
+2020-12-31,654,Borsele,Zeeland,29,Totaal,,
+2020-12-31,654,Borsele,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,654,Borsele,Zeeland,29,Overleden,,
+2020-12-31,664,Goes,Zeeland,29,Totaal,,
+2020-12-31,664,Goes,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,664,Goes,Zeeland,29,Overleden,,
+2020-12-31,668,West Maas en Waal,Gelderland,25,Totaal,,
+2020-12-31,668,West Maas en Waal,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,668,West Maas en Waal,Gelderland,25,Overleden,,
+2020-12-31,677,Hulst,Zeeland,29,Totaal,,
+2020-12-31,677,Hulst,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,677,Hulst,Zeeland,29,Overleden,,
+2020-12-31,678,Kapelle,Zeeland,29,Totaal,,
+2020-12-31,678,Kapelle,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,678,Kapelle,Zeeland,29,Overleden,,
+2020-12-31,687,Middelburg,Zeeland,29,Totaal,,
+2020-12-31,687,Middelburg,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,687,Middelburg,Zeeland,29,Overleden,,
+2020-12-31,703,Reimerswaal,Zeeland,29,Totaal,,
+2020-12-31,703,Reimerswaal,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,703,Reimerswaal,Zeeland,29,Overleden,,
+2020-12-31,715,Terneuzen,Zeeland,29,Totaal,,
+2020-12-31,715,Terneuzen,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,715,Terneuzen,Zeeland,29,Overleden,,
+2020-12-31,716,Tholen,Zeeland,29,Totaal,,
+2020-12-31,716,Tholen,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,716,Tholen,Zeeland,29,Overleden,,
+2020-12-31,717,Veere,Zeeland,29,Totaal,,
+2020-12-31,717,Veere,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,717,Veere,Zeeland,29,Overleden,,
+2020-12-31,718,Vlissingen,Zeeland,29,Totaal,,
+2020-12-31,718,Vlissingen,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,718,Vlissingen,Zeeland,29,Overleden,,
+2020-12-31,736,De Ronde Venen,Utrecht,26,Totaal,,
+2020-12-31,736,De Ronde Venen,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,736,De Ronde Venen,Utrecht,26,Overleden,,
+2020-12-31,737,Tytsjerksteradiel,Friesland,21,Totaal,,
+2020-12-31,737,Tytsjerksteradiel,Friesland,21,Ziekenhuisopname,,
+2020-12-31,737,Tytsjerksteradiel,Friesland,21,Overleden,,
+2020-12-31,743,Asten,Noord-Brabant,30,Totaal,,
+2020-12-31,743,Asten,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,743,Asten,Noord-Brabant,30,Overleden,,
+2020-12-31,744,Baarle-Nassau,Noord-Brabant,30,Totaal,,
+2020-12-31,744,Baarle-Nassau,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,744,Baarle-Nassau,Noord-Brabant,30,Overleden,,
+2020-12-31,748,Bergen op Zoom,Noord-Brabant,30,Totaal,,
+2020-12-31,748,Bergen op Zoom,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,748,Bergen op Zoom,Noord-Brabant,30,Overleden,,
+2020-12-31,753,Best,Noord-Brabant,30,Totaal,,
+2020-12-31,753,Best,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,753,Best,Noord-Brabant,30,Overleden,,
+2020-12-31,755,Boekel,Noord-Brabant,30,Totaal,,
+2020-12-31,755,Boekel,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,755,Boekel,Noord-Brabant,30,Overleden,,
+2020-12-31,756,Boxmeer,Noord-Brabant,30,Totaal,,
+2020-12-31,756,Boxmeer,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,756,Boxmeer,Noord-Brabant,30,Overleden,,
+2020-12-31,757,Boxtel,Noord-Brabant,30,Totaal,,
+2020-12-31,757,Boxtel,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,757,Boxtel,Noord-Brabant,30,Overleden,,
+2020-12-31,758,Breda,Noord-Brabant,30,Totaal,,
+2020-12-31,758,Breda,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,758,Breda,Noord-Brabant,30,Overleden,,
+2020-12-31,762,Deurne,Noord-Brabant,30,Totaal,,
+2020-12-31,762,Deurne,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,762,Deurne,Noord-Brabant,30,Overleden,,
+2020-12-31,765,Pekela,Groningen,20,Totaal,,
+2020-12-31,765,Pekela,Groningen,20,Ziekenhuisopname,,
+2020-12-31,765,Pekela,Groningen,20,Overleden,,
+2020-12-31,766,Dongen,Noord-Brabant,30,Totaal,,
+2020-12-31,766,Dongen,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,766,Dongen,Noord-Brabant,30,Overleden,,
+2020-12-31,770,Eersel,Noord-Brabant,30,Totaal,,
+2020-12-31,770,Eersel,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,770,Eersel,Noord-Brabant,30,Overleden,,
+2020-12-31,772,Eindhoven,Noord-Brabant,30,Totaal,,
+2020-12-31,772,Eindhoven,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,772,Eindhoven,Noord-Brabant,30,Overleden,,
+2020-12-31,777,Etten-Leur,Noord-Brabant,30,Totaal,,
+2020-12-31,777,Etten-Leur,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,777,Etten-Leur,Noord-Brabant,30,Overleden,,
+2020-12-31,779,Geertruidenberg,Noord-Brabant,30,Totaal,,
+2020-12-31,779,Geertruidenberg,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,779,Geertruidenberg,Noord-Brabant,30,Overleden,,
+2020-12-31,784,Gilze en Rijen,Noord-Brabant,30,Totaal,,
+2020-12-31,784,Gilze en Rijen,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,784,Gilze en Rijen,Noord-Brabant,30,Overleden,,
+2020-12-31,785,Goirle,Noord-Brabant,30,Totaal,,
+2020-12-31,785,Goirle,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,785,Goirle,Noord-Brabant,30,Overleden,,
+2020-12-31,786,Grave,Noord-Brabant,30,Totaal,,
+2020-12-31,786,Grave,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,786,Grave,Noord-Brabant,30,Overleden,,
+2020-12-31,788,Haaren,Noord-Brabant,30,Totaal,,
+2020-12-31,788,Haaren,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,788,Haaren,Noord-Brabant,30,Overleden,,
+2020-12-31,794,Helmond,Noord-Brabant,30,Totaal,,
+2020-12-31,794,Helmond,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,794,Helmond,Noord-Brabant,30,Overleden,,
+2020-12-31,796,'s-Hertogenbosch,Noord-Brabant,30,Totaal,,
+2020-12-31,796,'s-Hertogenbosch,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,796,'s-Hertogenbosch,Noord-Brabant,30,Overleden,,
+2020-12-31,797,Heusden,Noord-Brabant,30,Totaal,,
+2020-12-31,797,Heusden,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,797,Heusden,Noord-Brabant,30,Overleden,,
+2020-12-31,798,Hilvarenbeek,Noord-Brabant,30,Totaal,,
+2020-12-31,798,Hilvarenbeek,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,798,Hilvarenbeek,Noord-Brabant,30,Overleden,,
+2020-12-31,809,Loon op Zand,Noord-Brabant,30,Totaal,,
+2020-12-31,809,Loon op Zand,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,809,Loon op Zand,Noord-Brabant,30,Overleden,,
+2020-12-31,815,Mill en Sint Hubert,Noord-Brabant,30,Totaal,,
+2020-12-31,815,Mill en Sint Hubert,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,815,Mill en Sint Hubert,Noord-Brabant,30,Overleden,,
+2020-12-31,820,"Nuenen, Gerwen en Nederwetten",Noord-Brabant,30,Totaal,,
+2020-12-31,820,"Nuenen, Gerwen en Nederwetten",Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,820,"Nuenen, Gerwen en Nederwetten",Noord-Brabant,30,Overleden,,
+2020-12-31,823,Oirschot,Noord-Brabant,30,Totaal,,
+2020-12-31,823,Oirschot,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,823,Oirschot,Noord-Brabant,30,Overleden,,
+2020-12-31,824,Oisterwijk,Noord-Brabant,30,Totaal,,
+2020-12-31,824,Oisterwijk,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,824,Oisterwijk,Noord-Brabant,30,Overleden,,
+2020-12-31,826,Oosterhout,Noord-Brabant,30,Totaal,,
+2020-12-31,826,Oosterhout,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,826,Oosterhout,Noord-Brabant,30,Overleden,,
+2020-12-31,828,Oss,Noord-Brabant,30,Totaal,,
+2020-12-31,828,Oss,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,828,Oss,Noord-Brabant,30,Overleden,,
+2020-12-31,840,Rucphen,Noord-Brabant,30,Totaal,,
+2020-12-31,840,Rucphen,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,840,Rucphen,Noord-Brabant,30,Overleden,,
+2020-12-31,845,Sint-Michielsgestel,Noord-Brabant,30,Totaal,,
+2020-12-31,845,Sint-Michielsgestel,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,845,Sint-Michielsgestel,Noord-Brabant,30,Overleden,,
+2020-12-31,847,Someren,Noord-Brabant,30,Totaal,,
+2020-12-31,847,Someren,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,847,Someren,Noord-Brabant,30,Overleden,,
+2020-12-31,848,Son en Breugel,Noord-Brabant,30,Totaal,,
+2020-12-31,848,Son en Breugel,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,848,Son en Breugel,Noord-Brabant,30,Overleden,,
+2020-12-31,851,Steenbergen,Noord-Brabant,30,Totaal,,
+2020-12-31,851,Steenbergen,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,851,Steenbergen,Noord-Brabant,30,Overleden,,
+2020-12-31,852,Waterland,Noord-Holland,27,Totaal,,
+2020-12-31,852,Waterland,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,852,Waterland,Noord-Holland,27,Overleden,,
+2020-12-31,855,Tilburg,Noord-Brabant,30,Totaal,,
+2020-12-31,855,Tilburg,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,855,Tilburg,Noord-Brabant,30,Overleden,,
+2020-12-31,856,Uden,Noord-Brabant,30,Totaal,,
+2020-12-31,856,Uden,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,856,Uden,Noord-Brabant,30,Overleden,,
+2020-12-31,858,Valkenswaard,Noord-Brabant,30,Totaal,,
+2020-12-31,858,Valkenswaard,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,858,Valkenswaard,Noord-Brabant,30,Overleden,,
+2020-12-31,861,Veldhoven,Noord-Brabant,30,Totaal,,
+2020-12-31,861,Veldhoven,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,861,Veldhoven,Noord-Brabant,30,Overleden,,
+2020-12-31,865,Vught,Noord-Brabant,30,Totaal,,
+2020-12-31,865,Vught,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,865,Vught,Noord-Brabant,30,Overleden,,
+2020-12-31,866,Waalre,Noord-Brabant,30,Totaal,,
+2020-12-31,866,Waalre,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,866,Waalre,Noord-Brabant,30,Overleden,,
+2020-12-31,867,Waalwijk,Noord-Brabant,30,Totaal,,
+2020-12-31,867,Waalwijk,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,867,Waalwijk,Noord-Brabant,30,Overleden,,
+2020-12-31,873,Woensdrecht,Noord-Brabant,30,Totaal,,
+2020-12-31,873,Woensdrecht,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,873,Woensdrecht,Noord-Brabant,30,Overleden,,
+2020-12-31,879,Zundert,Noord-Brabant,30,Totaal,,
+2020-12-31,879,Zundert,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,879,Zundert,Noord-Brabant,30,Overleden,,
+2020-12-31,880,Wormerland,Noord-Holland,27,Totaal,,
+2020-12-31,880,Wormerland,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,880,Wormerland,Noord-Holland,27,Overleden,,
+2020-12-31,882,Landgraaf,Limburg,31,Totaal,,
+2020-12-31,882,Landgraaf,Limburg,31,Ziekenhuisopname,,
+2020-12-31,882,Landgraaf,Limburg,31,Overleden,,
+2020-12-31,888,Beek,Limburg,31,Totaal,,
+2020-12-31,888,Beek,Limburg,31,Ziekenhuisopname,,
+2020-12-31,888,Beek,Limburg,31,Overleden,,
+2020-12-31,889,Beesel,Limburg,31,Totaal,,
+2020-12-31,889,Beesel,Limburg,31,Ziekenhuisopname,,
+2020-12-31,889,Beesel,Limburg,31,Overleden,,
+2020-12-31,893,Bergen (L.),Limburg,31,Totaal,,
+2020-12-31,893,Bergen (L.),Limburg,31,Ziekenhuisopname,,
+2020-12-31,893,Bergen (L.),Limburg,31,Overleden,,
+2020-12-31,899,Brunssum,Limburg,31,Totaal,,
+2020-12-31,899,Brunssum,Limburg,31,Ziekenhuisopname,,
+2020-12-31,899,Brunssum,Limburg,31,Overleden,,
+2020-12-31,907,Gennep,Limburg,31,Totaal,,
+2020-12-31,907,Gennep,Limburg,31,Ziekenhuisopname,,
+2020-12-31,907,Gennep,Limburg,31,Overleden,,
+2020-12-31,917,Heerlen,Limburg,31,Totaal,,
+2020-12-31,917,Heerlen,Limburg,31,Ziekenhuisopname,,
+2020-12-31,917,Heerlen,Limburg,31,Overleden,,
+2020-12-31,928,Kerkrade,Limburg,31,Totaal,,
+2020-12-31,928,Kerkrade,Limburg,31,Ziekenhuisopname,,
+2020-12-31,928,Kerkrade,Limburg,31,Overleden,,
+2020-12-31,935,Maastricht,Limburg,31,Totaal,,
+2020-12-31,935,Maastricht,Limburg,31,Ziekenhuisopname,,
+2020-12-31,935,Maastricht,Limburg,31,Overleden,,
+2020-12-31,938,Meerssen,Limburg,31,Totaal,,
+2020-12-31,938,Meerssen,Limburg,31,Ziekenhuisopname,,
+2020-12-31,938,Meerssen,Limburg,31,Overleden,,
+2020-12-31,944,Mook en Middelaar,Limburg,31,Totaal,,
+2020-12-31,944,Mook en Middelaar,Limburg,31,Ziekenhuisopname,,
+2020-12-31,944,Mook en Middelaar,Limburg,31,Overleden,,
+2020-12-31,946,Nederweert,Limburg,31,Totaal,,
+2020-12-31,946,Nederweert,Limburg,31,Ziekenhuisopname,,
+2020-12-31,946,Nederweert,Limburg,31,Overleden,,
+2020-12-31,957,Roermond,Limburg,31,Totaal,,
+2020-12-31,957,Roermond,Limburg,31,Ziekenhuisopname,,
+2020-12-31,957,Roermond,Limburg,31,Overleden,,
+2020-12-31,965,Simpelveld,Limburg,31,Totaal,,
+2020-12-31,965,Simpelveld,Limburg,31,Ziekenhuisopname,,
+2020-12-31,965,Simpelveld,Limburg,31,Overleden,,
+2020-12-31,971,Stein,Limburg,31,Totaal,,
+2020-12-31,971,Stein,Limburg,31,Ziekenhuisopname,,
+2020-12-31,971,Stein,Limburg,31,Overleden,,
+2020-12-31,981,Vaals,Limburg,31,Totaal,,
+2020-12-31,981,Vaals,Limburg,31,Ziekenhuisopname,,
+2020-12-31,981,Vaals,Limburg,31,Overleden,,
+2020-12-31,983,Venlo,Limburg,31,Totaal,,
+2020-12-31,983,Venlo,Limburg,31,Ziekenhuisopname,,
+2020-12-31,983,Venlo,Limburg,31,Overleden,,
+2020-12-31,984,Venray,Limburg,31,Totaal,,
+2020-12-31,984,Venray,Limburg,31,Ziekenhuisopname,,
+2020-12-31,984,Venray,Limburg,31,Overleden,,
+2020-12-31,986,Voerendaal,Limburg,31,Totaal,,
+2020-12-31,986,Voerendaal,Limburg,31,Ziekenhuisopname,,
+2020-12-31,986,Voerendaal,Limburg,31,Overleden,,
+2020-12-31,988,Weert,Limburg,31,Totaal,,
+2020-12-31,988,Weert,Limburg,31,Ziekenhuisopname,,
+2020-12-31,988,Weert,Limburg,31,Overleden,,
+2020-12-31,994,Valkenburg aan de Geul,Limburg,31,Totaal,,
+2020-12-31,994,Valkenburg aan de Geul,Limburg,31,Ziekenhuisopname,,
+2020-12-31,994,Valkenburg aan de Geul,Limburg,31,Overleden,,
+2020-12-31,995,Lelystad,Flevoland,24,Totaal,,
+2020-12-31,995,Lelystad,Flevoland,24,Ziekenhuisopname,,
+2020-12-31,995,Lelystad,Flevoland,24,Overleden,,
+2020-12-31,1507,Horst aan de Maas,Limburg,31,Totaal,,
+2020-12-31,1507,Horst aan de Maas,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1507,Horst aan de Maas,Limburg,31,Overleden,,
+2020-12-31,1509,Oude IJsselstreek,Gelderland,25,Totaal,,
+2020-12-31,1509,Oude IJsselstreek,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1509,Oude IJsselstreek,Gelderland,25,Overleden,,
+2020-12-31,1525,Teylingen,Zuid-Holland,28,Totaal,,
+2020-12-31,1525,Teylingen,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1525,Teylingen,Zuid-Holland,28,Overleden,,
+2020-12-31,1581,Utrechtse Heuvelrug,Utrecht,26,Totaal,,
+2020-12-31,1581,Utrechtse Heuvelrug,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,1581,Utrechtse Heuvelrug,Utrecht,26,Overleden,,
+2020-12-31,1586,Oost Gelre,Gelderland,25,Totaal,,
+2020-12-31,1586,Oost Gelre,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1586,Oost Gelre,Gelderland,25,Overleden,,
+2020-12-31,1598,Koggenland,Noord-Holland,27,Totaal,,
+2020-12-31,1598,Koggenland,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,1598,Koggenland,Noord-Holland,27,Overleden,,
+2020-12-31,1621,Lansingerland,Zuid-Holland,28,Totaal,,
+2020-12-31,1621,Lansingerland,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1621,Lansingerland,Zuid-Holland,28,Overleden,,
+2020-12-31,1640,Leudal,Limburg,31,Totaal,,
+2020-12-31,1640,Leudal,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1640,Leudal,Limburg,31,Overleden,,
+2020-12-31,1641,Maasgouw,Limburg,31,Totaal,,
+2020-12-31,1641,Maasgouw,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1641,Maasgouw,Limburg,31,Overleden,,
+2020-12-31,1652,Gemert-Bakel,Noord-Brabant,30,Totaal,,
+2020-12-31,1652,Gemert-Bakel,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1652,Gemert-Bakel,Noord-Brabant,30,Overleden,,
+2020-12-31,1655,Halderberge,Noord-Brabant,30,Totaal,,
+2020-12-31,1655,Halderberge,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1655,Halderberge,Noord-Brabant,30,Overleden,,
+2020-12-31,1658,Heeze-Leende,Noord-Brabant,30,Totaal,,
+2020-12-31,1658,Heeze-Leende,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1658,Heeze-Leende,Noord-Brabant,30,Overleden,,
+2020-12-31,1659,Laarbeek,Noord-Brabant,30,Totaal,,
+2020-12-31,1659,Laarbeek,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1659,Laarbeek,Noord-Brabant,30,Overleden,,
+2020-12-31,1667,Reusel-De Mierden,Noord-Brabant,30,Totaal,,
+2020-12-31,1667,Reusel-De Mierden,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1667,Reusel-De Mierden,Noord-Brabant,30,Overleden,,
+2020-12-31,1669,Roerdalen,Limburg,31,Totaal,,
+2020-12-31,1669,Roerdalen,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1669,Roerdalen,Limburg,31,Overleden,,
+2020-12-31,1674,Roosendaal,Noord-Brabant,30,Totaal,,
+2020-12-31,1674,Roosendaal,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1674,Roosendaal,Noord-Brabant,30,Overleden,,
+2020-12-31,1676,Schouwen-Duiveland,Zeeland,29,Totaal,,
+2020-12-31,1676,Schouwen-Duiveland,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,1676,Schouwen-Duiveland,Zeeland,29,Overleden,,
+2020-12-31,1680,Aa en Hunze,Drenthe,22,Totaal,,
+2020-12-31,1680,Aa en Hunze,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,1680,Aa en Hunze,Drenthe,22,Overleden,,
+2020-12-31,1681,Borger-Odoorn,Drenthe,22,Totaal,,
+2020-12-31,1681,Borger-Odoorn,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,1681,Borger-Odoorn,Drenthe,22,Overleden,,
+2020-12-31,1684,Cuijk,Noord-Brabant,30,Totaal,,
+2020-12-31,1684,Cuijk,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1684,Cuijk,Noord-Brabant,30,Overleden,,
+2020-12-31,1685,Landerd,Noord-Brabant,30,Totaal,,
+2020-12-31,1685,Landerd,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1685,Landerd,Noord-Brabant,30,Overleden,,
+2020-12-31,1690,De Wolden,Drenthe,22,Totaal,,
+2020-12-31,1690,De Wolden,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,1690,De Wolden,Drenthe,22,Overleden,,
+2020-12-31,1695,Noord-Beveland,Zeeland,29,Totaal,,
+2020-12-31,1695,Noord-Beveland,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,1695,Noord-Beveland,Zeeland,29,Overleden,,
+2020-12-31,1696,Wijdemeren,Noord-Holland,27,Totaal,,
+2020-12-31,1696,Wijdemeren,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,1696,Wijdemeren,Noord-Holland,27,Overleden,,
+2020-12-31,1699,Noordenveld,Drenthe,22,Totaal,,
+2020-12-31,1699,Noordenveld,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,1699,Noordenveld,Drenthe,22,Overleden,,
+2020-12-31,1700,Twenterand,Overijssel,23,Totaal,,
+2020-12-31,1700,Twenterand,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,1700,Twenterand,Overijssel,23,Overleden,,
+2020-12-31,1701,Westerveld,Drenthe,22,Totaal,,
+2020-12-31,1701,Westerveld,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,1701,Westerveld,Drenthe,22,Overleden,,
+2020-12-31,1702,Sint Anthonis,Noord-Brabant,30,Totaal,,
+2020-12-31,1702,Sint Anthonis,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1702,Sint Anthonis,Noord-Brabant,30,Overleden,,
+2020-12-31,1705,Lingewaard,Gelderland,25,Totaal,,
+2020-12-31,1705,Lingewaard,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1705,Lingewaard,Gelderland,25,Overleden,,
+2020-12-31,1706,Cranendonck,Noord-Brabant,30,Totaal,,
+2020-12-31,1706,Cranendonck,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1706,Cranendonck,Noord-Brabant,30,Overleden,,
+2020-12-31,1708,Steenwijkerland,Overijssel,23,Totaal,,
+2020-12-31,1708,Steenwijkerland,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,1708,Steenwijkerland,Overijssel,23,Overleden,,
+2020-12-31,1709,Moerdijk,Noord-Brabant,30,Totaal,,
+2020-12-31,1709,Moerdijk,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1709,Moerdijk,Noord-Brabant,30,Overleden,,
+2020-12-31,1711,Echt-Susteren,Limburg,31,Totaal,,
+2020-12-31,1711,Echt-Susteren,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1711,Echt-Susteren,Limburg,31,Overleden,,
+2020-12-31,1714,Sluis,Zeeland,29,Totaal,,
+2020-12-31,1714,Sluis,Zeeland,29,Ziekenhuisopname,,
+2020-12-31,1714,Sluis,Zeeland,29,Overleden,,
+2020-12-31,1719,Drimmelen,Noord-Brabant,30,Totaal,,
+2020-12-31,1719,Drimmelen,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1719,Drimmelen,Noord-Brabant,30,Overleden,,
+2020-12-31,1721,Bernheze,Noord-Brabant,30,Totaal,,
+2020-12-31,1721,Bernheze,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1721,Bernheze,Noord-Brabant,30,Overleden,,
+2020-12-31,1723,Alphen-Chaam,Noord-Brabant,30,Totaal,,
+2020-12-31,1723,Alphen-Chaam,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1723,Alphen-Chaam,Noord-Brabant,30,Overleden,,
+2020-12-31,1724,Bergeijk,Noord-Brabant,30,Totaal,,
+2020-12-31,1724,Bergeijk,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1724,Bergeijk,Noord-Brabant,30,Overleden,,
+2020-12-31,1728,Bladel,Noord-Brabant,30,Totaal,,
+2020-12-31,1728,Bladel,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1728,Bladel,Noord-Brabant,30,Overleden,,
+2020-12-31,1729,Gulpen-Wittem,Limburg,31,Totaal,,
+2020-12-31,1729,Gulpen-Wittem,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1729,Gulpen-Wittem,Limburg,31,Overleden,,
+2020-12-31,1730,Tynaarlo,Drenthe,22,Totaal,,
+2020-12-31,1730,Tynaarlo,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,1730,Tynaarlo,Drenthe,22,Overleden,,
+2020-12-31,1731,Midden-Drenthe,Drenthe,22,Totaal,,
+2020-12-31,1731,Midden-Drenthe,Drenthe,22,Ziekenhuisopname,,
+2020-12-31,1731,Midden-Drenthe,Drenthe,22,Overleden,,
+2020-12-31,1734,Overbetuwe,Gelderland,25,Totaal,,
+2020-12-31,1734,Overbetuwe,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1734,Overbetuwe,Gelderland,25,Overleden,,
+2020-12-31,1735,Hof van Twente,Overijssel,23,Totaal,,
+2020-12-31,1735,Hof van Twente,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,1735,Hof van Twente,Overijssel,23,Overleden,,
+2020-12-31,1740,Neder-Betuwe,Gelderland,25,Totaal,,
+2020-12-31,1740,Neder-Betuwe,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1740,Neder-Betuwe,Gelderland,25,Overleden,,
+2020-12-31,1742,Rijssen-Holten,Overijssel,23,Totaal,,
+2020-12-31,1742,Rijssen-Holten,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,1742,Rijssen-Holten,Overijssel,23,Overleden,,
+2020-12-31,1771,Geldrop-Mierlo,Noord-Brabant,30,Totaal,,
+2020-12-31,1771,Geldrop-Mierlo,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1771,Geldrop-Mierlo,Noord-Brabant,30,Overleden,,
+2020-12-31,1773,Olst-Wijhe,Overijssel,23,Totaal,,
+2020-12-31,1773,Olst-Wijhe,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,1773,Olst-Wijhe,Overijssel,23,Overleden,,
+2020-12-31,1774,Dinkelland,Overijssel,23,Totaal,,
+2020-12-31,1774,Dinkelland,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,1774,Dinkelland,Overijssel,23,Overleden,,
+2020-12-31,1783,Westland,Zuid-Holland,28,Totaal,,
+2020-12-31,1783,Westland,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1783,Westland,Zuid-Holland,28,Overleden,,
+2020-12-31,1842,Midden-Delfland,Zuid-Holland,28,Totaal,,
+2020-12-31,1842,Midden-Delfland,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1842,Midden-Delfland,Zuid-Holland,28,Overleden,,
+2020-12-31,1859,Berkelland,Gelderland,25,Totaal,,
+2020-12-31,1859,Berkelland,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1859,Berkelland,Gelderland,25,Overleden,,
+2020-12-31,1876,Bronckhorst,Gelderland,25,Totaal,,
+2020-12-31,1876,Bronckhorst,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1876,Bronckhorst,Gelderland,25,Overleden,,
+2020-12-31,1883,Sittard-Geleen,Limburg,31,Totaal,,
+2020-12-31,1883,Sittard-Geleen,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1883,Sittard-Geleen,Limburg,31,Overleden,,
+2020-12-31,1884,Kaag en Braassem,Zuid-Holland,28,Totaal,,
+2020-12-31,1884,Kaag en Braassem,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1884,Kaag en Braassem,Zuid-Holland,28,Overleden,,
+2020-12-31,1891,Dantumadiel,Friesland,21,Totaal,,
+2020-12-31,1891,Dantumadiel,Friesland,21,Ziekenhuisopname,,
+2020-12-31,1891,Dantumadiel,Friesland,21,Overleden,,
+2020-12-31,1892,Zuidplas,Zuid-Holland,28,Totaal,,
+2020-12-31,1892,Zuidplas,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1892,Zuidplas,Zuid-Holland,28,Overleden,,
+2020-12-31,1894,Peel en Maas,Limburg,31,Totaal,,
+2020-12-31,1894,Peel en Maas,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1894,Peel en Maas,Limburg,31,Overleden,,
+2020-12-31,1895,Oldambt,Groningen,20,Totaal,,
+2020-12-31,1895,Oldambt,Groningen,20,Ziekenhuisopname,,
+2020-12-31,1895,Oldambt,Groningen,20,Overleden,,
+2020-12-31,1896,Zwartewaterland,Overijssel,23,Totaal,,
+2020-12-31,1896,Zwartewaterland,Overijssel,23,Ziekenhuisopname,,
+2020-12-31,1896,Zwartewaterland,Overijssel,23,Overleden,,
+2020-12-31,1900,Súdwest-Fryslân,Friesland,21,Totaal,,
+2020-12-31,1900,Súdwest-Fryslân,Friesland,21,Ziekenhuisopname,,
+2020-12-31,1900,Súdwest-Fryslân,Friesland,21,Overleden,,
+2020-12-31,1901,Bodegraven-Reeuwijk,Zuid-Holland,28,Totaal,,
+2020-12-31,1901,Bodegraven-Reeuwijk,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1901,Bodegraven-Reeuwijk,Zuid-Holland,28,Overleden,,
+2020-12-31,1903,Eijsden-Margraten,Limburg,31,Totaal,,
+2020-12-31,1903,Eijsden-Margraten,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1903,Eijsden-Margraten,Limburg,31,Overleden,,
+2020-12-31,1904,Stichtse Vecht,Utrecht,26,Totaal,,
+2020-12-31,1904,Stichtse Vecht,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,1904,Stichtse Vecht,Utrecht,26,Overleden,,
+2020-12-31,1911,Hollands Kroon,Noord-Holland,27,Totaal,,
+2020-12-31,1911,Hollands Kroon,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,1911,Hollands Kroon,Noord-Holland,27,Overleden,,
+2020-12-31,1916,Leidschendam-Voorburg,Zuid-Holland,28,Totaal,,
+2020-12-31,1916,Leidschendam-Voorburg,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1916,Leidschendam-Voorburg,Zuid-Holland,28,Overleden,,
+2020-12-31,1924,Goeree-Overflakkee,Zuid-Holland,28,Totaal,,
+2020-12-31,1924,Goeree-Overflakkee,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1924,Goeree-Overflakkee,Zuid-Holland,28,Overleden,,
+2020-12-31,1926,Pijnacker-Nootdorp,Zuid-Holland,28,Totaal,,
+2020-12-31,1926,Pijnacker-Nootdorp,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1926,Pijnacker-Nootdorp,Zuid-Holland,28,Overleden,,
+2020-12-31,1930,Nissewaard,Zuid-Holland,28,Totaal,,
+2020-12-31,1930,Nissewaard,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1930,Nissewaard,Zuid-Holland,28,Overleden,,
+2020-12-31,1931,Krimpenerwaard,Zuid-Holland,28,Totaal,,
+2020-12-31,1931,Krimpenerwaard,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1931,Krimpenerwaard,Zuid-Holland,28,Overleden,,
+2020-12-31,1940,De Fryske Marren,Friesland,21,Totaal,,
+2020-12-31,1940,De Fryske Marren,Friesland,21,Ziekenhuisopname,,
+2020-12-31,1940,De Fryske Marren,Friesland,21,Overleden,,
+2020-12-31,1942,Gooise Meren,Noord-Holland,27,Totaal,,
+2020-12-31,1942,Gooise Meren,Noord-Holland,27,Ziekenhuisopname,,
+2020-12-31,1942,Gooise Meren,Noord-Holland,27,Overleden,,
+2020-12-31,1945,Berg en Dal,Gelderland,25,Totaal,,
+2020-12-31,1945,Berg en Dal,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1945,Berg en Dal,Gelderland,25,Overleden,,
+2020-12-31,1948,Meierijstad,Noord-Brabant,30,Totaal,,
+2020-12-31,1948,Meierijstad,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1948,Meierijstad,Noord-Brabant,30,Overleden,,
+2020-12-31,1949,Waadhoeke,Friesland,21,Totaal,,
+2020-12-31,1949,Waadhoeke,Friesland,21,Ziekenhuisopname,,
+2020-12-31,1949,Waadhoeke,Friesland,21,Overleden,,
+2020-12-31,1950,Westerwolde,Groningen,20,Totaal,,
+2020-12-31,1950,Westerwolde,Groningen,20,Ziekenhuisopname,,
+2020-12-31,1950,Westerwolde,Groningen,20,Overleden,,
+2020-12-31,1952,Midden-Groningen,Groningen,20,Totaal,,
+2020-12-31,1952,Midden-Groningen,Groningen,20,Ziekenhuisopname,,
+2020-12-31,1952,Midden-Groningen,Groningen,20,Overleden,,
+2020-12-31,1954,Beekdaelen,Limburg,31,Totaal,,
+2020-12-31,1954,Beekdaelen,Limburg,31,Ziekenhuisopname,,
+2020-12-31,1954,Beekdaelen,Limburg,31,Overleden,,
+2020-12-31,1955,Montferland,Gelderland,25,Totaal,,
+2020-12-31,1955,Montferland,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1955,Montferland,Gelderland,25,Overleden,,
+2020-12-31,1959,Altena,Noord-Brabant,30,Totaal,,
+2020-12-31,1959,Altena,Noord-Brabant,30,Ziekenhuisopname,,
+2020-12-31,1959,Altena,Noord-Brabant,30,Overleden,,
+2020-12-31,1960,West Betuwe,Gelderland,25,Totaal,,
+2020-12-31,1960,West Betuwe,Gelderland,25,Ziekenhuisopname,,
+2020-12-31,1960,West Betuwe,Gelderland,25,Overleden,,
+2020-12-31,1961,Vijfheerenlanden,Utrecht,26,Totaal,,
+2020-12-31,1961,Vijfheerenlanden,Utrecht,26,Ziekenhuisopname,,
+2020-12-31,1961,Vijfheerenlanden,Utrecht,26,Overleden,,
+2020-12-31,1963,Hoeksche Waard,Zuid-Holland,28,Totaal,,
+2020-12-31,1963,Hoeksche Waard,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1963,Hoeksche Waard,Zuid-Holland,28,Overleden,,
+2020-12-31,1966,Het Hogeland,Groningen,20,Totaal,,
+2020-12-31,1966,Het Hogeland,Groningen,20,Ziekenhuisopname,,
+2020-12-31,1966,Het Hogeland,Groningen,20,Overleden,,
+2020-12-31,1969,Westerkwartier,Groningen,20,Totaal,,
+2020-12-31,1969,Westerkwartier,Groningen,20,Ziekenhuisopname,,
+2020-12-31,1969,Westerkwartier,Groningen,20,Overleden,,
+2020-12-31,1970,Noardeast-Fryslân,Friesland,21,Totaal,,
+2020-12-31,1970,Noardeast-Fryslân,Friesland,21,Ziekenhuisopname,,
+2020-12-31,1970,Noardeast-Fryslân,Friesland,21,Overleden,,
+2020-12-31,1978,Molenlanden,Zuid-Holland,28,Totaal,,
+2020-12-31,1978,Molenlanden,Zuid-Holland,28,Ziekenhuisopname,,
+2020-12-31,1978,Molenlanden,Zuid-Holland,28,Overleden,,
