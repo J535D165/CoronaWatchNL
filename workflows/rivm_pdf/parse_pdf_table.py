@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 DATE = datetime.date.today()
-DATE = datetime.date(2021, 1, 12)
+DATE = datetime.date(2021, 2, 2)
 
 
 AGES = ["0-4", "5-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54",
