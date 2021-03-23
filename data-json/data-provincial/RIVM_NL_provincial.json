@@ -51519,6 +51519,138 @@
       "overledenAantalCumulatief": 3945,
       "totaalAantalCumulatief": 283975,
       "ziekenhuisopnameAantalCumulatief": 6628
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Drenthe",
+      "Provinciecode": 22,
+      "overledenAantal": 1,
+      "totaalAantal": 189,
+      "ziekenhuisopnameAantal": 3,
+      "overledenAantalCumulatief": 320,
+      "totaalAantalCumulatief": 25185,
+      "ziekenhuisopnameAantalCumulatief": 425
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Flevoland",
+      "Provinciecode": 24,
+      "overledenAantal": 0,
+      "totaalAantal": 114,
+      "ziekenhuisopnameAantal": 4,
+      "overledenAantalCumulatief": 225,
+      "totaalAantalCumulatief": 28016,
+      "ziekenhuisopnameAantalCumulatief": 564
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Friesland",
+      "Provinciecode": 21,
+      "overledenAantal": 5,
+      "totaalAantal": 214,
+      "ziekenhuisopnameAantal": 2,
+      "overledenAantalCumulatief": 441,
+      "totaalAantalCumulatief": 30801,
+      "ziekenhuisopnameAantalCumulatief": 392
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Gelderland",
+      "Provinciecode": 25,
+      "overledenAantal": 10,
+      "totaalAantal": 639,
+      "ziekenhuisopnameAantal": 9,
+      "overledenAantalCumulatief": 1878,
+      "totaalAantalCumulatief": 134549,
+      "ziekenhuisopnameAantalCumulatief": 2643
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Groningen",
+      "Provinciecode": 20,
+      "overledenAantal": 1,
+      "totaalAantal": 129,
+      "ziekenhuisopnameAantal": 3,
+      "overledenAantalCumulatief": 201,
+      "totaalAantalCumulatief": 25915,
+      "ziekenhuisopnameAantalCumulatief": 293
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Limburg",
+      "Provinciecode": 31,
+      "overledenAantal": 3,
+      "totaalAantal": 363,
+      "ziekenhuisopnameAantal": 4,
+      "overledenAantalCumulatief": 1500,
+      "totaalAantalCumulatief": 78822,
+      "ziekenhuisopnameAantalCumulatief": 2306
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Noord-Brabant",
+      "Provinciecode": 30,
+      "overledenAantal": 5,
+      "totaalAantal": 862,
+      "ziekenhuisopnameAantal": 4,
+      "overledenAantalCumulatief": 2964,
+      "totaalAantalCumulatief": 190411,
+      "ziekenhuisopnameAantalCumulatief": 4425
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Noord-Holland",
+      "Provinciecode": 27,
+      "overledenAantal": 7,
+      "totaalAantal": 944,
+      "ziekenhuisopnameAantal": 13,
+      "overledenAantalCumulatief": 2359,
+      "totaalAantalCumulatief": 210701,
+      "ziekenhuisopnameAantalCumulatief": 3986
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Overijssel",
+      "Provinciecode": 23,
+      "overledenAantal": 6,
+      "totaalAantal": 237,
+      "ziekenhuisopnameAantal": 1,
+      "overledenAantalCumulatief": 1062,
+      "totaalAantalCumulatief": 82308,
+      "ziekenhuisopnameAantalCumulatief": 1186
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Utrecht",
+      "Provinciecode": 26,
+      "overledenAantal": 3,
+      "totaalAantal": 438,
+      "ziekenhuisopnameAantal": 7,
+      "overledenAantalCumulatief": 1182,
+      "totaalAantalCumulatief": 95367,
+      "ziekenhuisopnameAantalCumulatief": 2163
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Zeeland",
+      "Provinciecode": 29,
+      "overledenAantal": 1,
+      "totaalAantal": 123,
+      "ziekenhuisopnameAantal": 4,
+      "overledenAantalCumulatief": 208,
+      "totaalAantalCumulatief": 19353,
+      "ziekenhuisopnameAantalCumulatief": 556
+    },
+    {
+      "Datum": "2021-03-23",
+      "Provincienaam": "Zuid-Holland",
+      "Provinciecode": 28,
+      "overledenAantal": 6,
+      "totaalAantal": 1298,
+      "ziekenhuisopnameAantal": 22,
+      "overledenAantalCumulatief": 3951,
+      "totaalAantalCumulatief": 285273,
+      "ziekenhuisopnameAantalCumulatief": 6650
     }
   ],
   "apiVersion": "0.1"
