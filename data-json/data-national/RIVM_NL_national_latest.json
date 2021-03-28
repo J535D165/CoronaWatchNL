@@ -33,13 +33,13 @@
   },
   "data": [
     {
-      "Datum": "2021-03-27",
-      "overledenAantal": 29,
-      "totaalAantal": 8798,
-      "ziekenhuisopnameAantal": 66,
-      "overledenAantalCumulatief": 16450,
-      "totaalAantalCumulatief": 1245007,
-      "ziekenhuisopnameAantalCumulatief": 26046
+      "Datum": "2021-03-28",
+      "overledenAantal": 15,
+      "totaalAantal": 7430,
+      "ziekenhuisopnameAantal": 73,
+      "overledenAantalCumulatief": 16465,
+      "totaalAantalCumulatief": 1252437,
+      "ziekenhuisopnameAantalCumulatief": 26119
     }
   ],
   "apiVersion": "0.1"
