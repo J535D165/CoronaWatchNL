@@ -3721,6 +3721,15 @@
       "overledenAantalCumulatief": 16791,
       "totaalAantalCumulatief": 1357340,
       "ziekenhuisopnameAantalCumulatief": 27307
+    },
+    {
+      "Datum": "2021-04-13",
+      "overledenAantal": 31,
+      "totaalAantal": 6685,
+      "ziekenhuisopnameAantal": 78,
+      "overledenAantalCumulatief": 16822,
+      "totaalAantalCumulatief": 1364025,
+      "ziekenhuisopnameAantalCumulatief": 27385
     }
   ],
   "apiVersion": "0.1"
