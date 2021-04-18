@@ -1,3 +1,28 @@
+> Dear CoronaWatchers, 
+>
+> One year after the start of the CoronaWatchNL project, the coronavirus is still with us. As a community, we made an extensive collection of data on COVID-19 case counts Findable, Accessible, Interoperable, and Reusable (FAIR) ([Wilkinson, M. D. et al., 2016](https://doi.org/10.1038/sdata.2016.18)). During the first wave of the COVID-19 outbreak in The Netherlands, our project was the primary source of structured open data for researchers, hospitals, (local) governments, and the public. In June 2020, RIVM started to publish their first open and structured data on COVID-19 case counts. More and more users of our project migrated to the RIVM open data. 
+> 
+> It's essential to have data openly available and FAIR. Data is an important building block for nowadays research and policymaking. We see that many researchers and organizations struggle with making data and software FAIR. It is important to realize that FAIRness of data is a step-by-step process, and there is no such a thing as a perfect FAIR dataset. We see that many organizations with an important role in the COVID-19 pandemic in the Netherlands started to publish their data openly and take their first steps in making data FAIR. It is still far from perfect, but we are moving forward. 
+>
+> For the award-winning CoronaWatchNL project, this implies we are no longer the connecting link between the user and the suppliers of the COVID-19 data. Users can now make use of the data of RIVM, LCPS, and NICE directly. We have become largely redundant, and therefore we decided to no longer update the project. Our main goal was to become redundant, so we are pleased with the outcome. We will keep an eye on the developments and stay in contact with the suppliers of COVID-19 data. The journey for them has only yet begun. 
+>
+> Users who are still using our data should migrate. Our main sources of data in CoronaWatchNL were RIVM, LCPS, and NICE. Most of the datasets we offer are nowadays available on their websites. See the following sources for more information:
+> 
+> - RIVM: [https://data.rivm.nl](https://data.rivm.nl/geonetwork/srv/dut/catalog.search#/search?any_OR__title=covid-19&isChild='false'&fast=index)
+> - LCPS: https://lcps.nu/datafeed/
+> - NICE: https://www.stichting-nice.nl/
+>
+> Now we are no longer updating the data anymore; I would like to thank the CoronaWatchNL community and users. This project was an open community project from the start. Without the help of more than 50 CoronaWatchers, it wouldn't have been possible to collect this amount of data for more than a year. The importance and quality of the data collection were widely recognized in academia, and we were awarded the [Dutch Data Prize 2020](https://researchdata.nl/diensten/de-nederlandse-dataprijs/). Hopefully, we see each other in the future in a new project! 
+> 
+> Feel free to contact me with questions: j.debruin1@uu.nl.
+>
+> Best regards, 
+>
+> Jonathan de Bruin
+>
+
+
+
 ![corona_artwork.jpg](corona_artwork.jpg)
 
 # Dataset: COVID-19 case counts in The Netherlands
